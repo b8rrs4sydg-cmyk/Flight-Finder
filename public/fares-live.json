@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-24T11:44:58+00:00",
+ "generated_at": "2026-10-24T20:01:51+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -4054,48 +4054,60 @@
    ]
   },
   "mc|ICN-TPE-2026-11-06|TPE-CDG-2026-12-29|CDG-TPE-2027-01-08|TPE-ICN-2027-01-16": {
-   "price": 46475,
-   "by_airline": {
-    "EVA Air": 46475,
-    "Cathay Pacific": 153275,
-    "Asiana Airlines": 155539,
-    "China Airlines": 194048
-   },
+   "price": 41266,
    "first": {
     "dep": "2026-11-06T11:40:00+09:00",
     "arr": "2026-11-06T13:30:00+08:00",
     "stops": 0,
     "airline": "EVA Air"
    },
-   "at": "2026-10-23",
+   "by_airline": {
+    "EVA Air": 41266,
+    "Cathay Pacific": 153410,
+    "Asiana Airlines": 160272,
+    "China Airlines": 194219
+   },
+   "at": "2026-10-24",
    "hist": [
     [
      "2026-10-23",
      46475
+    ],
+    [
+     "2026-10-24",
+     41266
     ]
-   ]
+   ],
+   "prev": 46475,
+   "prev_at": "2026-10-23"
   },
   "mc|ICN-TPE-2026-11-06|TPE-CDG-2026-12-29|CDG-TPE-2027-01-08|TPE-ICN-2027-01-30": {
-   "price": 52956,
-   "by_airline": {
-    "EVA Air": 52956,
-    "Cathay Pacific": 153275,
-    "Asiana Airlines": 155539,
-    "China Airlines": 194048
-   },
+   "price": 47756,
    "first": {
     "dep": "2026-11-06T11:40:00+09:00",
     "arr": "2026-11-06T13:30:00+08:00",
     "stops": 0,
     "airline": "EVA Air"
    },
-   "at": "2026-10-23",
+   "by_airline": {
+    "EVA Air": 47756,
+    "Cathay Pacific": 153410,
+    "Asiana Airlines": 160272,
+    "China Airlines": 194219
+   },
+   "at": "2026-10-24",
    "hist": [
     [
      "2026-10-23",
      52956
+    ],
+    [
+     "2026-10-24",
+     47756
     ]
-   ]
+   ],
+   "prev": 52956,
+   "prev_at": "2026-10-23"
   },
   "mc|ICN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-FUK-2026-11-27": {
    "price": 50539,
@@ -15550,13 +15562,19 @@
     "Cathay Pacific": 20279,
     "THAI": 20835
    },
-   "at": "2026-10-23",
+   "at": "2026-10-24",
    "hist": [
     [
      "2026-10-23",
      15792
+    ],
+    [
+     "2026-10-24",
+     15792
     ]
-   ]
+   ],
+   "prev": 15792,
+   "prev_at": "2026-10-23"
   },
   "ow|TPE|CEB|2026-11-07": {
    "price": 5214,
@@ -17945,16 +17963,22 @@
    "by_airline": {
     "Peach Aviation": 4840,
     "Scoot": 4868,
-    "Jetstar": 5563,
-    "Tigerair Taiwan": 5599
+    "Tigerair Taiwan": 5599,
+    "Jetstar": 6163
    },
-   "at": "2026-10-23",
+   "at": "2026-10-24",
    "hist": [
     [
      "2026-10-23",
      4840
+    ],
+    [
+     "2026-10-24",
+     4840
     ]
-   ]
+   ],
+   "prev": 4840,
+   "prev_at": "2026-10-23"
   },
   "ow|TPE|NRT|2027-06-10": {
    "price": 4599,
@@ -30373,13 +30397,19 @@
     "Hong Kong Express": 10443,
     "EVA Air": 10920
    },
-   "at": "2026-10-23",
+   "at": "2026-10-24",
    "hist": [
     [
      "2026-10-23",
      9009
+    ],
+    [
+     "2026-10-24",
+     9009
     ]
-   ]
+   ],
+   "prev": 9009,
+   "prev_at": "2026-10-23"
   },
   "rt|TPE|ICN|2027-01-30|2027-02-02": {
    "price": 10035,
@@ -31189,13 +31219,19 @@
     "Tigerair Taiwan": 9715,
     "Peach Aviation": 10226
    },
-   "at": "2026-10-23",
+   "at": "2026-10-24",
    "hist": [
     [
      "2026-10-23",
      9499
+    ],
+    [
+     "2026-10-24",
+     9499
     ]
-   ]
+   ],
+   "prev": 9499,
+   "prev_at": "2026-10-23"
   },
   "rt|TPE|KKJ|2026-12-31|2027-01-04": {
    "price": 22584,

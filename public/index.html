@@ -1098,6 +1098,49 @@
   }
   #check-card summary { cursor: pointer; font-weight: 600; font-size: 17px }
   .chk-out { margin-top: 12px } .chk-table td { padding: 6px 8px } .chk-table .r { text-align: right }
+
+  /* ===== Desktop: a dense list, not a stretched phone. Cards are one row; filters sit in a sidebar on wide screens. ===== */
+  .cta-short { display: none }
+  @media (min-width: 721px) {
+    .cta-long { display: none } .cta-short { display: inline }
+    .plan { margin-bottom: 8px; border-radius: 12px }
+    .plan .sel-col { justify-content: center; padding: 8px 10px; gap: 8px }
+    .plan-body { padding: 10px 16px 0 }
+    .plan-head { display: grid; grid-template-columns: minmax(205px, 1fr) minmax(0, 1.15fr) auto; grid-template-areas: "title facts price" "dates meta cta"; align-items: center; gap: 3px 22px; padding-bottom: 10px }
+    .plan.has-title .head-main { display: contents }
+    .plan:not(.has-title) .head-main { display: contents }
+    .plan:not(.has-title) .plan-head { grid-template-areas: "meta meta price" "facts facts cta" }
+    .plan .p-title { grid-area: title; margin: 0 }
+    .plan .p-title b { font-size: 16px }
+    .plan .p-dates { grid-area: dates; margin: 0; font-size: 14.5px; white-space: nowrap }
+    .plan .facts { grid-area: facts }
+    .plan .meta { grid-area: meta; min-width: 0 }
+    .plan:not(.open) .meta .explain { display: none }
+    .plan .plan-cta { grid-area: cta; margin: 0; justify-self: end; flex-wrap: nowrap }
+    .plan .plan-cta .cta-btn { flex: 0 0 auto; min-height: 32px; padding: 0 16px; font-size: 13px; white-space: nowrap }
+    .plan-head > div:last-child { grid-area: price; justify-self: end; text-align: right }
+    .plan-head .price { font-size: 19px; line-height: 1.2 }
+    .plan-head .price-note, .plan-head .per-trip { margin-top: 0 }
+    .plan .facts { gap: 2px 10px } .plan .facts span + span::before { margin-right: 10px }
+    .results-head { gap: 8px 16px; padding: 10px 14px }
+    #notices { display: flex; flex-wrap: wrap; gap: 6px 8px; margin-bottom: 8px }
+    #notices .notice { margin: 0; padding: 5px 12px; font-size: 12.5px; border-radius: 999px }
+    .results-head .controls .btn-ghost { min-height: 32px; padding: 0 12px; font-size: 13px }
+    .results-head .controls select.btn-ghost { padding-right: 24px }
+  }
+  @media (min-width: 1000px) {
+    .page { max-width: 1200px }
+    #results:not([hidden]) { display: grid; grid-template-columns: 272px minmax(0, 1fr); column-gap: 20px; align-items: start }
+    #results > * { grid-column: 2; min-width: 0 }
+    #results > #filters { grid-column: 1; grid-row: 1 / span 14; position: sticky; top: 60px; max-height: calc(100vh - 76px); overflow-y: auto; margin-bottom: 0; overscroll-behavior: contain }
+    #filters .f-panel { grid-template-columns: minmax(0, 1fr); gap: 16px }
+    #filters .f-group legend .psearch { width: 100%; max-width: 100%; margin: 6px 0 0 }
+    #filters .f-group legend { flex-wrap: wrap }
+    #filters .f-bar { padding: 10px 12px }
+    #filters .f-bar .f-shown { margin-left: 0; width: 100% }
+    #filters .quick-chips { padding: 12px 12px 4px }
+    #filters #f-toggle { display: none }
+  }
 </style>
 </head>
 <body>
@@ -2777,7 +2820,7 @@ const phoneMQ = window.matchMedia('(max-width: 720px)');
 
 function wirePlanFilters() {
   const bar = document.getElementById('filters'), panel = document.getElementById('f-panel');
-  let open = !phoneMQ.matches && window.innerWidth >= 900;          // a phone shows the results first; filters open as a sheet
+  let open = !phoneMQ.matches && window.innerWidth >= 1000;          // a phone shows the results first; filters open as a sheet
   if (!phoneMQ.matches) { try { const v = localStorage.getItem(PF_OPEN_KEY); if (v != null) open = v === '1'; } catch {} }
   const setOpen = v => {
     const wasOpen = open;
@@ -3514,8 +3557,8 @@ function renderPlan(plan, rank) {
   if (ticketCount === 1) {
     const links = bookingLinks(plan.tickets[0], adults);
     const g = links.find(b => /google/i.test(b.label)) || links[0];
-    if (g) cta = `<a class="cta-btn" href="${escapeHtml(g.url)}" target="_blank" rel="noopener noreferrer">前往 ${escapeHtml(g.label)} 訂票 ↗</a>`;
-  } else cta = `<button type="button" class="cta-btn ghost" data-open>看 ${ticketCount} 張票與訂票連結</button>`;
+    if (g) cta = `<a class="cta-btn" href="${escapeHtml(g.url)}" target="_blank" rel="noopener noreferrer" title="前往 ${escapeHtml(g.label)} 訂票"><span class="cta-long">前往 ${escapeHtml(g.label)} 訂票 ↗</span><span class="cta-short">訂票 ↗</span></a>`;
+  } else cta = `<button type="button" class="cta-btn ghost" data-open title="看 ${ticketCount} 張票與訂票連結"><span class="cta-long">看 ${ticketCount} 張票與訂票連結</span><span class="cta-short">${ticketCount} 張票 ›</span></button>`;
 
   return `
     <article class="plan ${open} ${isFourLeg ? 'four-leg' : ''} ${title ? 'has-title' : ''}">

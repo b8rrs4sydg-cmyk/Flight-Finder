@@ -49,6 +49,18 @@ jobs:
         if: steps.cfg.outputs.ready == 'true'
         with:
           node-version: 22
+      - name: Create the Pages project (first run only)
+        if: steps.cfg.outputs.ready == 'true'
+        run: npx --yes wrangler@4 pages project create flight-finder --production-branch main || echo "project exists"
+      - name: Pages secrets (INGEST_TOKEN = CF_INGEST_TOKEN, AUTH_SECRET)
+        if: steps.cfg.outputs.ready == 'true'
+        env:
+          INGEST_TOKEN_VALUE: ${{ secrets.CF_INGEST_TOKEN }}
+          AUTH_SECRET_VALUE: ${{ secrets.AUTH_SECRET }}
+        run: |
+          [ -n "$INGEST_TOKEN_VALUE" ] && printf '%s' "$INGEST_TOKEN_VALUE" | npx --yes wrangler@4 pages secret put INGEST_TOKEN --project-name flight-finder
+          [ -n "$AUTH_SECRET_VALUE" ] && printf '%s' "$AUTH_SECRET_VALUE" | npx --yes wrangler@4 pages secret put AUTH_SECRET --project-name flight-finder
+          true
       - name: Apply database migrations
         if: steps.cfg.outputs.ready == 'true'
         run: npx --yes wrangler@4 d1 migrations apply DB --remote

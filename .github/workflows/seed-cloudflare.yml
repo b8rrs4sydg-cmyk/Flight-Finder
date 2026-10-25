@@ -1,0 +1,27 @@
+name: Seed the Cloudflare fare database
+
+# Uploads every fare file in public/ to the public database (run once after the first deploy, or any time to resync).
+# Needs the secrets CF_INGEST_URL (https://<project>.pages.dev/api/ingest) and CF_INGEST_TOKEN.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/pyproject.toml
+      - run: pip install -e . --quiet
+      - name: Upload fares.json and fares-live*.json
+        env:
+          CF_INGEST_URL: ${{ secrets.CF_INGEST_URL }}
+          CF_INGEST_TOKEN: ${{ secrets.CF_INGEST_TOKEN }}
+        run: python -m scripts.push_to_cloudflare --public ../public

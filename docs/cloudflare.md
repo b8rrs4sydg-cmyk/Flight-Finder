@@ -38,3 +38,16 @@ Without the secrets nothing changes: the crawlers keep committing to git and the
 * Login codes: one per address per minute, five per hour, five wrong tries per code.
 * Account data is personal data: `DELETE /api/me` (the 刪除帳號 button) removes the user, sessions and saved state.
 * Cloudflare Browser Run identifies itself as a bot, so the crawlers stay on GitHub Actions (see the notes in CLAUDE.md).
+
+## Doing it all from GitHub (no local wrangler / token on a laptop)
+
+Set these repository secrets (Settings → Secrets and variables → Actions), then run **Deploy to Cloudflare Pages** and
+afterwards **Seed the Cloudflare fare database**:
+
+| Secret | Value |
+|---|---|
+| `CLOUDFLARE_API_TOKEN` | API token with Pages: Edit, D1: Edit, Workers Scripts: Edit |
+| `CLOUDFLARE_ACCOUNT_ID` | the account id |
+| `CF_INGEST_TOKEN` | a long random string (also becomes the Pages secret `INGEST_TOKEN`) |
+| `AUTH_SECRET` | another long random string (salts the login-code hashes) |
+| `CF_INGEST_URL` | `https://flight-finder.pages.dev/api/ingest` (the real URL is printed by the deploy step) |

@@ -2,6 +2,12 @@
 
 All commits on `claude/zealous-darwin-1kexus`, oldest first (newest summary on top).
 
+## 2026-10-25 — moved to its own repository, Cloudflare Worker + D1
+
+- Project lives in `b8rrs4sydg-cmyk/Flight-Finder` (default branch `main`); 22,731 fares carried over.
+- One Cloudflare Worker serves the page and `/api/*` over a D1 database: public fare database, e-mail one-time-code login, favourites and recent searches
+  per account; crawlers also post what they price (`CF_INGEST_TOKEN`). One-click deploy button in the README (`docs/cloudflare.md`).
+
 ## 2026-10-23 / 24 — search quality, data quality, phone UI
 
 - Ten crawlers with rendezvous-hash dispatch and race-free files; the crawlers' home is the default branch; the page reads the fare files straight

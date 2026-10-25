@@ -8,12 +8,13 @@ from app.providers.cloud_sync import CHUNK_FARES, CloudSink
 class _Server:
     def __init__(self, status=200):
         outer = self
-        outer.posts, outer.status = [], status
+        outer.posts, outer.status, outer.agents = [], status, []
 
         class H(BaseHTTPRequestHandler):
             def do_POST(self):
                 body = self.rfile.read(int(self.headers["content-length"]))
                 outer.posts.append((self.headers["authorization"], json.loads(body)))
+                outer.agents.append(self.headers["user-agent"])
                 self.send_response(outer.status)
                 self.end_headers()
                 self.wfile.write(b"{}")
@@ -48,6 +49,9 @@ def test_push_chunks_fares_and_sends_flags_separately():
         srv.close()
     assert ok
     assert all(auth == "Bearer tok" for auth, _ in srv.posts)
+    assert all(
+        a.startswith("flight-finder-crawler/") for a in srv.agents
+    )  # not urllib's default signature
     sent = [p for _, p in srv.posts]
     assert sum(len(p["fares"]) for p in sent) == CHUNK_FARES + 3
     assert sent[0]["generated_at"].startswith("2026-10-25") and "generated_at" not in sent[1]

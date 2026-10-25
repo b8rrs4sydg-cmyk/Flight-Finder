@@ -20,6 +20,7 @@ log = logging.getLogger(__name__)
 CHUNK_FARES = 500  # the endpoint accepts up to 1000 per request
 CHUNK_KEYS = 4000  # and up to 5000 flagged keys
 RETRIES = 3
+USER_AGENT = "flight-finder-crawler/1.0 (+https://github.com/b8rrs4sydg-cmyk/Flight-Finder)"
 
 
 class CloudSink:
@@ -51,7 +52,8 @@ class CloudSink:
                     return r.status == 200
             except urllib.error.HTTPError as e:
                 if e.code in (400, 401, 403, 413):  # retrying cannot help
-                    log.warning("cloud ingest refused: HTTP %s", e.code)
+                    detail = e.read(200).decode("utf-8", "replace").replace("\n", " ")
+                    log.warning("cloud ingest refused: HTTP %s %s", e.code, detail)
                     return False
             except (urllib.error.URLError, TimeoutError, OSError) as e:
                 log.warning("cloud ingest failed: %s", e)

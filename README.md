@@ -13,6 +13,7 @@
 點擊按鈕後，Cloudflare 會在你的 GitHub 帳號建立新的 repository、自動建立 D1 資料庫並部署成 Worker（網頁 + API 在同一個網址）。
 
 1. 首次使用時，依畫面透過 **Git account → New Github Connection → Install & Authorize** 授權 Cloudflare 存取 GitHub。
+   - 若你就是此儲存庫的擁有者，按鈕預設要建立的新儲存庫名稱會和現有的相同而失敗（出現 *Cloudflare could not create the Git repository*）：請把表單裡的儲存庫名稱改成不存在的名字，或改用 Cloudflare 儀表板的 **Workers & Pages → Create → Import a repository** 直接匯入現有儲存庫（Build command `npm run build`、Deploy command `npm run deploy`，部署後在 Worker 的 Variables and Secrets 新增 `INGEST_TOKEN`）。
 2. 表單的三個 Secret：
    - `AUTH_SECRET`：保留 `auto`（部署時自動產生私有金鑰）。
    - `INGEST_TOKEN`：爬蟲上傳票價用的密碼，填一段很長的隨機字串（`openssl rand -hex 32`），**自己記下來**，下一步要用。

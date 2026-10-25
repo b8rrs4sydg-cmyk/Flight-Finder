@@ -21,6 +21,7 @@ on:
       - "backend/scripts/lookup_daemon.py"
       - "backend/app/providers/google_http.py"
       - "backend/app/providers/google_flights.py"
+      - "backend/app/providers/cloud_sync.py"
 
 permissions:
   contents: write

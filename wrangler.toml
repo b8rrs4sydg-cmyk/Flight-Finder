@@ -1,0 +1,19 @@
+# Cloudflare Pages project: the static page in public/ plus the API in functions/.
+name = "flight-finder"
+pages_build_output_dir = "public"
+compatibility_date = "2026-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "flight-finder"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"   # `wrangler d1 create flight-finder` prints it
+migrations_dir = "migrations"
+
+# Login codes are mailed with Cloudflare Email Sending (Workers Paid, a domain onboarded under Email Service).
+[[send_email]]
+name = "EMAIL"
+
+[vars]
+MAIL_FROM = "login@REPLACE_WITH_YOUR_DOMAIN"
+
+# Secrets (never in this file):  wrangler pages secret put INGEST_TOKEN | AUTH_SECRET

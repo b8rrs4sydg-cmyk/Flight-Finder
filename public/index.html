@@ -750,7 +750,24 @@
   .topnav { position: sticky; top: 0; z-index: 30; display: flex; align-items: center; gap: 22px; height: 48px; padding: 0 max(20px, env(safe-area-inset-left));
     background: color-mix(in srgb, var(--bg) 75%, transparent); backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); border-bottom: .5px solid var(--border-strong) }
   .topnav a { color: var(--fg); text-decoration: none; font-size: 13px } .topnav a:hover { color: var(--brand) }
-  .topnav .brand { font-weight: 600; font-size: 14px } .topnav .sp { flex: 1 }
+  .topnav .brand { font-weight: 600; font-size: 14px; white-space: nowrap } .topnav .sp { flex: 1 }
+  .acct-btn { appearance: none; border: 1px solid var(--border-strong); background: transparent; color: var(--fg); font: 500 12px/1 var(--font-body); padding: 7px 12px; border-radius: 999px; cursor: pointer; max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+  .acct-btn:hover { background: var(--card-sunken) }
+  .acct-btn.in { border-color: var(--brand); color: var(--brand-ink); background: var(--brand-wash) }
+  .acct-dlg { border: 1px solid var(--border); border-radius: 16px; background: var(--card); color: var(--fg); padding: 22px 20px 18px; width: min(360px, calc(100vw - 32px)); box-shadow: 0 18px 50px rgb(0 0 0 / .25) }
+  .acct-dlg::backdrop { background: rgb(0 0 0 / .4) }
+  .acct-dlg h2 { margin: 0 0 6px; font-size: 18px }
+  .acct-dlg label { display: block; font-size: 12px; color: var(--fg-muted); margin: 12px 0 4px }
+  .acct-dlg input { width: 100%; box-sizing: border-box; font: 16px var(--font-body); padding: 10px 12px; border: 1px solid var(--border-strong); border-radius: 10px; background: var(--card-sunken); color: var(--fg) }
+  .acct-dlg #acct-code { letter-spacing: 6px; text-align: center; font-size: 20px }
+  .acct-dlg button { margin-top: 12px }
+  .acct-primary { appearance: none; width: 100%; border: 0; border-radius: 10px; padding: 11px; font: 600 14px var(--font-body); background: var(--brand); color: #fff; cursor: pointer }
+  .acct-primary:disabled { opacity: .55; cursor: default }
+  .acct-note { font-size: 12.5px; color: var(--fg-muted); margin: 4px 0 0; line-height: 1.5 }
+  .acct-msg { min-height: 18px; margin: 10px 0 0; font-size: 12.5px; color: var(--crit) }
+  .acct-msg.ok { color: var(--good) }
+  .acct-danger { color: var(--crit); border-color: var(--crit); margin-left: 6px }
+  .acct-close { position: absolute; top: 8px; right: 10px; appearance: none; border: 0; background: none; font-size: 24px; line-height: 1; color: var(--fg-muted); cursor: pointer; margin: 0 !important }
   .theme-btn { appearance: none; border: 0; background: none; color: var(--fg); width: 36px; height: 36px; margin: 0 -8px 0 -6px; border-radius: 50%; display: grid; place-items: center; cursor: pointer }
   .theme-btn:hover { background: var(--card-sunken); color: var(--brand) }
   .theme-btn:focus-visible { outline: 2px solid var(--brand); outline-offset: 1px }
@@ -1085,7 +1102,32 @@
 </head>
 <body>
 
-<nav class="topnav" aria-label="主選單"><a class="brand" href="#">Smart Flight Finder</a><a href="#search-card">搜尋</a><a href="#top100">精選</a><a href="#dbcard">資料庫</a><span class="sp"></span><a href="wiki.html">Wiki</a><button type="button" id="theme-btn" class="theme-btn" aria-label="切換深色模式" title="切換深色／淺色"></button></nav>
+<nav class="topnav" aria-label="主選單"><a class="brand" href="#">Smart Flight Finder</a><a href="#search-card">搜尋</a><a href="#top100">精選</a><a href="#dbcard">資料庫</a><span class="sp"></span><a href="wiki.html">Wiki</a><button type="button" id="acct-btn" class="acct-btn" hidden>登入</button><button type="button" id="theme-btn" class="theme-btn" aria-label="切換深色模式" title="切換深色／淺色"></button></nav>
+<dialog id="acct-dlg" class="acct-dlg" aria-labelledby="acct-title">
+  <form method="dialog" id="acct-form">
+    <h2 id="acct-title">登入</h2>
+    <p class="acct-note" id="acct-note">用 Email 登入後，精選與最近搜尋會跟著你的帳號，換手機或電腦也看得到。</p>
+    <div id="acct-step-email">
+      <label for="acct-email">Email</label>
+      <input id="acct-email" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required>
+      <button type="submit" class="acct-primary" id="acct-send">寄送登入碼</button>
+    </div>
+    <div id="acct-step-code" hidden>
+      <label for="acct-code">6 位數登入碼</label>
+      <input id="acct-code" inputmode="numeric" autocomplete="one-time-code" maxlength="6" pattern="[0-9]{6}" placeholder="123456">
+      <button type="submit" class="acct-primary" id="acct-verify">登入</button>
+      <button type="button" class="btn-ghost" id="acct-back">改用其他 Email</button>
+    </div>
+    <div id="acct-step-in" hidden>
+      <p>目前登入：<b id="acct-who"></b></p>
+      <p class="acct-note" id="acct-sync">已同步</p>
+      <button type="button" class="btn-ghost" id="acct-logout">登出</button>
+      <button type="button" class="btn-ghost acct-danger" id="acct-delete">刪除帳號與雲端資料</button>
+    </div>
+    <p class="acct-msg" id="acct-msg" role="status"></p>
+    <button type="button" class="acct-close" id="acct-close" aria-label="關閉">×</button>
+  </form>
+</dialog>
 <div class="page">
 
   <header class="hero">
@@ -2434,11 +2476,11 @@ function readFavs() {
     return new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]'));
   } catch { return new Set(); }
 }
-function writeFavs(set) { try { localStorage.setItem(FAV_KEY, JSON.stringify([...set])); } catch {} }
+function writeFavs(set) { try { localStorage.setItem(FAV_KEY, JSON.stringify([...set])); } catch {} acctPush?.('favorites'); }
 /* price when the plan was starred: favourites double as a watch list ("收藏時 X → 現在 Y") */
 const FAV_PRICE_KEY = 'sff.favprices.v1';
 function readFavPrices() { try { return JSON.parse(localStorage.getItem(FAV_PRICE_KEY) || '{}'); } catch { return {}; } }
-function writeFavPrices(m) { try { localStorage.setItem(FAV_PRICE_KEY, JSON.stringify(m)); } catch {} }
+function writeFavPrices(m) { try { localStorage.setItem(FAV_PRICE_KEY, JSON.stringify(m)); } catch {} acctPush?.('favprices'); }
 function favChange(plan) {
   const saved = readFavPrices()[fingerprint(plan)];
   if (!saved || saved.price === plan.total_cost) return null;
@@ -3017,6 +3059,7 @@ function renderDbCard() {
   const ok = DBLOAD.files.filter(f => f.source !== '讀取失敗');
   const gh = ok.filter(f => f.source === 'GitHub').length;
   document.getElementById('db-load').textContent = DBLOAD.busy ? '載入中…'
+    : DBLOAD.at && ok[0]?.source === 'Cloudflare' ? `已從公用資料庫讀取 · ${DBLOAD.at.toLocaleTimeString('zh-TW')}`
     : DBLOAD.at ? `已讀取 ${ok.length}/${DBLOAD.files.length} 個資料檔（${gh} 個來自 GitHub，${ok.length - gh} 個為網站副本）· ${DBLOAD.at.toLocaleTimeString('zh-TW')}` : '';
   document.getElementById('db-reload').disabled = DBLOAD.busy;
   document.getElementById('db-toggle').setAttribute('aria-expanded', String(DB.open));
@@ -3062,7 +3105,7 @@ function wireDbCard() {
     try { localStorage.setItem(DB_OPEN_KEY, DB.open ? '1' : '0'); } catch {}
     renderDbCard();
   });
-  document.getElementById('db-reload').addEventListener('click', () => loadSiblingFares());
+  document.getElementById('db-reload').addEventListener('click', () => { CLOUD.since = 0; loadSiblingFares(); });
   let timer = null;
   const later = fn => e => { fn(e); clearTimeout(timer); timer = setTimeout(redo, 150); };
   document.getElementById('db-q').addEventListener('input', later(e => { DB.q = e.target.value; }));
@@ -3943,7 +3986,7 @@ function updateSlotSummary() {
 const HISTORY_KEY = 'sff.history.v1';
 const HISTORY_MAX = 8;
 const loadHistory = () => { try { const h = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]'); return Array.isArray(h) ? h : []; } catch { return []; } };
-const saveHistory = list => { try { localStorage.setItem(HISTORY_KEY, JSON.stringify(list)); } catch { /* private mode: history is a convenience */ } };
+const saveHistory = list => { try { localStorage.setItem(HISTORY_KEY, JSON.stringify(list)); } catch { /* private mode: history is a convenience */ } acctPush?.('history'); };
 const slotSig = s => [s.depart, s.ret, s.departFlex, s.retFlex].join('|');
 const slotSpan = s => (s.ret && s.ret >= s.depart ? `${s.depart.slice(5).replace('-', '/')}–${s.ret.slice(5).replace('-', '/')}` : s.depart.slice(5).replace('-', '/')) + (s.departFlex || s.retFlex ? ` ±${Math.max(s.departFlex, s.retFlex)}` : '');
 
@@ -3958,6 +4001,7 @@ function savePrefs() {
       origins: checkedCodes('pick-origins'), dests: checkedCodes('pick-dest'), outer: checkedCodes('pick-outer'),
     }));
   } catch { /* private mode: a convenience only */ }
+  acctPush?.('prefs');
 }
 function applyPrefs() {
   let p;
@@ -4367,6 +4411,132 @@ function wireTheme() {
     document.documentElement.setAttribute('data-theme', next);
     try { localStorage.setItem(KEY, next); } catch {}
     paint();
+  });
+}
+
+
+/* =========================================================================
+ * Account (Email one-time code) — favourites, the price when starred, recent searches and the form's last settings follow
+ * the account. Without an account (or off Cloudflare) everything stays in this browser as before. The browser copy is the
+ * working copy: signing in merges the two, later changes are sent to the server a moment after they happen.
+ * ========================================================================= */
+const ACCT_KINDS = {
+  favorites: FAV_KEY, favprices: FAV_PRICE_KEY, history: HISTORY_KEY, prefs: PREFS_KEY,
+};
+const ACCT = { timers: {}, last: '' };
+function acctRead(kind) {
+  try { return JSON.parse(localStorage.getItem(ACCT_KINDS[kind]) || 'null'); } catch { return null; }
+}
+function acctWrite(kind, value) { try { localStorage.setItem(ACCT_KINDS[kind], JSON.stringify(value)); } catch {} }
+const histSig = e => [e.trip, (e.slots || []).map(slotSig).sort().join(','), (e.origins || []).join(','), (e.dests || []).join(',')].join('#');
+function acctMerge(kind, local, remote) {
+  if (remote == null) return local;
+  if (local == null) return remote;
+  if (kind === 'favorites') return [...new Set([...(Array.isArray(remote) ? remote : []), ...(Array.isArray(local) ? local : [])])];
+  if (kind === 'favprices') return { ...remote, ...local };
+  if (kind === 'history') {
+    const seen = new Set(), out = [];
+    for (const e of [...(local || []), ...(remote || [])].sort((a, b) => (b.at || 0) - (a.at || 0))) {
+      const sig = histSig(e);
+      if (!seen.has(sig)) { seen.add(sig); out.push(e); }
+    }
+    return out.slice(0, HISTORY_MAX);
+  }
+  return remote;   // prefs: the account's last settings
+}
+function acctPush(kind) {
+  if (!CLOUD.user) return;
+  clearTimeout(ACCT.timers[kind]);
+  ACCT.timers[kind] = setTimeout(async () => {
+    const data = acctRead(kind);
+    if (data == null) return;
+    try {
+      const r = await fetch('/api/me/state', { method: 'PUT', credentials: 'same-origin', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ kind, data }) });
+      if (r.status === 401) { CLOUD.user = null; acctPaint(); }
+      else acctSyncNote(r.ok ? '已同步' : '同步失敗，稍後會再試');
+    } catch { acctSyncNote('同步失敗，稍後會再試'); }
+  }, 800);
+}
+function acctSyncNote(t) { const el = document.getElementById('acct-sync'); if (el) el.textContent = `${t} · ${new Date().toLocaleTimeString('zh-TW', { hour: '2-digit', minute: '2-digit' })}`; }
+async function acctPull(first) {
+  if (!CLOUD.user) return;
+  try {
+    const r = await fetch('/api/me/state', { credentials: 'same-origin' });
+    if (r.status === 401) { CLOUD.user = null; acctPaint(); return; }
+    if (!r.ok) return;
+    const stored = (await r.json()).state || {};
+    for (const kind of Object.keys(ACCT_KINDS)) {
+      const merged = acctMerge(kind, acctRead(kind), stored[kind]?.data);
+      if (merged == null) continue;
+      const before = JSON.stringify(acctRead(kind));
+      acctWrite(kind, merged);
+      if (JSON.stringify(merged) !== JSON.stringify(stored[kind]?.data)) acctPush(kind);   // the server lacks something the browser has
+      if (kind === 'prefs' && first && before !== JSON.stringify(merged)) applyPrefs?.();
+    }
+    renderHistory?.();
+    if (state.result) renderResults();
+    renderTop100?.();
+    acctSyncNote('已同步');
+  } catch { /* offline: the browser copy keeps working */ }
+}
+function acctPaint() {
+  const btn = document.getElementById('acct-btn');
+  if (!btn) return;
+  btn.hidden = !CLOUD.on;
+  btn.classList.toggle('in', !!CLOUD.user);
+  btn.textContent = CLOUD.user ? '我的帳號' : '登入';
+  btn.title = CLOUD.user ? `${CLOUD.user.email}（帳號與同步）` : '登入後，精選與最近搜尋會跟著帳號';
+  document.getElementById('acct-step-in').hidden = !CLOUD.user;
+  document.getElementById('acct-step-email').hidden = !!CLOUD.user || ACCT.step === 'code';
+  document.getElementById('acct-step-code').hidden = !!CLOUD.user || ACCT.step !== 'code';
+  document.getElementById('acct-title').textContent = CLOUD.user ? '我的帳號' : '登入';
+  document.getElementById('acct-note').hidden = !!CLOUD.user;
+  if (CLOUD.user) document.getElementById('acct-who').textContent = CLOUD.user.email;
+}
+async function wireAccount() {
+  const $ = id => document.getElementById(id);
+  const dlg = $('acct-dlg'), msg = (t, ok) => { $('acct-msg').textContent = t || ''; $('acct-msg').classList.toggle('ok', !!ok); };
+  const post = async (path, body) => {
+    const r = await fetch(path, { method: 'POST', credentials: 'same-origin', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body || {}) });
+    return { ok: r.ok, status: r.status, data: await r.json().catch(() => ({})) };
+  };
+  await cloudProbe();
+  acctPaint();
+  if (!CLOUD.on) return;
+  if (CLOUD.user) acctPull(true);
+  $('acct-btn').addEventListener('click', () => { msg(''); ACCT.step = ''; acctPaint(); dlg.showModal?.(); setTimeout(() => (CLOUD.user ? $('acct-logout') : $('acct-email')).focus(), 30); });
+  $('acct-close').addEventListener('click', () => dlg.close());
+  dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+  $('acct-back').addEventListener('click', () => { ACCT.step = ''; msg(''); acctPaint(); });
+  $('acct-form').addEventListener('submit', async e => {
+    e.preventDefault();
+    if (CLOUD.user) return;
+    const email = $('acct-email').value.trim();
+    if (ACCT.step !== 'code') {
+      $('acct-send').disabled = true; msg('寄送中…', true);
+      const r = await post('/api/auth/request', { email }).catch(() => ({ ok: false, data: { error: '網路異常，請稍後再試' } }));
+      $('acct-send').disabled = false;
+      if (!r.ok) { msg(r.data.error || '寄送失敗'); return; }
+      ACCT.step = 'code'; acctPaint(); msg(`已寄出登入碼到 ${email}（10 分鐘內有效）`, true);
+      if (r.data.dev_code) $('acct-code').value = r.data.dev_code;   // local development only
+      $('acct-code').focus();
+      return;
+    }
+    $('acct-verify').disabled = true;
+    const r = await post('/api/auth/verify', { email, code: $('acct-code').value }).catch(() => ({ ok: false, data: { error: '網路異常，請稍後再試' } }));
+    $('acct-verify').disabled = false;
+    if (!r.ok) { msg(r.data.error || '登入失敗'); return; }
+    CLOUD.user = { email: r.data.email }; ACCT.step = ''; $('acct-code').value = ''; msg('');
+    acctPaint(); acctPull(false); dlg.close();
+  });
+  $('acct-logout').addEventListener('click', async () => {
+    await post('/api/auth/logout').catch(() => {});
+    CLOUD.user = null; acctPaint(); dlg.close();
+  });
+  $('acct-delete').addEventListener('click', async () => {
+    if (!confirm('刪除帳號與雲端上的精選、搜尋紀錄？這個瀏覽器上的資料會保留。')) return;
+    const r = await fetch('/api/me', { method: 'DELETE', credentials: 'same-origin' }).catch(() => null);
+    if (r?.ok) { CLOUD.user = null; acctPaint(); dlg.close(); } else msg('刪除失敗，請稍後再試');
   });
 }
 
@@ -4856,9 +5026,67 @@ function loadLiveCache() {
 /* The fare files are read straight from the repository (raw.githubusercontent.com, cached for ~5 minutes) so the page
  * sees what the crawlers saved without a Pages deploy; the copy beside the page (staged by pages.yml) is the fallback.
  * Whichever entry is newer than what the page already has wins. */
+/* On Cloudflare the public database answers at /api/fares (full read in pages of 4,000 keys, then ?since= refreshes);
+ * anywhere else (GitHub Pages, a local file) the API is absent and the page reads the repository files as before. */
+const CLOUD = { on: null, since: 0, user: null, busy: false };
+async function cloudProbe() {
+  if (CLOUD.on !== null) return CLOUD.on;
+  try {
+    const r = await timed('/api/me', { credentials: 'same-origin' }, 4000);
+    const d = r.ok && (r.headers.get('content-type') || '').includes('json') ? await r.json() : null;
+    CLOUD.on = !!d && 'user' in d; CLOUD.user = d?.user || null;
+  } catch { CLOUD.on = false; }
+  return CLOUD.on;
+}
+function takeCloudFares(d) {
+  let changed = false;
+  for (const [k, v] of Object.entries(d.fares || {})) {
+    const mine = FARES.fares[k];
+    if (!mine || (v.at || '') > (mine.at || '')) { FARES.fares[k] = v; changed = true; }
+  }
+  (d.unavailable || []).filter(confirmedGone).forEach(k => live.notFound.add(k));
+  if (d.generated_at && (!FARES.generated_at || d.generated_at > FARES.generated_at)) {
+    FARES.generated_at = d.generated_at; if (d.coverage && Object.keys(d.coverage).length) FARES.coverage = d.coverage; changed = true;
+  }
+  return changed;
+}
+async function loadCloudFares() {
+  if (!(await cloudProbe()) || CLOUD.busy) return CLOUD.on && CLOUD.busy;
+  CLOUD.busy = true; DBLOAD.busy = true; DBLOAD.files = []; renderDbCard?.();
+  let changed = false, ok = false, n = 0;
+  try {
+    const started = Date.now();
+    if (!CLOUD.since) {
+      let after = '', first = true;
+      do {
+        const r = await timed(`/api/fares?after=${encodeURIComponent(after)}&limit=4000`, {}, 30000);
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        const d = await r.json();
+        changed = takeCloudFares(d) || changed; n += Object.keys(d.fares || {}).length;
+        if (first) { CLOUD.since = d.now || started; first = false; }
+        after = d.next || '';
+      } while (after);
+    } else {
+      const r = await timed(`/api/fares?since=${CLOUD.since}`, {}, 30000);
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const d = await r.json();
+      if (d.truncated) CLOUD.since = 0; else CLOUD.since = d.now || started;
+      changed = takeCloudFares(d); n = Object.keys(d.fares || {}).length;
+    }
+    ok = true;
+  } catch { /* fall back to the repository files below */ }
+  CLOUD.busy = false; DBLOAD.busy = false;
+  if (!ok) { CLOUD.since = 0; CLOUD.on = false; setTimeout(() => { CLOUD.on = null; }, 10 * 60 * 1000); renderDbCard?.(); return false; }
+  DBLOAD.files = [{ name: '公用資料庫', source: 'Cloudflare', n, at: FARES.generated_at || '' }]; DBLOAD.at = new Date();
+  if (changed) { applyCoverage(); scheduleRefresh(); renderTop100?.(); }
+  renderDbCard?.();
+  return true;
+}
+
 const DATA_BRANCH = 'main';   // the branch the crawlers commit to (the cron only fires on the default branch)
 const DBLOAD = { at: null, files: [], busy: false };   // what the last load of the fare files did (shown in the database card)
 async function loadSiblingFares() {
+  if (await loadCloudFares()) return;   // served from the public database on Cloudflare when this site is hosted there
   let changed = false;
   DBLOAD.busy = true; DBLOAD.files = [];
   renderDbCard?.();
@@ -5245,6 +5473,7 @@ function init() {
   wireResultsControls();
   wireHelp();
   wireTheme();
+  wireAccount();
   wireQuickChips();
   wireRefreshStale();
   tryLoadSharedPlan();

@@ -37,3 +37,10 @@ docker-data/
 
 # Alembic local db
 *.sqlite3
+
+# Cloudflare / wrangler
+.wrangler/
+.dev.vars
+
+# file locks the crawlers take next to the fare files
+*.json.lock

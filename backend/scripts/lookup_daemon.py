@@ -47,6 +47,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, StreamingResponse
 
 from app.providers.atomic_io import atomic_write_text
+from app.providers.cloud_sync import CloudSink
 from app.providers.fare_db import FareDatabase
 from app.providers.fare_status import FareStatus
 from app.providers.google_flights import _fetch_one
@@ -270,6 +271,7 @@ class Persister:
         self.lock = threading.Lock()  # guards pending / missing / dirty
         self.flush_lock = threading.Lock()  # one flush at a time: the periodic and the final one run in threads
         self.dirty = False  # request activity since the last push → publish daemon-status.json
+        self.cloud = CloudSink.from_env()  # also post to the public database on Cloudflare when configured
 
     def mark_dirty(self) -> None:
         with self.lock:
@@ -299,6 +301,8 @@ class Persister:
                     self.path, fares, today=datetime.now(UTC).date(), missing=missing, failures=failures
                 )
             self.write_status({"fares_saved": len(self.db.fares)})
+            if self.cloud and (fares or missing):
+                self.cloud.push(fares, missing)  # failures are logged and dropped: git remains the backup
             if push and os.getenv("GITHUB_TOKEN"):
                 self._git_push(len(fares))
             return len(fares)

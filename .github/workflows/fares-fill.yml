@@ -173,6 +173,12 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - run: python -m scripts.fill_fares final --db merged.json --out ../public/fares.json $(find parts -name part.json)
       - run: python -m scripts.embed_fare_snapshot ../public/fares.json ../public/index.html
+      - name: Push to the public database (Cloudflare, optional)
+        env:
+          CF_INGEST_URL: ${{ secrets.CF_INGEST_URL }}
+          CF_INGEST_TOKEN: ${{ secrets.CF_INGEST_TOKEN }}
+        continue-on-error: true
+        run: python -m scripts.push_to_cloudflare --file ../public/fares.json
       - name: Commit database
         working-directory: .
         run: |

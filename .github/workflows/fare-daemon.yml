@@ -73,6 +73,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DAEMON_INSTANCE: ${{ matrix.instance }}
+          CF_INGEST_URL: ${{ secrets.CF_INGEST_URL }}      # optional: also post every priced fare to the public database on Cloudflare
+          CF_INGEST_TOKEN: ${{ secrets.CF_INGEST_TOKEN }}
         run: |
           SFX=""; [ "$DAEMON_INSTANCE" != "0" ] && SFX="-$DAEMON_INSTANCE"
           (sleep 70; python -m scripts.lookup_daemon selftest-http --daemon-json "../public/daemon${SFX}.json" --count 20 || echo "::warning::http selftest failed") &

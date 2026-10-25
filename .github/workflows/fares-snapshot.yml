@@ -71,6 +71,12 @@ jobs:
           --max-multi-city "${{ inputs.max_multi_city || '260' }}"
       - name: Embed into demo page
         run: python -m scripts.embed_fare_snapshot ../public/fares.json ../public/index.html
+      - name: Push to the public database (Cloudflare, optional)
+        env:
+          CF_INGEST_URL: ${{ secrets.CF_INGEST_URL }}
+          CF_INGEST_TOKEN: ${{ secrets.CF_INGEST_TOKEN }}
+        continue-on-error: true
+        run: python -m scripts.push_to_cloudflare --file ../public/fares.json
       - name: Commit snapshot
         working-directory: .
         run: |

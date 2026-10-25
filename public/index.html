@@ -2820,10 +2820,14 @@ const phoneMQ = window.matchMedia('(max-width: 720px)');
 
 function wirePlanFilters() {
   const bar = document.getElementById('filters'), panel = document.getElementById('f-panel');
+  const sideMQ = window.matchMedia('(min-width: 1000px)');          // wide screens: the filters are a left sidebar that is always open (no toggle)
+  const sidebar = () => sideMQ.matches && !phoneMQ.matches;
   let open = !phoneMQ.matches && window.innerWidth >= 1000;          // a phone shows the results first; filters open as a sheet
   if (!phoneMQ.matches) { try { const v = localStorage.getItem(PF_OPEN_KEY); if (v != null) open = v === '1'; } catch {} }
-  const setOpen = v => {
+  if (sidebar()) open = true;
+  const setOpen = (v, remember = true) => {
     const wasOpen = open;
+    if (sidebar()) v = true;                                         // an old "collapsed" choice must not hide the sidebar
     open = v;
     const sheet = phoneMQ.matches;
     panel.hidden = sheet ? false : !v;                               // on a phone the sheet itself is shown or hidden by CSS
@@ -2834,13 +2838,14 @@ function wirePlanFilters() {
     if (sheet && v) document.getElementById('f-done').focus();
     else if (sheet && wasOpen) document.getElementById('f-toggle').focus();   // give focus back to the button that opened it
     document.getElementById('f-toggle').setAttribute('aria-expanded', String(v));
-    if (!sheet) { try { localStorage.setItem(PF_OPEN_KEY, v ? '1' : '0'); } catch {} }
+    if (!sheet && !sidebar() && remember) { try { localStorage.setItem(PF_OPEN_KEY, v ? '1' : '0'); } catch {} }
   };
   document.getElementById('f-done').addEventListener('click', () => setOpen(false));
   document.getElementById('sheet-backdrop').addEventListener('click', () => setOpen(false));
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && document.body.classList.contains('sheet-open')) setOpen(false); });
-  setOpen(open);
+  setOpen(open, false);
   document.getElementById('f-toggle').addEventListener('click', () => setOpen(!open));
+  sideMQ.addEventListener?.('change', () => setOpen(open, false));   // resized across 1000 px: sidebar opens, or the narrow choice returns
   let timer = null;
   const later = () => { clearTimeout(timer); timer = setTimeout(renderResults, 140); };
   panel.addEventListener('change', e => {

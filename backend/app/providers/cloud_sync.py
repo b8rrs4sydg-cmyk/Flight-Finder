@@ -44,6 +44,9 @@ class CloudSink:
                 headers={
                     "content-type": "application/json",
                     "authorization": f"Bearer {self.token}",
+                    # Cloudflare rejects urllib's default "Python-urllib" signature with a 403 before the Worker runs
+                    "user-agent": USER_AGENT,
+                    "accept": "application/json",
                 },
                 method="POST",
             )

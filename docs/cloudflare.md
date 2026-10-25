@@ -17,7 +17,7 @@ GitHub Actions crawlers ──POST /api/ingest──▶ Cloudflare D1 ◀── 
 
 ## One-time setup (needs your Cloudflare account)
 
-1. **D1**: `npx wrangler d1 create flight-finder`, then put the printed `database_id` into `wrangler.toml`.
+1. **D1**: done. The database `flight-finder` (id in `wrangler.toml`) exists in the account and `migrations/0001_init.sql` is applied. In another account: `npx wrangler d1 create flight-finder`, put the printed `database_id` into `wrangler.toml`.
 2. **Secrets for the Pages project** (`npx wrangler pages secret put NAME --project-name flight-finder`):
    `INGEST_TOKEN` (a long random string) and `AUTH_SECRET` (another one; it salts the login-code hashes).
 3. **E-mail**: onboard a domain under *Email Service → Email Sending* (Workers Paid plan; the domain must use Cloudflare DNS),

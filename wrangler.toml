@@ -6,7 +6,7 @@ compatibility_date = "2026-10-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "flight-finder"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"   # `wrangler d1 create flight-finder` prints it
+database_id = "5ad275f9-d373-43b0-b052-97e072013b7a"   # D1 database "flight-finder" (schema from migrations/0001_init.sql already applied)
 migrations_dir = "migrations"
 
 # Login codes are mailed with Cloudflare Email Sending (Workers Paid, a domain onboarded under Email Service).

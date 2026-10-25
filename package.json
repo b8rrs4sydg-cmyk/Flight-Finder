@@ -1,0 +1,33 @@
+{
+  "name": "flight-finder",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/cf-build.mjs",
+    "deploy": "node scripts/deploy.mjs",
+    "dev": "wrangler dev",
+    "db:migrate:local": "wrangler d1 migrations apply DB --local",
+    "db:migrate:remote": "wrangler d1 migrations apply DB --remote",
+    "test:cf": "node tests-cf/smoke.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.152.0"
+  },
+  "cloudflare": {
+    "bindings": {
+      "AUTH_SECRET": {
+        "description": "保留 `auto` 即可，部署時會自動產生私有金鑰（用來雜湊登入碼）。也可自行填入隨機字串，例如 `openssl rand -hex 32`。"
+      },
+      "INGEST_TOKEN": {
+        "description": "爬蟲上傳票價用的密碼：請填一段很長的隨機字串（`openssl rand -hex 32`），並在 GitHub 儲存庫 Secrets 設成同樣的 `CF_INGEST_TOKEN`。保留 `auto` 表示不開放上傳。"
+      },
+      "RESEND_API_KEY": {
+        "description": "選填。想用 [Resend](https://resend.com) 寄登入碼時填入 API key；使用 Cloudflare Email Sending 或暫時不寄信請保留 `optional`。"
+      },
+      "DB": {
+        "description": "儲存公用票價資料庫、使用者帳號與每個人的精選／搜尋紀錄的 D1 資料庫。"
+      }
+    }
+  }
+}

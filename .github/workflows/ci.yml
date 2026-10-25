@@ -60,18 +60,20 @@ jobs:
         run: npm run build
 
   cloudflare-functions:
-    name: Cloudflare Functions (D1 smoke test)
+    name: Cloudflare Worker (D1 smoke test)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Local D1 + Pages dev server
+      - run: npm ci
+      - run: npm run build
+      - name: Local D1 + Worker dev server
         run: |
-          npx --yes wrangler@4 d1 migrations apply DB --local
-          setsid nohup npx --yes wrangler@4 pages dev public --port 8801 \
-            --binding AUTH_SECRET=ci-secret INGEST_TOKEN=ci-token DEV_ECHO_CODE=1 > dev.log 2>&1 < /dev/null &
+          npx wrangler d1 migrations apply DB --local
+          setsid nohup npx wrangler dev --port 8801 \
+            --var AUTH_SECRET:auto --var GENERATED_AUTH_SECRET:ci-secret --var INGEST_TOKEN:ci-token --var DEV_ECHO_CODE:1 > dev.log 2>&1 < /dev/null &
           for i in $(seq 1 60); do curl -s -m 2 localhost:8801/api/me > /dev/null && exit 0; sleep 2; done
           cat dev.log; exit 1
       - name: Smoke test (ingest, read, e-mail login, per-user state)

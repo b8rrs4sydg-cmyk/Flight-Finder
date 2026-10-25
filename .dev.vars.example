@@ -1,0 +1,7 @@
+# "Deploy to Cloudflare" reads this file to build the first deploy form. Real values are Worker secrets.
+# AUTH_SECRET: keep auto (the deploy script generates a private one on the first deploy), or type your own random string.
+AUTH_SECRET=auto
+# INGEST_TOKEN: the password the crawlers use to upload prices (a long random string; the same value goes into the GitHub secret CF_INGEST_TOKEN). Leave as auto to disable uploads.
+INGEST_TOKEN=auto
+# RESEND_API_KEY: optional, only for mailing login codes through Resend. Leave as optional when using Cloudflare Email Sending.
+RESEND_API_KEY=optional

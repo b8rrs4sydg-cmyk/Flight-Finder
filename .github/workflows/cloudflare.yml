@@ -1,28 +1,10 @@
-name: Deploy to Cloudflare Pages
+name: Deploy to Cloudflare (manual)
 
-# The page (public/) and its API (functions/) go to Cloudflare Pages; the D1 schema (migrations/) is applied first.
-# Needs the repository secrets CLOUDFLARE_API_TOKEN (Pages: Edit, D1: Edit) and CLOUDFLARE_ACCOUNT_ID — without them
-# the workflow does nothing. Setup steps: docs/cloudflare.md.
+# The "Deploy to Cloudflare" button (README) connects Cloudflare Workers Builds to the repository and deploys on every push.
+# This workflow is the manual alternative: it runs the same `npm run deploy` (migrations + Worker + assets) from GitHub.
+# Needs the repository secrets CLOUDFLARE_API_TOKEN (Workers Scripts: Edit, D1: Edit) and CLOUDFLARE_ACCOUNT_ID.
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "public/**"
-      - "functions/**"
-      - "migrations/**"
-      - "wrangler.toml"
-      - ".github/workflows/cloudflare.yml"
-      - "!public/fares.json"
-      - "!public/fares-live.json"
-      - "!public/fares-live-*.json"
-      - "!public/*.lock"
-      - "!public/live-request.json"
-      - "!public/daemon-status.json"
-      - "!public/daemon-status-*.json"
-      - "!public/daemon.json"
-      - "!public/daemon-*.json"
   workflow_dispatch:
 
 permissions:
@@ -40,30 +22,15 @@ jobs:
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     steps:
       - uses: actions/checkout@v4
-      - name: Configured?
-        id: cfg
-        run: |
-          if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then echo "ready=true" >> "$GITHUB_OUTPUT"
-          else echo "::notice::CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID are not set: nothing deployed"; fi
       - uses: actions/setup-node@v4
-        if: steps.cfg.outputs.ready == 'true'
         with:
           node-version: 22
-      - name: Create the Pages project (first run only)
-        if: steps.cfg.outputs.ready == 'true'
-        run: npx --yes wrangler@4 pages project create flight-finder --production-branch main || echo "project exists"
-      - name: Pages secrets (INGEST_TOKEN = CF_INGEST_TOKEN, AUTH_SECRET)
-        if: steps.cfg.outputs.ready == 'true'
+      - run: npm ci
+      - run: npm run build
+      - name: Deploy (migrations, secrets, Worker)
         env:
           INGEST_TOKEN_VALUE: ${{ secrets.CF_INGEST_TOKEN }}
-          AUTH_SECRET_VALUE: ${{ secrets.AUTH_SECRET }}
         run: |
-          [ -n "$INGEST_TOKEN_VALUE" ] && printf '%s' "$INGEST_TOKEN_VALUE" | npx --yes wrangler@4 pages secret put INGEST_TOKEN --project-name flight-finder
-          [ -n "$AUTH_SECRET_VALUE" ] && printf '%s' "$AUTH_SECRET_VALUE" | npx --yes wrangler@4 pages secret put AUTH_SECRET --project-name flight-finder
+          npm run deploy
+          [ -n "$INGEST_TOKEN_VALUE" ] && printf '%s' "$INGEST_TOKEN_VALUE" | npx wrangler secret put INGEST_TOKEN
           true
-      - name: Apply database migrations
-        if: steps.cfg.outputs.ready == 'true'
-        run: npx --yes wrangler@4 d1 migrations apply DB --remote
-      - name: Deploy
-        if: steps.cfg.outputs.ready == 'true'
-        run: npx --yes wrangler@4 pages deploy public --project-name flight-finder --branch main --commit-dirty=true

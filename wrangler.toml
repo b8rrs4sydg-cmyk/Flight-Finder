@@ -1,19 +1,32 @@
-# Cloudflare Pages project: the static page in public/ plus the API in functions/.
+# Cloudflare Worker: the static page (public/) + the API (worker/index.js -> functions/api/*) + a D1 database.
+# Deployed by the "Deploy to Cloudflare" button (see README / docs/cloudflare.md): the database is created (or reused by
+# name) automatically, so no database_id is written here.
 name = "flight-finder"
-pages_build_output_dir = "public"
+main = "worker/index.js"
 compatibility_date = "2026-10-01"
+
+workers_dev = true
+preview_urls = false
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
 
 [[d1_databases]]
 binding = "DB"
 database_name = "flight-finder"
-database_id = "5ad275f9-d373-43b0-b052-97e072013b7a"   # D1 database "flight-finder" (schema from migrations/0001_init.sql already applied)
+# database_id is intentionally omitted: Cloudflare provisions or resolves the D1 binding on deploy.
 migrations_dir = "migrations"
 
-# Login codes are mailed with Cloudflare Email Sending (Workers Paid, a domain onboarded under Email Service).
-[[send_email]]
-name = "EMAIL"
-
 [vars]
-MAIL_FROM = "login@REPLACE_WITH_YOUR_DOMAIN"
+# Sender of the login mails. With the Resend fallback (RESEND_API_KEY) it must be on a domain verified there;
+# with Cloudflare Email Sending (uncomment the binding below) on a domain onboarded under Email Service.
+MAIL_FROM = "Smart Flight Finder <login@example.com>"
 
-# Secrets (never in this file):  wrangler pages secret put INGEST_TOKEN | AUTH_SECRET
+# Login mails through Cloudflare Email Sending (Workers Paid, a domain that uses Cloudflare DNS):
+# [[send_email]]
+# name = "EMAIL"
+
+[observability]
+enabled = true

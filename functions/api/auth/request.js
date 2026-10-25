@@ -31,20 +31,25 @@ export async function onRequestPost({ request, env }) {
   ).bind(email, hash, now + CODE_MINUTES * 60_000, now, count, windowAt).run();
 
   if (env.DEV_ECHO_CODE === '1') return json({ ok: true, dev_code: code });   // local development only, never set in production
-  if (env.EMAIL) {
-    try {
-      await env.EMAIL.send({
-        from: env.MAIL_FROM,
-        to: email,
-        subject: `Smart Flight Finder 登入碼 ${code}`,
-        text: `你的登入碼是 ${code}，${CODE_MINUTES} 分鐘內有效。\n如果不是你本人操作，請忽略這封信。`,
-        html: `<p>你的登入碼是</p><p style="font-size:28px;letter-spacing:6px"><b>${code}</b></p><p>${CODE_MINUTES} 分鐘內有效。如果不是你本人操作，請忽略這封信。</p>`,
+  const subject = `Smart Flight Finder 登入碼 ${code}`;
+  const text = `你的登入碼是 ${code}，${CODE_MINUTES} 分鐘內有效。\n如果不是你本人操作，請忽略這封信。`;
+  const html = `<p>你的登入碼是</p><p style="font-size:28px;letter-spacing:6px"><b>${code}</b></p><p>${CODE_MINUTES} 分鐘內有效。如果不是你本人操作，請忽略這封信。</p>`;
+  try {
+    if (env.EMAIL) {                       // Cloudflare Email Sending binding
+      await env.EMAIL.send({ from: env.MAIL_FROM, to: email, subject, text, html });
+    } else if (env.RESEND_API_KEY) {       // Resend (https://resend.com)
+      const r = await fetch('https://api.resend.com/emails', {
+        method: 'POST',
+        headers: { authorization: `Bearer ${env.RESEND_API_KEY}`, 'content-type': 'application/json' },
+        body: JSON.stringify({ from: env.MAIL_FROM, to: [email], subject, text, html }),
       });
-    } catch (e) {
-      console.error('mail failed', e?.message || e);
-      return bad('寄信失敗，請稍後再試', 502);
+      if (!r.ok) throw new Error(`Resend HTTP ${r.status}: ${(await r.text()).slice(0, 200)}`);
+    } else {
+      return bad('登入尚未設定寄信方式', 503);
     }
-    return json({ ok: true });
+  } catch (e) {
+    console.error('mail failed', e?.message || e);
+    return bad('寄信失敗，請稍後再試', 502);
   }
-  return bad('登入尚未設定', 503);
+  return json({ ok: true });
 }

@@ -1,0 +1,10 @@
+# Data the crawlers commit every few minutes: served by /api/fares, not as assets (and they must not bloat the deploy).
+fares.json
+fares-live.json
+fares-live-*.json
+daemon.json
+daemon-*.json
+daemon-status.json
+daemon-status-*.json
+live-request.json
+*.lock

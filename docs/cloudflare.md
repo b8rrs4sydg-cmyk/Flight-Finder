@@ -1,12 +1,12 @@
 # Running on Cloudflare
 
 ```
-GitHub Actions crawlers ──POST /api/ingest──▶ Cloudflare D1 ◀── Pages Functions ◀── the page (Cloudflare Pages)
+GitHub Actions crawlers ──POST /api/ingest──▶ Cloudflare D1 ◀── Worker (/api/*) ◀── the page (static assets, same Worker)
         │                                       public fares        /api/fares            /api/me  /api/me/state
         └─ git commits (backup, unchanged)      users / sessions / favourites / recent searches
 ```
 
-* The page (`public/`) and the API (`functions/api/*`) are one Cloudflare Pages project, `flight-finder`.
+* The page (`public/`) and the API (`functions/api/*`) are one Cloudflare Worker, `flight-finder` (static assets + `/api/*`).
 * **Public database** (D1 tables `fares`, `flags`, `meta`): every crawler also posts what it priced to `/api/ingest`
   (`backend/app/providers/cloud_sync.py`; the git commits stay as the backup). The page reads `/api/fares` (full read in
   pages of 4,000 keys, then `?since=` every 5 minutes); on any other host it falls back to the repository files.
@@ -15,20 +15,26 @@ GitHub Actions crawlers ──POST /api/ingest──▶ Cloudflare D1 ◀── 
   stays the working copy and is merged with the account on sign-in (`acctPull` / `acctPush` in the page).
 * `functions/api/_lib.js` has the merge rule for fares (newest `at` wins, histories joined: same as `merge_fare_files.py`).
 
-## One-time setup (needs your Cloudflare account)
+## Setup: the "Deploy to Cloudflare" button
 
-1. **D1**: done. The database `flight-finder` (id in `wrangler.toml`) exists in the account and `migrations/0001_init.sql` is applied. In another account: `npx wrangler d1 create flight-finder`, put the printed `database_id` into `wrangler.toml`.
-2. **Secrets for the Pages project** (`npx wrangler pages secret put NAME --project-name flight-finder`):
-   `INGEST_TOKEN` (a long random string) and `AUTH_SECRET` (another one; it salts the login-code hashes).
-3. **E-mail**: onboard a domain under *Email Service → Email Sending* (Workers Paid plan; the domain must use Cloudflare DNS),
-   then set `MAIL_FROM` in `wrangler.toml` to an address on it (`login@your-domain`).
-4. **GitHub repository secrets**: `CLOUDFLARE_API_TOKEN` (Pages: Edit, D1: Edit) and `CLOUDFLARE_ACCOUNT_ID` (deploy workflow
-   `cloudflare.yml`); `CF_INGEST_URL` (`https://<project>.pages.dev/api/ingest`) and `CF_INGEST_TOKEN` (= `INGEST_TOKEN`) for the crawlers.
-5. Push to `main` (or run the *Deploy to Cloudflare Pages* workflow). It applies `migrations/` and deploys.
-6. **Seed the database** once from the committed files:
-   `cd backend && CF_INGEST_URL=… CF_INGEST_TOKEN=… python -m scripts.push_to_cloudflare --public ../public`.
+The README button copies the repository to your GitHub account, creates the D1 database (by the name `flight-finder`, or reuses
+it) and deploys the Worker with Workers Builds. `package.json` supplies the commands (`npm run build`: sanity check;
+`npm run deploy`: `scripts/deploy.mjs` = D1 migrations, a generated private `GENERATED_AUTH_SECRET` once, `wrangler deploy`), `.dev.vars.example` the
+first-deploy form (`AUTH_SECRET=auto`, `INGEST_TOKEN`, `RESEND_API_KEY=optional`) and `wrangler.toml` the bindings
+(`DB`, `ASSETS`; no `database_id`, it is provisioned).
 
-Without the secrets nothing changes: the crawlers keep committing to git and the page keeps reading raw GitHub.
+After the first deploy:
+
+1. **Build watch paths** (Worker → Settings → Builds): exclude `public/fares.json,public/fares-live*.json,public/daemon*.json,public/live-request.json,public/*.lock`,
+   otherwise every crawler data commit starts a build. (They are also kept out of the static assets by `public/.assetsignore`.)
+2. **Login mail**: either uncomment `[[send_email]]` in `wrangler.toml` (Cloudflare Email Sending: Workers Paid, a domain on Cloudflare DNS, `MAIL_FROM` on it)
+   or set the secret `RESEND_API_KEY` (Resend, verified domain). Without either, `/api/auth/request` answers 503 and the page works without accounts.
+3. **Crawlers**: GitHub secrets `CF_INGEST_URL` (`https://<worker>.workers.dev/api/ingest`) and `CF_INGEST_TOKEN` (= the `INGEST_TOKEN` you typed);
+   then run the *Seed the Cloudflare fare database* workflow once.
+4. The repository must be public for the crawlers (free Actions minutes) and for the raw-GitHub fallback of the page.
+
+Manual alternative from GitHub: secrets `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID`, then run *Deploy to Cloudflare (manual)*.
+Local: `npm install`, `npx wrangler d1 migrations apply DB --local`, `npx wrangler dev` (add `--var DEV_ECHO_CODE:1 --var AUTH_SECRET:x --var INGEST_TOKEN:t` to try the login without mail), `npm run test:cf`.
 
 ## Limits to keep in mind
 
@@ -38,16 +44,3 @@ Without the secrets nothing changes: the crawlers keep committing to git and the
 * Login codes: one per address per minute, five per hour, five wrong tries per code.
 * Account data is personal data: `DELETE /api/me` (the 刪除帳號 button) removes the user, sessions and saved state.
 * Cloudflare Browser Run identifies itself as a bot, so the crawlers stay on GitHub Actions (see the notes in CLAUDE.md).
-
-## Doing it all from GitHub (no local wrangler / token on a laptop)
-
-Set these repository secrets (Settings → Secrets and variables → Actions), then run **Deploy to Cloudflare Pages** and
-afterwards **Seed the Cloudflare fare database**:
-
-| Secret | Value |
-|---|---|
-| `CLOUDFLARE_API_TOKEN` | API token with Pages: Edit, D1: Edit, Workers Scripts: Edit |
-| `CLOUDFLARE_ACCOUNT_ID` | the account id |
-| `CF_INGEST_TOKEN` | a long random string (also becomes the Pages secret `INGEST_TOKEN`) |
-| `AUTH_SECRET` | another long random string (salts the login-code hashes) |
-| `CF_INGEST_URL` | `https://flight-finder.pages.dev/api/ingest` (the real URL is printed by the deploy step) |

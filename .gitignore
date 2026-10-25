@@ -44,3 +44,5 @@ docker-data/
 
 # file locks the crawlers take next to the fare files
 *.json.lock
+.dev.vars
+.wrangler-config/

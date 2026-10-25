@@ -29,7 +29,7 @@ After the first deploy:
    otherwise every crawler data commit starts a build. (They are also kept out of the static assets by `public/.assetsignore`.)
 2. **Login mail**: either uncomment `[[send_email]]` in `wrangler.toml` (Cloudflare Email Sending: Workers Paid, a domain on Cloudflare DNS, `MAIL_FROM` on it)
    or set the secret `RESEND_API_KEY` (Resend, verified domain). Without either, `/api/auth/request` answers 503 and the page works without accounts.
-3. **Crawlers**: GitHub secrets `CF_INGEST_URL` (`https://<worker>.workers.dev/api/ingest`) and `CF_INGEST_TOKEN` (= the `INGEST_TOKEN` you typed);
+3. **Crawlers**: GitHub secret `CF_INGEST_TOKEN` (= the `INGEST_TOKEN` you typed). The workflows default `CF_INGEST_URL` to this deployment's `/api/ingest`; a fork sets its own `CF_INGEST_URL` secret (`https://<worker>.workers.dev/api/ingest`);
    then run the *Seed the Cloudflare fare database* workflow once.
 4. The repository must be public for the crawlers (free Actions minutes) and for the raw-GitHub fallback of the page.
 

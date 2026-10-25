@@ -22,6 +22,6 @@ jobs:
       - run: pip install -e . --quiet
       - name: Upload fares.json and fares-live*.json
         env:
-          CF_INGEST_URL: ${{ secrets.CF_INGEST_URL }}
+          CF_INGEST_URL: ${{ secrets.CF_INGEST_URL || 'https://flight-finder-app.junyou0424.workers.dev/api/ingest' }}
           CF_INGEST_TOKEN: ${{ secrets.CF_INGEST_TOKEN }}
         run: python -m scripts.push_to_cloudflare --public ../public

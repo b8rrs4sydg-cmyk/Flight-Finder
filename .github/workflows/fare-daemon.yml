@@ -73,7 +73,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DAEMON_INSTANCE: ${{ matrix.instance }}
-          CF_INGEST_URL: ${{ secrets.CF_INGEST_URL }}      # optional: also post every priced fare to the public database on Cloudflare
+          CF_INGEST_URL: ${{ secrets.CF_INGEST_URL || 'https://flight-finder-app.junyou0424.workers.dev/api/ingest' }}      # optional: also post every priced fare to the public database on Cloudflare
           CF_INGEST_TOKEN: ${{ secrets.CF_INGEST_TOKEN }}
         run: |
           SFX=""; [ "$DAEMON_INSTANCE" != "0" ] && SFX="-$DAEMON_INSTANCE"

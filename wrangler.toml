@@ -28,5 +28,10 @@ MAIL_FROM = "Smart Flight Finder <login@example.com>"
 # [[send_email]]
 # name = "EMAIL"
 
+# Workers Cache: public responses (/api/fares pages, Cache-Control: public, max-age=300) are served from Cloudflare's cache without running
+# the Worker or reading D1; everything personal answers with no-store and is never cached.
+[cache]
+enabled = true
+
 [observability]
 enabled = true

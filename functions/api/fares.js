@@ -28,11 +28,6 @@ export async function onRequestGet({ request, env }) {
 
   const after = url.searchParams.get('after') || '';
   const limit = Math.min(PAGE, Math.max(1, Number(url.searchParams.get('limit')) || PAGE));
-  const cacheKey = new Request(`${url.origin}/api/fares?after=${encodeURIComponent(after)}&limit=${limit}&g=${meta.generated_at || ''}`);
-  const cache = caches.default;
-  const hit = await cache.match(cacheKey);
-  if (hit) return hit;
-
   const rows = (await env.DB.prepare('SELECT key, entry FROM fares WHERE key > ?1 ORDER BY key LIMIT ?2').bind(after, limit + 1).all()).results;
   const more = rows.length > limit;
   const page = rows.slice(0, limit);
@@ -43,7 +38,6 @@ export async function onRequestGet({ request, env }) {
     body.missing = flags.filter(f => f.kind === 'missing').map(f => f.key);
     body.unavailable = flags.filter(f => f.kind === 'unavailable').map(f => f.key);
   }
-  const res = json(body, 200, { 'cache-control': 'public, max-age=300' });
-  await cache.put(cacheKey, res.clone());
-  return res;
+  // Cached by Cloudflare in front of the Worker (wrangler.toml [cache]): a page of 4,000 rows is read from D1 at most once per 5 minutes.
+  return json(body, 200, { 'cache-control': 'public, max-age=300' });
 }

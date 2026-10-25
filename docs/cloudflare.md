@@ -36,6 +36,17 @@ After the first deploy:
 Manual alternative from GitHub: secrets `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID`, then run *Deploy to Cloudflare (manual)*.
 Local: `npm install`, `npx wrangler d1 migrations apply DB --local`, `npx wrangler dev` (add `--var DEV_ECHO_CODE:1 --var AUTH_SECRET:x --var INGEST_TOKEN:t` to try the login without mail), `npm run test:cf`.
 
+## Deploying this repository directly (instead of the button's copy)
+
+The button creates a *copy* of the repository (`<you>/<new name>`) that never receives later changes. To deploy from this repository itself:
+
+1. `wrangler.toml` `name` must equal the Worker's name (Workers Builds refuses a mismatch). It is `flight-finder-app`, the name of the existing Worker, so the URL and its secrets are kept.
+2. Cloudflare → Workers & Pages → the Worker → **Settings → Builds → Git repository**: disconnect the copy, connect **this** repository, branch `main`, root `/`,
+   **Build command** `npm run build`, **Deploy command** `npm run deploy`; turn **Preview builds** off.
+3. **Build watch paths → Exclude**: `public/fares.json,public/fares-live*.json,public/daemon*.json,public/live-request.json,public/*.lock`
+   (the crawlers commit these every few minutes; only code, `index.html` and docs should start a build).
+4. Runtime secrets (`INGEST_TOKEN`, the generated `GENERATED_AUTH_SECRET`) stay on the Worker; `npm run deploy` only creates a secret that is missing.
+
 ## Limits to keep in mind
 
 * D1 free plan: 5 M rows read / day, 100 k rows written / day. The page reads each key once per browser session

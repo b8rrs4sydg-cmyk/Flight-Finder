@@ -1,7 +1,7 @@
 # Cloudflare Worker: the static page (public/) + the API (worker/index.js -> functions/api/*) + a D1 database.
 # Deployed by the "Deploy to Cloudflare" button (see README / docs/cloudflare.md): the database is created (or reused by
 # name) automatically, so no database_id is written here.
-name = "flight-finder"
+name = "flight-finder-app"
 main = "worker/index.js"
 compatibility_date = "2026-10-01"
 

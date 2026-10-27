@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T16:31:56+00:00",
+ "generated_at": "2026-10-27T16:33:30+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -15755,7 +15755,7 @@
   "rt|BKK|TSA|2026-12-27|2027-04-29": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|BKK|TSA|2027-02-14|2027-04-29": {
    "status": "timeout",
@@ -16050,7 +16050,7 @@
   "rt|GMP|RMQ|2026-12-27|2027-04-29": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|GMP|RMQ|2027-02-14|2027-04-29": {
    "status": "timeout",
@@ -16233,7 +16233,7 @@
    "n": 1
   },
   "rt|ISG|TPE|2026-12-27|2027-04-29": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -16255,7 +16255,7 @@
   "rt|ISG|TSA|2026-12-27|2027-06-09": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|ISG|TSA|2027-05-02|2027-09-15": {
    "status": "timeout",
@@ -16390,7 +16390,7 @@
   "rt|MMY|RMQ|2026-12-27|2027-04-29": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|MMY|RMQ|2027-05-02|2027-06-09": {
    "status": "parse_error",
@@ -16545,7 +16545,7 @@
   "rt|PUS|RMQ|2026-12-27|2027-04-29": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|PUS|TPE|2026-11-22|2027-09-15": {
    "status": "parse_error",
@@ -16653,7 +16653,7 @@
    "n": 1
   },
   "rt|RMQ|CTS|2026-12-24|2027-05-02": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -16985,7 +16985,7 @@
   "rt|RMQ|MMY|2026-12-24|2027-05-02": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|RMQ|MMY|2027-02-10|2027-05-02": {
    "status": "timeout",
@@ -17030,7 +17030,7 @@
   "rt|RMQ|NRT|2026-12-24|2027-05-02": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|RMQ|PEN|2027-09-15|2027-09-19": {
    "status": "parse_error",
@@ -18045,7 +18045,7 @@
   "rt|TSA|ICN|2026-12-24|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|TSA|ICN|2027-02-10|2027-05-02": {
    "status": "timeout",
@@ -18530,7 +18530,7 @@
   "rt|USM|TPE|2026-12-27|2027-04-29": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|USM|TSA|2026-11-08|2027-06-09": {
    "status": "timeout",
@@ -18550,7 +18550,7 @@
   "rt|USM|TSA|2026-12-27|2027-06-09": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|USM|TSA|2027-02-14|2027-06-09": {
    "status": "timeout",

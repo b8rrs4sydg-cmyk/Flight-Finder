@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T17:18:53+00:00",
+ "generated_at": "2026-10-27T17:20:26+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -17205,7 +17205,7 @@
   "rt|USM|TSA|2026-11-08|2026-12-24": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|USM|TSA|2026-11-08|2027-04-29": {
    "status": "timeout",

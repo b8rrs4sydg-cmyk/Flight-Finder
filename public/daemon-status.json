@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T12:42:47+00:00",
+ "at": "2026-10-27T12:44:18+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 514,
+ "fares_saved": 516,
  "log": [
   "10:36:37 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:41 http front door: ['https://struck-widescreen-fluid-gently.trycloudflare.com', 'https://ef2932acbf4f7b.lhr.life']",
@@ -49,6 +49,12 @@
   "12:38:41 request mvqo7ztizzemc.0: final sent (10/10); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "12:41:53 rtc usu25xnumj: answered",
   "12:42:05 request received: rid mvqod5shtgjgd.0 7 keys",
-  "12:42:05 handle mvqod5shtgjgd.0: first_chunk=True total=7"
+  "12:42:05 handle mvqod5shtgjgd.0: first_chunk=True total=7",
+  "12:43:01 request mvqod5shtgjgd.0: chunk of 7 keys done in 56s; paths {'http': 54, 'browser': 22, 'browser-crashed': 194}, browser waits 216 max 103s sum 11750s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 54, 'miss': 87, 'blocked': 0, 'tries': 121, 'empty': 67}, audit 5/5 agre",
+  "12:43:02 request mvqod5shtgjgd.0: final sent (7/7); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "12:43:53 rtc e0pwyvoep0: answered",
+  "12:43:55 rtc e0pwyvoep0: data channel open",
+  "12:43:56 request received: rid mvqoft66fhhyp.0 6 keys",
+  "12:43:56 handle mvqoft66fhhyp.0: first_chunk=True total=6"
  ]
 }

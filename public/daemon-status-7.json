@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T16:03:33+00:00",
+ "at": "2026-10-27T16:05:05+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 697,
+ "fares_saved": 698,
  "log": [
   "15:45:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:45:10 http front door: ['https://control-automobile-cfr-fall.trycloudflare.com', 'https://073f039b4a1d74.lhr.life']",
@@ -34,6 +34,10 @@
   "16:01:17 request received: rid mvqvhpfhjiidt.7 28 keys",
   "16:01:17 handle mvqvhpfhjiidt.7: first_chunk=True total=28",
   "16:01:17 queue: 12 keys from the look-up queue in 106s (0 priced, 0 no flight, 12 failed)",
-  "16:01:17 queue: nothing readable, next try in 300s"
+  "16:01:17 queue: nothing readable, next try in 300s",
+  "16:04:03 request received: rid mvqvkvlxlbrh8.7 12 keys",
+  "16:04:03 handle mvqvkvlxlbrh8.7: first_chunk=True total=12",
+  "16:04:33 request mvqvhpfhjiidt.7: chunk of 28 keys done in 196s; paths {'http': 20, 'browser-crashed': 143, 'browser': 2}, browser waits 145 max 243s sum 16543s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 47, 'blocked': 0, 'tries': 47, 'empty': 27}, audit 3/3 agre",
+  "16:04:36 request mvqvhpfhjiidt.7: final sent (28/28); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

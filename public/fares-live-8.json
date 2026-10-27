@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T17:43:58+00:00",
+ "generated_at": "2026-10-27T17:45:30+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -15615,7 +15615,7 @@
   "rt|ICN|RMQ|2026-11-22|2026-12-24": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 3
+   "n": 4
   },
   "rt|ICN|RMQ|2026-11-22|2027-04-29": {
    "status": "timeout",
@@ -16187,6 +16187,11 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "rt|RMQ|FUK|2026-11-20|2026-12-27": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
   "rt|RMQ|FUK|2027-02-10|2027-05-02": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -16206,6 +16211,11 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 3
+  },
+  "rt|RMQ|GMP|2026-11-20|2026-12-27": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
   },
   "rt|RMQ|GMP|2026-11-20|2027-05-02": {
    "status": "timeout",
@@ -16383,9 +16393,9 @@
    "n": 1
   },
   "rt|RMQ|MMY|2026-11-20|2026-11-22": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 5
+   "n": 1
   },
   "rt|RMQ|MMY|2026-11-20|2027-05-02": {
    "status": "timeout",
@@ -16435,7 +16445,7 @@
   "rt|RMQ|OKA|2026-11-20|2026-12-27": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 3
+   "n": 4
   },
   "rt|RMQ|OKA|2026-11-20|2027-06-13": {
    "status": "timeout",
@@ -16548,7 +16558,7 @@
    "n": 1
   },
   "rt|RMQ|UKB|2027-09-15|2027-09-19": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -16588,9 +16598,9 @@
    "n": 1
   },
   "rt|RMQ|UTP|2026-11-06|2026-11-08": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 11
+   "n": 1
   },
   "rt|RMQ|UTP|2026-11-20|2026-12-27": {
    "status": "parse_error",
@@ -17178,9 +17188,9 @@
    "n": 1
   },
   "rt|TSA|DAD|2027-09-15|2027-09-19": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 2
+   "n": 1
   },
   "rt|TSA|DMK|2026-11-06|2027-09-19": {
    "status": "timeout",
@@ -17860,7 +17870,7 @@
   "rt|USM|RMQ|2026-11-22|2026-12-24": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|USM|RMQ|2026-12-13|2027-02-10": {
    "status": "timeout",
@@ -17913,7 +17923,7 @@
    "n": 1
   },
   "rt|UTP|RMQ|2026-11-22|2026-12-24": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },

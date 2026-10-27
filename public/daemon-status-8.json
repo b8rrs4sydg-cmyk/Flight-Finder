@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T17:36:13+00:00",
+ "at": "2026-10-27T17:37:46+00:00",
  "publishes": {
   "ok": 8,
   "r429": 0,
@@ -111,6 +111,8 @@
   "17:31:46 request mvqyiyocejtq6.7: final sent (48/48); ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}",
   "17:35:37 rtc d3g8g8ficq: answered",
   "17:35:46 request received: rid mvqyuua257zc4.8 15 keys",
-  "17:35:46 handle mvqyuua257zc4.8: first_chunk=True total=15"
+  "17:35:46 handle mvqyuua257zc4.8: first_chunk=True total=15",
+  "17:36:51 request received: rid mvqywi5w1yso5.8 43 keys",
+  "17:36:51 handle mvqywi5w1yso5.8: first_chunk=True total=43"
  ]
 }

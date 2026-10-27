@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T17:34:22+00:00",
+ "generated_at": "2026-10-27T17:35:54+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -10492,6 +10492,28 @@
     ]
    ]
   },
+  "rt|TPE|HKT|2026-12-11|2027-02-14": {
+   "price": 17528,
+   "by_airline": {
+    "Scoot": 17528,
+    "Thai AirAsia": 20241,
+    "AirAsia": 25544,
+    "Hong Kong Express": 26474
+   },
+   "first": {
+    "dep": "2026-12-11T01:50:00+08:00",
+    "arr": "2026-12-11T09:40:00+07:00",
+    "stops": 1,
+    "airline": "Scoot"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     17528
+    ]
+   ]
+  },
   "rt|TPE|HKT|2027-01-15|2027-01-18": {
    "price": 9497,
    "first": {
@@ -14530,7 +14552,7 @@
   "rt|BKK|RMQ|2026-12-13|2027-09-15": {
    "status": "parse_error",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|BKK|RMQ|2027-05-02|2027-09-15": {
    "status": "timeout",
@@ -14580,7 +14602,7 @@
   "rt|CJU|TPE|2026-12-13|2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|CJU|TPE|2027-02-14|2027-04-29": {
    "status": "timeout",
@@ -15068,9 +15090,9 @@
    "n": 2
   },
   "rt|ICN|TSA|2026-12-13|2027-06-09": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 4
+   "n": 1
   },
   "rt|ICN|TSA|2027-02-14|2027-04-29": {
    "status": "timeout",
@@ -15253,9 +15275,9 @@
    "n": 4
   },
   "rt|KIX|TSA|2026-12-13|2027-09-15": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 4
+   "n": 1
   },
   "rt|KIX|TSA|2026-12-27|2027-04-29": {
    "status": "timeout",
@@ -15313,9 +15335,9 @@
    "n": 1
   },
   "rt|MMY|TPE|2026-12-13|2027-09-15": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 2
+   "n": 1
   },
   "rt|MMY|TPE|2027-05-02|2027-09-15": {
    "status": "timeout",
@@ -15368,9 +15390,9 @@
    "n": 4
   },
   "rt|NGO|TSA|2026-12-13|2027-09-15": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 3
+   "n": 1
   },
   "rt|NGO|TSA|2027-02-14|2027-09-15": {
    "status": "timeout",
@@ -15395,7 +15417,7 @@
   "rt|NRT|RMQ|2026-12-13|2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|NRT|RMQ|2026-12-27|2027-04-29": {
    "status": "timeout",
@@ -15528,9 +15550,9 @@
    "n": 4
   },
   "rt|PUS|TSA|2026-12-13|2027-09-15": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 4
+   "n": 1
   },
   "rt|PUS|TSA|2027-05-02|2027-09-15": {
    "status": "timeout",
@@ -15545,7 +15567,7 @@
   "rt|RMQ|BKK|2026-12-11|2027-09-19": {
    "status": "parse_error",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|RMQ|BKK|2026-12-24|2027-05-02": {
    "status": "timeout",
@@ -15723,9 +15745,9 @@
    "n": 2
   },
   "rt|RMQ|GMP|2026-12-11|2027-09-19": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 2
+   "n": 1
   },
   "rt|RMQ|GMP|2027-02-10|2027-06-13": {
    "status": "timeout",
@@ -16058,9 +16080,9 @@
    "n": 1
   },
   "rt|RMQ|USM|2026-12-11|2027-09-19": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 2
+   "n": 1
   },
   "rt|RMQ|USM|2026-12-24|2026-12-27": {
    "status": "parse_error",
@@ -16175,7 +16197,7 @@
   "rt|TPE|CJU|2026-12-11|2027-09-19": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 3
+   "n": 4
   },
   "rt|TPE|CRK|2026-12-11|2026-12-13": {
    "status": "timeout",
@@ -16242,6 +16264,11 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "rt|TPE|GMP|2026-12-11|2027-09-19": {
+   "status": "parse_error",
+   "at": "2026-10-27",
+   "n": 1
+  },
   "rt|TPE|GMP|2026-12-24|2027-09-19": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -16261,11 +16288,6 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
-  },
-  "rt|TPE|HKT|2026-12-11|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 5
   },
   "rt|TPE|HKT|2026-12-11|2027-09-19": {
    "status": "timeout",

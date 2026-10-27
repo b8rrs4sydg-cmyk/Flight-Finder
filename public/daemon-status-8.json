@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:03:21+00:00",
+ "at": "2026-10-27T13:04:53+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 666,
+ "fares_saved": 669,
  "log": [
   "10:46:17 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:46:23 http front door: ['https://zoo-covering-patch-practical.trycloudflare.com', 'https://2e933bc542d940.lhr.life']",
@@ -68,6 +68,8 @@
   "13:03:00 request mvqoxbk0d4l79.8: chunk of 43 keys done in 332s; paths {'http': 42, 'browser': 9, 'browser-crashed': 295}, browser waits 304 max 332s sum 29454s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 42, 'miss': 123, 'blocked': 0, 'tries': 166, 'empty': 124}, audit 2/2 a",
   "13:03:02 request mvqoxbk0d4l79.8: final sent (43/43); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
   "13:03:07 request received: rid mvqp4lfk36eet.8 40 keys",
-  "13:03:07 handle mvqp4lfk36eet.8: first_chunk=True total=40"
+  "13:03:07 handle mvqp4lfk36eet.8: first_chunk=True total=40",
+  "13:03:23 queue: 12 keys from the look-up queue in 356s (0 priced, 0 no flight, 12 failed)",
+  "13:03:23 queue: nothing readable, next try in 300s"
  ]
 }

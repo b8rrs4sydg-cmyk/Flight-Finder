@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T12:48:56+00:00",
+ "at": "2026-10-27T12:50:27+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 666,
+ "fares_saved": 669,
  "log": [
   "10:36:40 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:45 http front door: ['https://spam-families-selecting-nikon.trycloudflare.com', 'https://3eebe1d68a0475.lhr.life']",
@@ -57,6 +57,8 @@
   "12:48:48 queue: 12 keys from the look-up queue in 108s (0 priced, 0 no flight, 12 failed)",
   "12:48:48 queue: nothing readable, next try in 540s",
   "12:48:55 request received: rid mvqombwnumyis.6 41 keys",
-  "12:48:55 handle mvqombwnumyis.6: first_chunk=True total=41"
+  "12:48:55 handle mvqombwnumyis.6: first_chunk=True total=41",
+  "12:49:02 request received: rid mvqomgnrkgbyi.6 41 keys",
+  "12:49:02 handle mvqomgnrkgbyi.6: first_chunk=True total=41"
  ]
 }

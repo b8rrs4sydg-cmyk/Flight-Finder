@@ -1,7 +1,7 @@
 {
- "at": "2026-10-27T09:14:15+00:00",
+ "at": "2026-10-27T09:15:46+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
@@ -13,6 +13,11 @@
   "09:11:14 http front door: ['https://gentleman-instructions-evaluation-fully.trycloudflare.com', 'https://e82c3badf9585f.lhr.life']",
   "09:11:14 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "09:12:07 request received: rid httptest1793092326 20 keys",
-  "09:12:07 handle httptest1793092326: first_chunk=True total=20"
+  "09:12:07 handle httptest1793092326: first_chunk=True total=20",
+  "09:15:11 request httptest1793092326: chunk of 20 keys done in 184s; paths {'browser-crashed': 30}, browser waits 30 max 221s sum 3449s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 0, 'miss': 60, 'blocked': 0, 'tries': 120, 'empty': 120}, audit 0/0 agree",
+  "09:15:12 request httptest1793092326: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "09:15:24 rtc utwzk49qw: answered",
+  "09:15:25 request received: rid mvqgzdwozwkmu.6 11 keys",
+  "09:15:25 handle mvqgzdwozwkmu.6: first_chunk=True total=11"
  ]
 }

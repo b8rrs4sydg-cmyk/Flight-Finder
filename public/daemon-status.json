@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T17:43:14+00:00",
+ "at": "2026-10-27T17:44:46+00:00",
  "publishes": {
   "ok": 58,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 627,
+ "fares_saved": 628,
  "log": [
   "15:49:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:49:52 http front door: ['https://libs-pace-deadline-helena.trycloudflare.com', 'https://8150f881693981.lhr.life']",
@@ -129,6 +129,8 @@
   "17:41:55 handle mvqz32f3p7xht.0: first_chunk=True total=43",
   "17:42:16 rtc c59synaoqa: answered",
   "17:42:28 request received: rid mvqz3glnmscu4.0 7 keys",
-  "17:42:28 handle mvqz3glnmscu4.0: first_chunk=True total=7"
+  "17:42:28 handle mvqz3glnmscu4.0: first_chunk=True total=7",
+  "17:44:02 request mvqz3glnmscu4.0: chunk of 7 keys done in 94s; paths {'http': 27, 'browser': 17, 'browser-crashed': 801}, browser waits 818 max 1239s sum 189153s; ntfy publishes {'ok': 58, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 260, 'blocked': 10, 'tries': 153, 'empty': 126}, audit 3/",
+  "17:44:04 request mvqz3glnmscu4.0: final sent (7/7); ntfy publishes {'ok': 58, 'r429': 0, 'fail': 0}"
  ]
 }

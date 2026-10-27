@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T13:34:44+00:00",
+ "generated_at": "2026-10-27T13:36:16+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -3816,6 +3816,27 @@
     ]
    ]
   },
+  "ow|RGN|TPE|2026-12-27": {
+   "price": 9951,
+   "first": {
+    "dep": "2026-12-27T18:45:00+06:30",
+    "arr": "2026-12-28T12:25:00+08:00",
+    "stops": 1,
+    "airline": "Thai AirAsia"
+   },
+   "by_airline": {
+    "Thai AirAsia": 9951,
+    "THAI": 12876,
+    "China Southern": 18718
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     9951
+    ]
+   ]
+  },
   "ow|RGN|TPE|2027-02-16": {
    "price": 7249,
    "first": {
@@ -5102,6 +5123,28 @@
     ]
    ]
   },
+  "ow|TPE|KMG|2026-11-20": {
+   "price": 7847,
+   "first": {
+    "dep": "2026-11-20T15:30:00+08:00",
+    "arr": "2026-11-20T23:30:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 7847,
+    "Shandong": 8435,
+    "Shenzhen": 9867,
+    "Korean Air": 18252
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     7847
+    ]
+   ]
+  },
   "ow|TPE|KMG|2027-04-29": {
    "price": 7847,
    "first": {
@@ -5209,6 +5252,28 @@
     ]
    ]
   },
+  "ow|TPE|NKG|2026-12-11": {
+   "price": 5795,
+   "first": {
+    "dep": "2026-12-11T15:30:00+08:00",
+    "arr": "2026-12-11T21:25:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 5795,
+    "Shenzhen": 6555,
+    "Cathay Pacific": 8175,
+    "Shandong": 8240
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     5795
+    ]
+   ]
+  },
   "ow|TPE|NRT|2026-12-11": {
    "price": 5630,
    "first": {
@@ -5276,6 +5341,26 @@
     [
      "2026-10-24",
      6091
+    ]
+   ]
+  },
+  "ow|TPE|PKX|2026-12-11": {
+   "price": 5795,
+   "first": {
+    "dep": "2026-12-11T13:40:00+08:00",
+    "arr": "2026-12-11T22:40:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 5795,
+    "Hong Kong Express": 7459
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     5795
     ]
    ]
   },
@@ -5361,6 +5446,27 @@
     [
      "2026-10-24",
      12284
+    ]
+   ]
+  },
+  "ow|TPE|RGN|2026-12-24": {
+   "price": 12809,
+   "first": {
+    "dep": "2026-12-24T18:35:00+08:00",
+    "arr": "2026-12-25T08:00:00+06:30",
+    "stops": 1,
+    "airline": "Thai AirAsia"
+   },
+   "by_airline": {
+    "Thai AirAsia": 12809,
+    "THAI": 12926,
+    "China Southern": 20101
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     12809
     ]
    ]
   },

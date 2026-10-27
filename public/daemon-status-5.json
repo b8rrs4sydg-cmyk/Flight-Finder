@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T18:17:27+00:00",
+ "at": "2026-10-27T18:19:00+00:00",
  "publishes": {
   "ok": 9,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 726,
+ "fares_saved": 729,
  "log": [
   "15:47:58 queue: nothing readable, next try in 180s",
   "15:50:18 request mvquznjhmn5fc.4: chunk of 21 keys done in 178s; paths {'http': 20, 'browser-crashed': 33}, browser waits 33 max 167s sum 3001s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 15, 'blocked': 0, 'tries': 26, 'empty': 6}, audit 1/1 agree",

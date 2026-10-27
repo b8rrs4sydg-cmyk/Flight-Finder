@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T16:12:04+00:00",
+ "at": "2026-10-27T16:13:38+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 778,
+ "fares_saved": 779,
  "log": [
   "15:44:58 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:45:05 http front door: ['https://past-provider-tones-grocery.trycloudflare.com', 'https://40d23ee65f59af.lhr.life']",
@@ -45,6 +45,8 @@
   "16:08:41 request received: rid mvqvr7r9ryfu2.2 43 keys",
   "16:08:41 handle mvqvr7r9ryfu2.2: first_chunk=True total=43",
   "16:08:48 request mvqvkvlxlbrh8.2: chunk of 20 keys done in 286s; paths {'http': 22, 'browser-crashed': 160, 'browser': 15}, browser waits 175 max 383s sum 24509s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 81, 'blocked': 0, 'tries': 75, 'empty': 53}, audit 4/4 agr",
-  "16:08:49 request mvqvkvlxlbrh8.2: final sent (20/20); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "16:08:49 request mvqvkvlxlbrh8.2: final sent (20/20); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "16:13:18 request mvqvr7r9ryfu2.2: chunk of 43 keys done in 277s; paths {'http': 22, 'browser-crashed': 201, 'browser': 17}, browser waits 218 max 383s sum 31206s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 81, 'blocked': 0, 'tries': 75, 'empty': 53}, audit 4/4 agr",
+  "16:13:20 request mvqvr7r9ryfu2.2: final sent (43/43); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

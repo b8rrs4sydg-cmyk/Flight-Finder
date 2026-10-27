@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T16:38:48+00:00",
+ "generated_at": "2026-10-27T16:40:20+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -5446,6 +5446,28 @@
     ]
    ]
   },
+  "ow|TPE|WUH|2027-02-10": {
+   "price": 7035,
+   "first": {
+    "dep": "2027-02-10T13:40:00+08:00",
+    "arr": "2027-02-10T21:00:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 7035,
+    "Cathay Pacific": 9142,
+    "Shenzhen": 18738,
+    "Hainan": 24506
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     7035
+    ]
+   ]
+  },
   "ow|TPE|WUH|2027-04-29": {
    "price": 7035,
    "first": {
@@ -5731,6 +5753,26 @@
     [
      "2026-10-22",
      6888
+    ]
+   ]
+  },
+  "ow|TSN|TPE|2027-09-19": {
+   "price": 6853,
+   "first": {
+    "dep": "2027-09-19T17:40:00+08:00",
+    "arr": "2027-09-20T11:15:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 6853,
+    "Korean Air": 12409
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     6853
     ]
    ]
   },
@@ -14074,11 +14116,6 @@
    "at": "2026-10-27",
    "n": 1
   },
-  "ow|TPE|WUH|2027-02-10": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 1
-  },
   "ow|TSA|DMK|2026-12-11": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -14105,11 +14142,6 @@
    "n": 1
   },
   "ow|TSA|PUS|2026-12-24": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 1
-  },
-  "ow|TSN|TPE|2027-09-19": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
@@ -14732,7 +14764,7 @@
   "rt|KIX|RMQ|2026-12-27|2027-06-09": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|KIX|TPE|2026-12-27|2027-09-15": {
    "status": "timeout",
@@ -15957,7 +15989,7 @@
   "rt|TSA|CJU|2026-12-24|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|TSA|CJU|2027-02-10|2027-09-19": {
    "status": "parse_error",
@@ -15992,7 +16024,7 @@
   "rt|TSA|CNX|2026-12-24|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|TSA|CNX|2027-02-10|2027-05-02": {
    "status": "timeout",
@@ -16047,7 +16079,7 @@
   "rt|TSA|DMK|2026-12-24|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|TSA|DMK|2027-02-10|2027-05-02": {
    "status": "timeout",

@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T09:38:20+00:00",
+ "at": "2026-10-27T09:48:53+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 603,
+ "fares_saved": 614,
  "log": [
   "09:35:13 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:35:19 http front door: ['https://follow-telling-remained-currency.trycloudflare.com', 'https://6aa106d8859c07.lhr.life']",
@@ -19,6 +19,12 @@
   "09:37:31 request received: rid mvqhrszvyiamt.6 15 keys",
   "09:37:31 handle mvqhrszvyiamt.6: first_chunk=True total=15",
   "09:38:02 request mvqhrszvyiamt.6: chunk of 15 keys done in 32s; paths {'http': 36, 'browser': 8, 'browser-crashed': 3}, browser waits 11 max 61s sum 203s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 36, 'miss': 11, 'blocked': 0, 'tries': 51, 'empty': 15}, audit 4/4 agree",
-  "09:38:04 request mvqhrszvyiamt.6: final sent (15/15); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "09:38:04 request mvqhrszvyiamt.6: final sent (15/15); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "09:40:31 queue: 12 keys from the look-up queue in 130s (3 priced, 0 no flight, 9 failed)",
+  "09:43:09 queue: 12 keys from the look-up queue in 97s (1 priced, 0 no flight, 11 failed)",
+  "09:46:18 queue: 12 keys from the look-up queue in 129s (4 priced, 0 no flight, 8 failed)",
+  "09:47:22 rtc wi3m0kdyry: answered",
+  "09:47:37 request received: rid mvqi4s7ppgts0.6 19 keys",
+  "09:47:37 handle mvqi4s7ppgts0.6: first_chunk=True total=19"
  ]
 }

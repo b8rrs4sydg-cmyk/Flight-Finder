@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T18:19:54+00:00",
+ "at": "2026-10-27T18:21:27+00:00",
  "publishes": {
   "ok": 59,
   "r429": 0,
@@ -7,7 +7,6 @@
  },
  "fares_saved": 637,
  "log": [
-  "15:49:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:49:52 http front door: ['https://libs-pace-deadline-helena.trycloudflare.com', 'https://8150f881693981.lhr.life']",
   "15:49:52 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "15:50:57 request received: rid httptest1793116257 20 keys",
@@ -155,6 +154,8 @@
   "18:14:25 request mvqzzbwr98q2c.0: chunk of 44 keys done in 445s; paths {'http': 30, 'browser': 24, 'browser-crashed': 943}, browser waits 967 max 1239s sum 213279s; ntfy publishes {'ok': 59, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 30, 'miss': 318, 'blocked': 16, 'tries': 160, 'empty': 130}, audit ",
   "18:14:26 request mvqzzbwr98q2c.0: final sent (44/44); ntfy publishes {'ok': 59, 'r429': 0, 'fail': 0}",
   "18:17:27 request received: rid mvr0ct66sqfsn.0 11 keys",
-  "18:17:27 handle mvr0ct66sqfsn.0: first_chunk=True total=11"
+  "18:17:27 handle mvr0ct66sqfsn.0: first_chunk=True total=11",
+  "18:20:12 request mvr0ct66sqfsn.0: chunk of 11 keys done in 166s; paths {'http': 30, 'browser': 24, 'browser-crashed': 954}, browser waits 978 max 1239s sum 214448s; ntfy publishes {'ok': 59, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 30, 'miss': 318, 'blocked': 16, 'tries': 160, 'empty': 130}, audit ",
+  "18:20:14 request mvr0ct66sqfsn.0: final sent (11/11); ntfy publishes {'ok': 59, 'r429': 0, 'fail': 0}"
  ]
 }

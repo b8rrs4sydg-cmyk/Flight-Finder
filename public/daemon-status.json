@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:30:06+00:00",
+ "at": "2026-10-27T13:31:38+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 561,
+ "fares_saved": 563,
  "log": [
   "10:36:37 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:41 http front door: ['https://struck-widescreen-fluid-gently.trycloudflare.com', 'https://ef2932acbf4f7b.lhr.life']",
@@ -98,6 +98,10 @@
   "13:25:28 request received: rid mvqpxamf89t57.0 47 keys",
   "13:25:28 handle mvqpxamf89t57.0: first_chunk=True total=47",
   "13:29:56 request mvqpxamf89t57.0: chunk of 47 keys done in 268s; paths {'http': 78, 'browser': 45, 'browser-crashed': 519}, browser waits 564 max 296s sum 57004s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 78, 'miss': 178, 'blocked': 0, 'tries': 233, 'empty': 155}, audit 5/5 ",
-  "13:29:57 request mvqpxamf89t57.0: final sent (47/47); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "13:29:57 request mvqpxamf89t57.0: final sent (47/47); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "13:30:21 queue: 12 keys from the look-up queue in 329s (0 priced, 0 no flight, 12 failed)",
+  "13:30:21 queue: nothing readable, next try in 300s",
+  "13:31:10 request received: rid mvqq4nlectjow.0 35 keys",
+  "13:31:10 handle mvqq4nlectjow.0: first_chunk=True total=35"
  ]
 }

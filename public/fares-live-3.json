@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T12:56:42+00:00",
+ "generated_at": "2026-10-27T12:58:13+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -3526,6 +3526,25 @@
     [
      "2026-10-22",
      14040
+    ]
+   ]
+  },
+  "ow|PEN|RMQ|2026-12-27": {
+   "price": 7465,
+   "first": {
+    "dep": "2026-12-27T16:25:00+08:00",
+    "arr": "2026-12-28T18:25:00+08:00",
+    "stops": 1,
+    "airline": "Hong Kong Express"
+   },
+   "by_airline": {
+    "Hong Kong Express": 7465
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     7465
     ]
    ]
   },

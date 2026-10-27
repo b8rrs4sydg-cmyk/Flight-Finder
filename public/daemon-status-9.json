@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T14:24:04+00:00",
+ "at": "2026-10-27T14:25:36+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
@@ -131,6 +131,14 @@
   "14:13:41 request mvqrgqnyk5cw7.8: final sent (26/26); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
   "14:21:17 queue: 12 keys from the look-up queue in 87s (4 priced, 0 no flight, 8 failed)",
   "14:23:05 request received: rid mvqrzf5pi283i.9 1 keys",
-  "14:23:05 handle mvqrzf5pi283i.9: first_chunk=True total=1"
+  "14:23:05 handle mvqrzf5pi283i.9: first_chunk=True total=1",
+  "14:24:06 queue: 12 keys from the look-up queue in 109s (0 priced, 0 no flight, 12 failed)",
+  "14:24:06 queue: nothing readable, next try in 180s",
+  "14:24:07 request received: rid mvqs0qvkbguct.9 1 keys",
+  "14:24:07 handle mvqs0qvkbguct.9: first_chunk=True total=1",
+  "14:24:19 request mvqrzf5pi283i.9: chunk of 1 keys done in 74s; paths {'http': 62, 'browser': 31, 'browser-crashed': 683}, browser waits 714 max 388s sum 82563s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 62, 'miss': 291, 'blocked': 0, 'tries': 280, 'empty': 218}, audit 4/4 ag",
+  "14:24:19 request mvqs0qvkbguct.9: chunk of 1 keys done in 12s; paths {'http': 62, 'browser': 31, 'browser-crashed': 683}, browser waits 714 max 388s sum 82563s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 62, 'miss': 291, 'blocked': 0, 'tries': 280, 'empty': 218}, audit 4/4 ag",
+  "14:24:20 request mvqrzf5pi283i.9: final sent (1/1); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "14:24:20 request mvqs0qvkbguct.9: final sent (1/1); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
  ]
 }

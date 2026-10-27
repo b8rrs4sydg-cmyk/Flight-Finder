@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T13:42:37+00:00",
+ "generated_at": "2026-10-27T13:44:09+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -13306,7 +13306,22 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|DPS-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-GMP-2027-09-15": {
+   "status": "parse_error",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|DPS-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
   "mc|FUK-TPE-2027-01-04|TPE-HND-2027-02-26": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-CKG-2027-02-10": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
@@ -13321,6 +13336,16 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|GMP-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-BKI-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|GMP-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-HND-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
   "mc|GMP-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
    "status": "parse_error",
    "at": "2026-10-27",
@@ -13328,6 +13353,11 @@
   },
   "mc|GMP-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
    "status": "parse_error",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|GMP-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-HND-2027-09-15": {
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -13376,6 +13406,11 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|RGN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-DPS-2026-12-24": {
+   "status": "parse_error",
+   "at": "2026-10-27",
+   "n": 1
+  },
   "mc|TPE-HND-2027-01-02|KIX-TPE-2027-02-15": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -13398,6 +13433,11 @@
   },
   "mc|TPE-NRT-2027-01-02|FUK-TPE-2027-02-15": {
    "status": "parse_error",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|XIY-TPE-2027-02-14|TPE-MNL-2027-04-29|MNL-TPE-2027-05-02|TPE-BKI-2027-09-15": {
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },

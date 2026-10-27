@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T17:06:22+00:00",
+ "generated_at": "2026-10-27T17:09:26+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -9613,6 +9613,25 @@
     ]
    ]
   },
+  "rt|RMQ|NGO|2026-11-06|2027-06-13": {
+   "price": 19163,
+   "by_airline": {
+    "Hong Kong Express": 19163
+   },
+   "first": {
+    "dep": "2026-11-06T20:35:00+08:00",
+    "arr": "2026-11-07T19:45:00+09:00",
+    "stops": 1,
+    "airline": "Hong Kong Express"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     19163
+    ]
+   ]
+  },
   "rt|RMQ|NGO|2026-11-20|2027-06-13": {
    "price": 16733,
    "by_airline": {
@@ -10551,6 +10570,26 @@
     [
      "2026-10-22",
      8578
+    ]
+   ]
+  },
+  "rt|TPE|FUK|2026-11-06|2027-09-19": {
+   "price": 15921,
+   "by_airline": {
+    "AirAsia": 15921,
+    "Cebu Pacific": 21262
+   },
+   "first": {
+    "dep": "2026-11-06T11:55:00+08:00",
+    "arr": "2026-11-06T15:20:00+09:00",
+    "stops": 0,
+    "airline": "AirAsia"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     15921
     ]
    ]
   },
@@ -15966,7 +16005,7 @@
   "rt|NRT|TSA|2026-11-08|2027-06-09": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|NRT|TSA|2026-11-08|2027-09-15": {
    "status": "timeout",
@@ -16034,9 +16073,9 @@
    "n": 1
   },
   "rt|PUS|RMQ|2027-02-14|2027-09-15": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 2
+   "n": 1
   },
   "rt|PUS|TPE|2027-02-14|2027-09-15": {
    "status": "timeout",
@@ -16049,9 +16088,9 @@
    "n": 1
   },
   "rt|PUS|TSA|2026-11-08|2027-04-29": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 2
+   "n": 1
   },
   "rt|PUS|TSA|2026-11-22|2026-12-11": {
    "status": "timeout",
@@ -16446,12 +16485,7 @@
   "rt|RMQ|NGO|2026-11-06|2027-05-02": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 4
-  },
-  "rt|RMQ|NGO|2026-11-06|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 2
+   "n": 5
   },
   "rt|RMQ|NGO|2026-11-20|2026-11-22": {
    "status": "timeout",
@@ -16491,7 +16525,7 @@
   "rt|RMQ|NRT|2027-02-10|2027-09-19": {
    "status": "parse_error",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|RMQ|NRT|2027-04-29|2027-09-19": {
    "status": "timeout",
@@ -16529,9 +16563,9 @@
    "n": 2
   },
   "rt|RMQ|PUS|2027-02-10|2027-09-19": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 2
+   "n": 1
   },
   "rt|RMQ|PUS|2027-09-15|2027-09-19": {
    "status": "timeout",
@@ -16619,7 +16653,7 @@
    "n": 1
   },
   "rt|RMQ|USM|2026-11-06|2027-06-13": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -16651,7 +16685,7 @@
   "rt|RMQ|USM|2027-02-10|2027-09-19": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|RMQ|USM|2027-04-29|2027-06-13": {
    "status": "timeout",
@@ -16782,11 +16816,6 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
-  },
-  "rt|TPE|FUK|2026-11-06|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 2
   },
   "rt|TPE|GMP|2026-11-20|2027-06-13": {
    "status": "timeout",
@@ -17051,7 +17080,7 @@
   "rt|TPE|UEO|2026-11-06|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|TPE|UEO|2026-11-13|2026-11-15": {
    "status": "timeout",
@@ -17186,7 +17215,7 @@
   "rt|TSA|CJU|2026-11-06|2027-05-02": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|TSA|CJU|2026-11-13|2026-11-15": {
    "status": "timeout",
@@ -17661,7 +17690,7 @@
   "rt|TSA|NRT|2026-11-06|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|TSA|NRT|2026-12-11|2027-06-13": {
    "status": "timeout",
@@ -17959,9 +17988,9 @@
    "n": 1
   },
   "rt|UEO|RMQ|2027-02-14|2027-09-15": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 2
+   "n": 1
   },
   "rt|UEO|RMQ|2027-05-02|2027-06-09": {
    "status": "timeout",

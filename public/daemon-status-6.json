@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T17:07:53+00:00",
+ "at": "2026-10-27T17:09:26+00:00",
  "publishes": {
-  "ok": 5,
+  "ok": 6,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 753,
+ "fares_saved": 755,
  "log": [
   "15:44:49 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:44:55 git retry 0: b\"eads/main': is at c8db0dfd0afb11eba5279f71e6acd6e7eb4f7305 but expected 68562e965696e64bfd23a72fa698c4c3788cfaf4)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
@@ -99,6 +99,9 @@
   "17:05:19 request mvqxo72585gr1.6: chunk of 24 keys done in 180s; paths {'http': 36, 'browser': 8, 'browser-crashed': 499}, browser waits 507 max 615s sum 67376s; ntfy publishes {'ok': 5, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 36, 'miss': 188, 'blocked': 0, 'tries': 122, 'empty': 86}, audit 1/1 ag",
   "17:05:19 request mvqxo72585gr1.6: final sent (24/24); ntfy publishes {'ok': 5, 'r429': 0, 'fail': 0}",
   "17:07:18 request received: rid mvqxulzl11c67.6 40 keys",
-  "17:07:18 handle mvqxulzl11c67.6: first_chunk=True total=40"
+  "17:07:18 handle mvqxulzl11c67.6: first_chunk=True total=40",
+  "17:08:46 rtc y64l5b4jla: answered",
+  "17:08:58 request received: rid mvqxwdmzzyupj.6 19 keys",
+  "17:08:58 handle mvqxwdmzzyupj.6: first_chunk=True total=19"
  ]
 }

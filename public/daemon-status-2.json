@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T15:59:14+00:00",
+ "at": "2026-10-27T16:00:48+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -30,6 +30,8 @@
   "15:55:31 request mvqv3rcb80j09.1: final sent (47/47); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "15:55:40 request received: rid mvqvagbbc44nv.1 38 keys",
   "15:55:40 handle mvqvagbbc44nv.1: first_chunk=True total=38",
-  "15:57:36 git retry 0: b\"eads/main': is at 820602e866205269ac5b26cdc696a7d7b24c61f6 but expected 59444058982b5445e041f05f3f4c4e8a78a82a34)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\""
+  "15:57:36 git retry 0: b\"eads/main': is at 820602e866205269ac5b26cdc696a7d7b24c61f6 but expected 59444058982b5445e041f05f3f4c4e8a78a82a34)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "15:59:52 request mvqvagbbc44nv.1: chunk of 38 keys done in 252s; paths {'http': 22, 'browser-crashed': 105, 'browser': 10}, browser waits 115 max 303s sum 15831s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 21, 'blocked': 0, 'tries': 48, 'empty': 26}, audit 4/4 agr",
+  "15:59:53 request mvqvagbbc44nv.1: final sent (38/38); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

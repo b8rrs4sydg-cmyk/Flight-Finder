@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T12:56:37+00:00",
+ "generated_at": "2026-10-27T12:58:08+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},

@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T12:46:08+00:00",
+ "at": "2026-10-27T12:49:10+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 578,
+ "fares_saved": 588,
  "log": [
   "10:36:54 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:00 http front door: ['https://eat-photographer-suggestions-civilization.trycloudflare.com', 'https://efd6c0d8dc2084.lhr.life']",
@@ -53,6 +53,12 @@
   "12:43:56 request received: rid mvqoft66fhhyp.1 17 keys",
   "12:43:56 handle mvqoft66fhhyp.1: first_chunk=True total=17",
   "12:45:34 request mvqoft66fhhyp.1: chunk of 17 keys done in 98s; paths {'http': 45, 'browser': 15, 'browser-crashed': 201}, browser waits 216 max 112s sum 12873s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 45, 'miss': 83, 'blocked': 0, 'tries': 116, 'empty': 71}, audit 3/3 agr",
-  "12:45:35 request mvqoft66fhhyp.1: final sent (17/17); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "12:45:35 request mvqoft66fhhyp.1: final sent (17/17); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "12:47:31 queue: 12 keys from the look-up queue in 97s (0 priced, 0 no flight, 12 failed)",
+  "12:47:31 queue: nothing readable, next try in 180s",
+  "12:48:55 request received: rid mvqombwnumyis.1 31 keys",
+  "12:48:55 handle mvqombwnumyis.1: first_chunk=True total=31",
+  "12:49:02 request received: rid mvqomgnrkgbyi.1 32 keys",
+  "12:49:02 handle mvqomgnrkgbyi.1: first_chunk=True total=32"
  ]
 }

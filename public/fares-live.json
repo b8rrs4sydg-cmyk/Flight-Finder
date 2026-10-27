@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T18:06:06+00:00",
+ "generated_at": "2026-10-27T18:07:39+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -260,6 +260,27 @@
     [
      "2026-10-24",
      18602
+    ]
+   ]
+  },
+  "mc|FUK-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-HND-2027-09-15": {
+   "price": 96476,
+   "by_airline": {
+    "EVA Air": 96718,
+    "China Airlines": 105800,
+    "Cathay Pacific": 118672
+   },
+   "first": {
+    "dep": "2027-05-02T07:05:00+09:00",
+    "arr": "2027-05-02T10:55:00+08:00",
+    "stops": 1,
+    "airline": "ANA and EVA Air"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     96476
     ]
    ]
   },
@@ -888,6 +909,27 @@
     [
      "2026-10-22",
      44534
+    ]
+   ]
+  },
+  "mc|PEN-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-GMP-2027-09-15": {
+   "price": 61480,
+   "first": {
+    "dep": "2026-12-27T06:30:00+08:00",
+    "arr": "2026-12-27T14:10:00+08:00",
+    "stops": 1,
+    "airline": "Malaysia Airlines"
+   },
+   "by_airline": {
+    "Malaysia Airlines": 61480,
+    "Cathay Pacific": 97520,
+    "THAI": 102792
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     61480
     ]
    ]
   },
@@ -12572,11 +12614,6 @@
    "at": "2026-10-27",
    "n": 1
   },
-  "mc|FUK-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-HND-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 4
-  },
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-HND-2027-09-15": {
    "status": "parse_error",
    "at": "2026-10-27",
@@ -13178,7 +13215,7 @@
    "n": 1
   },
   "ow|TPE|REP|2026-12-11": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },

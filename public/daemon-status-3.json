@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T18:05:27+00:00",
+ "at": "2026-10-27T18:07:00+00:00",
  "publishes": {
   "ok": 9,
   "r429": 0,
@@ -7,8 +7,6 @@
  },
  "fares_saved": 783,
  "log": [
-  "15:45:00 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:45:10 git retry 0: b\"eads/main': is at 93e969ea5ccf6dffc1d1d9036c81988f4536d44d but expected 1e95bd866f232bbdb003444944dc51aae22aca15)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "15:45:17 http front door: ['https://concert-surgical-colleague-radios.trycloudflare.com', 'https://0babc9a20972bd.lhr.life']",
   "15:45:17 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "15:46:09 request received: rid httptest1793115969 20 keys",
@@ -156,6 +154,8 @@
   "18:02:18 request mvqzq6wwo4zpl.3: chunk of 23 keys done in 147s; paths {'http': 31, 'browser-crashed': 790, 'browser': 40}, browser waits 830 max 638s sum 104933s; ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 31, 'miss': 306, 'blocked': 0, 'tries': 225, 'empty': 194}, audit 3/3",
   "18:02:19 request mvqzq6wwo4zpl.3: final sent (23/23); ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}",
   "18:04:06 request received: rid mvqzvm6prydbb.3 13 keys",
-  "18:04:06 handle mvqzvm6prydbb.3: first_chunk=True total=13"
+  "18:04:06 handle mvqzvm6prydbb.3: first_chunk=True total=13",
+  "18:05:42 request mvqzvm6prydbb.3: chunk of 13 keys done in 97s; paths {'http': 31, 'browser-crashed': 803, 'browser': 40}, browser waits 843 max 638s sum 105783s; ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 31, 'miss': 306, 'blocked': 0, 'tries': 225, 'empty': 194}, audit 3/3 ",
+  "18:05:43 request mvqzvm6prydbb.3: final sent (13/13); ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}"
  ]
 }

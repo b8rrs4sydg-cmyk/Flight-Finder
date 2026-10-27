@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T09:12:51+00:00",
+ "at": "2026-10-27T09:14:22+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 2301,
+ "fares_saved": 549,
  "log": [
   "09:11:09 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:11:14 git retry 0: b\"eads/main': is at 605f1252d329e8b6972c27b6692f058c0cbbabf4 but expected c6182e0d398b54420403e0409eadddb93ff1f654)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",

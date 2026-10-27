@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T13:56:17+00:00",
+ "generated_at": "2026-10-27T13:57:49+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -13867,7 +13867,7 @@
    "n": 1
   },
   "mc|TSN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-KUL-2027-02-10": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },

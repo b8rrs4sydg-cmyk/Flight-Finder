@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T16:34:45+00:00",
+ "at": "2026-10-27T16:36:20+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 726,
+ "fares_saved": 728,
  "log": [
   "15:51:45 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:51:52 http front door: ['https://pale-rand-vehicle-bonus.trycloudflare.com', 'https://fba5f17c92e5ff.lhr.life']",
@@ -48,6 +48,11 @@
   "16:30:12 request received: rid mvqwivzavunhv.8 40 keys",
   "16:30:12 handle mvqwivzavunhv.8: first_chunk=True total=40",
   "16:31:37 git retry 0: b\"eads/main': is at cfa421146611cc76199fbb267009a7db20349e23 but expected f6fcb3197a9243f67a3ae7cf14eb5a48531cb3d1)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "16:34:44 request mvqwivzavunhv.8: chunk of 40 keys done in 272s; paths {'http': 21, 'browser': 6, 'browser-crashed': 215}, browser waits 221 max 308s sum 25137s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 74, 'blocked': 0, 'tries': 43, 'empty': 22}, audit 1/1 agre"
+  "16:34:44 request mvqwivzavunhv.8: chunk of 40 keys done in 272s; paths {'http': 21, 'browser': 6, 'browser-crashed': 215}, browser waits 221 max 308s sum 25137s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 74, 'blocked': 0, 'tries': 43, 'empty': 22}, audit 1/1 agre",
+  "16:34:46 request mvqwivzavunhv.8: final sent (40/40); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "16:35:09 request received: rid mvqwp99thp9b8.7 42 keys",
+  "16:35:09 handle mvqwp99thp9b8.7: first_chunk=True total=42",
+  "16:35:14 queue: 12 keys from the look-up queue in 338s (0 priced, 0 no flight, 12 failed)",
+  "16:35:14 queue: nothing readable, next try in 180s"
  ]
 }

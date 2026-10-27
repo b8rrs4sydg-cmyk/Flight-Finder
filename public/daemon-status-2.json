@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T16:21:20+00:00",
+ "at": "2026-10-27T16:22:53+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 779,
+ "fares_saved": 780,
  "log": [
   "15:44:58 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:45:05 http front door: ['https://past-provider-tones-grocery.trycloudflare.com', 'https://40d23ee65f59af.lhr.life']",
@@ -56,6 +56,7 @@
   "16:18:58 request received: rid mvqw434vkscbq.2 20 keys",
   "16:18:58 handle mvqw434vkscbq.2: first_chunk=True total=20",
   "16:19:03 request received: rid mvqw4irtsowtc.2 34 keys",
-  "16:19:03 handle mvqw4irtsowtc.2: first_chunk=True total=34"
+  "16:19:03 handle mvqw4irtsowtc.2: first_chunk=True total=34",
+  "16:22:52 request mvqw4irtsowtc.2: chunk of 34 keys done in 229s; paths {'http': 22, 'browser-crashed': 268, 'browser': 18}, browser waits 286 max 383s sum 39097s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 135, 'blocked': 0, 'tries': 79, 'empty': 57}, audit 4/4 ag"
  ]
 }

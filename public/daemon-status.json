@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T16:32:50+00:00",
+ "at": "2026-10-27T16:35:53+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 616,
+ "fares_saved": 621,
  "log": [
   "15:49:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:49:52 http front door: ['https://libs-pace-deadline-helena.trycloudflare.com', 'https://8150f881693981.lhr.life']",
@@ -53,6 +53,12 @@
   "16:28:22 request mvqwbdgv122sn.0: chunk of 25 keys done in 239s; paths {'http': 21, 'browser': 12, 'browser-crashed': 234}, browser waits 246 max 398s sum 33481s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 106, 'blocked': 0, 'tries': 49, 'empty': 28}, audit 3/3 ag",
   "16:28:24 request mvqwbdgv122sn.0: final sent (25/25); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
   "16:30:12 request received: rid mvqwivzavunhv.0 34 keys",
-  "16:30:12 handle mvqwivzavunhv.0: first_chunk=True total=34"
+  "16:30:12 handle mvqwivzavunhv.0: first_chunk=True total=34",
+  "16:34:17 request mvqwivzavunhv.0: chunk of 34 keys done in 246s; paths {'http': 21, 'browser': 12, 'browser-crashed': 277}, browser waits 289 max 398s sum 38732s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 106, 'blocked': 0, 'tries': 49, 'empty': 28}, audit 3/3 ag",
+  "16:34:18 request mvqwivzavunhv.0: final sent (34/34); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "16:34:21 queue: 12 keys from the look-up queue in 288s (0 priced, 0 no flight, 12 failed)",
+  "16:34:21 queue: nothing readable, next try in 540s",
+  "16:35:09 request received: rid mvqwp99thp9b8.0 36 keys",
+  "16:35:09 handle mvqwp99thp9b8.0: first_chunk=True total=36"
  ]
 }

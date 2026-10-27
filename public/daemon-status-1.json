@@ -1,29 +1,18 @@
 {
- "at": "2026-10-27T09:24:45+00:00",
+ "at": "2026-10-27T09:29:16+00:00",
  "publishes": {
-  "ok": 3,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 470,
+ "fares_saved": 490,
  "log": [
-  "09:10:59 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "09:11:04 http front door: ['https://involved-shipments-tony-von.trycloudflare.com', 'https://ba70e1d5e56666.lhr.life']",
-  "09:11:04 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "09:12:07 request received: rid httptest1793092326 20 keys",
-  "09:12:07 handle httptest1793092326: first_chunk=True total=20",
-  "09:15:02 request httptest1793092326: chunk of 20 keys done in 175s; paths {'browser': 1, 'browser-crashed': 27}, browser waits 28 max 174s sum 2940s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 0, 'miss': 60, 'blocked': 0, 'tries': 120, 'empty': 120}, audit 0/0 agree",
-  "09:15:02 request httptest1793092326: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "09:15:24 rtc lc0s5bf9n1: answered",
-  "09:15:25 request received: rid mvqgzdwozwkmu.1 17 keys",
-  "09:15:25 handle mvqgzdwozwkmu.1: first_chunk=True total=17",
-  "09:18:26 rtc 438m3h02zq: answered",
-  "09:18:28 request received: rid mvqh3agld7nxk.0 19 keys",
-  "09:18:28 handle mvqh3agld7nxk.0: first_chunk=True total=19",
-  "09:19:50 rtc bit9tszodc: answered",
-  "09:20:03 request received: rid mvqh5ch518p0u.1 12 keys",
-  "09:20:03 handle mvqh5ch518p0u.1: first_chunk=True total=12",
-  "09:22:07 request mvqh5ch518p0u.1: chunk of 12 keys done in 124s; paths {'browser': 1, 'browser-crashed': 75}, browser waits 76 max 508s sum 12885s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 0, 'miss': 69, 'blocked': 1, 'tries': 128, 'empty': 128}, audit 0/0 agree",
-  "09:22:08 request mvqh5ch518p0u.1: final sent (12/12); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "09:27:41 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "09:27:46 http front door: ['https://pee-perfume-protected-perspective.trycloudflare.com', 'https://0633deebba1ee1.lhr.life']",
+  "09:27:46 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "09:28:49 request received: rid httptest1793093329 20 keys",
+  "09:28:49 handle httptest1793093329: first_chunk=True total=20",
+  "09:28:59 request httptest1793093329: chunk of 20 keys done in 10s; paths {'http': 24, 'browser': 1}, browser waits 1 max 3s sum 3s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 24, 'miss': 6, 'blocked': 0, 'tries': 37, 'empty': 13}, audit 0/0 agree",
+  "09:29:00 request httptest1793093329: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T18:19:47+00:00",
+ "at": "2026-10-27T18:21:19+00:00",
  "publishes": {
   "ok": 8,
   "r429": 0,
@@ -7,8 +7,6 @@
  },
  "fares_saved": 765,
  "log": [
-  "15:46:30 request httptest1793115970: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "15:47:17 rtc 7m52nxmnuq: answered",
   "15:47:19 rtc 7m52nxmnuq: data channel open",
   "15:47:20 request received: rid mvquznjhmn5fc.6 21 keys",
   "15:47:20 handle mvquznjhmn5fc.6: first_chunk=True total=21",
@@ -156,6 +154,8 @@
   "18:14:45 queue: 12 keys from the look-up queue in 490s (1 priced, 0 no flight, 11 failed)",
   "18:17:27 request received: rid mvr0ct66sqfsn.7 15 keys",
   "18:17:27 handle mvr0ct66sqfsn.7: first_chunk=True total=15",
-  "18:17:34 queue: 12 keys from the look-up queue in 109s (2 priced, 0 no flight, 10 failed)"
+  "18:17:34 queue: 12 keys from the look-up queue in 109s (2 priced, 0 no flight, 10 failed)",
+  "18:20:16 request mvr0ct66sqfsn.7: chunk of 15 keys done in 169s; paths {'http': 44, 'browser-crashed': 872, 'browser': 45}, browser waits 917 max 642s sum 113524s; ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 44, 'miss': 321, 'blocked': 0, 'tries': 209, 'empty': 165}, audit 3/3",
+  "18:20:16 request mvr0ct66sqfsn.7: final sent (15/15); ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}"
  ]
 }

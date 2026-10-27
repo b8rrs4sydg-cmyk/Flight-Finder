@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T15:49:40+00:00",
+ "at": "2026-10-27T15:51:12+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 761,
+ "fares_saved": 762,
  "log": [
   "15:44:58 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:45:05 http front door: ['https://past-provider-tones-grocery.trycloudflare.com', 'https://40d23ee65f59af.lhr.life']",
@@ -17,6 +17,12 @@
   "15:47:17 rtc 869xzcs1ko: answered",
   "15:47:18 rtc 869xzcs1ko: data channel open",
   "15:47:20 request received: rid mvquznjhmn5fc.1 20 keys",
-  "15:47:20 handle mvquznjhmn5fc.1: first_chunk=True total=20"
+  "15:47:20 handle mvquznjhmn5fc.1: first_chunk=True total=20",
+  "15:49:59 request mvquznjhmn5fc.1: chunk of 20 keys done in 160s; paths {'http': 21, 'browser-crashed': 30}, browser waits 30 max 155s sum 2842s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 18, 'blocked': 0, 'tries': 41, 'empty': 20}, audit 4/4 agree",
+  "15:50:00 request mvquznjhmn5fc.1: final sent (20/20); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "15:50:02 queue: 12 keys from the look-up queue in 236s (0 priced, 0 no flight, 12 failed)",
+  "15:50:02 queue: nothing readable, next try in 180s",
+  "15:50:28 request received: rid mvqv3rcb80j09.1 47 keys",
+  "15:50:28 handle mvqv3rcb80j09.1: first_chunk=True total=47"
  ]
 }

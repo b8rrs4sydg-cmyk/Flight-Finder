@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T09:49:02+00:00",
+ "generated_at": "2026-10-27T09:50:33+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -11317,7 +11317,7 @@
    "n": 2
   },
   "rt|TSA|CNX|2027-04-29|2027-05-02": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },

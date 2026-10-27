@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T12:52:07+00:00",
+ "at": "2026-10-27T12:53:38+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 660,
+ "fares_saved": 667,
  "log": [
   "10:36:46 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:52 http front door: ['https://horses-living-lesson-vista.trycloudflare.com', 'https://c39a5185dc342a.lhr.life']",
@@ -58,6 +58,12 @@
   "12:48:55 request received: rid mvqombwnumyis.3 38 keys",
   "12:48:55 handle mvqombwnumyis.3: first_chunk=True total=38",
   "12:49:02 request received: rid mvqomgnrkgbyi.3 38 keys",
-  "12:49:02 handle mvqomgnrkgbyi.3: first_chunk=True total=38"
+  "12:49:02 handle mvqomgnrkgbyi.3: first_chunk=True total=38",
+  "12:52:56 request received: rid mvqorhkmxutbe.3 40 keys",
+  "12:52:56 handle mvqorhkmxutbe.3: first_chunk=True total=40",
+  "12:52:59 request mvqombwnumyis.3: chunk of 38 keys done in 243s; paths {'http': 48, 'browser': 7, 'browser-crashed': 239}, browser waits 246 max 243s sum 18423s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 48, 'miss': 106, 'blocked': 0, 'tries': 181, 'empty': 133}, audit 0/0 a",
+  "12:52:59 request mvqomgnrkgbyi.3: chunk of 38 keys done in 237s; paths {'http': 48, 'browser': 7, 'browser-crashed': 239}, browser waits 246 max 243s sum 18423s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 48, 'miss': 106, 'blocked': 0, 'tries': 181, 'empty': 133}, audit 0/0 a",
+  "12:53:01 request mvqombwnumyis.3: final sent (38/38); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "12:53:01 request mvqomgnrkgbyi.3: final sent (38/38); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
  ]
 }

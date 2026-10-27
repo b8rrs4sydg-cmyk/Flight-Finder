@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T16:21:52+00:00",
+ "at": "2026-10-27T16:23:24+00:00",
  "publishes": {
   "ok": 4,
   "r429": 0,
@@ -50,6 +50,8 @@
   "16:19:03 rtc phpkyss4ya: answered",
   "16:19:03 request received: rid mvqw4irtsowtc.4 34 keys",
   "16:19:03 handle mvqw4irtsowtc.4: first_chunk=True total=34",
-  "16:19:04 rtc phpkyss4ya: data channel open"
+  "16:19:04 rtc phpkyss4ya: data channel open",
+  "16:23:12 request mvqw4irtsowtc.4: chunk of 34 keys done in 248s; paths {'http': 21, 'browser-crashed': 200, 'browser': 14}, browser waits 214 max 335s sum 26819s; ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 96, 'blocked': 0, 'tries': 46, 'empty': 25}, audit 2/2 agr",
+  "16:23:12 request mvqw4irtsowtc.4: final sent (34/34); ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}"
  ]
 }

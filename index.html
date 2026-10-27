@@ -5078,19 +5078,24 @@ async function ntfyPost(text, topic = T_REQ) {
 /* Fares that arrive are merged into the database right away and the search is
  * re-run (debounced) — the results list grows while the crawler works. */
 let refreshTimer = null;
+let refreshCostMs = 0;   // what the last refresh cost: the next one waits long enough to keep the page responsive
 function scheduleRefresh() {
   if (refreshTimer || !state.result) return;   // nothing to refresh until the user has searched
-  // while fares are streaming in, every refresh re-runs the whole search (about a second on a full database): batch them
+  // while fares are streaming in, every refresh re-runs the whole search (and re-draws every card): batch them, and
+  // keep the page's busy share low — a heavy search (thousands of queries, hundreds of plans) refreshes less often
   const streaming = !!live.rid && live.doc?.status !== 'done' && live.doc?.status !== 'error';
+  const wait = streaming ? Math.min(30000, Math.max(6000, refreshCostMs * 12)) : Math.max(700, refreshCostMs * 2);
   refreshTimer = setTimeout(() => {
     refreshTimer = null;
+    const t0 = performance.now();
     try {
       state.result = runSearch(document.getElementById('search-form'));
       renderResults();
       applyCoverage();
       if (!streaming) { renderTop100(); renderDbCard(); }
     } catch (e) { console.warn('refresh failed', e); }
-  }, streaming ? 6000 : 700);
+    refreshCostMs = performance.now() - t0;
+  }, wait);
 }
 
 /* Wire form from the crawler: [price, dep, arr, stops, airline] (see lookup_daemon.compact). */

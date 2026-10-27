@@ -1,7 +1,7 @@
 {
- "at": "2026-10-27T17:08:27+00:00",
+ "at": "2026-10-27T17:09:59+00:00",
  "publishes": {
-  "ok": 5,
+  "ok": 6,
   "r429": 0,
   "fail": 0
  },
@@ -82,6 +82,9 @@
   "17:06:10 request mvqxo72585gr1.8: chunk of 29 keys done in 231s; paths {'http': 27, 'browser': 11, 'browser-crashed': 376}, browser waits 387 max 338s sum 43317s; ntfy publishes {'ok': 5, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 130, 'blocked': 0, 'tries': 81, 'empty': 54}, audit 1/1 ag",
   "17:06:11 request mvqxo72585gr1.8: final sent (29/29); ntfy publishes {'ok': 5, 'r429': 0, 'fail': 0}",
   "17:07:18 request received: rid mvqxulzl11c67.8 45 keys",
-  "17:07:18 handle mvqxulzl11c67.8: first_chunk=True total=45"
+  "17:07:18 handle mvqxulzl11c67.8: first_chunk=True total=45",
+  "17:08:46 rtc ihqzajs0ly: answered",
+  "17:08:58 request received: rid mvqxwdmzzyupj.8 15 keys",
+  "17:08:58 handle mvqxwdmzzyupj.8: first_chunk=True total=15"
  ]
 }

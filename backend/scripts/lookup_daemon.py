@@ -488,8 +488,7 @@ class Daemon:
 
     async def queue_batch(self, keys: list[str], ctx, sem: PriorityGate) -> None:
         t0 = time.time()
-        self.seq += 1
-        seq = self.seq
+        seq = -(10**9)  # the lowest priority of the gate: a page waiting on this crawler always goes first
         found: dict[str, dict] = {}
         nf: list[str] = []
         failed: list[str] = []

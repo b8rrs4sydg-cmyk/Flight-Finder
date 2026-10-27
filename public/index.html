@@ -4634,7 +4634,7 @@ const LOOKUP_MAX = 160;            // keys per request (crawler limit)
 /* With several crawlers connected a request is split between them (rendezvous hashing, about 1/n each), so a batch can be
  * larger: each crawler still gets well under its own limit (160 keys per request). More keys per batch also means more is
  * fetched while the page is closed, because a crawler finishes a request it has accepted whether or not anyone listens. */
-const lookupMax = () => (live.transport === 'peers' && (live.peerList || []).length ? Math.min(800, 80 * live.peerList.length) : LOOKUP_MAX);
+const lookupMax = () => (live.transport === 'peers' && (live.peerList || []).length ? Math.min(400, 40 * live.peerList.length) : LOOKUP_MAX);
 const MC_BUDGET = 600;             // multi-city fares fetched per search (the most promising ones)
 const LOOKUP_STEPS = [['queued', '送出查詢'], ['dispatched', '等待查詢'], ['running', '取得票價'], ['saving', '整理結果'], ['done', '完成']];
 const live = { db: null, mcp: null, ready: false, rid: null, doc: null, keys: [], started: 0, unsub: null, timer: null,
@@ -4866,7 +4866,10 @@ function nextBatch() {
  * database and the next visit, or the poll below, picks them up. The page's own batches stay the fast path while it is open. */
 const QUEUED = new Set();
 let queueTimer = null;
-async function enqueueBackground() {
+async function enqueueBackground(leaving = false) {
+  // While the page is open and can reach a crawler it sends its own batches (faster, and the crawlers are not asked twice);
+  // the queue is for the moment the person leaves, or when no crawler is reachable from here.
+  if (!leaving && (live.ready || live.ntfyOk)) return;
   if (!(await cloudProbe())) return;
   const open = [...fareStats.missingKeys].filter(k => !live.notFound.has(k) && !QUEUED.has(k));
   const mcOpen = open.filter(k => k.startsWith('mc|'));
@@ -4874,7 +4877,7 @@ async function enqueueBackground() {
   const keys = [...open.filter(k => !k.startsWith('mc|')), ...mc].slice(0, 1000);
   if (!keys.length) return;
   try {
-    const r = await timed('/api/queue', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ keys }) }, 15000);
+    const r = await fetch('/api/queue', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ keys }), keepalive: true });
     if (!r.ok) return;
     keys.forEach(k => QUEUED.add(k));
     queuePollSoon();
@@ -5689,11 +5692,11 @@ async function resumeInPlace(awayMs) {
 function wireSession() {
   let hiddenAt = 0;
   document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'hidden') { hiddenAt = Date.now(); sessionSaveNow(); return; }
+    if (document.visibilityState === 'hidden') { hiddenAt = Date.now(); sessionSaveNow(); if (sessionActive()) enqueueBackground(true).catch(() => {}); return; }
     const away = hiddenAt ? Date.now() - hiddenAt : 0; hiddenAt = 0;
     if (away > 8000) resumeInPlace(away);
   });
-  addEventListener('pagehide', sessionSaveNow);
+  addEventListener('pagehide', () => { sessionSaveNow(); if (sessionActive()) enqueueBackground(true).catch(() => {}); });
   addEventListener('pageshow', e => { if (e.persisted) resumeInPlace(60000); });
   (async () => {
     let sv; try { sv = JSON.parse(localStorage.getItem(SESSION_KEY) || 'null'); } catch { sv = null; }

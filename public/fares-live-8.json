@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T18:07:14+00:00",
+ "generated_at": "2026-10-27T18:08:47+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -408,6 +408,25 @@
     ]
    ]
   },
+  "mc|FUK-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-GMP-2027-09-15": {
+   "price": 115344,
+   "first": {
+    "dep": "2026-12-27T14:15:00+09:00",
+    "arr": "2026-12-27T20:10:00+08:00",
+    "stops": 1,
+    "airline": "Cathay Pacific"
+   },
+   "by_airline": {
+    "Cathay Pacific": 115344
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     115344
+    ]
+   ]
+  },
   "mc|FUK-TPE-2027-01-02|TPE-NRT-2027-02-27": {
    "price": 18467,
    "first": {
@@ -487,6 +506,22 @@
     [
      "2026-10-22",
      49300
+    ]
+   ]
+  },
+  "mc|GMP-TPE-2026-11-08|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-HND-2027-09-15": {
+   "price": 70077,
+   "first": {
+    "dep": "2026-11-08T15:05:00+09:00",
+    "arr": "2026-11-08T21:00:00+08:00",
+    "stops": 1,
+    "airline": "Korean Air and EVA Air"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     70077
     ]
    ]
   },
@@ -647,6 +682,25 @@
     [
      "2026-10-22",
      77471
+    ]
+   ]
+  },
+  "mc|HKT-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-GMP-2027-09-15": {
+   "price": 71446,
+   "by_airline": {
+    "THAI": 93170
+   },
+   "first": {
+    "dep": "2026-12-27T12:45:00+07:00",
+    "arr": "2026-12-27T20:40:00+08:00",
+    "stops": 1,
+    "airline": "Bangkok Airways and EVA Air"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     71446
     ]
    ]
   },
@@ -1208,6 +1262,26 @@
     ]
    ]
   },
+  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-CGK-2026-12-24": {
+   "price": 69616,
+   "by_airline": {
+    "China Southern": 69616,
+    "THAI": 114217
+   },
+   "first": {
+    "dep": "2026-11-08T06:55:00+08:00",
+    "arr": "2026-11-08T14:15:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     69616
+    ]
+   ]
+  },
   "mc|NGO-TPE-2027-01-03|TPE-FUK-2027-02-25": {
    "price": 18107,
    "first": {
@@ -1542,6 +1616,26 @@
     [
      "2026-10-24",
      17591
+    ]
+   ]
+  },
+  "mc|PEN-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-XIY-2027-04-29": {
+   "price": 70565,
+   "first": {
+    "dep": "2026-12-27T06:45:00+08:00",
+    "arr": "2026-12-27T14:10:00+08:00",
+    "stops": 1,
+    "airline": "Firefly, Malaysia Airlines"
+   },
+   "by_airline": {
+    "Cathay Pacific": 98218,
+    "THAI": 111917
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     70565
     ]
    ]
   },
@@ -2329,6 +2423,44 @@
     [
      "2026-10-24",
      28099
+    ]
+   ]
+  },
+  "mc|TSN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-XIY-2027-02-10": {
+   "price": 71555,
+   "first": {
+    "dep": "2026-11-08T19:00:00+08:00",
+    "arr": "2026-11-09T12:25:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 71555
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     71555
+    ]
+   ]
+  },
+  "mc|TSN-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "price": 66705,
+   "by_airline": {
+    "China Southern": 66705
+   },
+   "first": {
+    "dep": "2026-12-27T19:00:00+08:00",
+    "arr": "2026-12-28T12:25:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     66705
     ]
    ]
   },
@@ -14809,11 +14941,6 @@
    "at": "2026-10-27",
    "n": 2
   },
-  "mc|FUK-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-GMP-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 2
-  },
   "mc|FUK-TPE-2027-02-15|TPE-HND-2027-02-26": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -14839,11 +14966,6 @@
    "at": "2026-10-27",
    "n": 1
   },
-  "mc|GMP-TPE-2026-11-08|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-HND-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 1
-  },
   "mc|GMP-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-GMP-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -14863,11 +14985,6 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
-  },
-  "mc|HKT-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-GMP-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 2
   },
   "mc|HKT-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
    "status": "timeout",
@@ -14920,12 +15037,7 @@
    "n": 2
   },
   "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 2
-  },
-  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-CGK-2026-12-24": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -14941,6 +15053,11 @@
   },
   "mc|KMG-TPE-2026-11-08|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
    "status": "parse_error",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|KMG-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -14960,7 +15077,7 @@
    "n": 1
   },
   "mc|RGN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-XIY-2027-02-10": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -15019,15 +15136,10 @@
    "at": "2026-10-27",
    "n": 1
   },
-  "mc|TSN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-XIY-2027-02-10": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 2
-  },
   "mc|XIY-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 2
+   "n": 1
   },
   "mc|XIY-TPE-2027-05-02|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-BKI-2027-09-15": {
    "status": "timeout",

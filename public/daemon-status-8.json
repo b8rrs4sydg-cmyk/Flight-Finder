@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T18:07:14+00:00",
+ "at": "2026-10-27T18:08:47+00:00",
  "publishes": {
   "ok": 9,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 752,
+ "fares_saved": 759,
  "log": [
   "15:51:45 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:51:52 http front door: ['https://pale-rand-vehicle-bonus.trycloudflare.com', 'https://fba5f17c92e5ff.lhr.life']",

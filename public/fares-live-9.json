@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T13:33:43+00:00",
+ "generated_at": "2026-10-27T13:35:15+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -3726,6 +3726,28 @@
     ]
    ]
   },
+  "ow|TPE|CKG|2026-12-11": {
+   "price": 6190,
+   "first": {
+    "dep": "2026-12-11T17:55:00+08:00",
+    "arr": "2026-12-12T09:35:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 6190,
+    "Shenzhen": 7945,
+    "Shandong": 8435,
+    "Cathay Pacific": 10645
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     6190
+    ]
+   ]
+  },
   "ow|TPE|CNX|2026-11-06": {
    "price": 5588,
    "first": {
@@ -3792,6 +3814,50 @@
     [
      "2026-10-22",
      7609
+    ]
+   ]
+  },
+  "ow|TPE|CTU|2026-11-20": {
+   "price": 7847,
+   "first": {
+    "dep": "2026-11-20T15:30:00+08:00",
+    "arr": "2026-11-20T23:00:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 7847,
+    "Shenzhen": 9247,
+    "Cathay Pacific": 10645,
+    "EVA Air": 15344
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     7847
+    ]
+   ]
+  },
+  "ow|TPE|CTU|2026-12-11": {
+   "price": 7847,
+   "first": {
+    "dep": "2026-12-11T15:30:00+08:00",
+    "arr": "2026-12-11T23:00:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 7847,
+    "Shenzhen": 9247,
+    "EVA Air": 9845,
+    "Cathay Pacific": 10645
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     7847
     ]
    ]
   },
@@ -4976,6 +5042,28 @@
     [
      "2026-10-22",
      10457
+    ]
+   ]
+  },
+  "ow|TSN|TPE|2026-12-27": {
+   "price": 5497,
+   "first": {
+    "dep": "2026-12-27T19:00:00+08:00",
+    "arr": "2026-12-28T12:25:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 5497,
+    "Shenzhen": 9749,
+    "Asiana Airlines": 13149,
+    "Korean Air": 13830
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     5497
     ]
    ]
   },
@@ -12699,6 +12787,11 @@
    "n": 1
   },
   "ow|RMQ|GMP|2027-06-09": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "ow|TPE|CAN|2027-04-29": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1

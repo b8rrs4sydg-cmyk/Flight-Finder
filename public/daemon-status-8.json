@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:33:53+00:00",
+ "at": "2026-10-27T13:35:25+00:00",
  "publishes": {
   "ok": 4,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 674,
+ "fares_saved": 681,
  "log": [
   "10:46:17 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:46:23 http front door: ['https://zoo-covering-patch-practical.trycloudflare.com', 'https://2e933bc542d940.lhr.life']",
@@ -89,6 +89,10 @@
   "13:25:29 rtc 8ma498j580: data channel open",
   "13:31:10 request received: rid mvqq4nlectjow.8 34 keys",
   "13:31:10 handle mvqq4nlectjow.8: first_chunk=True total=34",
-  "13:32:17 git retry 0: b\"eads/main': is at 4164dc1c7808a11b9e9ccdbfd8414726def6cff2 but expected 295757145bf6599efc3c870645bcb96c273740a8)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\""
+  "13:32:17 git retry 0: b\"eads/main': is at 4164dc1c7808a11b9e9ccdbfd8414726def6cff2 but expected 295757145bf6599efc3c870645bcb96c273740a8)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "13:34:32 request mvqq4nlectjow.8: chunk of 34 keys done in 202s; paths {'http': 51, 'browser': 9, 'browser-crashed': 478}, browser waits 487 max 382s sum 54756s; ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 51, 'miss': 227, 'blocked': 0, 'tries': 274, 'empty': 223}, audit 2/2 a",
+  "13:34:34 request mvqq4nlectjow.8: final sent (34/34); ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}",
+  "13:34:52 request received: rid mvqq9f57km1rw.8 12 keys",
+  "13:34:52 handle mvqq9f57km1rw.8: first_chunk=True total=12"
  ]
 }

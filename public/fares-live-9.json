@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T17:59:04+00:00",
+ "generated_at": "2026-10-27T18:00:36+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -10028,6 +10028,26 @@
     ]
    ]
   },
+  "rt|TPE|DMK|2026-12-24|2027-09-19": {
+   "price": 13177,
+   "by_airline": {
+    "Thai AirAsia": 13177,
+    "AirAsia": 16358
+   },
+   "first": {
+    "dep": "2026-12-24T18:35:00+08:00",
+    "arr": "2026-12-24T21:30:00+07:00",
+    "stops": 0,
+    "airline": "Thai AirAsia"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     13177
+    ]
+   ]
+  },
   "rt|TPE|DMK|2027-02-11|2027-06-13": {
    "price": 7669,
    "first": {
@@ -16382,11 +16402,6 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
-  },
-  "rt|TPE|DMK|2026-12-24|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 3
   },
   "rt|TPE|FOC|2026-12-11|2026-12-13": {
    "status": "timeout",

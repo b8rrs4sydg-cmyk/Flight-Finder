@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:30:09+00:00",
+ "at": "2026-10-27T13:31:41+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 683,
+ "fares_saved": 688,
  "log": [
   "10:36:40 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:45 http front door: ['https://spam-families-selecting-nikon.trycloudflare.com', 'https://3eebe1d68a0475.lhr.life']",
@@ -89,6 +89,11 @@
   "13:23:46 request mvqpq04iyqtch.6: chunk of 37 keys done in 240s; paths {'http': 44, 'browser': 27, 'browser-crashed': 470}, browser waits 497 max 304s sum 47523s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 44, 'miss': 200, 'blocked': 2, 'tries': 233, 'empty': 189}, audit 1/1 ",
   "13:23:47 request mvqpq04iyqtch.6: final sent (37/37); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
   "13:25:28 request received: rid mvqpxamf89t57.5 43 keys",
-  "13:25:28 handle mvqpxamf89t57.5: first_chunk=True total=43"
+  "13:25:28 handle mvqpxamf89t57.5: first_chunk=True total=43",
+  "13:30:22 request mvqpxamf89t57.5: chunk of 43 keys done in 294s; paths {'http': 45, 'browser': 29, 'browser-crashed': 519}, browser waits 548 max 304s sum 54512s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 45, 'miss': 205, 'blocked': 2, 'tries': 241, 'empty': 196}, audit 1/1 ",
+  "13:30:23 request mvqpxamf89t57.5: final sent (43/43); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "13:30:49 queue: 12 keys from the look-up queue in 361s (1 priced, 0 no flight, 11 failed)",
+  "13:31:10 request received: rid mvqq4nlectjow.6 33 keys",
+  "13:31:10 handle mvqq4nlectjow.6: first_chunk=True total=33"
  ]
 }

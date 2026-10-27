@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T10:04:17+00:00",
+ "generated_at": "2026-10-27T10:38:17+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -3404,17 +3404,17 @@
   },
   "ow|TPE|ICN|2027-03-08": {
    "price": 3599,
-   "first": {
-    "dep": "2027-03-08T20:00:00+08:00",
-    "arr": "2027-03-08T23:30:00+09:00",
-    "stops": 0,
-    "airline": "Tigerair Taiwan"
-   },
    "by_airline": {
     "Tigerair Taiwan": 3599,
     "Scoot": 3988,
     "Hong Kong Express": 5261,
     "Jeju Air": 5832
+   },
+   "first": {
+    "dep": "2027-03-08T20:00:00+08:00",
+    "arr": "2027-03-08T23:30:00+09:00",
+    "stops": 0,
+    "airline": "Tigerair Taiwan"
    },
    "at": "2026-10-27",
    "hist": [

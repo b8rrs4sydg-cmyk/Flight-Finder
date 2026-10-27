@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T12:53:30+00:00",
+ "generated_at": "2026-10-27T12:55:02+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -12916,8 +12916,13 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "ow|KUL|TPE|2026-11-22": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
   "ow|PEN|TPE|2026-11-08": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -12942,6 +12947,11 @@
    "n": 1
   },
   "ow|RMQ|GMP|2027-06-09": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "ow|TPE|PEN|2026-11-20": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
@@ -13414,7 +13424,7 @@
   "rt|RMQ|MMY|2026-11-06|2026-11-08": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 6
+   "n": 7
   },
   "rt|RMQ|MMY|2026-11-20|2026-11-22": {
    "status": "timeout",
@@ -13432,7 +13442,7 @@
    "n": 1
   },
   "rt|RMQ|NGO|2026-11-20|2026-11-22": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -13452,12 +13462,12 @@
    "n": 1
   },
   "rt|RMQ|SZX|2026-12-11|2026-12-13": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
   "rt|RMQ|UEO|2026-11-20|2026-11-22": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -13497,7 +13507,7 @@
    "n": 1
   },
   "rt|RMQ|USM|2026-12-11|2026-12-13": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -13897,7 +13907,7 @@
    "n": 1
   },
   "rt|TSA|HKT|2026-12-11|2026-12-13": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -14007,7 +14017,7 @@
    "n": 1
   },
   "rt|TSA|PUS|2026-11-06|2026-11-08": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -14037,12 +14047,12 @@
    "n": 1
   },
   "rt|TSA|SZX|2026-11-06|2026-11-08": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
   "rt|TSA|SZX|2026-12-11|2026-12-13": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -14082,7 +14092,7 @@
    "n": 1
   },
   "rt|TSA|USM|2026-11-06|2026-11-08": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },

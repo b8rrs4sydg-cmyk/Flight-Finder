@@ -1141,6 +1141,17 @@
     #filters .quick-chips { padding: 12px 12px 4px }
     #filters #f-toggle { display: none }
   }
+
+  /* resume: the card that offers the last search back, and the little toast that says what happened while the page was away */
+  .resume-card { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; background: var(--brand-wash); color: var(--brand-ink); border-radius: 12px; padding: 10px 14px; margin: 0 0 12px; font-size: 13.5px }
+  .resume-card[hidden] { display: none }
+  .resume-card .rc-text { flex: 1 1 220px; min-width: 0 }
+  .resume-card button { appearance: none; border: 0; border-radius: 999px; font: 600 13px/1 var(--font-body); padding: 8px 14px; cursor: pointer }
+  .resume-card .rc-go { background: var(--brand); color: #fff }
+  .resume-card .rc-x { background: transparent; color: var(--brand-ink); padding: 8px 10px; font-size: 16px }
+  .toast { position: fixed; left: 50%; bottom: 28px; transform: translateX(-50%); z-index: 90; max-width: min(92vw, 520px); background: var(--fg); color: var(--bg); padding: 10px 18px; border-radius: 999px; font-size: 13px; line-height: 1.4; box-shadow: 0 8px 28px rgb(0 0 0 / .25); text-align: center }
+  .toast[hidden] { display: none }
+  @media (max-width: 720px) { .toast { bottom: calc(84px + env(safe-area-inset-bottom, 0px)) } }
 </style>
 </head>
 <body>
@@ -1182,6 +1193,7 @@
     </div>
   </header>
 
+  <div id="resume-card" class="resume-card" hidden></div>
   <section class="card" id="search-card" aria-labelledby="search-title">
     <h2 id="search-title">搜尋條件</h2>
     <div id="intro" class="intro" hidden>
@@ -1413,6 +1425,7 @@
   <a href="wiki.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zM4 21V5M9 7h6"/></svg>說明</a>
 </nav>
 <div id="sheet-backdrop" hidden></div>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 <div class="fab-row">
   <button class="fab" type="button" id="fab-help">? 快捷鍵</button>
 </div>
@@ -4053,6 +4066,9 @@ function savePrefs() {
 function applyPrefs() {
   let p;
   try { p = JSON.parse(localStorage.getItem(PREFS_KEY) || 'null'); } catch { p = null; }
+  applyPrefsObj(p);
+}
+function applyPrefsObj(p) {
   if (!p) return;
   if (p.trip === 'round_trip' || p.trip === 'one_way') document.getElementById('f-trip').value = p.trip;
   if (Number.isFinite(p.flex)) document.getElementById('f-bulk-flex').value = clampFlex(p.flex);
@@ -4384,7 +4400,9 @@ function wireSubmit() {
         updateTabBadge();
         if (user && phoneMQ.matches) setView('results');
         elapsed.textContent = `· 搜尋耗時 ${Math.round(performance.now() - t0)} ms`;
+        if (user || !SESSION.form) SESSION.form = sessionFormNow();   // what this search was made of (the form may be edited afterwards)
         maybeLookup(user);
+        sessionSaveSoon();
       } finally {
         btn.textContent = '搜尋';
         updateSlotSummary();
@@ -4611,6 +4629,10 @@ const WORKER_SESSION = 'session_013kKEszjSVCbMpRKkq9i8Gg';
 // Poke-only scheduled task bound to that session: firing it wakes Claude with the request id.
 const WORKER_TRIGGER = 'trig_01YJmjteUtHz6uoWp6moa8fM';
 const LOOKUP_MAX = 160;            // keys per request (crawler limit)
+/* With several crawlers connected a request is split between them (rendezvous hashing, about 1/n each), so a batch can be
+ * larger: each crawler still gets well under its own limit (160 keys per request). More keys per batch also means more is
+ * fetched while the page is closed, because a crawler finishes a request it has accepted whether or not anyone listens. */
+const lookupMax = () => (live.transport === 'peers' && (live.peerList || []).length ? Math.min(800, 80 * live.peerList.length) : LOOKUP_MAX);
 const MC_BUDGET = 600;             // multi-city fares fetched per search (the most promising ones)
 const LOOKUP_STEPS = [['queued', '送出查詢'], ['dispatched', '等待查詢'], ['running', '取得票價'], ['saving', '整理結果'], ['done', '完成']];
 const live = { db: null, mcp: null, ready: false, rid: null, doc: null, keys: [], started: 0, unsub: null, timer: null,
@@ -4642,7 +4664,7 @@ function campaignText() {
   if (!c || !c.batch) return '';
   const left = Math.max(0, (c.left || 0) - (live.keys?.length || 0));
   const found = c.found + (live.doc?.status === 'done' ? 0 : (live.doc?.found || 0));
-  return `<div class="hint" style="margin-top:4px">這次搜尋已查 ${c.asked} 筆、找到 ${found} 筆實價${left ? `；還有約 ${left} 筆，查完會自動繼續` : ''}</div>`;
+  return `<div class="hint" style="margin-top:4px">這次搜尋已查 ${c.asked} 筆、找到 ${found} 筆實價${left ? `；還有約 ${left} 筆，查完會自動繼續` : ''}${c.resumed ? '（已接續上次的進度）' : ''}</div>`;
 }
 
 function renderLookup() {
@@ -4825,16 +4847,16 @@ function planMulti(open) {
 function nextBatch() {
   const open = [...fareStats.missingKeys].filter(k => !live.asked.has(k) && !live.notFound.has(k));
   const stage1 = open.filter(k => !k.startsWith('mc|'));
-  if (stage1.length) return { keys: stage1.slice(0, LOOKUP_MAX), stage: 1, left: stage1.length };
+  if (stage1.length) return { keys: stage1.slice(0, lookupMax()), stage: 1, left: stage1.length };
   if (live.campaign.all) {   // "search every permutation": no budget, no date-variant quota — all of them, likeliest first
     const ix = priceIndex();
     const all = open.filter(k => k.startsWith('mc|')).map(k => mcInfo(k, ix)).sort((a, b) => b.score - a.score).map(i => i.key);
-    return { keys: all.slice(0, LOOKUP_MAX), stage: 2, left: all.length };
+    return { keys: all.slice(0, lookupMax()), stage: 2, left: all.length };
   }
   // the audit tickets (the closest calls the one-way screening skipped) are asked first, whatever the route quotas say
   const audit = open.filter(k => SCREEN.audited.has(k));
   const mc = [...new Set([...audit, ...planMulti(open)])].slice(0, Math.max(0, live.campaign.mcLeft));
-  return { keys: mc.slice(0, LOOKUP_MAX), stage: 2, left: mc.length };
+  return { keys: mc.slice(0, lookupMax()), stage: 2, left: mc.length };
 }
 
 /* After a search: look up whatever is missing, batch after batch, until nothing worth asking remains. */
@@ -4856,6 +4878,7 @@ function maybeLookup(fromUser = false) {
   live.campaign.left = batch.left;
   if (batch.stage === 2 && !live.campaign.all) live.campaign.mcLeft -= batch.keys.length;
   live.campaign.asked += batch.keys.length;
+  sessionSaveSoon();
   startLookup(batch.keys);
 }
 
@@ -5047,6 +5070,7 @@ function mergeLiveFares(fares, nf) {
   }
   for (const k of nf || []) if (asked.has(k)) { live.notFound.add(k); live.answered.add(k); }
   if (n) saveLiveCache();
+  sessionSaveSoon();
   return n;
 }
 
@@ -5372,6 +5396,7 @@ function ntfyLookup(keys, rid) {
 }
 
 function finishLookup() {
+  sessionSaveSoon();
   const nf = live.keys.filter(k => live.notFound.has(k));
   live.doc = { ...live.doc, status: 'done', found: live.keys.filter(k => FARES.fares[k]).length, done: live.keys.length, not_found: nf };
   clearInterval(live.timer);
@@ -5498,10 +5523,157 @@ async function subscribeLiveFares() {
   }, () => {});
 }
 
+/* =========================================================================
+ * Leaving and coming back. A search is not lost when the page goes away:
+ *  - the form (time slots, airports, strategies...) and the look-up campaign (how far it got, what has no flight) are saved in
+ *    localStorage as it moves, and once more the moment the page is hidden or closed;
+ *  - a crawler that has accepted a request finishes it whether or not the page still listens, and saves what it found, so
+ *    the fares keep arriving while the page is away;
+ *  - coming back (reopening, or the tab / app waking up) reloads the fare data first, then asks only for what is still
+ *    missing and carries on batch after batch. A finished search is offered back with one tap.
+ * ========================================================================= */
+const SESSION_KEY = 'sff.session.v1';
+const SESSION_TTL = 24 * 3600 * 1000;
+const SESSION = { form: null, timer: null, resuming: false };
+let initialFareLoad = Promise.resolve();
+
+function sessionFormNow() {
+  const g = id => document.getElementById(id);
+  return {
+    trip: g('f-trip').value, adults: g('f-adults').value, budget: g('f-budget').value, flex: bulkFlex(),
+    weights: ['w-flight', 'w-price', 'w-pto', 'w-risk'].map(id => g(id)?.value ?? null),
+    strategies: [...document.querySelectorAll('#search-form .strategies input[type=checkbox]:checked')].map(c => c.value),
+    origins: checkedCodes('pick-origins'), dests: checkedCodes('pick-dest'), outer: checkedCodes('pick-outer'),
+    slots: slots.map(({ label, holidayKey, depart, ret, departFlex, retFlex }) => ({ label, holidayKey, depart, ret, departFlex, retFlex })),
+  };
+}
+
+function sessionActive() {
+  if (!state.result) return false;
+  if (live.rid && live.doc?.status !== 'done' && live.doc?.status !== 'error') return true;
+  try { return !!live.campaign?.batch && nextBatch().keys.length > 0; } catch { return false; }
+}
+
+function sessionSaveNow() {
+  clearTimeout(SESSION.timer); SESSION.timer = null;
+  if (!state.result || !SESSION.form) return;            // nothing was searched: nothing to come back to
+  try {
+    const c = { ...live.campaign };
+    if (c.mcLeft === Infinity) c.mcLeft = null;
+    localStorage.setItem(SESSION_KEY, JSON.stringify({
+      v: 1, savedAt: Date.now(), form: SESSION.form, active: sessionActive(), campaign: c,
+      notFound: [...live.notFound].slice(0, 3000), screenAll: !!SCREEN.all,
+      pending: [...fareStats.missingKeys].slice(0, 2500),   // what was still missing: how many of them arrived while away
+    }));
+  } catch { /* private mode / full: coming back just starts empty */ }
+}
+function sessionSaveSoon() {
+  if (SESSION.timer || !state.result) return;
+  SESSION.timer = setTimeout(sessionSaveNow, 1500);
+}
+function sessionClear() { try { localStorage.removeItem(SESSION_KEY); } catch {} }
+
+let toastTimer = null;
+function toast(msg, ms = 7000) {
+  const el = document.getElementById('toast');
+  if (!el) return;
+  el.textContent = msg; el.hidden = false;
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => { el.hidden = true; }, ms);
+}
+
+function restoreForm(f) {
+  const g = id => document.getElementById(id);
+  if (f.adults != null) g('f-adults').value = f.adults;
+  if (f.budget != null) g('f-budget').value = f.budget;
+  (f.weights || []).forEach((v, i) => { const el = g(['w-flight', 'w-price', 'w-pto', 'w-risk'][i]); if (el && v != null) { el.value = v; el.dispatchEvent(new Event('input')); } });
+  applyPrefsObj({ trip: f.trip, flex: f.flex, strategies: f.strategies, origins: f.origins, dests: f.dests, outer: f.outer });
+  slots.length = 0;
+  for (const sl of f.slots || []) slots.push({ id: nextSlotId++, ...sl, label: sl.label || '' });
+  renderSlots();
+  updateSlotSummary();
+}
+
+const slotsText = f => (f.slots || []).map(s => slotSpan({ ...s })).join('、');
+
+async function resumeSession(auto) {
+  let sv;
+  try { sv = JSON.parse(localStorage.getItem(SESSION_KEY) || 'null'); } catch { sv = null; }
+  if (!sv || sv.v !== 1 || !sv.form?.slots?.length || Date.now() - sv.savedAt > SESSION_TTL) return false;
+  SESSION.resuming = true;
+  restoreForm(sv.form);
+  SESSION.form = sv.form;
+  (sv.notFound || []).forEach(k => live.notFound.add(k));
+  SCREEN.all = !!sv.screenAll;
+  if (sv.campaign) {
+    live.campaign = { ...sv.campaign, mcLeft: sv.campaign.mcLeft == null ? (sv.screenAll ? Infinity : MC_BUDGET) : sv.campaign.mcLeft, resumed: true };
+    if (sv.campaign.all) live.campaign.mcLeft = Infinity;
+  }
+  await initialFareLoad;                                  // what the crawlers saved while the page was away
+  if (cloudNeedsRefresh()) await loadSiblingFares();
+  const gained = (sv.pending || []).filter(k => FARES.fares[k]).length;
+  if (!updateSlotSummary()) { SESSION.resuming = false; return false; }
+  document.getElementById('search-form').requestSubmit();   // same path as the automatic re-search after a database update
+  if (phoneMQ.matches) setTimeout(() => setView('results'), 350);
+  SESSION.resuming = false;
+  toast(auto
+    ? `已接續上次的搜尋（${slotsText(sv.form)}）${gained ? `；你離開這段時間又查到 ${gained} 筆票價` : '；剩下的會繼續查'}`
+    : `已載入上次的搜尋結果（${slotsText(sv.form)}）`);
+  return true;
+}
+const cloudNeedsRefresh = () => !(typeof CLOUD !== 'undefined' && CLOUD.on && CLOUD.since);
+
+function showResumeCard() {
+  const card = document.getElementById('resume-card');
+  let sv;
+  try { sv = JSON.parse(localStorage.getItem(SESSION_KEY) || 'null'); } catch { sv = null; }
+  if (!card || !sv || sv.v !== 1 || !sv.form?.slots?.length || Date.now() - sv.savedAt > SESSION_TTL) return;
+  const dests = (sv.form.dests || []).slice(0, 3).join('/') + ((sv.form.dests || []).length > 3 ? ` +${sv.form.dests.length - 3}` : '');
+  const when = new Date(sv.savedAt), hhmm = `${when.getMonth() + 1}/${when.getDate()} ${String(when.getHours()).padStart(2, '0')}:${String(when.getMinutes()).padStart(2, '0')}`;
+  card.innerHTML = `<span class="rc-text">上次搜尋（${hhmm}）：<b>${escapeHtml(slotsText(sv.form))}</b> → ${escapeHtml(dests)}</span>
+    <button type="button" class="rc-go">查看結果</button><button type="button" class="rc-x" aria-label="略過">×</button>`;
+  card.hidden = false;
+  card.querySelector('.rc-go').onclick = async () => { card.hidden = true; await resumeSession(false); };
+  card.querySelector('.rc-x').onclick = () => { card.hidden = true; sessionClear(); };
+}
+
+/* the tab / app comes back (or leaves): save, and on return reload the fares and carry on with what is still missing */
+async function resumeInPlace(awayMs) {
+  if (!state.result || SESSION.resuming) return;
+  SESSION.resuming = true;
+  try {
+    const pending = [...fareStats.missingKeys];
+    await loadSiblingFares();                              // fares the crawlers saved while this tab slept
+    const gained = pending.filter(k => FARES.fares[k]).length;
+    const busy = live.rid && live.doc?.status !== 'done' && live.doc?.status !== 'error';
+    if (busy) {                                            // the connection of the running batch probably died with the sleep
+      live.keys.filter(k => !live.answered.has(k)).forEach(k => live.asked.delete(k));
+      resetLookup();
+    }
+    if (busy || (live.campaign?.batch && sessionActive())) document.getElementById('search-form').requestSubmit();   // recount, then ask for what is left
+    if (gained && awayMs > 30000) toast(`你離開這段時間又查到 ${gained} 筆票價，結果已更新`);
+  } finally { SESSION.resuming = false; }
+}
+
+function wireSession() {
+  let hiddenAt = 0;
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') { hiddenAt = Date.now(); sessionSaveNow(); return; }
+    const away = hiddenAt ? Date.now() - hiddenAt : 0; hiddenAt = 0;
+    if (away > 8000) resumeInPlace(away);
+  });
+  addEventListener('pagehide', sessionSaveNow);
+  addEventListener('pageshow', e => { if (e.persisted) resumeInPlace(60000); });
+  (async () => {
+    let sv; try { sv = JSON.parse(localStorage.getItem(SESSION_KEY) || 'null'); } catch { sv = null; }
+    if (!sv || sv.v !== 1 || !sv.form?.slots?.length || Date.now() - sv.savedAt > SESSION_TTL) return;
+    if (sv.active) await resumeSession(true); else showResumeCard();
+  })();
+}
+
 function init() {
   loadFareSnapshot();
   loadLiveCache();
-  loadSiblingFares();
+  initialFareLoad = loadSiblingFares();
   setInterval(loadSiblingFares, 5 * 60 * 1000);   // pick up what the crawlers saved meanwhile
   wireTop100();
   wireDbCard();
@@ -5524,7 +5696,8 @@ function init() {
   wireQuickChips();
   wireRefreshStale();
   tryLoadSharedPlan();
-  // No auto-run: a search starts only when the user presses 搜尋.
+  wireSession();   // brings back a look-up that was still running when the page was left
+  // Otherwise no auto-run: a search starts only when the user presses 搜尋.
 }
 
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);

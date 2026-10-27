@@ -1,7 +1,7 @@
 {
- "at": "2026-10-27T16:43:58+00:00",
+ "at": "2026-10-27T17:00:30+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
@@ -81,6 +81,14 @@
   "16:43:43 request mvqwvercp53wt.9: chunk of 28 keys done in 225s; paths {'http': 32, 'browser-crashed': 441, 'browser': 10}, browser waits 451 max 631s sum 65358s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 32, 'miss': 155, 'blocked': 0, 'tries': 102, 'empty': 70}, audit 4/4 a",
   "16:43:43 request mvqwwluc14pja.9: chunk of 25 keys done in 171s; paths {'http': 32, 'browser-crashed': 441, 'browser': 10}, browser waits 451 max 631s sum 65358s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 32, 'miss': 155, 'blocked': 0, 'tries': 102, 'empty': 70}, audit 4/4 a",
   "16:43:44 request mvqwvercp53wt.9: final sent (28/28); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
-  "16:43:44 request mvqwwluc14pja.9: final sent (25/25); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "16:43:44 request mvqwwluc14pja.9: final sent (25/25); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "16:48:11 queue: 12 keys from the look-up queue in 135s (0 priced, 0 no flight, 12 failed)",
+  "16:48:11 queue: nothing readable, next try in 540s",
+  "16:58:23 rtc wqf0hqo661: answered",
+  "16:58:25 rtc wqf0hqo661: data channel open",
+  "16:58:26 request received: rid mvqxj47gwzezr.6 28 keys",
+  "16:58:26 handle mvqxj47gwzezr.6: first_chunk=True total=28",
+  "16:58:59 queue: 12 keys from the look-up queue in 108s (0 priced, 0 no flight, 12 failed)",
+  "16:58:59 queue: nothing readable, next try in 1020s"
  ]
 }

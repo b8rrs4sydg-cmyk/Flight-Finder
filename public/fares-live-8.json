@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T18:02:34+00:00",
+ "generated_at": "2026-10-27T18:04:08+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -10432,6 +10432,28 @@
     ]
    ]
   },
+  "rt|TPE|CTS|2026-12-24|2027-02-14": {
+   "price": 24094,
+   "by_airline": {
+    "Jetstar": 24094,
+    "Scoot": 28198,
+    "Tigerair Taiwan": 31287,
+    "Thai AirAsia": 32432
+   },
+   "first": {
+    "dep": "2026-12-24T18:15:00+08:00",
+    "arr": "2026-12-25T11:50:00+09:00",
+    "stops": 1,
+    "airline": "Jetstar"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     24094
+    ]
+   ]
+  },
   "rt|TPE|CTS|2027-02-10|2027-09-19": {
    "price": 19143,
    "by_airline": {
@@ -15405,7 +15427,7 @@
   "rt|DMK|RMQ|2026-12-27|2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 3
+   "n": 4
   },
   "rt|DMK|RMQ|2027-02-14|2027-09-15": {
    "status": "timeout",
@@ -15475,7 +15497,7 @@
   "rt|DMK|TSA|2026-12-27|2027-02-10": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|DMK|TSA|2027-02-14|2027-09-15": {
    "status": "timeout",
@@ -15878,9 +15900,9 @@
    "n": 1
   },
   "rt|MMY|RMQ|2026-12-27|2027-09-15": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 3
+   "n": 1
   },
   "rt|MMY|RMQ|2027-02-14|2027-04-29": {
    "status": "timeout",
@@ -16158,9 +16180,9 @@
    "n": 3
   },
   "rt|RMQ|CJU|2026-12-24|2027-09-19": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 3
+   "n": 1
   },
   "rt|RMQ|CJU|2027-02-10|2027-09-19": {
    "status": "timeout",
@@ -16353,9 +16375,9 @@
    "n": 1
   },
   "rt|RMQ|HKT|2026-12-24|2027-09-19": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 3
+   "n": 1
   },
   "rt|RMQ|HKT|2027-04-29|2027-09-19": {
    "status": "timeout",
@@ -16796,11 +16818,6 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 4
-  },
-  "rt|TPE|CTS|2026-12-24|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 3
   },
   "rt|TPE|DMK|2026-11-20|2027-09-19": {
    "status": "timeout",
@@ -18055,7 +18072,7 @@
   "rt|USM|RMQ|2026-12-27|2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 3
+   "n": 4
   },
   "rt|USM|RMQ|2027-02-14|2027-09-15": {
    "status": "parse_error",

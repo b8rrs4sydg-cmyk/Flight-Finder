@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T09:43:00+00:00",
+ "at": "2026-10-27T09:49:02+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 558,
+ "fares_saved": 566,
  "log": [
   "09:27:50 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:27:55 http front door: ['https://representation-bargains-worm-permits.trycloudflare.com', 'https://c92017cfd37d58.lhr.life']",
@@ -22,6 +22,11 @@
   "09:37:31 request received: rid mvqhrszvyiamt.4 21 keys",
   "09:37:31 handle mvqhrszvyiamt.4: first_chunk=True total=21",
   "09:41:43 request mvqhrszvyiamt.4: chunk of 21 keys done in 253s; paths {'browser-crashed': 40, 'http': 33, 'browser': 4}, browser waits 44 max 220s sum 3522s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 33, 'miss': 42, 'blocked': 0, 'tries': 74, 'empty': 41}, audit 3/3 agree",
-  "09:41:45 request mvqhrszvyiamt.4: final sent (21/21); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "09:41:45 request mvqhrszvyiamt.4: final sent (21/21); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "09:44:28 queue: 12 keys from the look-up queue in 110s (1 priced, 0 no flight, 11 failed)",
+  "09:46:56 queue: 12 keys from the look-up queue in 88s (6 priced, 0 no flight, 6 failed)",
+  "09:47:22 rtc 1g34780s50: answered",
+  "09:47:37 request received: rid mvqi4s7ppgts0.4 10 keys",
+  "09:47:37 handle mvqi4s7ppgts0.4: first_chunk=True total=10"
  ]
 }

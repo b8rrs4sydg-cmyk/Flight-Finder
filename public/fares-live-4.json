@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T13:33:47+00:00",
+ "generated_at": "2026-10-27T13:35:19+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -2845,6 +2845,28 @@
     ]
    ]
   },
+  "ow|NKG|TPE|2026-12-27": {
+   "price": 5337,
+   "first": {
+    "dep": "2026-12-27T20:30:00+08:00",
+    "arr": "2026-12-29T10:00:00+08:00",
+    "stops": 1,
+    "airline": "Hainan"
+   },
+   "by_airline": {
+    "Hainan": 5337,
+    "China Southern": 5497,
+    "Cathay Pacific": 8362,
+    "Shenzhen": 9262
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     5337
+    ]
+   ]
+  },
   "ow|NKG|TPE|2027-02-14": {
    "price": 5466,
    "first": {
@@ -2970,6 +2992,28 @@
     [
      "2026-10-22",
      16512
+    ]
+   ]
+  },
+  "ow|PEK|TPE|2026-12-27": {
+   "price": 7185,
+   "first": {
+    "dep": "2026-12-27T20:30:00+08:00",
+    "arr": "2026-12-29T10:00:00+08:00",
+    "stops": 1,
+    "airline": "Hainan"
+   },
+   "by_airline": {
+    "Hainan": 7185,
+    "Cathay Pacific": 10454,
+    "China Airlines": 13664,
+    "EVA Air": 14929
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     7185
     ]
    ]
   },
@@ -3616,6 +3660,28 @@
     [
      "2026-10-27",
      5499
+    ]
+   ]
+  },
+  "ow|TPE|BKI|2026-11-20": {
+   "price": 3594,
+   "first": {
+    "dep": "2026-11-20T19:10:00+08:00",
+    "arr": "2026-11-20T22:45:00+08:00",
+    "stops": 0,
+    "airline": "AirAsia"
+   },
+   "by_airline": {
+    "AirAsia": 3594,
+    "Hong Kong Express": 4244,
+    "Scoot": 6720,
+    "Royal Brunei": 7900
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     3594
     ]
    ]
   },
@@ -4532,6 +4598,28 @@
     ]
    ]
   },
+  "ow|TPE|KMG|2026-12-24": {
+   "price": 6566,
+   "first": {
+    "dep": "2026-12-24T12:00:00+08:00",
+    "arr": "2026-12-25T10:25:00+08:00",
+    "stops": 1,
+    "airline": "Hainan"
+   },
+   "by_airline": {
+    "Hainan": 6566,
+    "China Southern": 7847,
+    "Shenzhen": 9247,
+    "Korean Air": 14892
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     6566
+    ]
+   ]
+  },
   "ow|TPE|KMG|2027-02-06": {
    "price": 9744,
    "first": {
@@ -4827,6 +4915,50 @@
     ]
    ]
   },
+  "ow|TPE|TAO|2026-12-11": {
+   "price": 5600,
+   "first": {
+    "dep": "2026-12-11T19:10:00+08:00",
+    "arr": "2026-12-12T21:45:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 5600,
+    "Shenzhen": 7015,
+    "Shandong": 7750,
+    "Cathay Pacific": 10645
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     5600
+    ]
+   ]
+  },
+  "ow|TPE|TAO|2026-12-24": {
+   "price": 5600,
+   "first": {
+    "dep": "2026-12-24T19:10:00+08:00",
+    "arr": "2026-12-25T21:45:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 5600,
+    "Shenzhen": 7015,
+    "Cathay Pacific": 11615,
+    "Korean Air": 11712
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     5600
+    ]
+   ]
+  },
   "ow|TPE|UKB|2027-02-06": {
    "price": 18632,
    "first": {
@@ -4931,6 +5063,28 @@
     [
      "2026-10-22",
      7032
+    ]
+   ]
+  },
+  "ow|TPE|XIY|2026-11-20": {
+   "price": 5435,
+   "first": {
+    "dep": "2026-11-20T16:45:00+08:00",
+    "arr": "2026-11-21T12:15:00+08:00",
+    "stops": 1,
+    "airline": "Shandong"
+   },
+   "by_airline": {
+    "Shandong": 5435,
+    "China Southern": 6455,
+    "Hainan": 6566,
+    "Shenzhen": 8306
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     5435
     ]
    ]
   },

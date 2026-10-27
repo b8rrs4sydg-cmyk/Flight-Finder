@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T16:38:54+00:00",
+ "generated_at": "2026-10-27T16:40:26+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -2840,6 +2840,28 @@
     ]
    ]
   },
+  "ow|CTU|TPE|2027-09-19": {
+   "price": 7529,
+   "first": {
+    "dep": "2027-09-19T13:55:00+08:00",
+    "arr": "2027-09-19T20:05:00+08:00",
+    "stops": 1,
+    "airline": "Cathay Pacific"
+   },
+   "by_airline": {
+    "Cathay Pacific": 7529,
+    "China Airlines": 9177,
+    "China Southern": 9284,
+    "Air China": 15350
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     7529
+    ]
+   ]
+  },
   "ow|DAD|RMQ|2026-11-15": {
    "price": 5847,
    "first": {
@@ -4859,6 +4881,28 @@
     [
      "2026-10-23",
      14456
+    ]
+   ]
+  },
+  "ow|TPE|HGH|2026-12-11": {
+   "price": 5600,
+   "first": {
+    "dep": "2026-12-11T17:55:00+08:00",
+    "arr": "2026-12-12T10:00:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 5600,
+    "Shenzhen": 6555,
+    "Hainan": 6565,
+    "EVA Air": 7469
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     5600
     ]
    ]
   },
@@ -14259,7 +14303,6 @@
   "ow|CTS|TSA|2028-01-02",
   "ow|CTS|TSA|2028-01-03",
   "ow|CTU|RMQ|2027-02-16",
-  "ow|CTU|TPE|2027-09-19",
   "ow|CTU|TSA|2027-12-28",
   "ow|DAD|RMQ|2027-10-17",
   "ow|DAD|TPE|2027-01-02",
@@ -15081,11 +15124,6 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
-  },
-  "ow|TPE|HGH|2026-12-11": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 2
   },
   "ow|TSA|DMK|2027-09-15": {
    "status": "timeout",

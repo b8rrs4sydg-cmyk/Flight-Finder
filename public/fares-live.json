@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T16:08:13+00:00",
+ "generated_at": "2026-10-27T16:09:45+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -6791,6 +6791,26 @@
     ]
    ]
   },
+  "rt|NGO|TSA|2026-11-08|2026-11-20": {
+   "price": 36457,
+   "first": {
+    "dep": "2026-11-08T07:25:00+09:00",
+    "arr": "2026-11-08T15:05:00+08:00",
+    "stops": 1,
+    "airline": "JAL, EVA Air"
+   },
+   "by_airline": {
+    "ANA": 40631,
+    "JAL": 56490
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     36457
+    ]
+   ]
+  },
   "rt|NGO|TSA|2027-02-14|2027-04-29": {
    "price": 39070,
    "first": {
@@ -13315,11 +13335,6 @@
    "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
-  },
-  "rt|NGO|TSA|2026-11-08|2026-11-20": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 2
   },
   "rt|NGO|TSA|2026-11-08|2026-12-11": {
    "status": "timeout",

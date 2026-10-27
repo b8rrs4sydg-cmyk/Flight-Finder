@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:02:39+00:00",
+ "at": "2026-10-27T13:04:11+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 669,
+ "fares_saved": 670,
  "log": [
   "10:36:40 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:45 http front door: ['https://spam-families-selecting-nikon.trycloudflare.com', 'https://3eebe1d68a0475.lhr.life']",
@@ -71,6 +71,8 @@
   "12:57:28 request received: rid mvqoxbk0d4l79.6 36 keys",
   "12:57:28 handle mvqoxbk0d4l79.6: first_chunk=True total=36",
   "13:01:25 request mvqoxbk0d4l79.6: chunk of 36 keys done in 237s; paths {'http': 40, 'browser': 19, 'browser-crashed': 328}, browser waits 347 max 239s sum 29107s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 40, 'miss': 132, 'blocked': 0, 'tries': 186, 'empty': 146}, audit 1/1 ",
-  "13:01:25 request mvqoxbk0d4l79.6: final sent (36/36); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "13:01:25 request mvqoxbk0d4l79.6: final sent (36/36); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "13:03:08 request received: rid mvqp4lfk36eet.6 35 keys",
+  "13:03:08 handle mvqp4lfk36eet.6: first_chunk=True total=35"
  ]
 }

@@ -3488,7 +3488,7 @@ function pricePosition(plan) {
 function sparkHtml(plan) {
   if (plan.tickets.length !== 1) return '';
   const h = plan.tickets[0].hist;
-  if (!Array.isArray(h) || h.length < 3) return '';
+  if (!Array.isArray(h) || h.length < 2) return '';
   const v = h.map(x => x[1]), lo = Math.min(...v), hi = Math.max(...v);
   const pts = v.map((y, i) => `${(i / (v.length - 1) * 64).toFixed(1)},${(hi === lo ? 10 : 18 - (y - lo) / (hi - lo) * 16).toFixed(1)}`).join(' ');
   const pct = v[0] ? Math.round(Math.abs(v[v.length - 1] - v[0]) / v[0] * 100) : 0;
@@ -5096,12 +5096,26 @@ function expandFare(v) {
   return out;
 }
 
+/* A fresh price keeps the trend of the entry it replaces: the old crawls plus today's point (up to 14, like the database does),
+ * so the card shows the trend (and 前次 price) right after a re-check instead of a bare number. */
+function foldHistory(old, nw) {
+  if (!old || !nw) return nw;
+  const pts = new Map((Array.isArray(old.hist) ? old.hist : []).map(h => [h[0], h[1]]));
+  if (old.at && old.price) pts.set(old.at, old.price);
+  if (nw.at) pts.set(nw.at, nw.price);
+  const arr = [...pts.entries()].sort((a, b) => (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0)).slice(-14);
+  nw.hist = arr.map(([d, price]) => [d, price]);
+  if (arr.length >= 2) { nw.prev = arr[arr.length - 2][1]; nw.prev_at = arr[arr.length - 2][0]; }
+  return nw;
+}
+
 function mergeLiveFares(fares, nf) {
   let n = 0;
   const asked = new Set(live.keys);
   for (const [k, raw] of Object.entries(fares || {})) {
     const v = asked.has(k) ? expandFare(raw) : null;      // only keys this page asked for, only valid shapes
     if (!v) continue;
+    foldHistory(FARES.fares[k], v);
     FARES.fares[k] = v; liveOverlay[k] = v; live.answered.add(k); live.notFound.delete(k); n++;
   }
   for (const k of nf || []) if (asked.has(k)) { live.notFound.add(k); live.answered.add(k); }
@@ -5149,7 +5163,7 @@ function takeCloudFares(d) {
   let changed = false;
   for (const [k, v] of Object.entries(d.fares || {})) {
     const mine = FARES.fares[k];
-    if (!mine || (v.at || '') > (mine.at || '')) { FARES.fares[k] = v; changed = true; }
+    if (!mine || (v.at || '') > (mine.at || '') || ((v.at || '') === (mine.at || '') && (v.hist || []).length > (mine.hist || []).length)) { FARES.fares[k] = v; changed = true; }
   }
   (d.unavailable || []).filter(confirmedGone).forEach(k => live.notFound.add(k));
   if (d.generated_at && (!FARES.generated_at || d.generated_at > FARES.generated_at)) {

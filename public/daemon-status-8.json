@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T12:52:38+00:00",
+ "at": "2026-10-27T12:54:10+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
@@ -54,6 +54,12 @@
   "12:48:55 request received: rid mvqombwnumyis.8 44 keys",
   "12:48:55 handle mvqombwnumyis.8: first_chunk=True total=44",
   "12:49:01 request received: rid mvqomgnrkgbyi.8 44 keys",
-  "12:49:01 handle mvqomgnrkgbyi.8: first_chunk=True total=44"
+  "12:49:01 handle mvqomgnrkgbyi.8: first_chunk=True total=44",
+  "12:52:56 request received: rid mvqorhkmxutbe.8 41 keys",
+  "12:52:56 handle mvqorhkmxutbe.8: first_chunk=True total=41",
+  "12:52:56 request mvqombwnumyis.8: chunk of 44 keys done in 241s; paths {'http': 41, 'browser': 9, 'browser-crashed': 206}, browser waits 215 max 202s sum 15265s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 41, 'miss': 118, 'blocked': 0, 'tries': 155, 'empty': 114}, audit 2/2 a",
+  "12:52:56 request mvqomgnrkgbyi.8: chunk of 44 keys done in 235s; paths {'http': 41, 'browser': 9, 'browser-crashed': 206}, browser waits 215 max 202s sum 15265s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 41, 'miss': 118, 'blocked': 0, 'tries': 155, 'empty': 114}, audit 2/2 a",
+  "12:52:57 request mvqombwnumyis.8: final sent (44/44); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "12:52:57 request mvqomgnrkgbyi.8: final sent (44/44); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
  ]
 }

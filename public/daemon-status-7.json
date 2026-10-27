@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T09:14:28+00:00",
+ "at": "2026-10-27T09:15:59+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 553,
+ "fares_saved": 557,
  "log": [
   "09:10:57 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:11:01 git retry 0: b\"eads/main': is at 3d9759d3a235800823a03706b0aa98da966b2cfa but expected c20c14e6bbe42a8f363abb09e5133167358fe94b)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
@@ -15,6 +15,11 @@
   "09:11:22 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "09:12:06 request received: rid httptest1793092326 20 keys",
   "09:12:06 handle httptest1793092326: first_chunk=True total=20",
-  "09:12:52 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\""
+  "09:12:52 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "09:15:00 request httptest1793092326: chunk of 20 keys done in 174s; paths {'browser-crashed': 28}, browser waits 28 max 174s sum 2863s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 0, 'miss': 40, 'blocked': 0, 'tries': 80, 'empty': 80}, audit 0/0 agree",
+  "09:15:01 request httptest1793092326: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "09:15:24 rtc 2fqnm5c0sz: answered",
+  "09:15:25 request received: rid mvqgzdwozwkmu.7 16 keys",
+  "09:15:25 handle mvqgzdwozwkmu.7: first_chunk=True total=16"
  ]
 }

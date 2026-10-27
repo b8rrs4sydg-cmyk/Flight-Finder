@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T18:02:19+00:00",
+ "at": "2026-10-27T18:05:21+00:00",
  "publishes": {
   "ok": 9,
   "r429": 0,
@@ -7,7 +7,6 @@
  },
  "fares_saved": 795,
  "log": [
-  "15:44:58 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:45:05 http front door: ['https://past-provider-tones-grocery.trycloudflare.com', 'https://40d23ee65f59af.lhr.life']",
   "15:45:05 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "15:46:07 request received: rid httptest1793115967 20 keys",
@@ -151,6 +150,12 @@
   "17:58:19 request mvqzkvyeejvog.2: chunk of 21 keys done in 155s; paths {'http': 22, 'browser-crashed': 862, 'browser': 33}, browser waits 895 max 674s sum 130253s; ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 326, 'blocked': 0, 'tries': 197, 'empty': 175}, audit 4/4",
   "17:58:20 request mvqzkvyeejvog.2: final sent (21/21); ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}",
   "17:59:51 request received: rid mvqzq6wwo4zpl.2 22 keys",
-  "17:59:51 handle mvqzq6wwo4zpl.2: first_chunk=True total=22"
+  "17:59:51 handle mvqzq6wwo4zpl.2: first_chunk=True total=22",
+  "18:03:06 request mvqzq6wwo4zpl.2: chunk of 22 keys done in 195s; paths {'http': 22, 'browser-crashed': 894, 'browser': 33}, browser waits 927 max 674s sum 133206s; ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 360, 'blocked': 0, 'tries': 216, 'empty': 194}, audit 4/4",
+  "18:03:06 request mvqzq6wwo4zpl.2: final sent (22/22); ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}",
+  "18:03:40 queue: 12 keys from the look-up queue in 251s (0 priced, 0 no flight, 12 failed)",
+  "18:03:40 queue: nothing readable, next try in 1020s",
+  "18:04:06 request received: rid mvqzvm6prydbb.2 13 keys",
+  "18:04:06 handle mvqzvm6prydbb.2: first_chunk=True total=13"
  ]
 }

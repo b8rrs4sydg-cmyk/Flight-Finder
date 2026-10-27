@@ -1,7 +1,7 @@
 {
- "at": "2026-10-27T17:41:57+00:00",
+ "at": "2026-10-27T17:43:29+00:00",
  "publishes": {
-  "ok": 8,
+  "ok": 9,
   "r429": 0,
   "fail": 0
  },
@@ -132,6 +132,15 @@
   "17:37:25 request mvqyq252bn9hr.4: chunk of 43 keys done in 340s; paths {'http': 34, 'browser-crashed': 688, 'browser': 13}, browser waits 701 max 382s sum 85902s; ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 34, 'miss': 304, 'blocked': 0, 'tries': 193, 'empty': 159}, audit 2/2 ",
   "17:37:26 request mvqyq252bn9hr.4: final sent (43/43); ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}",
   "17:41:55 request received: rid mvqz32f3p7xht.2 58 keys",
-  "17:41:55 handle mvqz32f3p7xht.2: first_chunk=True total=58"
+  "17:41:55 handle mvqz32f3p7xht.2: first_chunk=True total=58",
+  "17:42:03 request mvqyoomfxwrv6.5: chunk of 22 keys done in 663s; paths {'http': 34, 'browser-crashed': 731, 'browser': 13}, browser waits 744 max 661s sum 98106s; ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 34, 'miss': 306, 'blocked': 0, 'tries': 197, 'empty': 163}, audit 2/2 ",
+  "17:42:03 request mvqyuua257zc4.5: chunk of 21 keys done in 377s; paths {'http': 34, 'browser-crashed': 731, 'browser': 13}, browser waits 744 max 661s sum 98106s; ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 34, 'miss': 306, 'blocked': 0, 'tries': 197, 'empty': 163}, audit 2/2 ",
+  "17:42:03 request mvqywi5w1yso5.5: chunk of 45 keys done in 312s; paths {'http': 34, 'browser-crashed': 731, 'browser': 13}, browser waits 744 max 661s sum 98106s; ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 34, 'miss': 306, 'blocked': 0, 'tries': 197, 'empty': 163}, audit 2/2 ",
+  "17:42:05 request mvqyoomfxwrv6.5: final sent (22/22); ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}",
+  "17:42:05 request mvqyuua257zc4.5: final sent (21/21); ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}",
+  "17:42:05 request mvqywi5w1yso5.5: final sent (45/45); ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}",
+  "17:42:16 rtc ndwpw0iuyi: answered",
+  "17:42:28 request received: rid mvqz3glnmscu4.5 21 keys",
+  "17:42:28 handle mvqz3glnmscu4.5: first_chunk=True total=21"
  ]
 }

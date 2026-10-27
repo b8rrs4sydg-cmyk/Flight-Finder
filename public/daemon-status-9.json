@@ -1,31 +1,19 @@
 {
- "at": "2026-10-27T09:23:07+00:00",
+ "at": "2026-10-27T09:29:13+00:00",
  "publishes": {
-  "ok": 3,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 555,
+ "fares_saved": 574,
  "log": [
-  "09:10:53 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "09:10:57 http front door: ['https://consequence-alloy-peers-evidence.trycloudflare.com', 'https://3bfc1663b00310.lhr.life']",
-  "09:10:57 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "09:12:02 request received: rid httptest1793092322 20 keys",
-  "09:12:02 handle httptest1793092322: first_chunk=True total=20",
-  "09:14:51 request httptest1793092322: chunk of 20 keys done in 169s; paths {'browser-crashed': 29, 'browser': 1}, browser waits 30 max 216s sum 2964s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 0, 'miss': 40, 'blocked': 0, 'tries': 80, 'empty': 80}, audit 0/0 agree",
-  "09:14:51 request httptest1793092322: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "09:15:24 rtc tonp9hih1g: answered",
-  "09:15:25 request received: rid mvqgzdwozwkmu.9 14 keys",
-  "09:15:25 handle mvqgzdwozwkmu.9: first_chunk=True total=14",
-  "09:18:23 request mvqgzdwozwkmu.9: chunk of 14 keys done in 178s; paths {'browser-crashed': 56, 'browser': 1, 'http': 3}, browser waits 57 max 397s sum 8681s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 3, 'miss': 51, 'blocked': 0, 'tries': 84, 'empty': 81}, audit 0/0 agree",
-  "09:18:24 request mvqgzdwozwkmu.9: final sent (14/14); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "09:18:26 rtc 72po07jigo: answered",
-  "09:18:28 request received: rid mvqh3agld7nxk.8 15 keys",
-  "09:18:28 handle mvqh3agld7nxk.8: first_chunk=True total=15",
-  "09:19:51 rtc lh6d782sik: answered",
-  "09:20:03 request received: rid mvqh5ch518p0u.9 16 keys",
-  "09:20:03 handle mvqh5ch518p0u.9: first_chunk=True total=16",
-  "09:22:53 request mvqh5ch518p0u.9: chunk of 16 keys done in 170s; paths {'browser-crashed': 93, 'browser': 1, 'http': 3}, browser waits 94 max 511s sum 16152s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 3, 'miss': 51, 'blocked': 0, 'tries': 84, 'empty': 81}, audit 0/0 agree",
-  "09:22:54 request mvqh5ch518p0u.9: final sent (16/16); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "09:27:31 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "09:27:36 git retry 0: b\"eads/main': is at eb513ff339900a7bd886ba303983b67c1aa9de4c but expected e609774c809bde0f9d6ccef833c3431fff607ca6)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "09:27:43 http front door: ['https://rescue-cold-encoding-temporary.trycloudflare.com', 'https://8aa60f113fe5b9.lhr.life']",
+  "09:27:43 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "09:28:41 request received: rid httptest1793093320 20 keys",
+  "09:28:41 handle httptest1793093320: first_chunk=True total=20",
+  "09:28:45 request httptest1793093320: chunk of 20 keys done in 4s; paths {'http': 19, 'browser': 1}, browser waits 1 max 3s sum 3s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 24, 'empty': 5}, audit 0/0 agree",
+  "09:28:45 request httptest1793093320: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

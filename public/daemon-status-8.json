@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T15:53:22+00:00",
+ "at": "2026-10-27T16:02:25+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 719,
+ "fares_saved": 723,
  "log": [
   "15:51:45 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:51:52 http front door: ['https://pale-rand-vehicle-bonus.trycloudflare.com', 'https://fba5f17c92e5ff.lhr.life']",
@@ -13,6 +13,15 @@
   "15:52:55 request received: rid httptest1793116374 20 keys",
   "15:52:55 handle httptest1793116374: first_chunk=True total=20",
   "15:53:13 request httptest1793116374: chunk of 20 keys done in 18s; paths {'http': 20, 'browser': 3}, browser waits 3 max 6s sum 17s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 7, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
-  "15:53:15 request httptest1793116374: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "15:53:15 request httptest1793116374: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "15:54:21 queue: 12 keys from the look-up queue in 89s (4 priced, 0 no flight, 8 failed)",
+  "15:55:40 rtc nxa4dro63z: answered",
+  "15:55:42 rtc nxa4dro63z: data channel open",
+  "15:56:57 queue: 12 keys from the look-up queue in 95s (0 priced, 0 no flight, 12 failed)",
+  "15:56:57 queue: nothing readable, next try in 180s",
+  "16:01:17 request received: rid mvqvhpfhjiidt.8 28 keys",
+  "16:01:17 handle mvqvhpfhjiidt.8: first_chunk=True total=28",
+  "16:01:33 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "16:01:33 queue: nothing readable, next try in 300s"
  ]
 }

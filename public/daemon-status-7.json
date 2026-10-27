@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T09:39:48+00:00",
+ "at": "2026-10-27T09:50:20+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 607,
+ "fares_saved": 629,
  "log": [
   "09:27:35 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:27:39 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
@@ -23,6 +23,15 @@
   "09:37:31 request received: rid mvqhrszvyiamt.7 7 keys",
   "09:37:31 handle mvqhrszvyiamt.7: first_chunk=True total=7",
   "09:39:07 request mvqhrszvyiamt.7: chunk of 7 keys done in 96s; paths {'http': 47, 'browser': 1, 'browser-crashed': 27}, browser waits 28 max 83s sum 1401s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 47, 'miss': 28, 'blocked': 0, 'tries': 90, 'empty': 43}, audit 3/3 agree",
-  "09:39:08 request mvqhrszvyiamt.7: final sent (7/7); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "09:39:08 request mvqhrszvyiamt.7: final sent (7/7); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "09:40:46 queue: 12 keys from the look-up queue in 56s (4 priced, 0 no flight, 8 failed)",
+  "09:43:26 queue: 12 keys from the look-up queue in 101s (1 priced, 0 no flight, 11 failed)",
+  "09:46:05 queue: 12 keys from the look-up queue in 99s (7 priced, 0 no flight, 5 failed)",
+  "09:47:24 rtc yxlej7m3s9: answered",
+  "09:47:37 request received: rid mvqi4s7ppgts0.7 24 keys",
+  "09:47:37 handle mvqi4s7ppgts0.7: first_chunk=True total=24",
+  "09:48:43 queue: 12 keys from the look-up queue in 98s (6 priced, 0 no flight, 6 failed)",
+  "09:50:01 request mvqi4s7ppgts0.7: chunk of 24 keys done in 145s; paths {'http': 71, 'browser': 3, 'browser-crashed': 73}, browser waits 76 max 143s sum 4582s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 71, 'miss': 59, 'blocked': 0, 'tries': 154, 'empty': 83}, audit 5/5 agree",
+  "09:50:02 request mvqi4s7ppgts0.7: final sent (24/24); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
  ]
 }

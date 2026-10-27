@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T12:43:29+00:00",
+ "at": "2026-10-27T12:45:00+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 652,
+ "fares_saved": 656,
  "log": [
   "10:46:17 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:46:23 http front door: ['https://zoo-covering-patch-practical.trycloudflare.com', 'https://2e933bc542d940.lhr.life']",
@@ -40,6 +40,12 @@
   "12:39:31 request mvqo7ztizzemc.8: final sent (16/16); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "12:41:53 rtc 940kalxhei: answered",
   "12:42:05 request received: rid mvqod5shtgjgd.8 13 keys",
-  "12:42:05 handle mvqod5shtgjgd.8: first_chunk=True total=13"
+  "12:42:05 handle mvqod5shtgjgd.8: first_chunk=True total=13",
+  "12:43:39 request mvqod5shtgjgd.8: chunk of 13 keys done in 95s; paths {'http': 30, 'browser': 8, 'browser-crashed': 143}, browser waits 151 max 96s sum 8801s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 30, 'miss': 83, 'blocked': 0, 'tries': 97, 'empty': 67}, audit 2/2 agree",
+  "12:43:40 request mvqod5shtgjgd.8: final sent (13/13); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "12:43:53 rtc esj20tlfa2: answered",
+  "12:43:55 rtc esj20tlfa2: data channel open",
+  "12:43:56 request received: rid mvqoft66fhhyp.8 19 keys",
+  "12:43:56 handle mvqoft66fhhyp.8: first_chunk=True total=19"
  ]
 }

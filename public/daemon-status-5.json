@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T14:23:29+00:00",
+ "at": "2026-10-27T14:25:01+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
@@ -132,6 +132,12 @@
   "14:20:14 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
   "14:20:14 queue: nothing readable, next try in 540s",
   "14:23:05 request received: rid mvqrzf5pi283i.5 3 keys",
-  "14:23:05 handle mvqrzf5pi283i.5: first_chunk=True total=3"
+  "14:23:05 handle mvqrzf5pi283i.5: first_chunk=True total=3",
+  "14:23:55 request mvqrzf5pi283i.5: chunk of 3 keys done in 50s; paths {'http': 97, 'browser': 6, 'browser-crashed': 782}, browser waits 788 max 475s sum 102297s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 97, 'miss': 350, 'blocked': 0, 'tries': 409, 'empty': 312}, audit 3/3 ag",
+  "14:23:57 request mvqrzf5pi283i.5: final sent (3/3); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "14:24:07 request received: rid mvqs0qvkbguct.5 3 keys",
+  "14:24:07 handle mvqs0qvkbguct.5: first_chunk=True total=3",
+  "14:24:57 request mvqs0qvkbguct.5: chunk of 3 keys done in 50s; paths {'http': 97, 'browser': 6, 'browser-crashed': 785}, browser waits 791 max 475s sum 102443s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 97, 'miss': 350, 'blocked': 0, 'tries': 409, 'empty': 312}, audit 3/3 ag",
+  "14:24:57 request mvqs0qvkbguct.5: final sent (3/3); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
  ]
 }

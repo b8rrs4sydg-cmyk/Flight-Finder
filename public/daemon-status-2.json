@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T18:20:42+00:00",
+ "at": "2026-10-27T18:22:13+00:00",
  "publishes": {
   "ok": 9,
   "r429": 0,
@@ -7,8 +7,6 @@
  },
  "fares_saved": 796,
  "log": [
-  "15:47:20 handle mvquznjhmn5fc.1: first_chunk=True total=20",
-  "15:49:59 request mvquznjhmn5fc.1: chunk of 20 keys done in 160s; paths {'http': 21, 'browser-crashed': 30}, browser waits 30 max 155s sum 2842s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 18, 'blocked': 0, 'tries': 41, 'empty': 20}, audit 4/4 agree",
   "15:50:00 request mvquznjhmn5fc.1: final sent (20/20); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "15:50:02 queue: 12 keys from the look-up queue in 236s (0 priced, 0 no flight, 12 failed)",
   "15:50:02 queue: nothing readable, next try in 180s",
@@ -156,6 +154,8 @@
   "18:12:47 request mvqzzbwr98q2c.2: chunk of 30 keys done in 347s; paths {'http': 22, 'browser-crashed': 938, 'browser': 34}, browser waits 972 max 674s sum 139561s; ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 394, 'blocked': 0, 'tries': 224, 'empty': 202}, audit 4/4",
   "18:12:47 request mvqzzbwr98q2c.2: final sent (30/30); ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}",
   "18:17:27 request received: rid mvr0ct66sqfsn.2 24 keys",
-  "18:17:27 handle mvr0ct66sqfsn.2: first_chunk=True total=24"
+  "18:17:27 handle mvr0ct66sqfsn.2: first_chunk=True total=24",
+  "18:21:36 request mvr0ct66sqfsn.2: chunk of 24 keys done in 249s; paths {'http': 22, 'browser-crashed': 962, 'browser': 34}, browser waits 996 max 674s sum 143505s; ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 394, 'blocked': 0, 'tries': 224, 'empty': 202}, audit 4/4",
+  "18:21:38 request mvr0ct66sqfsn.2: final sent (24/24); ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}"
  ]
 }

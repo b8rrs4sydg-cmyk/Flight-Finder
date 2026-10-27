@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T14:14:25+00:00",
+ "at": "2026-10-27T15:17:27+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 574,
+ "fares_saved": 585,
  "log": [
   "10:36:37 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:41 http front door: ['https://struck-widescreen-fluid-gently.trycloudflare.com', 'https://ef2932acbf4f7b.lhr.life']",
@@ -129,6 +129,29 @@
   "14:08:35 request received: rid mvqrgqnyk5cw7.0 31 keys",
   "14:08:35 handle mvqrgqnyk5cw7.0: first_chunk=True total=31",
   "14:14:16 request mvqrgqnyk5cw7.0: chunk of 31 keys done in 341s; paths {'http': 89, 'browser': 47, 'browser-crashed': 761}, browser waits 808 max 514s sum 108497s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 89, 'miss': 320, 'blocked': 5, 'tries': 318, 'empty': 229}, audit 5/5",
-  "14:14:16 request mvqrgqnyk5cw7.0: final sent (31/31); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "14:14:16 request mvqrgqnyk5cw7.0: final sent (31/31); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "14:14:55 queue: 12 keys from the look-up queue in 419s (0 priced, 0 no flight, 12 failed)",
+  "14:14:55 queue: nothing readable, next try in 180s",
+  "14:19:33 queue: 12 keys from the look-up queue in 97s (0 priced, 0 no flight, 12 failed)",
+  "14:19:33 queue: nothing readable, next try in 300s",
+  "14:26:07 queue: 12 keys from the look-up queue in 94s (0 priced, 0 no flight, 12 failed)",
+  "14:26:07 queue: nothing readable, next try in 540s",
+  "14:36:52 queue: 12 keys from the look-up queue in 105s (1 priced, 0 no flight, 11 failed)",
+  "14:39:23 queue: 12 keys from the look-up queue in 91s (0 priced, 0 no flight, 12 failed)",
+  "14:39:23 queue: nothing readable, next try in 180s",
+  "14:44:06 queue: 12 keys from the look-up queue in 103s (0 priced, 0 no flight, 12 failed)",
+  "14:44:06 queue: nothing readable, next try in 300s",
+  "14:50:55 queue: 12 keys from the look-up queue in 109s (0 priced, 0 no flight, 12 failed)",
+  "14:50:55 queue: nothing readable, next try in 540s",
+  "15:01:45 queue: 12 keys from the look-up queue in 109s (1 priced, 0 no flight, 11 failed)",
+  "15:04:18 queue: 12 keys from the look-up queue in 93s (0 priced, 0 no flight, 12 failed)",
+  "15:04:18 queue: nothing readable, next try in 180s",
+  "15:08:54 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "15:08:54 queue: nothing readable, next try in 300s",
+  "15:15:42 queue: 12 keys from the look-up queue in 108s (1 priced, 0 no flight, 11 failed)",
+  "15:16:28 request received: rid mvqtw2mnw3e5b.0 16 keys",
+  "15:16:28 handle mvqtw2mnw3e5b.0: first_chunk=True total=16",
+  "15:17:18 request mvqtw2mnw3e5b.0: chunk of 16 keys done in 50s; paths {'http': 101, 'browser': 47, 'browser-crashed': 888}, browser waits 935 max 514s sum 117018s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 101, 'miss': 379, 'blocked': 8, 'tries': 366, 'empty': 265}, audit 5/",
+  "15:17:18 request mvqtw2mnw3e5b.0: final sent (16/16); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
  ]
 }

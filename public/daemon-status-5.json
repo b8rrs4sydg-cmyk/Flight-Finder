@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:33:15+00:00",
+ "at": "2026-10-27T13:36:17+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 656,
+ "fares_saved": 664,
  "log": [
   "10:36:36 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:42 git retry 0: b\"eads/main': is at 3bd0ea8eee6ddcceabb82514ac4738b94be51367 but expected 59588b66f5dc69243de5b6e20581474af7a7397c)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
@@ -95,6 +95,13 @@
   "13:30:07 request mvqpxamf89t57.4: chunk of 41 keys done in 279s; paths {'http': 82, 'browser': 6, 'browser-crashed': 528}, browser waits 534 max 332s sum 58582s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 82, 'miss': 200, 'blocked': 0, 'tries': 295, 'empty': 213}, audit 3/3 a",
   "13:30:07 request mvqpxamf89t57.4: final sent (41/41); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
   "13:31:10 request received: rid mvqq4nlectjow.5 32 keys",
-  "13:31:10 handle mvqq4nlectjow.5: first_chunk=True total=32"
+  "13:31:10 handle mvqq4nlectjow.5: first_chunk=True total=32",
+  "13:34:31 request mvqq4nlectjow.5: chunk of 32 keys done in 201s; paths {'http': 92, 'browser': 6, 'browser-crashed': 560}, browser waits 566 max 332s sum 61504s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 92, 'miss': 234, 'blocked': 0, 'tries': 353, 'empty': 261}, audit 3/3 a",
+  "13:34:33 request mvqq4nlectjow.5: final sent (32/32); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "13:34:35 queue: 12 keys from the look-up queue in 240s (4 priced, 0 no flight, 8 failed)",
+  "13:34:52 request received: rid mvqq9f57km1rw.5 12 keys",
+  "13:34:52 handle mvqq9f57km1rw.5: first_chunk=True total=12",
+  "13:35:42 request mvqq9f57km1rw.5: chunk of 12 keys done in 50s; paths {'http': 96, 'browser': 6, 'browser-crashed': 570}, browser waits 576 max 332s sum 62349s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 96, 'miss': 234, 'blocked': 0, 'tries': 357, 'empty': 261}, audit 3/3 ag",
+  "13:35:44 request mvqq9f57km1rw.5: final sent (12/12); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
  ]
 }

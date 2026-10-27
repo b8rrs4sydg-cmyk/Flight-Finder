@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:24:34+00:00",
+ "at": "2026-10-27T13:26:06+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 646,
+ "fares_saved": 652,
  "log": [
   "10:36:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:53 http front door: ['https://ranging-simulation-story-phone.trycloudflare.com', 'https://29e22ca529d500.lhr.life']",
@@ -93,6 +93,8 @@
   "13:19:46 handle mvqpq04iyqtch.8: first_chunk=True total=39",
   "13:22:59 git retry 0: b\"eads/main': is at f4016f57739f8014fe882f1038599e57c2d95240 but expected e4061a160c50a4cf592bd8bde028cff03bcc9a57)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "13:23:55 request mvqpq04iyqtch.8: chunk of 39 keys done in 249s; paths {'http': 42, 'browser': 25, 'browser-crashed': 460}, browser waits 485 max 264s sum 46731s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 42, 'miss': 158, 'blocked': 0, 'tries': 177, 'empty': 135}, audit 3/3 ",
-  "13:23:56 request mvqpq04iyqtch.8: final sent (39/39); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "13:23:56 request mvqpq04iyqtch.8: final sent (39/39); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "13:25:28 request received: rid mvqpxamf89t57.7 41 keys",
+  "13:25:28 handle mvqpxamf89t57.7: first_chunk=True total=41"
  ]
 }

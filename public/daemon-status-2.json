@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T16:44:25+00:00",
+ "at": "2026-10-27T17:02:27+00:00",
  "publishes": {
-  "ok": 3,
+  "ok": 4,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 793,
+ "fares_saved": 794,
  "log": [
   "15:44:58 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:45:05 http front door: ['https://past-provider-tones-grocery.trycloudflare.com', 'https://40d23ee65f59af.lhr.life']",
@@ -83,6 +83,15 @@
   "16:44:07 request mvqwvercp53wt.2: chunk of 35 keys done in 250s; paths {'http': 22, 'browser-crashed': 443, 'browser': 31}, browser waits 474 max 674s sum 72991s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 175, 'blocked': 0, 'tries': 106, 'empty': 84}, audit 4/4 a",
   "16:44:07 request mvqwwluc14pja.2: chunk of 35 keys done in 195s; paths {'http': 22, 'browser-crashed': 443, 'browser': 31}, browser waits 474 max 674s sum 72991s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 175, 'blocked': 0, 'tries': 106, 'empty': 84}, audit 4/4 a",
   "16:44:09 request mvqwvercp53wt.2: final sent (35/35); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
-  "16:44:09 request mvqwwluc14pja.2: final sent (35/35); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "16:44:09 request mvqwwluc14pja.2: final sent (35/35); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "16:47:01 queue: 12 keys from the look-up queue in 109s (0 priced, 0 no flight, 12 failed)",
+  "16:47:01 queue: nothing readable, next try in 540s",
+  "16:57:47 queue: 12 keys from the look-up queue in 106s (1 priced, 0 no flight, 11 failed)",
+  "16:58:23 rtc k72ywmionv: answered",
+  "16:58:28 rtc k72ywmionv: data channel open",
+  "17:00:22 queue: 12 keys from the look-up queue in 94s (0 priced, 0 no flight, 12 failed)",
+  "17:00:22 queue: nothing readable, next try in 180s",
+  "17:02:19 request received: rid mvqxo72585gr1.2 28 keys",
+  "17:02:19 handle mvqxo72585gr1.2: first_chunk=True total=28"
  ]
 }

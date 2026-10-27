@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T17:52:42+00:00",
+ "generated_at": "2026-10-27T17:54:14+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -15393,6 +15393,11 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "rt|BKK|TSA|2026-12-27|2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
   "rt|CJU|RMQ|2026-11-08|2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -15539,9 +15544,9 @@
    "n": 1
   },
   "rt|CNX|TSA|2026-12-27|2027-04-29": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 3
+   "n": 1
   },
   "rt|CNX|TSA|2027-05-02|2027-09-15": {
    "status": "parse_error",
@@ -17639,9 +17644,9 @@
    "n": 1
   },
   "rt|TSA|FUK|2026-12-24|2027-05-02": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 3
+   "n": 1
   },
   "rt|TSA|FUK|2027-02-10|2027-09-19": {
    "status": "parse_error",
@@ -17748,6 +17753,11 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "rt|TSA|HND|2026-12-24|2027-05-02": {
+   "status": "parse_error",
+   "at": "2026-10-27",
+   "n": 1
+  },
   "rt|TSA|HND|2027-02-10|2027-05-02": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -17774,9 +17784,9 @@
    "n": 5
   },
   "rt|TSA|ICN|2026-12-24|2027-05-02": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 3
+   "n": 1
   },
   "rt|TSA|ICN|2027-04-29|2027-05-02": {
    "status": "timeout",
@@ -17807,6 +17817,11 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 5
+  },
+  "rt|TSA|ISG|2026-12-24|2027-05-02": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
   },
   "rt|TSA|ISG|2027-02-10|2027-05-02": {
    "status": "timeout",
@@ -17847,6 +17862,11 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 6
+  },
+  "rt|TSA|KIX|2026-12-24|2027-05-02": {
+   "status": "parse_error",
+   "at": "2026-10-27",
+   "n": 1
   },
   "rt|TSA|KIX|2027-02-10|2027-05-02": {
    "status": "timeout",
@@ -18324,6 +18344,11 @@
    "n": 4
   },
   "rt|UEO|TSA|2026-12-13|2027-02-10": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "rt|UEO|TSA|2026-12-27|2027-04-29": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1

@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:07:23+00:00",
+ "at": "2026-10-27T13:10:25+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 671,
+ "fares_saved": 677,
  "log": [
   "10:36:46 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:52 http front door: ['https://horses-living-lesson-vista.trycloudflare.com', 'https://c39a5185dc342a.lhr.life']",
@@ -74,6 +74,8 @@
   "13:03:07 request received: rid mvqp4lfk36eet.3 35 keys",
   "13:03:07 handle mvqp4lfk36eet.3: first_chunk=True total=35",
   "13:07:08 request mvqp4lfk36eet.3: chunk of 35 keys done in 240s; paths {'http': 54, 'browser': 10, 'browser-crashed': 333}, browser waits 343 max 243s sum 30180s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 54, 'miss': 116, 'blocked': 0, 'tries': 193, 'empty': 139}, audit 0/0 ",
-  "13:07:09 request mvqp4lfk36eet.3: final sent (35/35); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "13:07:09 request mvqp4lfk36eet.3: final sent (35/35); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "13:08:55 request received: rid mvqpc1ue1t9g7.3 47 keys",
+  "13:08:55 handle mvqpc1ue1t9g7.3: first_chunk=True total=47"
  ]
 }

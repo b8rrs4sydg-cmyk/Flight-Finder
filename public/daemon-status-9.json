@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T10:38:23+00:00",
+ "at": "2026-10-27T12:38:29+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 599,
+ "fares_saved": 627,
  "log": [
   "10:36:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:53 http front door: ['https://ranging-simulation-story-phone.trycloudflare.com', 'https://29e22ca529d500.lhr.life']",
@@ -13,6 +13,36 @@
   "10:37:57 request received: rid httptest1793097477 20 keys",
   "10:37:57 handle httptest1793097477: first_chunk=True total=20",
   "10:38:08 request httptest1793097477: chunk of 20 keys done in 11s; paths {'http': 25}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 25, 'miss': 6, 'blocked': 0, 'tries': 29, 'empty': 4}, audit 0/0 agree",
-  "10:38:09 request httptest1793097477: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:38:09 request httptest1793097477: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "10:38:24 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "10:39:09 queue: 12 keys from the look-up queue in 76s (6 priced, 0 no flight, 6 failed)",
+  "10:41:55 queue: 12 keys from the look-up queue in 105s (1 priced, 0 no flight, 11 failed)",
+  "10:44:43 queue: 12 keys from the look-up queue in 108s (2 priced, 0 no flight, 10 failed)",
+  "10:46:46 queue: 12 keys from the look-up queue in 62s (5 priced, 0 no flight, 7 failed)",
+  "10:48:51 queue: 12 keys from the look-up queue in 65s (4 priced, 0 no flight, 8 failed)",
+  "10:51:41 queue: 12 keys from the look-up queue in 110s (1 priced, 0 no flight, 11 failed)",
+  "10:54:32 queue: 12 keys from the look-up queue in 110s (3 priced, 0 no flight, 9 failed)",
+  "10:57:19 queue: 12 keys from the look-up queue in 107s (0 priced, 0 no flight, 12 failed)",
+  "10:57:19 queue: nothing readable, next try in 180s",
+  "11:02:07 queue: 12 keys from the look-up queue in 108s (0 priced, 0 no flight, 12 failed)",
+  "11:02:07 queue: nothing readable, next try in 300s",
+  "11:08:51 queue: 12 keys from the look-up queue in 104s (1 priced, 0 no flight, 11 failed)",
+  "11:11:27 queue: 12 keys from the look-up queue in 95s (0 priced, 0 no flight, 12 failed)",
+  "11:11:27 queue: nothing readable, next try in 180s",
+  "11:16:03 queue: 12 keys from the look-up queue in 97s (0 priced, 0 no flight, 12 failed)",
+  "11:16:03 queue: nothing readable, next try in 300s",
+  "11:22:46 queue: 12 keys from the look-up queue in 103s (1 priced, 0 no flight, 11 failed)",
+  "11:26:21 queue: 12 keys from the look-up queue in 95s (0 priced, 0 no flight, 12 failed)",
+  "11:26:21 queue: nothing readable, next try in 180s",
+  "11:30:55 queue: 12 keys from the look-up queue in 94s (0 priced, 0 no flight, 12 failed)",
+  "11:30:55 queue: nothing readable, next try in 300s",
+  "11:36:59 queue: 8 keys from the look-up queue in 63s (0 priced, 0 no flight, 8 failed)",
+  "11:36:59 queue: nothing readable, next try in 540s",
+  "11:46:49 queue: 4 keys from the look-up queue in 50s (0 priced, 0 no flight, 4 failed)",
+  "11:46:49 queue: nothing readable, next try in 1020s",
+  "12:37:49 rtc z2973jk4hm: answered",
+  "12:37:50 rtc z2973jk4hm: data channel open",
+  "12:37:51 request received: rid mvqo7ztizzemc.9 11 keys",
+  "12:37:51 handle mvqo7ztizzemc.9: first_chunk=True total=11"
  ]
 }

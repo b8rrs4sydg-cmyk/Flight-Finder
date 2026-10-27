@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T18:04:08+00:00",
+ "at": "2026-10-27T18:05:42+00:00",
  "publishes": {
   "ok": 9,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 750,
+ "fares_saved": 751,
  "log": [
   "15:51:45 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:51:52 http front door: ['https://pale-rand-vehicle-bonus.trycloudflare.com', 'https://fba5f17c92e5ff.lhr.life']",
@@ -144,6 +144,8 @@
   "18:03:21 request mvqzq6wwo4zpl.7: chunk of 27 keys done in 210s; paths {'http': 28, 'browser': 23, 'browser-crashed': 853}, browser waits 876 max 660s sum 125611s; ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 28, 'miss': 331, 'blocked': 0, 'tries': 154, 'empty': 126}, audit 1/1",
   "18:03:23 request mvqzq6wwo4zpl.7: final sent (27/27); ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}",
   "18:04:06 request received: rid mvqzvm6prydbb.8 12 keys",
-  "18:04:06 handle mvqzvm6prydbb.8: first_chunk=True total=12"
+  "18:04:06 handle mvqzvm6prydbb.8: first_chunk=True total=12",
+  "18:05:36 request mvqzvm6prydbb.8: chunk of 12 keys done in 90s; paths {'http': 28, 'browser': 24, 'browser-crashed': 864}, browser waits 888 max 660s sum 126121s; ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 28, 'miss': 334, 'blocked': 0, 'tries': 160, 'empty': 132}, audit 1/1 ",
+  "18:05:38 request mvqzvm6prydbb.8: final sent (12/12); ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}"
  ]
 }

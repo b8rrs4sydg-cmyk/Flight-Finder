@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T18:04:08+00:00",
+ "generated_at": "2026-10-27T18:05:42+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -11884,6 +11884,26 @@
     ]
    ]
   },
+  "rt|TPE|KMG|2027-06-09|2027-06-13": {
+   "price": 15134,
+   "by_airline": {
+    "China Southern": 15134,
+    "Korean Air": 32770
+   },
+   "first": {
+    "dep": "2027-06-09T12:30:00+08:00",
+    "arr": "2027-06-09T21:00:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     15134
+    ]
+   ]
+  },
   "rt|TPE|KUL|2026-11-06|2026-11-08": {
    "price": 8856,
    "first": {
@@ -15085,7 +15105,7 @@
    "n": 1
   },
   "ow|REP|TPE|2026-12-27": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -15135,12 +15155,12 @@
    "n": 2
   },
   "ow|TPE|REP|2026-11-06": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
   "ow|TPE|REP|2027-04-29": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -16090,9 +16110,9 @@
    "n": 2
   },
   "rt|PUS|RMQ|2026-12-27|2027-02-10": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 2
+   "n": 1
   },
   "rt|PUS|RMQ|2027-02-14|2027-09-15": {
    "status": "timeout",
@@ -16277,7 +16297,7 @@
   "rt|RMQ|DMK|2026-12-24|2027-02-14": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|RMQ|DMK|2027-02-10|2027-02-14": {
    "status": "timeout",
@@ -16400,9 +16420,9 @@
    "n": 2
   },
   "rt|RMQ|HND|2026-12-24|2027-02-14": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 2
+   "n": 1
   },
   "rt|RMQ|HND|2027-02-10|2027-06-13": {
    "status": "timeout",
@@ -16805,9 +16825,9 @@
    "n": 1
   },
   "rt|TPE|CSX|2027-04-29|2027-05-02": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 2
+   "n": 1
   },
   "rt|TPE|CTS|2026-12-11|2027-05-02": {
    "status": "timeout",
@@ -16954,11 +16974,6 @@
    "at": "2026-10-27",
    "n": 1
   },
-  "rt|TPE|KMG|2027-06-09|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 2
-  },
   "rt|TPE|MMY|2026-11-06|2027-02-14": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -17060,22 +17075,22 @@
    "n": 1
   },
   "rt|TPE|PNH|2027-04-29|2027-05-02": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
   "rt|TPE|PNH|2027-09-15|2027-09-19": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
   "rt|TPE|REP|2026-12-24|2026-12-27": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
   "rt|TPE|REP|2027-04-29|2027-05-02": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T12:46:01+00:00",
+ "generated_at": "2026-10-27T12:47:32+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -12905,6 +12905,11 @@
    "n": 1
   },
   "ow|RMQ|GMP|2026-11-06": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "ow|RMQ|KUL|2027-04-29": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1

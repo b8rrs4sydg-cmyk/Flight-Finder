@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T18:09:07+00:00",
+ "at": "2026-10-27T18:10:39+00:00",
  "publishes": {
   "ok": 8,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 758,
+ "fares_saved": 759,
  "log": [
   "15:45:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:45:10 http front door: ['https://control-automobile-cfr-fall.trycloudflare.com', 'https://073f039b4a1d74.lhr.life']",

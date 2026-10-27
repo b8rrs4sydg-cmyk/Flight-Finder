@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T13:39:18+00:00",
+ "generated_at": "2026-10-27T13:42:24+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -959,6 +959,28 @@
     [
      "2026-10-23",
      151134
+    ]
+   ]
+  },
+  "mc|KIX-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-HND-2027-09-15": {
+   "price": 86422,
+   "first": {
+    "dep": "2026-12-27T16:15:00+09:00",
+    "arr": "2026-12-27T18:30:00+08:00",
+    "stops": 0,
+    "airline": "Cathay Pacific"
+   },
+   "by_airline": {
+    "Cathay Pacific": 86422,
+    "EVA Air": 112997,
+    "Korean Air": 118159,
+    "China Airlines": 120738
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     86422
     ]
    ]
   },

@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:36:27+00:00",
+ "at": "2026-10-27T13:49:59+00:00",
  "publishes": {
-  "ok": 4,
+  "ok": 5,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 642,
+ "fares_saved": 643,
  "log": [
   "10:36:54 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:00 http front door: ['https://eat-photographer-suggestions-civilization.trycloudflare.com', 'https://efd6c0d8dc2084.lhr.life']",
@@ -106,6 +106,15 @@
   "13:34:52 request received: rid mvqq9f57km1rw.1 20 keys",
   "13:34:52 handle mvqq9f57km1rw.1: first_chunk=True total=20",
   "13:35:42 request mvqq9f57km1rw.1: chunk of 20 keys done in 50s; paths {'http': 82, 'browser': 42, 'browser-crashed': 530}, browser waits 572 max 332s sum 52037s; ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 82, 'miss': 176, 'blocked': 0, 'tries': 277, 'empty': 195}, audit 3/3 a",
-  "13:35:44 request mvqq9f57km1rw.1: final sent (20/20); ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}"
+  "13:35:44 request mvqq9f57km1rw.1: final sent (20/20); ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}",
+  "13:39:33 queue: 12 keys from the look-up queue in 97s (0 priced, 0 no flight, 12 failed)",
+  "13:39:33 queue: nothing readable, next try in 300s",
+  "13:46:12 queue: 12 keys from the look-up queue in 98s (1 priced, 0 no flight, 11 failed)",
+  "13:48:48 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "13:48:48 queue: nothing readable, next try in 180s",
+  "13:49:31 rtc dogmd3fe0p: answered",
+  "13:49:32 rtc dogmd3fe0p: data channel open",
+  "13:49:51 request received: rid mvqqs7wej7eqo.1 35 keys",
+  "13:49:51 handle mvqqs7wej7eqo.1: first_chunk=True total=35"
  ]
 }

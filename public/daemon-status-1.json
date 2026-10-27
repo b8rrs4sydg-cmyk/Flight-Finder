@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T12:53:45+00:00",
+ "at": "2026-10-27T12:55:17+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 591,
+ "fares_saved": 594,
  "log": [
   "10:36:54 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:00 http front door: ['https://eat-photographer-suggestions-civilization.trycloudflare.com', 'https://efd6c0d8dc2084.lhr.life']",

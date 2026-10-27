@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T12:45:53+00:00",
+ "at": "2026-10-27T12:47:24+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
@@ -52,6 +52,7 @@
   "12:43:56 handle mvqoft66fhhyp.6: first_chunk=True total=21",
   "12:44:26 request mvqod5shtgjgd.6: chunk of 19 keys done in 141s; paths {'http': 38, 'browser': 18, 'browser-crashed': 188}, browser waits 206 max 140s sum 12192s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 38, 'miss': 88, 'blocked': 0, 'tries': 129, 'empty': 91}, audit 1/1 ag",
   "12:44:28 request mvqod5shtgjgd.6: final sent (19/19); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
-  "12:45:53 request mvqoft66fhhyp.6: chunk of 21 keys done in 117s; paths {'http': 38, 'browser': 18, 'browser-crashed': 203}, browser waits 221 max 140s sum 13362s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 38, 'miss': 88, 'blocked': 0, 'tries': 129, 'empty': 91}, audit 1/1 ag"
+  "12:45:53 request mvqoft66fhhyp.6: chunk of 21 keys done in 117s; paths {'http': 38, 'browser': 18, 'browser-crashed': 203}, browser waits 221 max 140s sum 13362s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 38, 'miss': 88, 'blocked': 0, 'tries': 129, 'empty': 91}, audit 1/1 ag",
+  "12:45:53 request mvqoft66fhhyp.6: final sent (21/21); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
  ]
 }

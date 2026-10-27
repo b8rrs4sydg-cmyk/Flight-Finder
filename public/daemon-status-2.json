@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:36:45+00:00",
+ "at": "2026-10-27T13:38:16+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 714,
+ "fares_saved": 718,
  "log": [
   "10:36:51 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:56 git retry 0: b\"eads/main': is at f32197ab059ef66b1ce2d25e14e29f6a15671dae but expected ebd517197dbb091b38f21f4389ad4d36282b2bf1)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
@@ -96,6 +96,10 @@
   "13:34:52 request received: rid mvqq9f57km1rw.2 17 keys",
   "13:34:52 handle mvqq9f57km1rw.2: first_chunk=True total=17",
   "13:35:42 request mvqq9f57km1rw.2: chunk of 17 keys done in 50s; paths {'http': 63, 'browser-crashed': 528, 'browser': 66}, browser waits 594 max 340s sum 63303s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 63, 'miss': 206, 'blocked': 0, 'tries': 260, 'empty': 197}, audit 2/2 a",
-  "13:35:44 request mvqq9f57km1rw.2: final sent (17/17); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "13:35:44 request mvqq9f57km1rw.2: final sent (17/17); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "13:37:08 request received: rid mvqqcb0rjqmm8.1 7 keys",
+  "13:37:08 handle mvqqcb0rjqmm8.1: first_chunk=True total=7",
+  "13:37:57 request mvqqcb0rjqmm8.1: chunk of 7 keys done in 48s; paths {'http': 67, 'browser-crashed': 531, 'browser': 66}, browser waits 597 max 340s sum 63443s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 67, 'miss': 209, 'blocked': 0, 'tries': 271, 'empty': 204}, audit 2/2 ag",
+  "13:37:58 request mvqqcb0rjqmm8.1: final sent (7/7); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T13:34:59+00:00",
+ "generated_at": "2026-10-27T13:36:31+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -2528,6 +2528,28 @@
     ]
    ]
   },
+  "ow|CRK|TPE|2026-12-27": {
+   "price": 6424,
+   "first": {
+    "dep": "2026-12-27T13:05:00+08:00",
+    "arr": "2026-12-28T16:45:00+08:00",
+    "stops": 1,
+    "airline": "Hong Kong Express"
+   },
+   "by_airline": {
+    "Hong Kong Express": 6424,
+    "STARLUX Airlines": 8585,
+    "EVA Air": 10215,
+    "Jin Air": 20729
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     6424
+    ]
+   ]
+  },
   "ow|CSX|TPE|2027-02-14": {
    "price": 8885,
    "first": {
@@ -4072,6 +4094,28 @@
     ]
    ]
   },
+  "ow|TPE|CAN|2026-12-11": {
+   "price": 6750,
+   "first": {
+    "dep": "2026-12-11T15:30:00+08:00",
+    "arr": "2026-12-11T17:40:00+08:00",
+    "stops": 0,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 6750,
+    "Cathay Pacific": 7525,
+    "China Airlines": 7542,
+    "EVA Air": 7690
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     6750
+    ]
+   ]
+  },
   "ow|TPE|CEB|2027-06-09": {
    "price": 4049,
    "first": {
@@ -5172,6 +5216,28 @@
     [
      "2026-10-27",
      5434
+    ]
+   ]
+  },
+  "ow|TPE|TSN|2026-12-11": {
+   "price": 5795,
+   "first": {
+    "dep": "2026-12-11T15:30:00+08:00",
+    "arr": "2026-12-11T22:55:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 5795,
+    "Shenzhen": 8306,
+    "Asiana Airlines": 11301,
+    "Korean Air": 11712
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     5795
     ]
    ]
   },
@@ -10588,6 +10654,28 @@
     ]
    ]
   },
+  "rt|TPE|KMG|2026-12-24|2026-12-27": {
+   "price": 12062,
+   "by_airline": {
+    "Hainan": 12062,
+    "China Southern": 13884,
+    "Korean Air": 25270,
+    "Shenzhen": 33034
+   },
+   "first": {
+    "dep": "2026-12-24T12:00:00+08:00",
+    "arr": "2026-12-25T10:25:00+08:00",
+    "stops": 1,
+    "airline": "Hainan"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     12062
+    ]
+   ]
+  },
   "rt|TPE|MMY|2026-11-06|2026-11-08": {
    "price": 47072,
    "first": {
@@ -14619,6 +14707,11 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "rt|TPE|CAN|2026-12-24|2026-12-27": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
   "rt|TPE|CJU|2026-12-11|2026-12-27": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -14645,6 +14738,11 @@
    "n": 1
   },
   "rt|TPE|CNX|2027-04-29|2027-09-19": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "rt|TPE|CTU|2026-11-20|2026-11-22": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1

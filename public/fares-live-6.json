@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T17:48:03+00:00",
+ "generated_at": "2026-10-27T17:49:35+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -6810,6 +6810,28 @@
     [
      "2026-10-22",
      13579
+    ]
+   ]
+  },
+  "rt|CTS|TPE|2026-12-13|2027-02-10": {
+   "price": 15060,
+   "by_airline": {
+    "Jetstar": 15060,
+    "Scoot": 17905,
+    "Cebu Pacific": 22100,
+    "Tigerair Taiwan": 22618
+   },
+   "first": {
+    "dep": "2026-12-13T20:40:00+09:00",
+    "arr": "2026-12-14T11:50:00+08:00",
+    "stops": 1,
+    "airline": "Jetstar"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     15060
     ]
    ]
   },
@@ -15653,9 +15675,9 @@
    "n": 3
   },
   "rt|GMP|TPE|2026-12-13|2027-09-15": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 5
+   "n": 1
   },
   "rt|GMP|TSA|2026-11-22|2027-09-15": {
    "status": "timeout",
@@ -15718,9 +15740,9 @@
    "n": 5
   },
   "rt|HKT|TSA|2026-12-13|2027-09-15": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 5
+   "n": 1
   },
   "rt|HKT|TSA|2027-05-02|2027-09-15": {
    "status": "timeout",
@@ -15910,7 +15932,7 @@
   "rt|ITM|TPE|2026-12-13|2027-02-10": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|ITM|TSA|2026-11-22|2027-09-15": {
    "status": "timeout",
@@ -16135,7 +16157,7 @@
   "rt|PUS|RMQ|2026-12-13|2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 5
+   "n": 6
   },
   "rt|PUS|RMQ|2026-12-27|2027-09-15": {
    "status": "timeout",
@@ -16973,9 +16995,9 @@
    "n": 1
   },
   "rt|TPE|HND|2026-12-11|2027-09-19": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 5
+   "n": 1
   },
   "rt|TPE|ICN|2026-12-11|2027-06-13": {
    "status": "timeout",
@@ -17017,6 +17039,11 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "rt|TPE|ITM|2026-12-11|2027-09-19": {
+   "status": "parse_error",
+   "at": "2026-10-27",
+   "n": 1
+  },
   "rt|TPE|KIX|2026-11-20|2026-12-27": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -17053,9 +17080,9 @@
    "n": 1
   },
   "rt|TPE|MMY|2026-12-11|2027-09-19": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 5
+   "n": 1
   },
   "rt|TPE|MNL|2027-09-15|2027-09-19": {
    "status": "timeout",
@@ -17140,7 +17167,7 @@
   "rt|TPE|PUS|2026-12-11|2027-09-19": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|TPE|PUS|2026-12-24|2027-06-13": {
    "status": "timeout",
@@ -17760,7 +17787,7 @@
   "rt|TSA|KIX|2026-12-11|2027-09-19": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 5
+   "n": 6
   },
   "rt|TSA|KIX|2027-02-10|2027-05-02": {
    "status": "timeout",
@@ -18010,7 +18037,7 @@
   "rt|TSA|UEO|2026-12-11|2027-09-19": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 4
+   "n": 5
   },
   "rt|TSA|UEO|2026-12-24|2027-06-13": {
    "status": "timeout",
@@ -18295,7 +18322,7 @@
   "rt|USM|RMQ|2026-12-13|2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 5
+   "n": 6
   },
   "rt|USM|RMQ|2027-05-02|2027-06-09": {
    "status": "timeout",

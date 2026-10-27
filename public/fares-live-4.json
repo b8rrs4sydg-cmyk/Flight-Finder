@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T17:00:03+00:00",
+ "generated_at": "2026-10-27T17:01:36+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -14595,7 +14595,7 @@
    "n": 1
   },
   "rt|GMP|RMQ|2027-05-02|2027-06-09": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -14617,7 +14617,7 @@
   "rt|GMP|TPE|2027-05-02|2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|GMP|TSA|2026-11-22|2027-04-29": {
    "status": "timeout",
@@ -15287,7 +15287,7 @@
   "rt|RMQ|CTS|2027-04-29|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|RMQ|CTS|2027-04-29|2027-09-19": {
    "status": "timeout",
@@ -15477,7 +15477,7 @@
   "rt|RMQ|ITM|2026-12-24|2026-12-27": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|RMQ|ITM|2026-12-24|2027-06-13": {
    "status": "timeout",
@@ -15655,14 +15655,14 @@
    "n": 2
   },
   "rt|RMQ|UEO|2026-12-11|2026-12-13": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
   "rt|RMQ|UEO|2026-12-24|2026-12-27": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 3
+   "n": 4
   },
   "rt|RMQ|UEO|2026-12-24|2027-05-02": {
    "status": "timeout",
@@ -15825,6 +15825,11 @@
    "n": 2
   },
   "rt|TPE|GMP|2026-12-11|2026-12-27": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "rt|TPE|GMP|2027-04-29|2027-09-19": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
@@ -16525,7 +16530,7 @@
    "n": 1
   },
   "rt|TSA|NRT|2027-04-29|2027-06-13": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -16642,7 +16647,7 @@
   "rt|TSA|UEO|2027-04-29|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|TSA|UEO|2027-06-09|2027-09-19": {
    "status": "timeout",

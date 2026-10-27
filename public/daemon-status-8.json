@@ -1,7 +1,7 @@
 {
- "at": "2026-10-27T09:18:42+00:00",
+ "at": "2026-10-27T09:20:13+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
@@ -20,6 +20,9 @@
   "09:15:27 rtc 4s8y5u8rbo: answered",
   "09:18:26 rtc crgq83hjms: answered",
   "09:18:28 request received: rid mvqh3agld7nxk.7 26 keys",
-  "09:18:28 handle mvqh3agld7nxk.7: first_chunk=True total=26"
+  "09:18:28 handle mvqh3agld7nxk.7: first_chunk=True total=26",
+  "09:19:58 rtc hxr2w4emmp: answered",
+  "09:20:03 request received: rid mvqh5ch518p0u.8 14 keys",
+  "09:20:03 handle mvqh5ch518p0u.8: first_chunk=True total=14"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T16:44:07+00:00",
+ "at": "2026-10-27T16:45:39+00:00",
  "publishes": {
   "ok": 4,
   "r429": 0,
@@ -60,6 +60,10 @@
   "16:39:58 handle mvqwvercp53wt.8: first_chunk=True total=41",
   "16:40:52 request received: rid mvqwwluc14pja.8 40 keys",
   "16:40:52 handle mvqwwluc14pja.8: first_chunk=True total=40",
-  "16:41:32 rtc l96r1q8hnb: answered"
+  "16:41:32 rtc l96r1q8hnb: answered",
+  "16:44:13 request mvqwvercp53wt.8: chunk of 41 keys done in 255s; paths {'http': 27, 'browser': 11, 'browser-crashed': 290}, browser waits 301 max 338s sum 35696s; ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 109, 'blocked': 0, 'tries': 65, 'empty': 38}, audit 1/1 ag",
+  "16:44:13 request mvqwwluc14pja.8: chunk of 40 keys done in 201s; paths {'http': 27, 'browser': 11, 'browser-crashed': 290}, browser waits 301 max 338s sum 35696s; ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 109, 'blocked': 0, 'tries': 65, 'empty': 38}, audit 1/1 ag",
+  "16:44:14 request mvqwvercp53wt.8: final sent (41/41); ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}",
+  "16:44:14 request mvqwwluc14pja.8: final sent (40/40); ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}"
  ]
 }

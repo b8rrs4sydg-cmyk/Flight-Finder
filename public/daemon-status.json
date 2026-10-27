@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:16:19+00:00",
+ "at": "2026-10-27T13:17:51+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 538,
+ "fares_saved": 543,
  "log": [
   "10:36:37 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:41 http front door: ['https://struck-widescreen-fluid-gently.trycloudflare.com', 'https://ef2932acbf4f7b.lhr.life']",

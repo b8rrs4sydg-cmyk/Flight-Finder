@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T15:49:33+00:00",
+ "generated_at": "2026-10-27T15:51:10+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -3483,6 +3483,28 @@
     ]
    ]
   },
+  "ow|KUL|TPE|2026-11-22": {
+   "price": 3489,
+   "first": {
+    "dep": "2026-11-22T23:55:00+08:00",
+    "arr": "2026-11-23T04:55:00+08:00",
+    "stops": 0,
+    "airline": "AirAsia"
+   },
+   "by_airline": {
+    "AirAsia": 3489,
+    "Vietjet": 4516,
+    "STARLUX Airlines": 6825,
+    "China Airlines": 6880
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     3489
+    ]
+   ]
+  },
   "ow|KUL|TSA|2027-05-02": {
    "price": 51099,
    "first": {
@@ -3834,6 +3856,25 @@
     [
      "2026-10-22",
      11995
+    ]
+   ]
+  },
+  "ow|PEN|RMQ|2027-06-13": {
+   "price": 8410,
+   "first": {
+    "dep": "2027-06-13T16:25:00+08:00",
+    "arr": "2027-06-14T09:25:00+08:00",
+    "stops": 1,
+    "airline": "Hong Kong Express"
+   },
+   "by_airline": {
+    "Hong Kong Express": 8410
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     8410
     ]
    ]
   },
@@ -4365,6 +4406,25 @@
     [
      "2026-10-24",
      9880
+    ]
+   ]
+  },
+  "ow|RMQ|PEN|2026-12-11": {
+   "price": 5670,
+   "first": {
+    "dep": "2026-12-11T13:10:00+08:00",
+    "arr": "2026-12-12T00:05:00+08:00",
+    "stops": 1,
+    "airline": "Hong Kong Express"
+   },
+   "by_airline": {
+    "Hong Kong Express": 5670
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     5670
     ]
    ]
   },
@@ -5676,6 +5736,28 @@
     [
      "2026-10-27",
      4899
+    ]
+   ]
+  },
+  "ow|TPE|PEN|2026-11-20": {
+   "price": 5324,
+   "first": {
+    "dep": "2026-11-20T00:10:00+08:00",
+    "arr": "2026-11-20T08:30:00+08:00",
+    "stops": 1,
+    "airline": "Scoot"
+   },
+   "by_airline": {
+    "Scoot": 5324,
+    "Hong Kong Express": 6577,
+    "AirAsia": 9016,
+    "Malaysia Airlines": 9927
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     5324
     ]
    ]
   },
@@ -14670,11 +14752,6 @@
    "at": "2026-10-27",
    "n": 1
   },
-  "ow|KUL|TPE|2026-11-22": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 1
-  },
   "ow|MMY|RMQ|2027-09-19": {
    "status": "parse_error",
    "at": "2026-10-27",
@@ -14740,11 +14817,6 @@
    "at": "2026-10-27",
    "n": 2
   },
-  "ow|TPE|PEN|2026-11-20": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 1
-  },
   "ow|TSA|DMK|2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -14753,7 +14825,7 @@
   "ow|TSA|DPS|2027-02-10": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "ow|TSA|ICN|2027-09-15": {
    "status": "timeout",
@@ -15873,7 +15945,7 @@
   "rt|RMQ|MMY|2026-11-06|2026-11-08": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 8
+   "n": 9
   },
   "rt|RMQ|MMY|2026-11-20|2026-11-22": {
    "status": "timeout",
@@ -17213,7 +17285,7 @@
   "rt|TSA|USM|2026-11-06|2026-11-08": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|TSA|USM|2026-11-06|2026-12-13": {
    "status": "timeout",

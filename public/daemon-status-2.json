@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T16:32:08+00:00",
+ "at": "2026-10-27T16:33:40+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 783,
+ "fares_saved": 785,
  "log": [
   "15:44:58 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:45:05 http front door: ['https://past-provider-tones-grocery.trycloudflare.com', 'https://40d23ee65f59af.lhr.life']",

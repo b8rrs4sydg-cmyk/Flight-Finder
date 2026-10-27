@@ -1,13 +1,12 @@
 {
- "at": "2026-10-27T15:23:39+00:00",
+ "at": "2026-10-27T15:28:13+00:00",
  "publishes": {
-  "ok": 5,
+  "ok": 6,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 665,
+ "fares_saved": 685,
  "log": [
-  "10:36:54 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:00 http front door: ['https://eat-photographer-suggestions-civilization.trycloudflare.com', 'https://efd6c0d8dc2084.lhr.life']",
   "10:37:00 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "10:38:04 request received: rid httptest1793097483 20 keys",
@@ -152,6 +151,11 @@
   "15:20:38 request received: rid mvqu1fnm1p9kb.1 24 keys",
   "15:20:38 handle mvqu1fnm1p9kb.1: first_chunk=True total=24",
   "15:22:15 request mvqu1fnm1p9kb.1: chunk of 24 keys done in 97s; paths {'http': 106, 'browser': 48, 'browser-crashed': 802}, browser waits 850 max 567s sum 89131s; ntfy publishes {'ok': 5, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 106, 'miss': 328, 'blocked': 0, 'tries': 408, 'empty': 302}, audit 3/3",
-  "15:22:16 request mvqu1fnm1p9kb.1: final sent (24/24); ntfy publishes {'ok': 5, 'r429': 0, 'fail': 0}"
+  "15:22:16 request mvqu1fnm1p9kb.1: final sent (24/24); ntfy publishes {'ok': 5, 'r429': 0, 'fail': 0}",
+  "15:25:45 rtc h3kpf1f8xl: answered",
+  "15:25:46 request received: rid mvqu7rbw42lra.1 21 keys",
+  "15:25:46 handle mvqu7rbw42lra.1: first_chunk=True total=21",
+  "15:26:46 request mvqu7rbw42lra.1: chunk of 21 keys done in 60s; paths {'http': 125, 'browser': 49, 'browser-crashed': 803}, browser waits 852 max 567s sum 89181s; ntfy publishes {'ok': 6, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 125, 'miss': 330, 'blocked': 0, 'tries': 427, 'empty': 302}, audit 5/5",
+  "15:26:47 request mvqu7rbw42lra.1: final sent (21/21); ntfy publishes {'ok': 6, 'r429': 0, 'fail': 0}"
  ]
 }

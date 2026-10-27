@@ -1781,7 +1781,16 @@ function loadFareSnapshot() {
   (FARES.unavailable || []).filter(confirmedGone).forEach(k => live.notFound.add(k));
 }
 /* What the crawler covers — drives defaults, the 無資料 marks and the status bar. */
+let _cov = null, _covAt = 0;
+const invalidateCoverage = () => { _cov = null; };
 function fareCoverage() {
+  // scanning every key costs tens of ms and a search asks several times: reuse the answer for a moment (new fares reset it)
+  if (_cov && _cov.fares === FARES.fares && Date.now() - _covAt < 3000) return _cov.value;
+  const value = computeFareCoverage();
+  _cov = { fares: FARES.fares, value }; _covAt = Date.now();
+  return value;
+}
+function computeFareCoverage() {
   const cov = FARES.coverage || {};
   const airports = new Set();
   const keys = Object.keys(FARES.fares || {});
@@ -2253,25 +2262,26 @@ function planReversePair(req, A, B) {
         }
       }
       const wanted = c => !screeningOn() || need.has(c);
+      // candidates grouped by route once (was: a scan of every candidate per route pair, quadratic in the airports of a country)
+      const byKey = list => { const m = new Map(); for (const c of list) { if (!wanted(c)) continue; (m.get(c.key) || m.set(c.key, []).get(c.key)).push(c); } return m; };
+      const backBy = byKey(backCand), frontBy = byKey(frontCand);
       const backs = [];
       for (const aOut of dests) for (const bIn of dests) {
         const back = [];
-        for (const c of backCand) {
-          if (c.key !== `${aOut}|${bIn}` || !wanted(c)) continue;
+        for (const c of backBy.get(`${aOut}|${bIn}`) || []) {
           const t = quote(c.segs, req.adults);
           if (t) back.push([t.total_price, { aRet: c.aRet, bDep: c.bDep, t }]);
         }
-        backs.push([aOut, bIn, back]);
+        if (back.length) backs.push([aOut, bIn, back]);   // a route without a quote can never pair
       }
       const fronts = [];
       for (const aIn of dests) for (const bOut of dests) {
         const wrap = [];
-        for (const c of frontCand) {
-          if (c.key !== `${aIn}|${bOut}` || !wanted(c)) continue;
+        for (const c of frontBy.get(`${aIn}|${bOut}`) || []) {
           const t = quote(c.segs, req.adults);
           if (t) wrap.push([t.total_price, { aDep: c.aDep, bRet: c.bRet, tickets: [t] }]);
         }
-        fronts.push(['倒買法', aIn, bOut, wrap]);
+        if (wrap.length) fronts.push(['倒買法', aIn, bOut, wrap]);
       }
       const compatible = (fr, bk) => fr.aDep < bk.aRet && bk.bDep < fr.bRet;
       const found = [];
@@ -4783,18 +4793,19 @@ function mcInfo(key, ix) {
   if (segs.length === 4) {
     const [[x, , c1], [, d, c2], , [, y, rDep]] = segs;
     const group = ['4leg', x, d, y, c1.slice(5, 7), c2.slice(5, 7), rDep.slice(5, 7)].join('|');
-    const owFirst = ix.min('ow', 'TPE', x, e => e.d1 < c1);
-    const owLast = ix.min('ow', y, 'TPE', e => e.d1 > rDep);
-    const rtX = ix.min('rt', 'TPE', x, e => ix.near(e.d2, c1));
-    const rtD = ix.min('rt', 'TPE', d, e => ix.near(e.d1, c2));
-    const rtY = ix.min('rt', 'TPE', y, e => ix.near(e.d1, rDep));
+    // the same legs recur in thousands of keys: each lookup is computed once per price index
+    const owFirst = ix.memo(`of|${x}|${c1}`, () => ix.min('ow', 'TPE', x, e => e.d1 < c1));
+    const owLast = ix.memo(`ol|${y}|${rDep}`, () => ix.min('ow', y, 'TPE', e => e.d1 > rDep));
+    const rtX = ix.memo(`rx|${x}|${c1}`, () => ix.min('rt', 'TPE', x, e => ix.near(e.d2, c1)));
+    const rtD = ix.memo(`rd|${d}|${c2}`, () => ix.min('rt', 'TPE', d, e => ix.near(e.d1, c2)));
+    const rtY = ix.memo(`ry|${y}|${rDep}`, () => ix.min('rt', 'TPE', y, e => ix.near(e.d1, rDep)));
     const ok = [owFirst, owLast, rtX, rtD, rtY].every(v => v != null);
     return { key, group, score: ok ? (rtX + rtD + rtY - owFirst - owLast) / Math.max(rtD, 1) : -Infinity,
              base: ok ? { fixed: owFirst + owLast, rts: rtX + rtD + rtY } : null };
   }
   const [[o1, d1, day1], [o2, d2, day2]] = segs;
   const group = ['oj', o1, d1, o2, d2, day1.slice(5, 7), day2.slice(5, 7)].join('|');
-  const p = ix.min('rt', o1, d1, e => e.d1 === day1 && e.d2 === day2);
+  const p = ix.memo(`oj|${o1}|${d1}|${day1}|${day2}`, () => ix.min('rt', o1, d1, e => e.d1 === day1 && e.d2 === day2));
   return { key, group, score: p == null ? -Infinity : -p, base: null };
 }
 
@@ -4809,7 +4820,9 @@ function priceIndex() {
     idx[kind].get(g).push({ d1, d2, price: v.price });
   }
   const flex = (fareCoverage().flex ?? 1) + 1;
+  const cache = new Map();
   return {
+    memo: (k, f) => { if (cache.has(k)) return cache.get(k); const v = f(); cache.set(k, v); return v; },
     near: (a, b) => Math.abs(daysBetween(a, b)) <= flex,
     min: (kind, o, d, ok) => {
       const list = (idx[kind].get(`${o}|${d}`) || []).filter(ok);
@@ -5111,6 +5124,7 @@ function foldHistory(old, nw) {
 
 function mergeLiveFares(fares, nf) {
   let n = 0;
+  invalidateCoverage();
   const asked = new Set(live.keys);
   for (const [k, raw] of Object.entries(fares || {})) {
     const v = asked.has(k) ? expandFare(raw) : null;      // only keys this page asked for, only valid shapes
@@ -5161,6 +5175,7 @@ async function cloudProbe() {
 }
 function takeCloudFares(d) {
   let changed = false;
+  invalidateCoverage();
   for (const [k, v] of Object.entries(d.fares || {})) {
     const mine = FARES.fares[k];
     if (!mine || (v.at || '') > (mine.at || '') || ((v.at || '') === (mine.at || '') && (v.hist || []).length > (mine.hist || []).length)) { FARES.fares[k] = v; changed = true; }
@@ -5199,7 +5214,7 @@ async function loadCloudFares() {
   CLOUD.busy = false; DBLOAD.busy = false;
   if (!ok) { CLOUD.since = 0; CLOUD.on = false; setTimeout(() => { CLOUD.on = null; }, 10 * 60 * 1000); renderDbCard?.(); return false; }
   DBLOAD.files = [{ name: '公用資料庫', source: 'Cloudflare', n, at: FARES.generated_at || '' }]; DBLOAD.at = new Date();
-  if (changed) { applyCoverage(); scheduleRefresh(); renderTop100?.(); }
+  if (changed) { invalidateCoverage(); applyCoverage(); scheduleRefresh(); renderTop100?.(); }
   renderDbCard?.();
   return true;
 }
@@ -5232,7 +5247,7 @@ async function loadSiblingFares() {
     }
   }));
   DBLOAD.busy = false; DBLOAD.at = new Date();
-  if (changed) { applyCoverage(); scheduleRefresh(); renderTop100?.(); }
+  if (changed) { invalidateCoverage(); applyCoverage(); scheduleRefresh(); renderTop100?.(); }
   renderDbCard?.();
 }
 

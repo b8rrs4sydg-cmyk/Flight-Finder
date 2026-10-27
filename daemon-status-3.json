@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T15:21:53+00:00",
+ "at": "2026-10-27T15:27:57+00:00",
  "publishes": {
-  "ok": 4,
+  "ok": 5,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 724,
+ "fares_saved": 732,
  "log": [
   "10:36:46 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:52 http front door: ['https://horses-living-lesson-vista.trycloudflare.com', 'https://c39a5185dc342a.lhr.life']",
@@ -148,6 +148,11 @@
   "15:20:38 request received: rid mvqu1fnm1p9kb.3 11 keys",
   "15:20:38 handle mvqu1fnm1p9kb.3: first_chunk=True total=11",
   "15:21:28 request mvqu1fnm1p9kb.3: chunk of 11 keys done in 50s; paths {'http': 107, 'browser': 18, 'browser-crashed': 781}, browser waits 799 max 464s sum 87285s; ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 107, 'miss': 317, 'blocked': 0, 'tries': 395, 'empty': 288}, audit 2/2",
-  "15:21:29 request mvqu1fnm1p9kb.3: final sent (11/11); ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}"
+  "15:21:29 request mvqu1fnm1p9kb.3: final sent (11/11); ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}",
+  "15:25:45 rtc a3k84bb4zu: answered",
+  "15:25:46 request received: rid mvqu7rbw42lra.3 11 keys",
+  "15:25:46 handle mvqu7rbw42lra.3: first_chunk=True total=11",
+  "15:26:35 request mvqu7rbw42lra.3: chunk of 11 keys done in 50s; paths {'http': 113, 'browser': 20, 'browser-crashed': 784}, browser waits 804 max 464s sum 87436s; ntfy publishes {'ok': 5, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 113, 'miss': 317, 'blocked': 0, 'tries': 401, 'empty': 288}, audit 2/2",
+  "15:26:36 request mvqu7rbw42lra.3: final sent (11/11); ntfy publishes {'ok': 5, 'r429': 0, 'fail': 0}"
  ]
 }

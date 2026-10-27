@@ -1,17 +1,12 @@
 {
- "at": "2026-10-27T15:22:41+00:00",
+ "at": "2026-10-27T15:28:46+00:00",
  "publishes": {
-  "ok": 3,
+  "ok": 4,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 685,
+ "fares_saved": 695,
  "log": [
-  "10:37:57 handle httptest1793097477: first_chunk=True total=20",
-  "10:38:08 request httptest1793097477: chunk of 20 keys done in 11s; paths {'http': 25}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 25, 'miss': 6, 'blocked': 0, 'tries': 29, 'empty': 4}, audit 0/0 agree",
-  "10:38:09 request httptest1793097477: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "10:38:24 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "10:39:09 queue: 12 keys from the look-up queue in 76s (6 priced, 0 no flight, 6 failed)",
   "10:41:55 queue: 12 keys from the look-up queue in 105s (1 priced, 0 no flight, 11 failed)",
   "10:44:43 queue: 12 keys from the look-up queue in 108s (2 priced, 0 no flight, 10 failed)",
   "10:46:46 queue: 12 keys from the look-up queue in 62s (5 priced, 0 no flight, 7 failed)",
@@ -156,6 +151,11 @@
   "15:20:38 request received: rid mvqu1fnm1p9kb.9 12 keys",
   "15:20:38 handle mvqu1fnm1p9kb.9: first_chunk=True total=12",
   "15:21:28 request mvqu1fnm1p9kb.9: chunk of 12 keys done in 49s; paths {'http': 86, 'browser': 34, 'browser-crashed': 768}, browser waits 802 max 388s sum 87732s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 86, 'miss': 340, 'blocked': 0, 'tries': 327, 'empty': 241}, audit 4/4 a",
-  "15:21:28 request mvqu1fnm1p9kb.9: final sent (12/12); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "15:21:28 request mvqu1fnm1p9kb.9: final sent (12/12); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "15:25:46 request received: rid mvqu7rbw42lra.9 13 keys",
+  "15:25:46 handle mvqu7rbw42lra.9: first_chunk=True total=13",
+  "15:25:52 rtc 1dgi2qk2ur: answered",
+  "15:27:14 request mvqu7rbw42lra.9: chunk of 13 keys done in 88s; paths {'http': 92, 'browser': 38, 'browser-crashed': 771}, browser waits 809 max 388s sum 87920s; ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 92, 'miss': 341, 'blocked': 0, 'tries': 334, 'empty': 242}, audit 4/4 a",
+  "15:27:16 request mvqu7rbw42lra.9: final sent (13/13); ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}"
  ]
 }

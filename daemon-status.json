@@ -1,16 +1,12 @@
 {
- "at": "2026-10-27T15:21:59+00:00",
+ "at": "2026-10-27T15:26:31+00:00",
  "publishes": {
-  "ok": 3,
+  "ok": 4,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 593,
+ "fares_saved": 603,
  "log": [
-  "10:36:41 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "10:37:46 request received: rid httptest1793097465 20 keys",
-  "10:37:46 handle httptest1793097465: first_chunk=True total=20",
-  "10:37:59 request httptest1793097465: chunk of 20 keys done in 13s; paths {'http': 24}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 24, 'miss': 4, 'blocked': 0, 'tries': 25, 'empty': 1}, audit 0/0 agree",
   "10:38:00 request httptest1793097465: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
   "10:38:38 queue: 12 keys from the look-up queue in 57s (12 priced, 0 no flight, 0 failed)",
   "10:41:14 queue: 12 keys from the look-up queue in 96s (4 priced, 0 no flight, 8 failed)",
@@ -156,6 +152,10 @@
   "15:20:38 request received: rid mvqu1fnm1p9kb.0 16 keys",
   "15:20:38 handle mvqu1fnm1p9kb.0: first_chunk=True total=16",
   "15:21:42 request mvqu1fnm1p9kb.0: chunk of 16 keys done in 64s; paths {'http': 106, 'browser': 52, 'browser-crashed': 906}, browser waits 958 max 514s sum 118233s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 106, 'miss': 379, 'blocked': 8, 'tries': 371, 'empty': 265}, audit 5/",
-  "15:21:43 request mvqu1fnm1p9kb.0: final sent (16/16); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "15:21:43 request mvqu1fnm1p9kb.0: final sent (16/16); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "15:23:51 queue: 12 keys from the look-up queue in 67s (4 priced, 0 no flight, 8 failed)",
+  "15:25:46 request received: rid mvqu7rbw42lra.0 10 keys",
+  "15:25:46 handle mvqu7rbw42lra.0: first_chunk=True total=10",
+  "15:25:48 rtc nlcrvq1hry: answered"
  ]
 }

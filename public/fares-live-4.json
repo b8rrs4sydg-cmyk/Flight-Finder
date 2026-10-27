@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T16:34:12+00:00",
+ "generated_at": "2026-10-27T16:35:44+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -14727,7 +14727,7 @@
   "rt|KIX|RMQ|2026-12-27|2027-06-09": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|KIX|TPE|2026-12-27|2027-09-15": {
    "status": "timeout",
@@ -15947,7 +15947,7 @@
   "rt|TSA|CJU|2026-12-24|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|TSA|CJU|2027-02-10|2027-09-19": {
    "status": "parse_error",
@@ -15982,7 +15982,7 @@
   "rt|TSA|CNX|2026-12-24|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|TSA|CNX|2027-02-10|2027-05-02": {
    "status": "timeout",

@@ -1,7 +1,7 @@
 {
- "at": "2026-10-27T09:50:21+00:00",
+ "at": "2026-10-27T10:02:22+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
@@ -32,6 +32,11 @@
   "09:48:17 queue: nothing readable, next try in 300s",
   "09:48:46 git retry 0: b\"eads/main': is at 5f215dddfaa8c404c3a30a1b4a421911b9e860d3 but expected ea61cbee23a166d1b497407600caea57b68ead81)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "09:49:02 request mvqi4s7ppgts0.0: chunk of 7 keys done in 86s; paths {'http': 30, 'browser': 9, 'browser-crashed': 67}, browser waits 76 max 164s sum 5338s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 30, 'miss': 39, 'blocked': 0, 'tries': 74, 'empty': 44}, audit 1/1 agree",
-  "09:49:03 request mvqi4s7ppgts0.0: final sent (7/7); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "09:49:03 request mvqi4s7ppgts0.0: final sent (7/7); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "09:54:54 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "09:54:54 queue: nothing readable, next try in 540s",
+  "10:01:27 rtc a6f13ypzm2: answered",
+  "10:01:40 request received: rid mvqimuoe85s0d.0 7 keys",
+  "10:01:40 handle mvqimuoe85s0d.0: first_chunk=True total=7"
  ]
 }

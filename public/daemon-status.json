@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:22:27+00:00",
+ "at": "2026-10-27T13:23:59+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 549,
+ "fares_saved": 550,
  "log": [
   "10:36:37 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:41 http front door: ['https://struck-widescreen-fluid-gently.trycloudflare.com', 'https://ef2932acbf4f7b.lhr.life']",
@@ -92,6 +92,8 @@
   "13:18:59 request mvqpjkdpw11v1.0: chunk of 33 keys done in 253s; paths {'http': 75, 'browser': 30, 'browser-crashed': 450}, browser waits 480 max 287s sum 47102s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 75, 'miss': 146, 'blocked': 0, 'tries': 206, 'empty': 131}, audit 5/5 ",
   "13:19:00 request mvqpjkdpw11v1.0: final sent (33/33); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
   "13:19:46 request received: rid mvqpq04iyqtch.0 31 keys",
-  "13:19:46 handle mvqpq04iyqtch.0: first_chunk=True total=31"
+  "13:19:46 handle mvqpq04iyqtch.0: first_chunk=True total=31",
+  "13:23:03 request mvqpq04iyqtch.0: chunk of 31 keys done in 197s; paths {'http': 78, 'browser': 34, 'browser-crashed': 474}, browser waits 508 max 287s sum 49473s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 78, 'miss': 174, 'blocked': 0, 'tries': 226, 'empty': 148}, audit 5/5 ",
+  "13:23:05 request mvqpq04iyqtch.0: final sent (31/31); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
  ]
 }

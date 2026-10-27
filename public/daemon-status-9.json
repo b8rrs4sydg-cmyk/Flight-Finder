@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T12:50:55+00:00",
+ "at": "2026-10-27T12:52:26+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
@@ -63,6 +63,10 @@
   "12:49:02 request received: rid mvqomgnrkgbyi.9 37 keys",
   "12:49:02 handle mvqomgnrkgbyi.9: first_chunk=True total=37",
   "12:49:12 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "12:49:17 git retry 1: b\"eads/main': is at e38411b327d797f5cb7c11de0434d845dbf3c1ad but expected 33d71a0930f7c85ef561dc6d8fab99c8e9a3b0f3)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\""
+  "12:49:17 git retry 1: b\"eads/main': is at e38411b327d797f5cb7c11de0434d845dbf3c1ad but expected 33d71a0930f7c85ef561dc6d8fab99c8e9a3b0f3)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "12:52:25 request mvqombwnumyis.9: chunk of 37 keys done in 210s; paths {'http': 37, 'browser': 17, 'browser-crashed': 235}, browser waits 252 max 209s sum 16656s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 37, 'miss': 88, 'blocked': 0, 'tries': 135, 'empty': 98}, audit 3/3 ag",
+  "12:52:25 request mvqomgnrkgbyi.9: chunk of 37 keys done in 203s; paths {'http': 37, 'browser': 17, 'browser-crashed': 235}, browser waits 252 max 209s sum 16656s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 37, 'miss': 88, 'blocked': 0, 'tries': 135, 'empty': 98}, audit 3/3 ag",
+  "12:52:25 request mvqombwnumyis.9: final sent (37/37); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "12:52:26 request mvqomgnrkgbyi.9: final sent (37/37); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
  ]
 }

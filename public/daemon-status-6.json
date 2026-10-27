@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:10:18+00:00",
+ "at": "2026-10-27T13:11:50+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 672,
+ "fares_saved": 673,
  "log": [
   "10:36:40 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:45 http front door: ['https://spam-families-selecting-nikon.trycloudflare.com', 'https://3eebe1d68a0475.lhr.life']",

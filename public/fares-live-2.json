@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T09:38:08+00:00",
+ "generated_at": "2026-10-27T09:39:40+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -1629,6 +1629,26 @@
     [
      "2026-10-24",
      27624
+    ]
+   ]
+  },
+  "mc|TPE-HND-2027-02-05|NRT-TPE-2027-02-28": {
+   "price": 28301,
+   "first": {
+    "dep": "2027-02-05T13:20:00+08:00",
+    "arr": "2027-02-05T21:15:00+09:00",
+    "stops": 1,
+    "airline": "Cathay Pacific"
+   },
+   "by_airline": {
+    "Cathay Pacific": 28301,
+    "Asiana Airlines": 51048
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     28301
     ]
    ]
   },
@@ -11455,12 +11475,12 @@
   "mc|BKK-TPE-2027-01-02|TPE-KIX-2027-02-04|KIX-TPE-2027-02-16|TPE-BKK-2027-02-25": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "mc|BKK-TPE-2027-01-02|TPE-NRT-2027-02-04|NRT-TPE-2027-02-15|TPE-HKG-2027-02-27": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "mc|FUK-TPE-2027-02-15|TPE-HND-2027-02-25": {
    "status": "timeout",
@@ -11480,27 +11500,27 @@
   "mc|HKG-TPE-2027-01-02|TPE-HND-2027-02-04|HND-TPE-2027-02-14|TPE-ICN-2027-02-26": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "mc|HKG-TPE-2027-01-02|TPE-KIX-2027-02-04|KIX-TPE-2027-02-15|TPE-ICN-2027-02-25": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "mc|ICN-TPE-2027-01-02|TPE-NGO-2027-02-04|NGO-TPE-2027-02-14|TPE-ICN-2027-02-26": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "mc|KIX-TPE-2027-01-02|TPE-HND-2027-02-26": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "mc|KIX-TPE-2027-01-02|TPE-NRT-2027-02-25": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "mc|KIX-TPE-2027-02-15|TPE-NRT-2027-02-25": {
    "status": "timeout",
@@ -11510,7 +11530,7 @@
   "mc|NGO-TPE-2027-02-16|TPE-NRT-2027-02-27": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "mc|TPE-FUK-2027-02-04|HND-TPE-2027-03-01": {
    "status": "parse_error",
@@ -11519,11 +11539,6 @@
   },
   "mc|TPE-HND-2027-01-01|KIX-TPE-2027-03-01": {
    "status": "parse_error",
-   "at": "2026-10-27",
-   "n": 1
-  },
-  "mc|TPE-HND-2027-02-05|NRT-TPE-2027-02-28": {
-   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },

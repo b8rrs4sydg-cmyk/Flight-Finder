@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T09:49:11+00:00",
+ "generated_at": "2026-10-27T09:50:43+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -11211,7 +11211,7 @@
   "ow|MFM|TSA|2026-11-22": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "ow|PNH|TPE|2026-12-13": {
    "status": "timeout",
@@ -11361,7 +11361,7 @@
   "rt|TPE|UEO|2027-04-29|2027-05-02": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|TPE|UEO|2027-06-09|2027-09-19": {
    "status": "timeout",

@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T12:50:42+00:00",
+ "at": "2026-10-27T12:52:14+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
@@ -59,6 +59,10 @@
   "12:48:55 request received: rid mvqombwnumyis.1 31 keys",
   "12:48:55 handle mvqombwnumyis.1: first_chunk=True total=31",
   "12:49:02 request received: rid mvqomgnrkgbyi.1 32 keys",
-  "12:49:02 handle mvqomgnrkgbyi.1: first_chunk=True total=32"
+  "12:49:02 handle mvqomgnrkgbyi.1: first_chunk=True total=32",
+  "12:51:23 request mvqombwnumyis.1: chunk of 31 keys done in 148s; paths {'http': 55, 'browser': 15, 'browser-crashed': 235}, browser waits 250 max 136s sum 15727s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 55, 'miss': 106, 'blocked': 0, 'tries': 163, 'empty': 108}, audit 3/3 ",
+  "12:51:23 request mvqomgnrkgbyi.1: chunk of 32 keys done in 142s; paths {'http': 55, 'browser': 15, 'browser-crashed': 235}, browser waits 250 max 136s sum 15727s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 55, 'miss': 106, 'blocked': 0, 'tries': 163, 'empty': 108}, audit 3/3 ",
+  "12:51:24 request mvqombwnumyis.1: final sent (31/31); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "12:51:24 request mvqomgnrkgbyi.1: final sent (32/32); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
  ]
 }

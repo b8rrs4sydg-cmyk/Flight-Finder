@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T12:52:14+00:00",
+ "generated_at": "2026-10-27T12:53:45+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -2388,6 +2388,47 @@
     ]
    ]
   },
+  "ow|PEN|RMQ|2026-11-08": {
+   "price": 5323,
+   "first": {
+    "dep": "2026-11-08T00:50:00+08:00",
+    "arr": "2026-11-08T12:25:00+08:00",
+    "stops": 1,
+    "airline": "Hong Kong Express"
+   },
+   "by_airline": {
+    "Hong Kong Express": 5323
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     5323
+    ]
+   ]
+  },
+  "ow|PEN|TPE|2026-12-27": {
+   "price": 5625,
+   "first": {
+    "dep": "2026-12-27T21:15:00+08:00",
+    "arr": "2026-12-28T04:55:00+08:00",
+    "stops": 1,
+    "airline": "AirAsia"
+   },
+   "by_airline": {
+    "AirAsia": 5625,
+    "Hong Kong Express": 8044,
+    "Scoot": 8139,
+    "Malaysia Airlines": 9456
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     5625
+    ]
+   ]
+  },
   "ow|PKX|TPE|2027-02-16": {
    "price": 3781,
    "first": {
@@ -4307,6 +4348,26 @@
     [
      "2026-10-27",
      12880
+    ]
+   ]
+  },
+  "ow|TSA|NGO|2026-12-11": {
+   "price": 10560,
+   "first": {
+    "dep": "2026-12-11T16:50:00+08:00",
+    "arr": "2026-12-12T18:40:00+09:00",
+    "stops": 1,
+    "airline": "ANA"
+   },
+   "by_airline": {
+    "ANA": 10560,
+    "JAL": 12880
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     10560
     ]
    ]
   },
@@ -11145,11 +11206,6 @@
    "at": "2026-10-27",
    "n": 1
   },
-  "ow|TSA|NGO|2026-12-11": {
-   "status": "parse_error",
-   "at": "2026-10-27",
-   "n": 1
-  },
   "ow|TSA|PUS|2026-12-11": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -11798,7 +11854,7 @@
   "rt|RMQ|UTP|2026-12-11|2026-12-13": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 5
+   "n": 6
   },
   "rt|RMQ|UTP|2027-04-29|2027-05-02": {
    "status": "timeout",
@@ -11901,7 +11957,7 @@
    "n": 1
   },
   "rt|TSA|CJU|2026-11-20|2026-11-22": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -12106,7 +12162,7 @@
    "n": 1
   },
   "rt|TSA|PQC|2026-12-11|2026-12-13": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },

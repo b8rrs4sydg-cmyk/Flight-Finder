@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T18:01:58+00:00",
+ "at": "2026-10-27T18:03:32+00:00",
  "publishes": {
   "ok": 9,
   "r429": 0,
@@ -7,8 +7,6 @@
  },
  "fares_saved": 764,
  "log": [
-  "15:45:01 http front door: ['https://cedar-sept-drain-armed.trycloudflare.com', 'https://df43f5ed83a493.lhr.life']",
-  "15:45:01 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "15:45:59 request received: rid httptest1793115958 20 keys",
   "15:45:59 handle httptest1793115958: first_chunk=True total=20",
   "15:46:01 request httptest1793115958: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
@@ -156,6 +154,8 @@
   "17:58:33 request mvqzkvyeejvog.6: chunk of 25 keys done in 169s; paths {'http': 36, 'browser': 16, 'browser-crashed': 927}, browser waits 943 max 615s sum 134772s; ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 36, 'miss': 365, 'blocked': 0, 'tries': 196, 'empty': 160}, audit 1/1",
   "17:58:33 request mvqzkvyeejvog.6: final sent (25/25); ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}",
   "17:59:51 request received: rid mvqzq6wwo4zpl.5 26 keys",
-  "17:59:51 handle mvqzq6wwo4zpl.5: first_chunk=True total=26"
+  "17:59:51 handle mvqzq6wwo4zpl.5: first_chunk=True total=26",
+  "18:02:36 request mvqzq6wwo4zpl.5: chunk of 26 keys done in 165s; paths {'http': 36, 'browser': 19, 'browser-crashed': 950}, browser waits 969 max 615s sum 137067s; ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 36, 'miss': 365, 'blocked': 0, 'tries': 196, 'empty': 160}, audit 1/1",
+  "18:02:37 request mvqzq6wwo4zpl.5: final sent (26/26); ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}"
  ]
 }

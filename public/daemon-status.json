@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T10:02:22+00:00",
+ "at": "2026-10-27T10:04:15+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
@@ -37,6 +37,11 @@
   "09:54:54 queue: nothing readable, next try in 540s",
   "10:01:27 rtc a6f13ypzm2: answered",
   "10:01:40 request received: rid mvqimuoe85s0d.0 7 keys",
-  "10:01:40 handle mvqimuoe85s0d.0: first_chunk=True total=7"
+  "10:01:40 handle mvqimuoe85s0d.0: first_chunk=True total=7",
+  "10:02:24 git retry 0: b\"eads/main': is at db7a5fa7209c60473533b30f3aebc5e4bd86d6a6 but expected 0642e02006b62bbe557dc6323de7cccf2f88f4d9)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "10:02:29 git retry 1: b\"eads/main': is at dec0898433369487ed19c47a73190eb73eb2b145 but expected db7a5fa7209c60473533b30f3aebc5e4bd86d6a6)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "10:02:37 git retry 2: b\"eads/main': is at b4c9d244d7e4bcec63701c3cd5eb78b97883f313 but expected 0f9f781eb2dd54d62d1d8a661a16b52faa7b85a2)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "10:02:53 request mvqimuoe85s0d.0: chunk of 7 keys done in 73s; paths {'http': 30, 'browser': 9, 'browser-crashed': 86}, browser waits 95 max 164s sum 6431s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 30, 'miss': 50, 'blocked': 0, 'tries': 92, 'empty': 62}, audit 1/1 agree",
+  "10:02:54 request mvqimuoe85s0d.0: final sent (7/7); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
  ]
 }

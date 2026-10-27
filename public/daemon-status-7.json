@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T16:29:53+00:00",
+ "at": "2026-10-27T16:31:25+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 701,
+ "fares_saved": 706,
  "log": [
   "15:45:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:45:10 http front door: ['https://control-automobile-cfr-fall.trycloudflare.com', 'https://073f039b4a1d74.lhr.life']",
@@ -60,6 +60,10 @@
   "16:24:23 request received: rid mvqwbdgv122sn.7 42 keys",
   "16:24:23 handle mvqwbdgv122sn.7: first_chunk=True total=42",
   "16:29:20 request mvqwbdgv122sn.7: chunk of 42 keys done in 298s; paths {'http': 21, 'browser-crashed': 311, 'browser': 4}, browser waits 315 max 379s sum 41803s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 98, 'blocked': 0, 'tries': 60, 'empty': 39}, audit 3/3 agre",
-  "16:29:22 request mvqwbdgv122sn.7: final sent (42/42); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "16:29:22 request mvqwbdgv122sn.7: final sent (42/42); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "16:30:07 request mvqw434vkscbq.7: chunk of 12 keys done in 668s; paths {'http': 21, 'browser-crashed': 313, 'browser': 4}, browser waits 317 max 642s sum 43081s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 98, 'blocked': 0, 'tries': 60, 'empty': 39}, audit 3/3 agre",
+  "16:30:09 request mvqw434vkscbq.7: final sent (12/12); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "16:30:12 request received: rid mvqwivzavunhv.7 29 keys",
+  "16:30:12 handle mvqwivzavunhv.7: first_chunk=True total=29"
  ]
 }

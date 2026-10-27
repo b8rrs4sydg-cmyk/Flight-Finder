@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T18:06:38+00:00",
+ "generated_at": "2026-10-27T18:08:10+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -258,6 +258,28 @@
    ],
    "prev": 77548,
    "prev_at": "2026-10-20"
+  },
+  "mc|CGK-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-XIY-2027-04-29": {
+   "price": 52915,
+   "by_airline": {
+    "EVA Air": 52915,
+    "Malaysia Airlines": 82740,
+    "China Southern": 88336,
+    "Cathay Pacific": 105311
+   },
+   "first": {
+    "dep": "2026-12-27T14:40:00+07:00",
+    "arr": "2026-12-27T21:00:00+08:00",
+    "stops": 0,
+    "airline": "EVA Air"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     52915
+    ]
+   ]
   },
   "mc|FUK-TPE-2026-11-22|TPE-PUS-2026-11-27|PUS-TPE-2026-11-29|TPE-MFM-2026-12-18": {
    "price": 31724,
@@ -15036,11 +15058,6 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 4
-  },
-  "mc|CGK-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-XIY-2027-04-29": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 3
   },
   "mc|CGK-TPE-2026-12-27|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-GMP-2027-09-15": {
    "status": "timeout",

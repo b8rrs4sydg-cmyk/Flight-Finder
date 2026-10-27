@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T17:58:25+00:00",
+ "generated_at": "2026-10-27T17:59:57+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -13221,7 +13221,7 @@
    "n": 1
   },
   "rt|BKK|TSA|2026-12-27|2027-02-10": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -15153,7 +15153,7 @@
   "rt|TPE|NGO|2026-12-24|2027-02-14": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|TPE|NGO|2027-04-29|2027-09-19": {
    "status": "timeout",
@@ -15403,7 +15403,7 @@
   "rt|TSA|BKK|2026-12-24|2027-02-14": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|TSA|BKK|2027-02-10|2027-05-02": {
    "status": "parse_error",
@@ -16733,7 +16733,7 @@
   "rt|UTP|TSA|2026-12-27|2027-02-10": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|UTP|TSA|2026-12-27|2027-06-09": {
    "status": "timeout",

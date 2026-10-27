@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T16:40:45+00:00",
+ "at": "2026-10-27T16:42:18+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 711,
+ "fares_saved": 717,
  "log": [
   "15:44:49 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:44:55 http front door: ['https://entirely-qty-recruitment-cartoon.trycloudflare.com', 'https://6e378c41b105b0.lhr.life']",
@@ -77,6 +77,9 @@
   "16:39:11 request mvqwp99thp9b8.5: chunk of 39 keys done in 242s; paths {'http': 28, 'browser-crashed': 388, 'browser': 13}, browser waits 401 max 351s sum 50864s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 28, 'miss': 143, 'blocked': 0, 'tries': 85, 'empty': 57}, audit 2/2 ag",
   "16:39:13 request mvqwp99thp9b8.5: final sent (39/39); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
   "16:39:58 request received: rid mvqwvercp53wt.5 39 keys",
-  "16:39:58 handle mvqwvercp53wt.5: first_chunk=True total=39"
+  "16:39:58 handle mvqwvercp53wt.5: first_chunk=True total=39",
+  "16:40:52 request received: rid mvqwwluc14pja.5 39 keys",
+  "16:40:52 handle mvqwwluc14pja.5: first_chunk=True total=39",
+  "16:41:32 rtc 96x70bfe7k: answered"
  ]
 }

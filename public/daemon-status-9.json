@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T10:02:29+00:00",
+ "at": "2026-10-27T10:04:01+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 596,
+ "fares_saved": 599,
  "log": [
   "09:27:31 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:27:36 git retry 0: b\"eads/main': is at eb513ff339900a7bd886ba303983b67c1aa9de4c but expected e609774c809bde0f9d6ccef833c3431fff607ca6)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
@@ -41,6 +41,7 @@
   "09:59:38 queue: 12 keys from the look-up queue in 92s (4 priced, 0 no flight, 8 failed)",
   "10:01:27 rtc 6wlvg3l9zc: answered",
   "10:01:40 request received: rid mvqimuoe85s0d.9 15 keys",
-  "10:01:40 handle mvqimuoe85s0d.9: first_chunk=True total=15"
+  "10:01:40 handle mvqimuoe85s0d.9: first_chunk=True total=15",
+  "10:02:44 queue: 12 keys from the look-up queue in 126s (2 priced, 0 no flight, 10 failed)"
  ]
 }

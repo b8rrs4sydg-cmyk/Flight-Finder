@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T09:20:37+00:00",
+ "at": "2026-10-27T09:22:09+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
@@ -24,6 +24,10 @@
   "09:18:59 git retry 1: b\"eads/main': is at 0efb4e20331753c38238bc8c8cdce441a1ec95fb but expected e9192d99bb913af2b09f64cae244504c7d9b2bfd)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "09:19:50 rtc 9n736irxa9: answered",
   "09:20:03 request received: rid mvqh5ch518p0u.0 7 keys",
-  "09:20:03 handle mvqh5ch518p0u.0: first_chunk=True total=7"
+  "09:20:03 handle mvqh5ch518p0u.0: first_chunk=True total=7",
+  "09:21:10 request mvqgzdwozwkmu.0: chunk of 17 keys done in 345s; paths {'browser-crashed': 61}, browser waits 61 max 581s sum 13174s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 0, 'miss': 67, 'blocked': 0, 'tries': 131, 'empty': 131}, audit 0/0 agree",
+  "09:21:12 request mvqgzdwozwkmu.0: final sent (17/17); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "09:22:03 request mvqh5ch518p0u.0: chunk of 7 keys done in 120s; paths {'browser-crashed': 71}, browser waits 71 max 590s sum 15584s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 0, 'miss': 67, 'blocked': 0, 'tries': 131, 'empty': 131}, audit 0/0 agree",
+  "09:22:05 request mvqh5ch518p0u.0: final sent (7/7); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
  ]
 }

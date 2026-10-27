@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T16:44:53+00:00",
+ "at": "2026-10-27T16:59:55+00:00",
  "publishes": {
-  "ok": 3,
+  "ok": 4,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 693,
+ "fares_saved": 694,
  "log": [
   "15:44:54 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:44:59 http front door: ['https://sam-reed-greatly-responses.trycloudflare.com', 'https://5b5ce98f3a80d3.lhr.life']",
@@ -83,6 +83,13 @@
   "16:44:08 request mvqwvercp53wt.1: chunk of 31 keys done in 250s; paths {'http': 23, 'browser-crashed': 457, 'browser': 5}, browser waits 462 max 455s sum 64724s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 23, 'miss': 121, 'blocked': 0, 'tries': 56, 'empty': 33}, audit 3/3 agr",
   "16:44:08 request mvqwwluc14pja.1: chunk of 31 keys done in 196s; paths {'http': 23, 'browser-crashed': 457, 'browser': 5}, browser waits 462 max 455s sum 64724s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 23, 'miss': 121, 'blocked': 0, 'tries': 56, 'empty': 33}, audit 3/3 agr",
   "16:44:08 request mvqwvercp53wt.1: final sent (31/31); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
-  "16:44:08 request mvqwwluc14pja.1: final sent (31/31); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "16:44:08 request mvqwwluc14pja.1: final sent (31/31); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "16:55:34 queue: 12 keys from the look-up queue in 121s (1 priced, 0 no flight, 11 failed)",
+  "16:58:08 queue: 12 keys from the look-up queue in 94s (0 priced, 0 no flight, 12 failed)",
+  "16:58:08 queue: nothing readable, next try in 180s",
+  "16:58:23 rtc r921pg3w0t: answered",
+  "16:58:26 rtc r921pg3w0t: data channel open",
+  "16:58:26 request received: rid mvqxj47gwzezr.0 22 keys",
+  "16:58:26 handle mvqxj47gwzezr.0: first_chunk=True total=22"
  ]
 }

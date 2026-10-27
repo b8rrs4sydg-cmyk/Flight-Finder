@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T16:33:40+00:00",
+ "generated_at": "2026-10-27T16:35:12+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -16128,7 +16128,7 @@
    "n": 1
   },
   "rt|GMP|TSA|2026-12-27|2027-06-09": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -17035,7 +17035,7 @@
   "rt|RMQ|PUS|2026-12-24|2027-05-02": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|RMQ|PUS|2027-09-15|2027-09-19": {
    "status": "timeout",
@@ -17795,7 +17795,7 @@
   "rt|TSA|CNX|2026-12-24|2027-05-02": {
    "status": "parse_error",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|TSA|CNX|2027-02-10|2027-09-19": {
    "status": "parse_error",
@@ -17968,7 +17968,7 @@
    "n": 1
   },
   "rt|TSA|HND|2026-12-24|2027-06-13": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -18043,7 +18043,7 @@
    "n": 1
   },
   "rt|TSA|KIX|2026-12-24|2027-05-02": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -18095,10 +18095,10 @@
   "rt|TSA|NGO|2026-12-24|2027-05-02": {
    "status": "parse_error",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|TSA|NGO|2026-12-24|2027-06-13": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -18193,7 +18193,7 @@
    "n": 1
   },
   "rt|TSA|PUS|2026-12-24|2027-05-02": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },

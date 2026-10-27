@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T16:39:14+00:00",
+ "generated_at": "2026-10-27T16:40:53+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -1950,6 +1950,28 @@
     [
      "2026-10-27",
      5981
+    ]
+   ]
+  },
+  "ow|CAN|TPE|2027-09-19": {
+   "price": 6212,
+   "first": {
+    "dep": "2027-09-19T13:10:00+08:00",
+    "arr": "2027-09-19T15:20:00+08:00",
+    "stops": 0,
+    "airline": "EVA Air"
+   },
+   "by_airline": {
+    "EVA Air": 6212,
+    "Cathay Pacific": 6606,
+    "China Southern": 6708,
+    "Hainan": 27059
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     6212
     ]
    ]
   },
@@ -3962,6 +3984,28 @@
     ]
    ]
   },
+  "ow|TPE|CAN|2027-04-29": {
+   "price": 7522,
+   "first": {
+    "dep": "2027-04-29T16:10:00+08:00",
+    "arr": "2027-04-29T21:05:00+08:00",
+    "stops": 1,
+    "airline": "Cathay Pacific"
+   },
+   "by_airline": {
+    "Cathay Pacific": 7522,
+    "China Airlines": 7635,
+    "China Southern": 8050,
+    "Hainan": 10255
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     7522
+    ]
+   ]
+  },
   "ow|TPE|CEB|2026-12-18": {
    "price": 5800,
    "first": {
@@ -4668,6 +4712,28 @@
     [
      "2026-10-27",
      7988
+    ]
+   ]
+  },
+  "ow|TPE|KMG|2027-02-10": {
+   "price": 8847,
+   "first": {
+    "dep": "2027-02-10T13:40:00+08:00",
+    "arr": "2027-02-10T21:00:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 8847,
+    "Korean Air": 14892,
+    "Shenzhen": 18267,
+    "Hainan": 28695
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     8847
     ]
    ]
   },
@@ -14241,11 +14307,6 @@
    "at": "2026-10-27",
    "n": 1
   },
-  "ow|CAN|TPE|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 1
-  },
   "ow|DMK|RMQ|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -14296,17 +14357,7 @@
    "at": "2026-10-27",
    "n": 1
   },
-  "ow|TPE|CAN|2027-04-29": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 1
-  },
   "ow|TPE|CEB|2027-09-15": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 1
-  },
-  "ow|TPE|KMG|2027-02-10": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
@@ -14569,7 +14620,7 @@
   "rt|DMK|RMQ|2026-12-27|2027-06-09": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|DMK|RMQ|2027-02-14|2027-04-29": {
    "status": "timeout",
@@ -15244,7 +15295,7 @@
   "rt|NRT|TSA|2026-12-27|2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|NRT|TSA|2027-05-02|2027-09-15": {
    "status": "timeout",

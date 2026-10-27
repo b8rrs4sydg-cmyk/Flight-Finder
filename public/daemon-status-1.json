@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T17:19:56+00:00",
+ "at": "2026-10-27T17:21:29+00:00",
  "publishes": {
   "ok": 5,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 697,
+ "fares_saved": 699,
  "log": [
   "15:44:54 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:44:59 http front door: ['https://sam-reed-greatly-responses.trycloudflare.com', 'https://5b5ce98f3a80d3.lhr.life']",
@@ -109,6 +109,10 @@
   "17:14:19 request mvqxulzl11c67.1: chunk of 51 keys done in 421s; paths {'http': 23, 'browser-crashed': 597, 'browser': 8}, browser waits 605 max 455s sum 82047s; ntfy publishes {'ok': 5, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 23, 'miss': 190, 'blocked': 0, 'tries': 109, 'empty': 86}, audit 3/3 ag",
   "17:14:20 request mvqxulzl11c67.1: final sent (51/51); ntfy publishes {'ok': 5, 'r429': 0, 'fail': 0}",
   "17:14:20 request received: rid mvqy3nee79inf.1 55 keys",
-  "17:14:20 handle mvqy3nee79inf.1: first_chunk=True total=55"
+  "17:14:20 handle mvqy3nee79inf.1: first_chunk=True total=55",
+  "17:20:32 request mvqy3nee79inf.1: chunk of 55 keys done in 372s; paths {'http': 23, 'browser-crashed': 651, 'browser': 9}, browser waits 660 max 455s sum 93013s; ntfy publishes {'ok': 5, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 23, 'miss': 190, 'blocked': 0, 'tries': 109, 'empty': 86}, audit 3/3 ag",
+  "17:20:32 request mvqy3nee79inf.1: final sent (55/55); ntfy publishes {'ok': 5, 'r429': 0, 'fail': 0}",
+  "17:20:37 request received: rid mvqybocdc92co.1 39 keys",
+  "17:20:37 handle mvqybocdc92co.1: first_chunk=True total=39"
  ]
 }

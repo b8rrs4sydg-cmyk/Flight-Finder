@@ -1,7 +1,7 @@
 {
- "at": "2026-10-27T12:42:52+00:00",
+ "at": "2026-10-27T12:44:23+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
@@ -49,6 +49,10 @@
   "12:39:29 request mvqo7ztizzemc.5: final sent (18/18); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "12:41:53 rtc ghlbkb3u2x: answered",
   "12:42:05 request received: rid mvqod5shtgjgd.5 20 keys",
-  "12:42:05 handle mvqod5shtgjgd.5: first_chunk=True total=20"
+  "12:42:05 handle mvqod5shtgjgd.5: first_chunk=True total=20",
+  "12:43:53 rtc fjsy98jdoy: answered",
+  "12:43:56 rtc fjsy98jdoy: data channel open",
+  "12:43:56 request received: rid mvqoft66fhhyp.5 21 keys",
+  "12:43:56 handle mvqoft66fhhyp.5: first_chunk=True total=21"
  ]
 }

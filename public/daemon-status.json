@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T15:51:22+00:00",
+ "at": "2026-10-27T16:01:54+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 603,
+ "fares_saved": 607,
  "log": [
   "15:49:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:49:52 http front door: ['https://libs-pace-deadline-helena.trycloudflare.com', 'https://8150f881693981.lhr.life']",
@@ -13,6 +13,15 @@
   "15:50:57 request received: rid httptest1793116257 20 keys",
   "15:50:57 handle httptest1793116257: first_chunk=True total=20",
   "15:51:12 request httptest1793116257: chunk of 20 keys done in 14s; paths {'http': 20, 'browser': 1}, browser waits 1 max 6s sum 6s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 7, 'blocked': 0, 'tries': 23, 'empty': 3}, audit 0/0 agree",
-  "15:51:13 request httptest1793116257: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "15:51:13 request httptest1793116257: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "15:52:20 queue: 12 keys from the look-up queue in 87s (4 priced, 0 no flight, 8 failed)",
+  "15:54:55 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "15:54:55 queue: nothing readable, next try in 180s",
+  "15:55:40 rtc m83heypg66: answered",
+  "15:55:41 rtc m83heypg66: data channel open",
+  "15:59:33 queue: 12 keys from the look-up queue in 97s (0 priced, 0 no flight, 12 failed)",
+  "15:59:33 queue: nothing readable, next try in 300s",
+  "16:01:17 request received: rid mvqvhpfhjiidt.0 35 keys",
+  "16:01:17 handle mvqvhpfhjiidt.0: first_chunk=True total=35"
  ]
 }

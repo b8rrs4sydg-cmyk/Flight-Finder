@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:48:26+00:00",
+ "at": "2026-10-27T13:49:57+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 572,
+ "fares_saved": 573,
  "log": [
   "10:36:37 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:41 http front door: ['https://struck-widescreen-fluid-gently.trycloudflare.com', 'https://ef2932acbf4f7b.lhr.life']",
@@ -114,6 +114,11 @@
   "13:38:44 request mvqqcb0rjqmm8.0: chunk of 11 keys done in 95s; paths {'http': 88, 'browser': 46, 'browser-crashed': 569}, browser waits 615 max 326s sum 62024s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 88, 'miss': 210, 'blocked': 0, 'tries': 279, 'empty': 191}, audit 5/5 a",
   "13:38:46 request mvqqcb0rjqmm8.0: final sent (11/11); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
   "13:40:31 request received: rid mvqqgk57tj9xh.0 45 keys",
-  "13:40:31 handle mvqqgk57tj9xh.0: first_chunk=True total=45"
+  "13:40:31 handle mvqqgk57tj9xh.0: first_chunk=True total=45",
+  "13:48:56 queue: 12 keys from the look-up queue in 515s (1 priced, 0 no flight, 11 failed)",
+  "13:49:28 request mvqqgk57tj9xh.0: chunk of 45 keys done in 537s; paths {'http': 89, 'browser': 46, 'browser-crashed': 625}, browser waits 671 max 514s sum 75817s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 89, 'miss': 256, 'blocked': 4, 'tries': 295, 'empty': 206}, audit 5/5 ",
+  "13:49:29 request mvqqgk57tj9xh.0: final sent (45/45); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "13:49:31 request received: rid mvqqs7wej7eqo.0 44 keys",
+  "13:49:31 handle mvqqs7wej7eqo.0: first_chunk=True total=44"
  ]
 }

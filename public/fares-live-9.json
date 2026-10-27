@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T16:30:01+00:00",
+ "generated_at": "2026-10-27T16:31:33+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -8454,6 +8454,28 @@
    "prev": 7324,
    "prev_at": "2026-10-23"
   },
+  "rt|RMQ|ICN|2026-12-11|2027-02-14": {
+   "price": 10887,
+   "first": {
+    "dep": "2026-12-11T18:30:00+08:00",
+    "arr": "2026-12-11T22:15:00+09:00",
+    "stops": 0,
+    "airline": "Jin Air"
+   },
+   "by_airline": {
+    "Jin Air": 10887,
+    "Hong Kong Express": 12721,
+    "Korean Air": 14663,
+    "Trinity Airways": 14841
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     10887
+    ]
+   ]
+  },
   "rt|RMQ|ICN|2027-02-05|2027-04-10": {
    "price": 15151,
    "first": {
@@ -14157,7 +14179,7 @@
   "mc|TPE-KIX-2027-02-04|FUK-TPE-2027-03-01": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "mc|TPE-KIX-2027-02-04|HND-TPE-2027-02-28": {
    "status": "timeout",
@@ -14197,7 +14219,7 @@
   "mc|TPE-NRT-2027-02-05|HND-TPE-2027-03-01": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "mc|TPE-NRT-2027-02-05|KIX-TPE-2027-02-28": {
    "status": "parse_error",
@@ -14917,7 +14939,7 @@
   "rt|ISG|TSA|2026-12-13|2027-02-10": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|ISG|TSA|2027-05-02|2027-09-15": {
    "status": "timeout",
@@ -15142,7 +15164,7 @@
   "rt|NGO|TSA|2026-12-13|2027-02-10": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|NGO|TSA|2026-12-13|2027-09-15": {
    "status": "timeout",
@@ -15287,12 +15309,12 @@
   "rt|PUS|TSA|2026-12-13|2026-12-24": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|PUS|TSA|2026-12-13|2027-02-10": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|PUS|TSA|2026-12-13|2027-09-15": {
    "status": "timeout",
@@ -15533,11 +15555,6 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 3
-  },
-  "rt|RMQ|ICN|2026-12-11|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 2
   },
   "rt|RMQ|ICN|2027-02-10|2027-09-19": {
    "status": "timeout",
@@ -16007,7 +16024,7 @@
   "rt|TPE|HKT|2026-12-11|2027-02-14": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|TPE|HND|2027-02-10|2027-05-02": {
    "status": "timeout",
@@ -16487,7 +16504,7 @@
   "rt|TSA|DMK|2026-12-11|2027-02-14": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|TSA|DMK|2026-12-11|2027-09-19": {
    "status": "timeout",
@@ -16605,7 +16622,7 @@
    "n": 1
   },
   "rt|TSA|ICN|2026-12-11|2027-02-14": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -17127,7 +17144,7 @@
   "rt|USM|TSA|2026-12-13|2027-02-10": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|UTP|RMQ|2026-11-08|2026-11-20": {
    "status": "timeout",

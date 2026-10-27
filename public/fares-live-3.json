@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T17:25:31+00:00",
+ "generated_at": "2026-10-27T17:27:04+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -17082,9 +17082,9 @@
    "n": 1
   },
   "rt|RMQ|ISG|2026-11-20|2027-02-14": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 1
   },
   "rt|RMQ|ISG|2026-12-24|2027-06-13": {
    "status": "timeout",
@@ -17299,7 +17299,7 @@
   "rt|RMQ|UEO|2026-11-20|2026-12-13": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 3
+   "n": 4
   },
   "rt|RMQ|UEO|2026-11-20|2026-12-27": {
    "status": "timeout",
@@ -17419,7 +17419,7 @@
   "rt|RMQ|USM|2026-11-20|2027-02-14": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|RMQ|USM|2026-11-20|2027-06-13": {
    "status": "parse_error",
@@ -18579,7 +18579,7 @@
   "rt|TSA|UTP|2026-11-20|2026-12-13": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|TSA|UTP|2026-11-20|2027-05-02": {
    "status": "timeout",

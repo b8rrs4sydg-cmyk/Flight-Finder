@@ -5067,16 +5067,17 @@ async function ntfyPost(text, topic = T_REQ) {
 let refreshTimer = null;
 function scheduleRefresh() {
   if (refreshTimer || !state.result) return;   // nothing to refresh until the user has searched
+  // while fares are streaming in, every refresh re-runs the whole search (about a second on a full database): batch them
+  const streaming = !!live.rid && live.doc?.status !== 'done' && live.doc?.status !== 'error';
   refreshTimer = setTimeout(() => {
     refreshTimer = null;
     try {
       state.result = runSearch(document.getElementById('search-form'));
       renderResults();
       applyCoverage();
-      renderTop100();
-      renderDbCard();
+      if (!streaming) { renderTop100(); renderDbCard(); }
     } catch (e) { console.warn('refresh failed', e); }
-  }, 700);
+  }, streaming ? 6000 : 700);
 }
 
 /* Wire form from the crawler: [price, dep, arr, stops, airline] (see lookup_daemon.compact). */

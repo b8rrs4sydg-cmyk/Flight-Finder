@@ -1,14 +1,12 @@
 {
- "at": "2026-10-27T15:16:37+00:00",
+ "at": "2026-10-27T15:21:09+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 680,
+ "fares_saved": 685,
  "log": [
-  "10:36:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "10:36:53 http front door: ['https://ranging-simulation-story-phone.trycloudflare.com', 'https://29e22ca529d500.lhr.life']",
   "10:36:53 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "10:37:57 request received: rid httptest1793097477 20 keys",
   "10:37:57 handle httptest1793097477: first_chunk=True total=20",
@@ -154,6 +152,10 @@
   "15:16:28 request received: rid mvqtw2mnw3e5b.9 16 keys",
   "15:16:28 handle mvqtw2mnw3e5b.9: first_chunk=True total=16",
   "15:16:29 request mvqtw2mnw3e5b.9: chunk of 16 keys done in 1s; paths {'http': 78, 'browser': 34, 'browser-crashed': 752}, browser waits 786 max 388s sum 86856s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 78, 'miss': 328, 'blocked': 0, 'tries': 315, 'empty': 237}, audit 4/4 ag",
-  "15:16:31 request mvqtw2mnw3e5b.9: final sent (16/16); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "15:16:31 request mvqtw2mnw3e5b.9: final sent (16/16); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "15:19:50 queue: 12 keys from the look-up queue in 107s (0 priced, 0 no flight, 12 failed)",
+  "15:19:50 queue: nothing readable, next try in 1860s",
+  "15:20:38 request received: rid mvqu1fnm1p9kb.9 12 keys",
+  "15:20:38 handle mvqu1fnm1p9kb.9: first_chunk=True total=12"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T17:00:21+00:00",
+ "at": "2026-10-27T17:01:53+00:00",
  "publishes": {
   "ok": 54,
   "r429": 0,
@@ -75,6 +75,10 @@
   "16:58:19 request mvqwxb1ksnndt: chunk of 90 keys done in 989s; paths {'http': 27, 'browser': 12, 'browser-crashed': 494}, browser waits 506 max 976s sum 128652s; ntfy publishes {'ok': 52, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 176, 'blocked': 0, 'tries': 140, 'empty': 113}, audit 3/3 ",
   "16:58:20 request mvqwxb1ksnndt: final sent (160/160); ntfy publishes {'ok': 53, 'r429': 0, 'fail': 0}",
   "16:58:23 rtc tuc2d25ug8: answered",
-  "16:58:27 rtc tuc2d25ug8: data channel open"
+  "16:58:27 rtc tuc2d25ug8: data channel open",
+  "17:00:37 request mvqwvercp53wt.0: chunk of 37 keys done in 1239s; paths {'http': 27, 'browser': 12, 'browser-crashed': 515}, browser waits 527 max 1239s sum 153507s; ntfy publishes {'ok': 54, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 176, 'blocked': 0, 'tries': 140, 'empty': 113}, audit ",
+  "17:00:37 request mvqwwluc14pja.0: chunk of 37 keys done in 1185s; paths {'http': 27, 'browser': 12, 'browser-crashed': 515}, browser waits 527 max 1239s sum 153507s; ntfy publishes {'ok': 54, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 176, 'blocked': 0, 'tries': 140, 'empty': 113}, audit ",
+  "17:00:37 request mvqwvercp53wt.0: final sent (37/37); ntfy publishes {'ok': 54, 'r429': 0, 'fail': 0}",
+  "17:00:37 request mvqwwluc14pja.0: final sent (37/37); ntfy publishes {'ok': 54, 'r429': 0, 'fail': 0}"
  ]
 }

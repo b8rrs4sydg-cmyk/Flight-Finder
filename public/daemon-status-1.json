@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T09:50:25+00:00",
+ "at": "2026-10-27T10:02:27+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 524,
+ "fares_saved": 538,
  "log": [
   "09:27:41 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:27:46 http front door: ['https://pee-perfume-protected-perspective.trycloudflare.com', 'https://0633deebba1ee1.lhr.life']",
@@ -30,6 +30,15 @@
   "09:47:37 handle mvqi4s7ppgts0.1: first_chunk=True total=12",
   "09:47:48 queue: 12 keys from the look-up queue in 49s (8 priced, 0 no flight, 4 failed)",
   "09:49:05 request mvqi4s7ppgts0.1: chunk of 12 keys done in 88s; paths {'http': 45, 'browser': 10, 'browser-crashed': 67}, browser waits 77 max 152s sum 4404s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 45, 'miss': 44, 'blocked': 0, 'tries': 88, 'empty': 43}, audit 1/1 agree",
-  "09:49:06 request mvqi4s7ppgts0.1: final sent (12/12); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "09:49:06 request mvqi4s7ppgts0.1: final sent (12/12); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "09:50:50 queue: 12 keys from the look-up queue in 62s (10 priced, 0 no flight, 2 failed)",
+  "09:53:21 queue: 12 keys from the look-up queue in 91s (0 priced, 0 no flight, 12 failed)",
+  "09:53:21 queue: nothing readable, next try in 180s",
+  "09:57:21 queue: 12 keys from the look-up queue in 59s (4 priced, 0 no flight, 8 failed)",
+  "09:59:57 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "09:59:57 queue: nothing readable, next try in 180s",
+  "10:01:28 rtc d5icjj4kv3: answered",
+  "10:01:40 request received: rid mvqimuoe85s0d.1 13 keys",
+  "10:01:40 handle mvqimuoe85s0d.1: first_chunk=True total=13"
  ]
 }

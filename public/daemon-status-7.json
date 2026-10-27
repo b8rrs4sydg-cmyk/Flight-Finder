@@ -1,18 +1,12 @@
 {
- "at": "2026-10-27T18:13:45+00:00",
+ "at": "2026-10-27T18:19:47+00:00",
  "publishes": {
   "ok": 8,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 762,
+ "fares_saved": 765,
  "log": [
-  "15:45:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:45:10 http front door: ['https://control-automobile-cfr-fall.trycloudflare.com', 'https://073f039b4a1d74.lhr.life']",
-  "15:45:10 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:46:10 request received: rid httptest1793115970 20 keys",
-  "15:46:10 handle httptest1793115970: first_chunk=True total=20",
-  "15:46:29 request httptest1793115970: chunk of 20 keys done in 18s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 7, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
   "15:46:30 request httptest1793115970: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
   "15:47:17 rtc 7m52nxmnuq: answered",
   "15:47:19 rtc 7m52nxmnuq: data channel open",
@@ -156,6 +150,12 @@
   "18:05:06 request mvqzvm6prydbb.7: chunk of 7 keys done in 61s; paths {'http': 33, 'browser-crashed': 799, 'browser': 38}, browser waits 837 max 642s sum 100164s; ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 33, 'miss': 268, 'blocked': 0, 'tries': 190, 'empty': 157}, audit 3/3 a",
   "18:05:08 request mvqzvm6prydbb.7: final sent (7/7); ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}",
   "18:07:00 request received: rid mvqzzbwr98q2c.7 52 keys",
-  "18:07:00 handle mvqzzbwr98q2c.7: first_chunk=True total=52"
+  "18:07:00 handle mvqzzbwr98q2c.7: first_chunk=True total=52",
+  "18:14:27 request mvqzzbwr98q2c.7: chunk of 52 keys done in 447s; paths {'http': 42, 'browser-crashed': 845, 'browser': 45}, browser waits 890 max 642s sum 110152s; ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 42, 'miss': 311, 'blocked': 0, 'tries': 199, 'empty': 157}, audit 3/3",
+  "18:14:28 request mvqzzbwr98q2c.7: final sent (52/52); ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}",
+  "18:14:45 queue: 12 keys from the look-up queue in 490s (1 priced, 0 no flight, 11 failed)",
+  "18:17:27 request received: rid mvr0ct66sqfsn.7 15 keys",
+  "18:17:27 handle mvr0ct66sqfsn.7: first_chunk=True total=15",
+  "18:17:34 queue: 12 keys from the look-up queue in 109s (2 priced, 0 no flight, 10 failed)"
  ]
 }

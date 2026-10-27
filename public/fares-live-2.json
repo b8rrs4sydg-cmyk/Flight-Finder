@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T13:19:52+00:00",
+ "generated_at": "2026-10-27T13:21:24+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -8668,6 +8668,25 @@
     ]
    ]
   },
+  "rt|RMQ|PUS|2026-12-11|2027-05-02": {
+   "price": 17258,
+   "by_airline": {
+    "Hong Kong Express": 17258
+   },
+   "first": {
+    "dep": "2026-12-11T20:35:00+08:00",
+    "arr": "2026-12-12T06:55:00+09:00",
+    "stops": 1,
+    "airline": "Hong Kong Express"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     17258
+    ]
+   ]
+  },
   "rt|RMQ|PUS|2027-02-06|2027-04-10": {
    "price": 14522,
    "first": {
@@ -13543,7 +13562,7 @@
   "rt|BKK|TSA|2026-12-13|2027-04-29": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|BKK|TSA|2026-12-13|2027-06-09": {
    "status": "parse_error",
@@ -13621,7 +13640,7 @@
    "n": 1
   },
   "rt|CNX|TSA|2026-12-13|2027-04-29": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -13661,7 +13680,7 @@
    "n": 1
   },
   "rt|CTS|TSA|2026-12-13|2027-04-29": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -14841,7 +14860,7 @@
    "n": 1
   },
   "rt|TPE|USM|2026-12-11|2027-05-02": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -14861,7 +14880,7 @@
    "n": 1
   },
   "rt|TPE|UTP|2026-12-11|2027-05-02": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -15033,7 +15052,7 @@
   "rt|TSA|HKT|2026-12-11|2027-05-02": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|TSA|HKT|2026-12-11|2027-09-19": {
    "status": "timeout",
@@ -15076,7 +15095,7 @@
    "n": 1
   },
   "rt|TSA|ITM|2026-12-11|2027-05-02": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -15211,6 +15230,11 @@
    "n": 1
   },
   "rt|TSA|UEO|2026-11-20|2027-05-02": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "rt|TSA|UEO|2026-12-11|2027-05-02": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1

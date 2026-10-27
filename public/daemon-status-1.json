@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:24:20+00:00",
+ "at": "2026-10-27T13:31:52+00:00",
  "publishes": {
-  "ok": 3,
+  "ok": 4,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 623,
+ "fares_saved": 629,
  "log": [
   "10:36:54 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:00 http front door: ['https://eat-photographer-suggestions-civilization.trycloudflare.com', 'https://efd6c0d8dc2084.lhr.life']",
@@ -92,6 +92,12 @@
   "13:20:12 queue: 12 keys from the look-up queue in 94s (0 priced, 0 no flight, 12 failed)",
   "13:20:12 queue: nothing readable, next try in 300s",
   "13:23:46 request mvqpq04iyqtch.1: chunk of 36 keys done in 240s; paths {'http': 66, 'browser': 39, 'browser-crashed': 467}, browser waits 506 max 332s sum 47096s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 66, 'miss': 158, 'blocked': 0, 'tries': 226, 'empty': 160}, audit 3/3 ",
-  "13:23:47 request mvqpq04iyqtch.1: final sent (36/36); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "13:23:47 request mvqpq04iyqtch.1: final sent (36/36); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "13:25:28 rtc 244qqs93n2: answered",
+  "13:25:30 rtc 244qqs93n2: data channel open",
+  "13:26:45 queue: 12 keys from the look-up queue in 93s (1 priced, 0 no flight, 11 failed)",
+  "13:29:14 queue: 12 keys from the look-up queue in 89s (2 priced, 0 no flight, 10 failed)",
+  "13:31:10 request received: rid mvqq4nlectjow.1 26 keys",
+  "13:31:10 handle mvqq4nlectjow.1: first_chunk=True total=26"
  ]
 }

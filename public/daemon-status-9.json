@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T12:43:02+00:00",
+ "at": "2026-10-27T12:44:38+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 627,
+ "fares_saved": 628,
  "log": [
   "10:36:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:53 http front door: ['https://ranging-simulation-story-phone.trycloudflare.com', 'https://29e22ca529d500.lhr.life']",
@@ -48,6 +48,13 @@
   "12:38:41 request mvqo7ztizzemc.9: final sent (11/11); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "12:41:53 rtc wzx7xxvwx8: answered",
   "12:42:05 request received: rid mvqod5shtgjgd.9 14 keys",
-  "12:42:05 handle mvqod5shtgjgd.9: first_chunk=True total=14"
+  "12:42:05 handle mvqod5shtgjgd.9: first_chunk=True total=14",
+  "12:43:03 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "12:43:44 request mvqod5shtgjgd.9: chunk of 14 keys done in 99s; paths {'http': 33, 'browser': 15, 'browser-crashed': 189}, browser waits 204 max 110s sum 11697s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 33, 'miss': 80, 'blocked': 0, 'tries': 115, 'empty': 82}, audit 3/3 agr",
+  "12:43:46 request mvqod5shtgjgd.9: final sent (14/14); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "12:43:53 rtc 39zj07uqzz: answered",
+  "12:43:55 rtc 39zj07uqzz: data channel open",
+  "12:43:56 request received: rid mvqoft66fhhyp.9 15 keys",
+  "12:43:56 handle mvqoft66fhhyp.9: first_chunk=True total=15"
  ]
 }

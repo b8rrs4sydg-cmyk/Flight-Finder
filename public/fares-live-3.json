@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T16:22:38+00:00",
+ "generated_at": "2026-10-27T16:24:11+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -1587,6 +1587,27 @@
     [
      "2026-10-27",
      26710
+    ]
+   ]
+  },
+  "mc|NGO-TPE-2027-02-15|TPE-NRT-2027-02-27": {
+   "price": 24020,
+   "by_airline": {
+    "STARLUX Airlines": 24020,
+    "Cathay Pacific": 32391,
+    "China Airlines": 33299
+   },
+   "first": {
+    "dep": "2027-02-15T19:40:00+09:00",
+    "arr": "2027-02-15T22:15:00+08:00",
+    "stops": 0,
+    "airline": "STARLUX Airlines"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     24020
     ]
    ]
   },
@@ -14679,7 +14700,7 @@
    "n": 2
   },
   "mc|BKK-TPE-2027-01-02|TPE-FUK-2027-02-04|FUK-TPE-2027-02-16|TPE-ICN-2027-02-25": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -14864,7 +14885,7 @@
    "n": 1
   },
   "mc|KIX-TPE-2027-02-14|TPE-FUK-2027-02-25": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -14889,11 +14910,6 @@
    "n": 1
   },
   "mc|KMG-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 1
-  },
-  "mc|NGO-TPE-2027-02-15|TPE-NRT-2027-02-27": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
@@ -16461,7 +16477,7 @@
   "rt|RMQ|ISG|2026-11-20|2027-02-14": {
    "status": "parse_error",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|RMQ|ISG|2026-12-24|2027-06-13": {
    "status": "timeout",
@@ -16691,7 +16707,7 @@
   "rt|RMQ|UEO|2026-11-20|2026-12-13": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|RMQ|UEO|2026-11-20|2026-12-27": {
    "status": "timeout",
@@ -16809,7 +16825,7 @@
    "n": 1
   },
   "rt|RMQ|USM|2026-11-20|2027-02-14": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -17306,7 +17322,7 @@
   "rt|TPE|UTP|2026-11-20|2026-12-27": {
    "status": "parse_error",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|TPE|UTP|2026-12-11|2026-12-27": {
    "status": "timeout",
@@ -17484,9 +17500,9 @@
    "n": 1
   },
   "rt|TSA|DMK|2026-11-20|2027-02-14": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 2
+   "n": 1
   },
   "rt|TSA|DMK|2026-11-20|2027-05-02": {
    "status": "timeout",
@@ -17969,7 +17985,7 @@
    "n": 1
   },
   "rt|TSA|UTP|2026-11-20|2026-12-13": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },

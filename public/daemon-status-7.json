@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T16:43:39+00:00",
+ "at": "2026-10-27T17:03:11+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 716,
+ "fares_saved": 721,
  "log": [
   "15:45:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:45:10 http front door: ['https://control-automobile-cfr-fall.trycloudflare.com', 'https://073f039b4a1d74.lhr.life']",
@@ -74,6 +74,21 @@
   "16:40:50 queue: nothing readable, next try in 180s",
   "16:40:52 request received: rid mvqwwluc14pja.7 33 keys",
   "16:40:52 handle mvqwwluc14pja.7: first_chunk=True total=33",
-  "16:41:32 rtc mrwcvk86bx: answered"
+  "16:41:32 rtc mrwcvk86bx: answered",
+  "16:43:47 request mvqwvercp53wt.7: chunk of 34 keys done in 229s; paths {'http': 26, 'browser-crashed': 386, 'browser': 14}, browser waits 400 max 642s sum 51380s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 26, 'miss': 125, 'blocked': 0, 'tries': 73, 'empty': 47}, audit 3/3 ag",
+  "16:43:47 request mvqwwluc14pja.7: chunk of 33 keys done in 175s; paths {'http': 26, 'browser-crashed': 386, 'browser': 14}, browser waits 400 max 642s sum 51380s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 26, 'miss': 125, 'blocked': 0, 'tries': 73, 'empty': 47}, audit 3/3 ag",
+  "16:43:49 request mvqwvercp53wt.7: final sent (34/34); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "16:43:49 request mvqwwluc14pja.7: final sent (33/33); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "16:45:11 queue: 12 keys from the look-up queue in 81s (5 priced, 0 no flight, 7 failed)",
+  "16:47:47 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "16:47:47 queue: nothing readable, next try in 180s",
+  "16:52:25 queue: 12 keys from the look-up queue in 97s (0 priced, 0 no flight, 12 failed)",
+  "16:52:25 queue: nothing readable, next try in 300s",
+  "16:58:23 rtc qyk6k1kkff: answered",
+  "16:58:27 rtc qyk6k1kkff: data channel open",
+  "16:59:25 queue: 12 keys from the look-up queue in 120s (0 priced, 0 no flight, 12 failed)",
+  "16:59:25 queue: nothing readable, next try in 540s",
+  "17:02:19 request received: rid mvqxo72585gr1.7 29 keys",
+  "17:02:19 handle mvqxo72585gr1.7: first_chunk=True total=29"
  ]
 }

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T14:01:00+00:00",
+ "generated_at": "2026-10-27T14:10:13+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -1435,6 +1435,26 @@
     [
      "2026-10-27",
      15596
+    ]
+   ]
+  },
+  "mc|NRT-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
+   "price": 101012,
+   "first": {
+    "dep": "2027-02-14T15:30:00+09:00",
+    "arr": "2027-02-14T18:35:00+08:00",
+    "stops": 0,
+    "airline": "Cathay Pacific"
+   },
+   "by_airline": {
+    "Cathay Pacific": 101012,
+    "EVA Air": 126354
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     101012
     ]
    ]
   },
@@ -13371,11 +13391,6 @@
   },
   "mc|KMG-TPE-2026-11-08|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
    "status": "parse_error",
-   "at": "2026-10-27",
-   "n": 1
-  },
-  "mc|NRT-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
-   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },

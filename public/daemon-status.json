@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T09:29:09+00:00",
+ "at": "2026-10-27T09:38:10+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 439,
+ "fares_saved": 454,
  "log": [
   "09:27:32 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:27:39 http front door: ['https://infectious-protection-heart-heart.trycloudflare.com', 'https://7684b6cc46d687.lhr.life']",
@@ -13,6 +13,13 @@
   "09:28:42 request received: rid httptest1793093322 20 keys",
   "09:28:42 handle httptest1793093322: first_chunk=True total=20",
   "09:28:53 request httptest1793093322: chunk of 20 keys done in 10s; paths {'http': 22, 'browser': 1}, browser waits 1 max 5s sum 5s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 9, 'blocked': 0, 'tries': 35, 'empty': 13}, audit 0/0 agree",
-  "09:28:53 request httptest1793093322: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "09:28:53 request httptest1793093322: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "09:30:17 queue: 12 keys from the look-up queue in 98s (6 priced, 0 no flight, 6 failed)",
+  "09:32:51 queue: 12 keys from the look-up queue in 95s (0 priced, 0 no flight, 12 failed)",
+  "09:32:51 queue: nothing readable, next try in 180s",
+  "09:37:26 queue: 12 keys from the look-up queue in 95s (2 priced, 0 no flight, 10 failed)",
+  "09:37:30 rtc ht75u0df7l: answered",
+  "09:37:30 request received: rid mvqhrszvyiamt.0 19 keys",
+  "09:37:30 handle mvqhrszvyiamt.0: first_chunk=True total=19"
  ]
 }

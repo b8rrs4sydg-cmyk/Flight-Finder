@@ -1401,7 +1401,6 @@
 
   <footer class="site">
     <div>價格為 Google Flights 搜尋當下的結果，訂票前請以訂票網站為準。<a href="wiki.html#faq">常見問題</a></div>
-    <div><a href="https://github.com/b8rrs4sydg-cmyk/flight-finder" target="_blank" rel="noopener">GitHub</a></div>
   </footer>
 
 </div>
@@ -3108,7 +3107,7 @@ function renderDbCard() {
   const gh = ok.filter(f => f.source === 'GitHub').length;
   document.getElementById('db-load').textContent = DBLOAD.busy ? '載入中…'
     : DBLOAD.at && ok[0]?.source === 'Cloudflare' ? `已從公用資料庫讀取 · ${DBLOAD.at.toLocaleTimeString('zh-TW')}`
-    : DBLOAD.at ? `已讀取 ${ok.length}/${DBLOAD.files.length} 個資料檔（${gh} 個來自 GitHub，${ok.length - gh} 個為網站副本）· ${DBLOAD.at.toLocaleTimeString('zh-TW')}` : '';
+    : DBLOAD.at ? `已讀取 ${ok.length}/${DBLOAD.files.length} 個資料檔（${gh} 個為最新資料，${ok.length - gh} 個為網站內建副本）· ${DBLOAD.at.toLocaleTimeString('zh-TW')}` : '';
   document.getElementById('db-reload').disabled = DBLOAD.busy;
   document.getElementById('db-toggle').setAttribute('aria-expanded', String(DB.open));
   document.getElementById('db-body').hidden = !DB.open;

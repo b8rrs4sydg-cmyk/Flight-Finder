@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T18:20:52+00:00",
+ "generated_at": "2026-10-27T18:22:26+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -15433,6 +15433,21 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|BKK-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-GMP-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|CGK-TPE-2026-12-27|TPE-HKG-2027-04-29|HKG-TPE-2027-05-02|TPE-HND-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|CGK-TPE-2026-12-27|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-DAD-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
   "mc|CGK-TPE-2026-12-27|TPE-MNL-2027-02-10|MNL-TPE-2027-02-14|TPE-BKI-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -15643,6 +15658,11 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|HND-TPE-2026-12-27|TPE-MNL-2027-02-10|MNL-TPE-2027-02-14|TPE-XIY-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
   "mc|ICN-TPE-2027-01-02|TPE-HND-2027-02-04|HND-TPE-2027-02-15|TPE-HKG-2027-02-26": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -15680,6 +15700,11 @@
   },
   "mc|KIX-TPE-2027-02-14|TPE-FUK-2027-02-25": {
    "status": "parse_error",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-CTU-2026-12-11": {
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -15729,6 +15754,11 @@
    "n": 1
   },
   "mc|KMG-TPE-2026-11-08|TPE-OKA-2026-12-11|OKA-TPE-2026-12-13|TPE-XIY-2027-02-10": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|KMG-TPE-2027-02-14|TPE-ICN-2027-06-09|ICN-TPE-2027-06-13|TPE-BKI-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
@@ -15793,6 +15823,11 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|SIN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-KUL-2027-02-10": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
   "mc|SIN-TPE-2026-11-22|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -15804,6 +15839,11 @@
    "n": 1
   },
   "mc|SIN-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|SIN-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-GMP-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1

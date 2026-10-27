@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T09:47:40+00:00",
+ "at": "2026-10-27T09:49:11+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 581,
+ "fares_saved": 582,
  "log": [
   "09:37:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:37:06 http front door: ['https://demonstrate-pod-hardcover-leadership.trycloudflare.com', 'https://69436370e171e8.lhr.life']",
@@ -24,6 +24,8 @@
   "09:43:21 queue: nothing readable, next try in 180s",
   "09:47:24 rtc 96i5rrtsgc: answered",
   "09:47:37 request received: rid mvqi4s7ppgts0.5 20 keys",
-  "09:47:37 handle mvqi4s7ppgts0.5: first_chunk=True total=20"
+  "09:47:37 handle mvqi4s7ppgts0.5: first_chunk=True total=20",
+  "09:47:59 queue: 12 keys from the look-up queue in 97s (0 priced, 0 no flight, 12 failed)",
+  "09:47:59 queue: nothing readable, next try in 300s"
  ]
 }

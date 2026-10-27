@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T15:52:45+00:00",
+ "at": "2026-10-27T15:58:59+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -23,6 +23,13 @@
   "15:50:28 request received: rid mvqv3rcb80j09.6 40 keys",
   "15:50:28 handle mvqv3rcb80j09.6: first_chunk=True total=40",
   "15:50:30 queue: 12 keys from the look-up queue in 260s (0 priced, 0 no flight, 12 failed)",
-  "15:50:30 queue: nothing readable, next try in 180s"
+  "15:50:30 queue: nothing readable, next try in 180s",
+  "15:54:18 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "15:54:31 request mvqv3rcb80j09.6: chunk of 40 keys done in 243s; paths {'http': 20, 'browser-crashed': 73}, browser waits 73 max 243s sum 9058s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 23, 'blocked': 0, 'tries': 43, 'empty': 23}, audit 3/3 agree",
+  "15:54:33 request mvqv3rcb80j09.6: final sent (40/40); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "15:55:40 request received: rid mvqvagbbc44nv.6 32 keys",
+  "15:55:40 handle mvqvagbbc44nv.6: first_chunk=True total=32",
+  "15:58:55 request mvqvagbbc44nv.6: chunk of 32 keys done in 195s; paths {'http': 20, 'browser-crashed': 105}, browser waits 105 max 243s sum 12856s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 23, 'blocked': 0, 'tries': 43, 'empty': 23}, audit 3/3 agree",
+  "15:58:57 request mvqvagbbc44nv.6: final sent (32/32); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

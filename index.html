@@ -535,6 +535,9 @@
     margin-bottom: 10px;
     display: grid;
     grid-template-columns: auto 1fr;
+    /* the browser skips layout and paint of cards that are off screen (the DOM keeps every card) */
+    content-visibility: auto;
+    contain-intrinsic-size: auto 110px;
   }
   .plan .sel-col {
     display: flex;
@@ -3395,50 +3398,69 @@ function renderPlanList(plans, groups) {
     list.innerHTML = plans.map((p, i) => renderPlan(p, i+1)).join('');
   }
 
-  // Wire interactions
-  list.querySelectorAll('.plan').forEach((node, idx) => {
-    const plan = plans[idx];
-    const key = `${plan.strategy}-${idx}-${plan.tickets[0]?.offer_id || ''}`;
-    node.querySelector('.plan-head').addEventListener('click', e => {
-      if (e.target.closest('button') || e.target.closest('input') || e.target.closest('a')) return;
-      node.classList.toggle('open');
+  // Interactions are delegated: one listener of each kind on the list (wired once) instead of eight per card, which
+  // cost more than building the cards on a list of hundreds. `list._plans` always holds the plans of the latest draw.
+  list._plans = plans;
+  if (!list._wired) {
+    list._wired = true;
+    const planOf = node => {
+      const idx = [...list.querySelectorAll('.plan')].indexOf(node);
+      const plan = list._plans[idx];
+      return plan ? { plan, idx } : null;
+    };
+    list.addEventListener('click', e => {
+      const node = e.target.closest('.plan');
+      if (!node || !list.contains(node)) return;
+      const t = e.target;
+      const refreshBtn = t.closest('[data-refresh]');
+      const openBtn = t.closest('[data-open]');
+      const favBtn = t.closest('.fav-btn');
+      const share = t.closest('.btn-share');
+      const exp = t.closest('.btn-export');
+      if (refreshBtn) {
+        e.stopPropagation();
+        const hit = planOf(node); if (!hit) return;
+        const keys = [...new Set(hit.plan.tickets.map(x => String(x.offer_id || '')).filter(id => id.startsWith('gf-')).map(id => id.slice(3)))];
+        if (keys.length) startLookup(keys);
+        refreshBtn.disabled = true; refreshBtn.textContent = '↻ 查詢中…';
+      } else if (openBtn) {
+        e.stopPropagation();
+        node.classList.add('open'); node.querySelector('.plan-detail')?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      } else if (favBtn) {
+        e.stopPropagation();
+        const hit = planOf(node); if (!hit) return;
+        const fp = fingerprint(hit.plan);
+        const prices = readFavPrices();
+        if (state.favorites.has(fp)) { state.favorites.delete(fp); delete prices[fp]; }
+        else { state.favorites.add(fp); prices[fp] = { price: hit.plan.total_cost, at: new Date().toISOString().slice(0, 10) }; }
+        writeFavs(state.favorites);
+        writeFavPrices(prices);
+        renderResults();
+      } else if (share) {
+        const hit = planOf(node); if (hit) sharePlan(hit.plan, share);
+      } else if (exp) {
+        const hit = planOf(node); if (hit) exportPlan(hit.plan, exp);
+      } else if (t.closest('.plan-head') && !t.closest('button') && !t.closest('input') && !t.closest('a')) {
+        node.classList.toggle('open');
+      }
     });
-    const refreshBtn = node.querySelector('[data-refresh]');
-    if (refreshBtn) refreshBtn.addEventListener('click', e => {
+    list.addEventListener('change', e => {
+      const check = e.target;
+      const node = check.closest && check.closest('.plan');
+      if (!node || check !== node.querySelector('input[type=checkbox]')) return;
       e.stopPropagation();
-      const keys = [...new Set(plan.tickets.map(t => String(t.offer_id || '')).filter(id => id.startsWith('gf-')).map(id => id.slice(3)))];
-      if (keys.length) startLookup(keys);
-      refreshBtn.disabled = true; refreshBtn.textContent = '↻ 查詢中…';
-    });
-    const openBtn = node.querySelector('[data-open]');
-    if (openBtn) openBtn.addEventListener('click', e => { e.stopPropagation(); node.classList.add('open'); node.querySelector('.plan-detail')?.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); });
-    node.querySelector('.fav-btn').addEventListener('click', e => {
-      e.stopPropagation();
-      const fp = fingerprint(plan);
-      const prices = readFavPrices();
-      if (state.favorites.has(fp)) { state.favorites.delete(fp); delete prices[fp]; }
-      else { state.favorites.add(fp); prices[fp] = { price: plan.total_cost, at: new Date().toISOString().slice(0, 10) }; }
-      writeFavs(state.favorites);
-      writeFavPrices(prices);
-      renderResults();
-    });
-    const check = node.querySelector('input[type=checkbox]');
-    check.addEventListener('change', e => {
-      e.stopPropagation();
+      const hit = planOf(node); if (!hit) return;
+      const key = `${hit.plan.strategy}-${hit.idx}-${hit.plan.tickets[0]?.offer_id || ''}`;
       if (check.checked) {
         if (state.selected.size >= 4) { check.checked = false; return; }
         state.selected.add(key);
       } else state.selected.delete(key);
       updateCompareButton();
-      renderCompare(plans);
+      renderCompare(list._plans);
       document.getElementById('r-sel-pill').hidden = state.selected.size === 0;
       document.getElementById('r-sel-pill').textContent = `已選 ${state.selected.size} / 4 比較`;
     });
-    const share = node.querySelector('.btn-share');
-    if (share) share.addEventListener('click', () => sharePlan(plan, share));
-    const exp = node.querySelector('.btn-export');
-    if (exp) exp.addEventListener('click', () => exportPlan(plan, exp));
-  });
+  }
 }
 
 // Change since the previous crawl of the same query (fare database history).

@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T15:52:50+00:00",
+ "at": "2026-10-27T16:00:37+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 658,
+ "fares_saved": 665,
  "log": [
   "15:44:54 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:44:59 git retry 0: b\"eads/main': is at 75e6b4aa7086f4a3581513920b46fe4e99b17e62 but expected c8db0dfd0afb11eba5279f71e6acd6e7eb4f7305)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
@@ -25,6 +25,13 @@
   "15:49:56 queue: 12 keys from the look-up queue in 223s (0 priced, 0 no flight, 12 failed)",
   "15:49:56 queue: nothing readable, next try in 180s",
   "15:50:28 request received: rid mvqv3rcb80j09.3 40 keys",
-  "15:50:28 handle mvqv3rcb80j09.3: first_chunk=True total=40"
+  "15:50:28 handle mvqv3rcb80j09.3: first_chunk=True total=40",
+  "15:54:47 request mvqv3rcb80j09.3: chunk of 40 keys done in 259s; paths {'http': 21, 'browser-crashed': 59, 'browser': 5}, browser waits 64 max 259s sum 7647s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 17, 'blocked': 0, 'tries': 28, 'empty': 7}, audit 2/2 agree",
+  "15:54:49 request mvqv3rcb80j09.3: final sent (40/40); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "15:55:40 request received: rid mvqvagbbc44nv.3 40 keys",
+  "15:55:40 handle mvqvagbbc44nv.3: first_chunk=True total=40",
+  "15:57:30 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "16:00:20 request mvqvagbbc44nv.3: chunk of 40 keys done in 280s; paths {'http': 21, 'browser-crashed': 96, 'browser': 8}, browser waits 104 max 280s sum 13797s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 17, 'blocked': 0, 'tries': 28, 'empty': 7}, audit 2/2 agree",
+  "16:00:22 request mvqvagbbc44nv.3: final sent (40/40); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

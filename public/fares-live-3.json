@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T17:02:22+00:00",
+ "generated_at": "2026-10-27T17:03:54+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -12414,6 +12414,28 @@
     ]
    ]
   },
+  "rt|TPE|KIX|2027-02-10|2027-06-13": {
+   "price": 10932,
+   "by_airline": {
+    "Jetstar": 10932,
+    "Tigerair Taiwan": 11083,
+    "AirAsia": 14091,
+    "Hong Kong Express": 19277
+   },
+   "first": {
+    "dep": "2027-02-10T18:15:00+08:00",
+    "arr": "2027-02-10T21:45:00+09:00",
+    "stops": 0,
+    "airline": "Jetstar"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     10932
+    ]
+   ]
+  },
   "rt|TPE|MFM|2026-12-11|2026-12-13": {
    "price": 8396,
    "first": {
@@ -15918,7 +15940,7 @@
    "n": 3
   },
   "rt|CJU|TSA|2027-02-14|2027-04-29": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -16295,7 +16317,7 @@
   "rt|HND|TSA|2027-02-14|2027-04-29": {
    "status": "parse_error",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|ICN|RMQ|2026-11-08|2027-04-29": {
    "status": "timeout",
@@ -16435,7 +16457,7 @@
   "rt|ITM|RMQ|2027-02-14|2027-04-29": {
    "status": "parse_error",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|ITM|RMQ|2027-02-14|2027-09-15": {
    "status": "timeout",
@@ -16448,7 +16470,7 @@
    "n": 1
   },
   "rt|ITM|RMQ|2027-06-13|2027-09-15": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
   },
@@ -16470,7 +16492,7 @@
   "rt|ITM|TSA|2027-02-14|2027-06-09": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|ITM|TSA|2027-02-14|2027-09-15": {
    "status": "parse_error",
@@ -16875,7 +16897,7 @@
   "rt|RMQ|DMK|2027-06-09|2027-09-19": {
    "status": "parse_error",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|RMQ|DMK|2027-09-15|2027-09-19": {
    "status": "timeout",
@@ -17295,7 +17317,7 @@
   "rt|RMQ|UEO|2027-02-10|2027-05-02": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 3
+   "n": 4
   },
   "rt|RMQ|UEO|2027-04-29|2027-06-13": {
    "status": "timeout",
@@ -17628,7 +17650,7 @@
    "n": 2
   },
   "rt|TPE|ITM|2027-02-10|2027-05-02": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -17636,11 +17658,6 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
-  },
-  "rt|TPE|KIX|2027-02-10|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 2
   },
   "rt|TPE|KIX|2027-04-29|2027-09-19": {
    "status": "timeout",

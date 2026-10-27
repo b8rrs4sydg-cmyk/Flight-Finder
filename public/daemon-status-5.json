@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T16:22:07+00:00",
+ "at": "2026-10-27T16:23:39+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 702,
+ "fares_saved": 703,
  "log": [
   "15:44:49 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:44:55 http front door: ['https://entirely-qty-recruitment-cartoon.trycloudflare.com', 'https://6e378c41b105b0.lhr.life']",
@@ -56,6 +56,8 @@
   "16:19:03 request received: rid mvqw4irtsowtc.5 31 keys",
   "16:19:03 handle mvqw4irtsowtc.5: first_chunk=True total=31",
   "16:20:23 git retry 0: b\"eads/main': is at 9fd9d1fc7f6277b482cb4c4f853e437b3929cadc but expected 2b779bd652388f38514c7b25946e8ab283b07339)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "16:20:29 git retry 1: b\"eads/main': is at 2845e297629126548250cadf3a5f0a6f56db3c27 but expected 9fd9d1fc7f6277b482cb4c4f853e437b3929cadc)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\""
+  "16:20:29 git retry 1: b\"eads/main': is at 2845e297629126548250cadf3a5f0a6f56db3c27 but expected 9fd9d1fc7f6277b482cb4c4f853e437b3929cadc)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "16:22:36 request mvqw4irtsowtc.5: chunk of 31 keys done in 213s; paths {'http': 24, 'browser-crashed': 256, 'browser': 8}, browser waits 264 max 329s sum 31099s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 24, 'miss': 96, 'blocked': 0, 'tries': 70, 'empty': 46}, audit 1/1 agre",
+  "16:22:37 request mvqw4irtsowtc.5: final sent (31/31); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
  ]
 }

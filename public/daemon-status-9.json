@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:07:39+00:00",
+ "at": "2026-10-27T13:09:10+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 636,
+ "fares_saved": 637,
  "log": [
   "10:36:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:53 http front door: ['https://ranging-simulation-story-phone.trycloudflare.com', 'https://29e22ca529d500.lhr.life']",
@@ -79,6 +79,8 @@
   "13:03:08 request received: rid mvqp4lfk36eet.9 39 keys",
   "13:03:08 handle mvqp4lfk36eet.9: first_chunk=True total=39",
   "13:07:10 request mvqp4lfk36eet.9: chunk of 39 keys done in 243s; paths {'http': 39, 'browser': 18, 'browser-crashed': 346}, browser waits 364 max 243s sum 31269s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 39, 'miss': 116, 'blocked': 0, 'tries': 168, 'empty': 129}, audit 3/3 ",
-  "13:07:11 request mvqp4lfk36eet.9: final sent (39/39); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "13:07:11 request mvqp4lfk36eet.9: final sent (39/39); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "13:08:55 request received: rid mvqpc1ue1t9g7.9 45 keys",
+  "13:08:55 handle mvqpc1ue1t9g7.9: first_chunk=True total=45"
  ]
 }

@@ -54,6 +54,8 @@ from app.providers.google_flights import _fetch_one
 from app.providers.google_http import HttpFetcher
 from scripts.lookup_fares import MAX_KEYS, valid_keys
 
+# the repository root (git commits of fares / daemon.json run there): backend/scripts/lookup_daemon.py -> two levels up
+REPO_ROOT = Path(__file__).resolve().parents[2]
 NTFY = os.getenv("NTFY_URL", "https://ntfy.sh")
 STUN = "stun:stun.l.google.com:19302"  # public STUN: no account, only tells each side its public address
 MSG_BYTES = 3400  # ntfy turns messages over 4096 bytes into attachments
@@ -342,7 +344,7 @@ class Persister:
             pass
 
     def _git_push(self, n: int) -> None:
-        root = Path(__file__).resolve().parents[3]
+        root = REPO_ROOT
         branch = os.getenv("GITHUB_REF_NAME", "")
         committed = False
         for attempt in range(8):

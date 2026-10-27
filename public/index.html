@@ -5223,6 +5223,7 @@ async function loadSiblingFares() {
 
 function noteDiag(e) {
   live.ntfyOk = false;
+  enqueueBackground(true).catch(() => {});   // no way to reach a crawler from here: the Cloudflare queue still gets the work done
   try { live.db?.collection('diag').doc('net').set({ at: new Date().toISOString(), error: String(e?.message || e).slice(0, 200), ua: navigator.userAgent.slice(0, 120) }).catch(() => {}); } catch {}
 }
 

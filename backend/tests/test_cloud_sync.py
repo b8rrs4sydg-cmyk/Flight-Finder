@@ -90,3 +90,12 @@ def test_claim_returns_keys_from_the_queue_endpoint():
 
 def test_claim_is_empty_when_unreachable():
     assert CloudSink("http://127.0.0.1:9/api/ingest", "tok", timeout=1).claim(5) == []
+
+
+def test_scripts_find_the_repository_root():
+    # the daemon commits its announcements (daemon.json) and fares from this directory: a wrong root = no commit, no crawler found
+    from scripts import lookup_daemon, relay_lookup
+
+    for root in (lookup_daemon.REPO_ROOT, relay_lookup.ROOT):
+        assert (root / "public" / "index.html").is_file()
+        assert (root / "backend" / "scripts").is_dir()

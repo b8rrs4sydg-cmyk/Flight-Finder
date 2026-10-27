@@ -24,7 +24,7 @@ from scripts.lookup_fares import valid_keys
 
 REPO = "b8rrs4sydg-cmyk/flight-finder"
 BRANCH = "main"
-ROOT = Path(__file__).resolve().parents[3]
+ROOT = Path(__file__).resolve().parents[2]
 REQUEST = ROOT / "public/live-request.json"
 
 

@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T16:22:32+00:00",
+ "at": "2026-10-27T16:31:34+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 723,
+ "fares_saved": 725,
  "log": [
   "15:51:45 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:51:52 http front door: ['https://pale-rand-vehicle-bonus.trycloudflare.com', 'https://fba5f17c92e5ff.lhr.life']",
@@ -41,6 +41,11 @@
   "16:18:59 request received: rid mvqw434vkscbq.8 10 keys",
   "16:18:59 handle mvqw434vkscbq.8: first_chunk=True total=10",
   "16:21:58 request mvqw434vkscbq.8: chunk of 10 keys done in 179s; paths {'http': 20, 'browser': 4, 'browser-crashed': 157}, browser waits 161 max 287s sum 17634s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 63, 'blocked': 0, 'tries': 35, 'empty': 15}, audit 1/1 agre",
-  "16:21:58 request mvqw434vkscbq.8: final sent (10/10); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "16:21:58 request mvqw434vkscbq.8: final sent (10/10); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "16:24:23 rtc pfvdfwmp04: answered",
+  "16:24:24 rtc pfvdfwmp04: data channel open",
+  "16:28:36 queue: 12 keys from the look-up queue in 122s (1 priced, 0 no flight, 11 failed)",
+  "16:30:12 request received: rid mvqwivzavunhv.8 40 keys",
+  "16:30:12 handle mvqwivzavunhv.8: first_chunk=True total=40"
  ]
 }

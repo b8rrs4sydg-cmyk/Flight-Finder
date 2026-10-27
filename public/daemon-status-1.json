@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T16:29:28+00:00",
+ "at": "2026-10-27T16:31:01+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 688,
+ "fares_saved": 690,
  "log": [
   "15:44:54 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:44:59 http front door: ['https://sam-reed-greatly-responses.trycloudflare.com', 'https://5b5ce98f3a80d3.lhr.life']",
@@ -66,6 +66,8 @@
   "16:25:18 request mvqw434vkscbq.1: chunk of 12 keys done in 379s; paths {'http': 21, 'browser-crashed': 315, 'browser': 2}, browser waits 317 max 455s sum 44506s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 84, 'blocked': 0, 'tries': 43, 'empty': 22}, audit 3/3 agre",
   "16:25:19 request mvqw434vkscbq.1: final sent (12/12); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
   "16:29:00 request mvqwbdgv122sn.1: chunk of 38 keys done in 277s; paths {'http': 21, 'browser-crashed': 349, 'browser': 2}, browser waits 351 max 455s sum 50373s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 84, 'blocked': 0, 'tries': 43, 'empty': 22}, audit 3/3 agre",
-  "16:29:02 request mvqwbdgv122sn.1: final sent (38/38); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "16:29:02 request mvqwbdgv122sn.1: final sent (38/38); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "16:30:12 request received: rid mvqwivzavunhv.1 37 keys",
+  "16:30:12 handle mvqwivzavunhv.1: first_chunk=True total=37"
  ]
 }

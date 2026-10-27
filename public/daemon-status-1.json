@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T09:29:16+00:00",
+ "at": "2026-10-27T09:38:18+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 490,
+ "fares_saved": 509,
  "log": [
   "09:27:41 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:27:46 http front door: ['https://pee-perfume-protected-perspective.trycloudflare.com', 'https://0633deebba1ee1.lhr.life']",
@@ -13,6 +13,13 @@
   "09:28:49 request received: rid httptest1793093329 20 keys",
   "09:28:49 handle httptest1793093329: first_chunk=True total=20",
   "09:28:59 request httptest1793093329: chunk of 20 keys done in 10s; paths {'http': 24, 'browser': 1}, browser waits 1 max 3s sum 3s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 24, 'miss': 6, 'blocked': 0, 'tries': 37, 'empty': 13}, audit 0/0 agree",
-  "09:29:00 request httptest1793093329: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "09:29:00 request httptest1793093329: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "09:29:50 queue: 12 keys from the look-up queue in 64s (10 priced, 0 no flight, 2 failed)",
+  "09:32:31 queue: 12 keys from the look-up queue in 100s (2 priced, 0 no flight, 10 failed)",
+  "09:35:05 queue: 12 keys from the look-up queue in 94s (0 priced, 0 no flight, 12 failed)",
+  "09:35:05 queue: nothing readable, next try in 180s",
+  "09:37:30 rtc ggd69z98se: answered",
+  "09:37:30 request received: rid mvqhrszvyiamt.1 18 keys",
+  "09:37:30 handle mvqhrszvyiamt.1: first_chunk=True total=18"
  ]
 }

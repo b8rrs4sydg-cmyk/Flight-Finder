@@ -63,6 +63,8 @@ CACHE_TTL_S = 1800  # a key fetched in the last 30 min is answered from memory
 FLUSH_EVERY_S = 6
 HEARTBEAT_S = 20
 PERSIST_EVERY_S = 90
+QUEUE_EVERY_S = 15  # how often an idle crawler asks the Cloudflare look-up queue for work
+QUEUE_BATCH = 40
 CONCURRENCY = 8
 HTTP_AUDIT = 0.1  # share of plain-HTTP prices that are also priced by the browser, to catch a drifting reader
 _UA = (
@@ -451,6 +453,7 @@ class Daemon:
             deadline = time.time() + duration
             persist_task = asyncio.create_task(self._persist_loop())
             publisher_task = asyncio.create_task(self.publisher())
+            queue_task = asyncio.create_task(self.queue_worker(ctx, sem, deadline)) if self.persist.cloud else None
             tasks: set[asyncio.Task] = set()
             while time.time() < deadline:
                 try:
@@ -473,8 +476,66 @@ class Daemon:
                 await asyncio.wait(tasks, timeout=300)
             persist_task.cancel()
             publisher_task.cancel()
+            if queue_task:
+                queue_task.cancel()
             await asyncio.to_thread(self.persist.flush, True)
             await browser.close()
+
+    def busy(self) -> bool:
+        """A page is waiting on this crawler right now: queue work gives way to it."""
+
+        return any(r["active"] for r in self.requests.values())
+
+    async def queue_batch(self, keys: list[str], ctx, sem: PriorityGate) -> None:
+        t0 = time.time()
+        self.seq += 1
+        seq = self.seq
+        found: dict[str, dict] = {}
+        nf: list[str] = []
+        failed: list[str] = []
+
+        async def one(key: str) -> None:
+            entry, bad = await self.priced(key, ctx, sem, seq)
+            if entry:
+                found[key] = {**entry, "at": datetime.now(UTC).date().isoformat()}
+            elif bad:
+                failed.append(key)
+            else:
+                nf.append(key)
+
+        await asyncio.gather(*(one(k) for k in keys))
+        self.persist.add(found, nf, failed)
+        self.persist.mark_dirty()
+        await asyncio.to_thread(self.persist.flush, False)
+        log(
+            f"queue: {len(keys)} keys from the look-up queue in {time.time() - t0:.0f}s "
+            f"({len(found)} priced, {len(nf)} no flight, {len(failed)} failed)"
+        )
+
+    async def queue_worker(self, ctx, sem: PriorityGate, deadline: float) -> None:
+        """Prices keys from the Cloudflare look-up queue, so a search goes on while the person's phone has the tab frozen.
+
+        Only an idle crawler claims (a page that is looking at this crawler comes first). Results take the same road as
+        any other lookup: ``Persister.add`` -> flush -> git + Cloudflare ingest, which also removes the key from the queue.
+        """
+
+        cloud = self.persist.cloud
+        while time.time() < deadline - 120:
+            await asyncio.sleep(QUEUE_EVERY_S)
+            if self.busy():
+                continue
+            try:
+                keys = [
+                    k
+                    for k in await asyncio.to_thread(cloud.claim, QUEUE_BATCH)
+                    if k not in self.inflight
+                ]
+                keys = valid_keys(keys)[:QUEUE_BATCH]
+                if not keys:
+                    continue
+                await self.queue_batch(keys, ctx, sem)
+            except Exception as e:  # noqa: BLE001 - the queue must never take the crawler down
+                log(f"queue worker error: {e!r}")
 
     async def _persist_loop(self) -> None:
         while True:

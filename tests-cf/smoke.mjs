@@ -30,6 +30,19 @@ r = await ingest({ fares: { [k1]: { price: 5000, at: '2026-10-20', hist: [['2026
 assert.equal(r.json.changed, 0);
 r = await ingest({ fares: { [k3]: { price: 7000, at: '2026-10-23' } } });                                    // priced now: no longer missing
 
+// --- look-up queue ---
+const q1 = `ow|TPE|ICN|2027-04-01|${tag}`, q2 = `ow|TPE|BKK|2027-04-02|${tag}`, q3 = `ow|TPE|HKG|2027-04-03|${tag}`;
+const claim = (n, token = TOKEN) => call(`/api/queue?claim=${n}`, { method: 'POST', body: {}, headers: { authorization: `Bearer ${token}` } });
+r = await call('/api/queue', { method: 'POST', body: { keys: [q1, q2, q3, 'bogus'] } });
+assert.equal(r.status, 200); assert.ok(r.json.pending >= 3);
+assert.equal((await claim(1, 'wrong')).status, 401);
+const got = (await claim(200)).json.keys;                          // everything pending (the three above come in order)
+assert.deepEqual(got.filter(k => k.endsWith(tag)), [q1, q2, q3]);
+assert.deepEqual((await claim(200)).json.keys.filter(k => k.endsWith(tag)), []);   // claimed: not handed out twice
+await ingest({ fares: { [q1]: { price: 3000, at: '2026-10-27' } }, missing: [q2] });   // priced / missing: leave the queue
+r = await call('/api/queue');
+assert.equal(r.json.claimed >= 1, true);                              // q3 is still claimed, waiting for its answer
+
 // --- read ---
 const since = Date.now() - 60_000;
 r = await call(`/api/fares?since=${since}`);

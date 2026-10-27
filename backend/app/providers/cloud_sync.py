@@ -63,6 +63,29 @@ class CloudSink:
             time.sleep(1 + attempt * 2)
         return False
 
+    def claim(self, n: int) -> list[str]:
+        """The next ``n`` keys of the look-up queue (``functions/api/queue.js``); [] when it is empty or unreachable."""
+
+        base = self.url.rsplit("/", 1)[0]  # …/api/ingest -> …/api
+        req = urllib.request.Request(
+            f"{base}/queue?claim={int(n)}",
+            data=b"{}",
+            headers={
+                "content-type": "application/json",
+                "authorization": f"Bearer {self.token}",
+                "user-agent": USER_AGENT,
+                "accept": "application/json",
+            },
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=self.timeout) as r:
+                keys = json.loads(r.read()).get("keys", [])
+        except (urllib.error.URLError, TimeoutError, OSError, ValueError) as e:
+            log.warning("cloud queue claim failed: %s", e)
+            return []
+        return [k for k in keys if isinstance(k, str)]
+
     def push(
         self,
         fares: dict[str, dict],

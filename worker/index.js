@@ -2,6 +2,7 @@
 // served from the static assets (public/). Deployed by the "Deploy to Cloudflare" button, see docs/cloudflare.md.
 import * as fares from '../functions/api/fares.js';
 import * as ingest from '../functions/api/ingest.js';
+import * as queue from '../functions/api/queue.js';
 import * as authRequest from '../functions/api/auth/request.js';
 import * as authVerify from '../functions/api/auth/verify.js';
 import * as authLogout from '../functions/api/auth/logout.js';
@@ -11,6 +12,7 @@ import * as meState from '../functions/api/me/state.js';
 const ROUTES = {
   '/api/fares': fares,
   '/api/ingest': ingest,
+  '/api/queue': queue,
   '/api/auth/request': authRequest,
   '/api/auth/verify': authVerify,
   '/api/auth/logout': authLogout,

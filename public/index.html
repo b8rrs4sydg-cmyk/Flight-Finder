@@ -4859,8 +4859,38 @@ function nextBatch() {
   return { keys: mc.slice(0, lookupMax()), stage: 2, left: mc.length };
 }
 
+/* Background queue (Cloudflare): the keys this search still misses are also dropped into the look-up queue, which the crawlers
+ * work through on their own. A phone that freezes the tab (or a closed page) loses nothing: the prices land in the public
+ * database and the next visit, or the poll below, picks them up. The page's own batches stay the fast path while it is open. */
+const QUEUED = new Set();
+let queueTimer = null;
+async function enqueueBackground() {
+  if (!(await cloudProbe())) return;
+  const open = [...fareStats.missingKeys].filter(k => !live.notFound.has(k) && !QUEUED.has(k));
+  const mcOpen = open.filter(k => k.startsWith('mc|'));
+  const mc = live.campaign?.all ? mcOpen : planMulti(open).slice(0, Math.max(0, live.campaign?.mcLeft ?? MC_BUDGET));
+  const keys = [...open.filter(k => !k.startsWith('mc|')), ...mc].slice(0, 1000);
+  if (!keys.length) return;
+  try {
+    const r = await timed('/api/queue', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ keys }) }, 15000);
+    if (!r.ok) return;
+    keys.forEach(k => QUEUED.add(k));
+    queuePollSoon();
+  } catch { /* the page's own lookups still run */ }
+}
+function queuePollSoon() {
+  if (queueTimer || !QUEUED.size) return;
+  queueTimer = setTimeout(async () => {
+    queueTimer = null;
+    if (document.visibilityState === 'visible') await loadCloudFares();   // changed fares re-run the search by themselves
+    for (const k of [...QUEUED]) if (fareEntry(k) || live.notFound.has(k)) QUEUED.delete(k);
+    queuePollSoon();
+  }, 45000);
+}
+
 /* After a search: look up whatever is missing, batch after batch, until nothing worth asking remains. */
 function maybeLookup(fromUser = false) {
+  if (state.result) enqueueBackground().catch(() => {});
   if (!(live.ready || live.ntfyOk)) return;
   const busy = live.rid && live.doc?.status !== 'done' && live.doc?.status !== 'error';
   if (busy && !fromUser) return;

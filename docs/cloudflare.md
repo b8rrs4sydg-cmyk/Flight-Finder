@@ -55,3 +55,10 @@ The button creates a *copy* of the repository (`<you>/<new name>`) that never re
 * Login codes: one per address per minute, five per hour, five wrong tries per code.
 * Account data is personal data: `DELETE /api/me` (the 刪除帳號 button) removes the user, sessions and saved state.
 * Cloudflare Browser Run identifies itself as a bot, so the crawlers stay on GitHub Actions (see the notes in CLAUDE.md).
+
+## Look-up queue (background search)
+
+`POST /api/queue {keys}` (page, same origin) puts fare keys in the `queue` table; crawlers claim them with
+`POST /api/queue?claim=N` (Bearer `INGEST_TOKEN`) and `/api/ingest` removes the keys it receives. `GET /api/queue` returns
+`{pending, claimed}`. A claim not answered within 10 minutes is handed out again (3 tries, then dropped); the table is capped at
+30,000 keys. This is what lets a search continue while a phone has frozen the tab.

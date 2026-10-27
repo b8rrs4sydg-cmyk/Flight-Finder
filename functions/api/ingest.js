@@ -2,6 +2,7 @@
 //   Authorization: Bearer <INGEST_TOKEN>
 //   body: { fares: {key: entry}, missing: [key], unavailable: [key], generated_at?, coverage? }
 // An entry is merged with the stored one (newest `at` wins, price histories joined).
+import { dequeue } from './queue.js';
 import { bad, json, mergeEntries, safeEqual, validEntry, validKey } from './_lib.js';
 
 const MAX_FARES = 1000;
@@ -60,5 +61,7 @@ export async function onRequestPost({ request, env }) {
     ).bind(JSON.stringify(body.coverage)));
   }
   for (let i = 0; i < statements.length; i += 100) await env.DB.batch(statements.slice(i, i + 100));
+  // answered keys (priced, or confirmed missing / unavailable) leave the look-up queue
+  await dequeue(env, [...new Set([...keys, ...flagged.map(([, key]) => key).filter(validKey)])]);
   return json({ ok: true, received: incoming.length, rejected: incoming.length - good.length, changed });
 }

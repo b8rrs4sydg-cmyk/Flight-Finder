@@ -64,3 +64,29 @@ def test_a_refused_push_is_reported_not_raised():
         assert CloudSink(srv.url, "bad").push({"ow|A|B|1": {"price": 5}}) is False
     finally:
         srv.close()
+
+
+def test_claim_returns_keys_from_the_queue_endpoint():
+    class H(BaseHTTPRequestHandler):
+        def do_POST(self):
+            self.rfile.read(int(self.headers["content-length"]))
+            H.path_seen = self.path
+            self.send_response(200)
+            self.end_headers()
+            self.wfile.write(b'{"keys": ["ow|TPE|NRT|2027-01-01", 5]}')
+
+        def log_message(self, *a):
+            pass
+
+    httpd = HTTPServer(("127.0.0.1", 0), H)
+    threading.Thread(target=httpd.serve_forever, daemon=True).start()
+    try:
+        sink = CloudSink(f"http://127.0.0.1:{httpd.server_port}/api/ingest", "tok")
+        assert sink.claim(40) == ["ow|TPE|NRT|2027-01-01"]
+        assert H.path_seen == "/api/queue?claim=40"
+    finally:
+        httpd.shutdown()
+
+
+def test_claim_is_empty_when_unreachable():
+    assert CloudSink("http://127.0.0.1:9/api/ingest", "tok", timeout=1).claim(5) == []

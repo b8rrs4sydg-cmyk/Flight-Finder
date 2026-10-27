@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T09:12:34+00:00",
+ "at": "2026-10-27T09:14:06+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 2138,
+ "fares_saved": 470,
  "log": [
   "09:10:59 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:11:04 http front door: ['https://involved-shipments-tony-von.trycloudflare.com', 'https://ba70e1d5e56666.lhr.life']",

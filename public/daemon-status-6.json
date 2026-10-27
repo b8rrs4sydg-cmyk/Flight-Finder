@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T12:42:50+00:00",
+ "at": "2026-10-27T12:44:21+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 663,
+ "fares_saved": 666,
  "log": [
   "10:36:40 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:45 http front door: ['https://spam-families-selecting-nikon.trycloudflare.com', 'https://3eebe1d68a0475.lhr.life']",
@@ -45,6 +45,10 @@
   "12:39:30 request mvqo7ztizzemc.6: final sent (22/22); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "12:41:53 rtc fj0m6u6ofo: answered",
   "12:42:05 request received: rid mvqod5shtgjgd.6 19 keys",
-  "12:42:05 handle mvqod5shtgjgd.6: first_chunk=True total=19"
+  "12:42:05 handle mvqod5shtgjgd.6: first_chunk=True total=19",
+  "12:43:53 rtc yii2n6xv1q: answered",
+  "12:43:55 rtc yii2n6xv1q: data channel open",
+  "12:43:56 request received: rid mvqoft66fhhyp.6 21 keys",
+  "12:43:56 handle mvqoft66fhhyp.6: first_chunk=True total=21"
  ]
 }

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T09:41:11+00:00",
+ "generated_at": "2026-10-27T09:42:42+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -11555,7 +11555,7 @@
   "mc|TPE-NGO-2026-12-31|NRT-TPE-2027-02-14": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "mc|TPE-NGO-2027-01-02|KIX-TPE-2027-03-01": {
    "status": "timeout",
@@ -11565,7 +11565,7 @@
   "mc|TPE-NRT-2027-02-04|NGO-TPE-2027-02-28": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "ow|MFM|TSA|2026-12-13": {
    "status": "timeout",

@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T09:40:08+00:00",
+ "at": "2026-10-27T09:47:40+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 579,
+ "fares_saved": 581,
  "log": [
   "09:37:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:37:06 http front door: ['https://demonstrate-pod-hardcover-leadership.trycloudflare.com', 'https://69436370e171e8.lhr.life']",
@@ -18,6 +18,12 @@
   "09:38:12 request httptest1793093890: chunk of 20 keys done in 2s; paths {'http': 26, 'browser': 4}, browser waits 4 max 9s sum 20s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 26, 'miss': 5, 'blocked': 0, 'tries': 29, 'empty': 3}, audit 2/2 agree",
   "09:38:13 request httptest1793093890: final sent (20/20); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "09:38:59 request mvqhrszvyiamt.5: chunk of 11 keys done in 89s; paths {'http': 26, 'browser': 4, 'browser-crashed': 1}, browser waits 5 max 76s sum 96s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 26, 'miss': 5, 'blocked': 0, 'tries': 29, 'empty': 3}, audit 5/5 agree",
-  "09:39:00 request mvqhrszvyiamt.5: final sent (11/11); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "09:39:00 request mvqhrszvyiamt.5: final sent (11/11); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "09:40:41 queue: 12 keys from the look-up queue in 95s (2 priced, 0 no flight, 10 failed)",
+  "09:43:21 queue: 12 keys from the look-up queue in 100s (0 priced, 0 no flight, 12 failed)",
+  "09:43:21 queue: nothing readable, next try in 180s",
+  "09:47:24 rtc 96i5rrtsgc: answered",
+  "09:47:37 request received: rid mvqi4s7ppgts0.5 20 keys",
+  "09:47:37 handle mvqi4s7ppgts0.5: first_chunk=True total=20"
  ]
 }

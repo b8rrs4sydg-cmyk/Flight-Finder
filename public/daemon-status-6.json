@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T18:12:47+00:00",
+ "at": "2026-10-27T18:14:20+00:00",
  "publishes": {
   "ok": 9,
   "r429": 0,
@@ -7,8 +7,6 @@
  },
  "fares_saved": 773,
  "log": [
-  "15:47:20 request received: rid mvquznjhmn5fc.5 23 keys",
-  "15:47:20 handle mvquznjhmn5fc.5: first_chunk=True total=23",
   "15:47:44 queue: 12 keys from the look-up queue in 102s (2 priced, 0 no flight, 10 failed)",
   "15:49:35 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
   "15:49:55 request mvquznjhmn5fc.5: chunk of 23 keys done in 155s; paths {'http': 20, 'browser': 2, 'browser-crashed': 33}, browser waits 35 max 154s sum 2899s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 18, 'blocked': 0, 'tries': 34, 'empty': 14}, audit 1/1 agree",
@@ -156,6 +154,8 @@
   "18:05:30 request mvqzvm6prydbb.6: chunk of 13 keys done in 84s; paths {'http': 36, 'browser': 23, 'browser-crashed': 959}, browser waits 982 max 615s sum 137560s; ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 36, 'miss': 369, 'blocked': 0, 'tries': 204, 'empty': 168}, audit 1/1 ",
   "18:05:30 request mvqzvm6prydbb.6: final sent (13/13); ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}",
   "18:07:00 request received: rid mvqzzbwr98q2c.6 43 keys",
-  "18:07:00 handle mvqzzbwr98q2c.6: first_chunk=True total=43"
+  "18:07:00 handle mvqzzbwr98q2c.6: first_chunk=True total=43",
+  "18:14:05 request mvqzzbwr98q2c.6: chunk of 43 keys done in 425s; paths {'http': 36, 'browser': 28, 'browser-crashed': 997}, browser waits 1025 max 615s sum 145736s; ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 36, 'miss': 412, 'blocked': 0, 'tries': 204, 'empty': 168}, audit 1/",
+  "18:14:05 request mvqzzbwr98q2c.6: final sent (43/43); ntfy publishes {'ok': 9, 'r429': 0, 'fail': 0}"
  ]
 }

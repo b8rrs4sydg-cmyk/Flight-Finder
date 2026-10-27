@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:15:20+00:00",
+ "at": "2026-10-27T13:16:51+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 641,
+ "fares_saved": 643,
  "log": [
   "10:36:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:53 http front door: ['https://ranging-simulation-story-phone.trycloudflare.com', 'https://29e22ca529d500.lhr.life']",

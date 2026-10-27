@@ -65,8 +65,9 @@ CACHE_TTL_S = 1800  # a key fetched in the last 30 min is answered from memory
 FLUSH_EVERY_S = 6
 HEARTBEAT_S = 20
 PERSIST_EVERY_S = 90
-QUEUE_EVERY_S = 15  # how often an idle crawler asks the Cloudflare look-up queue for work
-QUEUE_BATCH = 40
+QUEUE_EVERY_S = 60  # how often an idle crawler asks the Cloudflare look-up queue for work
+QUEUE_BATCH = 12  # small: queue work must never compete with, or throttle, the lookups a page is waiting for
+QUEUE_BACKOFF_MAX_S = 1800
 CONCURRENCY = 8
 HTTP_AUDIT = 0.1  # share of plain-HTTP prices that are also priced by the browser, to catch a drifting reader
 _UA = (
@@ -488,7 +489,9 @@ class Daemon:
 
         return any(r["active"] for r in self.requests.values())
 
-    async def queue_batch(self, keys: list[str], ctx, sem: PriorityGate) -> None:
+    async def queue_batch(self, keys: list[str], ctx, sem: PriorityGate) -> tuple[int, int]:
+        """Price ``keys``; returns (priced, failed)."""
+
         t0 = time.time()
         seq = -(10**9)  # the lowest priority of the gate: a page waiting on this crawler always goes first
         found: dict[str, dict] = {}
@@ -512,6 +515,7 @@ class Daemon:
             f"queue: {len(keys)} keys from the look-up queue in {time.time() - t0:.0f}s "
             f"({len(found)} priced, {len(nf)} no flight, {len(failed)} failed)"
         )
+        return len(found) + len(nf), len(failed)
 
     async def queue_worker(self, ctx, sem: PriorityGate, deadline: float) -> None:
         """Prices keys from the Cloudflare look-up queue, so a search goes on while the person's phone has the tab frozen.
@@ -521,8 +525,9 @@ class Daemon:
         """
 
         cloud = self.persist.cloud
+        pause = 0.0  # grows while Google answers nothing: hammering a throttled IP only keeps it throttled
         while time.time() < deadline - 120:
-            await asyncio.sleep(QUEUE_EVERY_S)
+            await asyncio.sleep(QUEUE_EVERY_S + pause)
             if self.busy():
                 continue
             try:
@@ -534,7 +539,12 @@ class Daemon:
                 keys = valid_keys(keys)[:QUEUE_BATCH]
                 if not keys:
                     continue
-                await self.queue_batch(keys, ctx, sem)
+                answered, failed = await self.queue_batch(keys, ctx, sem)
+                if failed and not answered:
+                    pause = min(QUEUE_BACKOFF_MAX_S, max(120.0, pause * 2))
+                    log(f"queue: nothing readable, next try in {QUEUE_EVERY_S + pause:.0f}s")
+                else:
+                    pause = 0.0
             except Exception as e:  # noqa: BLE001 - the queue must never take the crawler down
                 log(f"queue worker error: {e!r}")
 

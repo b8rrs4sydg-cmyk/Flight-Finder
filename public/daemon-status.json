@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T17:01:53+00:00",
+ "at": "2026-10-27T17:03:25+00:00",
  "publishes": {
   "ok": 54,
   "r429": 0,
@@ -79,6 +79,8 @@
   "17:00:37 request mvqwvercp53wt.0: chunk of 37 keys done in 1239s; paths {'http': 27, 'browser': 12, 'browser-crashed': 515}, browser waits 527 max 1239s sum 153507s; ntfy publishes {'ok': 54, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 176, 'blocked': 0, 'tries': 140, 'empty': 113}, audit ",
   "17:00:37 request mvqwwluc14pja.0: chunk of 37 keys done in 1185s; paths {'http': 27, 'browser': 12, 'browser-crashed': 515}, browser waits 527 max 1239s sum 153507s; ntfy publishes {'ok': 54, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 176, 'blocked': 0, 'tries': 140, 'empty': 113}, audit ",
   "17:00:37 request mvqwvercp53wt.0: final sent (37/37); ntfy publishes {'ok': 54, 'r429': 0, 'fail': 0}",
-  "17:00:37 request mvqwwluc14pja.0: final sent (37/37); ntfy publishes {'ok': 54, 'r429': 0, 'fail': 0}"
+  "17:00:37 request mvqwwluc14pja.0: final sent (37/37); ntfy publishes {'ok': 54, 'r429': 0, 'fail': 0}",
+  "17:02:19 request received: rid mvqxo72585gr1.0 38 keys",
+  "17:02:19 handle mvqxo72585gr1.0: first_chunk=True total=38"
  ]
 }

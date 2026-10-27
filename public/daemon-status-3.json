@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T15:49:51+00:00",
+ "at": "2026-10-27T15:51:38+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -18,6 +18,14 @@
   "15:47:17 rtc 2gp5nbq974: answered",
   "15:47:18 rtc 2gp5nbq974: data channel open",
   "15:47:20 request received: rid mvquznjhmn5fc.2 24 keys",
-  "15:47:20 handle mvquznjhmn5fc.2: first_chunk=True total=24"
+  "15:47:20 handle mvquznjhmn5fc.2: first_chunk=True total=24",
+  "15:49:53 git retry 0: b\"eads/main': is at 4b053ed4833fa564001fe899a7e5215bdc70c312 but expected ad46d2f942e82aee0a8d5d9ccdaa9af669d346a0)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "15:49:59 git retry 1: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "15:50:18 request mvquznjhmn5fc.2: chunk of 24 keys done in 179s; paths {'http': 20, 'browser-crashed': 32, 'browser': 1}, browser waits 33 max 214s sum 3441s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 21, 'blocked': 0, 'tries': 33, 'empty': 13}, audit 1/1 agree",
+  "15:50:19 request mvquznjhmn5fc.2: final sent (24/24); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "15:50:28 request received: rid mvqv3rcb80j09.2 33 keys",
+  "15:50:28 handle mvqv3rcb80j09.2: first_chunk=True total=33",
+  "15:51:03 queue: 12 keys from the look-up queue in 286s (0 priced, 0 no flight, 12 failed)",
+  "15:51:03 queue: nothing readable, next try in 180s"
  ]
 }

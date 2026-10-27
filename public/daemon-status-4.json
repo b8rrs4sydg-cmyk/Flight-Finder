@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T17:12:21+00:00",
+ "at": "2026-10-27T17:13:56+00:00",
  "publishes": {
   "ok": 7,
   "r429": 0,
@@ -99,6 +99,8 @@
   "17:08:58 request received: rid mvqxwdmzzyupj.4 10 keys",
   "17:08:58 handle mvqxwdmzzyupj.4: first_chunk=True total=10",
   "17:11:15 request mvqxwdmzzyupj.4: chunk of 10 keys done in 137s; paths {'http': 32, 'browser-crashed': 482, 'browser': 19}, browser waits 501 max 693s sum 64408s; ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 32, 'miss': 173, 'blocked': 0, 'tries': 119, 'empty': 87}, audit 2/2 a",
-  "17:11:16 request mvqxwdmzzyupj.4: final sent (10/10); ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}"
+  "17:11:16 request mvqxwdmzzyupj.4: final sent (10/10); ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}",
+  "17:13:39 request mvqxulzl11c67.4: chunk of 47 keys done in 381s; paths {'http': 32, 'browser-crashed': 505, 'browser': 19}, browser waits 524 max 693s sum 71209s; ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 32, 'miss': 173, 'blocked': 0, 'tries': 119, 'empty': 87}, audit 2/2 a",
+  "17:13:40 request mvqxulzl11c67.4: final sent (47/47); ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}"
  ]
 }

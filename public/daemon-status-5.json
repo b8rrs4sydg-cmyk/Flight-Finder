@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T16:29:57+00:00",
+ "at": "2026-10-27T16:31:30+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
@@ -67,6 +67,8 @@
   "16:24:32 request mvqw434vkscbq.5: final sent (10/10); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
   "16:25:14 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
   "16:29:34 request mvqwbdgv122sn.5: chunk of 51 keys done in 312s; paths {'http': 28, 'browser-crashed': 312, 'browser': 13}, browser waits 325 max 351s sum 40380s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 28, 'miss': 143, 'blocked': 0, 'tries': 85, 'empty': 57}, audit 2/2 ag",
-  "16:29:36 request mvqwbdgv122sn.5: final sent (51/51); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "16:29:36 request mvqwbdgv122sn.5: final sent (51/51); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "16:30:12 request received: rid mvqwivzavunhv.5 37 keys",
+  "16:30:12 handle mvqwivzavunhv.5: first_chunk=True total=37"
  ]
 }

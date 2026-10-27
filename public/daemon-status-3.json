@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T12:42:57+00:00",
+ "at": "2026-10-27T12:44:29+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 656,
+ "fares_saved": 660,
  "log": [
   "10:36:46 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:52 http front door: ['https://horses-living-lesson-vista.trycloudflare.com', 'https://c39a5185dc342a.lhr.life']",
@@ -44,6 +44,10 @@
   "12:39:30 request mvqo7ztizzemc.3: final sent (15/15); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "12:41:53 rtc oelc3ve6bh: answered",
   "12:42:05 request received: rid mvqod5shtgjgd.3 25 keys",
-  "12:42:05 handle mvqod5shtgjgd.3: first_chunk=True total=25"
+  "12:42:05 handle mvqod5shtgjgd.3: first_chunk=True total=25",
+  "12:43:53 rtc wnhpw66yjd: answered",
+  "12:43:56 rtc wnhpw66yjd: data channel open",
+  "12:43:56 request received: rid mvqoft66fhhyp.3 21 keys",
+  "12:43:56 handle mvqoft66fhhyp.3: first_chunk=True total=21"
  ]
 }

@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T17:40:53+00:00",
+ "at": "2026-10-27T17:42:25+00:00",
  "publishes": {
-  "ok": 8,
+  "ok": 9,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 745,
+ "fares_saved": 746,
  "log": [
   "15:51:45 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:51:52 http front door: ['https://pale-rand-vehicle-bonus.trycloudflare.com', 'https://fba5f17c92e5ff.lhr.life']",
@@ -113,6 +113,17 @@
   "17:35:46 request received: rid mvqyuua257zc4.8 15 keys",
   "17:35:46 handle mvqyuua257zc4.8: first_chunk=True total=15",
   "17:36:51 request received: rid mvqywi5w1yso5.8 43 keys",
-  "17:36:51 handle mvqywi5w1yso5.8: first_chunk=True total=43"
+  "17:36:51 handle mvqywi5w1yso5.8: first_chunk=True total=43",
+  "17:41:51 request mvqyq252bn9hr.7: chunk of 48 keys done in 605s; paths {'http': 27, 'browser': 20, 'browser-crashed': 681}, browser waits 701 max 641s sum 95393s; ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 237, 'blocked': 0, 'tries': 129, 'empty': 102}, audit 1/1 ",
+  "17:41:52 request mvqyq252bn9hr.7: final sent (48/48); ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}",
+  "17:41:55 request received: rid mvqz32f3p7xht.4 65 keys",
+  "17:41:55 handle mvqz32f3p7xht.4: first_chunk=True total=65",
+  "17:42:04 request mvqyoomfxwrv6.8: chunk of 13 keys done in 663s; paths {'http': 27, 'browser': 20, 'browser-crashed': 684}, browser waits 704 max 660s sum 97367s; ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 238, 'blocked': 0, 'tries': 131, 'empty': 104}, audit 1/1 ",
+  "17:42:04 request mvqyuua257zc4.8: chunk of 15 keys done in 378s; paths {'http': 27, 'browser': 20, 'browser-crashed': 684}, browser waits 704 max 660s sum 97367s; ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 238, 'blocked': 0, 'tries': 131, 'empty': 104}, audit 1/1 ",
+  "17:42:04 request mvqywi5w1yso5.8: chunk of 43 keys done in 313s; paths {'http': 27, 'browser': 20, 'browser-crashed': 684}, browser waits 704 max 660s sum 97367s; ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 238, 'blocked': 0, 'tries': 131, 'empty': 104}, audit 1/1 ",
+  "17:42:05 request mvqyoomfxwrv6.8: final sent (13/13); ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}",
+  "17:42:05 request mvqyuua257zc4.8: final sent (15/15); ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}",
+  "17:42:06 request mvqywi5w1yso5.8: final sent (43/43); ntfy publishes {'ok': 8, 'r429': 0, 'fail': 0}",
+  "17:42:16 rtc 3v6qzfyw1i: answered"
  ]
 }

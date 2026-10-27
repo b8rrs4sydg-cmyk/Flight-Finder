@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T17:44:41+00:00",
+ "at": "2026-10-27T17:56:43+00:00",
  "publishes": {
-  "ok": 7,
+  "ok": 8,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 742,
+ "fares_saved": 744,
  "log": [
   "15:45:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:45:10 http front door: ['https://control-automobile-cfr-fall.trycloudflare.com', 'https://073f039b4a1d74.lhr.life']",
@@ -136,6 +136,11 @@
   "17:42:28 request received: rid mvqz3glnmscu4.7 18 keys",
   "17:42:28 handle mvqz3glnmscu4.7: first_chunk=True total=18",
   "17:44:33 request mvqz3glnmscu4.7: chunk of 18 keys done in 125s; paths {'http': 32, 'browser-crashed': 720, 'browser': 34}, browser waits 754 max 642s sum 92166s; ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 32, 'miss': 247, 'blocked': 0, 'tries': 172, 'empty': 140}, audit 3/3 ",
-  "17:44:34 request mvqz3glnmscu4.7: final sent (18/18); ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}"
+  "17:44:34 request mvqz3glnmscu4.7: final sent (18/18); ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}",
+  "17:50:34 rtc ryaepltmyq: answered",
+  "17:50:35 rtc ryaepltmyq: data channel open",
+  "17:55:10 queue: 12 keys from the look-up queue in 105s (2 priced, 0 no flight, 10 failed)",
+  "17:55:44 request received: rid mvqzkvyeejvog.7 25 keys",
+  "17:55:44 handle mvqzkvyeejvog.7: first_chunk=True total=25"
  ]
 }

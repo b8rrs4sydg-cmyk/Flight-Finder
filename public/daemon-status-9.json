@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T18:11:28+00:00",
+ "at": "2026-10-27T18:13:01+00:00",
  "publishes": {
   "ok": 7,
   "r429": 0,
@@ -7,8 +7,6 @@
  },
  "fares_saved": 727,
  "log": [
-  "15:47:17 rtc fcnd2w692e: answered",
-  "15:47:18 rtc fcnd2w692e: data channel open",
   "15:47:20 request received: rid mvquznjhmn5fc.7 19 keys",
   "15:47:20 handle mvquznjhmn5fc.7: first_chunk=True total=19",
   "15:48:19 queue: 12 keys from the look-up queue in 117s (2 priced, 0 no flight, 10 failed)",
@@ -156,6 +154,8 @@
   "18:05:14 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
   "18:07:00 request received: rid mvqzzbwr98q2c.9 32 keys",
   "18:07:00 handle mvqzzbwr98q2c.9: first_chunk=True total=32",
-  "18:08:22 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\""
+  "18:08:22 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "18:12:47 request mvqzzbwr98q2c.9: chunk of 32 keys done in 347s; paths {'http': 34, 'browser-crashed': 987, 'browser': 18}, browser waits 1005 max 631s sum 141289s; ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 34, 'miss': 398, 'blocked': 0, 'tries': 219, 'empty': 185}, audit 4/",
+  "18:12:48 request mvqzzbwr98q2c.9: final sent (32/32); ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}"
  ]
 }

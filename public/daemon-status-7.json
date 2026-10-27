@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T12:59:51+00:00",
+ "at": "2026-10-27T13:04:23+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 658,
+ "fares_saved": 660,
  "log": [
   "10:36:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:36:52 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
@@ -71,6 +71,13 @@
   "12:56:56 request mvqorhkmxutbe.7: chunk of 40 keys done in 240s; paths {'http': 35, 'browser-crashed': 281, 'browser': 10}, browser waits 291 max 237s sum 22534s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 35, 'miss': 113, 'blocked': 0, 'tries': 138, 'empty': 103}, audit 0/0 ",
   "12:56:57 request mvqorhkmxutbe.7: final sent (40/40); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
   "12:57:28 request received: rid mvqoxbk0d4l79.7 28 keys",
-  "12:57:28 handle mvqoxbk0d4l79.7: first_chunk=True total=28"
+  "12:57:28 handle mvqoxbk0d4l79.7: first_chunk=True total=28",
+  "13:01:01 request mvqoxbk0d4l79.7: chunk of 28 keys done in 213s; paths {'http': 37, 'browser-crashed': 318, 'browser': 10}, browser waits 328 max 237s sum 26815s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 37, 'miss': 115, 'blocked': 0, 'tries': 144, 'empty': 107}, audit 0/0 ",
+  "13:01:01 request mvqoxbk0d4l79.7: final sent (28/28); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "13:01:02 queue: 12 keys from the look-up queue in 239s (2 priced, 0 no flight, 10 failed)",
+  "13:03:08 request received: rid mvqp4lfk36eet.7 35 keys",
+  "13:03:08 handle mvqp4lfk36eet.7: first_chunk=True total=35",
+  "13:03:45 queue: 12 keys from the look-up queue in 103s (0 priced, 0 no flight, 12 failed)",
+  "13:03:45 queue: nothing readable, next try in 180s"
  ]
 }

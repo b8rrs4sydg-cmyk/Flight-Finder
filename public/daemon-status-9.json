@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T09:29:13+00:00",
+ "at": "2026-10-27T09:39:54+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 574,
+ "fares_saved": 584,
  "log": [
   "09:27:31 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:27:36 git retry 0: b\"eads/main': is at eb513ff339900a7bd886ba303983b67c1aa9de4c but expected e609774c809bde0f9d6ccef833c3431fff607ca6)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
@@ -14,6 +14,15 @@
   "09:28:41 request received: rid httptest1793093320 20 keys",
   "09:28:41 handle httptest1793093320: first_chunk=True total=20",
   "09:28:45 request httptest1793093320: chunk of 20 keys done in 4s; paths {'http': 19, 'browser': 1}, browser waits 1 max 3s sum 3s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 24, 'empty': 5}, audit 0/0 agree",
-  "09:28:45 request httptest1793093320: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "09:28:45 request httptest1793093320: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "09:29:14 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "09:29:18 git retry 1: b\"eads/main': is at 215e1d826fa19f21693fe4cbec5dc198774edb63 but expected 536eee4677d6558bd1c549b1900113445af776c6)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "09:31:24 queue: 12 keys from the look-up queue in 101s (1 priced, 0 no flight, 11 failed)",
+  "09:34:00 queue: 12 keys from the look-up queue in 97s (0 priced, 0 no flight, 12 failed)",
+  "09:34:00 queue: nothing readable, next try in 180s",
+  "09:37:30 rtc vkofymm6re: answered",
+  "09:37:31 request received: rid mvqhrszvyiamt.9 14 keys",
+  "09:37:31 handle mvqhrszvyiamt.9: first_chunk=True total=14",
+  "09:37:57 queue: 12 keys from the look-up queue in 56s (5 priced, 0 no flight, 7 failed)"
  ]
 }

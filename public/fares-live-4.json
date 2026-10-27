@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T16:41:54+00:00",
+ "generated_at": "2026-10-27T16:43:26+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -10888,6 +10888,27 @@
     ]
    ]
   },
+  "rt|TPE|KMG|2026-12-11|2026-12-13": {
+   "price": 13339,
+   "by_airline": {
+    "China Southern": 13339,
+    "Korean Air": 25270,
+    "Shenzhen": 31907
+   },
+   "first": {
+    "dep": "2026-12-11T13:40:00+08:00",
+    "arr": "2026-12-11T21:00:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     13339
+    ]
+   ]
+  },
   "rt|TPE|KMG|2027-02-06|2027-02-15": {
    "price": 17399,
    "first": {
@@ -11918,6 +11939,49 @@
     [
      "2026-10-22",
      16394
+    ]
+   ]
+  },
+  "rt|TPE|WUH|2026-12-11|2026-12-13": {
+   "price": 10700,
+   "by_airline": {
+    "China Southern": 10700,
+    "Cathay Pacific": 11523,
+    "Hainan": 13601
+   },
+   "first": {
+    "dep": "2026-12-11T17:55:00+08:00",
+    "arr": "2026-12-11T20:15:00+08:00",
+    "stops": 0,
+    "airline": "China Southern"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     10700
+    ]
+   ]
+  },
+  "rt|TPE|WUH|2026-12-24|2026-12-27": {
+   "price": 11523,
+   "by_airline": {
+    "Cathay Pacific": 11523,
+    "China Southern": 12965,
+    "Shenzhen": 13160,
+    "China Eastern": 30878
+   },
+   "first": {
+    "dep": "2026-12-24T22:25:00+08:00",
+    "arr": "2026-12-25T10:35:00+08:00",
+    "stops": 1,
+    "airline": "Cathay Pacific"
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     11523
     ]
    ]
   },
@@ -14323,7 +14387,7 @@
   "rt|CTS|RMQ|2026-12-27|2027-06-09": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|CTS|TPE|2026-11-08|2027-06-09": {
    "status": "timeout",
@@ -14638,7 +14702,7 @@
   "rt|ICN|TPE|2026-12-27|2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|ICN|TPE|2027-02-14|2027-09-15": {
    "status": "timeout",
@@ -14788,7 +14852,7 @@
   "rt|KIX|TPE|2026-12-27|2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|KIX|TPE|2027-01-04|2027-02-27": {
    "status": "timeout",
@@ -14836,14 +14900,14 @@
    "n": 1
   },
   "rt|MMY|RMQ|2026-12-27|2027-06-09": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 2
+   "n": 1
   },
   "rt|MMY|TPE|2026-12-27|2027-09-15": {
-   "status": "timeout",
+   "status": "parse_error",
    "at": "2026-10-27",
-   "n": 2
+   "n": 1
   },
   "rt|MMY|TSA|2026-11-08|2027-02-10": {
    "status": "parse_error",
@@ -15735,11 +15799,6 @@
    "at": "2026-10-27",
    "n": 1
   },
-  "rt|TPE|KMG|2026-12-11|2026-12-13": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 2
-  },
   "rt|TPE|MMY|2026-12-24|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -15888,7 +15947,7 @@
   "rt|TPE|UEO|2026-12-24|2027-02-14": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|TPE|UEO|2026-12-24|2027-06-13": {
    "status": "timeout",
@@ -15939,16 +15998,6 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
-  },
-  "rt|TPE|WUH|2026-12-11|2026-12-13": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 2
-  },
-  "rt|TPE|WUH|2026-12-24|2026-12-27": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 2
   },
   "rt|TPE|XMN|2027-09-15|2027-09-19": {
    "status": "timeout",
@@ -16053,12 +16102,12 @@
   "rt|TSA|CTS|2026-12-24|2027-02-14": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|TSA|CTS|2026-12-24|2027-09-19": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|TSA|CTS|2027-02-10|2027-06-13": {
    "status": "parse_error",
@@ -16203,7 +16252,7 @@
   "rt|TSA|HND|2026-12-24|2027-02-14": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|TSA|ICN|2026-11-06|2026-12-13": {
    "status": "timeout",
@@ -16573,7 +16622,7 @@
   "rt|UEO|RMQ|2026-12-27|2027-06-09": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 2
+   "n": 3
   },
   "rt|UEO|RMQ|2027-05-02|2027-09-15": {
    "status": "timeout",

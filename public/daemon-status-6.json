@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T09:36:49+00:00",
+ "at": "2026-10-27T09:38:20+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 579,
+ "fares_saved": 603,
  "log": [
   "09:35:13 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:35:19 http front door: ['https://follow-telling-remained-currency.trycloudflare.com', 'https://6aa106d8859c07.lhr.life']",
@@ -13,6 +13,12 @@
   "09:36:23 request received: rid httptest1793093782 20 keys",
   "09:36:23 handle httptest1793093782: first_chunk=True total=20",
   "09:36:27 request httptest1793093782: chunk of 20 keys done in 4s; paths {'http': 26, 'browser': 1}, browser waits 1 max 4s sum 4s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 26, 'miss': 5, 'blocked': 0, 'tries': 41, 'empty': 15}, audit 1/1 agree",
-  "09:36:29 request httptest1793093782: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "09:36:29 request httptest1793093782: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "09:37:21 queue: 12 keys from the look-up queue in 63s (9 priced, 0 no flight, 3 failed)",
+  "09:37:30 rtc ywgjwglzb1: answered",
+  "09:37:31 request received: rid mvqhrszvyiamt.6 15 keys",
+  "09:37:31 handle mvqhrszvyiamt.6: first_chunk=True total=15",
+  "09:38:02 request mvqhrszvyiamt.6: chunk of 15 keys done in 32s; paths {'http': 36, 'browser': 8, 'browser-crashed': 3}, browser waits 11 max 61s sum 203s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 36, 'miss': 11, 'blocked': 0, 'tries': 51, 'empty': 15}, audit 4/4 agree",
+  "09:38:04 request mvqhrszvyiamt.6: final sent (15/15); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

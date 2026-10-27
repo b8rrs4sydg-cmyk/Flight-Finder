@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T15:17:41+00:00",
+ "generated_at": "2026-10-27T15:22:15+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -2582,6 +2582,28 @@
     ]
    ]
   },
+  "ow|CTS|TPE|2026-11-22": {
+   "price": 5809,
+   "first": {
+    "dep": "2026-11-22T14:00:00+09:00",
+    "arr": "2026-11-22T17:55:00+08:00",
+    "stops": 0,
+    "airline": "Thai AirAsia"
+   },
+   "by_airline": {
+    "Thai AirAsia": 5809,
+    "Tigerair Taiwan": 5924,
+    "Thai Vietjet Air": 5930,
+    "Scoot": 6021
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     5809
+    ]
+   ]
+  },
   "ow|DAD|RMQ|2027-06-13": {
    "price": 6721,
    "first": {
@@ -3038,20 +3060,30 @@
    ]
   },
   "ow|ISG|TPE|2026-12-13": {
-   "price": 10129,
+   "price": 12873,
    "first": {
     "dep": "2026-12-13T13:30:00+09:00",
     "arr": "2026-12-14T11:30:00+08:00",
     "stops": 1,
     "airline": "Jin Air"
    },
-   "at": "2026-10-22",
+   "by_airline": {
+    "Jin Air": 12873,
+    "JAL": 39165
+   },
+   "at": "2026-10-27",
    "hist": [
     [
      "2026-10-22",
      10129
+    ],
+    [
+     "2026-10-27",
+     12873
     ]
-   ]
+   ],
+   "prev": 10129,
+   "prev_at": "2026-10-22"
   },
   "ow|KIX|RMQ|2026-12-13": {
    "price": 6749,
@@ -3454,6 +3486,26 @@
     ]
    ]
   },
+  "ow|PUS|RMQ|2026-12-27": {
+   "price": 11220,
+   "first": {
+    "dep": "2026-12-27T16:10:00+09:00",
+    "arr": "2026-12-28T16:25:00+08:00",
+    "stops": 1,
+    "airline": "Korean Air"
+   },
+   "by_airline": {
+    "Korean Air": 11220,
+    "Hong Kong Express": 13835
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     11220
+    ]
+   ]
+  },
   "ow|PVG|TSA|2026-11-22": {
    "price": 6460,
    "first": {
@@ -3779,6 +3831,27 @@
     [
      "2026-10-22",
      10061
+    ]
+   ]
+  },
+  "ow|RMQ|PUS|2026-12-24": {
+   "price": 7735,
+   "first": {
+    "dep": "2026-12-24T08:00:00+08:00",
+    "arr": "2026-12-24T11:15:00+09:00",
+    "stops": 0,
+    "airline": "STARLUX Airlines"
+   },
+   "by_airline": {
+    "STARLUX Airlines": 7735,
+    "Hong Kong Express": 10146,
+    "Korean Air": 11887
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     7735
     ]
    ]
   },
@@ -4382,6 +4455,28 @@
     [
      "2026-10-22",
      5695
+    ]
+   ]
+  },
+  "ow|TPE|HAN|2026-12-24": {
+   "price": 6261,
+   "first": {
+    "dep": "2026-12-24T19:00:00+08:00",
+    "arr": "2026-12-24T20:55:00+07:00",
+    "stops": 0,
+    "airline": "Vietjet"
+   },
+   "by_airline": {
+    "Vietjet": 6261,
+    "Vietnam Airlines": 6503,
+    "Hong Kong Express": 6790,
+    "China Airlines": 6892
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     6261
     ]
    ]
   },
@@ -5122,13 +5217,25 @@
     "stops": 0,
     "airline": "Thai AirAsia"
    },
-   "at": "2026-10-23",
+   "by_airline": {
+    "Thai AirAsia": 3752,
+    "EVA Air": 8093,
+    "China Airlines": 10225,
+    "STARLUX Airlines": 14281
+   },
+   "at": "2026-10-27",
    "hist": [
     [
      "2026-10-23",
      3752
+    ],
+    [
+     "2026-10-27",
+     3752
     ]
-   ]
+   ],
+   "prev": 3752,
+   "prev_at": "2026-10-23"
   },
   "ow|TPE|PEK|2027-06-10": {
    "price": 8227,
@@ -15443,6 +15550,11 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "rt|TPE|BKK|2027-04-29|2027-05-02": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
   "rt|TPE|CAN|2026-12-24|2026-12-27": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -15636,7 +15748,7 @@
   "rt|TPE|MFM|2026-11-20|2026-11-22": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|TPE|MMY|2026-11-06|2026-12-27": {
    "status": "timeout",
@@ -15669,6 +15781,11 @@
    "n": 1
   },
   "rt|TPE|NGO|2026-11-20|2027-06-13": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "rt|TPE|NGO|2027-04-29|2027-05-02": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1

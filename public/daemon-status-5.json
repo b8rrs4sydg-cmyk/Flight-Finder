@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T09:21:38+00:00",
+ "at": "2026-10-27T09:23:10+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
@@ -24,6 +24,8 @@
   "09:19:00 request mvqgzdwozwkmu.5: final sent (9/9); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
   "09:19:51 rtc 7nxc1ezkp8: answered",
   "09:20:03 request received: rid mvqh5ch518p0u.5 21 keys",
-  "09:20:03 handle mvqh5ch518p0u.5: first_chunk=True total=21"
+  "09:20:03 handle mvqh5ch518p0u.5: first_chunk=True total=21",
+  "09:22:59 request mvqh5ch518p0u.5: chunk of 21 keys done in 176s; paths {'browser-crashed': 84, 'http': 1}, browser waits 84 max 505s sum 14951s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 1, 'miss': 72, 'blocked': 1, 'tries': 136, 'empty': 135}, audit 0/0 agree",
+  "09:23:00 request mvqh5ch518p0u.5: final sent (21/21); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T17:34:39+00:00",
+ "at": "2026-10-27T17:36:13+00:00",
  "publishes": {
-  "ok": 7,
+  "ok": 8,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 742,
+ "fares_saved": 745,
  "log": [
   "15:51:45 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:51:52 http front door: ['https://pale-rand-vehicle-bonus.trycloudflare.com', 'https://fba5f17c92e5ff.lhr.life']",
@@ -108,6 +108,9 @@
   "17:31:44 request mvqyiyocejtq6.7: chunk of 48 keys done in 327s; paths {'http': 27, 'browser': 12, 'browser-crashed': 589}, browser waits 601 max 391s sum 77520s; ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 235, 'blocked': 0, 'tries': 126, 'empty': 99}, audit 1/1 a",
   "17:31:45 request received: rid mvqyq252bn9hr.7 48 keys",
   "17:31:45 handle mvqyq252bn9hr.7: first_chunk=True total=48",
-  "17:31:46 request mvqyiyocejtq6.7: final sent (48/48); ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}"
+  "17:31:46 request mvqyiyocejtq6.7: final sent (48/48); ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}",
+  "17:35:37 rtc d3g8g8ficq: answered",
+  "17:35:46 request received: rid mvqyuua257zc4.8 15 keys",
+  "17:35:46 handle mvqyuua257zc4.8: first_chunk=True total=15"
  ]
 }

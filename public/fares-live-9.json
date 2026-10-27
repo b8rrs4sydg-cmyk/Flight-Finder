@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T09:18:33+00:00",
+ "generated_at": "2026-10-27T09:21:36+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -10489,17 +10489,27 @@
  ],
  "missing_v": 2,
  "status": {
-  "mc|FUK-TPE-2027-01-04|TPE-HND-2027-02-26": {
+  "mc|BKK-TPE-2027-01-02|TPE-HND-2027-02-04|HND-TPE-2027-02-15|TPE-HKG-2027-02-25": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
+  },
+  "mc|FUK-TPE-2027-01-04|TPE-HND-2027-02-26": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 2
   },
   "mc|HKG-TPE-2027-01-02|TPE-FUK-2027-02-04|FUK-TPE-2027-02-15|TPE-BKK-2027-02-26": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "mc|HKG-TPE-2027-01-02|TPE-NRT-2027-02-04|NRT-TPE-2027-02-15|TPE-BKK-2027-02-27": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 2
+  },
+  "mc|HKG-TPE-2027-01-02|TPE-NRT-2027-02-04|NRT-TPE-2027-02-15|TPE-ICN-2027-02-26": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
@@ -10507,9 +10517,14 @@
   "mc|ICN-TPE-2027-01-02|TPE-NGO-2027-02-04|NGO-TPE-2027-02-15|TPE-BKK-2027-02-27": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "mc|ICN-TPE-2027-01-02|TPE-NRT-2027-02-04|NRT-TPE-2027-02-15|TPE-BKK-2027-02-26": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 2
+  },
+  "mc|NRT-TPE-2027-02-15|TPE-FUK-2027-02-26": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
@@ -10517,17 +10532,17 @@
   "mc|TPE-FUK-2027-01-02|NRT-TPE-2027-02-28": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "mc|TPE-HND-2027-02-04|KIX-TPE-2027-03-01": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "mc|TPE-HND-2027-02-05|FUK-TPE-2027-02-28": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "mc|TPE-KIX-2027-02-04|HND-TPE-2027-02-28": {
    "status": "timeout",
@@ -10537,12 +10552,12 @@
   "mc|TPE-NRT-2026-12-31|NGO-TPE-2027-02-14": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "mc|TPE-NRT-2027-02-05|FUK-TPE-2027-03-01": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "ow|TPE|BKK|2027-03-06": {
    "status": "parse_error",
@@ -10635,6 +10650,11 @@
    "n": 1
   },
   "ow|TPE|ICN|2027-03-12": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "rt|RMQ|UEO|2026-11-06|2026-11-08": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1

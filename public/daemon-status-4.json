@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T13:07:42+00:00",
+ "at": "2026-10-27T13:09:14+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
@@ -72,6 +72,12 @@
   "13:01:33 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
   "13:01:35 request mvqoxbk0d4l79.4: final sent (40/40); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
   "13:03:07 request received: rid mvqp4lfk36eet.4 46 keys",
-  "13:03:07 handle mvqp4lfk36eet.4: first_chunk=True total=46"
+  "13:03:07 handle mvqp4lfk36eet.4: first_chunk=True total=46",
+  "13:08:01 request mvqp4lfk36eet.4: chunk of 46 keys done in 293s; paths {'http': 41, 'browser': 5, 'browser-crashed': 340}, browser waits 345 max 329s sum 34459s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 41, 'miss': 126, 'blocked': 0, 'tries': 158, 'empty': 117}, audit 1/1 a",
+  "13:08:02 request mvqp4lfk36eet.4: final sent (46/46); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "13:08:45 queue: 12 keys from the look-up queue in 379s (0 priced, 0 no flight, 12 failed)",
+  "13:08:45 queue: nothing readable, next try in 1020s",
+  "13:08:55 request received: rid mvqpc1ue1t9g7.4 37 keys",
+  "13:08:55 handle mvqpc1ue1t9g7.4: first_chunk=True total=37"
  ]
 }

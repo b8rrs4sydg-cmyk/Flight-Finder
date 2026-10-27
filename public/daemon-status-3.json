@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T09:29:12+00:00",
+ "at": "2026-10-27T09:38:13+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 585,
+ "fares_saved": 589,
  "log": [
   "09:27:37 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:27:42 http front door: ['https://vast-fellowship-bee-payday.trycloudflare.com', 'https://04ef8ae85b7853.lhr.life']",
@@ -13,6 +13,16 @@
   "09:28:45 request received: rid httptest1793093324 20 keys",
   "09:28:45 handle httptest1793093324: first_chunk=True total=20",
   "09:28:58 request httptest1793093324: chunk of 20 keys done in 13s; paths {'http': 21}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 8, 'blocked': 0, 'tries': 32, 'empty': 11}, audit 0/0 agree",
-  "09:28:58 request httptest1793093324: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "09:28:58 request httptest1793093324: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "09:30:33 queue: 12 keys from the look-up queue in 111s (3 priced, 0 no flight, 9 failed)",
+  "09:33:10 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "09:33:10 queue: nothing readable, next try in 180s",
+  "09:37:30 rtc fa8wcgebfu: answered",
+  "09:37:30 request received: rid mvqhrszvyiamt.3 1 keys",
+  "09:37:30 handle mvqhrszvyiamt.3: first_chunk=True total=1",
+  "09:37:43 queue: 12 keys from the look-up queue in 93s (0 priced, 0 no flight, 12 failed)",
+  "09:37:43 queue: nothing readable, next try in 300s",
+  "09:37:43 request mvqhrszvyiamt.3: chunk of 1 keys done in 13s; paths {'http': 23, 'browser-crashed': 33, 'browser': 1}, browser waits 34 max 96s sum 2033s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 23, 'miss': 10, 'blocked': 0, 'tries': 34, 'empty': 11}, audit 4/4 agree",
+  "09:37:44 request mvqhrszvyiamt.3: final sent (1/1); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

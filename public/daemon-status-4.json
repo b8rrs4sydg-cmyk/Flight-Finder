@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T18:13:51+00:00",
+ "at": "2026-10-27T18:15:25+00:00",
  "publishes": {
   "ok": 12,
   "r429": 0,
@@ -7,8 +7,6 @@
  },
  "fares_saved": 696,
  "log": [
-  "15:44:54 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:44:59 git retry 0: b\"eads/main': is at 75e6b4aa7086f4a3581513920b46fe4e99b17e62 but expected c8db0dfd0afb11eba5279f71e6acd6e7eb4f7305)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "15:45:06 git retry 1: b\"eads/main': is at 1e95bd866f232bbdb003444944dc51aae22aca15 but expected d85bff27ec3fe733964312c9dc06833c554649b3)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "15:45:12 http front door: ['https://assure-continent-magic-equations.trycloudflare.com', 'https://97b5f8a2c4b579.lhr.life']",
   "15:45:12 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
@@ -156,6 +154,8 @@
   "18:07:00 rtc 3mz5ic98bq: answered",
   "18:07:01 rtc 3mz5ic98bq: data channel open",
   "18:07:20 request received: rid mvqzzbwr98q2c.4 39 keys",
-  "18:07:20 handle mvqzzbwr98q2c.4: first_chunk=True total=39"
+  "18:07:20 handle mvqzzbwr98q2c.4: first_chunk=True total=39",
+  "18:14:40 request mvqzzbwr98q2c.4: chunk of 39 keys done in 440s; paths {'http': 33, 'browser-crashed': 844, 'browser': 27}, browser waits 871 max 693s sum 122223s; ntfy publishes {'ok': 12, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 33, 'miss': 334, 'blocked': 0, 'tries': 167, 'empty': 134}, audit 2/",
+  "18:14:42 request mvqzzbwr98q2c.4: final sent (39/39); ntfy publishes {'ok': 12, 'r429': 0, 'fail': 0}"
  ]
 }

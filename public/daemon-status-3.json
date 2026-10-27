@@ -1,17 +1,22 @@
 {
- "at": "2026-10-27T09:14:22+00:00",
+ "at": "2026-10-27T09:15:54+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 549,
+ "fares_saved": 555,
  "log": [
   "09:11:09 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:11:14 git retry 0: b\"eads/main': is at 605f1252d329e8b6972c27b6692f058c0cbbabf4 but expected c6182e0d398b54420403e0409eadddb93ff1f654)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "09:11:21 http front door: ['https://river-venture-hayes-leonard.trycloudflare.com', 'https://954a93b39ff548.lhr.life']",
   "09:11:21 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "09:12:18 request received: rid httptest1793092337 20 keys",
-  "09:12:18 handle httptest1793092337: first_chunk=True total=20"
+  "09:12:18 handle httptest1793092337: first_chunk=True total=20",
+  "09:15:02 request httptest1793092337: chunk of 20 keys done in 164s; paths {'http': 1, 'browser-crashed': 29}, browser waits 29 max 204s sum 2821s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 1, 'miss': 39, 'blocked': 0, 'tries': 80, 'empty': 79}, audit 0/0 agree",
+  "09:15:02 request httptest1793092337: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "09:15:24 rtc w585dgl90j: answered",
+  "09:15:25 request received: rid mvqgzdwozwkmu.3 12 keys",
+  "09:15:25 handle mvqgzdwozwkmu.3: first_chunk=True total=12"
  ]
 }

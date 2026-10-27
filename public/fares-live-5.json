@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T15:55:37+00:00",
+ "generated_at": "2026-10-27T15:57:09+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -13955,7 +13955,7 @@
   "rt|BKK|TSA|2027-02-14|2027-06-09": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|CJU|RMQ|2027-05-02|2027-06-09": {
    "status": "timeout",
@@ -14150,7 +14150,7 @@
   "rt|DMK|TSA|2027-02-14|2027-06-09": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|DMK|TSA|2027-05-02|2027-09-15": {
    "status": "timeout",
@@ -14243,7 +14243,7 @@
    "n": 1
   },
   "rt|GMP|TSA|2027-02-14|2027-06-09": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -15280,7 +15280,7 @@
   "rt|TPE|DMK|2027-02-10|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|TPE|FUK|2026-11-06|2027-09-19": {
    "status": "timeout",
@@ -15798,7 +15798,7 @@
    "n": 3
   },
   "rt|TSA|FUK|2027-02-10|2027-06-13": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -15958,7 +15958,7 @@
    "n": 1
   },
   "rt|TSA|ITM|2027-02-10|2027-06-13": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
@@ -16260,7 +16260,7 @@
   "rt|TSA|USM|2027-02-10|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
+   "n": 2
   },
   "rt|TSA|USM|2027-04-29|2027-05-02": {
    "status": "timeout",
@@ -16588,6 +16588,11 @@
    "n": 2
   },
   "rt|UTP|TSA|2026-12-27|2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "rt|UTP|TSA|2027-02-14|2027-06-09": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1

@@ -1,7 +1,7 @@
 {
- "at": "2026-10-27T09:17:08+00:00",
+ "at": "2026-10-27T09:18:40+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
@@ -16,6 +16,9 @@
   "09:15:02 request httptest1793092326: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
   "09:15:24 rtc lc0s5bf9n1: answered",
   "09:15:25 request received: rid mvqgzdwozwkmu.1 17 keys",
-  "09:15:25 handle mvqgzdwozwkmu.1: first_chunk=True total=17"
+  "09:15:25 handle mvqgzdwozwkmu.1: first_chunk=True total=17",
+  "09:18:26 rtc 438m3h02zq: answered",
+  "09:18:28 request received: rid mvqh3agld7nxk.0 19 keys",
+  "09:18:28 handle mvqh3agld7nxk.0: first_chunk=True total=19"
  ]
 }

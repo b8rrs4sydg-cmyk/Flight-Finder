@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T09:29:26+00:00",
+ "at": "2026-10-27T09:38:28+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 543,
+ "fares_saved": 597,
  "log": [
   "09:27:51 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:27:56 http front door: ['https://efficient-sue-descending-demonstration.trycloudflare.com', 'https://dcb3b2d0dd4f8e.lhr.life']",
@@ -13,6 +13,14 @@
   "09:29:01 request received: rid httptest1793093341 20 keys",
   "09:29:01 handle httptest1793093341: first_chunk=True total=20",
   "09:29:07 request httptest1793093341: chunk of 20 keys done in 6s; paths {'http': 22, 'browser': 3}, browser waits 3 max 6s sum 16s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 10, 'blocked': 0, 'tries': 42, 'empty': 20}, audit 1/1 agree",
-  "09:29:09 request httptest1793093341: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "09:29:09 request httptest1793093341: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "09:29:58 queue: 12 keys from the look-up queue in 62s (8 priced, 0 no flight, 4 failed)",
+  "09:31:55 queue: 12 keys from the look-up queue in 56s (5 priced, 0 no flight, 7 failed)",
+  "09:33:57 queue: 12 keys from the look-up queue in 62s (4 priced, 0 no flight, 8 failed)",
+  "09:36:28 queue: 12 keys from the look-up queue in 91s (3 priced, 0 no flight, 9 failed)",
+  "09:37:30 rtc ox0etavx0b: answered",
+  "09:37:31 request received: rid mvqhrszvyiamt.8 26 keys",
+  "09:37:31 handle mvqhrszvyiamt.8: first_chunk=True total=26",
+  "09:38:12 queue: 12 keys from the look-up queue in 44s (11 priced, 0 no flight, 1 failed)"
  ]
 }

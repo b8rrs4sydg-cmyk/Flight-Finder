@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T17:20:17+00:00",
+ "at": "2026-10-27T17:21:49+00:00",
  "publishes": {
   "ok": 55,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 625,
+ "fares_saved": 626,
  "log": [
   "15:49:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:49:52 http front door: ['https://libs-pace-deadline-helena.trycloudflare.com', 'https://8150f881693981.lhr.life']",
@@ -98,6 +98,8 @@
   "17:14:20 request received: rid mvqy3nee79inf.0 40 keys",
   "17:14:20 handle mvqy3nee79inf.0: first_chunk=True total=40",
   "17:19:13 request mvqy3nee79inf.0: chunk of 40 keys done in 293s; paths {'http': 27, 'browser': 15, 'browser-crashed': 645}, browser waits 660 max 1239s sum 172421s; ntfy publishes {'ok': 55, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 222, 'blocked': 6, 'tries': 149, 'empty': 122}, audit 3",
-  "17:19:15 request mvqy3nee79inf.0: final sent (40/40); ntfy publishes {'ok': 55, 'r429': 0, 'fail': 0}"
+  "17:19:15 request mvqy3nee79inf.0: final sent (40/40); ntfy publishes {'ok': 55, 'r429': 0, 'fail': 0}",
+  "17:20:37 request received: rid mvqybocdc92co.0 40 keys",
+  "17:20:37 handle mvqybocdc92co.0: first_chunk=True total=40"
  ]
 }

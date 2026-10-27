@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T13:20:12+00:00",
+ "at": "2026-10-27T13:32:14+00:00",
  "publishes": {
-  "ok": 3,
+  "ok": 4,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 672,
+ "fares_saved": 674,
  "log": [
   "10:46:17 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:46:23 http front door: ['https://zoo-covering-patch-practical.trycloudflare.com', 'https://2e933bc542d940.lhr.life']",
@@ -82,6 +82,12 @@
   "13:14:46 queue: 12 keys from the look-up queue in 382s (0 priced, 0 no flight, 12 failed)",
   "13:14:46 queue: nothing readable, next try in 540s",
   "13:18:54 request mvqpjkdpw11v1.8: chunk of 40 keys done in 248s; paths {'http': 49, 'browser': 9, 'browser-crashed': 434}, browser waits 443 max 382s sum 50609s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 49, 'miss': 198, 'blocked': 0, 'tries': 239, 'empty': 190}, audit 2/2 a",
-  "13:18:55 request mvqpjkdpw11v1.8: final sent (40/40); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "13:18:55 request mvqpjkdpw11v1.8: final sent (40/40); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "13:25:22 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "13:25:22 queue: nothing readable, next try in 1020s",
+  "13:25:28 rtc 8ma498j580: answered",
+  "13:25:29 rtc 8ma498j580: data channel open",
+  "13:31:10 request received: rid mvqq4nlectjow.8 34 keys",
+  "13:31:10 handle mvqq4nlectjow.8: first_chunk=True total=34"
  ]
 }

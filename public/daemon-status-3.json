@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T09:38:13+00:00",
+ "at": "2026-10-27T09:48:45+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 589,
+ "fares_saved": 608,
  "log": [
   "09:27:37 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:27:42 http front door: ['https://vast-fellowship-bee-payday.trycloudflare.com', 'https://04ef8ae85b7853.lhr.life']",
@@ -23,6 +23,11 @@
   "09:37:43 queue: 12 keys from the look-up queue in 93s (0 priced, 0 no flight, 12 failed)",
   "09:37:43 queue: nothing readable, next try in 300s",
   "09:37:43 request mvqhrszvyiamt.3: chunk of 1 keys done in 13s; paths {'http': 23, 'browser-crashed': 33, 'browser': 1}, browser waits 34 max 96s sum 2033s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 23, 'miss': 10, 'blocked': 0, 'tries': 34, 'empty': 11}, audit 4/4 agree",
-  "09:37:44 request mvqhrszvyiamt.3: final sent (1/1); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "09:37:44 request mvqhrszvyiamt.3: final sent (1/1); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "09:44:28 queue: 12 keys from the look-up queue in 105s (7 priced, 0 no flight, 5 failed)",
+  "09:47:07 queue: 12 keys from the look-up queue in 99s (10 priced, 0 no flight, 2 failed)",
+  "09:47:22 rtc j1atko9vpk: answered",
+  "09:47:37 request received: rid mvqi4s7ppgts0.3 25 keys",
+  "09:47:37 handle mvqi4s7ppgts0.3: first_chunk=True total=25"
  ]
 }

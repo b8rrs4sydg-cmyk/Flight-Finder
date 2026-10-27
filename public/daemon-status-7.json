@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T17:30:49+00:00",
+ "at": "2026-10-27T17:32:22+00:00",
  "publishes": {
-  "ok": 4,
+  "ok": 5,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 736,
+ "fares_saved": 739,
  "log": [
   "15:45:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:45:10 http front door: ['https://control-automobile-cfr-fall.trycloudflare.com', 'https://073f039b4a1d74.lhr.life']",
@@ -111,6 +111,13 @@
   "17:24:41 request mvqybocdc92co.6: chunk of 38 keys done in 245s; paths {'http': 30, 'browser-crashed': 580, 'browser': 19}, browser waits 599 max 642s sum 73366s; ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 30, 'miss': 201, 'blocked': 0, 'tries': 137, 'empty': 107}, audit 3/3 ",
   "17:24:43 request mvqybocdc92co.6: final sent (38/38); ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}",
   "17:26:17 request received: rid mvqyiyocejtq6.6 45 keys",
-  "17:26:17 handle mvqyiyocejtq6.6: first_chunk=True total=45"
+  "17:26:17 handle mvqyiyocejtq6.6: first_chunk=True total=45",
+  "17:30:50 rtc ds8zvg4d9l: answered",
+  "17:31:01 request received: rid mvqyoomfxwrv6.7 19 keys",
+  "17:31:01 handle mvqyoomfxwrv6.7: first_chunk=True total=19",
+  "17:31:07 request mvqyiyocejtq6.6: chunk of 45 keys done in 291s; paths {'http': 30, 'browser-crashed': 614, 'browser': 30}, browser waits 644 max 642s sum 79426s; ntfy publishes {'ok': 5, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 30, 'miss': 207, 'blocked': 0, 'tries': 149, 'empty': 119}, audit 3/3 ",
+  "17:31:08 request mvqyiyocejtq6.6: final sent (45/45); ntfy publishes {'ok': 5, 'r429': 0, 'fail': 0}",
+  "17:31:45 request received: rid mvqyq252bn9hr.6 35 keys",
+  "17:31:45 handle mvqyq252bn9hr.6: first_chunk=True total=35"
  ]
 }

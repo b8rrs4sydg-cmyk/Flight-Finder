@@ -3369,10 +3369,48 @@ function groupPlans(plans, mode) {
   return { plans: groups.flatMap(g => g.plans), groups };
 }
 
+/* Flat list: a card whose HTML did not change is kept as it is (only its rank and checkbox are refreshed) and only new or
+ * changed cards are parsed. A refresh usually changes a few prices, so most of the hundreds of cards are left alone. */
+const planId = p => `${p.strategy}|${p.tickets.map(t => t.offer_id).join('>')}|${p.window_label || ''}`;
+function patchFlatList(list, plans) {
+  if (list._mode !== 'flat' || !list._cards) { list.innerHTML = ''; list._cards = new Map(); list._mode = 'flat'; }
+  const old = list._cards;
+  const items = plans.map((p, i) => {
+    const rank = i + 1, html = renderPlan(p, rank);
+    return { p, rank, html, id: planId(p), sig: html.replace(`選擇方案 ${rank} 比較`, '選擇方案 @ 比較').replace(`>#${rank}</span>`, '>#@</span>') };
+  });
+  const parse = [];
+  for (const it of items) {
+    const prev = old.get(it.id);
+    if (prev && prev.sig === it.sig && !prev.node.querySelector('[data-refresh]:disabled') && prev.node.isConnected) { old.delete(it.id); it.node = prev.node; it.reused = true; }
+    else parse.push(it);
+  }
+  if (parse.length) {
+    const tpl = document.createElement('template');
+    tpl.innerHTML = parse.map(it => it.html).join('');
+    parse.forEach((it, j) => { it.node = tpl.content.children[j]; });
+  }
+  for (const gone of old.values()) gone.node.remove();   // cards that no longer exist (removed first, or they would block the placing below)
+  let ref = list.firstElementChild;
+  for (const it of items) {
+    if (it.node === ref) ref = ref.nextElementSibling; else list.insertBefore(it.node, ref);
+    if (it.reused) {   // same card, maybe a new place: refresh what depends on the position
+      const key = `${it.p.strategy}-${it.rank - 1}-${it.p.tickets[0]?.offer_id || ''}`;
+      const checked = state.selected.has(key);
+      const rankEl = it.node.querySelector('.rank'), box = it.node.querySelector('input[type=checkbox]');
+      if (rankEl) rankEl.textContent = `#${it.rank}`;
+      if (box) { box.setAttribute('aria-label', `選擇方案 ${it.rank} 比較`); box.checked = checked; box.disabled = !checked && state.selected.size >= 4; }
+    }
+  }
+  while (ref) { const next = ref.nextElementSibling; ref.remove(); ref = next; }   // anything left over
+  list._cards = new Map(items.map(it => [it.id, { node: it.node, sig: it.sig }]));
+}
+
 function renderPlanList(plans, groups) {
   const list = document.getElementById('plan-list');
-  if (!plans.length) { list.innerHTML = ''; return; }
+  if (!plans.length) { list.innerHTML = ''; list._cards = null; list._mode = ''; return; }
   if (groups) {
+    list._cards = null; list._mode = 'grouped';
     let rank = 0;
     list.innerHTML = groups.map(g => {
       const folded = state.collapsed.has(g.key);
@@ -3395,7 +3433,7 @@ function renderPlanList(plans, groups) {
       h.setAttribute('aria-expanded', String(!folded));
     }));
   } else {
-    list.innerHTML = plans.map((p, i) => renderPlan(p, i+1)).join('');
+    patchFlatList(list, plans);
   }
 
   // Interactions are delegated: one listener of each kind on the list (wired once) instead of eight per card, which

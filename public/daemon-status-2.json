@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T09:42:42+00:00",
+ "at": "2026-10-27T09:48:44+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 596,
+ "fares_saved": 600,
  "log": [
   "09:27:31 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "09:27:36 http front door: ['https://percent-valuation-mentor-driver.trycloudflare.com', 'https://47d16c63dc9272.lhr.life']",
@@ -23,6 +23,12 @@
   "09:37:30 request received: rid mvqhrszvyiamt.2 23 keys",
   "09:37:30 handle mvqhrszvyiamt.2: first_chunk=True total=23",
   "09:41:44 request mvqhrszvyiamt.2: chunk of 23 keys done in 254s; paths {'http': 23, 'browser': 8, 'browser-crashed': 48}, browser waits 56 max 208s sum 4268s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 23, 'miss': 32, 'blocked': 0, 'tries': 41, 'empty': 18}, audit 2/2 agree",
-  "09:41:44 request mvqhrszvyiamt.2: final sent (23/23); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "09:41:44 request mvqhrszvyiamt.2: final sent (23/23); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "09:44:14 queue: 12 keys from the look-up queue in 108s (2 priced, 0 no flight, 10 failed)",
+  "09:47:21 rtc rzh3t7ci2o: answered",
+  "09:47:25 queue: 12 keys from the look-up queue in 131s (0 priced, 0 no flight, 12 failed)",
+  "09:47:25 queue: nothing readable, next try in 180s",
+  "09:47:37 request received: rid mvqi4s7ppgts0.2 19 keys",
+  "09:47:37 handle mvqi4s7ppgts0.2: first_chunk=True total=19"
  ]
 }

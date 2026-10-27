@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T18:02:08+00:00",
+ "at": "2026-10-27T18:03:40+00:00",
  "publishes": {
   "ok": 7,
   "r429": 0,
@@ -7,7 +7,6 @@
  },
  "fares_saved": 725,
  "log": [
-  "15:44:59 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:45:06 git retry 0: b\"eads/main': is at 1e95bd866f232bbdb003444944dc51aae22aca15 but expected d85bff27ec3fe733964312c9dc06833c554649b3)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "15:45:12 git retry 1: b\"eads/main': is at 8b25742a001261a10620927b4d73a273c89dd472 but expected 93e969ea5ccf6dffc1d1d9036c81988f4536d44d)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "15:45:22 http front door: ['https://novel-div-anticipated-correlation.trycloudflare.com', 'https://1d04301e2b44b6.lhr.life']",
@@ -155,6 +154,8 @@
   "17:58:40 request mvqzkvyeejvog.9: chunk of 19 keys done in 177s; paths {'http': 32, 'browser-crashed': 929, 'browser': 17}, browser waits 946 max 631s sum 133302s; ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 32, 'miss': 366, 'blocked': 0, 'tries': 213, 'empty': 181}, audit 4/4",
   "17:58:41 request mvqzkvyeejvog.9: final sent (19/19); ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}",
   "17:59:51 request received: rid mvqzq6wwo4zpl.8 24 keys",
-  "17:59:51 handle mvqzq6wwo4zpl.8: first_chunk=True total=24"
+  "17:59:51 handle mvqzq6wwo4zpl.8: first_chunk=True total=24",
+  "18:02:54 request mvqzq6wwo4zpl.8: chunk of 24 keys done in 183s; paths {'http': 32, 'browser-crashed': 952, 'browser': 18}, browser waits 970 max 631s sum 135797s; ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 32, 'miss': 366, 'blocked': 0, 'tries': 213, 'empty': 181}, audit 4/4",
+  "18:02:55 request mvqzq6wwo4zpl.8: final sent (24/24); ntfy publishes {'ok': 7, 'r429': 0, 'fail': 0}"
  ]
 }

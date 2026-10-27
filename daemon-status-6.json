@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T16:00:26+00:00",
+ "at": "2026-10-27T16:11:10+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 735,
+ "fares_saved": 736,
  "log": [
   "15:44:49 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:44:55 git retry 0: b\"eads/main': is at c8db0dfd0afb11eba5279f71e6acd6e7eb4f7305 but expected 68562e965696e64bfd23a72fa698c4c3788cfaf4)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
@@ -30,6 +30,19 @@
   "15:55:40 request received: rid mvqvagbbc44nv.5 43 keys",
   "15:55:40 handle mvqvagbbc44nv.5: first_chunk=True total=43",
   "15:56:30 queue: 12 keys from the look-up queue in 107s (0 priced, 0 no flight, 12 failed)",
-  "15:56:30 queue: nothing readable, next try in 180s"
+  "15:56:30 queue: nothing readable, next try in 180s",
+  "16:00:57 request mvqvagbbc44nv.5: chunk of 43 keys done in 317s; paths {'http': 24, 'browser': 2, 'browser-crashed': 124}, browser waits 126 max 317s sum 16390s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 24, 'miss': 21, 'blocked': 0, 'tries': 44, 'empty': 20}, audit 1/1 agre",
+  "16:00:58 request mvqvagbbc44nv.5: final sent (43/43); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "16:01:17 request received: rid mvqvhpfhjiidt.6 25 keys",
+  "16:01:17 handle mvqvhpfhjiidt.6: first_chunk=True total=25",
+  "16:04:02 rtc p5dzsnju9a: answered",
+  "16:04:03 request received: rid mvqvkvlxlbrh8.6 9 keys",
+  "16:04:03 handle mvqvkvlxlbrh8.6: first_chunk=True total=9",
+  "16:04:08 request mvqvhpfhjiidt.6: chunk of 25 keys done in 171s; paths {'http': 24, 'browser': 3, 'browser-crashed': 148}, browser waits 151 max 317s sum 18403s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 24, 'miss': 46, 'blocked': 0, 'tries': 54, 'empty': 30}, audit 1/1 agre",
+  "16:04:10 request mvqvhpfhjiidt.6: final sent (25/25); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "16:07:01 request mvqvkvlxlbrh8.6: chunk of 9 keys done in 178s; paths {'http': 24, 'browser': 3, 'browser-crashed': 157}, browser waits 160 max 317s sum 19213s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 24, 'miss': 55, 'blocked': 0, 'tries': 54, 'empty': 30}, audit 1/1 agree",
+  "16:07:02 request mvqvkvlxlbrh8.6: final sent (9/9); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "16:08:41 request received: rid mvqvr7r9ryfu2.5 27 keys",
+  "16:08:41 handle mvqvr7r9ryfu2.5: first_chunk=True total=27"
  ]
 }

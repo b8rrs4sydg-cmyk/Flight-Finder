@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T16:00:48+00:00",
+ "at": "2026-10-27T16:12:04+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 772,
+ "fares_saved": 778,
  "log": [
   "15:44:58 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:45:05 http front door: ['https://past-provider-tones-grocery.trycloudflare.com', 'https://40d23ee65f59af.lhr.life']",
@@ -32,6 +32,19 @@
   "15:55:40 handle mvqvagbbc44nv.1: first_chunk=True total=38",
   "15:57:36 git retry 0: b\"eads/main': is at 820602e866205269ac5b26cdc696a7d7b24c61f6 but expected 59444058982b5445e041f05f3f4c4e8a78a82a34)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "15:59:52 request mvqvagbbc44nv.1: chunk of 38 keys done in 252s; paths {'http': 22, 'browser-crashed': 105, 'browser': 10}, browser waits 115 max 303s sum 15831s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 21, 'blocked': 0, 'tries': 48, 'empty': 26}, audit 4/4 agr",
-  "15:59:53 request mvqvagbbc44nv.1: final sent (38/38); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "15:59:53 request mvqvagbbc44nv.1: final sent (38/38); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "16:01:17 request received: rid mvqvhpfhjiidt.2 40 keys",
+  "16:01:17 handle mvqvhpfhjiidt.2: first_chunk=True total=40",
+  "16:04:02 request received: rid mvqvkvlxlbrh8.2 20 keys",
+  "16:04:02 handle mvqvkvlxlbrh8.2: first_chunk=True total=20",
+  "16:07:02 git retry 0: b\"eads/main': is at 3d5c2a8605497ecabb7d45dda98ceaabd60da683 but expected 611f80cded1fd3f106822cf08639962cbb57ed6d)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "16:07:10 git retry 1: b\"eads/main': is at c30ca6e143df88e8e52af248741fefb6b1688b5c but expected 3d5c2a8605497ecabb7d45dda98ceaabd60da683)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "16:07:18 git retry 2: b\"eads/main': is at 06d50538f9fae961b9b56621893676c14dfdbfc6 but expected c30ca6e143df88e8e52af248741fefb6b1688b5c)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "16:08:39 request mvqvhpfhjiidt.2: chunk of 40 keys done in 443s; paths {'http': 22, 'browser-crashed': 158, 'browser': 15}, browser waits 173 max 383s sum 24042s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 81, 'blocked': 0, 'tries': 75, 'empty': 53}, audit 4/4 agr",
+  "16:08:41 request mvqvhpfhjiidt.2: final sent (40/40); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "16:08:41 request received: rid mvqvr7r9ryfu2.2 43 keys",
+  "16:08:41 handle mvqvr7r9ryfu2.2: first_chunk=True total=43",
+  "16:08:48 request mvqvkvlxlbrh8.2: chunk of 20 keys done in 286s; paths {'http': 22, 'browser-crashed': 160, 'browser': 15}, browser waits 175 max 383s sum 24509s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 81, 'blocked': 0, 'tries': 75, 'empty': 53}, audit 4/4 agr",
+  "16:08:49 request mvqvkvlxlbrh8.2: final sent (20/20); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

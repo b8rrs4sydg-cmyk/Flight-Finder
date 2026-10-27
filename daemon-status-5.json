@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T16:00:14+00:00",
+ "at": "2026-10-27T16:11:00+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 693,
+ "fares_saved": 697,
  "log": [
   "15:44:49 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:44:55 http front door: ['https://entirely-qty-recruitment-cartoon.trycloudflare.com', 'https://6e378c41b105b0.lhr.life']",
@@ -27,6 +27,19 @@
   "15:55:14 request mvqv3rcb80j09.4: chunk of 48 keys done in 286s; paths {'http': 23, 'browser-crashed': 78}, browser waits 78 max 285s sum 10123s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 23, 'miss': 25, 'blocked': 0, 'tries': 49, 'empty': 26}, audit 1/1 agree",
   "15:55:14 request mvqv3rcb80j09.4: final sent (48/48); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "15:55:40 request received: rid mvqvagbbc44nv.4 50 keys",
-  "15:55:40 handle mvqvagbbc44nv.4: first_chunk=True total=50"
+  "15:55:40 handle mvqvagbbc44nv.4: first_chunk=True total=50",
+  "16:01:09 request mvqvagbbc44nv.4: chunk of 50 keys done in 329s; paths {'http': 23, 'browser-crashed': 128}, browser waits 128 max 329s sum 18750s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 23, 'miss': 25, 'blocked': 0, 'tries': 49, 'empty': 26}, audit 1/1 agree",
+  "16:01:10 request mvqvagbbc44nv.4: final sent (50/50); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "16:01:17 request received: rid mvqvhpfhjiidt.5 24 keys",
+  "16:01:17 handle mvqvhpfhjiidt.5: first_chunk=True total=24",
+  "16:04:02 rtc 53wr7mi4vz: answered",
+  "16:04:03 request received: rid mvqvkvlxlbrh8.5 10 keys",
+  "16:04:03 handle mvqvkvlxlbrh8.5: first_chunk=True total=10",
+  "16:04:17 request mvqvhpfhjiidt.5: chunk of 24 keys done in 180s; paths {'http': 23, 'browser-crashed': 148, 'browser': 4}, browser waits 152 max 329s sum 20434s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 23, 'miss': 55, 'blocked': 0, 'tries': 59, 'empty': 36}, audit 1/1 agre",
+  "16:04:18 request mvqvhpfhjiidt.5: final sent (24/24); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "16:06:56 request mvqvkvlxlbrh8.5: chunk of 10 keys done in 173s; paths {'http': 23, 'browser-crashed': 158, 'browser': 4}, browser waits 162 max 329s sum 21348s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 23, 'miss': 59, 'blocked': 0, 'tries': 59, 'empty': 36}, audit 1/1 agre",
+  "16:06:58 request mvqvkvlxlbrh8.5: final sent (10/10); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "16:08:41 request received: rid mvqvr7r9ryfu2.4 24 keys",
+  "16:08:41 handle mvqvr7r9ryfu2.4: first_chunk=True total=24"
  ]
 }

@@ -1,11 +1,11 @@
 {
- "at": "2026-10-27T15:46:52+00:00",
+ "at": "2026-10-27T15:48:24+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 695,
+ "fares_saved": 697,
  "log": [
   "15:44:59 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:45:06 git retry 0: b\"eads/main': is at 1e95bd866f232bbdb003444944dc51aae22aca15 but expected d85bff27ec3fe733964312c9dc06833c554649b3)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
@@ -15,6 +15,11 @@
   "15:46:08 request received: rid httptest1793115967 20 keys",
   "15:46:08 handle httptest1793115967: first_chunk=True total=20",
   "15:46:09 request httptest1793115967: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "15:46:10 request httptest1793115967: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "15:46:10 request httptest1793115967: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "15:47:17 rtc fcnd2w692e: answered",
+  "15:47:18 rtc fcnd2w692e: data channel open",
+  "15:47:20 request received: rid mvquznjhmn5fc.7 19 keys",
+  "15:47:20 handle mvquznjhmn5fc.7: first_chunk=True total=19",
+  "15:48:19 queue: 12 keys from the look-up queue in 117s (2 priced, 0 no flight, 10 failed)"
  ]
 }

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-27T09:15:30+00:00",
+ "generated_at": "2026-10-27T09:17:01+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -807,6 +807,28 @@
     ]
    ]
   },
+  "mc|NGO-TPE-2027-01-02|TPE-KIX-2027-02-25": {
+   "price": 18146,
+   "first": {
+    "dep": "2027-01-02T12:05:00+09:00",
+    "arr": "2027-01-02T14:40:00+08:00",
+    "stops": 0,
+    "airline": "JAL"
+   },
+   "by_airline": {
+    "JAL": 18146,
+    "Cathay Pacific": 19499,
+    "STARLUX Airlines": 23676,
+    "China Airlines": 31827
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     18146
+    ]
+   ]
+  },
   "mc|NGO-TPE-2027-01-04|TPE-HND-2027-02-26": {
    "price": 47955,
    "first": {
@@ -898,6 +920,28 @@
     [
      "2026-10-22",
      58369
+    ]
+   ]
+  },
+  "mc|NRT-TPE-2027-02-15|TPE-FUK-2027-02-27": {
+   "price": 18796,
+   "first": {
+    "dep": "2027-02-15T13:45:00+09:00",
+    "arr": "2027-02-15T16:50:00+08:00",
+    "stops": 0,
+    "airline": "STARLUX Airlines"
+   },
+   "by_airline": {
+    "STARLUX Airlines": 18796,
+    "EVA Air": 21902,
+    "JAL": 28449,
+    "Jetstar": 29438
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     18796
     ]
    ]
   },
@@ -1321,6 +1365,28 @@
     [
      "2026-10-24",
      15585
+    ]
+   ]
+  },
+  "mc|TPE-NGO-2026-12-31|KIX-TPE-2027-02-14": {
+   "price": 19958,
+   "first": {
+    "dep": "2026-12-31T17:15:00+08:00",
+    "arr": "2026-12-31T20:50:00+09:00",
+    "stops": 0,
+    "airline": "China Airlines"
+   },
+   "by_airline": {
+    "China Airlines": 19958,
+    "Jin Air": 22959,
+    "Cathay Pacific": 31048,
+    "JAL": 32035
+   },
+   "at": "2026-10-27",
+   "hist": [
+    [
+     "2026-10-27",
+     19958
     ]
    ]
   },
@@ -10423,6 +10489,21 @@
  ],
  "missing_v": 2,
  "status": {
+  "mc|FUK-TPE-2027-01-04|TPE-HND-2027-02-26": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|HKG-TPE-2027-01-02|TPE-NRT-2027-02-04|NRT-TPE-2027-02-15|TPE-BKK-2027-02-27": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|ICN-TPE-2027-01-02|TPE-NGO-2027-02-04|NGO-TPE-2027-02-15|TPE-BKK-2027-02-27": {
+   "status": "timeout",
+   "at": "2026-10-27",
+   "n": 1
+  },
   "ow|TPE|BKK|2027-03-06": {
    "status": "parse_error",
    "at": "2026-10-27",

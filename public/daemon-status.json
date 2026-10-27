@@ -1,33 +1,18 @@
 {
- "at": "2026-10-27T09:22:09+00:00",
+ "at": "2026-10-27T09:29:09+00:00",
  "publishes": {
-  "ok": 3,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 423,
+ "fares_saved": 439,
  "log": [
-  "09:11:02 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "09:11:08 git retry 0: b\"eads/main': is at 6a167137916f8c7cf887a112ffff520a0ed50d7b but expected 49bbde392ca097b1286ab871491179c47d82b9f4)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "09:11:12 http front door: ['https://sport-advanced-charity-little.trycloudflare.com', 'https://00814e36dd0b11.lhr.life']",
-  "09:11:12 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "09:12:11 request received: rid httptest1793092331 20 keys",
-  "09:12:11 handle httptest1793092331: first_chunk=True total=20",
-  "09:12:43 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "09:15:11 request httptest1793092331: chunk of 20 keys done in 180s; paths {'browser-crashed': 28}, browser waits 28 max 179s sum 3009s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 0, 'miss': 60, 'blocked': 0, 'tries': 120, 'empty': 120}, audit 0/0 agree",
-  "09:15:12 request httptest1793092331: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "09:15:24 rtc vsktqg2wbd: answered",
-  "09:15:24 request received: rid mvqgzdwozwkmu.0 17 keys",
-  "09:15:24 handle mvqgzdwozwkmu.0: first_chunk=True total=17",
-  "09:18:26 rtc 3y6vjb2s36: answered",
-  "09:18:56 git retry 0: b\"eads/main': is at e9192d99bb913af2b09f64cae244504c7d9b2bfd but expected 6392900cc95007686daa17c8fbacb99a914e79a5)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "09:18:59 git retry 1: b\"eads/main': is at 0efb4e20331753c38238bc8c8cdce441a1ec95fb but expected e9192d99bb913af2b09f64cae244504c7d9b2bfd)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "09:19:50 rtc 9n736irxa9: answered",
-  "09:20:03 request received: rid mvqh5ch518p0u.0 7 keys",
-  "09:20:03 handle mvqh5ch518p0u.0: first_chunk=True total=7",
-  "09:21:10 request mvqgzdwozwkmu.0: chunk of 17 keys done in 345s; paths {'browser-crashed': 61}, browser waits 61 max 581s sum 13174s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 0, 'miss': 67, 'blocked': 0, 'tries': 131, 'empty': 131}, audit 0/0 agree",
-  "09:21:12 request mvqgzdwozwkmu.0: final sent (17/17); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
-  "09:22:03 request mvqh5ch518p0u.0: chunk of 7 keys done in 120s; paths {'browser-crashed': 71}, browser waits 71 max 590s sum 15584s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 0, 'miss': 67, 'blocked': 0, 'tries': 131, 'empty': 131}, audit 0/0 agree",
-  "09:22:05 request mvqh5ch518p0u.0: final sent (7/7); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "09:27:32 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "09:27:39 http front door: ['https://infectious-protection-heart-heart.trycloudflare.com', 'https://7684b6cc46d687.lhr.life']",
+  "09:27:39 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "09:28:42 request received: rid httptest1793093322 20 keys",
+  "09:28:42 handle httptest1793093322: first_chunk=True total=20",
+  "09:28:53 request httptest1793093322: chunk of 20 keys done in 10s; paths {'http': 22, 'browser': 1}, browser waits 1 max 5s sum 5s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 9, 'blocked': 0, 'tries': 35, 'empty': 13}, audit 0/0 agree",
+  "09:28:53 request httptest1793093322: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

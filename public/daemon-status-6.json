@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T09:48:53+00:00",
+ "at": "2026-10-27T09:50:29+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
@@ -25,6 +25,9 @@
   "09:46:18 queue: 12 keys from the look-up queue in 129s (4 priced, 0 no flight, 8 failed)",
   "09:47:22 rtc wi3m0kdyry: answered",
   "09:47:37 request received: rid mvqi4s7ppgts0.6 19 keys",
-  "09:47:37 handle mvqi4s7ppgts0.6: first_chunk=True total=19"
+  "09:47:37 handle mvqi4s7ppgts0.6: first_chunk=True total=19",
+  "09:48:55 git retry 0: b\"eads/main': is at 678ed91aa0b64d109c108b59b0cdd8828eb71830 but expected c21cdbb1d5002f0dbb284219bbc5caf64f9eb80c)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "09:50:00 request mvqi4s7ppgts0.6: chunk of 19 keys done in 143s; paths {'http': 55, 'browser': 11, 'browser-crashed': 47}, browser waits 58 max 142s sum 3400s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 55, 'miss': 42, 'blocked': 0, 'tries': 113, 'empty': 58}, audit 4/4 agree",
+  "09:50:02 request mvqi4s7ppgts0.6: final sent (19/19); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
  ]
 }

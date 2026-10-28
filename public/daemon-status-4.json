@@ -1,36 +1,19 @@
 {
- "at": "2026-10-28T13:13:22+00:00",
+ "at": "2026-10-28T15:52:05+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
  "fares_saved": 714,
  "log": [
-  "10:44:34 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "10:44:40 http front door: ['https://tool-subsidiaries-republican-housing.trycloudflare.com', 'https://445acdb469c64e.lhr.life']",
-  "10:44:40 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "10:45:44 request received: rid httptest1793184343 20 keys",
-  "10:45:44 handle httptest1793184343: first_chunk=True total=20",
-  "10:46:45 request httptest1793184343: chunk of 20 keys done in 62s; paths {'http': 12, 'browser': 7, 'browser-crashed': 1}, browser waits 8 max 61s sum 179s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 12, 'miss': 8, 'blocked': 0, 'tries': 32, 'empty': 20}, audit 0/0 agree",
-  "10:46:48 request httptest1793184343: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "12:54:02 rtc 579h08h7g8: answered",
-  "12:54:15 request received: rid mvs48nhu8bs8p.4 13 keys",
-  "12:54:15 handle mvs48nhu8bs8p.4: first_chunk=True total=13",
-  "12:56:01 request mvs48nhu8bs8p.4: chunk of 13 keys done in 105s; paths {'http': 12, 'browser': 9, 'browser-crashed': 12}, browser waits 21 max 95s sum 845s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 12, 'miss': 21, 'blocked': 0, 'tries': 53, 'empty': 41}, audit 0/0 agree",
-  "12:56:02 request mvs48nhu8bs8p.4: final sent (13/13); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "12:58:33 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
-  "12:58:33 queue: nothing readable, next try in 180s",
-  "13:03:10 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
-  "13:03:10 queue: nothing readable, next try in 300s",
-  "13:06:50 rtc milhwwo5g7: answered",
-  "13:07:51 request received: rid mvs4ottkzzg3v.4 13 keys",
-  "13:07:51 handle mvs4ottkzzg3v.4: first_chunk=True total=13",
-  "13:07:54 request received: rid mvs4ql6vozacw.4 32 keys",
-  "13:07:54 handle mvs4ql6vozacw.4: first_chunk=True total=32",
-  "13:11:50 request mvs4ql6vozacw.4: chunk of 32 keys done in 236s; paths {'http': 12, 'browser': 9, 'browser-crashed': 71}, browser waits 80 max 239s sum 6537s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 12, 'miss': 69, 'blocked': 0, 'tries': 128, 'empty': 116}, audit 0/0 agree",
-  "13:11:51 request mvs4ql6vozacw.4: final sent (32/32); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
-  "13:11:54 request mvs4ottkzzg3v.4: chunk of 13 keys done in 243s; paths {'http': 12, 'browser': 9, 'browser-crashed': 72}, browser waits 81 max 239s sum 6773s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 12, 'miss': 69, 'blocked': 0, 'tries': 128, 'empty': 116}, audit 0/0 agree",
-  "13:11:55 request mvs4ottkzzg3v.4: final sent (13/13); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "15:50:23 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "15:50:29 git retry 0: b\"eads/main': is at b908383e29c1fd3d9246d26f4f1d7c1e0fa0c363 but expected 03a873a2e2aaacb9a534f524b89b387aab72e295)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "15:50:35 http front door: ['https://summary-specifically-nuclear-growing.trycloudflare.com', 'https://de917b58f801c8.lhr.life']",
+  "15:50:35 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "15:51:33 request received: rid httptest1793202692 20 keys",
+  "15:51:33 handle httptest1793202692: first_chunk=True total=20",
+  "15:51:37 request httptest1793202692: chunk of 20 keys done in 5s; paths {'http': 19, 'browser': 1}, browser waits 1 max 4s sum 4s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 26, 'empty': 7}, audit 1/1 agree",
+  "15:51:39 request httptest1793202692: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

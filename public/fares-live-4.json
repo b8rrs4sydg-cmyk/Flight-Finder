@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-28T13:13:22+00:00",
+ "generated_at": "2026-10-28T15:52:05+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -4258,17 +4258,17 @@
   },
   "ow|TPE|BKK|2027-03-07": {
    "price": 5856,
-   "by_airline": {
-    "THAI": 5856,
-    "STARLUX Airlines": 6004,
-    "China Airlines": 6267,
-    "EVA Air": 6306
-   },
    "first": {
     "dep": "2027-03-07T13:55:00+08:00",
     "arr": "2027-03-07T16:50:00+07:00",
     "stops": 0,
     "airline": "THAI"
+   },
+   "by_airline": {
+    "THAI": 5856,
+    "STARLUX Airlines": 6004,
+    "China Airlines": 6267,
+    "EVA Air": 6306
    },
    "at": "2026-10-28",
    "hist": [
@@ -4744,17 +4744,17 @@
   },
   "ow|TPE|HKG|2027-03-10": {
    "price": 2050,
-   "by_airline": {
-    "Hong Kong Express": 2050,
-    "Greater Bay Airlines": 4114,
-    "STARLUX Airlines": 4976,
-    "China Airlines": 5155
-   },
    "first": {
     "dep": "2027-03-10T13:55:00+08:00",
     "arr": "2027-03-10T16:00:00+08:00",
     "stops": 0,
     "airline": "Hong Kong Express"
+   },
+   "by_airline": {
+    "Hong Kong Express": 2050,
+    "Greater Bay Airlines": 4114,
+    "STARLUX Airlines": 4976,
+    "China Airlines": 5155
    },
    "at": "2026-10-28",
    "hist": [
@@ -4988,17 +4988,17 @@
   },
   "ow|TPE|ICN|2027-03-07": {
    "price": 3599,
-   "by_airline": {
-    "Tigerair Taiwan": 3599,
-    "Scoot": 4399,
-    "Hong Kong Express": 5261,
-    "Jeju Air": 5929
-   },
    "first": {
     "dep": "2027-03-07T20:00:00+08:00",
     "arr": "2027-03-07T23:30:00+09:00",
     "stops": 0,
     "airline": "Tigerair Taiwan"
+   },
+   "by_airline": {
+    "Tigerair Taiwan": 3599,
+    "Scoot": 4399,
+    "Hong Kong Express": 5261,
+    "Jeju Air": 5924
    },
    "at": "2026-10-28",
    "hist": [
@@ -5081,7 +5081,7 @@
    "by_airline": {
     "Scoot": 3232,
     "Hong Kong Express": 5261,
-    "Jeju Air": 5831,
+    "Jeju Air": 5827,
     "Jin Air": 5873
    },
    "at": "2026-10-28",
@@ -5100,17 +5100,17 @@
   },
   "ow|TPE|ICN|2027-03-11": {
    "price": 3232,
-   "by_airline": {
-    "Scoot": 3232,
-    "Tigerair Taiwan": 3999,
-    "Hong Kong Express": 5261,
-    "Jeju Air": 5831
-   },
    "first": {
     "dep": "2027-03-11T18:10:00+08:00",
     "arr": "2027-03-11T21:40:00+09:00",
     "stops": 0,
     "airline": "Scoot"
+   },
+   "by_airline": {
+    "Scoot": 3232,
+    "Tigerair Taiwan": 3999,
+    "Hong Kong Express": 5261,
+    "Jeju Air": 5827
    },
    "at": "2026-10-28",
    "hist": [
@@ -5128,17 +5128,17 @@
   },
   "ow|TPE|ICN|2027-03-12": {
    "price": 3988,
-   "by_airline": {
-    "Scoot": 3988,
-    "Tigerair Taiwan": 4399,
-    "Shandong": 5298,
-    "Jeju Air": 5831
-   },
    "first": {
     "dep": "2027-03-12T18:10:00+08:00",
     "arr": "2027-03-12T21:40:00+09:00",
     "stops": 0,
     "airline": "Scoot"
+   },
+   "by_airline": {
+    "Scoot": 3988,
+    "Tigerair Taiwan": 4399,
+    "Shandong": 5298,
+    "Jeju Air": 5831
    },
    "at": "2026-10-28",
    "hist": [
@@ -5156,17 +5156,17 @@
   },
   "ow|TPE|ICN|2027-03-13": {
    "price": 3232,
-   "by_airline": {
-    "Scoot": 3232,
-    "Tigerair Taiwan": 3999,
-    "Hong Kong Express": 5342,
-    "Jeju Air": 5831
-   },
    "first": {
     "dep": "2027-03-13T18:10:00+08:00",
     "arr": "2027-03-13T21:40:00+09:00",
     "stops": 0,
     "airline": "Scoot"
+   },
+   "by_airline": {
+    "Scoot": 3232,
+    "Tigerair Taiwan": 3999,
+    "Hong Kong Express": 5342,
+    "Jeju Air": 5831
    },
    "at": "2026-10-28",
    "hist": [

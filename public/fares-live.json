@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-28T17:57:18+00:00",
+ "generated_at": "2026-10-28T18:15:20+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -8573,6 +8573,22 @@
     ]
    ]
   },
+  "rt|RMQ|MMY|2026-11-20|2026-11-22": {
+   "price": 20830,
+   "first": {
+    "dep": "2026-11-20T09:45:00+08:00",
+    "arr": "2026-11-21T08:15:00+09:00",
+    "stops": 1,
+    "airline": "China Airlines, ANA"
+   },
+   "at": "2026-10-28",
+   "hist": [
+    [
+     "2026-10-28",
+     20830
+    ]
+   ]
+  },
   "rt|RMQ|NGO|2026-11-06|2026-12-13": {
    "price": 14729,
    "by_airline": {
@@ -13130,6 +13146,11 @@
    "at": "2026-10-27",
    "n": 5
   },
+  "mc|CTU-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-RGN-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|CTU-TPE-2026-11-08|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -13196,8 +13217,8 @@
    "n": 1
   },
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-HND-2027-09-15": {
-   "status": "parse_error",
-   "at": "2026-10-27",
+   "status": "timeout",
+   "at": "2026-10-28",
    "n": 1
   },
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-PKX-2027-02-10": {
@@ -13224,6 +13245,11 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 5
+  },
+  "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-XIY-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
   },
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-12-11|HKG-TPE-2026-12-13|TPE-KMG-2027-02-10": {
    "status": "timeout",
@@ -13340,6 +13366,11 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-DAD-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-RGN-2026-12-11": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -13353,6 +13384,11 @@
   "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-SIN-2026-12-24": {
    "status": "parse_error",
    "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-XIY-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
    "n": 1
   },
   "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-12-11|HKG-TPE-2026-12-13|TPE-CGK-2026-12-24": {
@@ -13425,6 +13461,11 @@
    "at": "2026-10-27",
    "n": 4
   },
+  "mc|RGN-TPE-2026-11-08|TPE-HKG-2026-12-11|HKG-TPE-2026-12-13|TPE-RGN-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|RGN-TPE-2026-11-08|TPE-HKG-2026-12-24|HKG-TPE-2026-12-27|TPE-XIY-2027-02-10": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -13448,6 +13489,16 @@
   "mc|RGN-TPE-2026-12-13|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-HND-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|RGN-TPE-2027-05-02|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|RGN-TPE-2027-05-02|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-GMP-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
    "n": 1
   },
   "mc|SIN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-CGK-2026-12-24": {
@@ -13555,6 +13606,11 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|TSN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-RGN-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|TSN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-SIN-2027-02-10": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -13575,14 +13631,29 @@
    "at": "2026-10-27",
    "n": 4
   },
+  "mc|XIY-TPE-2027-05-02|TPE-HAN-2027-06-09|HAN-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|XIY-TPE-2027-05-02|TPE-HAN-2027-06-09|HAN-TPE-2027-06-13|TPE-GMP-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|XIY-TPE-2027-05-02|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-GMP-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|XIY-TPE-2027-05-02|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-HND-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|XIY-TPE-2027-05-02|TPE-ICN-2027-06-09|ICN-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
    "n": 1
   },
   "ow|CTS|RMQ|2027-09-19": {
@@ -15610,11 +15681,6 @@
    "at": "2026-10-28",
    "n": 4
   },
-  "rt|RMQ|MMY|2026-11-20|2026-11-22": {
-   "status": "timeout",
-   "at": "2026-10-28",
-   "n": 1
-  },
   "rt|RMQ|MMY|2026-11-20|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-28",
@@ -17498,7 +17564,7 @@
   "rt|TSA|TAG|2026-11-06|2026-11-08": {
    "status": "timeout",
    "at": "2026-10-28",
-   "n": 10
+   "n": 11
   },
   "rt|TSA|TAG|2026-11-20|2026-11-22": {
    "status": "timeout",

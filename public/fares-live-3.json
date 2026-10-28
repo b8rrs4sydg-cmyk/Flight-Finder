@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-28T12:56:49+00:00",
+ "generated_at": "2026-10-28T12:58:20+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -18643,8 +18643,8 @@
   },
   "rt|TPE|PUS|2027-09-15|2027-09-19": {
    "status": "timeout",
-   "at": "2026-10-27",
-   "n": 2
+   "at": "2026-10-28",
+   "n": 3
   },
   "rt|TPE|REP|2027-06-09|2027-06-13": {
    "status": "timeout",

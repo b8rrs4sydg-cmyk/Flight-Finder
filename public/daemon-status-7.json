@@ -1,39 +1,16 @@
 {
- "at": "2026-10-28T06:45:14+00:00",
+ "at": "2026-10-28T10:46:19+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
  "fares_saved": 783,
  "log": [
-  "05:42:05 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "05:42:10 http front door: ['https://flags-consolidation-internationally-fitness.trycloudflare.com', 'https://a3384c5ab1b255.lhr.life']",
-  "05:42:10 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "05:43:14 request received: rid httptest1793166194 20 keys",
-  "05:43:14 handle httptest1793166194: first_chunk=True total=20",
-  "05:43:25 request httptest1793166194: chunk of 20 keys done in 11s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 10, 'blocked': 0, 'tries': 28, 'empty': 8}, audit 0/0 agree",
-  "05:43:26 request httptest1793166194: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "05:44:57 queue: 12 keys from the look-up queue in 107s (0 priced, 0 no flight, 12 failed)",
-  "05:44:57 queue: nothing readable, next try in 180s",
-  "05:49:32 queue: 12 keys from the look-up queue in 95s (0 priced, 0 no flight, 12 failed)",
-  "05:49:32 queue: nothing readable, next try in 300s",
-  "05:56:21 queue: 12 keys from the look-up queue in 109s (0 priced, 0 no flight, 12 failed)",
-  "05:56:21 queue: nothing readable, next try in 540s",
-  "06:07:11 queue: 12 keys from the look-up queue in 110s (0 priced, 0 no flight, 12 failed)",
-  "06:07:11 queue: nothing readable, next try in 1020s",
-  "06:25:53 queue: 12 keys from the look-up queue in 102s (3 priced, 0 no flight, 9 failed)",
-  "06:27:25 rtc ym4kvcz0qo: answered",
-  "06:28:41 queue: 12 keys from the look-up queue in 108s (1 priced, 0 no flight, 11 failed)",
-  "06:31:15 queue: 12 keys from the look-up queue in 94s (0 priced, 0 no flight, 12 failed)",
-  "06:31:15 queue: nothing readable, next try in 180s",
-  "06:35:52 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
-  "06:35:52 queue: nothing readable, next try in 300s",
-  "06:42:33 queue: 12 keys from the look-up queue in 101s (1 priced, 0 no flight, 11 failed)",
-  "06:43:09 rtc 53pbfxet4f: answered",
-  "06:43:10 request received: rid mvrqzf5ab1ivf.7 13 keys",
-  "06:43:10 handle mvrqzf5ab1ivf.7: first_chunk=True total=13",
-  "06:44:56 request mvrqzf5ab1ivf.7: chunk of 13 keys done in 106s; paths {'http': 32, 'browser-crashed': 106, 'browser': 3}, browser waits 109 max 96s sum 6548s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 32, 'miss': 73, 'blocked': 0, 'tries': 73, 'empty': 41}, audit 2/2 agree",
-  "06:44:58 request mvrqzf5ab1ivf.7: final sent (13/13); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "10:44:44 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "10:44:49 http front door: ['https://musician-improvement-municipal-sweet.trycloudflare.com', 'https://bfcd6cd6644164.lhr.life']",
+  "10:44:49 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "10:45:53 request received: rid httptest1793184353 20 keys",
+  "10:45:53 handle httptest1793184353: first_chunk=True total=20"
  ]
 }

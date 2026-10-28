@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-28T06:45:14+00:00",
+ "generated_at": "2026-10-28T10:46:19+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -4682,17 +4682,17 @@
   },
   "ow|TPE|BKK|2027-03-07": {
    "price": 5856,
-   "first": {
-    "dep": "2027-03-07T13:55:00+08:00",
-    "arr": "2027-03-07T16:50:00+07:00",
-    "stops": 0,
-    "airline": "THAI"
-   },
    "by_airline": {
     "THAI": 5856,
     "STARLUX Airlines": 6004,
     "China Airlines": 6267,
     "EVA Air": 6306
+   },
+   "first": {
+    "dep": "2027-03-07T13:55:00+08:00",
+    "arr": "2027-03-07T16:50:00+07:00",
+    "stops": 0,
+    "airline": "THAI"
    },
    "at": "2026-10-28",
    "hist": [
@@ -4746,17 +4746,17 @@
   },
   "ow|TPE|BKK|2027-03-09": {
    "price": 5856,
+   "by_airline": {
+    "THAI": 5856,
+    "China Airlines": 6004,
+    "STARLUX Airlines": 6267,
+    "EVA Air": 6306
+   },
    "first": {
     "dep": "2027-03-09T13:55:00+08:00",
     "arr": "2027-03-09T16:50:00+07:00",
     "stops": 0,
     "airline": "THAI"
-   },
-   "by_airline": {
-    "THAI": 5856,
-    "STARLUX Airlines": 6004,
-    "China Airlines": 6004,
-    "EVA Air": 6306
    },
    "at": "2026-10-28",
    "hist": [

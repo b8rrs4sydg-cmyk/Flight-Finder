@@ -1,5 +1,5 @@
 {
- "at": "2026-10-28T12:55:32+00:00",
+ "at": "2026-10-28T12:57:04+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -17,6 +17,8 @@
   "10:46:27 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
   "12:54:10 rtc frqw8udoor: answered",
   "12:54:15 request received: rid mvs48nhu8bs8p.2 17 keys",
-  "12:54:15 handle mvs48nhu8bs8p.2: first_chunk=True total=17"
+  "12:54:15 handle mvs48nhu8bs8p.2: first_chunk=True total=17",
+  "12:56:01 request mvs48nhu8bs8p.2: chunk of 17 keys done in 106s; paths {'http': 14, 'browser': 7, 'browser-crashed': 16}, browser waits 23 max 101s sum 1082s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 14, 'miss': 23, 'blocked': 0, 'tries': 62, 'empty': 48}, audit 1/1 agree",
+  "12:56:02 request mvs48nhu8bs8p.2: final sent (17/17); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

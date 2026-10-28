@@ -1,5 +1,5 @@
 {
- "at": "2026-10-28T10:47:20+00:00",
+ "at": "2026-10-28T10:48:53+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -11,6 +11,8 @@
   "10:45:50 http front door: ['https://cursor-advanced-treasury-beam.trycloudflare.com', 'https://afc62819f2c9da.lhr.life']",
   "10:45:50 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "10:46:51 request received: rid httptest1793184411 20 keys",
-  "10:46:51 handle httptest1793184411: first_chunk=True total=20"
+  "10:46:51 handle httptest1793184411: first_chunk=True total=20",
+  "10:47:36 request httptest1793184411: chunk of 20 keys done in 45s; paths {'http': 15, 'browser': 5}, browser waits 5 max 44s sum 76s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 15, 'miss': 5, 'blocked': 0, 'tries': 29, 'empty': 14}, audit 3/3 agree",
+  "10:47:37 request httptest1793184411: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

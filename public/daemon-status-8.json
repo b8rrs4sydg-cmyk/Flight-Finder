@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T10:47:56+00:00",
+ "at": "2026-10-28T12:55:28+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 770,
+ "fares_saved": 772,
  "log": [
   "10:44:40 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:44:45 git retry 0: b\"eads/main': is at e50b3ed5f7e0aa7c963672b01305f5e3862f3d31 but expected c5305d7e8cf70fadb949dd64a640d7cea085e712)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
@@ -15,6 +15,9 @@
   "10:45:49 handle httptest1793184349: first_chunk=True total=20",
   "10:46:22 git retry 0: b\"eads/main': is at fc52ff97bbcb68cc47f56706616fd81836d96407 but expected babd1db8dd7138b0255074257220f8fcd75fd35a)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "10:46:54 request httptest1793184349: chunk of 20 keys done in 65s; paths {'http': 9, 'browser': 10, 'browser-crashed': 1}, browser waits 11 max 63s sum 262s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 9, 'miss': 11, 'blocked': 0, 'tries': 36, 'empty': 27}, audit 2/2 agree",
-  "10:46:56 request httptest1793184349: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:46:56 request httptest1793184349: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "12:54:10 rtc rfba5bq9b9: answered",
+  "12:54:15 request received: rid mvs48nhu8bs8p.8 14 keys",
+  "12:54:15 handle mvs48nhu8bs8p.8: first_chunk=True total=14"
  ]
 }

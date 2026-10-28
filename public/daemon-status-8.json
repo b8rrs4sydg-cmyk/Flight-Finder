@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T12:56:59+00:00",
+ "at": "2026-10-28T13:09:01+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 772,
+ "fares_saved": 773,
  "log": [
   "10:44:40 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:44:45 git retry 0: b\"eads/main': is at e50b3ed5f7e0aa7c963672b01305f5e3862f3d31 but expected c5305d7e8cf70fadb949dd64a640d7cea085e712)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
@@ -20,6 +20,14 @@
   "12:54:15 request received: rid mvs48nhu8bs8p.8 14 keys",
   "12:54:15 handle mvs48nhu8bs8p.8: first_chunk=True total=14",
   "12:56:20 request mvs48nhu8bs8p.8: chunk of 14 keys done in 125s; paths {'http': 10, 'browser': 11, 'browser-crashed': 13}, browser waits 24 max 111s sum 1080s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 10, 'miss': 24, 'blocked': 0, 'tries': 61, 'empty': 51}, audit 2/2 agree",
-  "12:56:21 request mvs48nhu8bs8p.8: final sent (14/14); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "12:56:21 request mvs48nhu8bs8p.8: final sent (14/14); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:58:08 queue: 12 keys from the look-up queue in 96s (1 priced, 0 no flight, 11 failed)",
+  "13:00:42 queue: 12 keys from the look-up queue in 94s (0 priced, 0 no flight, 12 failed)",
+  "13:00:42 queue: nothing readable, next try in 180s",
+  "13:05:20 queue: 12 keys from the look-up queue in 98s (0 priced, 0 no flight, 12 failed)",
+  "13:05:20 queue: nothing readable, next try in 300s",
+  "13:06:45 rtc mtr9m0gvt6: answered",
+  "13:07:55 request received: rid mvs4ql6vozacw.8 39 keys",
+  "13:07:55 handle mvs4ql6vozacw.8: first_chunk=True total=39"
  ]
 }

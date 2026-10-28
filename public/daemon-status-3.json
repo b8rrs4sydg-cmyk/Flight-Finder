@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T17:58:14+00:00",
+ "at": "2026-10-28T18:14:47+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 799,
+ "fares_saved": 801,
  "log": [
   "15:50:18 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:50:25 http front door: ['https://nonprofit-wal-supplement-attorney.trycloudflare.com', 'https://3e22b32ca6222b.lhr.life']",
@@ -32,6 +32,10 @@
   "17:54:12 request received: rid mvseyc542lqsf.3 26 keys",
   "17:54:12 handle mvseyc542lqsf.3: first_chunk=True total=26",
   "17:57:22 request mvseyc542lqsf.3: chunk of 26 keys done in 190s; paths {'http': 20, 'browser': 1, 'browser-crashed': 109}, browser waits 110 max 170s sum 7626s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 98, 'blocked': 0, 'tries': 129, 'empty': 109}, audit 2/2 agr",
-  "17:57:23 request mvseyc542lqsf.3: final sent (26/26); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "17:57:23 request mvseyc542lqsf.3: final sent (26/26); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "18:13:34 queue: 12 keys from the look-up queue in 178s (1 priced, 0 no flight, 11 failed)",
+  "18:13:59 rtc 3hvmyudkhj: answered",
+  "18:14:17 request received: rid mvsfnztvh0dav.3 28 keys",
+  "18:14:17 handle mvsfnztvh0dav.3: first_chunk=True total=28"
  ]
 }

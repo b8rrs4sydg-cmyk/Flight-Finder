@@ -1,36 +1,18 @@
 {
- "at": "2026-10-28T06:46:21+00:00",
+ "at": "2026-10-28T10:46:25+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
  "fares_saved": 812,
  "log": [
-  "05:41:37 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "05:41:42 http front door: ['https://ear-mail-commitment-thereby.trycloudflare.com', 'https://4610abb110899d.lhr.life']",
-  "05:41:42 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "05:42:46 request received: rid httptest1793166165 20 keys",
-  "05:42:46 handle httptest1793166165: first_chunk=True total=20",
-  "05:42:53 request httptest1793166165: chunk of 20 keys done in 7s; paths {'http': 22}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 6, 'blocked': 0, 'tries': 31, 'empty': 9}, audit 0/0 agree",
-  "05:42:54 request httptest1793166165: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "05:43:13 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "05:44:08 queue: 12 keys from the look-up queue in 86s (2 priced, 0 no flight, 10 failed)",
-  "05:46:45 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
-  "05:46:45 queue: nothing readable, next try in 180s",
-  "05:51:22 queue: 12 keys from the look-up queue in 97s (0 priced, 0 no flight, 12 failed)",
-  "05:51:22 queue: nothing readable, next try in 300s",
-  "05:58:06 queue: 12 keys from the look-up queue in 104s (0 priced, 0 no flight, 12 failed)",
-  "05:58:06 queue: nothing readable, next try in 540s",
-  "06:08:42 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
-  "06:08:42 queue: nothing readable, next try in 1020s",
-  "06:27:24 rtc xntmn8usi8: answered",
-  "06:27:26 queue: 12 keys from the look-up queue in 103s (0 priced, 0 no flight, 12 failed)",
-  "06:27:26 queue: nothing readable, next try in 1860s",
-  "06:43:08 rtc e09wyu7s6i: answered",
-  "06:43:09 request received: rid mvrqzf5ab1ivf.2 20 keys",
-  "06:43:09 handle mvrqzf5ab1ivf.2: first_chunk=True total=20",
-  "06:45:40 request mvrqzf5ab1ivf.2: chunk of 20 keys done in 150s; paths {'http': 26, 'browser-crashed': 78, 'browser': 8}, browser waits 86 max 109s sum 5041s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 26, 'miss': 62, 'blocked': 0, 'tries': 72, 'empty': 46}, audit 1/1 agree",
-  "06:45:41 request mvrqzf5ab1ivf.2: final sent (20/20); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "10:44:50 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "10:44:55 http front door: ['https://old-interracial-termination-museum.trycloudflare.com', 'https://476cc31b4f75dd.lhr.life']",
+  "10:44:55 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "10:45:59 request received: rid httptest1793184358 20 keys",
+  "10:45:59 handle httptest1793184358: first_chunk=True total=20",
+  "10:46:07 request httptest1793184358: chunk of 20 keys done in 8s; paths {'http': 13, 'browser': 7}, browser waits 7 max 7s sum 45s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 13, 'miss': 7, 'blocked': 0, 'tries': 31, 'empty': 18}, audit 0/0 agree",
+  "10:46:08 request httptest1793184358: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

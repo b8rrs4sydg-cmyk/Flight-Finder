@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T10:46:06+00:00",
+ "at": "2026-10-28T12:55:08+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 745,
+ "fares_saved": 746,
  "log": [
   "10:44:31 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:44:36 http front door: ['https://rec-safer-amenities-furniture.trycloudflare.com', 'https://643d796e980b7f.lhr.life']",
@@ -13,6 +13,9 @@
   "10:45:40 request received: rid httptest1793184340 20 keys",
   "10:45:40 handle httptest1793184340: first_chunk=True total=20",
   "10:45:46 request httptest1793184340: chunk of 20 keys done in 6s; paths {'http': 15, 'browser': 5}, browser waits 5 max 5s sum 22s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 15, 'miss': 5, 'blocked': 0, 'tries': 28, 'empty': 13}, audit 0/0 agree",
-  "10:45:48 request httptest1793184340: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:45:48 request httptest1793184340: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "12:54:12 rtc 0eu0nmk2t1: answered",
+  "12:54:15 request received: rid mvs48nhu8bs8p.5 19 keys",
+  "12:54:15 handle mvs48nhu8bs8p.5: first_chunk=True total=19"
  ]
 }

@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T18:31:20+00:00",
+ "at": "2026-10-28T18:32:54+00:00",
  "publishes": {
   "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 761,
+ "fares_saved": 762,
  "log": [
   "15:50:23 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:50:33 http front door: ['https://modular-jamie-relations-annotated.trycloudflare.com', 'https://52074592316b75.lhr.life']",
@@ -53,6 +53,8 @@
   "18:27:26 queue: nothing readable, next try in 180s",
   "18:29:28 rtc m3psvx0kjj: answered",
   "18:29:45 request received: rid mvsg828zkdiq5.8 18 keys",
-  "18:29:45 handle mvsg828zkdiq5.8: first_chunk=True total=18"
+  "18:29:45 handle mvsg828zkdiq5.8: first_chunk=True total=18",
+  "18:31:23 request mvsg828zkdiq5.8: chunk of 18 keys done in 98s; paths {'http': 26, 'browser': 7, 'browser-crashed': 222}, browser waits 229 max 165s sum 15820s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 26, 'miss': 173, 'blocked': 0, 'tries': 179, 'empty': 153}, audit 2/2 ag",
+  "18:31:26 request mvsg828zkdiq5.8: final sent (18/18); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
  ]
 }

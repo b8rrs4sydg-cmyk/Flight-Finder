@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-28T00:50:13+00:00",
+ "generated_at": "2026-10-28T04:56:15+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -2462,6 +2462,25 @@
     ]
    ]
   },
+  "ow|DPS|RMQ|2026-12-13": {
+   "price": 8447,
+   "first": {
+    "dep": "2026-12-13T14:00:00+08:00",
+    "arr": "2026-12-14T14:30:00+08:00",
+    "stops": 1,
+    "airline": "Vietjet"
+   },
+   "by_airline": {
+    "Vietjet": 8447
+   },
+   "at": "2026-10-28",
+   "hist": [
+    [
+     "2026-10-28",
+     8447
+    ]
+   ]
+  },
   "ow|DPS|RMQ|2027-05-02": {
    "price": 11182,
    "first": {
@@ -2494,6 +2513,22 @@
     [
      "2026-10-22",
      7325
+    ]
+   ]
+  },
+  "ow|DPS|TSA|2026-11-08": {
+   "price": 60266,
+   "first": {
+    "dep": "2026-11-08T18:50:00+08:00",
+    "arr": "2026-11-09T18:20:00+08:00",
+    "stops": 2,
+    "airline": "Cathay Pacific, China Airlines"
+   },
+   "at": "2026-10-28",
+   "hist": [
+    [
+     "2026-10-28",
+     60266
     ]
    ]
   },
@@ -2625,7 +2660,7 @@
    ]
   },
   "ow|HKG|RMQ|2026-12-13": {
-   "price": 2539,
+   "price": 2540,
    "first": {
     "dep": "2026-12-13T07:50:00+08:00",
     "arr": "2026-12-13T09:25:00+08:00",
@@ -2633,16 +2668,22 @@
     "airline": "Hong Kong Express"
    },
    "by_airline": {
-    "Hong Kong Express": 2539,
-    "Trinity Airways": 16022
+    "Hong Kong Express": 2540,
+    "Trinity Airways": 16730
    },
-   "at": "2026-10-27",
+   "at": "2026-10-28",
    "hist": [
     [
      "2026-10-27",
      2539
+    ],
+    [
+     "2026-10-28",
+     2540
     ]
-   ]
+   ],
+   "prev": 2539,
+   "prev_at": "2026-10-27"
   },
   "ow|HKG|TPE|2027-01-20": {
    "price": 2759,
@@ -2817,8 +2858,27 @@
     ]
    ]
   },
+  "ow|KLO|RMQ|2026-11-08": {
+   "price": 18894,
+   "first": {
+    "dep": "2026-11-08T13:55:00+08:00",
+    "arr": "2026-11-09T16:30:00+08:00",
+    "stops": 1,
+    "airline": "Trinity Airways"
+   },
+   "by_airline": {
+    "Trinity Airways": 18894
+   },
+   "at": "2026-10-28",
+   "hist": [
+    [
+     "2026-10-28",
+     18894
+    ]
+   ]
+  },
   "ow|KLO|TPE|2027-05-02": {
-   "price": 3723,
+   "price": 3687,
    "first": {
     "dep": "2027-05-02T22:30:00+08:00",
     "arr": "2027-05-03T10:00:00+08:00",
@@ -2826,14 +2886,40 @@
     "airline": "Philippines AirAsia"
    },
    "by_airline": {
-    "Philippines AirAsia": 3723,
-    "Cebu Pacific": 3960
+    "Philippines AirAsia": 3687,
+    "Cebu Pacific": 3921
    },
-   "at": "2026-10-24",
+   "at": "2026-10-28",
    "hist": [
     [
      "2026-10-24",
      3723
+    ],
+    [
+     "2026-10-28",
+     3687
+    ]
+   ],
+   "prev": 3723,
+   "prev_at": "2026-10-24"
+  },
+  "ow|KLO|TPE|2027-06-13": {
+   "price": 3363,
+   "first": {
+    "dep": "2027-06-13T20:15:00+08:00",
+    "arr": "2027-06-14T02:00:00+08:00",
+    "stops": 1,
+    "airline": "Cebu Pacific"
+   },
+   "by_airline": {
+    "Cebu Pacific": 3363,
+    "Philippines AirAsia": 3687
+   },
+   "at": "2026-10-28",
+   "hist": [
+    [
+     "2026-10-28",
+     3363
     ]
    ]
   },
@@ -3687,6 +3773,25 @@
     ]
    ]
   },
+  "ow|RMQ|KLO|2026-12-11": {
+   "price": 14366,
+   "first": {
+    "dep": "2026-12-11T17:30:00+08:00",
+    "arr": "2026-12-12T12:55:00+08:00",
+    "stops": 1,
+    "airline": "Trinity Airways"
+   },
+   "by_airline": {
+    "Trinity Airways": 14366
+   },
+   "at": "2026-10-28",
+   "hist": [
+    [
+     "2026-10-28",
+     14366
+    ]
+   ]
+  },
   "ow|RMQ|MNL|2026-11-27": {
    "price": 4083,
    "first": {
@@ -3909,6 +4014,22 @@
     [
      "2026-10-27",
      5840
+    ]
+   ]
+  },
+  "ow|TAG|TSA|2027-06-13": {
+   "price": 37574,
+   "first": {
+    "dep": "2027-06-13T07:10:00+08:00",
+    "arr": "2027-06-13T21:45:00+08:00",
+    "stops": 2,
+    "airline": "Philippine Airlines, EVA Air"
+   },
+   "at": "2026-10-28",
+   "hist": [
+    [
+     "2026-10-28",
+     37574
     ]
    ]
   },

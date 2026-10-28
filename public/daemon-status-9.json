@@ -1,18 +1,18 @@
 {
- "at": "2026-10-27T20:39:02+00:00",
+ "at": "2026-10-28T00:50:05+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 727,
+ "fares_saved": 729,
  "log": [
-  "20:37:27 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:37:32 http front door: ['https://risks-bargains-aims-dicke.trycloudflare.com', 'https://5efd6ceca2c2b9.lhr.life']",
-  "20:37:32 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:38:35 request received: rid httptest1793133515 20 keys",
-  "20:38:35 handle httptest1793133515: first_chunk=True total=20",
-  "20:38:41 request httptest1793133515: chunk of 20 keys done in 6s; paths {'http': 25}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 25, 'miss': 3, 'blocked': 0, 'tries': 33, 'empty': 8}, audit 0/0 agree",
-  "20:38:42 request httptest1793133515: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:48:31 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:48:35 http front door: ['https://tend-rendering-autos-domain.trycloudflare.com', 'https://a4f7f76e21c2c4.lhr.life']",
+  "00:48:35 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:49:40 request received: rid httptest1793148580 20 keys",
+  "00:49:40 handle httptest1793148580: first_chunk=True total=20",
+  "00:49:49 request httptest1793148580: chunk of 20 keys done in 9s; paths {'http': 17, 'browser': 3}, browser waits 3 max 7s sum 20s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 17, 'miss': 3, 'blocked': 0, 'tries': 26, 'empty': 9}, audit 2/2 agree",
+  "00:49:50 request httptest1793148580: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

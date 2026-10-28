@@ -1,36 +1,16 @@
 {
- "at": "2026-10-28T13:13:17+00:00",
+ "at": "2026-10-28T15:51:58+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
  "fares_saved": 746,
  "log": [
-  "10:44:31 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "10:44:36 http front door: ['https://rec-safer-amenities-furniture.trycloudflare.com', 'https://643d796e980b7f.lhr.life']",
-  "10:44:36 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "10:45:40 request received: rid httptest1793184340 20 keys",
-  "10:45:40 handle httptest1793184340: first_chunk=True total=20",
-  "10:45:46 request httptest1793184340: chunk of 20 keys done in 6s; paths {'http': 15, 'browser': 5}, browser waits 5 max 5s sum 22s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 15, 'miss': 5, 'blocked': 0, 'tries': 28, 'empty': 13}, audit 0/0 agree",
-  "10:45:48 request httptest1793184340: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "12:54:12 rtc 0eu0nmk2t1: answered",
-  "12:54:15 request received: rid mvs48nhu8bs8p.5 19 keys",
-  "12:54:15 handle mvs48nhu8bs8p.5: first_chunk=True total=19",
-  "12:56:29 request mvs48nhu8bs8p.5: chunk of 19 keys done in 134s; paths {'http': 16, 'browser': 5, 'browser-crashed': 18}, browser waits 23 max 126s sum 1342s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 16, 'miss': 23, 'blocked': 0, 'tries': 59, 'empty': 43}, audit 2/2 agree",
-  "12:56:30 request mvs48nhu8bs8p.5: final sent (19/19); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "12:58:36 queue: 12 keys from the look-up queue in 97s (0 priced, 0 no flight, 12 failed)",
-  "12:58:36 queue: nothing readable, next try in 180s",
-  "13:03:25 queue: 12 keys from the look-up queue in 109s (0 priced, 0 no flight, 12 failed)",
-  "13:03:25 queue: nothing readable, next try in 300s",
-  "13:06:44 rtc uc2sek1rzo: answered",
-  "13:07:51 request received: rid mvs4ottkzzg3v.5 20 keys",
-  "13:07:51 handle mvs4ottkzzg3v.5: first_chunk=True total=20",
-  "13:07:54 request received: rid mvs4ql6vozacw.5 36 keys",
-  "13:07:54 handle mvs4ql6vozacw.5: first_chunk=True total=36",
-  "13:12:10 request mvs4ottkzzg3v.5: chunk of 20 keys done in 259s; paths {'http': 16, 'browser': 5, 'browser-crashed': 81}, browser waits 86 max 252s sum 8420s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 16, 'miss': 66, 'blocked': 0, 'tries': 131, 'empty': 115}, audit 2/2 agree",
-  "13:12:10 request mvs4ql6vozacw.5: chunk of 36 keys done in 256s; paths {'http': 16, 'browser': 5, 'browser-crashed': 81}, browser waits 86 max 252s sum 8420s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 16, 'miss': 66, 'blocked': 0, 'tries': 131, 'empty': 115}, audit 2/2 agree",
-  "13:12:12 request mvs4ottkzzg3v.5: final sent (20/20); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
-  "13:12:12 request mvs4ql6vozacw.5: final sent (36/36); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "15:50:22 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "15:50:28 http front door: ['https://obtaining-sciences-afternoon-discussed.trycloudflare.com', 'https://d52c3bd46e7cd5.lhr.life']",
+  "15:50:28 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "15:51:32 request received: rid httptest1793202692 20 keys",
+  "15:51:32 handle httptest1793202692: first_chunk=True total=20"
  ]
 }

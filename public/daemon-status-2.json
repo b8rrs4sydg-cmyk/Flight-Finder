@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T18:16:42+00:00",
+ "at": "2026-10-28T18:31:56+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 819,
+ "fares_saved": 822,
  "log": [
   "15:50:52 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:50:57 http front door: ['https://speaking-fly-chubby-rest.trycloudflare.com', 'https://f214055be28270.lhr.life']",
@@ -62,6 +62,14 @@
   "18:14:17 request received: rid mvsfnztvh0dav.2 17 keys",
   "18:14:17 handle mvsfnztvh0dav.2: first_chunk=True total=17",
   "18:16:40 request mvsfnztvh0dav.2: chunk of 17 keys done in 143s; paths {'http': 25, 'browser-crashed': 292, 'browser': 1}, browser waits 293 max 154s sum 19041s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 25, 'miss': 170, 'blocked': 0, 'tries': 195, 'empty': 170}, audit 3/3 a",
-  "18:16:41 request mvsfnztvh0dav.2: final sent (17/17); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "18:16:41 request mvsfnztvh0dav.2: final sent (17/17); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "18:16:47 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "18:20:37 queue: 12 keys from the look-up queue in 178s (2 priced, 0 no flight, 10 failed)",
+  "18:24:23 queue: 12 keys from the look-up queue in 165s (0 priced, 0 no flight, 12 failed)",
+  "18:24:23 queue: nothing readable, next try in 180s",
+  "18:29:28 rtc esjydtfov2: answered",
+  "18:29:45 request received: rid mvsg828zkdiq5.2 17 keys",
+  "18:29:45 handle mvsg828zkdiq5.2: first_chunk=True total=17",
+  "18:30:10 queue: 12 keys from the look-up queue in 168s (1 priced, 0 no flight, 11 failed)"
  ]
 }

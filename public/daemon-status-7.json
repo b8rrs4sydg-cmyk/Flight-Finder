@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T06:43:42+00:00",
+ "at": "2026-10-28T06:45:14+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 781,
+ "fares_saved": 783,
  "log": [
   "05:42:05 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "05:42:10 http front door: ['https://flags-consolidation-internationally-fitness.trycloudflare.com', 'https://a3384c5ab1b255.lhr.life']",
@@ -32,6 +32,8 @@
   "06:42:33 queue: 12 keys from the look-up queue in 101s (1 priced, 0 no flight, 11 failed)",
   "06:43:09 rtc 53pbfxet4f: answered",
   "06:43:10 request received: rid mvrqzf5ab1ivf.7 13 keys",
-  "06:43:10 handle mvrqzf5ab1ivf.7: first_chunk=True total=13"
+  "06:43:10 handle mvrqzf5ab1ivf.7: first_chunk=True total=13",
+  "06:44:56 request mvrqzf5ab1ivf.7: chunk of 13 keys done in 106s; paths {'http': 32, 'browser-crashed': 106, 'browser': 3}, browser waits 109 max 96s sum 6548s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 32, 'miss': 73, 'blocked': 0, 'tries': 73, 'empty': 41}, audit 2/2 agree",
+  "06:44:58 request mvrqzf5ab1ivf.7: final sent (13/13); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
  ]
 }

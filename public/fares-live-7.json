@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-28T06:43:42+00:00",
+ "generated_at": "2026-10-28T06:45:14+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -90,6 +90,27 @@
     ]
    ]
   },
+  "mc|BKK-TPE-2027-01-02|TPE-HND-2027-02-04|HND-TPE-2027-02-15|TPE-ICN-2027-02-25": {
+   "price": 72569,
+   "by_airline": {
+    "EVA Air": 72569,
+    "China Airlines": 95214,
+    "THAI": 100002
+   },
+   "first": {
+    "dep": "2027-01-02T14:35:00+07:00",
+    "arr": "2027-01-02T19:15:00+08:00",
+    "stops": 0,
+    "airline": "EVA Air"
+   },
+   "at": "2026-10-28",
+   "hist": [
+    [
+     "2026-10-28",
+     72569
+    ]
+   ]
+  },
   "mc|BKK-TPE-2027-01-02|TPE-KIX-2027-02-04|KIX-TPE-2027-02-15|TPE-ICN-2027-02-25": {
    "price": 71859,
    "first": {
@@ -130,6 +151,27 @@
     [
      "2026-10-28",
      38171
+    ]
+   ]
+  },
+  "mc|BKK-TPE-2027-01-02|TPE-KIX-2027-02-04|KIX-TPE-2027-02-16|TPE-ICN-2027-02-26": {
+   "price": 71409,
+   "by_airline": {
+    "EVA Air": 71409,
+    "China Airlines": 94054,
+    "THAI": 100256
+   },
+   "first": {
+    "dep": "2027-01-02T14:35:00+07:00",
+    "arr": "2027-01-02T19:15:00+08:00",
+    "stops": 0,
+    "airline": "EVA Air"
+   },
+   "at": "2026-10-28",
+   "hist": [
+    [
+     "2026-10-28",
+     71409
     ]
    ]
   },
@@ -15573,11 +15615,6 @@
    "at": "2026-10-27",
    "n": 3
   },
-  "mc|BKK-TPE-2027-01-02|TPE-HND-2027-02-04|HND-TPE-2027-02-15|TPE-ICN-2027-02-25": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 3
-  },
   "mc|CGK-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-BKI-2027-04-29": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -15880,8 +15917,8 @@
   },
   "mc|TPE-KIX-2027-02-06|NGO-TPE-2027-03-01": {
    "status": "timeout",
-   "at": "2026-10-27",
-   "n": 2
+   "at": "2026-10-28",
+   "n": 3
   },
   "mc|TPE-NGO-2027-02-05|FUK-TPE-2027-02-28": {
    "status": "timeout",
@@ -15890,8 +15927,8 @@
   },
   "mc|TPE-NRT-2027-01-01|NGO-TPE-2027-02-15": {
    "status": "timeout",
-   "at": "2026-10-27",
-   "n": 2
+   "at": "2026-10-28",
+   "n": 3
   },
   "mc|TPE-NRT-2027-01-02|FUK-TPE-2027-02-15": {
    "status": "parse_error",
@@ -15900,8 +15937,8 @@
   },
   "mc|TPE-NRT-2027-02-05|KIX-TPE-2027-03-01": {
    "status": "timeout",
-   "at": "2026-10-27",
-   "n": 1
+   "at": "2026-10-28",
+   "n": 2
   },
   "mc|TSN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-KUL-2027-02-10": {
    "status": "timeout",

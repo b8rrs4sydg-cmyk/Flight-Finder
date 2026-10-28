@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-28T18:16:31+00:00",
+ "generated_at": "2026-10-28T18:30:03+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -5161,6 +5161,28 @@
     [
      "2026-10-24",
      7554
+    ]
+   ]
+  },
+  "ow|TPE|SGN|2027-09-15": {
+   "price": 3964,
+   "first": {
+    "dep": "2027-09-15T01:35:00+08:00",
+    "arr": "2027-09-15T14:40:00+07:00",
+    "stops": 1,
+    "airline": "Scoot"
+   },
+   "by_airline": {
+    "Scoot": 3964,
+    "Thai AirAsia": 4817,
+    "Cebu Pacific": 5086,
+    "Vietnam Airlines": 5685
+   },
+   "at": "2026-10-28",
+   "hist": [
+    [
+     "2026-10-28",
+     3964
     ]
    ]
   },
@@ -13716,7 +13738,6 @@
   "ow|TPE|PUS|2027-09-16",
   "ow|TPE|PUS|2027-10-10",
   "ow|TPE|PUS|2027-12-22",
-  "ow|TPE|SGN|2027-09-15",
   "ow|TPE|SHA|2027-10-09",
   "ow|TPE|SHA|2027-12-23",
   "ow|TPE|SZX|2027-10-10",

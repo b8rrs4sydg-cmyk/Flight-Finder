@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T18:17:45+00:00",
+ "at": "2026-10-28T18:29:47+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 760,
+ "fares_saved": 761,
  "log": [
   "15:50:23 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:50:33 http front door: ['https://modular-jamie-relations-annotated.trycloudflare.com', 'https://52074592316b75.lhr.life']",
@@ -47,6 +47,12 @@
   "18:14:17 request received: rid mvsfnztvh0dav.8 18 keys",
   "18:14:17 handle mvsfnztvh0dav.8: first_chunk=True total=18",
   "18:16:27 request mvsfnztvh0dav.8: chunk of 18 keys done in 130s; paths {'http': 24, 'browser': 6, 'browser-crashed': 183}, browser waits 189 max 148s sum 12287s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 24, 'miss': 145, 'blocked': 0, 'tries': 155, 'empty': 131}, audit 2/2 a",
-  "18:16:28 request mvsfnztvh0dav.8: final sent (18/18); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "18:16:28 request mvsfnztvh0dav.8: final sent (18/18); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "18:23:41 queue: 12 keys from the look-up queue in 175s (1 priced, 0 no flight, 11 failed)",
+  "18:27:26 queue: 12 keys from the look-up queue in 165s (0 priced, 0 no flight, 12 failed)",
+  "18:27:26 queue: nothing readable, next try in 180s",
+  "18:29:28 rtc m3psvx0kjj: answered",
+  "18:29:45 request received: rid mvsg828zkdiq5.8 18 keys",
+  "18:29:45 handle mvsg828zkdiq5.8: first_chunk=True total=18"
  ]
 }

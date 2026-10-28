@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-28T06:46:30+00:00",
+ "generated_at": "2026-10-28T10:46:16+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -4848,8 +4848,8 @@
    },
    "by_airline": {
     "THAI": 5856,
-    "STARLUX Airlines": 6004,
     "China Airlines": 6004,
+    "STARLUX Airlines": 6267,
     "EVA Air": 6306
    },
    "at": "2026-10-28",
@@ -5328,17 +5328,17 @@
   },
   "ow|TPE|HKG|2027-03-12": {
    "price": 2131,
-   "first": {
-    "dep": "2027-03-12T13:55:00+08:00",
-    "arr": "2027-03-12T16:00:00+08:00",
-    "stops": 0,
-    "airline": "Hong Kong Express"
-   },
    "by_airline": {
     "Hong Kong Express": 2131,
     "Greater Bay Airlines": 4114,
     "STARLUX Airlines": 4976,
     "China Airlines": 5155
+   },
+   "first": {
+    "dep": "2027-03-12T13:55:00+08:00",
+    "arr": "2027-03-12T16:00:00+08:00",
+    "stops": 0,
+    "airline": "Hong Kong Express"
    },
    "at": "2026-10-28",
    "hist": [
@@ -5526,17 +5526,17 @@
   },
   "ow|TPE|ICN|2027-03-08": {
    "price": 3599,
-   "first": {
-    "dep": "2027-03-08T20:00:00+08:00",
-    "arr": "2027-03-08T23:30:00+09:00",
-    "stops": 0,
-    "airline": "Tigerair Taiwan"
-   },
    "by_airline": {
     "Tigerair Taiwan": 3599,
     "Scoot": 3988,
     "Hong Kong Express": 5261,
     "Jeju Air": 5831
+   },
+   "first": {
+    "dep": "2027-03-08T20:00:00+08:00",
+    "arr": "2027-03-08T23:30:00+09:00",
+    "stops": 0,
+    "airline": "Tigerair Taiwan"
    },
    "at": "2026-10-28",
    "hist": [
@@ -5610,17 +5610,17 @@
   },
   "ow|TPE|ICN|2027-03-11": {
    "price": 3232,
-   "first": {
-    "dep": "2027-03-11T18:10:00+08:00",
-    "arr": "2027-03-11T21:40:00+09:00",
-    "stops": 0,
-    "airline": "Scoot"
-   },
    "by_airline": {
     "Scoot": 3232,
     "Tigerair Taiwan": 3999,
     "Hong Kong Express": 5261,
     "Jeju Air": 5831
+   },
+   "first": {
+    "dep": "2027-03-11T18:10:00+08:00",
+    "arr": "2027-03-11T21:40:00+09:00",
+    "stops": 0,
+    "airline": "Scoot"
    },
    "at": "2026-10-28",
    "hist": [

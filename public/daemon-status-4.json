@@ -1,24 +1,19 @@
 {
- "at": "2026-10-28T04:59:18+00:00",
+ "at": "2026-10-28T05:43:28+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
  "fares_saved": 704,
  "log": [
-  "00:48:34 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:48:40 git retry 0: b\"eads/main': is at 8eed4fda0f2ec26b9d8bdc351acbe989b7c4a784 but expected 44006b549e41815bf3be448c8ae69aaab98e8799)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "00:48:43 http front door: ['https://smaller-pierce-counted-opponent.trycloudflare.com', 'https://768fcefc105360.lhr.life']",
-  "00:48:43 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:49:44 request received: rid httptest1793148583 20 keys",
-  "00:49:44 handle httptest1793148583: first_chunk=True total=20",
-  "00:49:45 request httptest1793148583: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
-  "00:49:47 request httptest1793148583: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "04:55:02 rtc s0m9qyyk2n: answered",
-  "04:55:34 request received: rid mvrn4one0ll9p.3 30 keys",
-  "04:55:34 handle mvrn4one0ll9p.3: first_chunk=True total=30",
-  "04:57:49 request mvrn4one0ll9p.3: chunk of 30 keys done in 135s; paths {'http': 28, 'browser-crashed': 22}, browser waits 22 max 126s sum 1743s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 28, 'miss': 22, 'blocked': 0, 'tries': 70, 'empty': 42}, audit 5/5 agree",
-  "04:57:51 request mvrn4one0ll9p.3: final sent (30/30); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "05:41:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:41:52 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "05:41:58 http front door: ['https://apply-refurbished-hughes-thrown.trycloudflare.com', 'https://ab825e8c712c70.lhr.life']",
+  "05:41:58 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "05:42:55 request received: rid httptest1793166175 20 keys",
+  "05:42:55 handle httptest1793166175: first_chunk=True total=20",
+  "05:42:57 request httptest1793166175: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "05:42:59 request httptest1793166175: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

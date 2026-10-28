@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T10:47:51+00:00",
+ "at": "2026-10-28T12:55:23+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 783,
+ "fares_saved": 784,
  "log": [
   "10:44:44 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:44:49 http front door: ['https://musician-improvement-municipal-sweet.trycloudflare.com', 'https://bfcd6cd6644164.lhr.life']",
@@ -13,6 +13,9 @@
   "10:45:53 request received: rid httptest1793184353 20 keys",
   "10:45:53 handle httptest1793184353: first_chunk=True total=20",
   "10:46:55 request httptest1793184353: chunk of 20 keys done in 62s; paths {'http': 16, 'browser': 3, 'browser-crashed': 1}, browser waits 4 max 61s sum 116s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 16, 'miss': 4, 'blocked': 0, 'tries': 25, 'empty': 9}, audit 3/3 agree",
-  "10:46:56 request httptest1793184353: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:46:56 request httptest1793184353: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "12:54:03 rtc mk65z75il: answered",
+  "12:54:15 request received: rid mvs48nhu8bs8p.7 19 keys",
+  "12:54:15 handle mvs48nhu8bs8p.7: first_chunk=True total=19"
  ]
 }

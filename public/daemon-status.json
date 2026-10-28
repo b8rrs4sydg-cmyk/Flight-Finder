@@ -1,37 +1,18 @@
 {
- "at": "2026-10-28T06:46:19+00:00",
+ "at": "2026-10-28T10:46:27+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
  "fares_saved": 656,
  "log": [
-  "05:41:38 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "05:41:43 http front door: ['https://champagne-offices-implementing-sponsor.trycloudflare.com', 'https://9ae60c4c575c57.lhr.life']",
-  "05:41:43 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "05:42:47 request received: rid httptest1793166167 20 keys",
-  "05:42:47 handle httptest1793166167: first_chunk=True total=20",
-  "05:42:59 request httptest1793166167: chunk of 20 keys done in 12s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 9, 'blocked': 0, 'tries': 30, 'empty': 10}, audit 0/0 agree",
-  "05:43:01 request httptest1793166167: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "05:44:09 queue: 12 keys from the look-up queue in 86s (0 priced, 0 no flight, 12 failed)",
-  "05:44:09 queue: nothing readable, next try in 180s",
-  "05:48:45 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
-  "05:48:45 queue: nothing readable, next try in 300s",
-  "05:55:34 queue: 12 keys from the look-up queue in 109s (0 priced, 0 no flight, 12 failed)",
-  "05:55:34 queue: nothing readable, next try in 540s",
-  "06:06:15 queue: 12 keys from the look-up queue in 100s (0 priced, 0 no flight, 12 failed)",
-  "06:06:15 queue: nothing readable, next try in 1020s",
-  "06:25:05 queue: 12 keys from the look-up queue in 110s (2 priced, 0 no flight, 10 failed)",
-  "06:27:24 rtc 3wudubper1: answered",
-  "06:27:52 queue: 12 keys from the look-up queue in 107s (0 priced, 0 no flight, 12 failed)",
-  "06:27:52 queue: nothing readable, next try in 180s",
-  "06:32:40 queue: 12 keys from the look-up queue in 108s (0 priced, 0 no flight, 12 failed)",
-  "06:32:40 queue: nothing readable, next try in 300s",
-  "06:39:34 queue: 12 keys from the look-up queue in 114s (3 priced, 0 no flight, 9 failed)",
-  "06:41:49 queue: 12 keys from the look-up queue in 75s (4 priced, 0 no flight, 8 failed)",
-  "06:43:08 rtc xo39xlqres: answered",
-  "06:43:10 request received: rid mvrqzf5ab1ivf.0 17 keys",
-  "06:43:10 handle mvrqzf5ab1ivf.0: first_chunk=True total=17"
+  "10:44:41 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "10:44:45 git retry 0: b\"eads/main': is at e50b3ed5f7e0aa7c963672b01305f5e3862f3d31 but expected c5305d7e8cf70fadb949dd64a640d7cea085e712)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "10:44:49 git retry 1: b\"eads/main': is at b85085f4d0124a40fb09da8f684f32468dfeda82 but expected 002281f1f7de84e918c720df7389459b20fa6605)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "10:44:57 http front door: ['https://occur-obj-acts-social.trycloudflare.com', 'https://c9fb5d17ed2b19.lhr.life']",
+  "10:44:57 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "10:45:49 request received: rid httptest1793184349 20 keys",
+  "10:45:49 handle httptest1793184349: first_chunk=True total=20"
  ]
 }

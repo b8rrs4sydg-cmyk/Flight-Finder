@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T17:58:07+00:00",
+ "at": "2026-10-28T18:14:38+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 751,
+ "fares_saved": 752,
  "log": [
   "15:50:22 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:50:28 http front door: ['https://obtaining-sciences-afternoon-discussed.trycloudflare.com', 'https://d52c3bd46e7cd5.lhr.life']",
@@ -40,6 +40,12 @@
   "17:54:12 request received: rid mvseyc542lqsf.5 21 keys",
   "17:54:12 handle mvseyc542lqsf.5: first_chunk=True total=21",
   "17:56:38 request mvseyc542lqsf.5: chunk of 21 keys done in 146s; paths {'http': 20, 'browser-crashed': 159, 'browser': 6}, browser waits 165 max 131s sum 10772s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 105, 'blocked': 0, 'tries': 123, 'empty': 103}, audit 0/0 a",
-  "17:56:40 request mvseyc542lqsf.5: final sent (21/21); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "17:56:40 request mvseyc542lqsf.5: final sent (21/21); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "18:09:17 queue: 12 keys from the look-up queue in 146s (1 priced, 0 no flight, 11 failed)",
+  "18:13:17 queue: 12 keys from the look-up queue in 179s (0 priced, 0 no flight, 12 failed)",
+  "18:13:17 queue: nothing readable, next try in 180s",
+  "18:13:59 rtc r5geu01m2h: answered",
+  "18:14:17 request received: rid mvsfnztvh0dav.5 24 keys",
+  "18:14:17 handle mvsfnztvh0dav.5: first_chunk=True total=24"
  ]
 }

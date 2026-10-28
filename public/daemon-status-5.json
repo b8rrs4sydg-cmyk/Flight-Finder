@@ -1,5 +1,5 @@
 {
- "at": "2026-10-28T18:14:38+00:00",
+ "at": "2026-10-28T18:16:56+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
@@ -46,6 +46,12 @@
   "18:13:17 queue: nothing readable, next try in 180s",
   "18:13:59 rtc r5geu01m2h: answered",
   "18:14:17 request received: rid mvsfnztvh0dav.5 24 keys",
-  "18:14:17 handle mvsfnztvh0dav.5: first_chunk=True total=24"
+  "18:14:17 handle mvsfnztvh0dav.5: first_chunk=True total=24",
+  "18:14:44 git retry 0: b\"eads/main': is at 8175fd1ffcf1f256e5a17fce0d2091a9c9d246e2 but expected a552f3a3d4377055561bfc50dd95702a51671905)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "18:14:54 git retry 1: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "18:15:04 git retry 2: b\"eads/main': is at 581a14576e2e744eba45b006a55ac8d6c0f4c088 but expected ab1ac8c3fca9175d02c39f6fb5b5f1164be998d9)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "18:15:15 git retry 3: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "18:16:42 request mvsfnztvh0dav.5: chunk of 24 keys done in 145s; paths {'http': 21, 'browser-crashed': 204, 'browser': 6}, browser waits 210 max 153s sum 14819s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 140, 'blocked': 0, 'tries': 152, 'empty': 131}, audit 0/0 a",
+  "18:16:44 request mvsfnztvh0dav.5: final sent (24/24); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
  ]
 }

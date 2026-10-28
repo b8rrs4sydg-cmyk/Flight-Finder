@@ -1,7 +1,7 @@
 {
- "at": "2026-10-28T12:57:01+00:00",
+ "at": "2026-10-28T13:09:03+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
@@ -20,6 +20,15 @@
   "12:54:15 request received: rid mvs48nhu8bs8p.0 8 keys",
   "12:54:15 handle mvs48nhu8bs8p.0: first_chunk=True total=8",
   "12:55:31 request mvs48nhu8bs8p.0: chunk of 8 keys done in 76s; paths {'http': 11, 'browser': 10, 'browser-crashed': 7}, browser waits 17 max 62s sum 504s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 11, 'miss': 17, 'blocked': 0, 'tries': 45, 'empty': 34}, audit 0/0 agree",
-  "12:55:32 request mvs48nhu8bs8p.0: final sent (8/8); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "12:55:32 request mvs48nhu8bs8p.0: final sent (8/8); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:57:34 queue: 12 keys from the look-up queue in 98s (0 priced, 0 no flight, 12 failed)",
+  "12:57:34 queue: nothing readable, next try in 180s",
+  "13:02:12 queue: 12 keys from the look-up queue in 97s (0 priced, 0 no flight, 12 failed)",
+  "13:02:12 queue: nothing readable, next try in 300s",
+  "13:06:34 rtc 45wbgnmdi5: answered",
+  "13:07:51 request received: rid mvs4ottkzzg3v.0 10 keys",
+  "13:07:51 handle mvs4ottkzzg3v.0: first_chunk=True total=10",
+  "13:07:54 request received: rid mvs4ql6vozacw.0 28 keys",
+  "13:07:54 handle mvs4ql6vozacw.0: first_chunk=True total=28"
  ]
 }

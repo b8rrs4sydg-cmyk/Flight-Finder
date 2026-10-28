@@ -1,7 +1,7 @@
 {
- "at": "2026-10-28T17:57:04+00:00",
+ "at": "2026-10-28T18:15:08+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
@@ -55,6 +55,11 @@
   "17:54:12 request received: rid mvseyc542lqsf.2 17 keys",
   "17:54:12 handle mvseyc542lqsf.2: first_chunk=True total=17",
   "17:56:34 request mvseyc542lqsf.2: chunk of 17 keys done in 141s; paths {'http': 25, 'browser-crashed': 263, 'browser': 1}, browser waits 264 max 154s sum 17060s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 25, 'miss': 146, 'blocked': 0, 'tries': 153, 'empty': 128}, audit 3/3 a",
-  "17:56:35 request mvseyc542lqsf.2: final sent (17/17); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "17:56:35 request mvseyc542lqsf.2: final sent (17/17); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "18:00:39 queue: 12 keys from the look-up queue in 97s (0 priced, 0 no flight, 12 failed)",
+  "18:00:39 queue: nothing readable, next try in 1020s",
+  "18:13:59 rtc gfn7xc58if: answered",
+  "18:14:17 request received: rid mvsfnztvh0dav.2 17 keys",
+  "18:14:17 handle mvsfnztvh0dav.2: first_chunk=True total=17"
  ]
 }

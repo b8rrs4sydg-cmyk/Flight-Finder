@@ -1,36 +1,18 @@
 {
- "at": "2026-10-28T13:13:26+00:00",
+ "at": "2026-10-28T15:51:55+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
  "fares_saved": 798,
  "log": [
-  "10:44:40 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "10:44:45 http front door: ['https://tied-boutique-identified-sense.trycloudflare.com', 'https://5a60942f2de2d2.lhr.life']",
-  "10:44:45 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "10:45:49 request received: rid httptest1793184348 20 keys",
-  "10:45:49 handle httptest1793184348: first_chunk=True total=20",
-  "10:45:55 request httptest1793184348: chunk of 20 keys done in 7s; paths {'http': 17, 'browser': 3}, browser waits 3 max 6s sum 16s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 17, 'miss': 3, 'blocked': 0, 'tries': 27, 'empty': 10}, audit 2/2 agree",
-  "10:45:57 request httptest1793184348: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "12:54:04 rtc wuq3guxewz: answered",
-  "12:54:15 request received: rid mvs48nhu8bs8p.3 24 keys",
-  "12:54:15 handle mvs48nhu8bs8p.3: first_chunk=True total=24",
-  "12:56:49 request mvs48nhu8bs8p.3: chunk of 24 keys done in 153s; paths {'http': 18, 'browser': 3, 'browser-crashed': 23}, browser waits 26 max 138s sum 1961s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 18, 'miss': 26, 'blocked': 0, 'tries': 67, 'empty': 49}, audit 4/4 agree",
-  "12:56:49 request mvs48nhu8bs8p.3: final sent (24/24); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "12:58:39 queue: 12 keys from the look-up queue in 95s (0 priced, 0 no flight, 12 failed)",
-  "12:58:39 queue: nothing readable, next try in 180s",
-  "13:03:29 queue: 12 keys from the look-up queue in 110s (0 priced, 0 no flight, 12 failed)",
-  "13:03:29 queue: nothing readable, next try in 300s",
-  "13:06:40 rtc 9eiobpm982: answered",
-  "13:07:51 request received: rid mvs4ottkzzg3v.3 26 keys",
-  "13:07:51 handle mvs4ottkzzg3v.3: first_chunk=True total=26",
-  "13:07:54 request received: rid mvs4ql6vozacw.3 35 keys",
-  "13:07:54 handle mvs4ql6vozacw.3: first_chunk=True total=35",
-  "13:12:05 request mvs4ottkzzg3v.3: chunk of 26 keys done in 255s; paths {'http': 18, 'browser': 3, 'browser-crashed': 86}, browser waits 89 max 247s sum 9303s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 18, 'miss': 58, 'blocked': 0, 'tries': 125, 'empty': 107}, audit 4/4 agree",
-  "13:12:05 request mvs4ql6vozacw.3: chunk of 35 keys done in 251s; paths {'http': 18, 'browser': 3, 'browser-crashed': 86}, browser waits 89 max 247s sum 9303s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 18, 'miss': 58, 'blocked': 0, 'tries': 125, 'empty': 107}, audit 4/4 agree",
-  "13:12:06 request mvs4ottkzzg3v.3: final sent (26/26); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
-  "13:12:06 request mvs4ql6vozacw.3: final sent (35/35); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "15:50:18 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "15:50:25 http front door: ['https://nonprofit-wal-supplement-attorney.trycloudflare.com', 'https://3e22b32ca6222b.lhr.life']",
+  "15:50:25 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "15:51:28 request received: rid httptest1793202688 20 keys",
+  "15:51:28 handle httptest1793202688: first_chunk=True total=20",
+  "15:51:38 request httptest1793202688: chunk of 20 keys done in 9s; paths {'http': 19, 'browser': 1}, browser waits 1 max 4s sum 4s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 12, 'blocked': 0, 'tries': 41, 'empty': 22}, audit 1/1 agree",
+  "15:51:39 request httptest1793202688: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,23 +1,18 @@
 {
- "at": "2026-10-28T04:57:33+00:00",
+ "at": "2026-10-28T05:43:13+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
  "fares_saved": 641,
  "log": [
-  "00:48:25 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:48:29 http front door: ['https://shorter-descending-mazda-people.trycloudflare.com', 'https://e39fa7b98e3eed.lhr.life']",
-  "00:48:29 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:49:34 request received: rid httptest1793148574 20 keys",
-  "00:49:34 handle httptest1793148574: first_chunk=True total=20",
-  "00:49:36 request httptest1793148574: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 24, 'empty': 4}, audit 0/0 agree",
-  "00:49:37 request httptest1793148574: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "04:55:02 rtc pwtw1uuhk8: answered",
-  "04:55:34 request received: rid mvrn4one0ll9p.0 18 keys",
-  "04:55:34 handle mvrn4one0ll9p.0: first_chunk=True total=18",
-  "04:57:21 request mvrn4one0ll9p.0: chunk of 18 keys done in 107s; paths {'http': 24, 'browser-crashed': 14}, browser waits 14 max 94s sum 886s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 24, 'miss': 14, 'blocked': 0, 'tries': 50, 'empty': 26}, audit 6/6 agree",
-  "04:57:23 request mvrn4one0ll9p.0: final sent (18/18); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "05:41:38 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:41:43 http front door: ['https://champagne-offices-implementing-sponsor.trycloudflare.com', 'https://9ae60c4c575c57.lhr.life']",
+  "05:41:43 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "05:42:47 request received: rid httptest1793166167 20 keys",
+  "05:42:47 handle httptest1793166167: first_chunk=True total=20",
+  "05:42:59 request httptest1793166167: chunk of 20 keys done in 12s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 9, 'blocked': 0, 'tries': 30, 'empty': 10}, audit 0/0 agree",
+  "05:43:01 request httptest1793166167: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

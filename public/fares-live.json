@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-28T10:47:58+00:00",
+ "generated_at": "2026-10-28T12:55:30+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -11084,6 +11084,25 @@
     ]
    ]
   },
+  "rt|TPE|TAG|2027-09-15|2027-09-19": {
+   "price": 9064,
+   "by_airline": {
+    "Cebu Pacific": 9064
+   },
+   "first": {
+    "dep": "2027-09-15T03:15:00+08:00",
+    "arr": "2027-09-15T11:20:00+08:00",
+    "stops": 1,
+    "airline": "Cebu Pacific"
+   },
+   "at": "2026-10-28",
+   "hist": [
+    [
+     "2026-10-28",
+     9064
+    ]
+   ]
+  },
   "rt|TPE|UKB|2026-11-06|2027-05-02": {
    "price": 25668,
    "by_airline": {
@@ -15035,7 +15054,7 @@
   "rt|RMQ|DMK|2026-11-20|2026-11-22": {
    "status": "timeout",
    "at": "2026-10-28",
-   "n": 7
+   "n": 8
   },
   "rt|RMQ|DMK|2026-11-20|2026-12-13": {
    "status": "parse_error",
@@ -15600,7 +15619,7 @@
   "rt|RMQ|USM|2026-11-06|2026-11-08": {
    "status": "timeout",
    "at": "2026-10-28",
-   "n": 7
+   "n": 8
   },
   "rt|RMQ|USM|2026-11-06|2026-12-27": {
    "status": "timeout",
@@ -17075,7 +17094,7 @@
   "rt|TSA|TAG|2026-11-06|2026-11-08": {
    "status": "timeout",
    "at": "2026-10-28",
-   "n": 8
+   "n": 9
   },
   "rt|TSA|TAG|2026-11-20|2026-11-22": {
    "status": "timeout",
@@ -17215,7 +17234,7 @@
   "rt|TSA|USM|2027-04-29|2027-05-02": {
    "status": "timeout",
    "at": "2026-10-28",
-   "n": 13
+   "n": 14
   },
   "rt|TSA|USM|2027-09-15|2027-09-19": {
    "status": "timeout",

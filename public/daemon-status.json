@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T06:43:15+00:00",
+ "at": "2026-10-28T06:44:47+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 650,
+ "fares_saved": 656,
  "log": [
   "05:41:38 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "05:41:43 http front door: ['https://champagne-offices-implementing-sponsor.trycloudflare.com', 'https://9ae60c4c575c57.lhr.life']",

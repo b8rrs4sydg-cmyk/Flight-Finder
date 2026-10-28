@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T05:43:28+00:00",
+ "at": "2026-10-28T06:43:30+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 704,
+ "fares_saved": 710,
  "log": [
   "05:41:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "05:41:52 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
@@ -14,6 +14,29 @@
   "05:42:55 request received: rid httptest1793166175 20 keys",
   "05:42:55 handle httptest1793166175: first_chunk=True total=20",
   "05:42:57 request httptest1793166175: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "05:42:59 request httptest1793166175: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:42:59 request httptest1793166175: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "05:44:48 queue: 12 keys from the look-up queue in 109s (0 priced, 0 no flight, 12 failed)",
+  "05:44:48 queue: nothing readable, next try in 180s",
+  "05:49:24 queue: 12 keys from the look-up queue in 97s (0 priced, 0 no flight, 12 failed)",
+  "05:49:24 queue: nothing readable, next try in 300s",
+  "05:56:09 queue: 12 keys from the look-up queue in 104s (0 priced, 0 no flight, 12 failed)",
+  "05:56:09 queue: nothing readable, next try in 540s",
+  "06:06:57 queue: 12 keys from the look-up queue in 108s (2 priced, 0 no flight, 10 failed)",
+  "06:09:46 queue: 12 keys from the look-up queue in 109s (2 priced, 0 no flight, 10 failed)",
+  "06:12:34 queue: 12 keys from the look-up queue in 108s (0 priced, 0 no flight, 12 failed)",
+  "06:12:34 queue: nothing readable, next try in 180s",
+  "06:17:16 queue: 12 keys from the look-up queue in 102s (0 priced, 0 no flight, 12 failed)",
+  "06:17:16 queue: nothing readable, next try in 300s",
+  "06:23:59 queue: 12 keys from the look-up queue in 103s (1 priced, 0 no flight, 11 failed)",
+  "06:26:33 queue: 12 keys from the look-up queue in 94s (0 priced, 0 no flight, 12 failed)",
+  "06:26:33 queue: nothing readable, next try in 180s",
+  "06:27:24 rtc r5emsp7lu3: answered",
+  "06:31:08 queue: 12 keys from the look-up queue in 95s (0 priced, 0 no flight, 12 failed)",
+  "06:31:08 queue: nothing readable, next try in 300s",
+  "06:37:51 queue: 12 keys from the look-up queue in 102s (0 priced, 0 no flight, 12 failed)",
+  "06:37:51 queue: nothing readable, next try in 540s",
+  "06:43:08 rtc cq79s8fbhb: answered",
+  "06:43:10 request received: rid mvrqzf5ab1ivf.4 13 keys",
+  "06:43:10 handle mvrqzf5ab1ivf.4: first_chunk=True total=13"
  ]
 }

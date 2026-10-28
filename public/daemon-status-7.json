@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T18:18:05+00:00",
+ "at": "2026-10-28T18:30:08+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 788,
+ "fares_saved": 790,
  "log": [
   "15:50:41 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:50:47 http front door: ['https://trustees-native-framed-review.trycloudflare.com', 'https://3fb0c8d52086e8.lhr.life']",
@@ -48,6 +48,10 @@
   "18:14:17 handle mvsfnztvh0dav.7: first_chunk=True total=20",
   "18:14:57 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
   "18:16:43 request mvsfnztvh0dav.7: chunk of 20 keys done in 146s; paths {'http': 24, 'browser-crashed': 192}, browser waits 192 max 136s sum 12705s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 24, 'miss': 132, 'blocked': 0, 'tries': 170, 'empty': 146}, audit 0/0 agree",
-  "18:16:43 request mvsfnztvh0dav.7: final sent (20/20); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "18:16:43 request mvsfnztvh0dav.7: final sent (20/20); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "18:29:27 rtc cpoivj2lno: answered",
+  "18:29:34 queue: 12 keys from the look-up queue in 184s (2 priced, 0 no flight, 10 failed)",
+  "18:29:46 request received: rid mvsg828zkdiq5.7 20 keys",
+  "18:29:46 handle mvsg828zkdiq5.7: first_chunk=True total=20"
  ]
 }

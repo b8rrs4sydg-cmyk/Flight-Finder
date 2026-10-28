@@ -1,5 +1,5 @@
 {
- "at": "2026-10-28T10:46:19+00:00",
+ "at": "2026-10-28T10:47:51+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -11,6 +11,8 @@
   "10:44:49 http front door: ['https://musician-improvement-municipal-sweet.trycloudflare.com', 'https://bfcd6cd6644164.lhr.life']",
   "10:44:49 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "10:45:53 request received: rid httptest1793184353 20 keys",
-  "10:45:53 handle httptest1793184353: first_chunk=True total=20"
+  "10:45:53 handle httptest1793184353: first_chunk=True total=20",
+  "10:46:55 request httptest1793184353: chunk of 20 keys done in 62s; paths {'http': 16, 'browser': 3, 'browser-crashed': 1}, browser waits 4 max 61s sum 116s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 16, 'miss': 4, 'blocked': 0, 'tries': 25, 'empty': 9}, audit 3/3 agree",
+  "10:46:56 request httptest1793184353: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

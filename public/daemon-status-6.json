@@ -1,38 +1,19 @@
 {
- "at": "2026-10-28T13:13:41+00:00",
+ "at": "2026-10-28T15:52:07+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
  "fares_saved": 785,
  "log": [
-  "10:44:41 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "10:44:46 http front door: ['https://fall-plots-cancel-watt.trycloudflare.com', 'https://2f8a93851503fc.lhr.life']",
-  "10:44:46 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "10:45:51 request received: rid httptest1793184350 20 keys",
-  "10:45:51 handle httptest1793184350: first_chunk=True total=20",
-  "10:45:56 request httptest1793184350: chunk of 20 keys done in 5s; paths {'http': 17, 'browser': 3}, browser waits 3 max 4s sum 11s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 17, 'miss': 3, 'blocked': 0, 'tries': 29, 'empty': 12}, audit 0/0 agree",
-  "10:45:57 request httptest1793184350: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "12:54:00 rtc icbhmjofuc: answered",
-  "12:54:15 request received: rid mvs48nhu8bs8p.6 18 keys",
-  "12:54:15 handle mvs48nhu8bs8p.6: first_chunk=True total=18",
-  "12:56:34 request mvs48nhu8bs8p.6: chunk of 18 keys done in 139s; paths {'http': 18, 'browser': 3, 'browser-crashed': 17}, browser waits 20 max 124s sum 1185s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 18, 'miss': 20, 'blocked': 0, 'tries': 59, 'empty': 41}, audit 0/0 agree",
-  "12:56:35 request mvs48nhu8bs8p.6: final sent (18/18); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "12:58:51 queue: 12 keys from the look-up queue in 95s (0 priced, 0 no flight, 12 failed)",
-  "12:58:51 queue: nothing readable, next try in 180s",
-  "13:03:39 queue: 12 keys from the look-up queue in 107s (0 priced, 0 no flight, 12 failed)",
-  "13:03:39 queue: nothing readable, next try in 300s",
-  "13:06:41 rtc e6k3wsfxcf: answered",
-  "13:07:51 request received: rid mvs4ottkzzg3v.6 20 keys",
-  "13:07:51 handle mvs4ottkzzg3v.6: first_chunk=True total=20",
-  "13:07:54 request received: rid mvs4ql6vozacw.6 42 keys",
-  "13:07:54 handle mvs4ql6vozacw.6: first_chunk=True total=42",
-  "13:08:54 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "13:09:00 git retry 1: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "13:12:53 request mvs4ql6vozacw.6: chunk of 42 keys done in 299s; paths {'http': 18, 'browser': 3, 'browser-crashed': 85}, browser waits 88 max 296s sum 9911s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 18, 'miss': 70, 'blocked': 0, 'tries': 142, 'empty': 124}, audit 0/0 agree",
-  "13:12:54 request mvs4ql6vozacw.6: final sent (42/42); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
-  "13:12:56 request mvs4ottkzzg3v.6: chunk of 20 keys done in 305s; paths {'http': 18, 'browser': 3, 'browser-crashed': 86}, browser waits 89 max 296s sum 10202s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 18, 'miss': 70, 'blocked': 0, 'tries': 142, 'empty': 124}, audit 0/0 agre",
-  "13:12:58 request mvs4ottkzzg3v.6: final sent (20/20); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "15:50:24 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "15:50:31 git retry 0: b\"eads/main': is at b908383e29c1fd3d9246d26f4f1d7c1e0fa0c363 but expected 03a873a2e2aaacb9a534f524b89b387aab72e295)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "15:50:37 http front door: ['https://strengthening-cancelled-ensure-smallest.trycloudflare.com', 'https://645583f647f1b9.lhr.life']",
+  "15:50:37 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "15:51:32 request received: rid httptest1793202692 20 keys",
+  "15:51:32 handle httptest1793202692: first_chunk=True total=20",
+  "15:51:39 request httptest1793202692: chunk of 20 keys done in 6s; paths {'http': 17, 'browser': 3}, browser waits 3 max 5s sum 14s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 17, 'miss': 3, 'blocked': 0, 'tries': 27, 'empty': 10}, audit 2/2 agree",
+  "15:51:39 request httptest1793202692: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T20:38:21+00:00",
+ "at": "2026-10-28T00:49:56+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 775,
  "log": [
-  "20:36:45 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:36:51 http front door: ['https://trace-upgrading-arrested-mask.trycloudflare.com', 'https://8b321257bb8a07.lhr.life']",
-  "20:36:51 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:37:55 request received: rid httptest1793133474 20 keys",
-  "20:37:55 handle httptest1793133474: first_chunk=True total=20",
-  "20:38:10 request httptest1793133474: chunk of 20 keys done in 16s; paths {'http': 21}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 7, 'blocked': 0, 'tries': 27, 'empty': 6}, audit 0/0 agree",
-  "20:38:11 request httptest1793133474: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:48:21 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:48:26 http front door: ['https://furniture-insurance-earrings-extend.trycloudflare.com', 'https://6efa1dee5a51cc.lhr.life']",
+  "00:48:26 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:49:31 request received: rid httptest1793148571 20 keys",
+  "00:49:31 handle httptest1793148571: first_chunk=True total=20",
+  "00:49:33 request httptest1793148571: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
+  "00:49:34 request httptest1793148571: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,24 +1,18 @@
 {
- "at": "2026-10-28T04:57:54+00:00",
+ "at": "2026-10-28T05:43:22+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
  "fares_saved": 710,
  "log": [
-  "00:48:39 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:48:44 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "00:48:49 http front door: ['https://frames-michel-mills-bubble.trycloudflare.com', 'https://f20044873c8a6a.lhr.life']",
-  "00:48:49 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:49:48 request received: rid httptest1793148588 20 keys",
-  "00:49:48 handle httptest1793148588: first_chunk=True total=20",
-  "00:49:50 request httptest1793148588: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 23, 'empty': 3}, audit 0/0 agree",
-  "00:49:51 request httptest1793148588: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "04:55:02 rtc gfa37vh3xy: answered",
-  "04:55:34 request received: rid mvrn4one0ll9p.1 27 keys",
-  "04:55:34 handle mvrn4one0ll9p.1: first_chunk=True total=27",
-  "04:57:48 request mvrn4one0ll9p.1: chunk of 27 keys done in 134s; paths {'http': 28, 'browser-crashed': 19}, browser waits 19 max 120s sum 1338s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 28, 'miss': 19, 'blocked': 0, 'tries': 59, 'empty': 31}, audit 2/2 agree",
-  "04:57:49 request mvrn4one0ll9p.1: final sent (27/27); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "05:41:46 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:41:52 http front door: ['https://integration-toys-parcel-fabric.trycloudflare.com', 'https://4f1c8ef2d3d521.lhr.life']",
+  "05:41:52 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "05:42:56 request received: rid httptest1793166175 20 keys",
+  "05:42:56 handle httptest1793166175: first_chunk=True total=20",
+  "05:43:07 request httptest1793166175: chunk of 20 keys done in 11s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 10, 'blocked': 0, 'tries': 30, 'empty': 10}, audit 0/0 agree",
+  "05:43:08 request httptest1793166175: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

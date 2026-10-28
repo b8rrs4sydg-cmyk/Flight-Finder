@@ -1,5 +1,5 @@
 {
- "at": "2026-10-28T10:46:27+00:00",
+ "at": "2026-10-28T10:47:58+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -13,6 +13,8 @@
   "10:44:57 http front door: ['https://occur-obj-acts-social.trycloudflare.com', 'https://c9fb5d17ed2b19.lhr.life']",
   "10:44:57 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "10:45:49 request received: rid httptest1793184349 20 keys",
-  "10:45:49 handle httptest1793184349: first_chunk=True total=20"
+  "10:45:49 handle httptest1793184349: first_chunk=True total=20",
+  "10:46:36 request httptest1793184349: chunk of 20 keys done in 47s; paths {'http': 11, 'browser': 9}, browser waits 9 max 46s sum 147s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 11, 'miss': 9, 'blocked': 0, 'tries': 35, 'empty': 24}, audit 0/0 agree",
+  "10:46:38 request httptest1793184349: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

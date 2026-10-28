@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-28T18:17:53+00:00",
+ "generated_at": "2026-10-28T18:29:56+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -15934,6 +15934,11 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|CTU-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-RGN-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|CTU-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-SIN-2026-12-24": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -15994,9 +15999,19 @@
    "at": "2026-10-28",
    "n": 1
   },
+  "mc|FUK-TPE-2027-05-02|TPE-ICN-2027-06-09|ICN-TPE-2027-06-13|TPE-XIY-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|FUK-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-GMP-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|GMP-TPE-2026-11-08|TPE-HAN-2027-06-09|HAN-TPE-2027-06-13|TPE-GMP-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
    "n": 1
   },
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-BKK-2027-02-10": {
@@ -16004,9 +16019,24 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-CTU-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-DPS-2026-12-11": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-DPS-2026-12-24": {
    "status": "timeout",
    "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-HND-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
    "n": 1
   },
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-KMG-2027-02-10": {
@@ -16020,6 +16050,11 @@
    "n": 1
   },
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-XIY-2027-06-09": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-XIY-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-28",
    "n": 1
@@ -16068,6 +16103,16 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 3
+  },
+  "mc|GMP-TPE-2026-11-08|TPE-OKA-2026-11-20|OKA-TPE-2026-11-22|TPE-GMP-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|GMP-TPE-2026-11-08|TPE-OKA-2026-12-11|OKA-TPE-2026-12-13|TPE-BKI-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
   },
   "mc|GMP-TPE-2026-11-08|TPE-OKA-2026-12-11|OKA-TPE-2026-12-13|TPE-SIN-2026-12-24": {
    "status": "timeout",
@@ -16169,6 +16214,16 @@
    "at": "2026-10-28",
    "n": 3
   },
+  "mc|KMG-TPE-2026-11-08|TPE-HAN-2027-06-09|HAN-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-CGK-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-CTU-2026-12-11": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -16177,6 +16232,21 @@
   "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-CTU-2027-02-10": {
    "status": "timeout",
    "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-DAD-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-DPS-2026-12-11": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-PEN-2026-12-11": {
+   "status": "timeout",
+   "at": "2026-10-28",
    "n": 1
   },
   "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-PEN-2027-02-10": {
@@ -16192,6 +16262,11 @@
   "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-SGN-2027-02-10": {
    "status": "timeout",
    "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-XIY-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
    "n": 1
   },
   "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-12-11|HKG-TPE-2026-12-13|TPE-GMP-2027-09-15": {
@@ -16289,6 +16364,21 @@
    "at": "2026-10-27",
    "n": 2
   },
+  "mc|RGN-TPE-2026-11-08|TPE-HKG-2026-12-11|HKG-TPE-2026-12-13|TPE-RGN-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|RGN-TPE-2026-11-08|TPE-HKG-2026-12-11|HKG-TPE-2026-12-13|TPE-XIY-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|RGN-TPE-2026-11-08|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-GMP-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|RGN-TPE-2026-11-08|TPE-MNL-2027-04-29|MNL-TPE-2027-05-02|TPE-GMP-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -16302,6 +16392,16 @@
   "mc|RGN-TPE-2026-11-22|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-GMP-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|RGN-TPE-2027-05-02|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|RGN-TPE-2027-05-02|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-GMP-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
    "n": 1
   },
   "mc|RGN-TPE-2027-05-02|TPE-ICN-2027-06-09|ICN-TPE-2027-06-13|TPE-HND-2027-09-15": {
@@ -16379,6 +16479,11 @@
    "at": "2026-10-27",
    "n": 2
   },
+  "mc|TSN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-RGN-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|TSN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-SIN-2026-12-24": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -16393,6 +16498,21 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 3
+  },
+  "mc|XIY-TPE-2027-05-02|TPE-HAN-2027-06-09|HAN-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|XIY-TPE-2027-05-02|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-GMP-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|XIY-TPE-2027-05-02|TPE-ICN-2027-06-09|ICN-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
   },
   "mc|XIY-TPE-2027-05-02|TPE-ICN-2027-06-09|ICN-TPE-2027-06-13|TPE-DAD-2027-09-15": {
    "status": "timeout",

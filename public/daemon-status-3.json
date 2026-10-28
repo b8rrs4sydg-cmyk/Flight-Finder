@@ -1,7 +1,7 @@
 {
- "at": "2026-10-28T18:17:53+00:00",
+ "at": "2026-10-28T18:29:56+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
@@ -38,6 +38,13 @@
   "18:14:17 request received: rid mvsfnztvh0dav.3 28 keys",
   "18:14:17 handle mvsfnztvh0dav.3: first_chunk=True total=28",
   "18:17:27 request mvsfnztvh0dav.3: chunk of 28 keys done in 190s; paths {'http': 24, 'browser': 1, 'browser-crashed': 145}, browser waits 146 max 177s sum 11146s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 24, 'miss': 134, 'blocked': 0, 'tries': 177, 'empty': 153}, audit 2/2 a",
-  "18:17:28 request mvsfnztvh0dav.3: final sent (28/28); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "18:17:28 request mvsfnztvh0dav.3: final sent (28/28); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "18:20:22 queue: 12 keys from the look-up queue in 168s (0 priced, 0 no flight, 12 failed)",
+  "18:20:22 queue: nothing readable, next try in 180s",
+  "18:26:21 queue: 12 keys from the look-up queue in 179s (0 priced, 0 no flight, 12 failed)",
+  "18:26:21 queue: nothing readable, next try in 300s",
+  "18:29:29 rtc 1umczwsnwv: answered",
+  "18:29:45 request received: rid mvsg828zkdiq5.3 28 keys",
+  "18:29:45 handle mvsg828zkdiq5.3: first_chunk=True total=28"
  ]
 }

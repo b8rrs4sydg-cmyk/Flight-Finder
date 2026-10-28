@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T18:16:56+00:00",
+ "at": "2026-10-28T18:32:03+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 3,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 752,
+ "fares_saved": 754,
  "log": [
   "15:50:22 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:50:28 http front door: ['https://obtaining-sciences-afternoon-discussed.trycloudflare.com', 'https://d52c3bd46e7cd5.lhr.life']",
@@ -52,6 +52,14 @@
   "18:15:04 git retry 2: b\"eads/main': is at 581a14576e2e744eba45b006a55ac8d6c0f4c088 but expected ab1ac8c3fca9175d02c39f6fb5b5f1164be998d9)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "18:15:15 git retry 3: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
   "18:16:42 request mvsfnztvh0dav.5: chunk of 24 keys done in 145s; paths {'http': 21, 'browser-crashed': 204, 'browser': 6}, browser waits 210 max 153s sum 14819s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 140, 'blocked': 0, 'tries': 152, 'empty': 131}, audit 0/0 a",
-  "18:16:44 request mvsfnztvh0dav.5: final sent (24/24); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "18:16:44 request mvsfnztvh0dav.5: final sent (24/24); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "18:16:57 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "18:22:03 queue: 12 keys from the look-up queue in 166s (0 priced, 0 no flight, 12 failed)",
+  "18:22:03 queue: nothing readable, next try in 300s",
+  "18:29:27 rtc 1yto51wsvx: answered",
+  "18:29:45 request received: rid mvsg828zkdiq5.5 22 keys",
+  "18:29:45 handle mvsg828zkdiq5.5: first_chunk=True total=22",
+  "18:30:03 queue: 12 keys from the look-up queue in 179s (0 priced, 0 no flight, 12 failed)",
+  "18:30:03 queue: nothing readable, next try in 540s"
  ]
 }

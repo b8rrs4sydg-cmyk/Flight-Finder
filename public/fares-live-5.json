@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-28T18:16:56+00:00",
+ "generated_at": "2026-10-28T18:32:03+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -3406,6 +3406,26 @@
     ]
    ]
   },
+  "ow|RMQ|SIN|2026-12-11": {
+   "price": 4608,
+   "first": {
+    "dep": "2026-12-11T18:00:00+08:00",
+    "arr": "2026-12-12T13:55:00+08:00",
+    "stops": 1,
+    "airline": "Vietjet"
+   },
+   "by_airline": {
+    "Vietjet": 4608,
+    "Trinity Airways": 12781
+   },
+   "at": "2026-10-28",
+   "hist": [
+    [
+     "2026-10-28",
+     4608
+    ]
+   ]
+  },
   "ow|RMQ|UKB|2027-04-03": {
    "price": 20762,
    "first": {
@@ -3451,6 +3471,26 @@
     [
      "2026-10-22",
      3242
+    ]
+   ]
+  },
+  "ow|SHA|TPE|2027-09-19": {
+   "price": 10552,
+   "first": {
+    "dep": "2027-09-19T13:20:00+08:00",
+    "arr": "2027-09-20T00:35:00+08:00",
+    "stops": 1,
+    "airline": "Cathay Pacific"
+   },
+   "by_airline": {
+    "Cathay Pacific": 10552,
+    "Hainan": 22228
+   },
+   "at": "2026-10-28",
+   "hist": [
+    [
+     "2026-10-28",
+     10552
     ]
    ]
   },
@@ -3550,14 +3590,14 @@
    ]
   },
   "ow|TAG|TSA|2027-06-13": {
-   "price": 37354,
+   "price": 37624,
    "first": {
     "dep": "2027-06-13T07:10:00+08:00",
     "arr": "2027-06-13T21:45:00+08:00",
     "stops": 2,
-    "airline": "Philippine Airlines and EVA Air"
+    "airline": "Philippine Airlines, EVA Air"
    },
-   "at": "2026-10-27",
+   "at": "2026-10-28",
    "hist": [
     [
      "2026-10-24",
@@ -3566,10 +3606,14 @@
     [
      "2026-10-27",
      37354
+    ],
+    [
+     "2026-10-28",
+     37624
     ]
    ],
-   "prev": 37692,
-   "prev_at": "2026-10-24"
+   "prev": 37354,
+   "prev_at": "2026-10-27"
   },
   "ow|TAO|TPE|2027-02-16": {
    "price": 7566,
@@ -14612,7 +14656,6 @@
   "ow|SGN|TPE|2028-01-03",
   "ow|SGN|TSA|2028-01-01",
   "ow|SHA|RMQ|2028-01-02",
-  "ow|SHA|TPE|2027-09-19",
   "ow|SHA|TSA|2027-12-28",
   "ow|SHA|TSA|2028-01-01",
   "ow|SHA|TSA|2028-01-02",
@@ -14806,6 +14849,21 @@
    "at": "2026-10-27",
    "n": 2
   },
+  "mc|CTU-TPE-2026-11-08|TPE-HKG-2026-12-11|HKG-TPE-2026-12-13|TPE-BKI-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|CTU-TPE-2026-11-08|TPE-HKG-2026-12-11|HKG-TPE-2026-12-13|TPE-GMP-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|CTU-TPE-2026-11-08|TPE-HKG-2026-12-11|HKG-TPE-2026-12-13|TPE-RGN-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|DAD-TPE-2026-12-13|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-GMP-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -14814,6 +14872,11 @@
   "mc|DAD-TPE-2026-12-13|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-XIY-2027-04-29": {
    "status": "timeout",
    "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|DAD-TPE-2026-12-13|TPE-HKG-2027-04-29|HKG-TPE-2027-05-02|TPE-BKI-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
    "n": 1
   },
   "mc|DAD-TPE-2026-12-13|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
@@ -14866,6 +14929,11 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|FUK-TPE-2027-05-02|TPE-HAN-2027-06-09|HAN-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|FUK-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-SIN-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -14876,6 +14944,21 @@
    "at": "2026-10-27",
    "n": 5
   },
+  "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-CTU-2026-12-11": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-GMP-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-GMP-2027-06-09": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-GMP-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -14884,6 +14967,16 @@
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-SIN-2027-02-10": {
    "status": "timeout",
    "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|GMP-TPE-2026-11-08|TPE-HKG-2027-04-29|HKG-TPE-2027-05-02|TPE-HND-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|GMP-TPE-2026-11-08|TPE-HKG-2027-04-29|HKG-TPE-2027-05-02|TPE-XIY-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
    "n": 1
   },
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-BKI-2027-09-15": {
@@ -14991,6 +15084,11 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-12-11|HKG-TPE-2026-12-13|TPE-BKI-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-12-11|HKG-TPE-2026-12-13|TPE-DAD-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-28",
@@ -15012,6 +15110,11 @@
    "n": 1
   },
   "mc|KMG-TPE-2026-11-08|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-GMP-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|KMG-TPE-2026-11-08|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-HND-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-28",
    "n": 1
@@ -15086,6 +15189,11 @@
    "at": "2026-10-27",
    "n": 5
   },
+  "mc|RGN-TPE-2026-11-08|TPE-HKG-2026-12-11|HKG-TPE-2026-12-13|TPE-XIY-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|RGN-TPE-2026-11-08|TPE-HKG-2026-12-24|HKG-TPE-2026-12-27|TPE-KUL-2027-02-10": {
    "status": "parse_error",
    "at": "2026-10-27",
@@ -15101,9 +15209,29 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|RGN-TPE-2026-11-08|TPE-OKA-2026-11-20|OKA-TPE-2026-11-22|TPE-GMP-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|RGN-TPE-2026-11-08|TPE-OKA-2026-11-20|OKA-TPE-2026-11-22|TPE-RGN-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|RGN-TPE-2026-11-08|TPE-OKA-2026-11-20|OKA-TPE-2026-11-22|TPE-SIN-2026-12-24": {
    "status": "parse_error",
    "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|RGN-TPE-2026-11-08|TPE-OKA-2026-12-11|OKA-TPE-2026-12-13|TPE-GMP-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|RGN-TPE-2026-11-08|TPE-OKA-2026-12-11|OKA-TPE-2026-12-13|TPE-RGN-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-28",
    "n": 1
   },
   "mc|RGN-TPE-2026-11-22|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
@@ -15121,7 +15249,27 @@
    "at": "2026-10-28",
    "n": 1
   },
+  "mc|RGN-TPE-2027-05-02|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-DAD-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|RGN-TPE-2027-05-02|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-HND-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|RGN-TPE-2027-05-02|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-XIY-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|RGN-TPE-2027-05-02|TPE-ICN-2027-06-09|ICN-TPE-2027-06-13|TPE-DAD-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
+  "mc|SIN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-SIN-2026-12-11": {
    "status": "timeout",
    "at": "2026-10-28",
    "n": 1
@@ -15211,6 +15359,11 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|XIY-TPE-2027-05-02|TPE-HAN-2027-06-09|HAN-TPE-2027-06-13|TPE-XIY-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
+  },
   "mc|XIY-TPE-2027-05-02|TPE-ICN-2027-06-09|ICN-TPE-2027-06-13|TPE-DAD-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-28",
@@ -15222,7 +15375,7 @@
    "n": 1
   },
   "mc|XIY-TPE-2027-05-02|TPE-ICN-2027-06-09|ICN-TPE-2027-06-13|TPE-XIY-2027-09-15": {
-   "status": "parse_error",
+   "status": "timeout",
    "at": "2026-10-28",
    "n": 1
   },
@@ -15230,6 +15383,11 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 2
+  },
+  "mc|XIY-TPE-2027-05-02|TPE-SGN-2027-06-09|SGN-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-28",
+   "n": 1
   },
   "ow|GMP|RMQ|2026-12-13": {
    "status": "timeout",
@@ -15259,7 +15417,7 @@
   "ow|MFM|TSA|2026-11-22": {
    "status": "timeout",
    "at": "2026-10-28",
-   "n": 2
+   "n": 3
   },
   "ow|MMY|RMQ|2027-09-19": {
    "status": "timeout",
@@ -15309,11 +15467,6 @@
   "ow|RMQ|ISG|2026-12-24": {
    "status": "timeout",
    "at": "2026-10-27",
-   "n": 1
-  },
-  "ow|RMQ|SIN|2026-12-11": {
-   "status": "timeout",
-   "at": "2026-10-28",
    "n": 1
   },
   "ow|TPE|PNH|2026-11-06": {
@@ -16694,7 +16847,7 @@
   "rt|RMQ|DMK|2026-12-11|2026-12-13": {
    "status": "timeout",
    "at": "2026-10-28",
-   "n": 2
+   "n": 3
   },
   "rt|RMQ|DMK|2026-12-11|2027-05-02": {
    "status": "timeout",
@@ -16819,7 +16972,7 @@
   "rt|RMQ|GMP|2027-06-09|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-28",
-   "n": 2
+   "n": 3
   },
   "rt|RMQ|GMP|2027-06-09|2027-09-19": {
    "status": "timeout",
@@ -17039,7 +17192,7 @@
   "rt|RMQ|TAG|2026-12-11|2026-12-13": {
    "status": "timeout",
    "at": "2026-10-28",
-   "n": 2
+   "n": 3
   },
   "rt|RMQ|TAG|2027-04-29|2027-05-02": {
    "status": "timeout",
@@ -17699,7 +17852,7 @@
   "rt|TPE|UEO|2027-04-29|2027-05-02": {
    "status": "timeout",
    "at": "2026-10-28",
-   "n": 2
+   "n": 3
   },
   "rt|TPE|UEO|2027-06-09|2027-06-13": {
    "status": "timeout",
@@ -17774,7 +17927,7 @@
   "rt|TPE|UTP|2027-06-09|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-28",
-   "n": 2
+   "n": 3
   },
   "rt|TPE|UTP|2027-06-09|2027-09-19": {
    "status": "timeout",
@@ -18304,7 +18457,7 @@
   "rt|TSA|MFM|2027-04-29|2027-05-02": {
    "status": "timeout",
    "at": "2026-10-28",
-   "n": 2
+   "n": 3
   },
   "rt|TSA|MFM|2027-09-15|2027-09-19": {
    "status": "timeout",
@@ -18564,7 +18717,7 @@
   "rt|TSA|UEO|2027-06-09|2027-06-13": {
    "status": "timeout",
    "at": "2026-10-28",
-   "n": 2
+   "n": 3
   },
   "rt|TSA|UEO|2027-06-09|2027-09-19": {
    "status": "timeout",
@@ -18594,7 +18747,7 @@
   "rt|TSA|USM|2026-12-11|2026-12-13": {
    "status": "timeout",
    "at": "2026-10-28",
-   "n": 2
+   "n": 3
   },
   "rt|TSA|USM|2026-12-11|2027-05-02": {
    "status": "timeout",
@@ -18634,7 +18787,7 @@
   "rt|TSA|UTP|2026-11-06|2026-11-08": {
    "status": "timeout",
    "at": "2026-10-28",
-   "n": 2
+   "n": 3
   },
   "rt|TSA|UTP|2026-11-06|2026-11-22": {
    "status": "parse_error",

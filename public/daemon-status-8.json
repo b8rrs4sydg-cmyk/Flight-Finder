@@ -1,34 +1,17 @@
 {
- "at": "2026-10-28T06:46:10+00:00",
+ "at": "2026-10-28T10:46:20+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
  "fares_saved": 770,
  "log": [
-  "05:41:31 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "05:41:36 http front door: ['https://classification-ocean-bernard-aquatic.trycloudflare.com', 'https://9057ec4a36401a.lhr.life']",
-  "05:41:36 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "05:42:41 request received: rid httptest1793166161 20 keys",
-  "05:42:41 handle httptest1793166161: first_chunk=True total=20",
-  "05:42:47 request httptest1793166161: chunk of 20 keys done in 6s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 10, 'blocked': 0, 'tries': 36, 'empty': 16}, audit 0/0 agree",
-  "05:42:48 request httptest1793166161: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "05:44:20 queue: 12 keys from the look-up queue in 104s (0 priced, 0 no flight, 12 failed)",
-  "05:44:20 queue: nothing readable, next try in 180s",
-  "05:48:54 queue: 12 keys from the look-up queue in 93s (0 priced, 0 no flight, 12 failed)",
-  "05:48:54 queue: nothing readable, next try in 300s",
-  "05:55:54 queue: 12 keys from the look-up queue in 120s (0 priced, 0 no flight, 12 failed)",
-  "05:55:54 queue: nothing readable, next try in 540s",
-  "06:06:34 queue: 12 keys from the look-up queue in 99s (0 priced, 0 no flight, 12 failed)",
-  "06:06:34 queue: nothing readable, next try in 1020s",
-  "06:25:23 queue: 12 keys from the look-up queue in 110s (0 priced, 0 no flight, 12 failed)",
-  "06:25:23 queue: nothing readable, next try in 1860s",
-  "06:27:24 rtc frj7ubxrfe: answered",
-  "06:43:08 rtc 43pkn27ch5: answered",
-  "06:43:10 request received: rid mvrqzf5ab1ivf.8 10 keys",
-  "06:43:10 handle mvrqzf5ab1ivf.8: first_chunk=True total=10",
-  "06:45:01 request mvrqzf5ab1ivf.8: chunk of 10 keys done in 112s; paths {'http': 21, 'browser-crashed': 65, 'browser': 4}, browser waits 69 max 98s sum 4124s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 57, 'blocked': 0, 'tries': 79, 'empty': 58}, audit 2/2 agree",
-  "06:45:03 request mvrqzf5ab1ivf.8: final sent (10/10); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "10:44:40 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "10:44:45 git retry 0: b\"eads/main': is at e50b3ed5f7e0aa7c963672b01305f5e3862f3d31 but expected c5305d7e8cf70fadb949dd64a640d7cea085e712)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "10:44:50 http front door: ['https://clocks-participation-durham-away.trycloudflare.com', 'https://b9ec6de819e7d5.lhr.life']",
+  "10:44:50 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "10:45:49 request received: rid httptest1793184349 20 keys",
+  "10:45:49 handle httptest1793184349: first_chunk=True total=20"
  ]
 }

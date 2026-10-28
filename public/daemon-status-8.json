@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T00:50:21+00:00",
+ "at": "2026-10-28T04:56:23+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 762,
+ "fares_saved": 765,
  "log": [
   "00:48:46 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "00:48:51 http front door: ['https://noble-conclude-instead-patient.trycloudflare.com', 'https://b71b5d545cc349.lhr.life']",
@@ -13,6 +13,9 @@
   "00:49:54 request received: rid httptest1793148593 20 keys",
   "00:49:54 handle httptest1793148593: first_chunk=True total=20",
   "00:50:01 request httptest1793148593: chunk of 20 keys done in 7s; paths {'http': 19, 'browser': 1}, browser waits 1 max 6s sum 6s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 22, 'empty': 3}, audit 4/4 agree",
-  "00:50:01 request httptest1793148593: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:50:01 request httptest1793148593: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "04:55:04 rtc fyu0j5wve4: answered",
+  "04:55:34 request received: rid mvrn4one0ll9p.5 20 keys",
+  "04:55:34 handle mvrn4one0ll9p.5: first_chunk=True total=20"
  ]
 }

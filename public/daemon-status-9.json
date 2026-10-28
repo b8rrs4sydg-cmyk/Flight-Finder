@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T12:56:27+00:00",
+ "at": "2026-10-28T13:08:29+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 751,
+ "fares_saved": 752,
  "log": [
   "10:45:46 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:50 http front door: ['https://cursor-advanced-treasury-beam.trycloudflare.com', 'https://afc62819f2c9da.lhr.life']",
@@ -18,6 +18,15 @@
   "12:54:15 request received: rid mvs48nhu8bs8p.9 15 keys",
   "12:54:15 handle mvs48nhu8bs8p.9: first_chunk=True total=15",
   "12:56:01 request mvs48nhu8bs8p.9: chunk of 15 keys done in 106s; paths {'http': 15, 'browser': 6, 'browser-crashed': 14}, browser waits 20 max 99s sum 984s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 15, 'miss': 20, 'blocked': 0, 'tries': 52, 'empty': 37}, audit 3/3 agree",
-  "12:56:02 request mvs48nhu8bs8p.9: final sent (15/15); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "12:56:02 request mvs48nhu8bs8p.9: final sent (15/15); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:57:54 queue: 12 keys from the look-up queue in 98s (0 priced, 0 no flight, 12 failed)",
+  "12:57:54 queue: nothing readable, next try in 180s",
+  "13:02:30 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "13:02:30 queue: nothing readable, next try in 300s",
+  "13:06:50 rtc 74y3qq0109: answered",
+  "13:07:51 request received: rid mvs4ottkzzg3v.8 19 keys",
+  "13:07:51 handle mvs4ottkzzg3v.8: first_chunk=True total=19",
+  "13:07:54 request received: rid mvs4ql6vozacw.9 36 keys",
+  "13:07:54 handle mvs4ql6vozacw.9: first_chunk=True total=36"
  ]
 }

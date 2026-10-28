@@ -1,34 +1,16 @@
 {
- "at": "2026-10-28T13:12:14+00:00",
+ "at": "2026-10-28T15:52:27+00:00",
  "publishes": {
-  "ok": 2,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
  "fares_saved": 813,
  "log": [
-  "10:44:50 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "10:44:55 http front door: ['https://old-interracial-termination-museum.trycloudflare.com', 'https://476cc31b4f75dd.lhr.life']",
-  "10:44:55 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "10:45:59 request received: rid httptest1793184358 20 keys",
-  "10:45:59 handle httptest1793184358: first_chunk=True total=20",
-  "10:46:07 request httptest1793184358: chunk of 20 keys done in 8s; paths {'http': 13, 'browser': 7}, browser waits 7 max 7s sum 45s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 13, 'miss': 7, 'blocked': 0, 'tries': 31, 'empty': 18}, audit 0/0 agree",
-  "10:46:08 request httptest1793184358: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "10:46:27 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "12:54:10 rtc frqw8udoor: answered",
-  "12:54:15 request received: rid mvs48nhu8bs8p.2 17 keys",
-  "12:54:15 handle mvs48nhu8bs8p.2: first_chunk=True total=17",
-  "12:56:01 request mvs48nhu8bs8p.2: chunk of 17 keys done in 106s; paths {'http': 14, 'browser': 7, 'browser-crashed': 16}, browser waits 23 max 101s sum 1082s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 14, 'miss': 23, 'blocked': 0, 'tries': 62, 'empty': 48}, audit 1/1 agree",
-  "12:56:02 request mvs48nhu8bs8p.2: final sent (17/17); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "12:57:50 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
-  "12:57:50 queue: nothing readable, next try in 180s",
-  "13:02:28 queue: 12 keys from the look-up queue in 97s (0 priced, 0 no flight, 12 failed)",
-  "13:02:28 queue: nothing readable, next try in 300s",
-  "13:06:34 rtc d7vmgad5ap: answered",
-  "13:07:51 request received: rid mvs4ottkzzg3v.2 17 keys",
-  "13:07:51 handle mvs4ottkzzg3v.2: first_chunk=True total=17",
-  "13:07:54 request received: rid mvs4ql6vozacw.2 39 keys",
-  "13:07:54 handle mvs4ql6vozacw.2: first_chunk=True total=39",
-  "13:09:08 git retry 0: b\"eads/main': is at 48acd2861733df6d254e464de9b50fd33dc8baec but expected 50f374e85e8cd420348a33b1f6b6a295d7617ccb)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\""
+  "15:50:52 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "15:50:57 http front door: ['https://speaking-fly-chubby-rest.trycloudflare.com', 'https://f214055be28270.lhr.life']",
+  "15:50:57 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "15:51:59 request received: rid httptest1793202719 20 keys",
+  "15:51:59 handle httptest1793202719: first_chunk=True total=20"
  ]
 }

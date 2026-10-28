@@ -1,5 +1,5 @@
 {
- "at": "2026-10-28T10:46:10+00:00",
+ "at": "2026-10-28T10:47:43+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -11,6 +11,8 @@
   "10:44:40 http front door: ['https://tool-subsidiaries-republican-housing.trycloudflare.com', 'https://445acdb469c64e.lhr.life']",
   "10:44:40 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "10:45:44 request received: rid httptest1793184343 20 keys",
-  "10:45:44 handle httptest1793184343: first_chunk=True total=20"
+  "10:45:44 handle httptest1793184343: first_chunk=True total=20",
+  "10:46:45 request httptest1793184343: chunk of 20 keys done in 62s; paths {'http': 12, 'browser': 7, 'browser-crashed': 1}, browser waits 8 max 61s sum 179s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 12, 'miss': 8, 'blocked': 0, 'tries': 32, 'empty': 20}, audit 0/0 agree",
+  "10:46:48 request httptest1793184343: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

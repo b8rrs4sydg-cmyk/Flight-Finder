@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T05:43:13+00:00",
+ "at": "2026-10-28T06:43:15+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 641,
+ "fares_saved": 650,
  "log": [
   "05:41:38 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "05:41:43 http front door: ['https://champagne-offices-implementing-sponsor.trycloudflare.com', 'https://9ae60c4c575c57.lhr.life']",
@@ -13,6 +13,25 @@
   "05:42:47 request received: rid httptest1793166167 20 keys",
   "05:42:47 handle httptest1793166167: first_chunk=True total=20",
   "05:42:59 request httptest1793166167: chunk of 20 keys done in 12s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 9, 'blocked': 0, 'tries': 30, 'empty': 10}, audit 0/0 agree",
-  "05:43:01 request httptest1793166167: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:43:01 request httptest1793166167: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "05:44:09 queue: 12 keys from the look-up queue in 86s (0 priced, 0 no flight, 12 failed)",
+  "05:44:09 queue: nothing readable, next try in 180s",
+  "05:48:45 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "05:48:45 queue: nothing readable, next try in 300s",
+  "05:55:34 queue: 12 keys from the look-up queue in 109s (0 priced, 0 no flight, 12 failed)",
+  "05:55:34 queue: nothing readable, next try in 540s",
+  "06:06:15 queue: 12 keys from the look-up queue in 100s (0 priced, 0 no flight, 12 failed)",
+  "06:06:15 queue: nothing readable, next try in 1020s",
+  "06:25:05 queue: 12 keys from the look-up queue in 110s (2 priced, 0 no flight, 10 failed)",
+  "06:27:24 rtc 3wudubper1: answered",
+  "06:27:52 queue: 12 keys from the look-up queue in 107s (0 priced, 0 no flight, 12 failed)",
+  "06:27:52 queue: nothing readable, next try in 180s",
+  "06:32:40 queue: 12 keys from the look-up queue in 108s (0 priced, 0 no flight, 12 failed)",
+  "06:32:40 queue: nothing readable, next try in 300s",
+  "06:39:34 queue: 12 keys from the look-up queue in 114s (3 priced, 0 no flight, 9 failed)",
+  "06:41:49 queue: 12 keys from the look-up queue in 75s (4 priced, 0 no flight, 8 failed)",
+  "06:43:08 rtc xo39xlqres: answered",
+  "06:43:10 request received: rid mvrqzf5ab1ivf.0 17 keys",
+  "06:43:10 handle mvrqzf5ab1ivf.0: first_chunk=True total=17"
  ]
 }

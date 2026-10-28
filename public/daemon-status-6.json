@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T00:49:56+00:00",
+ "at": "2026-10-28T04:55:58+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 775,
+ "fares_saved": 779,
  "log": [
   "00:48:21 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "00:48:26 http front door: ['https://furniture-insurance-earrings-extend.trycloudflare.com', 'https://6efa1dee5a51cc.lhr.life']",
@@ -13,6 +13,9 @@
   "00:49:31 request received: rid httptest1793148571 20 keys",
   "00:49:31 handle httptest1793148571: first_chunk=True total=20",
   "00:49:33 request httptest1793148571: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
-  "00:49:34 request httptest1793148571: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:49:34 request httptest1793148571: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "04:55:04 rtc vgy1gavko7: answered",
+  "04:55:34 request received: rid mvrn4one0ll9p.4 30 keys",
+  "04:55:34 handle mvrn4one0ll9p.4: first_chunk=True total=30"
  ]
 }

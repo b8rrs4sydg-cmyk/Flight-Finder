@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-28T00:49:59+00:00",
+ "generated_at": "2026-10-28T04:56:01+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -1800,6 +1800,22 @@
     ]
    ]
   },
+  "ow|DPS|TSA|2027-06-13": {
+   "price": 60266,
+   "first": {
+    "dep": "2027-06-13T18:50:00+08:00",
+    "arr": "2027-06-14T18:15:00+08:00",
+    "stops": 2,
+    "airline": "Cathay Pacific, China Airlines"
+   },
+   "at": "2026-10-28",
+   "hist": [
+    [
+     "2026-10-28",
+     60266
+    ]
+   ]
+  },
   "ow|FUK|RMQ|2026-12-20": {
    "price": 6313,
    "first": {
@@ -1955,6 +1971,25 @@
     [
      "2026-10-27",
      13843
+    ]
+   ]
+  },
+  "ow|HKG|TSA|2027-05-02": {
+   "price": 37012,
+   "first": {
+    "dep": "2027-05-02T09:35:00+08:00",
+    "arr": "2027-05-02T21:45:00+08:00",
+    "stops": 1,
+    "airline": "Cathay Pacific, EVA Air"
+   },
+   "by_airline": {
+    "ANA": 74027
+   },
+   "at": "2026-10-28",
+   "hist": [
+    [
+     "2026-10-28",
+     37012
     ]
    ]
   },
@@ -2142,6 +2177,46 @@
     [
      "2026-10-22",
      11100
+    ]
+   ]
+  },
+  "ow|KLO|TPE|2026-11-08": {
+   "price": 5654,
+   "first": {
+    "dep": "2026-11-08T11:50:00+08:00",
+    "arr": "2026-11-09T00:00:00+08:00",
+    "stops": 1,
+    "airline": "Philippines AirAsia"
+   },
+   "by_airline": {
+    "Philippines AirAsia": 5654,
+    "Cebu Pacific": 5697
+   },
+   "at": "2026-10-28",
+   "hist": [
+    [
+     "2026-10-28",
+     5654
+    ]
+   ]
+  },
+  "ow|KLO|TPE|2026-11-22": {
+   "price": 5913,
+   "first": {
+    "dep": "2026-11-22T22:00:00+08:00",
+    "arr": "2026-11-23T09:05:00+08:00",
+    "stops": 1,
+    "airline": "Philippines AirAsia"
+   },
+   "by_airline": {
+    "Philippines AirAsia": 5913,
+    "Cebu Pacific": 6001
+   },
+   "at": "2026-10-28",
+   "hist": [
+    [
+     "2026-10-28",
+     5913
     ]
    ]
   },

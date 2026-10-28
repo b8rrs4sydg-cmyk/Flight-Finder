@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T17:55:01+00:00",
+ "at": "2026-10-28T17:56:33+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 750,
+ "fares_saved": 751,
  "log": [
   "15:50:22 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "15:50:28 http front door: ['https://obtaining-sciences-afternoon-discussed.trycloudflare.com', 'https://d52c3bd46e7cd5.lhr.life']",

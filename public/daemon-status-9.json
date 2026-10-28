@@ -1,11 +1,11 @@
 {
- "at": "2026-10-28T12:54:55+00:00",
+ "at": "2026-10-28T12:56:27+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 750,
+ "fares_saved": 751,
  "log": [
   "10:45:46 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:50 http front door: ['https://cursor-advanced-treasury-beam.trycloudflare.com', 'https://afc62819f2c9da.lhr.life']",
@@ -16,6 +16,8 @@
   "10:47:37 request httptest1793184411: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
   "12:54:06 rtc 5gjmw10xrr: answered",
   "12:54:15 request received: rid mvs48nhu8bs8p.9 15 keys",
-  "12:54:15 handle mvs48nhu8bs8p.9: first_chunk=True total=15"
+  "12:54:15 handle mvs48nhu8bs8p.9: first_chunk=True total=15",
+  "12:56:01 request mvs48nhu8bs8p.9: chunk of 15 keys done in 106s; paths {'http': 15, 'browser': 6, 'browser-crashed': 14}, browser waits 20 max 99s sum 984s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 15, 'miss': 20, 'blocked': 0, 'tries': 52, 'empty': 37}, audit 3/3 agree",
+  "12:56:02 request mvs48nhu8bs8p.9: final sent (15/15); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

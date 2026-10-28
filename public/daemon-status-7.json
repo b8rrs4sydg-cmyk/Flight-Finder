@@ -1,5 +1,5 @@
 {
- "at": "2026-10-28T00:50:00+00:00",
+ "at": "2026-10-28T05:43:40+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 768,
  "log": [
-  "00:48:27 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:48:30 http front door: ['https://ministers-printers-density-slowly.trycloudflare.com', 'https://2a61bb9dbe4ebb.lhr.life']",
-  "00:48:30 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:49:36 request received: rid httptest1793148575 20 keys",
-  "00:49:36 handle httptest1793148575: first_chunk=True total=20",
-  "00:49:38 request httptest1793148575: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "00:49:39 request httptest1793148575: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:42:05 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:42:10 http front door: ['https://flags-consolidation-internationally-fitness.trycloudflare.com', 'https://a3384c5ab1b255.lhr.life']",
+  "05:42:10 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "05:43:14 request received: rid httptest1793166194 20 keys",
+  "05:43:14 handle httptest1793166194: first_chunk=True total=20",
+  "05:43:25 request httptest1793166194: chunk of 20 keys done in 11s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 10, 'blocked': 0, 'tries': 28, 'empty': 8}, audit 0/0 agree",
+  "05:43:26 request httptest1793166194: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

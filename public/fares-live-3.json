@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-29T13:24:06+00:00",
+ "generated_at": "2026-10-29T15:53:01+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -6338,7 +6338,7 @@
     "Scoot": 3232,
     "Tigerair Taiwan": 3999,
     "Hong Kong Express": 5261,
-    "Jeju Air": 5827
+    "Jeju Air": 5825
    },
    "at": "2026-10-29",
    "hist": [
@@ -6402,7 +6402,7 @@
     "Scoot": 3232,
     "Tigerair Taiwan": 3999,
     "Hong Kong Express": 5261,
-    "Jeju Air": 5827
+    "Jeju Air": 5825
    },
    "at": "2026-10-29",
    "hist": [
@@ -6434,7 +6434,7 @@
     "Scoot": 3988,
     "Tigerair Taiwan": 4399,
     "Shandong": 5294,
-    "Jeju Air": 5827
+    "Jeju Air": 5825
    },
    "at": "2026-10-29",
    "hist": [

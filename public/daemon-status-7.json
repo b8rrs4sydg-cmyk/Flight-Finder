@@ -1,11 +1,11 @@
 {
- "at": "2026-10-29T12:57:10+00:00",
+ "at": "2026-10-29T13:09:13+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 794,
+ "fares_saved": 799,
  "log": [
   "10:45:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:08 http front door: ['https://storm-acids-icon-grey.trycloudflare.com', 'https://d98ef16348ea51.lhr.life']",
@@ -19,6 +19,10 @@
   "12:56:01 request received: rid mvtjr2dx1ol3n.7 2 keys",
   "12:56:01 handle mvtjr2dx1ol3n.7: first_chunk=True total=2",
   "12:56:05 request mvtjr2dx1ol3n.7: chunk of 2 keys done in 4s; paths {'http': 22}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 0, 'blocked': 0, 'tries': 26, 'empty': 4}, audit 1/1 agree",
-  "12:56:06 request mvtjr2dx1ol3n.7: final sent (2/2); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "12:56:06 request mvtjr2dx1ol3n.7: final sent (2/2); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "13:08:16 request received: rid mvtk6x2xj14cw.7 16 keys",
+  "13:08:16 handle mvtk6x2xj14cw.7: first_chunk=True total=16",
+  "13:08:32 request mvtk6x2xj14cw.7: chunk of 16 keys done in 15s; paths {'http': 36, 'browser-crashed': 1, 'browser': 1}, browser waits 2 max 3s sum 5s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 36, 'miss': 2, 'blocked': 0, 'tries': 41, 'empty': 5}, audit 5/5 agree",
+  "13:08:33 request mvtk6x2xj14cw.7: final sent (16/16); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,36 +1,18 @@
 {
- "at": "2026-10-29T13:24:39+00:00",
+ "at": "2026-10-29T15:53:13+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
  "fares_saved": 803,
  "log": [
-  "10:45:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "10:45:09 git retry 0: b\"eads/main': is at 74ffb82c2e6d2a99b0f9601eecf955393973ace1 but expected 4fd1de00d57532968930e691b0049da1e4cfb5ea)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "10:45:16 http front door: ['https://himself-citations-bond-accessibility.trycloudflare.com', 'https://1180df37aa8456.lhr.life']",
-  "10:45:16 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "10:46:08 request received: rid httptest1793270768 20 keys",
-  "10:46:08 handle httptest1793270768: first_chunk=True total=20",
-  "10:46:10 request httptest1793270768: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "10:46:12 request httptest1793270768: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "12:55:59 rtc fbbc1i3dvw: answered",
-  "12:56:01 rtc fbbc1i3dvw: data channel open",
-  "13:08:16 request received: rid mvtk6x2xj14cw.6 9 keys",
-  "13:08:16 handle mvtk6x2xj14cw.6: first_chunk=True total=9",
-  "13:08:38 request mvtk6x2xj14cw.6: chunk of 9 keys done in 21s; paths {'http': 26, 'browser': 3}, browser waits 3 max 9s sum 14s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 26, 'miss': 3, 'blocked': 0, 'tries': 27, 'empty': 1}, audit 3/3 agree",
-  "13:08:39 request mvtk6x2xj14cw.6: final sent (9/9); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "13:09:19 git retry 0: b\"eads/main': is at 3546963c0a92a89bed985b8f02e86cfc80907abb but expected 35ce20e3c4d9366da835c8bc0431ab86601eaeb1)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "13:19:41 request received: rid mvtkllldb9ot5.6 12 keys",
-  "13:19:41 handle mvtkllldb9ot5.6: first_chunk=True total=12",
-  "13:19:57 git retry 0: b\"eads/main': is at 4bbfe8d9dbb8392629ee9dc4838426d8f85f25f5 but expected f30cfc3c03edcbbf11fa23666e6585468bb6fc4f)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "13:20:42 request mvtkllldb9ot5.6: chunk of 12 keys done in 61s; paths {'http': 37, 'browser': 3, 'browser-crashed': 1}, browser waits 4 max 48s sum 62s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 37, 'miss': 4, 'blocked': 0, 'tries': 38, 'empty': 1}, audit 3/3 agree",
-  "13:20:45 request mvtkllldb9ot5.6: final sent (12/12); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "13:21:34 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "13:23:10 request received: rid mvtkq2rgz6dot.6 17 keys",
-  "13:23:10 handle mvtkq2rgz6dot.6: first_chunk=True total=17",
-  "13:24:13 request mvtkq2rgz6dot.6: chunk of 17 keys done in 63s; paths {'http': 53, 'browser': 3, 'browser-crashed': 2}, browser waits 5 max 49s sum 111s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 53, 'miss': 5, 'blocked': 0, 'tries': 54, 'empty': 1}, audit 3/3 agree",
-  "13:24:14 request mvtkq2rgz6dot.6: final sent (17/17); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "15:51:38 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "15:51:43 http front door: ['https://firmware-quest-terms-eva.trycloudflare.com', 'https://8dcf67114ac1b7.lhr.life']",
+  "15:51:43 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "15:52:48 request received: rid httptest1793289167 20 keys",
+  "15:52:48 handle httptest1793289167: first_chunk=True total=20",
+  "15:52:50 request httptest1793289167: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "15:52:52 request httptest1793289167: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

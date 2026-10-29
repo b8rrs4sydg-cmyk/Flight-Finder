@@ -1,36 +1,20 @@
 {
- "at": "2026-10-29T13:24:01+00:00",
+ "at": "2026-10-29T15:53:18+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
  "fares_saved": 782,
  "log": [
-  "10:44:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "10:44:53 http front door: ['https://specify-holly-equipped-aspects.trycloudflare.com', 'https://0655525bdf7bb5.lhr.life']",
-  "10:44:53 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "10:45:58 request received: rid httptest1793270757 20 keys",
-  "10:45:58 handle httptest1793270757: first_chunk=True total=20",
-  "10:45:59 request httptest1793270757: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
-  "10:45:59 request httptest1793270757: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "12:55:58 rtc vmn0ifknln: answered",
-  "12:56:00 rtc vmn0ifknln: data channel open",
-  "12:56:01 request received: rid mvtjr2dx1ol3n.9 1 keys",
-  "12:56:01 handle mvtjr2dx1ol3n.9: first_chunk=True total=1",
-  "12:56:06 request mvtjr2dx1ol3n.9: chunk of 1 keys done in 5s; paths {'http': 21}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 0, 'blocked': 0, 'tries': 23, 'empty': 2}, audit 2/2 agree",
-  "12:56:07 request mvtjr2dx1ol3n.9: final sent (1/1); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "13:08:16 request received: rid mvtk6x2xj14cw.9 14 keys",
-  "13:08:16 handle mvtk6x2xj14cw.9: first_chunk=True total=14",
-  "13:08:40 request mvtk6x2xj14cw.9: chunk of 14 keys done in 24s; paths {'http': 33, 'browser': 2}, browser waits 2 max 11s sum 14s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 33, 'miss': 2, 'blocked': 0, 'tries': 35, 'empty': 2}, audit 3/3 agree",
-  "13:08:42 request mvtk6x2xj14cw.9: final sent (14/14); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "13:19:41 request received: rid mvtkllldb9ot5.9 12 keys",
-  "13:19:41 handle mvtkllldb9ot5.9: first_chunk=True total=12",
-  "13:19:51 request mvtkllldb9ot5.9: chunk of 12 keys done in 10s; paths {'http': 45, 'browser': 2}, browser waits 2 max 11s sum 14s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 45, 'miss': 2, 'blocked': 0, 'tries': 50, 'empty': 5}, audit 3/3 agree",
-  "13:19:53 request mvtkllldb9ot5.9: final sent (12/12); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "13:23:10 request received: rid mvtkq2rgz6dot.9 11 keys",
-  "13:23:10 handle mvtkq2rgz6dot.9: first_chunk=True total=11",
-  "13:23:11 request mvtkq2rgz6dot.9: chunk of 11 keys done in 1s; paths {'http': 55, 'browser': 2}, browser waits 2 max 11s sum 14s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 55, 'miss': 2, 'blocked': 0, 'tries': 61, 'empty': 6}, audit 3/3 agree",
-  "13:23:11 request mvtkq2rgz6dot.9: final sent (11/11); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "15:51:28 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "15:51:34 git retry 0: b\"eads/main': is at ffee3d9aa91b3f7ec571a3920ca8b55eece97ff1 but expected 29cd1ab5ef6131ffb2fd0bacf8e3d44d6198e271)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "15:51:40 git retry 1: b\"eads/main': is at d9908ccc97ed132fbd436b68027aeb53f28ab09f but expected 2126101c9951fc0e0ce66c1941f6e9a09f03eaa5)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "15:51:48 http front door: ['https://smell-euros-removing-hear.trycloudflare.com', 'https://f7484683facf8a.lhr.life']",
+  "15:51:48 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "15:52:37 request received: rid httptest1793289157 20 keys",
+  "15:52:37 handle httptest1793289157: first_chunk=True total=20",
+  "15:52:39 request httptest1793289157: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "15:52:40 request httptest1793289157: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

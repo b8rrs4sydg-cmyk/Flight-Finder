@@ -1,11 +1,11 @@
 {
- "at": "2026-10-29T13:10:39+00:00",
+ "at": "2026-10-29T13:21:11+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 728,
+ "fares_saved": 730,
  "log": [
   "10:44:49 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:44:54 http front door: ['https://donated-opt-furniture-provided.trycloudflare.com', 'https://00fdcfcaaadf3b.lhr.life']",
@@ -25,6 +25,10 @@
   "13:08:59 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
   "13:09:03 git retry 1: b\"eads/main': is at cd66c5488ae02c0ad2ca70fd70638074366b8df3 but expected 649a508c342139a9a6ff4c39fe67e7199c48c69b)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "13:09:47 request mvtk6x2xj14cw.1: chunk of 18 keys done in 91s; paths {'http': 32, 'browser': 3, 'browser-crashed': 4}, browser waits 7 max 76s sum 283s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 32, 'miss': 7, 'blocked': 0, 'tries': 43, 'empty': 11}, audit 5/5 agree",
-  "13:09:48 request mvtk6x2xj14cw.1: final sent (18/18); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "13:09:48 request mvtk6x2xj14cw.1: final sent (18/18); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "13:19:41 request received: rid mvtkllldb9ot5.1 13 keys",
+  "13:19:41 handle mvtkllldb9ot5.1: first_chunk=True total=13",
+  "13:20:43 request mvtkllldb9ot5.1: chunk of 13 keys done in 61s; paths {'http': 42, 'browser': 3, 'browser-crashed': 7}, browser waits 10 max 76s sum 427s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 42, 'miss': 10, 'blocked': 0, 'tries': 58, 'empty': 16}, audit 5/5 agree",
+  "13:20:45 request mvtkllldb9ot5.1: final sent (13/13); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

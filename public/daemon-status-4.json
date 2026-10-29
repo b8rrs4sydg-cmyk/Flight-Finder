@@ -1,11 +1,11 @@
 {
- "at": "2026-10-29T10:46:34+00:00",
+ "at": "2026-10-29T12:57:06+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 719,
+ "fares_saved": 721,
  "log": [
   "10:44:51 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:44:55 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
@@ -15,6 +15,12 @@
   "10:46:00 request received: rid httptest1793270760 20 keys",
   "10:46:00 handle httptest1793270760: first_chunk=True total=20",
   "10:46:01 request httptest1793270760: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "10:46:02 request httptest1793270760: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:46:02 request httptest1793270760: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "12:55:59 rtc u1p8c49gir: answered",
+  "12:56:01 rtc u1p8c49gir: data channel open",
+  "12:56:01 request received: rid mvtjr2dx1ol3n.4 2 keys",
+  "12:56:01 handle mvtjr2dx1ol3n.4: first_chunk=True total=2",
+  "12:56:06 request mvtjr2dx1ol3n.4: chunk of 2 keys done in 6s; paths {'http': 22}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 0}, audit 2/2 agree",
+  "12:56:08 request mvtjr2dx1ol3n.4: final sent (2/2); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

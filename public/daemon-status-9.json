@@ -1,21 +1,21 @@
 {
- "at": "2026-10-28T20:41:39+00:00",
+ "at": "2026-10-29T00:50:28+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 762,
+ "fares_saved": 765,
  "log": [
-  "20:39:36 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:39:41 git retry 0: b\"eads/main': is at 7647ee1954199bd387d561c5a7b938522091c318 but expected 03e18e69b04f10d6d2832687981130fc0e44d7c6)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "20:39:46 git retry 1: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "20:40:01 git retry 2: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "20:40:09 http front door: ['https://elder-zoning-velocity-telephone.trycloudflare.com', 'https://924c2c97aa03e5.lhr.life']",
-  "20:40:09 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:40:43 request received: rid httptest1793220043 20 keys",
-  "20:40:43 handle httptest1793220043: first_chunk=True total=20",
-  "20:40:45 request httptest1793220043: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
-  "20:40:47 request httptest1793220043: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:48:33 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:48:37 git retry 0: b\"eads/main': is at 04d5759ff19c6218c26a59cc15f328880ddbb73b but expected e060251abf86fbcea929dd85e3f394503e3a4e3d)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "00:48:42 git retry 1: b\"eads/main': is at fc3feab0d0e58b79fc38cfb4f09d55a0026a29b5 but expected c2dd2703179bc3120700554bbfe9fb0a329d77c2)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "00:48:49 git retry 2: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "00:48:58 http front door: ['https://lounge-maintained-embedded-patients.trycloudflare.com', 'https://7e4cb2c96cc30e.lhr.life']",
+  "00:48:58 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:49:43 request received: rid httptest1793234982 20 keys",
+  "00:49:43 handle httptest1793234982: first_chunk=True total=20",
+  "00:49:44 request httptest1793234982: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
+  "00:49:46 request httptest1793234982: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

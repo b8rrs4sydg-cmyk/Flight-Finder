@@ -1,5 +1,5 @@
 {
- "at": "2026-10-29T00:50:07+00:00",
+ "at": "2026-10-29T05:44:16+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 792,
  "log": [
-  "00:48:32 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:48:37 http front door: ['https://ultra-mini-pub-reserved.trycloudflare.com', 'https://fba07310586fea.lhr.life']",
-  "00:48:37 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:49:42 request received: rid httptest1793234981 20 keys",
-  "00:49:42 handle httptest1793234981: first_chunk=True total=20",
-  "00:49:43 request httptest1793234981: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
-  "00:49:45 request httptest1793234981: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:42:41 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:42:46 http front door: ['https://collect-minutes-viruses-alter.trycloudflare.com', 'https://6c51fcf3a9b26e.lhr.life']",
+  "05:42:46 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "05:43:50 request received: rid httptest1793252629 20 keys",
+  "05:43:50 handle httptest1793252629: first_chunk=True total=20",
+  "05:43:57 request httptest1793252629: chunk of 20 keys done in 7s; paths {'http': 18, 'browser': 2}, browser waits 2 max 6s sum 12s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 18, 'miss': 2, 'blocked': 0, 'tries': 28, 'empty': 10}, audit 2/2 agree",
+  "05:43:59 request httptest1793252629: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

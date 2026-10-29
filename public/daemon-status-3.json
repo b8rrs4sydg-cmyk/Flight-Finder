@@ -1,11 +1,11 @@
 {
- "at": "2026-10-29T13:21:04+00:00",
+ "at": "2026-10-29T13:24:06+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 817,
+ "fares_saved": 819,
  "log": [
   "10:44:52 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:44:58 http front door: ['https://developer-parts-statement-excitement.trycloudflare.com', 'https://be922805d4c3d9.lhr.life']",
@@ -27,6 +27,10 @@
   "13:19:41 request received: rid mvtkllldb9ot5.3 21 keys",
   "13:19:41 handle mvtkllldb9ot5.3: first_chunk=True total=21",
   "13:20:45 request mvtkllldb9ot5.3: chunk of 21 keys done in 63s; paths {'http': 48, 'browser': 3, 'browser-crashed': 10}, browser waits 13 max 76s sum 551s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 48, 'miss': 13, 'blocked': 0, 'tries': 70, 'empty': 22}, audit 0/0 agree",
-  "13:20:46 request mvtkllldb9ot5.3: final sent (21/21); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "13:20:46 request mvtkllldb9ot5.3: final sent (21/21); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "13:23:10 request received: rid mvtkq2rgz6dot.3 16 keys",
+  "13:23:10 handle mvtkq2rgz6dot.3: first_chunk=True total=16",
+  "13:24:00 request mvtkq2rgz6dot.3: chunk of 16 keys done in 50s; paths {'http': 58, 'browser': 3, 'browser-crashed': 13}, browser waits 16 max 76s sum 696s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 58, 'miss': 16, 'blocked': 0, 'tries': 89, 'empty': 31}, audit 0/0 agree",
+  "13:24:01 request mvtkq2rgz6dot.3: final sent (16/16); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

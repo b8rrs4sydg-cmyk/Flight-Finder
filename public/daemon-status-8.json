@@ -1,11 +1,11 @@
 {
- "at": "2026-10-29T13:10:53+00:00",
+ "at": "2026-10-29T13:19:54+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 781,
+ "fares_saved": 784,
  "log": [
   "10:44:56 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:00 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
@@ -26,6 +26,8 @@
   "13:08:16 handle mvtk6x2xj14cw.8: first_chunk=True total=15",
   "13:09:17 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
   "13:09:29 request mvtk6x2xj14cw.8: chunk of 15 keys done in 73s; paths {'http': 32, 'browser': 2, 'browser-crashed': 2}, browser waits 4 max 61s sum 129s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 32, 'miss': 4, 'blocked': 0, 'tries': 40, 'empty': 8}, audit 4/4 agree",
-  "13:09:30 request mvtk6x2xj14cw.8: final sent (15/15); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "13:09:30 request mvtk6x2xj14cw.8: final sent (15/15); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "13:19:41 request received: rid mvtkllldb9ot5.8 18 keys",
+  "13:19:41 handle mvtkllldb9ot5.8: first_chunk=True total=18"
  ]
 }

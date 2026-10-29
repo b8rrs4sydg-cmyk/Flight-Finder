@@ -1,5 +1,5 @@
 {
- "at": "2026-10-29T13:08:58+00:00",
+ "at": "2026-10-29T13:10:39+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -21,6 +21,10 @@
   "12:56:06 request mvtjr2dx1ol3n.1: chunk of 1 keys done in 6s; paths {'http': 20, 'browser': 1}, browser waits 1 max 4s sum 4s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 1, 'blocked': 0, 'tries': 26, 'empty': 6}, audit 2/2 agree",
   "12:56:08 request mvtjr2dx1ol3n.1: final sent (1/1); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "13:08:16 request received: rid mvtk6x2xj14cw.1 18 keys",
-  "13:08:16 handle mvtk6x2xj14cw.1: first_chunk=True total=18"
+  "13:08:16 handle mvtk6x2xj14cw.1: first_chunk=True total=18",
+  "13:08:59 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "13:09:03 git retry 1: b\"eads/main': is at cd66c5488ae02c0ad2ca70fd70638074366b8df3 but expected 649a508c342139a9a6ff4c39fe67e7199c48c69b)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "13:09:47 request mvtk6x2xj14cw.1: chunk of 18 keys done in 91s; paths {'http': 32, 'browser': 3, 'browser-crashed': 4}, browser waits 7 max 76s sum 283s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 32, 'miss': 7, 'blocked': 0, 'tries': 43, 'empty': 11}, audit 5/5 agree",
+  "13:09:48 request mvtk6x2xj14cw.1: final sent (18/18); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

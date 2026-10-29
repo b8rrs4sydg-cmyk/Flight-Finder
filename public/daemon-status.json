@@ -1,20 +1,19 @@
 {
- "at": "2026-10-28T20:42:11+00:00",
+ "at": "2026-10-29T00:50:20+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 661,
+ "fares_saved": 662,
  "log": [
-  "20:39:43 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:40:05 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "20:40:35 git retry 1: b\"eads/main': is at 8b6801d75f2a97fc5cd43e50eb1797def05baa88 but expected 98c740e505a2680b0dbdc9679c19039d13516e31)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "20:40:41 http front door: ['https://advice-rehab-circumstances-remedies.trycloudflare.com', 'https://8fe6e15778f887.lhr.life']",
-  "20:40:41 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:40:52 request received: rid httptest1793220051 20 keys",
-  "20:40:52 handle httptest1793220051: first_chunk=True total=20",
-  "20:40:53 request httptest1793220051: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "20:40:54 request httptest1793220051: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:48:40 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:48:46 git retry 0: b\"eads/main': is at c53fdcfad5c9b646c67539c7f5a2d67371ea9d66 but expected fc3feab0d0e58b79fc38cfb4f09d55a0026a29b5)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "00:48:50 http front door: ['https://meal-towards-foods-graphics.trycloudflare.com', 'https://9cdfc3dd4a15b6.lhr.life']",
+  "00:48:50 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:49:49 request received: rid httptest1793234989 20 keys",
+  "00:49:49 handle httptest1793234989: first_chunk=True total=20",
+  "00:49:51 request httptest1793234989: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "00:49:52 request httptest1793234989: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

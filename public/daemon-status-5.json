@@ -1,33 +1,19 @@
 {
- "at": "2026-10-29T13:24:33+00:00",
+ "at": "2026-10-29T15:53:07+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
  "fares_saved": 782,
  "log": [
-  "10:45:11 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "10:45:16 git retry 0: b\"eads/main': is at 41defd88e6c0cbf6e351d7f1eb0e238d07d155e5 but expected cd7ffabcab46cd3e65eff7e327b293088b89e90f)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "10:45:22 http front door: ['https://fails-bulletin-intervention-segments.trycloudflare.com', 'https://dd05740bf879a9.lhr.life']",
-  "10:45:22 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "10:46:20 request received: rid httptest1793270780 20 keys",
-  "10:46:20 handle httptest1793270780: first_chunk=True total=20",
-  "10:46:25 request httptest1793270780: chunk of 20 keys done in 5s; paths {'http': 19, 'browser': 1}, browser waits 1 max 4s sum 4s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 26, 'empty': 7}, audit 0/0 agree",
-  "10:46:27 request httptest1793270780: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "12:55:59 rtc fnbd2jm649: answered",
-  "12:56:01 rtc fnbd2jm649: data channel open",
-  "13:08:16 request received: rid mvtk6x2xj14cw.5 20 keys",
-  "13:08:16 handle mvtk6x2xj14cw.5: first_chunk=True total=20",
-  "13:09:58 request mvtk6x2xj14cw.5: chunk of 20 keys done in 101s; paths {'http': 30, 'browser': 5, 'browser-crashed': 5}, browser waits 10 max 76s sum 366s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 30, 'miss': 10, 'blocked': 0, 'tries': 40, 'empty': 10}, audit 3/3 agree",
-  "13:09:59 request mvtk6x2xj14cw.5: final sent (20/20); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "13:19:41 request received: rid mvtkllldb9ot5.5 27 keys",
-  "13:19:41 handle mvtkllldb9ot5.5: first_chunk=True total=27",
-  "13:21:17 request mvtkllldb9ot5.5: chunk of 27 keys done in 95s; paths {'http': 53, 'browser': 6, 'browser-crashed': 8}, browser waits 14 max 81s sum 548s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 53, 'miss': 14, 'blocked': 0, 'tries': 66, 'empty': 13}, audit 4/4 agree",
-  "13:21:17 request mvtkllldb9ot5.5: final sent (27/27); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "13:23:10 request received: rid mvtkq2rgz6dot.5 15 keys",
-  "13:23:10 handle mvtkq2rgz6dot.5: first_chunk=True total=15",
-  "13:24:06 request mvtkq2rgz6dot.5: chunk of 15 keys done in 56s; paths {'http': 65, 'browser': 6, 'browser-crashed': 10}, browser waits 16 max 81s sum 646s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 65, 'miss': 16, 'blocked': 0, 'tries': 81, 'empty': 16}, audit 4/4 agree",
-  "13:24:08 request mvtkq2rgz6dot.5: final sent (15/15); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "15:51:26 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "15:51:32 git retry 0: b\"eads/main': is at 29cd1ab5ef6131ffb2fd0bacf8e3d44d6198e271 but expected b0342bdae5197578540afd0c3880c43115d738c6)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "15:51:37 http front door: ['https://purse-alike-messages-ash.trycloudflare.com', 'https://9ac2079524ca91.lhr.life']",
+  "15:51:37 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "15:52:36 request received: rid httptest1793289155 20 keys",
+  "15:52:36 handle httptest1793289155: first_chunk=True total=20",
+  "15:52:38 request httptest1793289155: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
+  "15:52:39 request httptest1793289155: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

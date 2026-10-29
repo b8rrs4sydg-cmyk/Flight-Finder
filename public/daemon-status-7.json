@@ -1,5 +1,5 @@
 {
- "at": "2026-10-29T15:53:24+00:00",
+ "at": "2026-10-29T20:42:38+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 806,
  "log": [
-  "15:51:47 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:51:54 http front door: ['https://sin-nokia-agrees-brad.trycloudflare.com', 'https://88a6fa2e0cf075.lhr.life']",
-  "15:51:54 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:52:54 request received: rid httptest1793289174 20 keys",
-  "15:52:54 handle httptest1793289174: first_chunk=True total=20",
-  "15:52:55 request httptest1793289174: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "15:52:56 request httptest1793289174: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:41:03 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:41:08 http front door: ['https://query-smilies-finished-newton.trycloudflare.com', 'https://3342157cdf8a01.lhr.life']",
+  "20:41:08 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:42:12 request received: rid httptest1793306532 20 keys",
+  "20:42:12 handle httptest1793306532: first_chunk=True total=20",
+  "20:42:14 request httptest1793306532: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 23, 'empty': 3}, audit 0/0 agree",
+  "20:42:16 request httptest1793306532: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

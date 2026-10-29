@@ -1,37 +1,18 @@
 {
- "at": "2026-10-29T13:24:22+00:00",
+ "at": "2026-10-29T15:53:24+00:00",
  "publishes": {
-  "ok": 1,
+  "ok": 0,
   "r429": 0,
   "fail": 0
  },
  "fares_saved": 806,
  "log": [
-  "10:45:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "10:45:08 http front door: ['https://storm-acids-icon-grey.trycloudflare.com', 'https://d98ef16348ea51.lhr.life']",
-  "10:45:08 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "10:46:10 request received: rid httptest1793270770 20 keys",
-  "10:46:10 handle httptest1793270770: first_chunk=True total=20",
-  "10:46:12 request httptest1793270770: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 23, 'empty': 3}, audit 0/0 agree",
-  "10:46:13 request httptest1793270770: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
-  "12:55:59 rtc 7jylbhib3r: answered",
-  "12:56:01 rtc 7jylbhib3r: data channel open",
-  "12:56:01 request received: rid mvtjr2dx1ol3n.7 2 keys",
-  "12:56:01 handle mvtjr2dx1ol3n.7: first_chunk=True total=2",
-  "12:56:05 request mvtjr2dx1ol3n.7: chunk of 2 keys done in 4s; paths {'http': 22}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 0, 'blocked': 0, 'tries': 26, 'empty': 4}, audit 1/1 agree",
-  "12:56:06 request mvtjr2dx1ol3n.7: final sent (2/2); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "13:08:16 request received: rid mvtk6x2xj14cw.7 16 keys",
-  "13:08:16 handle mvtk6x2xj14cw.7: first_chunk=True total=16",
-  "13:08:32 request mvtk6x2xj14cw.7: chunk of 16 keys done in 15s; paths {'http': 36, 'browser-crashed': 1, 'browser': 1}, browser waits 2 max 3s sum 5s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 36, 'miss': 2, 'blocked': 0, 'tries': 41, 'empty': 5}, audit 5/5 agree",
-  "13:08:33 request mvtk6x2xj14cw.7: final sent (16/16); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "13:09:15 git retry 0: b\"eads/main': is at 83b6bb05762c6f462e1ef23506116ad668c982cf but expected 809761be295481cd2834ed1cc0eab3c48f93c2ea)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "13:19:41 request received: rid mvtkllldb9ot5.7 17 keys",
-  "13:19:41 handle mvtkllldb9ot5.7: first_chunk=True total=17",
-  "13:20:43 request mvtkllldb9ot5.7: chunk of 17 keys done in 62s; paths {'http': 50, 'browser-crashed': 3, 'browser': 1}, browser waits 4 max 49s sum 100s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 50, 'miss': 4, 'blocked': 0, 'tries': 57, 'empty': 7}, audit 5/5 agree",
-  "13:20:44 request mvtkllldb9ot5.7: final sent (17/17); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "13:23:10 request received: rid mvtkq2rgz6dot.7 17 keys",
-  "13:23:10 handle mvtkq2rgz6dot.7: first_chunk=True total=17",
-  "13:24:13 request mvtkq2rgz6dot.7: chunk of 17 keys done in 62s; paths {'http': 61, 'browser-crashed': 9, 'browser': 1}, browser waits 10 max 49s sum 385s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 61, 'miss': 10, 'blocked': 0, 'tries': 76, 'empty': 15}, audit 5/5 agree",
-  "13:24:13 request mvtkq2rgz6dot.7: final sent (17/17); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "15:51:47 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "15:51:54 http front door: ['https://sin-nokia-agrees-brad.trycloudflare.com', 'https://88a6fa2e0cf075.lhr.life']",
+  "15:51:54 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "15:52:54 request received: rid httptest1793289174 20 keys",
+  "15:52:54 handle httptest1793289174: first_chunk=True total=20",
+  "15:52:55 request httptest1793289174: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "15:52:56 request httptest1793289174: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

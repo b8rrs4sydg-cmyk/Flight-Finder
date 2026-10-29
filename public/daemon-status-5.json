@@ -1,5 +1,5 @@
 {
- "at": "2026-10-29T00:50:34+00:00",
+ "at": "2026-10-29T05:44:24+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,13 +7,12 @@
  },
  "fares_saved": 757,
  "log": [
-  "00:48:53 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:48:59 git retry 0: b\"eads/main': is at ab13ca78cc3925ca52614756c3fbdf6d8646ef58 but expected 0a204ce21a6f3951c8d233ee24715bdb2a58ff4f)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "00:49:04 http front door: ['https://john-jar-gulf-grande.trycloudflare.com', 'https://8de1af3193791a.lhr.life']",
-  "00:49:04 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:50:01 request received: rid httptest1793235001 20 keys",
-  "00:50:01 handle httptest1793235001: first_chunk=True total=20",
-  "00:50:03 request httptest1793235001: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
-  "00:50:05 request httptest1793235001: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:42:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:42:54 http front door: ['https://dare-running-invisible-figure.trycloudflare.com', 'https://38f266d29bf927.lhr.life']",
+  "05:42:54 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "05:43:54 request received: rid httptest1793252633 20 keys",
+  "05:43:54 handle httptest1793252633: first_chunk=True total=20",
+  "05:43:55 request httptest1793252633: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
+  "05:43:56 request httptest1793252633: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

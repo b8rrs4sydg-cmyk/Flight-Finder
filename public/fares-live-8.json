@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-29T15:53:12+00:00",
+ "generated_at": "2026-10-29T20:42:57+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -5001,7 +5001,7 @@
    "prev_at": "2026-10-27"
   },
   "ow|TPE|BKK|2027-03-08": {
-   "price": 5847,
+   "price": 5844,
    "first": {
     "dep": "2027-03-08T13:55:00+08:00",
     "arr": "2027-03-08T16:50:00+07:00",
@@ -5009,10 +5009,10 @@
     "airline": "THAI"
    },
    "by_airline": {
-    "THAI": 5847,
-    "STARLUX Airlines": 5994,
-    "China Airlines": 5994,
-    "EVA Air": 6296
+    "THAI": 5844,
+    "STARLUX Airlines": 5992,
+    "China Airlines": 5992,
+    "EVA Air": 6294
    },
    "at": "2026-10-29",
    "hist": [
@@ -5026,14 +5026,14 @@
     ],
     [
      "2026-10-29",
-     5847
+     5844
     ]
    ],
    "prev": 5847,
    "prev_at": "2026-10-28"
   },
   "ow|TPE|BKK|2027-03-09": {
-   "price": 5847,
+   "price": 5844,
    "first": {
     "dep": "2027-03-09T13:55:00+08:00",
     "arr": "2027-03-09T16:50:00+07:00",
@@ -5041,10 +5041,10 @@
     "airline": "THAI"
    },
    "by_airline": {
-    "THAI": 5847,
-    "STARLUX Airlines": 5994,
-    "China Airlines": 5994,
-    "EVA Air": 6296
+    "THAI": 5844,
+    "STARLUX Airlines": 5992,
+    "China Airlines": 5992,
+    "EVA Air": 6294
    },
    "at": "2026-10-29",
    "hist": [
@@ -5058,14 +5058,14 @@
     ],
     [
      "2026-10-29",
-     5847
+     5844
     ]
    ],
    "prev": 5847,
    "prev_at": "2026-10-28"
   },
   "ow|TPE|BKK|2027-03-10": {
-   "price": 5847,
+   "price": 5844,
    "first": {
     "dep": "2027-03-10T13:55:00+08:00",
     "arr": "2027-03-10T16:50:00+07:00",
@@ -5073,10 +5073,10 @@
     "airline": "THAI"
    },
    "by_airline": {
-    "THAI": 5847,
-    "STARLUX Airlines": 5994,
-    "China Airlines": 5994,
-    "EVA Air": 6296
+    "THAI": 5844,
+    "STARLUX Airlines": 5992,
+    "China Airlines": 5992,
+    "EVA Air": 6294
    },
    "at": "2026-10-29",
    "hist": [
@@ -5090,14 +5090,14 @@
     ],
     [
      "2026-10-29",
-     5847
+     5844
     ]
    ],
    "prev": 5847,
    "prev_at": "2026-10-28"
   },
   "ow|TPE|BKK|2027-03-11": {
-   "price": 5847,
+   "price": 5844,
    "first": {
     "dep": "2027-03-11T13:55:00+08:00",
     "arr": "2027-03-11T16:50:00+07:00",
@@ -5105,10 +5105,10 @@
     "airline": "THAI"
    },
    "by_airline": {
-    "THAI": 5847,
-    "STARLUX Airlines": 5994,
-    "China Airlines": 5994,
-    "EVA Air": 6296
+    "THAI": 5844,
+    "STARLUX Airlines": 5992,
+    "China Airlines": 5992,
+    "EVA Air": 6294
    },
    "at": "2026-10-29",
    "hist": [
@@ -5122,14 +5122,14 @@
     ],
     [
      "2026-10-29",
-     5847
+     5844
     ]
    ],
    "prev": 5847,
    "prev_at": "2026-10-28"
   },
   "ow|TPE|BKK|2027-03-12": {
-   "price": 5847,
+   "price": 5844,
    "first": {
     "dep": "2027-03-12T13:55:00+08:00",
     "arr": "2027-03-12T16:50:00+07:00",
@@ -5137,10 +5137,10 @@
     "airline": "THAI"
    },
    "by_airline": {
-    "THAI": 5847,
-    "STARLUX Airlines": 5994,
-    "China Airlines": 5994,
-    "EVA Air": 6296
+    "THAI": 5844,
+    "STARLUX Airlines": 5992,
+    "China Airlines": 5992,
+    "EVA Air": 6294
    },
    "at": "2026-10-29",
    "hist": [
@@ -5150,14 +5150,14 @@
     ],
     [
      "2026-10-29",
-     5847
+     5844
     ]
    ],
    "prev": 5847,
    "prev_at": "2026-10-28"
   },
   "ow|TPE|BKK|2027-03-13": {
-   "price": 5847,
+   "price": 5844,
    "first": {
     "dep": "2027-03-13T13:55:00+08:00",
     "arr": "2027-03-13T16:50:00+07:00",
@@ -5165,16 +5165,16 @@
     "airline": "THAI"
    },
    "by_airline": {
-    "THAI": 5847,
-    "STARLUX Airlines": 5994,
-    "China Airlines": 5994,
-    "EVA Air": 6296
+    "THAI": 5844,
+    "STARLUX Airlines": 5992,
+    "China Airlines": 5992,
+    "EVA Air": 6294
    },
    "at": "2026-10-29",
    "hist": [
     [
      "2026-10-29",
-     5847
+     5844
     ]
    ]
   },
@@ -5679,9 +5679,9 @@
    },
    "by_airline": {
     "Hong Kong Express": 2050,
-    "Greater Bay Airlines": 4109,
-    "STARLUX Airlines": 4967,
-    "China Airlines": 5146
+    "Greater Bay Airlines": 4108,
+    "STARLUX Airlines": 4965,
+    "China Airlines": 5144
    },
    "at": "2026-10-29",
    "hist": [
@@ -5711,9 +5711,9 @@
    },
    "by_airline": {
     "Hong Kong Express": 2050,
-    "Greater Bay Airlines": 4109,
-    "STARLUX Airlines": 4967,
-    "China Airlines": 5146
+    "Greater Bay Airlines": 4108,
+    "STARLUX Airlines": 4965,
+    "China Airlines": 5144
    },
    "at": "2026-10-29",
    "hist": [
@@ -5743,9 +5743,9 @@
    },
    "by_airline": {
     "Hong Kong Express": 2050,
-    "Greater Bay Airlines": 4109,
-    "STARLUX Airlines": 4967,
-    "China Airlines": 5146
+    "Greater Bay Airlines": 4108,
+    "STARLUX Airlines": 4965,
+    "China Airlines": 5144
    },
    "at": "2026-10-29",
    "hist": [
@@ -5779,9 +5779,9 @@
    },
    "by_airline": {
     "Hong Kong Express": 2050,
-    "Greater Bay Airlines": 4109,
-    "STARLUX Airlines": 4967,
-    "China Airlines": 5146
+    "Greater Bay Airlines": 4108,
+    "STARLUX Airlines": 4965,
+    "China Airlines": 5144
    },
    "at": "2026-10-29",
    "hist": [
@@ -5811,9 +5811,9 @@
    },
    "by_airline": {
     "Hong Kong Express": 2131,
-    "Greater Bay Airlines": 4109,
-    "STARLUX Airlines": 4967,
-    "China Airlines": 5146
+    "Greater Bay Airlines": 4108,
+    "STARLUX Airlines": 4965,
+    "China Airlines": 5144
    },
    "at": "2026-10-29",
    "hist": [
@@ -5843,9 +5843,9 @@
    },
    "by_airline": {
     "Hong Kong Express": 2131,
-    "Greater Bay Airlines": 4109,
-    "STARLUX Airlines": 4967,
-    "China Airlines": 5146
+    "Greater Bay Airlines": 4108,
+    "STARLUX Airlines": 4965,
+    "China Airlines": 5144
    },
    "at": "2026-10-29",
    "hist": [
@@ -5871,9 +5871,9 @@
    },
    "by_airline": {
     "Hong Kong Express": 2050,
-    "Greater Bay Airlines": 4109,
-    "STARLUX Airlines": 4967,
-    "China Airlines": 5146
+    "Greater Bay Airlines": 4108,
+    "STARLUX Airlines": 4965,
+    "China Airlines": 5144
    },
    "at": "2026-10-29",
    "hist": [
@@ -6077,7 +6077,7 @@
     "Tigerair Taiwan": 3599,
     "Scoot": 3988,
     "Hong Kong Express": 5261,
-    "Jeju Air": 5827
+    "Jeju Air": 5825
    },
    "at": "2026-10-29",
    "hist": [
@@ -6140,8 +6140,8 @@
    "by_airline": {
     "Scoot": 3232,
     "Hong Kong Express": 5261,
-    "Jeju Air": 5827,
-    "Jin Air": 5868
+    "Jeju Air": 5825,
+    "Jin Air": 5867
    },
    "at": "2026-10-29",
    "hist": [
@@ -6204,7 +6204,7 @@
    "by_airline": {
     "Scoot": 3988,
     "Tigerair Taiwan": 4399,
-    "Shandong": 5294,
+    "Shandong": 5291,
     "Jeju Air": 5825
    },
    "at": "2026-10-29",
@@ -6237,7 +6237,7 @@
     "Scoot": 3232,
     "Tigerair Taiwan": 3999,
     "Hong Kong Express": 5342,
-    "Jeju Air": 5827
+    "Jeju Air": 5825
    },
    "at": "2026-10-29",
    "hist": [
@@ -6265,7 +6265,7 @@
     "Tigerair Taiwan": 3999,
     "Scoot": 4399,
     "Hong Kong Express": 5261,
-    "Jeju Air": 6257
+    "Jeju Air": 6255
    },
    "at": "2026-10-29",
    "hist": [

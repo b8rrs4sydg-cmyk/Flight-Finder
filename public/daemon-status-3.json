@@ -1,11 +1,11 @@
 {
- "at": "2026-10-29T10:46:28+00:00",
+ "at": "2026-10-29T12:56:59+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 804,
+ "fares_saved": 805,
  "log": [
   "10:44:52 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:44:58 http front door: ['https://developer-parts-statement-excitement.trycloudflare.com', 'https://be922805d4c3d9.lhr.life']",
@@ -13,6 +13,12 @@
   "10:46:02 request received: rid httptest1793270761 20 keys",
   "10:46:02 handle httptest1793270761: first_chunk=True total=20",
   "10:46:03 request httptest1793270761: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 23, 'empty': 3}, audit 0/0 agree",
-  "10:46:04 request httptest1793270761: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:46:04 request httptest1793270761: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "12:55:58 rtc 6stfzv4s9w: answered",
+  "12:56:00 rtc 6stfzv4s9w: data channel open",
+  "12:56:01 request received: rid mvtjr2dx1ol3n.3 1 keys",
+  "12:56:01 handle mvtjr2dx1ol3n.3: first_chunk=True total=1",
+  "12:56:04 request mvtjr2dx1ol3n.3: chunk of 1 keys done in 3s; paths {'http': 21}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 0, 'blocked': 0, 'tries': 24, 'empty': 3}, audit 0/0 agree",
+  "12:56:06 request mvtjr2dx1ol3n.3: final sent (1/1); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

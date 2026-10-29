@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-29T10:46:28+00:00",
+ "generated_at": "2026-10-29T12:56:59+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -3796,6 +3796,22 @@
    ],
    "prev": 4780,
    "prev_at": "2026-10-17"
+  },
+  "ow|MNL|RMQ|2027-09-19": {
+   "price": 7598,
+   "first": {
+    "dep": "2027-09-19T20:20:00+08:00",
+    "arr": "2027-09-20T09:25:00+08:00",
+    "stops": 1,
+    "airline": "Cathay Pacific, Hong Kong Express"
+   },
+   "at": "2026-10-29",
+   "hist": [
+    [
+     "2026-10-29",
+     7598
+    ]
+   ]
   },
   "ow|MNL|TSA|2026-11-08": {
    "price": 54787,
@@ -15722,7 +15738,6 @@
   "ow|MMY|RMQ|2027-10-16",
   "ow|MMY|TPE|2027-09-19",
   "ow|MMY|TSA|2028-01-03",
-  "ow|MNL|RMQ|2027-09-19",
   "ow|MNL|RMQ|2028-01-03",
   "ow|MNL|TPE|2027-09-18",
   "ow|MNL|TSA|2027-01-02",

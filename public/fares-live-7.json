@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-29T10:46:38+00:00",
+ "generated_at": "2026-10-29T12:57:10+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -3892,6 +3892,22 @@
     ]
    ]
   },
+  "ow|PEN|RMQ|2027-09-19": {
+   "price": 13339,
+   "first": {
+    "dep": "2027-09-19T13:00:00+08:00",
+    "arr": "2027-09-20T09:25:00+08:00",
+    "stops": 1,
+    "airline": "Cathay Pacific, Hong Kong Express"
+   },
+   "at": "2026-10-29",
+   "hist": [
+    [
+     "2026-10-29",
+     13339
+    ]
+   ]
+  },
   "ow|PEN|TSA|2027-05-02": {
    "price": 63602,
    "first": {
@@ -4354,6 +4370,22 @@
     [
      "2026-10-24",
      7290
+    ]
+   ]
+  },
+  "ow|RMQ|MNL|2027-09-15": {
+   "price": 8586,
+   "first": {
+    "dep": "2027-09-15T10:25:00+08:00",
+    "arr": "2027-09-15T16:30:00+08:00",
+    "stops": 1,
+    "airline": "Hong Kong Express, Cathay Pacific"
+   },
+   "at": "2026-10-29",
+   "hist": [
+    [
+     "2026-10-29",
+     8586
     ]
    ]
   },
@@ -15671,7 +15703,6 @@
   "ow|RMQ|KMJ|2027-12-25",
   "ow|RMQ|MMY|2026-11-13",
   "ow|RMQ|MMY|2027-12-25",
-  "ow|RMQ|MNL|2027-09-15",
   "ow|RMQ|MNL|2027-09-16",
   "ow|RMQ|MNL|2027-12-22",
   "ow|RMQ|NGO|2027-10-09",

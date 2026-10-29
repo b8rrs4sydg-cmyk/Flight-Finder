@@ -1,11 +1,11 @@
 {
- "at": "2026-10-29T12:56:59+00:00",
+ "at": "2026-10-29T13:09:01+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 805,
+ "fares_saved": 811,
  "log": [
   "10:44:52 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:44:58 http front door: ['https://developer-parts-statement-excitement.trycloudflare.com', 'https://be922805d4c3d9.lhr.life']",
@@ -19,6 +19,8 @@
   "12:56:01 request received: rid mvtjr2dx1ol3n.3 1 keys",
   "12:56:01 handle mvtjr2dx1ol3n.3: first_chunk=True total=1",
   "12:56:04 request mvtjr2dx1ol3n.3: chunk of 1 keys done in 3s; paths {'http': 21}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 0, 'blocked': 0, 'tries': 24, 'empty': 3}, audit 0/0 agree",
-  "12:56:06 request mvtjr2dx1ol3n.3: final sent (1/1); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "12:56:06 request mvtjr2dx1ol3n.3: final sent (1/1); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "13:08:16 request received: rid mvtk6x2xj14cw.3 19 keys",
+  "13:08:16 handle mvtk6x2xj14cw.3: first_chunk=True total=19"
  ]
 }

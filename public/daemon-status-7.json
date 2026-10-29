@@ -1,5 +1,5 @@
 {
- "at": "2026-10-29T13:09:13+00:00",
+ "at": "2026-10-29T13:19:49+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -23,6 +23,9 @@
   "13:08:16 request received: rid mvtk6x2xj14cw.7 16 keys",
   "13:08:16 handle mvtk6x2xj14cw.7: first_chunk=True total=16",
   "13:08:32 request mvtk6x2xj14cw.7: chunk of 16 keys done in 15s; paths {'http': 36, 'browser-crashed': 1, 'browser': 1}, browser waits 2 max 3s sum 5s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 36, 'miss': 2, 'blocked': 0, 'tries': 41, 'empty': 5}, audit 5/5 agree",
-  "13:08:33 request mvtk6x2xj14cw.7: final sent (16/16); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "13:08:33 request mvtk6x2xj14cw.7: final sent (16/16); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "13:09:15 git retry 0: b\"eads/main': is at 83b6bb05762c6f462e1ef23506116ad668c982cf but expected 809761be295481cd2834ed1cc0eab3c48f93c2ea)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "13:19:41 request received: rid mvtkllldb9ot5.7 17 keys",
+  "13:19:41 handle mvtkllldb9ot5.7: first_chunk=True total=17"
  ]
 }

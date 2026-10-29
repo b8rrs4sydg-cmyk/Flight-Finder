@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-29T10:46:23+00:00",
+ "generated_at": "2026-10-29T12:56:55+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -3235,6 +3235,22 @@
     [
      "2026-10-22",
      54787
+    ]
+   ]
+  },
+  "ow|MNL|TSA|2027-09-19": {
+   "price": 35992,
+   "first": {
+    "dep": "2027-09-19T11:10:00+08:00",
+    "arr": "2027-09-19T21:45:00+08:00",
+    "stops": 1,
+    "airline": "Philippine Airlines, EVA Air"
+   },
+   "at": "2026-10-29",
+   "hist": [
+    [
+     "2026-10-29",
+     35992
     ]
    ]
   },
@@ -14858,7 +14874,6 @@
   "ow|MNL|RMQ|2028-01-01",
   "ow|MNL|TPE|2027-12-28",
   "ow|MNL|TPE|2028-01-02",
-  "ow|MNL|TSA|2027-09-19",
   "ow|NGO|RMQ|2027-12-26",
   "ow|NGO|TPE|2027-09-18",
   "ow|NGO|TSA|2027-12-27",

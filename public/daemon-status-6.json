@@ -1,11 +1,11 @@
 {
- "at": "2026-10-29T13:21:33+00:00",
+ "at": "2026-10-29T13:24:39+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 794,
+ "fares_saved": 803,
  "log": [
   "10:45:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:09 git retry 0: b\"eads/main': is at 74ffb82c2e6d2a99b0f9601eecf955393973ace1 but expected 4fd1de00d57532968930e691b0049da1e4cfb5ea)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
@@ -26,6 +26,11 @@
   "13:19:41 handle mvtkllldb9ot5.6: first_chunk=True total=12",
   "13:19:57 git retry 0: b\"eads/main': is at 4bbfe8d9dbb8392629ee9dc4838426d8f85f25f5 but expected f30cfc3c03edcbbf11fa23666e6585468bb6fc4f)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "13:20:42 request mvtkllldb9ot5.6: chunk of 12 keys done in 61s; paths {'http': 37, 'browser': 3, 'browser-crashed': 1}, browser waits 4 max 48s sum 62s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 37, 'miss': 4, 'blocked': 0, 'tries': 38, 'empty': 1}, audit 3/3 agree",
-  "13:20:45 request mvtkllldb9ot5.6: final sent (12/12); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "13:20:45 request mvtkllldb9ot5.6: final sent (12/12); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "13:21:34 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "13:23:10 request received: rid mvtkq2rgz6dot.6 17 keys",
+  "13:23:10 handle mvtkq2rgz6dot.6: first_chunk=True total=17",
+  "13:24:13 request mvtkq2rgz6dot.6: chunk of 17 keys done in 63s; paths {'http': 53, 'browser': 3, 'browser-crashed': 2}, browser waits 5 max 49s sum 111s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 53, 'miss': 5, 'blocked': 0, 'tries': 54, 'empty': 1}, audit 3/3 agree",
+  "13:24:14 request mvtkq2rgz6dot.6: final sent (17/17); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

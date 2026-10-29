@@ -1,11 +1,11 @@
 {
- "at": "2026-10-29T13:19:49+00:00",
+ "at": "2026-10-29T13:21:20+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 799,
+ "fares_saved": 802,
  "log": [
   "10:45:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:08 http front door: ['https://storm-acids-icon-grey.trycloudflare.com', 'https://d98ef16348ea51.lhr.life']",
@@ -26,6 +26,8 @@
   "13:08:33 request mvtk6x2xj14cw.7: final sent (16/16); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "13:09:15 git retry 0: b\"eads/main': is at 83b6bb05762c6f462e1ef23506116ad668c982cf but expected 809761be295481cd2834ed1cc0eab3c48f93c2ea)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "13:19:41 request received: rid mvtkllldb9ot5.7 17 keys",
-  "13:19:41 handle mvtkllldb9ot5.7: first_chunk=True total=17"
+  "13:19:41 handle mvtkllldb9ot5.7: first_chunk=True total=17",
+  "13:20:43 request mvtkllldb9ot5.7: chunk of 17 keys done in 62s; paths {'http': 50, 'browser-crashed': 3, 'browser': 1}, browser waits 4 max 49s sum 100s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 50, 'miss': 4, 'blocked': 0, 'tries': 57, 'empty': 7}, audit 5/5 agree",
+  "13:20:44 request mvtkllldb9ot5.7: final sent (17/17); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

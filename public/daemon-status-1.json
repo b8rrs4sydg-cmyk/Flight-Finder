@@ -1,5 +1,5 @@
 {
- "at": "2026-10-29T15:53:09+00:00",
+ "at": "2026-10-29T20:42:44+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 743,
  "log": [
-  "15:51:33 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:51:39 http front door: ['https://democracy-consult-out-locally.trycloudflare.com', 'https://9b066ff33d589c.lhr.life']",
-  "15:51:39 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:52:43 request received: rid httptest1793289162 20 keys",
-  "15:52:43 handle httptest1793289162: first_chunk=True total=20",
-  "15:52:45 request httptest1793289162: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
-  "15:52:46 request httptest1793289162: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:41:09 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:41:14 http front door: ['https://vector-gotta-election-insurance.trycloudflare.com', 'https://c10e83f8cf3513.lhr.life']",
+  "20:41:14 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:42:17 request received: rid httptest1793306536 20 keys",
+  "20:42:17 handle httptest1793306536: first_chunk=True total=20",
+  "20:42:19 request httptest1793306536: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
+  "20:42:20 request httptest1793306536: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

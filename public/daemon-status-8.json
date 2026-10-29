@@ -1,5 +1,5 @@
 {
- "at": "2026-10-29T05:44:21+00:00",
+ "at": "2026-10-29T10:46:41+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,14 @@
  },
  "fares_saved": 775,
  "log": [
-  "05:42:45 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "05:42:51 http front door: ['https://cent-ent-unless-pics.trycloudflare.com', 'https://5e5b968e30bfe4.lhr.life']",
-  "05:42:51 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "05:43:55 request received: rid httptest1793252634 20 keys",
-  "05:43:55 handle httptest1793252634: first_chunk=True total=20",
-  "05:43:56 request httptest1793252634: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "05:43:57 request httptest1793252634: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:44:56 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "10:45:00 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "10:45:04 git retry 1: b\"eads/main': is at 4fd1de00d57532968930e691b0049da1e4cfb5ea but expected b3a25a71f14f3bd6c2b0c86be1d09a6772f0707f)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "10:45:11 http front door: ['https://tumor-rep-chess-numeric.trycloudflare.com', 'https://5337cafc5319d3.lhr.life']",
+  "10:45:11 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "10:46:05 request received: rid httptest1793270765 20 keys",
+  "10:46:05 handle httptest1793270765: first_chunk=True total=20",
+  "10:46:12 request httptest1793270765: chunk of 20 keys done in 6s; paths {'http': 19, 'browser': 1}, browser waits 1 max 5s sum 5s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 24, 'empty': 5}, audit 3/3 agree",
+  "10:46:13 request httptest1793270765: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

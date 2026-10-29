@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-29T10:46:41+00:00",
+ "generated_at": "2026-10-29T12:57:13+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -6825,6 +6825,22 @@
     [
      "2026-10-22",
      66167
+    ]
+   ]
+  },
+  "ow|TSA|MNL|2027-09-15": {
+   "price": 52761,
+   "first": {
+    "dep": "2027-09-15T16:50:00+08:00",
+    "arr": "2027-09-16T04:50:00+08:00",
+    "stops": 1,
+    "airline": "ANA, Philippine Airlines"
+   },
+   "at": "2026-10-29",
+   "hist": [
+    [
+     "2026-10-29",
+     52761
     ]
    ]
   },
@@ -15304,7 +15320,6 @@
   "ow|TSA|KKJ|2027-12-25",
   "ow|TSA|KMJ|2027-09-16",
   "ow|TSA|MMY|2027-10-10",
-  "ow|TSA|MNL|2027-09-15",
   "ow|TSA|NGO|2027-12-22",
   "ow|TSA|NRT|2027-04-03",
   "ow|TSA|NRT|2027-12-23",

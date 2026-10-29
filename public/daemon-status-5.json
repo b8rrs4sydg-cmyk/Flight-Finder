@@ -1,5 +1,5 @@
 {
- "at": "2026-10-29T15:53:07+00:00",
+ "at": "2026-10-29T20:42:41+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,13 +7,12 @@
  },
  "fares_saved": 782,
  "log": [
-  "15:51:26 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:51:32 git retry 0: b\"eads/main': is at 29cd1ab5ef6131ffb2fd0bacf8e3d44d6198e271 but expected b0342bdae5197578540afd0c3880c43115d738c6)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "15:51:37 http front door: ['https://purse-alike-messages-ash.trycloudflare.com', 'https://9ac2079524ca91.lhr.life']",
-  "15:51:37 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:52:36 request received: rid httptest1793289155 20 keys",
-  "15:52:36 handle httptest1793289155: first_chunk=True total=20",
-  "15:52:38 request httptest1793289155: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
-  "15:52:39 request httptest1793289155: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:41:06 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:41:11 http front door: ['https://convinced-proportion-perspectives-brochure.trycloudflare.com', 'https://9644bc6662e782.lhr.life']",
+  "20:41:11 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:42:15 request received: rid httptest1793306535 20 keys",
+  "20:42:15 handle httptest1793306535: first_chunk=True total=20",
+  "20:42:17 request httptest1793306535: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 23, 'empty': 3}, audit 0/0 agree",
+  "20:42:17 request httptest1793306535: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

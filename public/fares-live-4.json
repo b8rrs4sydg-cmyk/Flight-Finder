@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-30T15:27:51+00:00",
+ "generated_at": "2026-10-30T15:29:24+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -11934,8 +11934,8 @@
  "status": {
   "mc|BKI-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
    "status": "timeout",
-   "at": "2026-10-27",
-   "n": 5
+   "at": "2026-10-30",
+   "n": 6
   },
   "mc|BKK-TPE-2027-01-02|TPE-HND-2027-02-04|HND-TPE-2027-02-15|TPE-HKG-2027-02-26": {
    "status": "timeout",
@@ -11994,8 +11994,8 @@
   },
   "mc|CKG-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-GMP-2027-09-15": {
    "status": "timeout",
-   "at": "2026-10-27",
-   "n": 1
+   "at": "2026-10-30",
+   "n": 2
   },
   "mc|CRK-TPE-2026-12-27|TPE-ICN-2027-06-09|ICN-TPE-2027-06-13|TPE-BKI-2027-09-15": {
    "status": "parse_error",
@@ -12015,6 +12015,11 @@
   "mc|CTU-TPE-2026-11-08|TPE-HKG-2026-12-24|HKG-TPE-2026-12-27|TPE-XIY-2027-02-10": {
    "status": "timeout",
    "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|DAD-TPE-2026-12-13|TPE-HKG-2026-12-24|HKG-TPE-2026-12-27|TPE-RGN-2027-02-10": {
+   "status": "timeout",
+   "at": "2026-10-30",
    "n": 1
   },
   "mc|DAD-TPE-2026-12-13|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
@@ -12109,8 +12114,8 @@
   },
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-12-24|HKG-TPE-2026-12-27|TPE-SIN-2027-02-10": {
    "status": "timeout",
-   "at": "2026-10-27",
-   "n": 5
+   "at": "2026-10-30",
+   "n": 6
   },
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-12-24|HKG-TPE-2026-12-27|TPE-XIY-2027-02-10": {
    "status": "timeout",
@@ -12159,8 +12164,8 @@
   },
   "mc|GMP-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
    "status": "timeout",
-   "at": "2026-10-27",
-   "n": 5
+   "at": "2026-10-30",
+   "n": 6
   },
   "mc|GMP-TPE-2027-05-02|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-HND-2027-09-15": {
    "status": "timeout",
@@ -12452,6 +12457,16 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|PEK-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-RGN-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-30",
+   "n": 1
+  },
+  "mc|PKX-TPE-2026-11-22|TPE-HKG-2026-12-11|HKG-TPE-2026-12-13|TPE-RGN-2026-12-24": {
+   "status": "timeout",
+   "at": "2026-10-30",
+   "n": 1
+  },
   "mc|RGN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-KUL-2026-12-24": {
    "status": "parse_error",
    "at": "2026-10-27",
@@ -12531,6 +12546,11 @@
    "status": "timeout",
    "at": "2026-10-30",
    "n": 2
+  },
+  "mc|RGN-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-HKT-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-30",
+   "n": 1
   },
   "mc|RGN-TPE-2027-05-02|TPE-HAN-2027-06-09|HAN-TPE-2027-06-13|TPE-HND-2027-09-15": {
    "status": "timeout",

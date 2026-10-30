@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-30T15:17:11+00:00",
+ "generated_at": "2026-10-30T15:18:43+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -1545,6 +1545,27 @@
     [
      "2026-10-30",
      52943
+    ]
+   ]
+  },
+  "mc|RGN-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
+   "price": 50991,
+   "by_airline": {
+    "Malaysia Airlines": 50991,
+    "China Southern": 98100,
+    "THAI": 101413
+   },
+   "first": {
+    "dep": "2026-12-27T11:25:00+06:30",
+    "arr": "2026-12-28T14:10:00+08:00",
+    "stops": 1,
+    "airline": "Malaysia Airlines"
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     50991
     ]
    ]
   },
@@ -12301,11 +12322,6 @@
    "n": 1
   },
   "mc|RGN-TPE-2026-12-27|TPE-HKG-2027-04-29|HKG-TPE-2027-05-02|TPE-FOC-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-10-30",
-   "n": 1
-  },
-  "mc|RGN-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-30",
    "n": 1

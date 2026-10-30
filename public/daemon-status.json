@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T15:28:38+00:00",
+ "at": "2026-10-30T15:30:10+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 525,
+ "fares_saved": 530,
  "log": [
   "10:45:24 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:29 http front door: ['https://nsw-brighton-warranty-lower.trycloudflare.com', 'https://4ce6833cfe7442.lhr.life']",
@@ -59,6 +59,8 @@
   "15:23:29 queue: 12 keys from the look-up queue in 108s (0 priced, 0 no flight, 12 failed)",
   "15:23:29 queue: nothing readable, next try in 1020s",
   "15:25:49 request received: rid mvv4jmfjr3og3.0 21 keys",
-  "15:25:49 handle mvv4jmfjr3og3.0: first_chunk=True total=21"
+  "15:25:49 handle mvv4jmfjr3og3.0: first_chunk=True total=21",
+  "15:28:57 request mvv4jmfjr3og3.0: chunk of 21 keys done in 187s; paths {'http': 44, 'browser-crashed': 251, 'browser': 17}, browser waits 268 max 329s sum 32364s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 44, 'miss': 124, 'blocked': 0, 'tries': 176, 'empty': 132}, audit 0/0 ",
+  "15:28:58 request mvv4jmfjr3og3.0: final sent (21/21); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30T10:46:40+00:00",
+ "at": "2026-10-30T14:46:53+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -13,6 +13,12 @@
   "10:46:13 request received: rid httptest1793357173 20 keys",
   "10:46:13 handle httptest1793357173: first_chunk=True total=20",
   "10:46:19 request httptest1793357173: chunk of 20 keys done in 6s; paths {'http': 18, 'browser': 2}, browser waits 2 max 5s sum 10s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 18, 'miss': 2, 'blocked': 0, 'tries': 24, 'empty': 6}, audit 2/2 agree",
-  "10:46:20 request httptest1793357173: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:46:20 request httptest1793357173: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "10:46:41 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "10:46:46 git retry 1: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "14:22:27 subscribe error HTTP Error 502: Bad Gateway; reconnecting",
+  "14:22:42 subscribe error HTTP Error 502: Bad Gateway; reconnecting",
+  "14:46:28 request received: rid mvv35069ql24g.2 16 keys",
+  "14:46:28 handle mvv35069ql24g.2: first_chunk=True total=16"
  ]
 }

@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T15:09:57+00:00",
+ "at": "2026-10-30T15:11:28+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 521,
+ "fares_saved": 532,
  "log": [
   "10:45:05 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:10 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
@@ -42,6 +42,8 @@
   "15:04:37 handle mvv3se6if0myt.5: first_chunk=True total=43",
   "15:05:20 git retry 0: b\"eads/main': is at b0f940cfa00a1e2a4b5306fc034f61299be616e8 but expected 60f74d6731a2b928f6f19e5187c5fd60537109ae)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "15:09:20 request mvv3se6if0myt.5: chunk of 43 keys done in 283s; paths {'http': 19, 'browser': 2, 'browser-crashed': 191}, browser waits 193 max 298s sum 26942s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 40, 'blocked': 0, 'tries': 94, 'empty': 75}, audit 2/2 agre",
-  "15:09:21 request mvv3se6if0myt.5: final sent (43/43); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "15:09:21 request mvv3se6if0myt.5: final sent (43/43); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "15:10:07 request received: rid mvv3zgnt6ww8x.5 44 keys",
+  "15:10:07 handle mvv3zgnt6ww8x.5: first_chunk=True total=44"
  ]
 }

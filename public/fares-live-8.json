@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-30T10:46:53+00:00",
+ "generated_at": "2026-10-30T14:46:55+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -14911,8 +14911,8 @@
   },
   "rt|TSA|HKT|2027-04-29|2027-05-02": {
    "status": "timeout",
-   "at": "2026-10-28",
-   "n": 14
+   "at": "2026-10-30",
+   "n": 15
   },
   "rt|TSA|HKT|2027-06-09|2027-09-19": {
    "status": "timeout",

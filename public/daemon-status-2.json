@@ -1,18 +1,19 @@
 {
- "at": "2026-10-29T20:42:50+00:00",
+ "at": "2026-10-30T00:52:57+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 847,
+ "fares_saved": 586,
  "log": [
-  "20:41:14 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:41:20 http front door: ['https://contractors-essentials-node-headed.trycloudflare.com', 'https://22c49680313af1.lhr.life']",
-  "20:41:20 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:42:23 request received: rid httptest1793306542 20 keys",
-  "20:42:23 handle httptest1793306542: first_chunk=True total=20",
-  "20:42:25 request httptest1793306542: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
-  "20:42:27 request httptest1793306542: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:50:25 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:51:25 ssh tunnel did not come up in 60 s",
+  "00:51:27 http front door: ['https://printable-saver-places-joined.trycloudflare.com']",
+  "00:51:27 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:51:34 request received: rid httptest1793321493 20 keys",
+  "00:51:34 handle httptest1793321493: first_chunk=True total=20",
+  "00:51:35 request httptest1793321493: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "00:51:37 request httptest1793321493: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T14:48:23+00:00",
+ "at": "2026-10-30T14:49:55+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 477,
+ "fares_saved": 478,
  "log": [
   "10:45:09 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:14 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
@@ -20,6 +20,9 @@
   "14:46:28 request received: rid mvv35069ql24g.1 16 keys",
   "14:46:28 handle mvv35069ql24g.1: first_chunk=True total=16",
   "14:47:56 request received: rid mvv36lu4p9x0s.1 36 keys",
-  "14:47:56 handle mvv36lu4p9x0s.1: first_chunk=True total=36"
+  "14:47:56 handle mvv36lu4p9x0s.1: first_chunk=True total=36",
+  "14:48:38 queue: 12 keys from the look-up queue in 142s (2 priced, 0 no flight, 10 failed)",
+  "14:48:42 request mvv35069ql24g.1: chunk of 16 keys done in 135s; paths {'http': 20, 'browser': 2, 'browser-crashed': 23}, browser waits 25 max 125s sum 1754s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 29, 'blocked': 0, 'tries': 69, 'empty': 49}, audit 0/0 agree",
+  "14:48:44 request mvv35069ql24g.1: final sent (16/16); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

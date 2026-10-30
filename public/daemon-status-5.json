@@ -1,18 +1,19 @@
 {
- "at": "2026-10-29T20:42:41+00:00",
+ "at": "2026-10-30T00:53:03+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 782,
+ "fares_saved": 520,
  "log": [
-  "20:41:06 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:41:11 http front door: ['https://convinced-proportion-perspectives-brochure.trycloudflare.com', 'https://9644bc6662e782.lhr.life']",
-  "20:41:11 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:42:15 request received: rid httptest1793306535 20 keys",
-  "20:42:15 handle httptest1793306535: first_chunk=True total=20",
-  "20:42:17 request httptest1793306535: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 23, 'empty': 3}, audit 0/0 agree",
-  "20:42:17 request httptest1793306535: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:50:32 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:51:32 ssh tunnel did not come up in 60 s",
+  "00:51:33 http front door: ['https://difficulties-fit-vehicle-john.trycloudflare.com']",
+  "00:51:33 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:51:40 request received: rid httptest1793321499 20 keys",
+  "00:51:40 handle httptest1793321499: first_chunk=True total=20",
+  "00:51:43 request httptest1793321499: chunk of 20 keys done in 4s; paths {'http': 19, 'browser': 1}, browser waits 1 max 3s sum 3s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 23, 'empty': 4}, audit 0/0 agree",
+  "00:51:45 request httptest1793321499: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

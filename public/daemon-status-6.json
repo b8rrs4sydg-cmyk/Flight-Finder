@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T15:00:39+00:00",
+ "at": "2026-10-30T15:02:10+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 542,
+ "fares_saved": 543,
  "log": [
   "10:45:06 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:11 http front door: ['https://electric-carey-climate-extension.trycloudflare.com', 'https://2749583ef9e0f5.lhr.life']",

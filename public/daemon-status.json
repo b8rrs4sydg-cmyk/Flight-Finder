@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30T14:56:14+00:00",
+ "at": "2026-10-30T14:58:07+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -33,6 +33,10 @@
   "14:53:05 handle mvv3dgr4hwnoe.0: first_chunk=True total=42",
   "14:53:07 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
   "14:53:07 queue: nothing readable, next try in 300s",
-  "14:54:39 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\""
+  "14:54:39 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "14:56:16 git retry 0: b\"eads/main': is at 345f6a314a6ea3547d58994a1ce712fc37453b2f but expected 7d1c0c0649d16368ebc75d27ed1e7e315841ed3c)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "14:56:27 git retry 1: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "14:57:49 request mvv3dgr4hwnoe.0: chunk of 42 keys done in 284s; paths {'http': 20, 'browser-crashed': 102}, browser waits 102 max 284s sum 11890s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 18, 'blocked': 0, 'tries': 55, 'empty': 35}, audit 0/0 agree",
+  "14:57:51 request mvv3dgr4hwnoe.0: final sent (42/42); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

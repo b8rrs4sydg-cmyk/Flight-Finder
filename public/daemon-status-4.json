@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30T10:46:39+00:00",
+ "at": "2026-10-30T14:46:40+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -13,6 +13,9 @@
   "10:46:11 request received: rid httptest1793357171 20 keys",
   "10:46:11 handle httptest1793357171: first_chunk=True total=20",
   "10:46:13 request httptest1793357171: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "10:46:15 request httptest1793357171: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:46:15 request httptest1793357171: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "14:22:30 subscribe error HTTP Error 502: Bad Gateway; reconnecting",
+  "14:46:28 request received: rid mvv35069ql24g.4 12 keys",
+  "14:46:28 handle mvv35069ql24g.4: first_chunk=True total=12"
  ]
 }

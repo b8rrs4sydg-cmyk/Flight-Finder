@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T15:08:17+00:00",
+ "at": "2026-10-30T15:11:19+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 544,
+ "fares_saved": 554,
  "log": [
   "10:45:06 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:11 http front door: ['https://electric-carey-climate-extension.trycloudflare.com', 'https://2749583ef9e0f5.lhr.life']",
@@ -39,6 +39,12 @@
   "15:02:22 request mvv3kpv682lcd.6: chunk of 37 keys done in 223s; paths {'http': 25, 'browser-crashed': 142, 'browser': 1}, browser waits 143 max 335s sum 19759s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 25, 'miss': 59, 'blocked': 0, 'tries': 108, 'empty': 83}, audit 0/0 agr",
   "15:02:24 request mvv3kpv682lcd.6: final sent (37/37); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "15:04:37 request received: rid mvv3se6if0myt.6 31 keys",
-  "15:04:37 handle mvv3se6if0myt.6: first_chunk=True total=31"
+  "15:04:37 handle mvv3se6if0myt.6: first_chunk=True total=31",
+  "15:08:49 request mvv3se6if0myt.6: chunk of 31 keys done in 251s; paths {'http': 25, 'browser-crashed': 180, 'browser': 2}, browser waits 182 max 335s sum 25106s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 25, 'miss': 69, 'blocked': 0, 'tries': 128, 'empty': 103}, audit 0/0 ag",
+  "15:08:51 request mvv3se6if0myt.6: final sent (31/31); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "15:09:17 queue: 12 keys from the look-up queue in 302s (0 priced, 0 no flight, 12 failed)",
+  "15:09:17 queue: nothing readable, next try in 300s",
+  "15:10:07 request received: rid mvv3zgnt6ww8x.6 41 keys",
+  "15:10:07 handle mvv3zgnt6ww8x.6: first_chunk=True total=41"
  ]
 }

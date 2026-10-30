@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30T15:51:00+00:00",
+ "at": "2026-10-30T20:39:16+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 540,
  "log": [
-  "15:49:23 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:49:30 http front door: ['https://shareholders-jim-babies-did.trycloudflare.com', 'https://577840f5a059ed.lhr.life']",
-  "15:49:30 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:50:32 request received: rid httptest1793375431 20 keys",
-  "15:50:32 handle httptest1793375431: first_chunk=True total=20",
-  "15:50:33 request httptest1793375431: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 12, 'blocked': 0, 'tries': 44, 'empty': 24}, audit 0/0 agree",
-  "15:50:34 request httptest1793375431: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:37:41 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:37:46 http front door: ['https://roulette-implications-qualifications-grip.trycloudflare.com', 'https://55657602edac7d.lhr.life']",
+  "20:37:46 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:38:51 request received: rid httptest1793392730 20 keys",
+  "20:38:51 handle httptest1793392730: first_chunk=True total=20",
+  "20:38:52 request httptest1793392730: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "20:38:54 request httptest1793392730: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

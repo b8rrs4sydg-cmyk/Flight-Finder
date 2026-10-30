@@ -1,18 +1,19 @@
 {
- "at": "2026-10-29T20:42:36+00:00",
+ "at": "2026-10-30T00:53:10+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 678,
+ "fares_saved": 489,
  "log": [
-  "20:41:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:41:06 http front door: ['https://william-bryant-perception-rental.trycloudflare.com', 'https://1589fc97bba31e.lhr.life']",
-  "20:41:06 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:42:10 request received: rid httptest1793306529 20 keys",
-  "20:42:10 handle httptest1793306529: first_chunk=True total=20",
-  "20:42:12 request httptest1793306529: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 24, 'empty': 4}, audit 0/0 agree",
-  "20:42:12 request httptest1793306529: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:50:39 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:51:39 ssh tunnel did not come up in 60 s",
+  "00:51:40 http front door: ['https://juan-chan-eyed-mere.trycloudflare.com']",
+  "00:51:40 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:51:48 request received: rid httptest1793321507 20 keys",
+  "00:51:48 handle httptest1793321507: first_chunk=True total=20",
+  "00:51:49 request httptest1793321507: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "00:51:51 request httptest1793321507: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

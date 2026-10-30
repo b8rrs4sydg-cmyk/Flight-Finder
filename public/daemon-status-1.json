@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T14:52:58+00:00",
+ "at": "2026-10-30T14:54:30+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 478,
+ "fares_saved": 479,
  "log": [
   "10:45:09 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:14 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
@@ -25,6 +25,10 @@
   "14:48:42 request mvv35069ql24g.1: chunk of 16 keys done in 135s; paths {'http': 20, 'browser': 2, 'browser-crashed': 23}, browser waits 25 max 125s sum 1754s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 29, 'blocked': 0, 'tries': 69, 'empty': 49}, audit 0/0 agree",
   "14:48:44 request mvv35069ql24g.1: final sent (16/16); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
   "14:51:52 request mvv36lu4p9x0s.1: chunk of 36 keys done in 236s; paths {'http': 20, 'browser': 2, 'browser-crashed': 54}, browser waits 56 max 235s sum 6304s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 29, 'blocked': 0, 'tries': 69, 'empty': 49}, audit 0/0 agree",
-  "14:51:53 request mvv36lu4p9x0s.1: final sent (36/36); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "14:51:53 request mvv36lu4p9x0s.1: final sent (36/36); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "14:53:03 rtc yrvsle7pf4: answered",
+  "14:53:05 rtc yrvsle7pf4: data channel open",
+  "14:53:05 request received: rid mvv3dgr4hwnoe.1 47 keys",
+  "14:53:05 handle mvv3dgr4hwnoe.1: first_chunk=True total=47"
  ]
 }

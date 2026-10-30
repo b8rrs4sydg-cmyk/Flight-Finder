@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30T14:57:52+00:00",
+ "at": "2026-10-30T14:59:24+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -31,6 +31,8 @@
   "14:53:05 handle mvv3dgr4hwnoe.3: first_chunk=True total=34",
   "14:54:45 git retry 0: b\"eads/main': is at 43adf6b133a4a6e420c60401912baac7a5c47e92 but expected 9a773da3d1aafabbaec862147919e4d357d3d437)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "14:57:02 request mvv3dgr4hwnoe.3: chunk of 34 keys done in 238s; paths {'http': 20, 'browser-crashed': 89}, browser waits 89 max 334s sum 11761s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 29, 'blocked': 0, 'tries': 64, 'empty': 44}, audit 3/3 agree",
-  "14:57:04 request mvv3dgr4hwnoe.3: final sent (34/34); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "14:57:04 request mvv3dgr4hwnoe.3: final sent (34/34); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "14:58:39 request received: rid mvv3kpv682lcd.3 50 keys",
+  "14:58:39 handle mvv3kpv682lcd.3: first_chunk=True total=50"
  ]
 }

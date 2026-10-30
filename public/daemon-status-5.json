@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30T15:51:08+00:00",
+ "at": "2026-10-30T20:39:27+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,13 @@
  },
  "fares_saved": 537,
  "log": [
-  "15:49:33 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:49:38 http front door: ['https://shaft-average-gym-distribute.trycloudflare.com', 'https://a66a145b62866f.lhr.life']",
-  "15:49:38 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:50:44 request received: rid httptest1793375443 20 keys",
-  "15:50:44 handle httptest1793375443: first_chunk=True total=20",
-  "15:50:48 request httptest1793375443: chunk of 20 keys done in 4s; paths {'http': 21}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 7, 'blocked': 0, 'tries': 34, 'empty': 13}, audit 1/1 agree",
-  "15:50:49 request httptest1793375443: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:37:45 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:37:50 git retry 0: b\"eads/main': is at 4c1f6fd443fca0404dffc5585b7ee2c64840cf70 but expected d4e8a235ed0adea2c66d54e38a44a0569d176991)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "20:37:57 http front door: ['https://consisting-reprints-openings-newer.trycloudflare.com', 'https://f62540abd1c46f.lhr.life']",
+  "20:37:57 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:38:54 request received: rid httptest1793392734 20 keys",
+  "20:38:54 handle httptest1793392734: first_chunk=True total=20",
+  "20:38:56 request httptest1793392734: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "20:38:57 request httptest1793392734: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

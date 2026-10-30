@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T14:57:22+00:00",
+ "at": "2026-10-30T14:58:53+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 508,
+ "fares_saved": 509,
  "log": [
   "10:45:02 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:09 http front door: ['https://circus-bailey-harvard-quarterly.trycloudflare.com', 'https://432795e4f3f14c.lhr.life']",
@@ -28,6 +28,10 @@
   "14:53:03 rtc 6fsha437of: answered",
   "14:53:05 rtc 6fsha437of: data channel open",
   "14:53:05 request received: rid mvv3dgr4hwnoe.4 44 keys",
-  "14:53:05 handle mvv3dgr4hwnoe.4: first_chunk=True total=44"
+  "14:53:05 handle mvv3dgr4hwnoe.4: first_chunk=True total=44",
+  "14:57:48 request mvv3dgr4hwnoe.4: chunk of 44 keys done in 283s; paths {'http': 20, 'browser-crashed': 97}, browser waits 97 max 283s sum 12072s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 25, 'blocked': 0, 'tries': 61, 'empty': 41}, audit 3/3 agree",
+  "14:57:49 request mvv3dgr4hwnoe.4: final sent (44/44); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "14:58:39 request received: rid mvv3kpv682lcd.4 38 keys",
+  "14:58:39 handle mvv3kpv682lcd.4: first_chunk=True total=38"
  ]
 }

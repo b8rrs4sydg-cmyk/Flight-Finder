@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T15:11:53+00:00",
+ "at": "2026-10-30T15:13:25+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 512,
+ "fares_saved": 515,
  "log": [
   "10:45:24 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:29 http front door: ['https://nsw-brighton-warranty-lower.trycloudflare.com', 'https://4ce6833cfe7442.lhr.life']",

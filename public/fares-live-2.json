@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-30T15:12:55+00:00",
+ "generated_at": "2026-10-30T15:14:27+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -1505,6 +1505,27 @@
     ]
    ]
   },
+  "mc|NRT-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-XIY-2027-09-15": {
+   "price": 59830,
+   "by_airline": {
+    "Jetstar": 59830,
+    "EVA Air": 62245,
+    "Cathay Pacific": 85805
+   },
+   "first": {
+    "dep": "2026-12-27T22:25:00+09:00",
+    "arr": "2026-12-28T01:30:00+08:00",
+    "stops": 0,
+    "airline": "Jetstar"
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     59830
+    ]
+   ]
+  },
   "mc|NRT-TPE-2027-01-02|TPE-KIX-2027-02-27": {
    "price": 15414,
    "first": {
@@ -1717,6 +1738,27 @@
     ]
    ]
   },
+  "mc|RGN-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-BKK-2027-04-29": {
+   "price": 57620,
+   "by_airline": {
+    "Malaysia Airlines": 57620,
+    "China Southern": 89502,
+    "THAI": 109772
+   },
+   "first": {
+    "dep": "2026-12-27T11:25:00+06:30",
+    "arr": "2026-12-28T14:10:00+08:00",
+    "stops": 1,
+    "airline": "Malaysia Airlines"
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     57620
+    ]
+   ]
+  },
   "mc|RGN-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-HND-2027-09-15": {
    "price": 74864,
    "first": {
@@ -1735,6 +1777,48 @@
     [
      "2026-10-30",
      74864
+    ]
+   ]
+  },
+  "mc|RGN-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-TAO-2027-04-29": {
+   "price": 67363,
+   "by_airline": {
+    "Malaysia Airlines": 79113,
+    "China Southern": 102052,
+    "THAI": 113492
+   },
+   "first": {
+    "dep": "2026-12-27T09:25:00+06:30",
+    "arr": "2026-12-27T17:15:00+08:00",
+    "stops": 1,
+    "airline": "THAI and EVA Air"
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     67363
+    ]
+   ]
+  },
+  "mc|RGN-TPE-2026-12-27|TPE-MNL-2027-02-10|MNL-TPE-2027-02-14|TPE-XIY-2027-04-29": {
+   "price": 62297,
+   "by_airline": {
+    "Malaysia Airlines": 62297,
+    "China Southern": 89930,
+    "THAI": 96677
+   },
+   "first": {
+    "dep": "2026-12-27T11:25:00+06:30",
+    "arr": "2026-12-28T14:10:00+08:00",
+    "stops": 1,
+    "airline": "Malaysia Airlines"
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     62297
     ]
    ]
   },
@@ -13487,12 +13571,52 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|RGN-TPE-2026-12-27|TPE-HAN-2027-06-09|HAN-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-30",
+   "n": 1
+  },
+  "mc|RGN-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-CGK-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-30",
+   "n": 1
+  },
+  "mc|RGN-TPE-2026-12-27|TPE-MNL-2027-02-10|MNL-TPE-2027-02-14|TPE-RGN-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-30",
+   "n": 1
+  },
   "mc|RGN-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-CTU-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-30",
    "n": 1
   },
+  "mc|RGN-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-ICN-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-30",
+   "n": 1
+  },
+  "mc|RGN-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-RGN-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-30",
+   "n": 1
+  },
+  "mc|RGN-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-SZX-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-30",
+   "n": 1
+  },
+  "mc|RGN-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-TAO-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-30",
+   "n": 1
+  },
   "mc|RGN-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-30",
+   "n": 1
+  },
+  "mc|RGN-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-XIY-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-30",
    "n": 1

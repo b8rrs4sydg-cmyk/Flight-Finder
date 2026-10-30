@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-30T15:31:04+00:00",
+ "generated_at": "2026-10-30T15:32:36+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -12420,6 +12420,11 @@
    "at": "2026-10-30",
    "n": 1
   },
+  "mc|SIN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-SIN-2026-12-24": {
+   "status": "parse_error",
+   "at": "2026-10-30",
+   "n": 1
+  },
   "mc|SIN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-XIY-2027-02-10": {
    "status": "timeout",
    "at": "2026-10-30",
@@ -12534,6 +12539,11 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 3
+  },
+  "mc|XIY-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-SZX-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-30",
+   "n": 1
   },
   "ow|CTS|RMQ|2027-09-19": {
    "status": "timeout",

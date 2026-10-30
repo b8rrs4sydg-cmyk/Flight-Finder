@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30T05:44:55+00:00",
+ "at": "2026-10-30T10:46:39+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 508,
  "log": [
-  "05:43:19 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "05:43:25 http front door: ['https://computed-alexandria-kilometers-doing.trycloudflare.com', 'https://14827b2cd0f227.lhr.life']",
-  "05:43:25 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "05:44:29 request received: rid httptest1793339068 20 keys",
-  "05:44:29 handle httptest1793339068: first_chunk=True total=20",
-  "05:44:31 request httptest1793339068: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
-  "05:44:31 request httptest1793339068: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:45:02 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "10:45:09 http front door: ['https://circus-bailey-harvard-quarterly.trycloudflare.com', 'https://432795e4f3f14c.lhr.life']",
+  "10:45:09 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "10:46:11 request received: rid httptest1793357171 20 keys",
+  "10:46:11 handle httptest1793357171: first_chunk=True total=20",
+  "10:46:13 request httptest1793357171: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "10:46:15 request httptest1793357171: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

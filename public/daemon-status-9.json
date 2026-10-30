@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T15:20:19+00:00",
+ "at": "2026-10-30T15:26:21+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 535,
+ "fares_saved": 537,
  "log": [
   "10:45:08 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:14 http front door: ['https://budapest-collaboration-purpose-eng.trycloudflare.com', 'https://66934300ab1d39.lhr.life']",
@@ -50,6 +50,10 @@
   "15:17:26 request received: rid mvv48vfrlj4og.8 14 keys",
   "15:17:26 handle mvv48vfrlj4og.8: first_chunk=True total=14",
   "15:19:39 request mvv48vfrlj4og.8: chunk of 14 keys done in 133s; paths {'http': 46, 'browser-crashed': 205, 'browser': 13}, browser waits 218 max 339s sum 26702s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 46, 'miss': 96, 'blocked': 0, 'tries': 153, 'empty': 107}, audit 4/4 a",
-  "15:19:40 request mvv48vfrlj4og.8: final sent (14/14); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "15:19:40 request mvv48vfrlj4og.8: final sent (14/14); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "15:24:40 queue: 12 keys from the look-up queue in 91s (0 priced, 0 no flight, 12 failed)",
+  "15:24:40 queue: nothing readable, next try in 540s",
+  "15:25:49 request received: rid mvv4jmfjr3og3.8 25 keys",
+  "15:25:49 handle mvv4jmfjr3og3.8: first_chunk=True total=25"
  ]
 }

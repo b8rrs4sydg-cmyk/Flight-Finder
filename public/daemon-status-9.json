@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T15:06:39+00:00",
+ "at": "2026-10-30T15:11:11+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 505,
+ "fares_saved": 524,
  "log": [
   "10:45:08 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:14 http front door: ['https://budapest-collaboration-purpose-eng.trycloudflare.com', 'https://66934300ab1d39.lhr.life']",
@@ -38,6 +38,12 @@
   "15:03:06 request mvv3kpv682lcd.9: chunk of 46 keys done in 267s; paths {'http': 27, 'browser-crashed': 146, 'browser': 2}, browser waits 148 max 339s sum 19336s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 71, 'blocked': 0, 'tries': 117, 'empty': 90}, audit 3/3 agr",
   "15:03:08 request mvv3kpv682lcd.9: final sent (46/46); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "15:04:37 request received: rid mvv3se6if0myt.9 27 keys",
-  "15:04:37 handle mvv3se6if0myt.9: first_chunk=True total=27"
+  "15:04:37 handle mvv3se6if0myt.9: first_chunk=True total=27",
+  "15:08:02 request mvv3se6if0myt.9: chunk of 27 keys done in 205s; paths {'http': 27, 'browser-crashed': 181, 'browser': 2}, browser waits 183 max 339s sum 23055s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 79, 'blocked': 0, 'tries': 132, 'empty': 105}, audit 3/3 ag",
+  "15:08:04 request mvv3se6if0myt.9: final sent (27/27); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "15:08:09 queue: 12 keys from the look-up queue in 242s (0 priced, 0 no flight, 12 failed)",
+  "15:08:09 queue: nothing readable, next try in 300s",
+  "15:10:07 request received: rid mvv3zgnt6ww8x.9 36 keys",
+  "15:10:07 handle mvv3zgnt6ww8x.9: first_chunk=True total=36"
  ]
 }

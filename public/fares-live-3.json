@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-30T15:17:41+00:00",
+ "generated_at": "2026-10-30T15:19:14+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -2246,6 +2246,28 @@
     [
      "2026-10-30",
      59329
+    ]
+   ]
+  },
+  "mc|PEK-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "price": 55865,
+   "by_airline": {
+    "Hainan": 55865,
+    "EVA Air": 71334,
+    "Cathay Pacific": 80884,
+    "China Airlines": 81007
+   },
+   "first": {
+    "dep": "2026-12-27T08:00:00+08:00",
+    "arr": "2026-12-27T11:05:00+08:00",
+    "stops": 0,
+    "airline": "Hainan"
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     55865
     ]
    ]
   },
@@ -13845,7 +13867,7 @@
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-KMG-2027-02-10": {
    "status": "timeout",
    "at": "2026-10-30",
-   "n": 2
+   "n": 3
   },
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-SIN-2026-12-11": {
    "status": "timeout",
@@ -13895,17 +13917,17 @@
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-12-24|HKG-TPE-2026-12-27|TPE-KMG-2027-02-10": {
    "status": "timeout",
    "at": "2026-10-30",
-   "n": 2
+   "n": 3
   },
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-XIY-2027-04-29": {
    "status": "timeout",
    "at": "2026-10-30",
-   "n": 4
+   "n": 5
   },
   "mc|GMP-TPE-2026-11-08|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-30",
-   "n": 4
+   "n": 5
   },
   "mc|GMP-TPE-2026-11-08|TPE-OKA-2026-11-20|OKA-TPE-2026-11-22|TPE-GMP-2027-09-15": {
    "status": "timeout",
@@ -14101,11 +14123,6 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
-  },
-  "mc|PEK-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-10-30",
-   "n": 3
   },
   "mc|PEN-TPE-2026-12-13|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
    "status": "timeout",

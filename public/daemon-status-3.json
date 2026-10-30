@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T15:17:41+00:00",
+ "at": "2026-10-30T15:19:14+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 626,
+ "fares_saved": 627,
  "log": [
   "10:45:27 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:32 http front door: ['https://modules-referral-asking-specifies.trycloudflare.com', 'https://70a1544b297e59.lhr.life']",
@@ -49,6 +49,8 @@
   "15:14:29 request mvv3zgnt6ww8x.3: chunk of 46 keys done in 262s; paths {'http': 42, 'browser-crashed': 205, 'browser': 10}, browser waits 215 max 377s sum 30331s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 42, 'miss': 79, 'blocked': 0, 'tries': 137, 'empty': 95}, audit 3/3 ag",
   "15:14:31 request mvv3zgnt6ww8x.3: final sent (46/46); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "15:17:26 request received: rid mvv48vfrlj4og.2 17 keys",
-  "15:17:26 handle mvv48vfrlj4og.2: first_chunk=True total=17"
+  "15:17:26 handle mvv48vfrlj4og.2: first_chunk=True total=17",
+  "15:18:43 request mvv48vfrlj4og.2: chunk of 17 keys done in 77s; paths {'http': 54, 'browser-crashed': 209, 'browser': 11}, browser waits 220 max 377s sum 30669s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 54, 'miss': 84, 'blocked': 0, 'tries': 160, 'empty': 106}, audit 3/3 ag",
+  "15:18:45 request mvv48vfrlj4og.2: final sent (17/17); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

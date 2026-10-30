@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T15:27:07+00:00",
+ "at": "2026-10-30T15:28:42+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 600,
+ "fares_saved": 601,
  "log": [
   "10:45:09 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:14 git retry 0: b\"eads/main': is at cf2edcfb1256ec068dda94ca41da8580b2458194 but expected 6820fdaaef85281f993d2445909e74f2713fdf71)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
@@ -57,6 +57,8 @@
   "15:24:09 request mvv48vfrlj4og.6: chunk of 36 keys done in 403s; paths {'http': 34, 'browser-crashed': 251, 'browser': 6}, browser waits 257 max 413s sum 35891s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 34, 'miss': 133, 'blocked': 6, 'tries': 162, 'empty': 128}, audit 1/1 a",
   "15:24:10 request mvv48vfrlj4og.6: final sent (36/36); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "15:25:49 request received: rid mvv4jmfjr3og3.6 13 keys",
-  "15:25:49 handle mvv4jmfjr3og3.6: first_chunk=True total=13"
+  "15:25:49 handle mvv4jmfjr3og3.6: first_chunk=True total=13",
+  "15:27:08 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "15:28:41 request mvv4jmfjr3og3.6: chunk of 13 keys done in 172s; paths {'http': 36, 'browser-crashed': 261, 'browser': 7}, browser waits 268 max 413s sum 36960s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 36, 'miss': 144, 'blocked': 6, 'tries': 167, 'empty': 131}, audit 1/1 a"
  ]
 }

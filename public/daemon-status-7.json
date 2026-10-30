@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30T15:04:07+00:00",
+ "at": "2026-10-30T15:05:39+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -39,6 +39,10 @@
   "14:58:39 handle mvv3kpv682lcd.7: first_chunk=True total=36",
   "14:59:27 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
   "15:02:44 request mvv3kpv682lcd.7: chunk of 36 keys done in 245s; paths {'http': 27, 'browser-crashed': 135}, browser waits 135 max 287s sum 16040s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 27, 'miss': 86, 'blocked': 2, 'tries': 144, 'empty': 117}, audit 1/1 agree",
-  "15:02:44 request mvv3kpv682lcd.7: final sent (36/36); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "15:02:44 request mvv3kpv682lcd.7: final sent (36/36); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "15:04:37 request received: rid mvv3se6if0myt.7 25 keys",
+  "15:04:37 handle mvv3se6if0myt.7: first_chunk=True total=25",
+  "15:04:54 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "15:04:54 queue: nothing readable, next try in 300s"
  ]
 }

@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T15:08:21+00:00",
+ "at": "2026-10-30T15:11:23+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 588,
+ "fares_saved": 590,
  "log": [
   "10:45:04 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:10 http front door: ['https://onion-rna-salaries-curriculum.trycloudflare.com', 'https://651faea6ad5890.lhr.life']",
@@ -41,6 +41,12 @@
   "15:02:48 request mvv3kpv682lcd.2: final sent (34/34); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "15:04:37 request received: rid mvv3se6if0myt.2 33 keys",
   "15:04:37 handle mvv3se6if0myt.2: first_chunk=True total=33",
-  "15:05:16 git retry 0: b\"eads/main': is at 60f74d6731a2b928f6f19e5187c5fd60537109ae but expected 5974f73d28fa0eae82a605372fac3c7fa3c744e2)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\""
+  "15:05:16 git retry 0: b\"eads/main': is at 60f74d6731a2b928f6f19e5187c5fd60537109ae but expected 5974f73d28fa0eae82a605372fac3c7fa3c744e2)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "15:08:50 request mvv3se6if0myt.2: chunk of 33 keys done in 252s; paths {'http': 20, 'browser': 2, 'browser-crashed': 186}, browser waits 188 max 331s sum 23946s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 89, 'blocked': 6, 'tries': 131, 'empty': 111}, audit 3/3 ag",
+  "15:08:51 request mvv3se6if0myt.2: final sent (33/33); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "15:08:55 queue: 12 keys from the look-up queue in 284s (0 priced, 0 no flight, 12 failed)",
+  "15:08:55 queue: nothing readable, next try in 300s",
+  "15:10:07 request received: rid mvv3zgnt6ww8x.2 45 keys",
+  "15:10:07 handle mvv3zgnt6ww8x.2: first_chunk=True total=45"
  ]
 }

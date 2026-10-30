@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T14:58:07+00:00",
+ "at": "2026-10-30T14:59:39+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 489,
+ "fares_saved": 492,
  "log": [
   "10:45:24 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:29 http front door: ['https://nsw-brighton-warranty-lower.trycloudflare.com', 'https://4ce6833cfe7442.lhr.life']",
@@ -37,6 +37,8 @@
   "14:56:16 git retry 0: b\"eads/main': is at 345f6a314a6ea3547d58994a1ce712fc37453b2f but expected 7d1c0c0649d16368ebc75d27ed1e7e315841ed3c)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "14:56:27 git retry 1: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
   "14:57:49 request mvv3dgr4hwnoe.0: chunk of 42 keys done in 284s; paths {'http': 20, 'browser-crashed': 102}, browser waits 102 max 284s sum 11890s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 18, 'blocked': 0, 'tries': 55, 'empty': 35}, audit 0/0 agree",
-  "14:57:51 request mvv3dgr4hwnoe.0: final sent (42/42); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "14:57:51 request mvv3dgr4hwnoe.0: final sent (42/42); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "14:58:39 request received: rid mvv3kpv682lcd.0 42 keys",
+  "14:58:39 handle mvv3kpv682lcd.0: first_chunk=True total=42"
  ]
 }

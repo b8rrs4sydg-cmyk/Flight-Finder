@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-30T15:14:57+00:00",
+ "generated_at": "2026-10-30T15:17:59+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -901,6 +901,26 @@
     [
      "2026-10-30",
      52771
+    ]
+   ]
+  },
+  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-RGN-2026-12-24": {
+   "price": 64881,
+   "by_airline": {
+    "China Southern": 64881,
+    "THAI": 109515
+   },
+   "first": {
+    "dep": "2026-11-08T06:55:00+08:00",
+    "arr": "2026-11-08T14:15:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     64881
     ]
    ]
   },
@@ -1851,6 +1871,25 @@
     [
      "2026-10-30",
      81551
+    ]
+   ]
+  },
+  "mc|XIY-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-XIY-2027-09-15": {
+   "price": 60133,
+   "by_airline": {
+    "Cathay Pacific": 60133
+   },
+   "first": {
+    "dep": "2027-02-14T15:55:00+08:00",
+    "arr": "2027-02-15T00:50:00+08:00",
+    "stops": 1,
+    "airline": "Cathay Pacific"
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     60133
     ]
    ]
   },
@@ -11650,11 +11689,6 @@
    "at": "2026-10-27",
    "n": 1
   },
-  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-RGN-2026-12-24": {
-   "status": "timeout",
-   "at": "2026-10-30",
-   "n": 1
-  },
   "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-SGN-2026-12-24": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -11924,11 +11958,6 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 4
-  },
-  "mc|XIY-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-XIY-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-10-30",
-   "n": 1
   },
   "mc|XIY-TPE-2027-05-02|TPE-HAN-2027-06-09|HAN-TPE-2027-06-13|TPE-BKI-2027-09-15": {
    "status": "timeout",

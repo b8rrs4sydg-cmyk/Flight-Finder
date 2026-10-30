@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30T14:46:43+00:00",
+ "at": "2026-10-30T14:48:14+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -17,6 +17,8 @@
   "14:22:27 subscribe error HTTP Error 502: Bad Gateway; reconnecting",
   "14:22:39 subscribe error HTTP Error 502: Bad Gateway; reconnecting",
   "14:46:28 request received: rid mvv35069ql24g.6 20 keys",
-  "14:46:28 handle mvv35069ql24g.6: first_chunk=True total=20"
+  "14:46:28 handle mvv35069ql24g.6: first_chunk=True total=20",
+  "14:47:56 request received: rid mvv36lu4p9x0s.6 44 keys",
+  "14:47:56 handle mvv36lu4p9x0s.6: first_chunk=True total=44"
  ]
 }

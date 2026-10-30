@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T14:57:46+00:00",
+ "at": "2026-10-30T14:59:18+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 480,
+ "fares_saved": 485,
  "log": [
   "10:45:09 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:14 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
@@ -31,6 +31,12 @@
   "14:53:05 request received: rid mvv3dgr4hwnoe.1 47 keys",
   "14:53:05 handle mvv3dgr4hwnoe.1: first_chunk=True total=47",
   "14:54:32 git retry 0: b\"eads/main': is at f6a1f40daa522e16a0881d9f894a68c85babf72a but expected 215c688a53c5f57123d43d0e4c831b15674ab185)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "14:54:37 git retry 1: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\""
+  "14:54:37 git retry 1: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "14:58:35 request mvv3dgr4hwnoe.1: chunk of 47 keys done in 331s; paths {'http': 20, 'browser': 4, 'browser-crashed': 108}, browser waits 112 max 348s sum 15788s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 34, 'blocked': 0, 'tries': 79, 'empty': 59}, audit 0/0 agre",
+  "14:58:36 request mvv3dgr4hwnoe.1: final sent (47/47); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "14:58:39 request received: rid mvv3kpv682lcd.1 31 keys",
+  "14:58:39 handle mvv3kpv682lcd.1: first_chunk=True total=31",
+  "14:59:08 queue: 12 keys from the look-up queue in 389s (0 priced, 0 no flight, 12 failed)",
+  "14:59:08 queue: nothing readable, next try in 180s"
  ]
 }

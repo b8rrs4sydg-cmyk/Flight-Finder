@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T14:48:24+00:00",
+ "at": "2026-10-30T14:50:16+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 582,
+ "fares_saved": 583,
  "log": [
   "10:45:09 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:14 git retry 0: b\"eads/main': is at cf2edcfb1256ec068dda94ca41da8580b2458194 but expected 6820fdaaef85281f993d2445909e74f2713fdf71)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
@@ -19,6 +19,11 @@
   "14:46:28 request received: rid mvv35069ql24g.7 18 keys",
   "14:46:28 handle mvv35069ql24g.7: first_chunk=True total=18",
   "14:47:56 request received: rid mvv36lu4p9x0s.7 42 keys",
-  "14:47:56 handle mvv36lu4p9x0s.7: first_chunk=True total=42"
+  "14:47:56 handle mvv36lu4p9x0s.7: first_chunk=True total=42",
+  "14:48:26 git retry 0: b\"eads/main': is at 656fc9583aa1026fe0a24aa3e685408e69d7697a but expected 7ab83dc2f1da3a781b4e45418657104a6bac4c8e)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "14:48:31 git retry 1: b\"eads/main': is at bfb4ffbd829d5096590aaf580608b9e08bf858b0 but expected b67bdbc435e2a53931992e25525217fd940129b9)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "14:48:35 request mvv35069ql24g.7: chunk of 18 keys done in 128s; paths {'http': 25, 'browser-crashed': 17}, browser waits 17 max 121s sum 1122s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 25, 'miss': 54, 'blocked': 0, 'tries': 110, 'empty': 85}, audit 1/1 agree",
+  "14:48:36 request mvv35069ql24g.7: final sent (18/18); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "14:48:38 git retry 2: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\""
  ]
 }

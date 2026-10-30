@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-30T15:13:18+00:00",
+ "generated_at": "2026-10-30T15:14:50+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -1965,6 +1965,27 @@
     [
      "2026-10-28",
      131515
+    ]
+   ]
+  },
+  "mc|RGN-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-RGN-2027-09-15": {
+   "price": 42542,
+   "by_airline": {
+    "Malaysia Airlines": 97054,
+    "China Southern": 104949,
+    "THAI": 118429
+   },
+   "first": {
+    "dep": "2026-12-27T13:45:00+06:30",
+    "arr": "2026-12-27T21:50:00+08:00",
+    "stops": 1,
+    "airline": "THAI and EVA Air"
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     42542
     ]
    ]
   },
@@ -13266,8 +13287,8 @@
    "n": 1
   },
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-KUL-2027-02-10": {
-   "status": "parse_error",
-   "at": "2026-10-27",
+   "status": "timeout",
+   "at": "2026-10-30",
    "n": 1
   },
   "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-PEK-2027-02-10": {
@@ -13305,6 +13326,11 @@
    "at": "2026-10-27",
    "n": 1
   },
+  "mc|GMP-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-XIY-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-30",
+   "n": 1
+  },
   "mc|HKG-TPE-2027-01-02|TPE-KIX-2027-02-04|KIX-TPE-2027-02-15|TPE-HKG-2027-02-26": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -13338,6 +13364,11 @@
   "mc|ICN-TPE-2027-01-02|TPE-NGO-2027-02-04|NGO-TPE-2027-02-14|TPE-ICN-2027-02-27": {
    "status": "timeout",
    "at": "2026-10-27",
+   "n": 1
+  },
+  "mc|KIX-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-RGN-2026-12-24": {
+   "status": "timeout",
+   "at": "2026-10-30",
    "n": 1
   },
   "mc|KIX-TPE-2027-01-02|TPE-HND-2027-02-26": {
@@ -13402,8 +13433,8 @@
   },
   "mc|KMG-TPE-2026-11-08|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
    "status": "timeout",
-   "at": "2026-10-27",
-   "n": 4
+   "at": "2026-10-30",
+   "n": 5
   },
   "mc|KMG-TPE-2027-02-14|TPE-MNL-2027-04-29|MNL-TPE-2027-05-02|TPE-DAD-2027-09-15": {
    "status": "timeout",
@@ -13455,6 +13486,11 @@
    "at": "2026-10-27",
    "n": 4
   },
+  "mc|RGN-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-RGN-2027-02-10": {
+   "status": "timeout",
+   "at": "2026-10-30",
+   "n": 1
+  },
   "mc|RGN-TPE-2026-11-08|TPE-HKG-2026-12-24|HKG-TPE-2026-12-27|TPE-CKG-2027-02-10": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -13465,12 +13501,22 @@
    "at": "2026-10-28",
    "n": 1
   },
+  "mc|RGN-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-WUH-2027-04-29": {
+   "status": "timeout",
+   "at": "2026-10-30",
+   "n": 1
+  },
   "mc|RGN-TPE-2026-12-27|TPE-MNL-2027-02-10|MNL-TPE-2027-02-14|TPE-BKI-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-30",
    "n": 1
   },
   "mc|RGN-TPE-2026-12-27|TPE-MNL-2027-04-29|MNL-TPE-2027-05-02|TPE-DAD-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-30",
+   "n": 1
+  },
+  "mc|RGN-TPE-2026-12-27|TPE-MNL-2027-04-29|MNL-TPE-2027-05-02|TPE-FOC-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-30",
    "n": 1
@@ -13499,6 +13545,11 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 2
+  },
+  "mc|TAO-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "status": "timeout",
+   "at": "2026-10-30",
+   "n": 1
   },
   "mc|TPE-HND-2027-01-02|KIX-TPE-2027-02-15": {
    "status": "timeout",

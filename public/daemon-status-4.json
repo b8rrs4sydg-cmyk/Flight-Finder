@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T15:20:14+00:00",
+ "at": "2026-10-30T15:21:47+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 527,
+ "fares_saved": 528,
  "log": [
   "10:45:02 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:09 http front door: ['https://circus-bailey-harvard-quarterly.trycloudflare.com', 'https://432795e4f3f14c.lhr.life']",
@@ -48,6 +48,8 @@
   "15:16:00 request mvv3zgnt6ww8x.4: chunk of 36 keys done in 353s; paths {'http': 36, 'browser-crashed': 215, 'browser': 1}, browser waits 216 max 341s sum 27736s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 36, 'miss': 98, 'blocked': 0, 'tries': 154, 'empty': 118}, audit 3/3 ag",
   "15:16:01 request mvv3zgnt6ww8x.4: final sent (36/36); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "15:17:26 request received: rid mvv48vfrlj4og.3 25 keys",
-  "15:17:26 handle mvv48vfrlj4og.3: first_chunk=True total=25"
+  "15:17:26 handle mvv48vfrlj4og.3: first_chunk=True total=25",
+  "15:21:45 request mvv48vfrlj4og.3: chunk of 25 keys done in 259s; paths {'http': 36, 'browser-crashed': 237, 'browser': 4}, browser waits 241 max 341s sum 31560s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 36, 'miss': 98, 'blocked': 0, 'tries': 154, 'empty': 118}, audit 3/3 ag",
+  "15:21:46 request mvv48vfrlj4og.3: final sent (25/25); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

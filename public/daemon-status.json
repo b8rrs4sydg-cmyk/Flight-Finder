@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30T15:51:03+00:00",
+ "at": "2026-10-30T20:39:24+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,14 +7,12 @@
  },
  "fares_saved": 530,
  "log": [
-  "15:49:14 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:49:19 git retry 0: b\"eads/main': is at 1f0e6323e8c875942d5c20aa088cb9580d1c0126 but expected 5aa485079ac7b226cf0f625c2dc3e0e442ec44dc)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "15:49:25 git retry 1: b\"eads/main': is at fb2ce860d6d06406019337bc8b06eee53ca3911b but expected 1b5e306a839f5bec47f9fed02433c4df935e6e1d)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "15:49:33 http front door: ['https://permanent-bracket-attendance-reduction.trycloudflare.com', 'https://5d2c564118c869.lhr.life']",
-  "15:49:33 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:50:24 request received: rid httptest1793375423 20 keys",
-  "15:50:24 handle httptest1793375423: first_chunk=True total=20",
-  "15:50:26 request httptest1793375423: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 23, 'empty': 3}, audit 0/0 agree",
-  "15:50:28 request httptest1793375423: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:37:49 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:37:54 http front door: ['https://roots-ingredients-characteristics-reference.trycloudflare.com', 'https://ebbae62f16480f.lhr.life']",
+  "20:37:54 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:38:58 request received: rid httptest1793392738 20 keys",
+  "20:38:58 handle httptest1793392738: first_chunk=True total=20",
+  "20:39:00 request httptest1793392738: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 23, 'empty': 3}, audit 0/0 agree",
+  "20:39:00 request httptest1793392738: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

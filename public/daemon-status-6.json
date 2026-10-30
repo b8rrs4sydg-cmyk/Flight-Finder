@@ -1,18 +1,19 @@
 {
- "at": "2026-10-29T20:42:33+00:00",
+ "at": "2026-10-30T00:53:02+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 803,
+ "fares_saved": 537,
  "log": [
-  "20:40:59 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:41:03 http front door: ['https://singer-aims-warehouse-syndicate.trycloudflare.com', 'https://52a9c31b09e5b3.lhr.life']",
-  "20:41:03 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:42:08 request received: rid httptest1793306528 20 keys",
-  "20:42:08 handle httptest1793306528: first_chunk=True total=20",
-  "20:42:09 request httptest1793306528: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "20:42:11 request httptest1793306528: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:50:31 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:51:31 ssh tunnel did not come up in 60 s",
+  "00:51:32 http front door: ['https://massage-stanford-modify-onto.trycloudflare.com']",
+  "00:51:32 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:51:40 request received: rid httptest1793321500 20 keys",
+  "00:51:40 handle httptest1793321500: first_chunk=True total=20",
+  "00:51:45 request httptest1793321500: chunk of 20 keys done in 5s; paths {'http': 19, 'browser': 1}, browser waits 1 max 4s sum 4s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 24, 'empty': 5}, audit 1/1 agree",
+  "00:51:46 request httptest1793321500: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

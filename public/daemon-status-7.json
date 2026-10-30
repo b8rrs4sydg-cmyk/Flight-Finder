@@ -1,18 +1,22 @@
 {
- "at": "2026-10-29T20:42:38+00:00",
+ "at": "2026-10-30T00:53:20+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 806,
+ "fares_saved": 578,
  "log": [
-  "20:41:03 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:41:08 http front door: ['https://query-smilies-finished-newton.trycloudflare.com', 'https://3342157cdf8a01.lhr.life']",
-  "20:41:08 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:42:12 request received: rid httptest1793306532 20 keys",
-  "20:42:12 handle httptest1793306532: first_chunk=True total=20",
-  "20:42:14 request httptest1793306532: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 23, 'empty': 3}, audit 0/0 agree",
-  "20:42:16 request httptest1793306532: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:50:27 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:51:27 ssh tunnel did not come up in 60 s",
+  "00:51:28 git retry 0: b\"eads/main': is at 93fcd74033ead2abb39e397232eada0a6b53deaf but expected 8d0760f4a8787d58db27bdbc386c0a5ab8a08b1b)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "00:51:33 git retry 1: b\"eads/main': is at c1d92ddad7223b2dfadf4a2e3f2ac214e96d5bf5 but expected 2567f26c3d12a91921210ab3abd22c138d3ef065)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "00:51:40 git retry 2: b\"eads/main': is at 80a69cbe31e847aaae07534b9202a3626999101d but expected 68338abe038582c1aa54693b7fd4dae12ea83bb3)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "00:51:50 http front door: ['https://diameter-seminars-learn-charge.trycloudflare.com']",
+  "00:51:50 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:51:50 request received: rid httptest1793321496 20 keys",
+  "00:51:50 handle httptest1793321496: first_chunk=True total=20",
+  "00:51:52 request httptest1793321496: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
+  "00:51:52 request httptest1793321496: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

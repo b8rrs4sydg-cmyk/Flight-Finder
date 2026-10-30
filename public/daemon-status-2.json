@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T15:20:34+00:00",
+ "at": "2026-10-30T15:22:06+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 618,
+ "fares_saved": 620,
  "log": [
   "10:45:04 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:10 http front door: ['https://onion-rna-salaries-curriculum.trycloudflare.com', 'https://651faea6ad5890.lhr.life']",
@@ -51,6 +51,8 @@
   "15:16:56 request mvv3zgnt6ww8x.2: chunk of 45 keys done in 409s; paths {'http': 23, 'browser': 11, 'browser-crashed': 223}, browser waits 234 max 331s sum 32567s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 23, 'miss': 127, 'blocked': 10, 'tries': 148, 'empty': 125}, audit 3/3",
   "15:16:58 request mvv3zgnt6ww8x.2: final sent (45/45); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "15:17:26 request received: rid mvv48vfrlj4og.1 37 keys",
-  "15:17:26 handle mvv48vfrlj4og.1: first_chunk=True total=37"
+  "15:17:26 handle mvv48vfrlj4og.1: first_chunk=True total=37",
+  "15:21:25 request mvv48vfrlj4og.1: chunk of 37 keys done in 239s; paths {'http': 23, 'browser': 31, 'browser-crashed': 240}, browser waits 271 max 331s sum 36835s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 23, 'miss': 127, 'blocked': 10, 'tries': 148, 'empty': 125}, audit 3/3",
+  "15:21:26 request mvv48vfrlj4og.1: final sent (37/37); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

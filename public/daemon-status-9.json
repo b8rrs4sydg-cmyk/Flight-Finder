@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T15:27:53+00:00",
+ "at": "2026-10-30T15:29:26+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 540,
+ "fares_saved": 541,
  "log": [
   "10:45:08 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:14 http front door: ['https://budapest-collaboration-purpose-eng.trycloudflare.com', 'https://66934300ab1d39.lhr.life']",

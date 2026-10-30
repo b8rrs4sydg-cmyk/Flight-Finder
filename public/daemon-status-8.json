@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T15:09:45+00:00",
+ "at": "2026-10-30T15:12:46+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 534,
+ "fares_saved": 539,
  "log": [
   "10:45:18 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:23 http front door: ['https://intersection-ladies-response-flashers.trycloudflare.com', 'https://8e8c956b6145bf.lhr.life']",
@@ -40,6 +40,10 @@
   "15:04:37 request received: rid mvv3se6if0myt.8 34 keys",
   "15:04:37 handle mvv3se6if0myt.8: first_chunk=True total=34",
   "15:08:31 request mvv3se6if0myt.8: chunk of 34 keys done in 234s; paths {'http': 21, 'browser-crashed': 196}, browser waits 196 max 369s sum 28021s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 52, 'blocked': 0, 'tries': 115, 'empty': 94}, audit 0/0 agree",
-  "15:08:33 request mvv3se6if0myt.8: final sent (34/34); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "15:08:33 request mvv3se6if0myt.8: final sent (34/34); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "15:10:07 request received: rid mvv3zgnt6ww8x.8 30 keys",
+  "15:10:07 handle mvv3zgnt6ww8x.8: first_chunk=True total=30",
+  "15:10:54 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "15:10:54 queue: nothing readable, next try in 540s"
  ]
 }

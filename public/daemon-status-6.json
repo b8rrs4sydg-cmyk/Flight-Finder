@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T14:57:35+00:00",
+ "at": "2026-10-30T14:59:07+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 537,
+ "fares_saved": 538,
  "log": [
   "10:45:06 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:11 http front door: ['https://electric-carey-climate-extension.trycloudflare.com', 'https://2749583ef9e0f5.lhr.life']",
@@ -29,6 +29,12 @@
   "14:53:02 rtc ea5aewevj6: answered",
   "14:53:04 rtc ea5aewevj6: data channel open",
   "14:53:05 request received: rid mvv3dgr4hwnoe.6 41 keys",
-  "14:53:05 handle mvv3dgr4hwnoe.6: first_chunk=True total=41"
+  "14:53:05 handle mvv3dgr4hwnoe.6: first_chunk=True total=41",
+  "14:58:08 request mvv3dgr4hwnoe.6: chunk of 41 keys done in 304s; paths {'http': 20, 'browser-crashed': 107}, browser waits 107 max 304s sum 15071s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 27, 'blocked': 0, 'tries': 75, 'empty': 55}, audit 0/0 agree",
+  "14:58:09 request mvv3dgr4hwnoe.6: final sent (41/41); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "14:58:15 queue: 12 keys from the look-up queue in 335s (0 priced, 0 no flight, 12 failed)",
+  "14:58:15 queue: nothing readable, next try in 180s",
+  "14:58:39 request received: rid mvv3kpv682lcd.6 37 keys",
+  "14:58:39 handle mvv3kpv682lcd.6: first_chunk=True total=37"
  ]
 }

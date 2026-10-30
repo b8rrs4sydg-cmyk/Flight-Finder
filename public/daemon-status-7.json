@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30T15:28:42+00:00",
+ "at": "2026-10-30T15:30:14+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -59,6 +59,7 @@
   "15:25:49 request received: rid mvv4jmfjr3og3.6 13 keys",
   "15:25:49 handle mvv4jmfjr3og3.6: first_chunk=True total=13",
   "15:27:08 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "15:28:41 request mvv4jmfjr3og3.6: chunk of 13 keys done in 172s; paths {'http': 36, 'browser-crashed': 261, 'browser': 7}, browser waits 268 max 413s sum 36960s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 36, 'miss': 144, 'blocked': 6, 'tries': 167, 'empty': 131}, audit 1/1 a"
+  "15:28:41 request mvv4jmfjr3og3.6: chunk of 13 keys done in 172s; paths {'http': 36, 'browser-crashed': 261, 'browser': 7}, browser waits 268 max 413s sum 36960s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 36, 'miss': 144, 'blocked': 6, 'tries': 167, 'empty': 131}, audit 1/1 a",
+  "15:28:43 request mvv4jmfjr3og3.6: final sent (13/13); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

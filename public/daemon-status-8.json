@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T15:23:28+00:00",
+ "at": "2026-10-30T15:26:29+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 539,
+ "fares_saved": 540,
  "log": [
   "10:45:18 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:23 http front door: ['https://intersection-ladies-response-flashers.trycloudflare.com', 'https://8e8c956b6145bf.lhr.life']",
@@ -50,6 +50,8 @@
   "15:17:26 request received: rid mvv48vfrlj4og.7 27 keys",
   "15:17:26 handle mvv48vfrlj4og.7: first_chunk=True total=27",
   "15:22:53 request mvv48vfrlj4og.7: chunk of 27 keys done in 327s; paths {'http': 25, 'browser-crashed': 260, 'browser': 1}, browser waits 261 max 369s sum 37896s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 25, 'miss': 89, 'blocked': 0, 'tries': 144, 'empty': 119}, audit 0/0 ag",
-  "15:22:53 request mvv48vfrlj4og.7: final sent (27/27); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "15:22:53 request mvv48vfrlj4og.7: final sent (27/27); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "15:25:49 request received: rid mvv4jmfjr3og3.7 27 keys",
+  "15:25:49 handle mvv4jmfjr3og3.7: first_chunk=True total=27"
  ]
 }

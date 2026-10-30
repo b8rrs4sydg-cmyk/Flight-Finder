@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-30T15:23:28+00:00",
+ "generated_at": "2026-10-30T15:26:29+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -1626,6 +1626,28 @@
     [
      "2026-10-24",
      17591
+    ]
+   ]
+  },
+  "mc|PEK-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-GMP-2027-09-15": {
+   "price": 68152,
+   "first": {
+    "dep": "2026-12-27T19:55:00+08:00",
+    "arr": "2026-12-27T23:00:00+08:00",
+    "stops": 0,
+    "airline": "EVA Air"
+   },
+   "by_airline": {
+    "EVA Air": 68152,
+    "Hainan": 71481,
+    "Air China": 77208,
+    "Cathay Pacific": 83283
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     68152
     ]
    ]
   },
@@ -12242,11 +12264,6 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
-  },
-  "mc|PEK-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-GMP-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 3
   },
   "mc|PEK-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-HND-2027-09-15": {
    "status": "timeout",

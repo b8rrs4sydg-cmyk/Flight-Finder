@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T15:14:10+00:00",
+ "at": "2026-10-30T15:17:11+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 524,
+ "fares_saved": 525,
  "log": [
   "10:45:02 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:09 http front door: ['https://circus-bailey-harvard-quarterly.trycloudflare.com', 'https://432795e4f3f14c.lhr.life']",
@@ -42,6 +42,10 @@
   "15:08:48 request mvv3se6if0myt.4: chunk of 37 keys done in 251s; paths {'http': 25, 'browser-crashed': 179}, browser waits 179 max 283s sum 21740s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 25, 'miss': 61, 'blocked': 0, 'tries': 115, 'empty': 90}, audit 3/3 agree",
   "15:08:50 request mvv3se6if0myt.4: final sent (37/37); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "15:10:07 request received: rid mvv3zgnt6ww8x.4 36 keys",
-  "15:10:07 handle mvv3zgnt6ww8x.4: first_chunk=True total=36"
+  "15:10:07 handle mvv3zgnt6ww8x.4: first_chunk=True total=36",
+  "15:15:40 queue: 12 keys from the look-up queue in 342s (0 priced, 0 no flight, 12 failed)",
+  "15:15:40 queue: nothing readable, next try in 540s",
+  "15:16:00 request mvv3zgnt6ww8x.4: chunk of 36 keys done in 353s; paths {'http': 36, 'browser-crashed': 215, 'browser': 1}, browser waits 216 max 341s sum 27736s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 36, 'miss': 98, 'blocked': 0, 'tries': 154, 'empty': 118}, audit 3/3 ag",
+  "15:16:01 request mvv3zgnt6ww8x.4: final sent (36/36); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

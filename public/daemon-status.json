@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T15:19:31+00:00",
+ "at": "2026-10-30T15:21:03+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 522,
+ "fares_saved": 524,
  "log": [
   "10:45:24 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:29 http front door: ['https://nsw-brighton-warranty-lower.trycloudflare.com', 'https://4ce6833cfe7442.lhr.life']",
@@ -53,6 +53,8 @@
   "15:14:40 request mvv3zgnt6ww8x.0: chunk of 43 keys done in 273s; paths {'http': 43, 'browser-crashed': 211, 'browser': 3}, browser waits 214 max 329s sum 26947s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 43, 'miss': 92, 'blocked': 0, 'tries': 146, 'empty': 103}, audit 0/0 ag",
   "15:14:41 request mvv3zgnt6ww8x.0: final sent (43/43); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "15:17:26 request received: rid mvv48vfrlj4og.0 22 keys",
-  "15:17:26 handle mvv48vfrlj4og.0: first_chunk=True total=22"
+  "15:17:26 handle mvv48vfrlj4og.0: first_chunk=True total=22",
+  "15:20:11 request mvv48vfrlj4og.0: chunk of 22 keys done in 165s; paths {'http': 43, 'browser-crashed': 224, 'browser': 12}, browser waits 236 max 329s sum 29131s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 43, 'miss': 92, 'blocked': 0, 'tries': 146, 'empty': 103}, audit 0/0 a",
+  "15:20:12 request mvv48vfrlj4og.0: final sent (22/22); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

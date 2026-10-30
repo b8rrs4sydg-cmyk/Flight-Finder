@@ -1,11 +1,11 @@
 {
- "at": "2026-10-30T10:46:50+00:00",
+ "at": "2026-10-30T14:46:52+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 578,
+ "fares_saved": 579,
  "log": [
   "10:45:09 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:45:14 git retry 0: b\"eads/main': is at cf2edcfb1256ec068dda94ca41da8580b2458194 but expected 6820fdaaef85281f993d2445909e74f2713fdf71)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
@@ -14,6 +14,9 @@
   "10:46:18 request received: rid httptest1793357178 20 keys",
   "10:46:18 handle httptest1793357178: first_chunk=True total=20",
   "10:46:19 request httptest1793357178: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "10:46:20 request httptest1793357178: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:46:20 request httptest1793357178: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "14:22:28 subscribe error HTTP Error 502: Bad Gateway; reconnecting",
+  "14:46:28 request received: rid mvv35069ql24g.7 18 keys",
+  "14:46:28 handle mvv35069ql24g.7: first_chunk=True total=18"
  ]
 }

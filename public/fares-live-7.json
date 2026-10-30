@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-30T15:08:42+00:00",
+ "generated_at": "2026-10-30T15:11:46+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -617,6 +617,38 @@
     [
      "2026-10-27",
      62460
+    ]
+   ]
+  },
+  "mc|GMP-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "price": 107914,
+   "first": {
+    "dep": "2027-02-14T07:55:00+09:00",
+    "arr": "2027-02-14T12:45:00+08:00",
+    "stops": 1,
+    "airline": "Korean Air, EVA Air"
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     107914
+    ]
+   ]
+  },
+  "mc|GMP-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-HND-2027-09-15": {
+   "price": 67614,
+   "first": {
+    "dep": "2027-05-02T15:55:00+09:00",
+    "arr": "2027-05-02T20:35:00+08:00",
+    "stops": 1,
+    "airline": "Korean Air, EVA Air"
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     67614
     ]
    ]
   },
@@ -1452,6 +1484,65 @@
     ]
    ]
   },
+  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-12-11|HKG-TPE-2026-12-13|TPE-CRK-2026-12-24": {
+   "price": 61608,
+   "first": {
+    "dep": "2026-11-08T06:55:00+08:00",
+    "arr": "2026-11-08T14:15:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 61608,
+    "THAI": 106620
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     61608
+    ]
+   ]
+  },
+  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-12-24|HKG-TPE-2026-12-27|TPE-KMG-2027-02-10": {
+   "price": 76455,
+   "first": {
+    "dep": "2026-11-08T06:55:00+08:00",
+    "arr": "2026-11-08T14:15:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 76455
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     76455
+    ]
+   ]
+  },
+  "mc|KMG-TPE-2026-11-08|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-RGN-2027-04-29": {
+   "price": 65714,
+   "by_airline": {
+    "China Southern": 65714,
+    "THAI": 110348
+   },
+   "first": {
+    "dep": "2026-11-08T06:55:00+08:00",
+    "arr": "2026-11-08T14:15:00+08:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     65714
+    ]
+   ]
+  },
   "mc|MFM-TPE-2026-11-29|TPE-HKG-2026-12-04|HKG-TPE-2026-12-06|TPE-HND-2026-12-24": {
    "price": 79868,
    "first": {
@@ -1771,6 +1862,49 @@
     ]
    ]
   },
+  "mc|PEK-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "price": 59349,
+   "by_airline": {
+    "Hainan": 59349,
+    "EVA Air": 71403,
+    "Cathay Pacific": 80963,
+    "China Airlines": 81086
+   },
+   "first": {
+    "dep": "2027-02-14T08:00:00+08:00",
+    "arr": "2027-02-14T11:05:00+08:00",
+    "stops": 0,
+    "airline": "Hainan"
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     59349
+    ]
+   ]
+  },
+  "mc|PEN-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
+   "price": 50074,
+   "first": {
+    "dep": "2026-12-27T06:30:00+08:00",
+    "arr": "2026-12-27T14:10:00+08:00",
+    "stops": 1,
+    "airline": "Malaysia Airlines"
+   },
+   "by_airline": {
+    "Malaysia Airlines": 50074,
+    "Cathay Pacific": 86668,
+    "THAI": 92016
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     50074
+    ]
+   ]
+  },
   "mc|PEN-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-GMP-2027-09-15": {
    "price": 67545,
    "first": {
@@ -1809,6 +1943,47 @@
     [
      "2026-10-28",
      131515
+    ]
+   ]
+  },
+  "mc|RGN-TPE-2026-12-27|TPE-MNL-2027-02-10|MNL-TPE-2027-02-14|TPE-GMP-2027-09-15": {
+   "price": 69912,
+   "first": {
+    "dep": "2026-12-27T13:45:00+06:30",
+    "arr": "2026-12-27T21:50:00+08:00",
+    "stops": 1,
+    "airline": "THAI, EVA Air"
+   },
+   "by_airline": {
+    "THAI": 88190,
+    "Malaysia Airlines": 95035,
+    "China Southern": 134261
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     69912
+    ]
+   ]
+  },
+  "mc|RGN-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-GMP-2027-09-15": {
+   "price": 80553,
+   "by_airline": {
+    "THAI": 102486,
+    "China Southern": 134261
+   },
+   "first": {
+    "dep": "2027-05-02T11:25:00+06:30",
+    "arr": "2027-05-02T20:10:00+08:00",
+    "stops": 1,
+    "airline": "THAI and EVA Air"
+   },
+   "at": "2026-10-30",
+   "hist": [
+    [
+     "2026-10-30",
+     80553
     ]
    ]
   },
@@ -13108,17 +13283,7 @@
    "at": "2026-10-27",
    "n": 5
   },
-  "mc|GMP-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
-   "status": "parse_error",
-   "at": "2026-10-27",
-   "n": 1
-  },
   "mc|GMP-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
-   "status": "parse_error",
-   "at": "2026-10-27",
-   "n": 1
-  },
-  "mc|GMP-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-HND-2027-09-15": {
    "status": "parse_error",
    "at": "2026-10-27",
    "n": 1
@@ -13203,11 +13368,6 @@
    "at": "2026-10-27",
    "n": 4
   },
-  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-12-24|HKG-TPE-2026-12-27|TPE-KMG-2027-02-10": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 1
-  },
   "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-12-24|HKG-TPE-2026-12-27|TPE-XIY-2027-04-29": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -13248,11 +13408,6 @@
    "at": "2026-10-27",
    "n": 2
   },
-  "mc|PEK-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 5
-  },
   "mc|PEK-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
    "status": "timeout",
    "at": "2026-10-27",
@@ -13262,11 +13417,6 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 5
-  },
-  "mc|PEN-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-10-27",
-   "n": 1
   },
   "mc|PEN-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
    "status": "timeout",

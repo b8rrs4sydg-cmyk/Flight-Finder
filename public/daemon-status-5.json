@@ -1,5 +1,5 @@
 {
- "at": "2026-10-31T15:34:51+00:00",
+ "at": "2026-10-31T20:32:46+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 448,
  "log": [
-  "15:33:15 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:33:21 http front door: ['https://sensitivity-logos-quiet-wyoming.trycloudflare.com', 'https://1ce3ca2283e7a3.lhr.life']",
-  "15:33:21 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:34:24 request received: rid httptest1793460864 20 keys",
-  "15:34:24 handle httptest1793460864: first_chunk=True total=20",
-  "15:34:25 request httptest1793460864: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "15:34:27 request httptest1793460864: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:31:11 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:31:16 http front door: ['https://matching-allows-smallest-air.trycloudflare.com', 'https://251c923187cbbb.lhr.life']",
+  "20:31:16 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:32:21 request received: rid httptest1793478740 20 keys",
+  "20:32:21 handle httptest1793478740: first_chunk=True total=20",
+  "20:32:22 request httptest1793478740: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "20:32:24 request httptest1793478740: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

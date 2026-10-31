@@ -1,5 +1,5 @@
 {
- "at": "2026-10-31T15:34:46+00:00",
+ "at": "2026-10-31T20:33:08+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 520,
  "log": [
-  "15:33:11 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:33:16 http front door: ['https://bride-hybrid-cement-shield.trycloudflare.com', 'https://54f2d7d4a50e19.lhr.life']",
-  "15:33:16 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:34:20 request received: rid httptest1793460859 20 keys",
-  "15:34:20 handle httptest1793460859: first_chunk=True total=20",
-  "15:34:21 request httptest1793460859: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
-  "15:34:22 request httptest1793460859: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:31:33 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:31:38 http front door: ['https://copper-yes-amsterdam-darwin.trycloudflare.com', 'https://63a4ff2eeeb15e.lhr.life']",
+  "20:31:38 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:32:41 request received: rid httptest1793478761 20 keys",
+  "20:32:41 handle httptest1793478761: first_chunk=True total=20",
+  "20:32:43 request httptest1793478761: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "20:32:44 request httptest1793478761: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

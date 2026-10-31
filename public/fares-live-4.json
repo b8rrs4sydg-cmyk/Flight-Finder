@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-31T10:35:26+00:00",
+ "generated_at": "2026-10-31T15:34:48+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -4447,17 +4447,17 @@
   },
   "ow|TPE|HKG|2027-03-16": {
    "price": 2050,
-   "by_airline": {
-    "Hong Kong Express": 2050,
-    "Greater Bay Airlines": 4112,
-    "STARLUX Airlines": 4972,
-    "China Airlines": 5151
-   },
    "first": {
     "dep": "2027-03-16T14:50:00+08:00",
     "arr": "2027-03-16T16:55:00+08:00",
     "stops": 0,
     "airline": "Hong Kong Express"
+   },
+   "by_airline": {
+    "Hong Kong Express": 2050,
+    "Greater Bay Airlines": 4112,
+    "STARLUX Airlines": 4972,
+    "China Airlines": 5151
    },
    "at": "2026-10-31",
    "hist": [

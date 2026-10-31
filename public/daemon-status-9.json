@@ -1,5 +1,5 @@
 {
- "at": "2026-10-31T05:39:24+00:00",
+ "at": "2026-10-31T10:35:56+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,14 +7,16 @@
  },
  "fares_saved": 483,
  "log": [
-  "05:37:39 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "05:37:43 git retry 0: b\"eads/main': is at d048b6b3ff5a13bc4c95a573a5170113f163a2db but expected 713fca25a8b48af581263e21a29b28adadf470ef)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "05:37:48 git retry 1: b\"eads/main': is at 9165b55bb5507f9fe074d4eaffa3d62ba39f55e5 but expected d2afc91deb9fe560265a19de44f9fd90c7d8bcf7)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "05:37:54 http front door: ['https://jpeg-athletics-installing-watershed.trycloudflare.com', 'https://5b766e1892a705.lhr.life']",
-  "05:37:54 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "05:38:48 request received: rid httptest1793425127 20 keys",
-  "05:38:48 handle httptest1793425127: first_chunk=True total=20",
-  "05:38:49 request httptest1793425127: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
-  "05:38:50 request httptest1793425127: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:33:51 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "10:33:56 git retry 0: b\"eads/main': is at 65896258cd8813416483b3170faa01861d4e7a1e but expected 88e3090171087af7766f97288f53566b1c2f2df5)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "10:34:00 git retry 1: b\"eads/main': is at 9e94b074df5db89e56f6834effc713ff22587e5b but expected cb8db911baa256afbde9c5bf808aadca842882dd)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "10:34:07 git retry 2: b\"eads/main': is at 8d535245ff87cb166fa564ad0ee528d1faa7fdef but expected e6ceba300e9328f215b94d69b5ee61932b3ba806)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "10:34:16 git retry 3: b\"eads/main': is at b74dbc56444645c85872d71983beb2a9ef269ed2 but expected 8d535245ff87cb166fa564ad0ee528d1faa7fdef)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "10:34:26 http front door: ['https://town-memory-vegetarian-wireless.trycloudflare.com', 'https://c9fb0fba2b2cf7.lhr.life']",
+  "10:34:26 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "10:35:00 request received: rid httptest1793442900 20 keys",
+  "10:35:00 handle httptest1793442900: first_chunk=True total=20",
+  "10:35:05 request httptest1793442900: chunk of 20 keys done in 4s; paths {'http': 19, 'browser': 1}, browser waits 1 max 3s sum 3s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 24, 'empty': 5}, audit 0/0 agree",
+  "10:35:07 request httptest1793442900: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

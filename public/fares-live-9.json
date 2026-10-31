@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-10-31T05:39:24+00:00",
+ "generated_at": "2026-10-31T10:35:56+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -4868,17 +4868,17 @@
   },
   "ow|TPE|ICN|2027-03-14": {
    "price": 3999,
-   "first": {
-    "dep": "2027-03-14T20:00:00+08:00",
-    "arr": "2027-03-14T23:30:00+09:00",
-    "stops": 0,
-    "airline": "Tigerair Taiwan"
-   },
    "by_airline": {
     "Tigerair Taiwan": 3999,
     "Scoot": 4399,
     "Shandong": 5298,
     "Jeju Air": 6260
+   },
+   "first": {
+    "dep": "2027-03-14T20:00:00+08:00",
+    "arr": "2027-03-14T23:30:00+09:00",
+    "stops": 0,
+    "airline": "Tigerair Taiwan"
    },
    "at": "2026-10-31",
    "hist": [

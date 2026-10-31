@@ -1,5 +1,5 @@
 {
- "at": "2026-10-31T05:39:11+00:00",
+ "at": "2026-10-31T10:35:34+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 549,
  "log": [
-  "05:37:36 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "05:37:41 http front door: ['https://write-experiences-concept-reasoning.trycloudflare.com', 'https://efd7d2acf93845.lhr.life']",
-  "05:37:41 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "05:38:44 request received: rid httptest1793425123 20 keys",
-  "05:38:44 handle httptest1793425123: first_chunk=True total=20",
-  "05:38:45 request httptest1793425123: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "05:38:47 request httptest1793425123: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:33:59 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "10:34:04 http front door: ['https://restructuring-tribune-apache-mesa.trycloudflare.com', 'https://d18e1b6ffe9269.lhr.life']",
+  "10:34:04 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "10:35:07 request received: rid httptest1793442907 20 keys",
+  "10:35:07 handle httptest1793442907: first_chunk=True total=20",
+  "10:35:09 request httptest1793442907: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "10:35:10 request httptest1793442907: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

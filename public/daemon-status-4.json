@@ -1,5 +1,5 @@
 {
- "at": "2026-11-01T15:34:03+00:00",
+ "at": "2026-11-01T20:35:33+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 344,
  "log": [
-  "15:32:28 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:32:33 http front door: ['https://expects-firmware-dispatch-risks.trycloudflare.com', 'https://c7b3625dd4ed09.lhr.life']",
-  "15:32:33 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:33:38 request received: rid httptest1793547218 20 keys",
-  "15:33:38 handle httptest1793547218: first_chunk=True total=20",
-  "15:33:41 request httptest1793547218: chunk of 20 keys done in 3s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 10, 'blocked': 0, 'tries': 39, 'empty': 19}, audit 0/0 agree",
-  "15:33:42 request httptest1793547218: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:33:58 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:34:03 http front door: ['https://keno-jones-competition-behalf.trycloudflare.com', 'https://04cdd3ec84d446.lhr.life']",
+  "20:34:03 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:35:07 request received: rid httptest1793565307 20 keys",
+  "20:35:07 handle httptest1793565307: first_chunk=True total=20",
+  "20:35:09 request httptest1793565307: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
+  "20:35:09 request httptest1793565307: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

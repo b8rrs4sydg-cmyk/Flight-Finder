@@ -1,18 +1,18 @@
 {
- "at": "2026-10-31T20:33:08+00:00",
+ "at": "2026-11-01T00:59:24+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 520,
+ "fares_saved": 357,
  "log": [
-  "20:31:33 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:31:38 http front door: ['https://copper-yes-amsterdam-darwin.trycloudflare.com', 'https://63a4ff2eeeb15e.lhr.life']",
-  "20:31:38 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:32:41 request received: rid httptest1793478761 20 keys",
-  "20:32:41 handle httptest1793478761: first_chunk=True total=20",
-  "20:32:43 request httptest1793478761: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "20:32:44 request httptest1793478761: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:57:49 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:57:54 http front door: ['https://screening-hospital-injection-charleston.trycloudflare.com', 'https://99a0d7418ad095.lhr.life']",
+  "00:57:54 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:58:57 request received: rid httptest1793494736 20 keys",
+  "00:58:57 handle httptest1793494736: first_chunk=True total=20",
+  "00:58:58 request httptest1793494736: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "00:58:59 request httptest1793494736: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

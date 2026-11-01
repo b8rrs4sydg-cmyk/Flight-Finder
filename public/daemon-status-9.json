@@ -1,11 +1,11 @@
 {
- "at": "2026-11-01T13:44:47+00:00",
+ "at": "2026-11-01T14:02:48+00:00",
  "publishes": {
-  "ok": 3,
+  "ok": 4,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 350,
+ "fares_saved": 365,
  "log": [
   "10:37:45 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:49 http front door: ['https://formed-broader-feedback-inputs.trycloudflare.com', 'https://da8e32ebd8fcf4.lhr.life']",
@@ -57,6 +57,12 @@
   "13:42:06 request received: rid mvxvpxmio6muq.8 18 keys",
   "13:42:06 handle mvxvpxmio6muq.8: first_chunk=True total=18",
   "13:43:57 request mvxvpxmio6muq.8: chunk of 18 keys done in 111s; paths {'http': 35, 'browser-crashed': 220, 'browser': 13}, browser waits 233 max 285s sum 22872s; ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 35, 'miss': 114, 'blocked': 3, 'tries': 201, 'empty': 166}, audit 2/2 ",
-  "13:43:59 request mvxvpxmio6muq.8: final sent (18/18); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}"
+  "13:43:59 request mvxvpxmio6muq.8: final sent (18/18); ntfy publishes {'ok': 3, 'r429': 0, 'fail': 0}",
+  "13:52:04 queue: 12 keys from the look-up queue in 102s (0 priced, 0 no flight, 12 failed)",
+  "13:52:04 queue: nothing readable, next try in 1860s",
+  "13:55:53 rtc rp4a968lad: answered",
+  "13:55:54 rtc rp4a968lad: data channel open",
+  "14:01:51 request received: rid mvxwfdmcbhj4w.8 26 keys",
+  "14:01:51 handle mvxwfdmcbhj4w.8: first_chunk=True total=26"
  ]
 }

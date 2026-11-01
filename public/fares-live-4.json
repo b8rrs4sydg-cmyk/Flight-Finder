@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-01T13:35:33+00:00",
+ "generated_at": "2026-11-01T13:37:05+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -8210,7 +8210,7 @@
   "ow|REP|TPE|2027-05-02": {
    "status": "timeout",
    "at": "2026-11-01",
-   "n": 4
+   "n": 5
   },
   "ow|REP|TPE|2027-06-13": {
    "status": "timeout",
@@ -8290,12 +8290,12 @@
   "ow|TPE|PNH|2026-11-20": {
    "status": "timeout",
    "at": "2026-11-01",
-   "n": 3
+   "n": 4
   },
   "ow|TPE|PNH|2026-12-24": {
    "status": "timeout",
    "at": "2026-11-01",
-   "n": 3
+   "n": 4
   },
   "ow|TPE|REP|2026-11-06": {
    "status": "timeout",
@@ -9695,7 +9695,7 @@
   "rt|RMQ|CTS|2026-12-24|2027-02-14": {
    "status": "timeout",
    "at": "2026-11-01",
-   "n": 5
+   "n": 6
   },
   "rt|RMQ|CTS|2027-04-29|2027-05-02": {
    "status": "timeout",
@@ -10750,7 +10750,7 @@
   "rt|TPE|PNH|2026-11-20|2026-11-22": {
    "status": "timeout",
    "at": "2026-11-01",
-   "n": 6
+   "n": 7
   },
   "rt|TPE|PNH|2026-12-11|2026-12-13": {
    "status": "timeout",
@@ -10760,7 +10760,7 @@
   "rt|TPE|PNH|2026-12-24|2026-12-27": {
    "status": "timeout",
    "at": "2026-11-01",
-   "n": 6
+   "n": 7
   },
   "rt|TPE|PNH|2027-04-29|2027-05-02": {
    "status": "timeout",

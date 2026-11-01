@@ -1,11 +1,11 @@
 {
- "at": "2026-11-01T13:26:04+00:00",
+ "at": "2026-11-01T13:27:36+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 372,
+ "fares_saved": 375,
  "log": [
   "10:37:37 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:41 http front door: ['https://forum-lyric-metabolism-kingston.trycloudflare.com', 'https://273631b39fb047.lhr.life']",
@@ -43,6 +43,10 @@
   "13:17:12 request mvxupq1uc1iz2.1: chunk of 40 keys done in 195s; paths {'http': 39, 'browser-crashed': 163}, browser waits 163 max 216s sum 14872s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 39, 'miss': 101, 'blocked': 0, 'tries': 212, 'empty': 173}, audit 5/5 agree",
   "13:17:14 request mvxupq1uc1iz2.1: final sent (40/40); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
   "13:22:26 request received: rid mvxv0mthh3r40.2 44 keys",
-  "13:22:26 handle mvxv0mthh3r40.2: first_chunk=True total=44"
+  "13:22:26 handle mvxv0mthh3r40.2: first_chunk=True total=44",
+  "13:27:11 request mvxv0mthh3r40.2: chunk of 44 keys done in 285s; paths {'http': 39, 'browser-crashed': 207}, browser waits 207 max 285s sum 21695s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 39, 'miss': 101, 'blocked': 0, 'tries': 212, 'empty': 173}, audit 5/5 agree",
+  "13:27:13 request mvxv0mthh3r40.2: final sent (44/44); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "13:27:17 request received: rid mvxv6w46v8a0y.2 31 keys",
+  "13:27:17 handle mvxv6w46v8a0y.2: first_chunk=True total=31"
  ]
 }

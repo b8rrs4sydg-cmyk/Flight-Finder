@@ -1,11 +1,11 @@
 {
- "at": "2026-11-01T13:53:37+00:00",
+ "at": "2026-11-01T13:56:38+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 366,
+ "fares_saved": 371,
  "log": [
   "10:37:38 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:43 http front door: ['https://postposted-asp-basic-monsters.trycloudflare.com', 'https://cffc55d04eacac.lhr.life']",
@@ -62,6 +62,8 @@
   "13:49:15 handle mvxvz4egrhaqq.8: first_chunk=True total=22",
   "13:50:30 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
   "13:53:21 request mvxvz4egrhaqq.8: chunk of 22 keys done in 246s; paths {'http': 51, 'browser-crashed': 330, 'browser': 20}, browser waits 350 max 298s sum 41466s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 51, 'miss': 146, 'blocked': 13, 'tries': 228, 'empty': 177}, audit 4/4",
-  "13:53:22 request mvxvz4egrhaqq.8: final sent (22/22); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "13:53:22 request mvxvz4egrhaqq.8: final sent (22/22); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "13:55:53 request received: rid mvxw7nvp8ufxy.8 30 keys",
+  "13:55:53 handle mvxw7nvp8ufxy.8: first_chunk=True total=30"
  ]
 }

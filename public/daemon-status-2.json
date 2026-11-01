@@ -1,11 +1,11 @@
 {
- "at": "2026-11-01T10:39:11+00:00",
+ "at": "2026-11-01T13:00:13+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 357,
+ "fares_saved": 360,
  "log": [
   "10:37:37 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:41 http front door: ['https://forum-lyric-metabolism-kingston.trycloudflare.com', 'https://273631b39fb047.lhr.life']",
@@ -13,6 +13,18 @@
   "10:38:46 request received: rid httptest1793529526 20 keys",
   "10:38:46 handle httptest1793529526: first_chunk=True total=20",
   "10:38:48 request httptest1793529526: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
-  "10:38:49 request httptest1793529526: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:38:49 request httptest1793529526: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "12:42:44 rtc 1q3wvhfwru: answered",
+  "12:44:21 queue: 12 keys from the look-up queue in 83s (3 priced, 0 no flight, 9 failed)",
+  "12:46:57 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "12:46:57 queue: nothing readable, next try in 180s",
+  "12:51:33 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "12:51:33 queue: nothing readable, next try in 300s",
+  "12:58:03 rtc picnxrrfr7: answered",
+  "12:58:05 rtc picnxrrfr7: data channel open",
+  "12:58:07 request received: rid mvxu5ajkb9ava.1 20 keys",
+  "12:58:07 handle mvxu5ajkb9ava.1: first_chunk=True total=20",
+  "12:58:11 queue: 12 keys from the look-up queue in 98s (0 priced, 0 no flight, 12 failed)",
+  "12:58:11 queue: nothing readable, next try in 540s"
  ]
 }

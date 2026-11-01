@@ -1,11 +1,11 @@
 {
- "at": "2026-11-01T13:08:08+00:00",
+ "at": "2026-11-01T13:09:39+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 309,
+ "fares_saved": 320,
  "log": [
   "10:37:46 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:51 http front door: ['https://television-cathedral-fans-virtually.trycloudflare.com', 'https://e4057e61e5dbf7.lhr.life']",
@@ -32,6 +32,8 @@
   "13:03:04 request received: rid mvxubq8pdacer.5 44 keys",
   "13:03:04 handle mvxubq8pdacer.5: first_chunk=True total=44",
   "13:07:48 request mvxubq8pdacer.5: chunk of 44 keys done in 284s; paths {'http': 26, 'browser': 3, 'browser-crashed': 102}, browser waits 105 max 284s sum 10712s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 26, 'miss': 35, 'blocked': 0, 'tries': 90, 'empty': 64}, audit 2/2 agre",
-  "13:07:49 request mvxubq8pdacer.5: final sent (44/44); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "13:07:49 request mvxubq8pdacer.5: final sent (44/44); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "13:08:19 request received: rid mvxuijhswf4if.4 48 keys",
+  "13:08:19 handle mvxuijhswf4if.4: first_chunk=True total=48"
  ]
 }

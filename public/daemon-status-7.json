@@ -1,11 +1,11 @@
 {
- "at": "2026-11-01T10:39:28+00:00",
+ "at": "2026-11-01T13:00:29+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 329,
+ "fares_saved": 336,
  "log": [
   "10:37:53 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:57 http front door: ['https://develops-chain-representative-internet.trycloudflare.com', 'https://c06191c4b6bfe5.lhr.life']",
@@ -13,6 +13,20 @@
   "10:39:01 request received: rid httptest1793529540 20 keys",
   "10:39:01 handle httptest1793529540: first_chunk=True total=20",
   "10:39:08 request httptest1793529540: chunk of 20 keys done in 8s; paths {'http': 18, 'browser': 2}, browser waits 2 max 6s sum 12s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 18, 'miss': 2, 'blocked': 0, 'tries': 26, 'empty': 8}, audit 2/2 agree",
-  "10:39:10 request httptest1793529540: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:39:10 request httptest1793529540: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "12:42:44 rtc ywf1glo0aa: answered",
+  "12:44:54 queue: 12 keys from the look-up queue in 105s (3 priced, 0 no flight, 9 failed)",
+  "12:47:32 queue: 12 keys from the look-up queue in 99s (0 priced, 0 no flight, 12 failed)",
+  "12:47:32 queue: nothing readable, next try in 180s",
+  "12:52:09 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "12:52:09 queue: nothing readable, next try in 300s",
+  "12:58:03 rtc tx6v2nc7ln: answered",
+  "12:58:05 rtc tx6v2nc7ln: data channel open",
+  "12:58:07 request received: rid mvxu5ajkb9ava.6 14 keys",
+  "12:58:07 handle mvxu5ajkb9ava.6: first_chunk=True total=14",
+  "12:58:45 queue: 12 keys from the look-up queue in 97s (0 priced, 0 no flight, 12 failed)",
+  "12:58:45 queue: nothing readable, next try in 540s",
+  "12:59:42 request mvxu5ajkb9ava.6: chunk of 14 keys done in 95s; paths {'http': 24, 'browser': 3, 'browser-crashed': 55}, browser waits 58 max 98s sum 3523s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 24, 'miss': 43, 'blocked': 0, 'tries': 114, 'empty': 90}, audit 4/4 agree",
+  "12:59:43 request mvxu5ajkb9ava.6: final sent (14/14); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
  ]
 }

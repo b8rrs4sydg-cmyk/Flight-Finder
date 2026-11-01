@@ -1,7 +1,7 @@
 {
- "at": "2026-11-01T12:48:37+00:00",
+ "at": "2026-11-01T12:50:08+00:00",
  "publishes": {
-  "ok": 22,
+  "ok": 27,
   "r429": 0,
   "fail": 0
  },
@@ -19,6 +19,7 @@
   "12:42:54 request received: rid mvxtl560x1ior 90 keys",
   "12:42:54 handle mvxtl560x1ior: first_chunk=True total=160",
   "12:42:54 request received: rid mvxtl560x1ior 70 keys",
-  "12:42:54 handle mvxtl560x1ior: first_chunk=False total=160"
+  "12:42:54 handle mvxtl560x1ior: first_chunk=False total=160",
+  "12:49:50 request mvxtl560x1ior: chunk of 70 keys done in 416s; paths {'http': 46, 'browser-crashed': 68}, browser waits 68 max 398s sum 14211s; ntfy publishes {'ok': 26, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 46, 'miss': 134, 'blocked': 0, 'tries': 308, 'empty': 262}, audit 4/4 agree"
  ]
 }

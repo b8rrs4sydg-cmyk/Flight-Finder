@@ -1,11 +1,11 @@
 {
- "at": "2026-11-01T10:39:16+00:00",
+ "at": "2026-11-01T12:58:47+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 367,
+ "fares_saved": 368,
  "log": [
   "10:37:42 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:46 http front door: ['https://modules-pizza-depend-permits.trycloudflare.com', 'https://cfbc1ccaa45fa9.lhr.life']",
@@ -13,6 +13,17 @@
   "10:38:51 request received: rid httptest1793529531 20 keys",
   "10:38:51 handle httptest1793529531: first_chunk=True total=20",
   "10:38:53 request httptest1793529531: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 23, 'empty': 3}, audit 0/0 agree",
-  "10:38:54 request httptest1793529531: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:38:54 request httptest1793529531: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "12:42:45 rtc xptahq9g3e: answered",
+  "12:44:45 queue: 12 keys from the look-up queue in 103s (0 priced, 0 no flight, 12 failed)",
+  "12:44:45 queue: nothing readable, next try in 180s",
+  "12:49:22 queue: 12 keys from the look-up queue in 97s (0 priced, 0 no flight, 12 failed)",
+  "12:49:22 queue: nothing readable, next try in 300s",
+  "12:55:58 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "12:55:58 queue: nothing readable, next try in 540s",
+  "12:58:03 rtc nz6t0vhvji: answered",
+  "12:58:05 rtc nz6t0vhvji: data channel open",
+  "12:58:07 request received: rid mvxu5ajkb9ava.2 19 keys",
+  "12:58:07 handle mvxu5ajkb9ava.2: first_chunk=True total=19"
  ]
 }

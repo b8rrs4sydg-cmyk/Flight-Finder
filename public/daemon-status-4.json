@@ -1,11 +1,11 @@
 {
- "at": "2026-11-01T13:08:12+00:00",
+ "at": "2026-11-01T13:09:43+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 284,
+ "fares_saved": 298,
  "log": [
   "10:37:42 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:46 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
@@ -37,6 +37,8 @@
   "13:05:01 git retry 0: b\"eads/main': is at 638c2418e5d7a2dbf974dff13aeea1073fd77bf6 but expected 3958f134ac482809e3f79317e532ddb2c8349613)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
   "13:06:38 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
   "13:07:52 request mvxubq8pdacer.4: chunk of 43 keys done in 288s; paths {'http': 21, 'browser-crashed': 116}, browser waits 116 max 288s sum 11486s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 44, 'blocked': 0, 'tries': 104, 'empty': 83}, audit 2/2 agree",
-  "13:07:53 request mvxubq8pdacer.4: final sent (43/43); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "13:07:53 request mvxubq8pdacer.4: final sent (43/43); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "13:08:19 request received: rid mvxuijhswf4if.3 51 keys",
+  "13:08:19 handle mvxuijhswf4if.3: first_chunk=True total=51"
  ]
 }

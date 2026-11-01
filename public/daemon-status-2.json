@@ -1,5 +1,5 @@
 {
- "at": "2026-11-01T15:34:12+00:00",
+ "at": "2026-11-01T20:35:30+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,13 +7,12 @@
  },
  "fares_saved": 407,
  "log": [
-  "15:32:33 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:32:38 git retry 0: b\"eads/main': is at e73d1aa7ff4a351f8b2badb174f10ba6a3f364c3 but expected b638ac7add8a3f80944ee6039aa85e948106d985)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "15:32:42 http front door: ['https://spokesman-mothers-animal-ties.trycloudflare.com', 'https://94c20e1fd46674.lhr.life']",
-  "15:32:42 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:33:42 request received: rid httptest1793547222 20 keys",
-  "15:33:42 handle httptest1793547222: first_chunk=True total=20",
-  "15:33:43 request httptest1793547222: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "15:33:44 request httptest1793547222: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:33:56 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:34:00 http front door: ['https://decisions-applications-brothers-inherited.trycloudflare.com', 'https://c5e751912b8452.lhr.life']",
+  "20:34:00 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:35:05 request received: rid httptest1793565304 20 keys",
+  "20:35:05 handle httptest1793565304: first_chunk=True total=20",
+  "20:35:06 request httptest1793565304: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "20:35:08 request httptest1793565304: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

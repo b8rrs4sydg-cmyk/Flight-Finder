@@ -1,11 +1,11 @@
 {
- "at": "2026-11-01T10:39:13+00:00",
+ "at": "2026-11-01T13:00:15+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 315,
+ "fares_saved": 317,
  "log": [
   "10:37:38 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:43 http front door: ['https://postposted-asp-basic-monsters.trycloudflare.com', 'https://cffc55d04eacac.lhr.life']",
@@ -13,6 +13,18 @@
   "10:38:48 request received: rid httptest1793529528 20 keys",
   "10:38:48 handle httptest1793529528: first_chunk=True total=20",
   "10:38:49 request httptest1793529528: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
-  "10:38:52 request httptest1793529528: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:38:52 request httptest1793529528: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "12:42:44 rtc lqs5ybovpb: answered",
+  "12:44:43 queue: 12 keys from the look-up queue in 104s (1 priced, 0 no flight, 11 failed)",
+  "12:47:20 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "12:47:20 queue: nothing readable, next try in 180s",
+  "12:51:57 queue: 12 keys from the look-up queue in 97s (0 priced, 0 no flight, 12 failed)",
+  "12:51:57 queue: nothing readable, next try in 300s",
+  "12:58:03 rtc qqu1tsd6gp: answered",
+  "12:58:05 rtc qqu1tsd6gp: data channel open",
+  "12:58:07 request received: rid mvxu5ajkb9ava.7 16 keys",
+  "12:58:07 handle mvxu5ajkb9ava.7: first_chunk=True total=16",
+  "12:58:42 queue: 12 keys from the look-up queue in 104s (0 priced, 0 no flight, 12 failed)",
+  "12:58:42 queue: nothing readable, next try in 540s"
  ]
 }

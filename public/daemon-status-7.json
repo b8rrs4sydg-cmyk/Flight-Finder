@@ -1,5 +1,5 @@
 {
- "at": "2026-11-01T15:34:32+00:00",
+ "at": "2026-11-01T20:35:52+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,16 +7,12 @@
  },
  "fares_saved": 375,
  "log": [
-  "15:32:29 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:32:35 git retry 0: b\"eads/main': is at b0fbe2017f79d7bf0cbc6101a4bd5daccf5d3816 but expected ba929734387a239b74f232ae0c4858dcecc5b795)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "15:32:39 git retry 1: b\"eads/main': is at be142da0884c33ab751cc32f2b3255d67dc09117 but expected e73d1aa7ff4a351f8b2badb174f10ba6a3f364c3)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "15:32:45 git retry 2: b\"eads/main': is at 1237d427962ddfe6875e4136b815e9a0a0c930a0 but expected f34c640be88522019034a21b843d71a8304b3652)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "15:32:52 git retry 3: b\"eads/main': is at e08147c755aa84b95f515d75be50b40c9ac0c9ce but expected 1237d427962ddfe6875e4136b815e9a0a0c930a0)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "15:33:02 http front door: ['https://names-rational-thunder-rates.trycloudflare.com', 'https://8a4e31ac2c6473.lhr.life']",
-  "15:33:02 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:33:39 request received: rid httptest1793547218 20 keys",
-  "15:33:39 handle httptest1793547218: first_chunk=True total=20",
-  "15:33:40 request httptest1793547218: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
-  "15:33:42 request httptest1793547218: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:34:17 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:34:22 http front door: ['https://challenged-implement-via-surrounding.trycloudflare.com', 'https://ab97e62735985e.lhr.life']",
+  "20:34:22 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:35:26 request received: rid httptest1793565326 20 keys",
+  "20:35:26 handle httptest1793565326: first_chunk=True total=20",
+  "20:35:28 request httptest1793565326: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
+  "20:35:28 request httptest1793565326: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

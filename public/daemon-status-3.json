@@ -1,11 +1,11 @@
 {
- "at": "2026-11-01T13:35:22+00:00",
+ "at": "2026-11-01T13:42:54+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 375,
+ "fares_saved": 389,
  "log": [
   "10:37:42 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:46 http front door: ['https://modules-pizza-depend-permits.trycloudflare.com', 'https://cfbc1ccaa45fa9.lhr.life']",
@@ -49,6 +49,12 @@
   "13:30:24 request mvxv6w46v8a0y.3: chunk of 28 keys done in 187s; paths {'http': 31, 'browser-crashed': 209}, browser waits 209 max 238s sum 21211s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 31, 'miss': 106, 'blocked': 0, 'tries': 196, 'empty': 165}, audit 2/2 agree",
   "13:30:25 request mvxv6w46v8a0y.3: final sent (28/28); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
   "13:32:17 request received: rid mvxvdce6jzbbn.2 35 keys",
-  "13:32:17 handle mvxvdce6jzbbn.2: first_chunk=True total=35"
+  "13:32:17 handle mvxvdce6jzbbn.2: first_chunk=True total=35",
+  "13:36:42 request mvxvdce6jzbbn.2: chunk of 35 keys done in 265s; paths {'http': 31, 'browser-crashed': 252}, browser waits 252 max 265s sum 27131s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 31, 'miss': 112, 'blocked': 0, 'tries': 208, 'empty': 177}, audit 2/2 agree",
+  "13:36:44 request mvxvdce6jzbbn.2: final sent (35/35); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "13:36:49 queue: 12 keys from the look-up queue in 291s (0 priced, 0 no flight, 12 failed)",
+  "13:36:49 queue: nothing readable, next try in 1020s",
+  "13:42:06 request received: rid mvxvpxmio6muq.2 27 keys",
+  "13:42:06 handle mvxvpxmio6muq.2: first_chunk=True total=27"
  ]
 }

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-01T13:43:06+00:00",
+ "generated_at": "2026-11-01T13:44:41+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -933,6 +933,27 @@
     [
      "2026-11-01",
      60606
+    ]
+   ]
+  },
+  "mc|RGN-TPE-2026-12-27|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-ICN-2027-09-15": {
+   "price": 53481,
+   "first": {
+    "dep": "2026-12-27T09:25:00+06:30",
+    "arr": "2026-12-27T17:15:00+08:00",
+    "stops": 1,
+    "airline": "THAI, EVA Air"
+   },
+   "by_airline": {
+    "Malaysia Airlines": 92960,
+    "THAI": 99722,
+    "China Southern": 132255
+   },
+   "at": "2026-11-01",
+   "hist": [
+    [
+     "2026-11-01",
+     53481
     ]
    ]
   },
@@ -7508,8 +7529,8 @@
   },
   "mc|CGK-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-BKI-2027-09-15": {
    "status": "timeout",
-   "at": "2026-10-30",
-   "n": 7
+   "at": "2026-11-01",
+   "n": 8
   },
   "mc|CGK-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-XIY-2027-06-09": {
    "status": "timeout",
@@ -7518,13 +7539,13 @@
   },
   "mc|CGK-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
    "status": "timeout",
-   "at": "2026-10-30",
-   "n": 7
+   "at": "2026-11-01",
+   "n": 8
   },
   "mc|CGK-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-HND-2027-09-15": {
    "status": "timeout",
-   "at": "2026-10-30",
-   "n": 7
+   "at": "2026-11-01",
+   "n": 8
   },
   "mc|CKG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-RGN-2027-04-29": {
    "status": "timeout",
@@ -7673,8 +7694,8 @@
   },
   "mc|GMP-TPE-2026-11-08|TPE-OKA-2026-11-20|OKA-TPE-2026-11-22|TPE-RGN-2026-12-24": {
    "status": "timeout",
-   "at": "2026-10-30",
-   "n": 2
+   "at": "2026-11-01",
+   "n": 3
   },
   "mc|GMP-TPE-2026-11-08|TPE-OKA-2026-11-20|OKA-TPE-2026-11-22|TPE-SIN-2026-12-24": {
    "status": "timeout",
@@ -7918,8 +7939,8 @@
   },
   "mc|KMG-TPE-2026-11-08|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-BKI-2027-09-15": {
    "status": "timeout",
-   "at": "2026-10-30",
-   "n": 7
+   "at": "2026-11-01",
+   "n": 8
   },
   "mc|KMG-TPE-2026-11-08|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-HND-2027-09-15": {
    "status": "timeout",
@@ -8198,8 +8219,8 @@
   },
   "mc|XIY-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-XIY-2027-09-15": {
    "status": "timeout",
-   "at": "2026-10-30",
-   "n": 2
+   "at": "2026-11-01",
+   "n": 3
   },
   "ow|CTS|RMQ|2027-09-19": {
    "status": "timeout",

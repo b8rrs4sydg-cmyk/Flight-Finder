@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-01T01:02:28+00:00",
+ "generated_at": "2026-11-01T05:45:29+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -3627,17 +3627,17 @@
   },
   "ow|TPE|BKK|2027-03-16": {
    "price": 6000,
-   "by_airline": {
-    "STARLUX Airlines": 6000,
-    "China Airlines": 6263,
-    "EVA Air": 6302,
-    "THAI": 6737
-   },
    "first": {
     "dep": "2027-03-16T13:25:00+08:00",
     "arr": "2027-03-16T16:30:00+07:00",
     "stops": 0,
     "airline": "STARLUX Airlines"
+   },
+   "by_airline": {
+    "STARLUX Airlines": 6000,
+    "China Airlines": 6263,
+    "EVA Air": 6302,
+    "THAI": 6737
    },
    "at": "2026-11-01",
    "hist": [

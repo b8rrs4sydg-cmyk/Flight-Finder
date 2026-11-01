@@ -1,11 +1,11 @@
 {
- "at": "2026-11-01T13:18:39+00:00",
+ "at": "2026-11-01T13:23:10+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 371,
+ "fares_saved": 375,
  "log": [
   "10:37:42 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:46 http front door: ['https://modules-pizza-depend-permits.trycloudflare.com', 'https://cfbc1ccaa45fa9.lhr.life']",
@@ -39,6 +39,8 @@
   "13:13:57 request received: rid mvxupq1uc1iz2.2 37 keys",
   "13:13:57 handle mvxupq1uc1iz2.2: first_chunk=True total=37",
   "13:17:54 request mvxupq1uc1iz2.2: chunk of 37 keys done in 238s; paths {'http': 26, 'browser-crashed': 145}, browser waits 145 max 238s sum 13984s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 26, 'miss': 68, 'blocked': 0, 'tries': 143, 'empty': 117}, audit 2/2 agree",
-  "13:17:56 request mvxupq1uc1iz2.2: final sent (37/37); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "13:17:56 request mvxupq1uc1iz2.2: final sent (37/37); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "13:22:26 request received: rid mvxv0mthh3r40.3 41 keys",
+  "13:22:26 handle mvxv0mthh3r40.3: first_chunk=True total=41"
  ]
 }

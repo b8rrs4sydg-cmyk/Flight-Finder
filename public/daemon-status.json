@@ -1,5 +1,5 @@
 {
- "at": "2026-11-01T13:31:20+00:00",
+ "at": "2026-11-01T13:32:51+00:00",
  "publishes": {
   "ok": 49,
   "r429": 0,
@@ -49,6 +49,11 @@
   "13:26:26 request mvxv0mthh3r40.0: final sent (35/35); ntfy publishes {'ok': 49, 'r429': 0, 'fail': 0}",
   "13:27:17 request received: rid mvxv6w46v8a0y.0 36 keys",
   "13:27:17 handle mvxv6w46v8a0y.0: first_chunk=True total=36",
-  "13:31:18 request mvxv6w46v8a0y.0: chunk of 36 keys done in 241s; paths {'http': 46, 'browser-crashed': 369}, browser waits 369 max 805s sum 82211s; ntfy publishes {'ok': 49, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 46, 'miss': 201, 'blocked': 9, 'tries': 308, 'empty': 262}, audit 4/4 agree"
+  "13:31:18 request mvxv6w46v8a0y.0: chunk of 36 keys done in 241s; paths {'http': 46, 'browser-crashed': 369}, browser waits 369 max 805s sum 82211s; ntfy publishes {'ok': 49, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 46, 'miss': 201, 'blocked': 9, 'tries': 308, 'empty': 262}, audit 4/4 agree",
+  "13:31:20 request mvxv6w46v8a0y.0: final sent (36/36); ntfy publishes {'ok': 49, 'r429': 0, 'fail': 0}",
+  "13:32:07 queue: 12 keys from the look-up queue in 299s (0 priced, 0 no flight, 12 failed)",
+  "13:32:07 queue: nothing readable, next try in 300s",
+  "13:32:17 request received: rid mvxvdce6jzbbn.0 46 keys",
+  "13:32:17 handle mvxvdce6jzbbn.0: first_chunk=True total=46"
  ]
 }

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-01T13:26:35+00:00",
+ "generated_at": "2026-11-01T13:28:07+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -9024,8 +9024,8 @@
   },
   "rt|DMK|TSA|2026-12-27|2027-04-29": {
    "status": "timeout",
-   "at": "2026-10-30",
-   "n": 5
+   "at": "2026-11-01",
+   "n": 6
   },
   "rt|DMK|TSA|2026-12-27|2027-09-15": {
    "status": "timeout",

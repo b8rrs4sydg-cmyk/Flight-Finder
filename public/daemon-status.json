@@ -1,7 +1,7 @@
 {
- "at": "2026-11-01T12:57:45+00:00",
+ "at": "2026-11-01T12:59:17+00:00",
  "publishes": {
-  "ok": 48,
+  "ok": 49,
   "r429": 0,
   "fail": 0
  },
@@ -22,6 +22,10 @@
   "12:42:54 handle mvxtl560x1ior: first_chunk=False total=160",
   "12:49:50 request mvxtl560x1ior: chunk of 70 keys done in 416s; paths {'http': 46, 'browser-crashed': 68}, browser waits 68 max 398s sum 14211s; ntfy publishes {'ok': 26, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 46, 'miss': 134, 'blocked': 0, 'tries': 308, 'empty': 262}, audit 4/4 agree",
   "12:56:56 request mvxtl560x1ior: chunk of 90 keys done in 843s; paths {'http': 46, 'browser-crashed': 134}, browser waits 134 max 805s sum 53854s; ntfy publishes {'ok': 47, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 46, 'miss': 134, 'blocked': 0, 'tries': 308, 'empty': 262}, audit 4/4 agree",
-  "12:56:58 request mvxtl560x1ior: final sent (160/160); ntfy publishes {'ok': 48, 'r429': 0, 'fail': 0}"
+  "12:56:58 request mvxtl560x1ior: final sent (160/160); ntfy publishes {'ok': 48, 'r429': 0, 'fail': 0}",
+  "12:58:03 rtc cqtn5ttemw: answered",
+  "12:58:05 rtc cqtn5ttemw: data channel open",
+  "12:58:07 request received: rid mvxu5ajkb9ava.0 15 keys",
+  "12:58:07 handle mvxu5ajkb9ava.0: first_chunk=True total=15"
  ]
 }

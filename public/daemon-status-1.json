@@ -1,7 +1,7 @@
 {
- "at": "2026-11-01T13:32:35+00:00",
+ "at": "2026-11-01T13:50:36+00:00",
  "publishes": {
-  "ok": 4,
+  "ok": 6,
   "r429": 0,
   "fail": 0
  },
@@ -41,6 +41,12 @@
   "13:27:17 request received: rid mvxv6w46v8a0y.1 33 keys",
   "13:27:17 handle mvxv6w46v8a0y.1: first_chunk=True total=33",
   "13:31:10 request mvxv6w46v8a0y.1: chunk of 33 keys done in 233s; paths {'http': 23, 'browser': 2, 'browser-crashed': 154}, browser waits 156 max 233s sum 12036s; ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 23, 'miss': 73, 'blocked': 13, 'tries': 45, 'empty': 22}, audit 1/1 agr",
-  "13:31:12 request mvxv6w46v8a0y.1: final sent (33/33); ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}"
+  "13:31:12 request mvxv6w46v8a0y.1: final sent (33/33); ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}",
+  "13:42:06 rtc 7t5r23xau8: answered",
+  "13:42:17 queue: 12 keys from the look-up queue in 189s (0 priced, 0 no flight, 12 failed)",
+  "13:42:17 queue: nothing readable, next try in 1860s",
+  "13:49:14 rtc pip1hfuk05: answered",
+  "13:49:15 request received: rid mvxvz4egrhaqq.1 16 keys",
+  "13:49:15 handle mvxvz4egrhaqq.1: first_chunk=True total=16"
  ]
 }

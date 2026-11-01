@@ -1,5 +1,5 @@
 {
- "at": "2026-11-01T13:24:59+00:00",
+ "at": "2026-11-01T13:26:30+00:00",
  "publishes": {
   "ok": 4,
   "r429": 0,
@@ -35,6 +35,8 @@
   "13:22:26 request received: rid mvxv0mthh3r40.1 25 keys",
   "13:22:26 handle mvxv0mthh3r40.1: first_chunk=True total=25",
   "13:23:18 git retry 0: b\"eads/main': is at dd74b7a542c85a4fa565bf48573d323c5c2702b0 but expected 920260e234ced5ce251f2e2bee512fe2a8019727)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "13:23:22 git retry 1: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\""
+  "13:23:22 git retry 1: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "13:25:37 request mvxv0mthh3r40.1: chunk of 25 keys done in 190s; paths {'http': 23, 'browser': 2, 'browser-crashed': 121}, browser waits 123 max 190s sum 8030s; ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 23, 'miss': 73, 'blocked': 13, 'tries': 45, 'empty': 22}, audit 1/1 agre",
+  "13:25:37 request mvxv0mthh3r40.1: final sent (25/25); ntfy publishes {'ok': 4, 'r429': 0, 'fail': 0}"
  ]
 }

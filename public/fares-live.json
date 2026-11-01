@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-01T13:42:01+00:00",
+ "generated_at": "2026-11-01T13:43:32+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -8746,8 +8746,8 @@
   },
   "mc|GMP-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-GMP-2027-09-15": {
    "status": "timeout",
-   "at": "2026-10-30",
-   "n": 2
+   "at": "2026-11-01",
+   "n": 3
   },
   "mc|HGH-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
    "status": "timeout",

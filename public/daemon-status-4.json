@@ -1,11 +1,11 @@
 {
- "at": "2026-11-01T13:50:47+00:00",
+ "at": "2026-11-01T13:52:19+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 331,
+ "fares_saved": 333,
  "log": [
   "10:37:42 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:46 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
@@ -68,6 +68,8 @@
   "13:46:30 request mvxvpxmio6muq.3: chunk of 33 keys done in 265s; paths {'http': 59, 'browser-crashed': 335, 'browser': 4}, browser waits 339 max 288s sum 38659s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 59, 'miss': 151, 'blocked': 3, 'tries': 263, 'empty': 204}, audit 2/2 a",
   "13:46:32 request mvxvpxmio6muq.3: final sent (33/33); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
   "13:49:15 request received: rid mvxvz4egrhaqq.4 16 keys",
-  "13:49:15 handle mvxvz4egrhaqq.4: first_chunk=True total=16"
+  "13:49:15 handle mvxvz4egrhaqq.4: first_chunk=True total=16",
+  "13:52:06 request mvxvz4egrhaqq.4: chunk of 16 keys done in 172s; paths {'http': 59, 'browser-crashed': 344, 'browser': 11}, browser waits 355 max 288s sum 39989s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 59, 'miss': 151, 'blocked': 3, 'tries': 263, 'empty': 204}, audit 2/2 ",
+  "13:52:08 request mvxvz4egrhaqq.4: final sent (16/16); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
  ]
 }

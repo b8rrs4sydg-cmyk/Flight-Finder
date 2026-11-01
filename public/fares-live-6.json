@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-01T13:30:53+00:00",
+ "generated_at": "2026-11-01T13:32:25+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -7042,6 +7042,26 @@
     ]
    ]
   },
+  "rt|TSA|OKA|2026-12-24|2027-06-13": {
+   "price": 29042,
+   "by_airline": {
+    "ANA": 29042,
+    "JAL": 36678
+   },
+   "first": {
+    "dep": "2026-12-24T13:30:00+08:00",
+    "arr": "2026-12-24T22:00:00+09:00",
+    "stops": 1,
+    "airline": "ANA and Solaseed Air"
+   },
+   "at": "2026-11-01",
+   "hist": [
+    [
+     "2026-11-01",
+     29042
+    ]
+   ]
+  },
   "rt|TSA|PEN|2027-09-15|2027-09-19": {
    "price": 179273,
    "first": {
@@ -11721,11 +11741,6 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 1
-  },
-  "rt|TSA|OKA|2026-12-24|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
   },
   "rt|TSA|OKA|2027-02-10|2027-05-02": {
    "status": "timeout",

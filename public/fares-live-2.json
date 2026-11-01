@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-01T13:51:52+00:00",
+ "generated_at": "2026-11-01T13:56:24+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -959,6 +959,26 @@
     ]
    ]
   },
+  "mc|RGN-TPE-2026-11-08|TPE-HKG-2026-12-24|HKG-TPE-2026-12-27|TPE-XIY-2027-02-10": {
+   "price": 65156,
+   "first": {
+    "dep": "2026-11-08T09:25:00+06:30",
+    "arr": "2026-11-08T17:15:00+08:00",
+    "stops": 1,
+    "airline": "THAI, EVA Air"
+   },
+   "by_airline": {
+    "China Southern": 108018,
+    "THAI": 114170
+   },
+   "at": "2026-11-01",
+   "hist": [
+    [
+     "2026-11-01",
+     65156
+    ]
+   ]
+  },
   "mc|RGN-TPE-2026-11-08|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-XIY-2027-04-29": {
    "price": 65336,
    "first": {
@@ -1143,6 +1163,27 @@
     [
      "2026-10-30",
      67363
+    ]
+   ]
+  },
+  "mc|RGN-TPE-2026-12-27|TPE-HKG-2027-04-29|HKG-TPE-2027-05-02|TPE-BKI-2027-06-09": {
+   "price": 66983,
+   "first": {
+    "dep": "2026-12-27T11:25:00+06:30",
+    "arr": "2026-12-28T14:10:00+08:00",
+    "stops": 1,
+    "airline": "Malaysia Airlines"
+   },
+   "by_airline": {
+    "Malaysia Airlines": 66983,
+    "China Southern": 100146,
+    "THAI": 102713
+   },
+   "at": "2026-11-01",
+   "hist": [
+    [
+     "2026-11-01",
+     66983
     ]
    ]
   },
@@ -9524,11 +9565,6 @@
    "status": "timeout",
    "at": "2026-10-27",
    "n": 3
-  },
-  "mc|RGN-TPE-2026-11-08|TPE-HKG-2026-12-24|HKG-TPE-2026-12-27|TPE-XIY-2027-02-10": {
-   "status": "parse_error",
-   "at": "2026-10-30",
-   "n": 1
   },
   "mc|RGN-TPE-2026-11-08|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-HND-2027-09-15": {
    "status": "timeout",

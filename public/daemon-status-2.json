@@ -1,11 +1,11 @@
 {
- "at": "2026-11-01T13:36:45+00:00",
+ "at": "2026-11-01T13:42:46+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 378,
+ "fares_saved": 393,
  "log": [
   "10:37:37 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:41 http front door: ['https://forum-lyric-metabolism-kingston.trycloudflare.com', 'https://273631b39fb047.lhr.life']",
@@ -53,6 +53,8 @@
   "13:32:17 request received: rid mvxvdce6jzbbn.1 33 keys",
   "13:32:17 handle mvxvdce6jzbbn.1: first_chunk=True total=33",
   "13:36:11 request mvxvdce6jzbbn.1: chunk of 33 keys done in 234s; paths {'http': 46, 'browser-crashed': 264}, browser waits 264 max 285s sum 28023s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 46, 'miss': 128, 'blocked': 4, 'tries': 248, 'empty': 202}, audit 5/5 agree",
-  "13:36:12 request mvxvdce6jzbbn.1: final sent (33/33); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "13:36:12 request mvxvdce6jzbbn.1: final sent (33/33); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "13:42:06 request received: rid mvxvpxmio6muq.1 27 keys",
+  "13:42:06 handle mvxvpxmio6muq.1: first_chunk=True total=27"
  ]
 }

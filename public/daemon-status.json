@@ -1,5 +1,5 @@
 {
- "at": "2026-11-01T12:59:17+00:00",
+ "at": "2026-11-01T13:02:19+00:00",
  "publishes": {
   "ok": 49,
   "r429": 0,
@@ -26,6 +26,8 @@
   "12:58:03 rtc cqtn5ttemw: answered",
   "12:58:05 rtc cqtn5ttemw: data channel open",
   "12:58:07 request received: rid mvxu5ajkb9ava.0 15 keys",
-  "12:58:07 handle mvxu5ajkb9ava.0: first_chunk=True total=15"
+  "12:58:07 handle mvxu5ajkb9ava.0: first_chunk=True total=15",
+  "13:00:07 queue: 12 keys from the look-up queue in 161s (0 priced, 0 no flight, 12 failed)",
+  "13:00:07 queue: nothing readable, next try in 180s"
  ]
 }

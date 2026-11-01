@@ -1,11 +1,11 @@
 {
- "at": "2026-11-01T13:20:05+00:00",
+ "at": "2026-11-01T13:23:07+00:00",
  "publishes": {
   "ok": 2,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 323,
+ "fares_saved": 328,
  "log": [
   "10:37:38 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:37:43 http front door: ['https://postposted-asp-basic-monsters.trycloudflare.com', 'https://cffc55d04eacac.lhr.life']",
@@ -41,6 +41,8 @@
   "13:13:57 request received: rid mvxupq1uc1iz2.7 46 keys",
   "13:13:57 handle mvxupq1uc1iz2.7: first_chunk=True total=46",
   "13:18:42 request mvxupq1uc1iz2.7: chunk of 46 keys done in 285s; paths {'http': 23, 'browser-crashed': 190, 'browser': 5}, browser waits 195 max 298s sum 22389s; ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 23, 'miss': 86, 'blocked': 0, 'tries': 160, 'empty': 137}, audit 3/3 ag",
-  "13:18:43 request mvxupq1uc1iz2.7: final sent (46/46); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}"
+  "13:18:43 request mvxupq1uc1iz2.7: final sent (46/46); ntfy publishes {'ok': 2, 'r429': 0, 'fail': 0}",
+  "13:22:26 request received: rid mvxv0mthh3r40.8 48 keys",
+  "13:22:26 handle mvxv0mthh3r40.8: first_chunk=True total=48"
  ]
 }

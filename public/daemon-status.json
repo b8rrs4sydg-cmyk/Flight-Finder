@@ -1,5 +1,5 @@
 {
- "at": "2026-11-01T00:59:07+00:00",
+ "at": "2026-11-01T05:45:40+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 351,
  "log": [
-  "00:57:32 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:57:37 http front door: ['https://snapshot-landscape-measurement-agenda.trycloudflare.com', 'https://92aee179b02c15.lhr.life']",
-  "00:57:37 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:58:41 request received: rid httptest1793494721 20 keys",
-  "00:58:41 handle httptest1793494721: first_chunk=True total=20",
-  "00:58:43 request httptest1793494721: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "00:58:45 request httptest1793494721: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:44:05 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:44:10 http front door: ['https://extend-plymouth-online-influences.trycloudflare.com', 'https://d88781ddeafab3.lhr.life']",
+  "05:44:10 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "05:45:14 request received: rid httptest1793511914 20 keys",
+  "05:45:14 handle httptest1793511914: first_chunk=True total=20",
+  "05:45:16 request httptest1793511914: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "05:45:18 request httptest1793511914: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

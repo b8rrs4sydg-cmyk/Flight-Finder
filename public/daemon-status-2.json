@@ -1,18 +1,18 @@
 {
- "at": "2026-11-01T20:35:30+00:00",
+ "at": "2026-11-02T00:59:10+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 407,
+ "fares_saved": 409,
  "log": [
-  "20:33:56 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:34:00 http front door: ['https://decisions-applications-brothers-inherited.trycloudflare.com', 'https://c5e751912b8452.lhr.life']",
-  "20:34:00 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:35:05 request received: rid httptest1793565304 20 keys",
-  "20:35:05 handle httptest1793565304: first_chunk=True total=20",
-  "20:35:06 request httptest1793565304: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
-  "20:35:08 request httptest1793565304: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:57:35 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:57:40 http front door: ['https://courage-alan-explains-structures.trycloudflare.com', 'https://7f306dba88a4c0.lhr.life']",
+  "00:57:40 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:58:44 request received: rid httptest1793581123 20 keys",
+  "00:58:44 handle httptest1793581123: first_chunk=True total=20",
+  "00:58:46 request httptest1793581123: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
+  "00:58:46 request httptest1793581123: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

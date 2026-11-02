@@ -1,18 +1,18 @@
 {
- "at": "2026-11-01T20:35:33+00:00",
+ "at": "2026-11-02T00:59:21+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 344,
+ "fares_saved": 347,
  "log": [
-  "20:33:58 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:34:03 http front door: ['https://keno-jones-competition-behalf.trycloudflare.com', 'https://04cdd3ec84d446.lhr.life']",
-  "20:34:03 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:35:07 request received: rid httptest1793565307 20 keys",
-  "20:35:07 handle httptest1793565307: first_chunk=True total=20",
-  "20:35:09 request httptest1793565307: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
-  "20:35:09 request httptest1793565307: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:57:46 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:57:51 http front door: ['https://arrangements-mayor-clinton-scout.trycloudflare.com', 'https://3b1a38b0fd49b5.lhr.life']",
+  "00:57:51 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:58:54 request received: rid httptest1793581134 20 keys",
+  "00:58:54 handle httptest1793581134: first_chunk=True total=20",
+  "00:58:58 request httptest1793581134: chunk of 20 keys done in 4s; paths {'http': 19, 'browser': 1}, browser waits 1 max 3s sum 3s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 25, 'empty': 6}, audit 0/0 agree",
+  "00:58:59 request httptest1793581134: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

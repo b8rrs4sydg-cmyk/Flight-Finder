@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T12:31:55+00:00",
+ "at": "2026-11-02T12:33:26+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -41,6 +41,10 @@
   "12:30:49 request mvz8eeplw3clw.9: final sent (35/35); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "12:30:50 request mvz8elyrurozx.9: final sent (35/35); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "12:30:50 request mvz8g5hlaq69d.9: final sent (35/35); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "12:30:50 request mvz8hq7mb9tdu.9: final sent (35/35); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "12:30:50 request mvz8hq7mb9tdu.9: final sent (35/35); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:32:13 request received: rid mvz8nyieiuw54.9 42 keys",
+  "12:32:13 handle mvz8nyieiuw54.9: first_chunk=True total=42",
+  "12:32:37 queue: 12 keys from the look-up queue in 98s (0 priced, 0 no flight, 12 failed)",
+  "12:32:37 queue: nothing readable, next try in 300s"
  ]
 }

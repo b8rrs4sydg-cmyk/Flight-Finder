@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T12:22:54+00:00",
+ "at": "2026-11-02T12:25:55+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -20,6 +20,14 @@
   "12:20:30 request received: rid mvz88szzulnf4.4 11 keys",
   "12:20:30 handle mvz88szzulnf4.4: first_chunk=True total=11",
   "12:22:03 request mvz88szzulnf4.4: chunk of 11 keys done in 93s; paths {'http': 20, 'browser-crashed': 11}, browser waits 11 max 81s sum 616s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 11, 'blocked': 0, 'tries': 37, 'empty': 17}, audit 0/0 agree",
-  "12:22:04 request mvz88szzulnf4.4: final sent (11/11); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "12:22:04 request mvz88szzulnf4.4: final sent (11/11); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:24:27 request received: rid mvz8dz2l581wx.4 37 keys",
+  "12:24:27 handle mvz8dz2l581wx.4: first_chunk=True total=37",
+  "12:24:47 request received: rid mvz8eeplw3clw.4 37 keys",
+  "12:24:47 handle mvz8eeplw3clw.4: first_chunk=True total=37",
+  "12:24:57 request received: rid mvz8elyrurozx.4 37 keys",
+  "12:24:57 handle mvz8elyrurozx.4: first_chunk=True total=37",
+  "12:25:05 queue: 12 keys from the look-up queue in 95s (0 priced, 0 no flight, 12 failed)",
+  "12:25:05 queue: nothing readable, next try in 180s"
  ]
 }

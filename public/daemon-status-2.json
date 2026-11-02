@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T16:00:09+00:00",
+ "at": "2026-11-02T20:46:33+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 411,
  "log": [
-  "15:58:35 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:58:39 http front door: ['https://cod-tom-mountains-configure.trycloudflare.com', 'https://6e8a6e255ba3f3.lhr.life']",
-  "15:58:39 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:59:45 request received: rid httptest1793635184 20 keys",
-  "15:59:45 handle httptest1793635184: first_chunk=True total=20",
-  "15:59:55 request httptest1793635184: chunk of 20 keys done in 11s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 10, 'blocked': 0, 'tries': 29, 'empty': 9}, audit 0/0 agree",
-  "15:59:56 request httptest1793635184: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:44:55 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:45:03 http front door: ['https://emily-tramadol-champagne-among.trycloudflare.com', 'https://a8bba13125d0b5.lhr.life']",
+  "20:45:03 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:46:03 request received: rid httptest1793652363 20 keys",
+  "20:46:03 handle httptest1793652363: first_chunk=True total=20",
+  "20:46:05 request httptest1793652363: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "20:46:07 request httptest1793652363: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

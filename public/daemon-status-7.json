@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T00:59:39+00:00",
+ "at": "2026-11-02T06:01:10+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 376,
  "log": [
-  "00:58:05 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:58:09 http front door: ['https://len-bishop-ascii-appeals.trycloudflare.com', 'https://102a8bce54d7dc.lhr.life']",
-  "00:58:09 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:59:12 request received: rid httptest1793581152 20 keys",
-  "00:59:12 handle httptest1793581152: first_chunk=True total=20",
-  "00:59:16 request httptest1793581152: chunk of 20 keys done in 4s; paths {'http': 19, 'browser': 1}, browser waits 1 max 3s sum 3s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 25, 'empty': 6}, audit 0/0 agree",
-  "00:59:17 request httptest1793581152: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:59:35 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:59:40 http front door: ['https://ipaq-verde-spam-trials.trycloudflare.com', 'https://6dacea1f752db5.lhr.life']",
+  "05:59:40 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "06:00:44 request received: rid httptest1793599243 20 keys",
+  "06:00:44 handle httptest1793599243: first_chunk=True total=20",
+  "06:00:45 request httptest1793599243: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "06:00:46 request httptest1793599243: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

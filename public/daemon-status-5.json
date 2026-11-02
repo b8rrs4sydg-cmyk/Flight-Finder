@@ -1,11 +1,11 @@
 {
- "at": "2026-11-02T12:32:09+00:00",
+ "at": "2026-11-02T12:33:41+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 369,
+ "fares_saved": 370,
  "log": [
   "10:57:07 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:57:12 http front door: ['https://respective-cartoon-yeast-mask.trycloudflare.com', 'https://1ce4be2a2a9f53.lhr.life']",
@@ -40,6 +40,11 @@
   "12:32:09 request mvz8g5hlaq69d.5: chunk of 49 keys done in 360s; paths {'http': 20, 'browser-crashed': 101}, browser waits 101 max 461s sum 16756s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 27, 'blocked': 0, 'tries': 69, 'empty': 49}, audit 1/1 agree",
   "12:32:09 request mvz8hq7mb9tdu.5: chunk of 49 keys done in 286s; paths {'http': 20, 'browser-crashed': 101}, browser waits 101 max 461s sum 16756s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 27, 'blocked': 0, 'tries': 69, 'empty': 49}, audit 1/1 agree",
   "12:32:09 request mvz8dz2l581wx.5: final sent (49/49); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
-  "12:32:09 request mvz8eeplw3clw.5: final sent (49/49); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "12:32:09 request mvz8eeplw3clw.5: final sent (49/49); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:32:10 request mvz8elyrurozx.5: final sent (49/49); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:32:10 request mvz8g5hlaq69d.5: final sent (49/49); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:32:10 request mvz8hq7mb9tdu.5: final sent (49/49); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:32:13 request received: rid mvz8nyieiuw54.5 34 keys",
+  "12:32:13 handle mvz8nyieiuw54.5: first_chunk=True total=34"
  ]
 }

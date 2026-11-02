@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T00:59:13+00:00",
+ "at": "2026-11-02T01:00:44+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -11,6 +11,8 @@
   "00:57:43 http front door: ['https://wagon-plot-cooler-delaware.trycloudflare.com', 'https://f15531e44e9983.lhr.life']",
   "00:57:43 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "00:58:48 request received: rid httptest1793581127 20 keys",
-  "00:58:48 handle httptest1793581127: first_chunk=True total=20"
+  "00:58:48 handle httptest1793581127: first_chunk=True total=20",
+  "00:59:50 request httptest1793581127: chunk of 20 keys done in 63s; paths {'http': 18, 'browser': 1, 'browser-crashed': 1}, browser waits 2 max 61s sum 66s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 18, 'miss': 2, 'blocked': 0, 'tries': 28, 'empty': 10}, audit 2/2 agree",
+  "00:59:52 request httptest1793581127: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T00:59:11+00:00",
+ "at": "2026-11-02T06:00:47+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 368,
  "log": [
-  "00:57:36 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:57:41 http front door: ['https://gauge-structure-sept-manuals.trycloudflare.com', 'https://751909ae90884f.lhr.life']",
-  "00:57:41 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:58:46 request received: rid httptest1793581125 20 keys",
-  "00:58:46 handle httptest1793581125: first_chunk=True total=20",
-  "00:58:50 request httptest1793581125: chunk of 20 keys done in 5s; paths {'http': 19, 'browser': 1}, browser waits 1 max 3s sum 3s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 25, 'empty': 6}, audit 1/1 agree",
-  "00:58:51 request httptest1793581125: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:59:12 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:59:17 http front door: ['https://land-illustrated-clicks-soundtrack.trycloudflare.com', 'https://ddec3fa5ad372e.lhr.life']",
+  "05:59:17 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "06:00:22 request received: rid httptest1793599221 20 keys",
+  "06:00:22 handle httptest1793599221: first_chunk=True total=20",
+  "06:00:23 request httptest1793599221: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "06:00:24 request httptest1793599221: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-02T12:45:48+00:00",
+ "generated_at": "2026-11-02T16:00:09+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -3538,7 +3538,7 @@
    "prev_at": "2026-10-31"
   },
   "ow|TPE|HKG|2027-03-12": {
-   "price": 3493,
+   "price": 2133,
    "first": {
     "dep": "2027-03-12T13:55:00+08:00",
     "arr": "2027-03-12T16:00:00+08:00",
@@ -3546,7 +3546,7 @@
     "airline": "Hong Kong Express"
    },
    "by_airline": {
-    "Hong Kong Express": 3493,
+    "Hong Kong Express": 2133,
     "Greater Bay Airlines": 4112,
     "STARLUX Airlines": 4972,
     "China Airlines": 5151
@@ -3579,7 +3579,7 @@
     ],
     [
      "2026-11-02",
-     3493
+     2133
     ]
    ],
    "prev": 2133,
@@ -4022,7 +4022,7 @@
    "by_airline": {
     "Scoot": 3988,
     "Tigerair Taiwan": 4399,
-    "Shandong": 5298,
+    "Hong Kong Express": 5096,
     "Jeju Air": 5830
    },
    "at": "2026-11-02",
@@ -4071,7 +4071,7 @@
     "Scoot": 3232,
     "Tigerair Taiwan": 3999,
     "Hong Kong Express": 5013,
-    "Jeju Air": 5830
+    "Jeju Air": 5833
    },
    "at": "2026-11-02",
    "hist": [
@@ -4251,7 +4251,7 @@
     "Scoot": 3232,
     "Tigerair Taiwan": 4099,
     "Hong Kong Express": 4930,
-    "Jeju Air": 5110
+    "Jeju Air": 5113
    },
    "at": "2026-11-02",
    "hist": [

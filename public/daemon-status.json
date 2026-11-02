@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T12:33:47+00:00",
+ "at": "2026-11-02T12:35:19+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -44,6 +44,8 @@
   "12:31:48 queue: 12 keys from the look-up queue in 482s (0 priced, 0 no flight, 12 failed)",
   "12:31:48 queue: nothing readable, next try in 180s",
   "12:32:13 request received: rid mvz8nyieiuw54.0 43 keys",
-  "12:32:13 handle mvz8nyieiuw54.0: first_chunk=True total=43"
+  "12:32:13 handle mvz8nyieiuw54.0: first_chunk=True total=43",
+  "12:33:53 request received: rid mvz8q3b8xtxrh.0 43 keys",
+  "12:33:53 handle mvz8q3b8xtxrh.0: first_chunk=True total=43"
  ]
 }

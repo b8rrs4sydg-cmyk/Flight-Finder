@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T01:00:44+00:00",
+ "at": "2026-11-02T06:01:05+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,14 @@
  },
  "fares_saved": 339,
  "log": [
-  "00:57:39 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:57:43 http front door: ['https://wagon-plot-cooler-delaware.trycloudflare.com', 'https://f15531e44e9983.lhr.life']",
-  "00:57:43 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:58:48 request received: rid httptest1793581127 20 keys",
-  "00:58:48 handle httptest1793581127: first_chunk=True total=20",
-  "00:59:50 request httptest1793581127: chunk of 20 keys done in 63s; paths {'http': 18, 'browser': 1, 'browser-crashed': 1}, browser waits 2 max 61s sum 66s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 18, 'miss': 2, 'blocked': 0, 'tries': 28, 'empty': 10}, audit 2/2 agree",
-  "00:59:52 request httptest1793581127: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:59:18 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:59:23 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "05:59:27 git retry 1: b\"eads/main': is at 0c86e7e949ed56b9230fe425f9ed6d39d5b38918 but expected f53455e9fbb61baa877f14fd48f980a9e0275abe)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "05:59:35 http front door: ['https://since-actually-discovery-ferrari.trycloudflare.com', 'https://fd8b3033c182eb.lhr.life']",
+  "05:59:35 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "06:00:27 request received: rid httptest1793599227 20 keys",
+  "06:00:27 handle httptest1793599227: first_chunk=True total=20",
+  "06:00:29 request httptest1793599227: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "06:00:31 request httptest1793599227: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

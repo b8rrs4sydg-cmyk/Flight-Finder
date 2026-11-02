@@ -1,11 +1,11 @@
 {
- "at": "2026-11-02T12:41:17+00:00",
+ "at": "2026-11-02T12:42:49+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 357,
+ "fares_saved": 360,
  "log": [
   "10:57:18 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:57:23 http front door: ['https://enquiries-ground-lasting-pose.trycloudflare.com', 'https://00542c0e79fdaa.lhr.life']",

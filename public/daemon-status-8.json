@@ -1,11 +1,11 @@
 {
- "at": "2026-11-02T12:40:03+00:00",
+ "at": "2026-11-02T12:41:36+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 397,
+ "fares_saved": 400,
  "log": [
   "10:57:15 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:57:21 git retry 0: b\"eads/main': is at a17bb0df7eab3dd1d8c046c6e9efd9496c24fce2 but expected 29ea1c3581948877641e395e731e221b9d0a7744)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
@@ -50,6 +50,14 @@
   "12:33:53 request received: rid mvz8q3b8xtxrh.8 48 keys",
   "12:33:53 handle mvz8q3b8xtxrh.8: first_chunk=True total=48",
   "12:35:25 request received: rid mvz8s2avt67hu.8 48 keys",
-  "12:35:25 handle mvz8s2avt67hu.8: first_chunk=True total=48"
+  "12:35:25 handle mvz8s2avt67hu.8: first_chunk=True total=48",
+  "12:40:20 request mvz8nyieiuw54.8: chunk of 47 keys done in 487s; paths {'http': 20, 'browser-crashed': 169, 'browser': 4}, browser waits 173 max 487s sum 28744s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 48, 'blocked': 0, 'tries': 102, 'empty': 82}, audit 3/3 agr",
+  "12:40:20 request mvz8q3b8xtxrh.8: chunk of 48 keys done in 388s; paths {'http': 20, 'browser-crashed': 169, 'browser': 4}, browser waits 173 max 487s sum 28744s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 48, 'blocked': 0, 'tries': 102, 'empty': 82}, audit 3/3 agr",
+  "12:40:20 request mvz8s2avt67hu.8: chunk of 48 keys done in 296s; paths {'http': 20, 'browser-crashed': 169, 'browser': 4}, browser waits 173 max 487s sum 28744s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 48, 'blocked': 0, 'tries': 102, 'empty': 82}, audit 3/3 agr",
+  "12:40:21 request mvz8s2avt67hu.8: final sent (48/48); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:40:23 request mvz8nyieiuw54.8: final sent (47/47); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:40:23 request mvz8q3b8xtxrh.8: final sent (48/48); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:40:24 request received: rid mvz8yg67zb92f.7 38 keys",
+  "12:40:24 handle mvz8yg67zb92f.7: first_chunk=True total=38"
  ]
 }

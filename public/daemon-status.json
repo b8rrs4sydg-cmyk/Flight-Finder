@@ -1,11 +1,11 @@
 {
- "at": "2026-11-02T12:39:54+00:00",
+ "at": "2026-11-02T12:41:25+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 382,
+ "fares_saved": 384,
  "log": [
   "10:57:22 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:57:28 http front door: ['https://thumbnail-others-census-show.trycloudflare.com', 'https://27400d3dad1c88.lhr.life']",
@@ -48,6 +48,14 @@
   "12:33:53 request received: rid mvz8q3b8xtxrh.0 43 keys",
   "12:33:53 handle mvz8q3b8xtxrh.0: first_chunk=True total=43",
   "12:35:25 request received: rid mvz8s2avt67hu.0 43 keys",
-  "12:35:25 handle mvz8s2avt67hu.0: first_chunk=True total=43"
+  "12:35:25 handle mvz8s2avt67hu.0: first_chunk=True total=43",
+  "12:39:57 request mvz8nyieiuw54.0: chunk of 43 keys done in 464s; paths {'http': 22, 'browser-crashed': 156, 'browser': 1}, browser waits 157 max 481s sum 27823s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 34, 'blocked': 0, 'tries': 80, 'empty': 58}, audit 3/3 agre",
+  "12:39:57 request mvz8q3b8xtxrh.0: chunk of 43 keys done in 365s; paths {'http': 22, 'browser-crashed': 156, 'browser': 1}, browser waits 157 max 481s sum 27823s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 34, 'blocked': 0, 'tries': 80, 'empty': 58}, audit 3/3 agre",
+  "12:39:57 request mvz8s2avt67hu.0: chunk of 43 keys done in 273s; paths {'http': 22, 'browser-crashed': 156, 'browser': 1}, browser waits 157 max 481s sum 27823s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 34, 'blocked': 0, 'tries': 80, 'empty': 58}, audit 3/3 agre",
+  "12:39:58 request mvz8nyieiuw54.0: final sent (43/43); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:39:59 request mvz8q3b8xtxrh.0: final sent (43/43); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:39:59 request mvz8s2avt67hu.0: final sent (43/43); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:40:24 request received: rid mvz8yg67zb92f.0 52 keys",
+  "12:40:24 handle mvz8yg67zb92f.0: first_chunk=True total=52"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T12:23:15+00:00",
+ "at": "2026-11-02T12:26:17+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -22,6 +22,16 @@
   "12:20:30 request received: rid mvz88szzulnf4.8 19 keys",
   "12:20:30 handle mvz88szzulnf4.8: first_chunk=True total=19",
   "12:22:52 request mvz88szzulnf4.8: chunk of 19 keys done in 142s; paths {'http': 20, 'browser-crashed': 19}, browser waits 19 max 137s sum 1534s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 19, 'blocked': 0, 'tries': 56, 'empty': 36}, audit 3/3 agree",
-  "12:22:53 request mvz88szzulnf4.8: final sent (19/19); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
+  "12:22:53 request mvz88szzulnf4.8: final sent (19/19); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:24:27 request received: rid mvz8dz2l581wx.8 42 keys",
+  "12:24:27 handle mvz8dz2l581wx.8: first_chunk=True total=42",
+  "12:24:36 queue: 12 keys from the look-up queue in 96s (0 priced, 0 no flight, 12 failed)",
+  "12:24:36 queue: nothing readable, next try in 180s",
+  "12:24:47 request received: rid mvz8eeplw3clw.8 42 keys",
+  "12:24:47 handle mvz8eeplw3clw.8: first_chunk=True total=42",
+  "12:24:57 request received: rid mvz8elyrurozx.8 42 keys",
+  "12:24:57 handle mvz8elyrurozx.8: first_chunk=True total=42",
+  "12:26:09 request received: rid mvz8g5hlaq69d.8 42 keys",
+  "12:26:09 handle mvz8g5hlaq69d.8: first_chunk=True total=42"
  ]
 }

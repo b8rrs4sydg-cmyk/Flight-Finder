@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T12:30:23+00:00",
+ "at": "2026-11-02T12:31:55+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -31,6 +31,16 @@
   "12:26:09 request received: rid mvz8g5hlaq69d.9 35 keys",
   "12:26:09 handle mvz8g5hlaq69d.9: first_chunk=True total=35",
   "12:27:22 request received: rid mvz8hq7mb9tdu.9 35 keys",
-  "12:27:22 handle mvz8hq7mb9tdu.9: first_chunk=True total=35"
+  "12:27:22 handle mvz8hq7mb9tdu.9: first_chunk=True total=35",
+  "12:30:47 request mvz8dz2l581wx.9: chunk of 35 keys done in 380s; paths {'http': 20, 'browser-crashed': 84}, browser waits 84 max 380s sum 10795s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 28, 'blocked': 0, 'tries': 73, 'empty': 53}, audit 1/1 agree",
+  "12:30:47 request mvz8eeplw3clw.9: chunk of 35 keys done in 360s; paths {'http': 20, 'browser-crashed': 84}, browser waits 84 max 380s sum 10795s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 28, 'blocked': 0, 'tries': 73, 'empty': 53}, audit 1/1 agree",
+  "12:30:47 request mvz8elyrurozx.9: chunk of 35 keys done in 350s; paths {'http': 20, 'browser-crashed': 84}, browser waits 84 max 380s sum 10795s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 28, 'blocked': 0, 'tries': 73, 'empty': 53}, audit 1/1 agree",
+  "12:30:47 request mvz8g5hlaq69d.9: chunk of 35 keys done in 278s; paths {'http': 20, 'browser-crashed': 84}, browser waits 84 max 380s sum 10795s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 28, 'blocked': 0, 'tries': 73, 'empty': 53}, audit 1/1 agree",
+  "12:30:47 request mvz8hq7mb9tdu.9: chunk of 35 keys done in 205s; paths {'http': 20, 'browser-crashed': 84}, browser waits 84 max 380s sum 10795s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 28, 'blocked': 0, 'tries': 73, 'empty': 53}, audit 1/1 agree",
+  "12:30:49 request mvz8dz2l581wx.9: final sent (35/35); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:30:49 request mvz8eeplw3clw.9: final sent (35/35); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:30:50 request mvz8elyrurozx.9: final sent (35/35); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:30:50 request mvz8g5hlaq69d.9: final sent (35/35); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:30:50 request mvz8hq7mb9tdu.9: final sent (35/35); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

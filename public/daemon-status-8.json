@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T12:32:24+00:00",
+ "at": "2026-11-02T12:33:56+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -46,6 +46,8 @@
   "12:31:34 request mvz8g5hlaq69d.8: final sent (42/42); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "12:31:35 request mvz8hq7mb9tdu.8: final sent (42/42); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "12:32:13 request received: rid mvz8nyieiuw54.8 47 keys",
-  "12:32:13 handle mvz8nyieiuw54.8: first_chunk=True total=47"
+  "12:32:13 handle mvz8nyieiuw54.8: first_chunk=True total=47",
+  "12:33:53 request received: rid mvz8q3b8xtxrh.8 48 keys",
+  "12:33:53 handle mvz8q3b8xtxrh.8: first_chunk=True total=48"
  ]
 }

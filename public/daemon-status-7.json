@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T12:30:45+00:00",
+ "at": "2026-11-02T12:32:20+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -31,6 +31,21 @@
   "12:26:09 request received: rid mvz8g5hlaq69d.7 34 keys",
   "12:26:09 handle mvz8g5hlaq69d.7: first_chunk=True total=34",
   "12:27:22 request received: rid mvz8hq7mb9tdu.7 34 keys",
-  "12:27:22 handle mvz8hq7mb9tdu.7: first_chunk=True total=34"
+  "12:27:22 handle mvz8hq7mb9tdu.7: first_chunk=True total=34",
+  "12:30:46 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "12:30:52 request mvz8dz2l581wx.7: chunk of 34 keys done in 384s; paths {'http': 20, 'browser-crashed': 84}, browser waits 84 max 384s sum 10183s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 30, 'blocked': 0, 'tries': 74, 'empty': 54}, audit 3/3 agree",
+  "12:30:52 request mvz8eeplw3clw.7: chunk of 34 keys done in 364s; paths {'http': 20, 'browser-crashed': 84}, browser waits 84 max 384s sum 10183s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 30, 'blocked': 0, 'tries': 74, 'empty': 54}, audit 3/3 agree",
+  "12:30:52 request mvz8elyrurozx.7: chunk of 34 keys done in 355s; paths {'http': 20, 'browser-crashed': 84}, browser waits 84 max 384s sum 10183s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 30, 'blocked': 0, 'tries': 74, 'empty': 54}, audit 3/3 agree",
+  "12:30:52 request mvz8g5hlaq69d.7: chunk of 34 keys done in 283s; paths {'http': 20, 'browser-crashed': 84}, browser waits 84 max 384s sum 10183s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 30, 'blocked': 0, 'tries': 74, 'empty': 54}, audit 3/3 agree",
+  "12:30:52 request mvz8hq7mb9tdu.7: chunk of 34 keys done in 209s; paths {'http': 20, 'browser-crashed': 84}, browser waits 84 max 384s sum 10183s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 30, 'blocked': 0, 'tries': 74, 'empty': 54}, audit 3/3 agree",
+  "12:30:54 request mvz8dz2l581wx.7: final sent (34/34); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:30:54 request mvz8eeplw3clw.7: final sent (34/34); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:30:54 request mvz8elyrurozx.7: final sent (34/34); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:30:54 request mvz8g5hlaq69d.7: final sent (34/34); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:30:54 request mvz8hq7mb9tdu.7: final sent (34/34); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:30:57 queue: 12 keys from the look-up queue in 432s (0 priced, 0 no flight, 12 failed)",
+  "12:30:57 queue: nothing readable, next try in 180s",
+  "12:32:13 request received: rid mvz8nyieiuw54.7 36 keys",
+  "12:32:13 handle mvz8nyieiuw54.7: first_chunk=True total=36"
  ]
 }

@@ -1,11 +1,11 @@
 {
- "at": "2026-11-02T12:41:25+00:00",
+ "at": "2026-11-02T12:42:57+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 384,
+ "fares_saved": 393,
  "log": [
   "10:57:22 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:57:28 http front door: ['https://thumbnail-others-census-show.trycloudflare.com', 'https://27400d3dad1c88.lhr.life']",

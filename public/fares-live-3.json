@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-02T00:59:04+00:00",
+ "generated_at": "2026-11-02T06:01:21+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -4152,7 +4152,7 @@
     "STARLUX Airlines": 6000,
     "China Airlines": 6000,
     "EVA Air": 6302,
-    "THAI": 6737
+    "China Southern": 6369
    },
    "at": "2026-11-02",
    "hist": [
@@ -4332,7 +4332,7 @@
     "STARLUX Airlines": 6000,
     "China Airlines": 6000,
     "EVA Air": 6302,
-    "THAI": 6737
+    "China Southern": 6369
    },
    "at": "2026-11-02",
    "hist": [

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T00:59:04+00:00",
+ "at": "2026-11-02T06:01:21+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 411,
  "log": [
-  "00:57:29 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:57:34 http front door: ['https://expense-pressure-networks-webmaster.trycloudflare.com', 'https://c48aeb0b456f8c.lhr.life']",
-  "00:57:34 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:58:37 request received: rid httptest1793581117 20 keys",
-  "00:58:37 handle httptest1793581117: first_chunk=True total=20",
-  "00:58:39 request httptest1793581117: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
-  "00:58:40 request httptest1793581117: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:59:45 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:59:50 http front door: ['https://contamination-trinity-barrel-highways.trycloudflare.com', 'https://88f275612208d9.lhr.life']",
+  "05:59:50 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "06:00:53 request received: rid httptest1793599253 20 keys",
+  "06:00:53 handle httptest1793599253: first_chunk=True total=20",
+  "06:00:55 request httptest1793599253: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "06:00:57 request httptest1793599253: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T12:44:42+00:00",
+ "at": "2026-11-02T12:46:14+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -60,6 +60,8 @@
   "12:40:24 request received: rid mvz8yg67zb92f.1 42 keys",
   "12:40:24 handle mvz8yg67zb92f.1: first_chunk=True total=42",
   "12:41:28 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "12:41:33 git retry 1: b\"eads/main': is at dae0b3b073b3a5e4a4dc39ab83b38554bd969dda but expected 4fa572b79e95009c6ef5da53a1af6d40496065d7)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\""
+  "12:41:33 git retry 1: b\"eads/main': is at dae0b3b073b3a5e4a4dc39ab83b38554bd969dda but expected 4fa572b79e95009c6ef5da53a1af6d40496065d7)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "12:45:05 request mvz8yg67zb92f.1: chunk of 42 keys done in 281s; paths {'http': 21, 'browser-crashed': 200}, browser waits 200 max 477s sum 29888s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 21, 'miss': 53, 'blocked': 0, 'tries': 105, 'empty': 84}, audit 0/0 agree",
+  "12:45:07 request mvz8yg67zb92f.1: final sent (42/42); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

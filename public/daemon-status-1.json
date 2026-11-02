@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T12:30:47+00:00",
+ "at": "2026-11-02T12:32:18+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
@@ -32,6 +32,20 @@
   "12:26:09 request received: rid mvz8g5hlaq69d.1 41 keys",
   "12:26:09 handle mvz8g5hlaq69d.1: first_chunk=True total=41",
   "12:27:22 request received: rid mvz8hq7mb9tdu.1 41 keys",
-  "12:27:22 handle mvz8hq7mb9tdu.1: first_chunk=True total=41"
+  "12:27:22 handle mvz8hq7mb9tdu.1: first_chunk=True total=41",
+  "12:31:27 request mvz8dz2l581wx.1: chunk of 41 keys done in 420s; paths {'http': 20, 'browser-crashed': 89}, browser waits 89 max 420s sum 12745s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 18, 'blocked': 0, 'tries': 51, 'empty': 31}, audit 0/0 agree",
+  "12:31:27 request mvz8eeplw3clw.1: chunk of 41 keys done in 400s; paths {'http': 20, 'browser-crashed': 89}, browser waits 89 max 420s sum 12745s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 18, 'blocked': 0, 'tries': 51, 'empty': 31}, audit 0/0 agree",
+  "12:31:27 request mvz8elyrurozx.1: chunk of 41 keys done in 390s; paths {'http': 20, 'browser-crashed': 89}, browser waits 89 max 420s sum 12745s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 18, 'blocked': 0, 'tries': 51, 'empty': 31}, audit 0/0 agree",
+  "12:31:27 request mvz8g5hlaq69d.1: chunk of 41 keys done in 318s; paths {'http': 20, 'browser-crashed': 89}, browser waits 89 max 420s sum 12745s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 18, 'blocked': 0, 'tries': 51, 'empty': 31}, audit 0/0 agree",
+  "12:31:27 request mvz8hq7mb9tdu.1: chunk of 41 keys done in 245s; paths {'http': 20, 'browser-crashed': 89}, browser waits 89 max 420s sum 12745s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 18, 'blocked': 0, 'tries': 51, 'empty': 31}, audit 0/0 agree",
+  "12:31:28 request mvz8dz2l581wx.1: final sent (41/41); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:31:28 request mvz8eeplw3clw.1: final sent (41/41); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:31:28 request mvz8elyrurozx.1: final sent (41/41); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:31:28 request mvz8g5hlaq69d.1: final sent (41/41); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:31:28 request mvz8hq7mb9tdu.1: final sent (41/41); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
+  "12:31:42 queue: 12 keys from the look-up queue in 477s (0 priced, 0 no flight, 12 failed)",
+  "12:31:42 queue: nothing readable, next try in 180s",
+  "12:32:13 request received: rid mvz8nyieiuw54.1 34 keys",
+  "12:32:13 handle mvz8nyieiuw54.1: first_chunk=True total=34"
  ]
 }

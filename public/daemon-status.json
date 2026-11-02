@@ -1,11 +1,11 @@
 {
- "at": "2026-11-02T12:44:29+00:00",
+ "at": "2026-11-02T12:46:01+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 399,
+ "fares_saved": 400,
  "log": [
   "10:57:22 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:57:28 http front door: ['https://thumbnail-others-census-show.trycloudflare.com', 'https://27400d3dad1c88.lhr.life']",
@@ -56,6 +56,8 @@
   "12:39:59 request mvz8q3b8xtxrh.0: final sent (43/43); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "12:39:59 request mvz8s2avt67hu.0: final sent (43/43); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}",
   "12:40:24 request received: rid mvz8yg67zb92f.0 52 keys",
-  "12:40:24 handle mvz8yg67zb92f.0: first_chunk=True total=52"
+  "12:40:24 handle mvz8yg67zb92f.0: first_chunk=True total=52",
+  "12:45:13 request mvz8yg67zb92f.0: chunk of 52 keys done in 289s; paths {'http': 22, 'browser-crashed': 191, 'browser': 18}, browser waits 209 max 481s sum 35843s; ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 22, 'miss': 35, 'blocked': 0, 'tries': 82, 'empty': 60}, audit 3/3 agr",
+  "12:45:13 request mvz8yg67zb92f.0: final sent (52/52); ntfy publishes {'ok': 1, 'r429': 0, 'fail': 0}"
  ]
 }

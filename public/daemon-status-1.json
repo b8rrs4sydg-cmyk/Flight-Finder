@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T16:00:21+00:00",
+ "at": "2026-11-02T20:46:21+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 340,
  "log": [
-  "15:58:45 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:58:51 http front door: ['https://adams-friday-highlights-tampa.trycloudflare.com', 'https://97a252329ea68b.lhr.life']",
-  "15:58:51 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:59:54 request received: rid httptest1793635193 20 keys",
-  "15:59:54 handle httptest1793635193: first_chunk=True total=20",
-  "16:00:03 request httptest1793635193: chunk of 20 keys done in 9s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 11, 'blocked': 0, 'tries': 36, 'empty': 16}, audit 0/0 agree",
-  "16:00:04 request httptest1793635193: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:44:46 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:44:51 http front door: ['https://planes-nevada-suited-whilst.trycloudflare.com', 'https://d486e5dcc58e75.lhr.life']",
+  "20:44:51 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:45:54 request received: rid httptest1793652353 20 keys",
+  "20:45:54 handle httptest1793652353: first_chunk=True total=20",
+  "20:45:55 request httptest1793652353: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "20:45:58 request httptest1793652353: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

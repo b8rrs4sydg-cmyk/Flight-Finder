@@ -1,7 +1,7 @@
 {
- "at": "2026-11-02T10:59:11+00:00",
+ "at": "2026-11-02T12:21:43+00:00",
  "publishes": {
-  "ok": 0,
+  "ok": 1,
   "r429": 0,
   "fail": 0
  },
@@ -16,6 +16,10 @@
   "10:58:25 request received: rid httptest1793617104 20 keys",
   "10:58:25 handle httptest1793617104: first_chunk=True total=20",
   "10:58:26 request httptest1793617104: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "10:58:28 request httptest1793617104: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:58:28 request httptest1793617104: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}",
+  "12:20:28 rtc l2z1txm5t1: answered",
+  "12:20:30 rtc l2z1txm5t1: data channel open",
+  "12:20:30 request received: rid mvz88szzulnf4.8 19 keys",
+  "12:20:30 handle mvz88szzulnf4.8: first_chunk=True total=19"
  ]
 }

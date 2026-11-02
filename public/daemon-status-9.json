@@ -1,11 +1,11 @@
 {
- "at": "2026-11-02T12:33:26+00:00",
+ "at": "2026-11-02T12:34:58+00:00",
  "publishes": {
   "ok": 1,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 368,
+ "fares_saved": 369,
  "log": [
   "10:57:11 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "10:57:15 http front door: ['https://mug-posing-sporting-you.trycloudflare.com', 'https://eac27aeea05920.lhr.life']",
@@ -45,6 +45,8 @@
   "12:32:13 request received: rid mvz8nyieiuw54.9 42 keys",
   "12:32:13 handle mvz8nyieiuw54.9: first_chunk=True total=42",
   "12:32:37 queue: 12 keys from the look-up queue in 98s (0 priced, 0 no flight, 12 failed)",
-  "12:32:37 queue: nothing readable, next try in 300s"
+  "12:32:37 queue: nothing readable, next try in 300s",
+  "12:33:53 request received: rid mvz8q3b8xtxrh.9 42 keys",
+  "12:33:53 handle mvz8q3b8xtxrh.9: first_chunk=True total=42"
  ]
 }

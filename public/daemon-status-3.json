@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T16:00:33+00:00",
+ "at": "2026-11-02T20:46:25+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,13 @@
  },
  "fares_saved": 411,
  "log": [
-  "15:58:59 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:59:03 http front door: ['https://ratios-disciplines-clients-individually.trycloudflare.com', 'https://806cc6bd634127.lhr.life']",
-  "15:59:03 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "16:00:09 request received: rid httptest1793635209 20 keys",
-  "16:00:09 handle httptest1793635209: first_chunk=True total=20",
-  "16:00:19 request httptest1793635209: chunk of 20 keys done in 10s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 12, 'blocked': 0, 'tries': 33, 'empty': 13}, audit 1/1 agree",
-  "16:00:20 request httptest1793635209: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:44:45 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:44:52 git retry 0: b\"eads/main': is at 64692b28c7b591e96db9301c7894e6a24889d607 but expected fdad23dced356ae206c5e7f8d7fdd57a9c9f7995)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "20:44:55 http front door: ['https://protective-crafts-examined-span.trycloudflare.com', 'https://9664d56b85205a.lhr.life']",
+  "20:44:55 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:45:55 request received: rid httptest1793652355 20 keys",
+  "20:45:55 handle httptest1793652355: first_chunk=True total=20",
+  "20:45:58 request httptest1793652355: chunk of 20 keys done in 3s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "20:46:00 request httptest1793652355: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

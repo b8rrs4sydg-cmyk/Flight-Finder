@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-02T00:59:21+00:00",
+ "generated_at": "2026-11-02T06:00:55+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -3009,7 +3009,7 @@
     "STARLUX Airlines": 6000,
     "China Airlines": 6000,
     "EVA Air": 6302,
-    "THAI": 6737
+    "China Southern": 6369
    },
    "at": "2026-11-02",
    "hist": [
@@ -3189,7 +3189,7 @@
     "STARLUX Airlines": 6000,
     "China Airlines": 6000,
     "EVA Air": 6302,
-    "THAI": 6737
+    "China Southern": 6369
    },
    "at": "2026-11-02",
    "hist": [
@@ -4005,17 +4005,17 @@
   },
   "ow|TPE|ICN|2027-03-12": {
    "price": 3988,
-   "by_airline": {
-    "Scoot": 3988,
-    "Tigerair Taiwan": 4399,
-    "Shandong": 5298,
-    "Jeju Air": 5830
-   },
    "first": {
     "dep": "2027-03-12T18:10:00+08:00",
     "arr": "2027-03-12T21:40:00+09:00",
     "stops": 0,
     "airline": "Scoot"
+   },
+   "by_airline": {
+    "Scoot": 3988,
+    "Tigerair Taiwan": 4399,
+    "Shandong": 5298,
+    "Jeju Air": 5830
    },
    "at": "2026-11-02",
    "hist": [

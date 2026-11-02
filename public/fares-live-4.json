@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-02T12:44:13+00:00",
+ "generated_at": "2026-11-02T12:45:45+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -9110,8 +9110,8 @@
   },
   "ow|TPE|PNH|2026-12-24": {
    "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
+   "at": "2026-11-02",
+   "n": 5
   },
   "ow|TPE|REP|2026-11-06": {
    "status": "timeout",

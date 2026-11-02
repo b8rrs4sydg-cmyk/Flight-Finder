@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T16:00:30+00:00",
+ "at": "2026-11-02T20:46:27+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,13 @@
  },
  "fares_saved": 370,
  "log": [
-  "15:58:53 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:59:00 http front door: ['https://choose-louis-counted-univ.trycloudflare.com', 'https://9d891e8b84600a.lhr.life']",
-  "15:59:00 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "16:00:04 request received: rid httptest1793635203 20 keys",
-  "16:00:04 handle httptest1793635203: first_chunk=True total=20",
-  "16:00:06 request httptest1793635203: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 9, 'blocked': 0, 'tries': 38, 'empty': 18}, audit 0/0 agree",
-  "16:00:08 request httptest1793635203: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:44:45 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:44:51 git retry 0: b\"eads/main': is at 64692b28c7b591e96db9301c7894e6a24889d607 but expected fdad23dced356ae206c5e7f8d7fdd57a9c9f7995)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "20:44:57 http front door: ['https://discount-sub-too-sing.trycloudflare.com', 'https://f0b6844a7a4931.lhr.life']",
+  "20:44:57 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:45:53 request received: rid httptest1793652352 20 keys",
+  "20:45:53 handle httptest1793652352: first_chunk=True total=20",
+  "20:45:54 request httptest1793652352: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "20:45:55 request httptest1793652352: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T00:58:18+00:00",
+ "at": "2026-11-03T05:55:03+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 372,
  "log": [
-  "00:56:42 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:56:48 http front door: ['https://addressing-spears-classics-following.trycloudflare.com', 'https://3b63dfc6752afa.lhr.life']",
-  "00:56:48 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:57:52 request received: rid httptest1793667472 20 keys",
-  "00:57:52 handle httptest1793667472: first_chunk=True total=20",
-  "00:57:54 request httptest1793667472: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "00:57:56 request httptest1793667472: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:53:28 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:53:33 http front door: ['https://rated-telephony-ghz-exceptional.trycloudflare.com', 'https://d467fd8c48b395.lhr.life']",
+  "05:53:33 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "05:54:37 request received: rid httptest1793685277 20 keys",
+  "05:54:37 handle httptest1793685277: first_chunk=True total=20",
+  "05:54:39 request httptest1793685277: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
+  "05:54:39 request httptest1793685277: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

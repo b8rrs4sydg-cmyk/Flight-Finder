@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T15:51:46+00:00",
+ "at": "2026-11-03T20:47:46+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,13 +7,10 @@
  },
  "fares_saved": 414,
  "log": [
-  "15:50:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:50:10 git retry 0: b\"eads/main': is at 0bd62a1d0e6427adebb25a3e973edecbda0a8936 but expected e9e49f52784fc6733985978273c9e0d336349c53)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "15:50:16 http front door: ['https://willing-balanced-organizations-successful.trycloudflare.com', 'https://04f43a4d3f8055.lhr.life']",
-  "15:50:16 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:51:10 request received: rid httptest1793721070 20 keys",
-  "15:51:10 handle httptest1793721070: first_chunk=True total=20",
-  "15:51:14 request httptest1793721070: chunk of 20 keys done in 4s; paths {'http': 18, 'browser': 2}, browser waits 2 max 3s sum 5s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 18, 'miss': 2, 'blocked': 0, 'tries': 27, 'empty': 9}, audit 0/0 agree",
-  "15:51:16 request httptest1793721070: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:45:58 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:46:16 http front door: ['https://luther-compatibility-earl-linear.trycloudflare.com', 'https://3699d6df76d61a.lhr.life']",
+  "20:46:16 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:47:07 request received: rid httptest1793738827 20 keys",
+  "20:47:07 handle httptest1793738827: first_chunk=True total=20"
  ]
 }

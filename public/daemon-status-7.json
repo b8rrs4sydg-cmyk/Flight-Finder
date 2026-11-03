@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T10:57:38+00:00",
+ "at": "2026-11-03T15:51:43+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 380,
  "log": [
-  "10:56:03 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "10:56:08 http front door: ['https://jury-self-providers-equilibrium.trycloudflare.com', 'https://4c89ce1e5b6643.lhr.life']",
-  "10:56:08 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "10:57:12 request received: rid httptest1793703432 20 keys",
-  "10:57:12 handle httptest1793703432: first_chunk=True total=20",
-  "10:57:14 request httptest1793703432: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "10:57:14 request httptest1793703432: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "15:50:05 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "15:50:13 http front door: ['https://aruba-machinery-computational-fort.trycloudflare.com', 'https://85f775263a36a2.lhr.life']",
+  "15:50:13 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "15:51:14 request received: rid httptest1793721074 20 keys",
+  "15:51:14 handle httptest1793721074: first_chunk=True total=20",
+  "15:51:21 request httptest1793721074: chunk of 20 keys done in 6s; paths {'http': 17, 'browser': 3}, browser waits 3 max 5s sum 14s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 17, 'miss': 3, 'blocked': 0, 'tries': 27, 'empty': 10}, audit 1/1 agree",
+  "15:51:21 request httptest1793721074: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

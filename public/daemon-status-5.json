@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T00:58:53+00:00",
+ "at": "2026-11-03T05:55:02+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 373,
  "log": [
-  "00:57:17 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:57:22 http front door: ['https://situations-pump-attributes-struct.trycloudflare.com', 'https://d7259cdca12b3a.lhr.life']",
-  "00:57:22 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:58:25 request received: rid httptest1793667504 20 keys",
-  "00:58:25 handle httptest1793667504: first_chunk=True total=20",
-  "00:58:26 request httptest1793667504: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
-  "00:58:27 request httptest1793667504: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:53:27 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:53:32 http front door: ['https://sage-invision-governing-sleeve.trycloudflare.com', 'https://8fc4decf8e34d8.lhr.life']",
+  "05:53:32 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "05:54:37 request received: rid httptest1793685276 20 keys",
+  "05:54:37 handle httptest1793685276: first_chunk=True total=20",
+  "05:54:38 request httptest1793685276: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
+  "05:54:40 request httptest1793685276: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

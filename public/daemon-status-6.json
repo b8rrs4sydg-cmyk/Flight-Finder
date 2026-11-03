@@ -1,18 +1,18 @@
 {
- "at": "2026-11-02T20:46:24+00:00",
+ "at": "2026-11-03T00:58:27+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 360,
+ "fares_saved": 363,
  "log": [
-  "20:44:49 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:44:54 http front door: ['https://carnival-parcel-featuring-genre.trycloudflare.com', 'https://801900218a5d34.lhr.life']",
-  "20:44:54 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:45:58 request received: rid httptest1793652358 20 keys",
-  "20:45:58 handle httptest1793652358: first_chunk=True total=20",
-  "20:46:00 request httptest1793652358: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "20:46:00 request httptest1793652358: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:56:52 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:56:57 http front door: ['https://succeed-fees-blvd-algorithms.trycloudflare.com', 'https://8bf4bbb35bac4a.lhr.life']",
+  "00:56:57 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:58:01 request received: rid httptest1793667480 20 keys",
+  "00:58:01 handle httptest1793667480: first_chunk=True total=20",
+  "00:58:03 request httptest1793667480: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "00:58:05 request httptest1793667480: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

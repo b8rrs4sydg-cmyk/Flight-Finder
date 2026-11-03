@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-03T10:57:23+00:00",
+ "generated_at": "2026-11-03T15:52:44+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -3611,8 +3611,8 @@
    },
    "by_airline": {
     "THAI": 5860,
+    "STARLUX Airlines": 6007,
     "China Airlines": 6007,
-    "STARLUX Airlines": 6270,
     "EVA Air": 6309
    },
    "at": "2026-11-03",
@@ -3695,8 +3695,8 @@
    },
    "by_airline": {
     "THAI": 5860,
+    "STARLUX Airlines": 6007,
     "China Airlines": 6007,
-    "STARLUX Airlines": 6270,
     "EVA Air": 6309
    },
    "at": "2026-11-03",
@@ -3731,7 +3731,7 @@
    },
    "by_airline": {
     "THAI": 5860,
-    "STARLUX Airlines": 6270,
+    "STARLUX Airlines": 6007,
     "China Airlines": 6270,
     "EVA Air": 6309
    },
@@ -3763,8 +3763,8 @@
    },
    "by_airline": {
     "THAI": 5860,
+    "STARLUX Airlines": 6007,
     "China Airlines": 6007,
-    "STARLUX Airlines": 6270,
     "EVA Air": 6309
    },
    "at": "2026-11-03",
@@ -3783,17 +3783,17 @@
   },
   "ow|TPE|BKK|2027-03-18": {
    "price": 5860,
-   "by_airline": {
-    "THAI": 5860,
-    "China Airlines": 6007,
-    "STARLUX Airlines": 6270,
-    "EVA Air": 6309
-   },
    "first": {
     "dep": "2027-03-18T13:55:00+08:00",
     "arr": "2027-03-18T16:50:00+07:00",
     "stops": 0,
     "airline": "THAI"
+   },
+   "by_airline": {
+    "THAI": 5860,
+    "STARLUX Airlines": 6007,
+    "China Airlines": 6007,
+    "EVA Air": 6309
    },
    "at": "2026-11-03",
    "hist": [
@@ -4284,17 +4284,17 @@
   },
   "ow|TPE|HKG|2027-03-13": {
    "price": 2133,
-   "by_airline": {
-    "Hong Kong Express": 2133,
-    "Greater Bay Airlines": 4117,
-    "STARLUX Airlines": 4979,
-    "China Airlines": 5158
-   },
    "first": {
     "dep": "2027-03-13T14:50:00+08:00",
     "arr": "2027-03-13T16:55:00+08:00",
     "stops": 0,
     "airline": "Hong Kong Express"
+   },
+   "by_airline": {
+    "Hong Kong Express": 2133,
+    "Greater Bay Airlines": 4117,
+    "STARLUX Airlines": 4979,
+    "China Airlines": 5158
    },
    "at": "2026-11-03",
    "hist": [

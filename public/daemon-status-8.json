@@ -1,18 +1,18 @@
 {
- "at": "2026-11-02T20:46:17+00:00",
+ "at": "2026-11-03T00:58:43+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 400,
+ "fares_saved": 403,
  "log": [
-  "20:44:43 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:44:47 http front door: ['https://grocery-nurses-frederick-temp.trycloudflare.com', 'https://d67dbea1b063b2.lhr.life']",
-  "20:44:47 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:45:52 request received: rid httptest1793652352 20 keys",
-  "20:45:52 handle httptest1793652352: first_chunk=True total=20",
-  "20:45:54 request httptest1793652352: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "20:45:55 request httptest1793652352: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:57:08 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:57:13 http front door: ['https://bailey-faq-results-cattle.trycloudflare.com', 'https://773fd63e2dac0e.lhr.life']",
+  "00:57:13 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:58:14 request received: rid httptest1793667494 20 keys",
+  "00:58:14 handle httptest1793667494: first_chunk=True total=20",
+  "00:58:16 request httptest1793667494: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "00:58:17 request httptest1793667494: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-03T05:55:03+00:00",
+ "generated_at": "2026-11-03T10:57:33+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -3023,8 +3023,8 @@
    },
    "by_airline": {
     "THAI": 5860,
-    "STARLUX Airlines": 6007,
     "China Airlines": 6007,
+    "STARLUX Airlines": 6270,
     "EVA Air": 6309
    },
    "at": "2026-11-03",
@@ -3107,8 +3107,8 @@
    },
    "by_airline": {
     "THAI": 5860,
-    "STARLUX Airlines": 6007,
     "China Airlines": 6007,
+    "STARLUX Airlines": 6270,
     "EVA Air": 6309
    },
    "at": "2026-11-03",
@@ -3143,7 +3143,7 @@
    },
    "by_airline": {
     "THAI": 5860,
-    "STARLUX Airlines": 6007,
+    "STARLUX Airlines": 6270,
     "China Airlines": 6270,
     "EVA Air": 6309
    },
@@ -3175,8 +3175,8 @@
    },
    "by_airline": {
     "THAI": 5860,
-    "STARLUX Airlines": 6007,
     "China Airlines": 6007,
+    "STARLUX Airlines": 6270,
     "EVA Air": 6309
    },
    "at": "2026-11-03",
@@ -3203,8 +3203,8 @@
    },
    "by_airline": {
     "THAI": 5860,
-    "STARLUX Airlines": 6007,
     "China Airlines": 6007,
+    "STARLUX Airlines": 6270,
     "EVA Air": 6309
    },
    "at": "2026-11-03",
@@ -3622,8 +3622,8 @@
   "ow|TPE|HKG|2027-03-13": {
    "price": 2133,
    "first": {
-    "dep": "2027-03-13T13:55:00+08:00",
-    "arr": "2027-03-13T16:00:00+08:00",
+    "dep": "2027-03-13T14:50:00+08:00",
+    "arr": "2027-03-13T16:55:00+08:00",
     "stops": 0,
     "airline": "Hong Kong Express"
    },
@@ -3670,8 +3670,8 @@
   "ow|TPE|HKG|2027-03-14": {
    "price": 2050,
    "first": {
-    "dep": "2027-03-14T13:55:00+08:00",
-    "arr": "2027-03-14T16:00:00+08:00",
+    "dep": "2027-03-14T14:50:00+08:00",
+    "arr": "2027-03-14T16:55:00+08:00",
     "stops": 0,
     "airline": "Hong Kong Express"
    },

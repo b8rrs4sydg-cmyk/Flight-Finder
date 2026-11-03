@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T20:47:46+00:00",
+ "at": "2026-11-03T20:49:27+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -11,6 +11,8 @@
   "20:46:16 http front door: ['https://luther-compatibility-earl-linear.trycloudflare.com', 'https://3699d6df76d61a.lhr.life']",
   "20:46:16 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "20:47:07 request received: rid httptest1793738827 20 keys",
-  "20:47:07 handle httptest1793738827: first_chunk=True total=20"
+  "20:47:07 handle httptest1793738827: first_chunk=True total=20",
+  "20:47:52 request httptest1793738827: chunk of 20 keys done in 45s; paths {'http': 19, 'browser': 1}, browser waits 1 max 44s sum 44s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 21, 'empty': 2}, audit 3/3 agree",
+  "20:47:53 request httptest1793738827: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

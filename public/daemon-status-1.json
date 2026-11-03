@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T00:58:22+00:00",
+ "at": "2026-11-03T05:55:10+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 343,
  "log": [
-  "00:56:47 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:56:52 http front door: ['https://poetry-occasions-finder-disclaimers.trycloudflare.com', 'https://769c959da1613e.lhr.life']",
-  "00:56:52 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:57:56 request received: rid httptest1793667476 20 keys",
-  "00:57:56 handle httptest1793667476: first_chunk=True total=20",
-  "00:57:58 request httptest1793667476: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "00:57:59 request httptest1793667476: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:53:34 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:53:40 http front door: ['https://tuner-rick-cases-theoretical.trycloudflare.com', 'https://f543d949344eb3.lhr.life']",
+  "05:53:40 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "05:54:41 request received: rid httptest1793685281 20 keys",
+  "05:54:41 handle httptest1793685281: first_chunk=True total=20",
+  "05:54:43 request httptest1793685281: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "05:54:44 request httptest1793685281: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

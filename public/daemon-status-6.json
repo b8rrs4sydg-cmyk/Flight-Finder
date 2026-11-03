@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T15:51:39+00:00",
+ "at": "2026-11-03T20:47:59+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 363,
  "log": [
-  "15:50:02 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:50:09 http front door: ['https://donna-chicago-flexibility-electron.trycloudflare.com', 'https://257e5356557a48.lhr.life']",
-  "15:50:09 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:51:11 request received: rid httptest1793721070 20 keys",
-  "15:51:11 handle httptest1793721070: first_chunk=True total=20",
-  "15:51:12 request httptest1793721070: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
-  "15:51:13 request httptest1793721070: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:46:23 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:46:29 http front door: ['https://ever-myrtle-navy-alan.trycloudflare.com', 'https://afc282cfd10a91.lhr.life']",
+  "20:46:29 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:47:33 request received: rid httptest1793738852 20 keys",
+  "20:47:33 handle httptest1793738852: first_chunk=True total=20",
+  "20:47:34 request httptest1793738852: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "20:47:35 request httptest1793738852: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

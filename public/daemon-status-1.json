@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T05:55:10+00:00",
+ "at": "2026-11-03T10:57:26+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,13 @@
  },
  "fares_saved": 343,
  "log": [
-  "05:53:34 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "05:53:40 http front door: ['https://tuner-rick-cases-theoretical.trycloudflare.com', 'https://f543d949344eb3.lhr.life']",
-  "05:53:40 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "05:54:41 request received: rid httptest1793685281 20 keys",
-  "05:54:41 handle httptest1793685281: first_chunk=True total=20",
-  "05:54:43 request httptest1793685281: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "05:54:44 request httptest1793685281: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:55:46 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "10:55:51 git retry 0: b\"eads/main': is at e3ce2d896f6e9e6bc4eb48f5ee141c44d5a6950f but expected 9eafb1682bc9bc28490b49f99d43bfd2e899d4b6)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "10:55:56 http front door: ['https://costumes-offers-was-speed.trycloudflare.com', 'https://f78975409c3e12.lhr.life']",
+  "10:55:56 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "10:56:54 request received: rid httptest1793703414 20 keys",
+  "10:56:54 handle httptest1793703414: first_chunk=True total=20",
+  "10:56:58 request httptest1793703414: chunk of 20 keys done in 4s; paths {'http': 19, 'browser': 1}, browser waits 1 max 3s sum 3s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 23, 'empty': 4}, audit 0/0 agree",
+  "10:57:00 request httptest1793703414: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

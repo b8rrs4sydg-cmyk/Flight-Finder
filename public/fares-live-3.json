@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-03T10:57:41+00:00",
+ "generated_at": "2026-11-03T15:51:46+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -4194,8 +4194,8 @@
    },
    "by_airline": {
     "THAI": 5860,
+    "STARLUX Airlines": 6007,
     "China Airlines": 6007,
-    "STARLUX Airlines": 6270,
     "EVA Air": 6309
    },
    "at": "2026-11-03",
@@ -4278,8 +4278,8 @@
    },
    "by_airline": {
     "THAI": 5860,
+    "STARLUX Airlines": 6007,
     "China Airlines": 6007,
-    "STARLUX Airlines": 6270,
     "EVA Air": 6309
    },
    "at": "2026-11-03",
@@ -4314,7 +4314,7 @@
    },
    "by_airline": {
     "THAI": 5860,
-    "STARLUX Airlines": 6270,
+    "STARLUX Airlines": 6007,
     "China Airlines": 6270,
     "EVA Air": 6309
    },
@@ -4346,8 +4346,8 @@
    },
    "by_airline": {
     "THAI": 5860,
+    "STARLUX Airlines": 6007,
     "China Airlines": 6007,
-    "STARLUX Airlines": 6270,
     "EVA Air": 6309
    },
    "at": "2026-11-03",
@@ -4374,8 +4374,8 @@
    },
    "by_airline": {
     "THAI": 5860,
+    "STARLUX Airlines": 6007,
     "China Airlines": 6007,
-    "STARLUX Airlines": 6270,
     "EVA Air": 6309
    },
    "at": "2026-11-03",
@@ -5030,17 +5030,17 @@
   },
   "ow|TPE|HKG|2027-03-18": {
    "price": 2050,
-   "first": {
-    "dep": "2027-03-18T13:55:00+08:00",
-    "arr": "2027-03-18T16:00:00+08:00",
-    "stops": 0,
-    "airline": "Hong Kong Express"
-   },
    "by_airline": {
     "Hong Kong Express": 2050,
     "Greater Bay Airlines": 4117,
     "STARLUX Airlines": 4979,
     "China Airlines": 5158
+   },
+   "first": {
+    "dep": "2027-03-18T13:55:00+08:00",
+    "arr": "2027-03-18T16:00:00+08:00",
+    "stops": 0,
+    "airline": "Hong Kong Express"
    },
    "at": "2026-11-03",
    "hist": [
@@ -5494,17 +5494,17 @@
   },
   "ow|TPE|ICN|2027-03-15": {
    "price": 3988,
-   "first": {
-    "dep": "2027-03-15T18:10:00+08:00",
-    "arr": "2027-03-15T21:40:00+09:00",
-    "stops": 0,
-    "airline": "Scoot"
-   },
    "by_airline": {
     "Scoot": 3988,
     "Tigerair Taiwan": 3999,
     "Hong Kong Express": 4930,
     "Jeju Air": 5113
+   },
+   "first": {
+    "dep": "2027-03-15T18:10:00+08:00",
+    "arr": "2027-03-15T21:40:00+09:00",
+    "stops": 0,
+    "airline": "Scoot"
    },
    "at": "2026-11-03",
    "hist": [

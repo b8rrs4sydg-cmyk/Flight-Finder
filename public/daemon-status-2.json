@@ -1,18 +1,18 @@
 {
- "at": "2026-11-02T20:46:33+00:00",
+ "at": "2026-11-03T00:58:13+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 411,
+ "fares_saved": 414,
  "log": [
-  "20:44:55 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:45:03 http front door: ['https://emily-tramadol-champagne-among.trycloudflare.com', 'https://a8bba13125d0b5.lhr.life']",
-  "20:45:03 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:46:03 request received: rid httptest1793652363 20 keys",
-  "20:46:03 handle httptest1793652363: first_chunk=True total=20",
-  "20:46:05 request httptest1793652363: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "20:46:07 request httptest1793652363: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:56:39 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:56:43 http front door: ['https://ability-pharmacies-sip-inventory.trycloudflare.com', 'https://712b493de50b11.lhr.life']",
+  "00:56:43 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:57:49 request received: rid httptest1793667468 20 keys",
+  "00:57:49 handle httptest1793667468: first_chunk=True total=20",
+  "00:57:50 request httptest1793667468: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "00:57:52 request httptest1793667468: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

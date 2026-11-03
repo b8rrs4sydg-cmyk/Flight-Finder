@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-03T10:57:14+00:00",
+ "generated_at": "2026-11-03T15:51:55+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -3051,8 +3051,8 @@
    },
    "by_airline": {
     "THAI": 5860,
+    "STARLUX Airlines": 6007,
     "China Airlines": 6007,
-    "STARLUX Airlines": 6270,
     "EVA Air": 6309
    },
    "at": "2026-11-03",
@@ -3135,8 +3135,8 @@
    },
    "by_airline": {
     "THAI": 5860,
+    "STARLUX Airlines": 6007,
     "China Airlines": 6007,
-    "STARLUX Airlines": 6270,
     "EVA Air": 6309
    },
    "at": "2026-11-03",
@@ -3171,7 +3171,7 @@
    },
    "by_airline": {
     "THAI": 5860,
-    "STARLUX Airlines": 6270,
+    "STARLUX Airlines": 6007,
     "China Airlines": 6270,
     "EVA Air": 6309
    },
@@ -3203,8 +3203,8 @@
    },
    "by_airline": {
     "THAI": 5860,
+    "STARLUX Airlines": 6007,
     "China Airlines": 6007,
-    "STARLUX Airlines": 6270,
     "EVA Air": 6309
    },
    "at": "2026-11-03",
@@ -3231,8 +3231,8 @@
    },
    "by_airline": {
     "THAI": 5860,
+    "STARLUX Airlines": 6007,
     "China Airlines": 6007,
-    "STARLUX Airlines": 6270,
     "EVA Air": 6309
    },
    "at": "2026-11-03",

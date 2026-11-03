@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T05:55:12+00:00",
+ "at": "2026-11-03T10:57:14+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,13 +7,12 @@
  },
  "fares_saved": 351,
  "log": [
-  "05:53:30 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "05:53:36 git retry 0: b\"eads/main': is at 304b2a58df0b324b13a07185b1a023c215c86a69 but expected 670ce55c98f8d881fac8992ee048c50ccc9c103b)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "05:53:42 http front door: ['https://wizard-def-antibody-turned.trycloudflare.com', 'https://55182369ef37f7.lhr.life']",
-  "05:53:42 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "05:54:39 request received: rid httptest1793685279 20 keys",
-  "05:54:39 handle httptest1793685279: first_chunk=True total=20",
-  "05:54:44 request httptest1793685279: chunk of 20 keys done in 4s; paths {'http': 19, 'browser': 1}, browser waits 1 max 3s sum 3s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 23, 'empty': 4}, audit 1/1 agree",
-  "05:54:44 request httptest1793685279: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "10:55:39 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "10:55:44 http front door: ['https://conversation-six-gives-ahead.trycloudflare.com', 'https://59ed5305d4253a.lhr.life']",
+  "10:55:44 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "10:56:49 request received: rid httptest1793703408 20 keys",
+  "10:56:49 handle httptest1793703408: first_chunk=True total=20",
+  "10:56:50 request httptest1793703408: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "10:56:52 request httptest1793703408: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

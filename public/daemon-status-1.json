@@ -1,18 +1,18 @@
 {
- "at": "2026-11-02T20:46:21+00:00",
+ "at": "2026-11-03T00:58:22+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 340,
+ "fares_saved": 343,
  "log": [
-  "20:44:46 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:44:51 http front door: ['https://planes-nevada-suited-whilst.trycloudflare.com', 'https://d486e5dcc58e75.lhr.life']",
-  "20:44:51 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:45:54 request received: rid httptest1793652353 20 keys",
-  "20:45:54 handle httptest1793652353: first_chunk=True total=20",
-  "20:45:55 request httptest1793652353: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "20:45:58 request httptest1793652353: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:56:47 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:56:52 http front door: ['https://poetry-occasions-finder-disclaimers.trycloudflare.com', 'https://769c959da1613e.lhr.life']",
+  "00:56:52 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:57:56 request received: rid httptest1793667476 20 keys",
+  "00:57:56 handle httptest1793667476: first_chunk=True total=20",
+  "00:57:58 request httptest1793667476: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "00:57:59 request httptest1793667476: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

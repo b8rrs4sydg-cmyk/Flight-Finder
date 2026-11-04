@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T15:59:06+00:00",
+ "at": "2026-11-04T16:00:39+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -11,6 +11,8 @@
   "15:57:34 http front door: ['https://white-mode-subaru-recruiting.trycloudflare.com', 'https://e755d02ec008f4.lhr.life']",
   "15:57:34 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "15:58:37 request received: rid httptest1793807916 20 keys",
-  "15:58:37 handle httptest1793807916: first_chunk=True total=20"
+  "15:58:37 handle httptest1793807916: first_chunk=True total=20",
+  "15:59:07 request httptest1793807916: chunk of 20 keys done in 30s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "15:59:09 request httptest1793807916: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

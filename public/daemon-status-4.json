@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T11:10:50+00:00",
+ "at": "2026-11-04T15:56:57+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 187,
  "log": [
-  "11:09:06 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "11:09:20 http front door: ['https://essex-wallace-exercise-sims.trycloudflare.com', 'https://1020f9d09706c3.lhr.life']",
-  "11:09:20 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "11:10:14 request received: rid httptest1793790613 20 keys",
-  "11:10:14 handle httptest1793790613: first_chunk=True total=20",
-  "11:10:20 request httptest1793790613: chunk of 20 keys done in 7s; paths {'http': 17, 'browser': 3}, browser waits 3 max 5s sum 15s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 17, 'miss': 3, 'blocked': 0, 'tries': 26, 'empty': 9}, audit 3/3 agree",
-  "11:10:23 request httptest1793790613: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "15:55:22 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "15:55:27 http front door: ['https://defend-jay-specialized-exhibit.trycloudflare.com', 'https://f0737a715ee0eb.lhr.life']",
+  "15:55:27 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "15:56:29 request received: rid httptest1793807788 20 keys",
+  "15:56:29 handle httptest1793807788: first_chunk=True total=20",
+  "15:56:30 request httptest1793807788: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "15:56:32 request httptest1793807788: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

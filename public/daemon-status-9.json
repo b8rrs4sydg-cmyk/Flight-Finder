@@ -1,18 +1,19 @@
 {
- "at": "2026-11-03T20:47:48+00:00",
+ "at": "2026-11-04T00:59:01+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 372,
+ "fares_saved": 202,
  "log": [
-  "20:46:12 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:46:18 http front door: ['https://washington-detector-governments-aka.trycloudflare.com', 'https://438a24e5d6de30.lhr.life']",
-  "20:46:18 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:47:22 request received: rid httptest1793738841 20 keys",
-  "20:47:22 handle httptest1793738841: first_chunk=True total=20",
-  "20:47:23 request httptest1793738841: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "20:47:24 request httptest1793738841: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:57:21 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:57:25 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "00:57:31 http front door: ['https://planner-handling-exports-stamps.trycloudflare.com', 'https://e45b744bde0cc4.lhr.life']",
+  "00:57:31 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:58:30 request received: rid httptest1793753910 20 keys",
+  "00:58:30 handle httptest1793753910: first_chunk=True total=20",
+  "00:58:31 request httptest1793753910: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "00:58:33 request httptest1793753910: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

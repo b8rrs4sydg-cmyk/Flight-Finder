@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T01:00:12+00:00",
+ "at": "2026-11-04T05:58:32+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 176,
  "log": [
-  "00:58:38 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:58:42 http front door: ['https://contributed-age-translations-rna.trycloudflare.com', 'https://1d711c8df14e7f.lhr.life']",
-  "00:58:42 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:59:47 request received: rid httptest1793753986 20 keys",
-  "00:59:47 handle httptest1793753986: first_chunk=True total=20",
-  "00:59:48 request httptest1793753986: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "00:59:50 request httptest1793753986: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:56:58 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:57:02 http front door: ['https://those-tab-entire-perceived.trycloudflare.com', 'https://4720c5ced10421.lhr.life']",
+  "05:57:02 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "05:58:07 request received: rid httptest1793771886 20 keys",
+  "05:58:07 handle httptest1793771886: first_chunk=True total=20",
+  "05:58:08 request httptest1793771886: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "05:58:09 request httptest1793771886: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

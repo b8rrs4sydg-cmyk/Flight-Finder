@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-04T05:58:46+00:00",
+ "generated_at": "2026-11-04T11:10:50+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -2440,17 +2440,17 @@
   },
   "ow|TPE|HKG|2027-03-15": {
    "price": 2050,
-   "first": {
-    "dep": "2027-03-15T13:55:00+08:00",
-    "arr": "2027-03-15T16:00:00+08:00",
-    "stops": 0,
-    "airline": "Hong Kong Express"
-   },
    "by_airline": {
     "Hong Kong Express": 2050,
     "Greater Bay Airlines": 4115,
     "STARLUX Airlines": 4976,
     "China Airlines": 5155
+   },
+   "first": {
+    "dep": "2027-03-15T13:55:00+08:00",
+    "arr": "2027-03-15T16:00:00+08:00",
+    "stops": 0,
+    "airline": "Hong Kong Express"
    },
    "at": "2026-11-04",
    "hist": [
@@ -2592,17 +2592,17 @@
   },
   "ow|TPE|HKG|2027-03-19": {
    "price": 2133,
-   "first": {
-    "dep": "2027-03-19T13:55:00+08:00",
-    "arr": "2027-03-19T16:00:00+08:00",
-    "stops": 0,
-    "airline": "Hong Kong Express"
-   },
    "by_airline": {
     "Hong Kong Express": 2133,
     "Greater Bay Airlines": 4115,
     "STARLUX Airlines": 4976,
     "China Airlines": 5155
+   },
+   "first": {
+    "dep": "2027-03-19T13:55:00+08:00",
+    "arr": "2027-03-19T16:00:00+08:00",
+    "stops": 0,
+    "airline": "Hong Kong Express"
    },
    "at": "2026-11-04",
    "hist": [
@@ -3010,17 +3010,17 @@
   },
   "ow|TPE|ICN|2027-03-16": {
    "price": 3232,
-   "first": {
-    "dep": "2027-03-16T18:10:00+08:00",
-    "arr": "2027-03-16T21:40:00+09:00",
-    "stops": 0,
-    "airline": "Scoot"
-   },
    "by_airline": {
     "Scoot": 3232,
     "Hong Kong Express": 4930,
     "Jeju Air": 5113,
     "Jin Air": 5873
+   },
+   "first": {
+    "dep": "2027-03-16T18:10:00+08:00",
+    "arr": "2027-03-16T21:40:00+09:00",
+    "stops": 0,
+    "airline": "Scoot"
    },
    "at": "2026-11-04",
    "hist": [

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T15:56:28+00:00",
+ "at": "2026-11-04T20:53:33+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 178,
  "log": [
-  "15:54:52 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:54:58 http front door: ['https://evening-hebrew-beaver-moves.trycloudflare.com', 'https://6a0e981a862752.lhr.life']",
-  "15:54:58 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:56:01 request received: rid httptest1793807761 20 keys",
-  "15:56:01 handle httptest1793807761: first_chunk=True total=20",
-  "15:56:03 request httptest1793807761: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
-  "15:56:04 request httptest1793807761: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:51:58 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:52:03 http front door: ['https://loc-jungle-insights-narrow.trycloudflare.com', 'https://291d6de6a150f1.lhr.life']",
+  "20:52:03 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:53:07 request received: rid httptest1793825587 20 keys",
+  "20:53:07 handle httptest1793825587: first_chunk=True total=20",
+  "20:53:09 request httptest1793825587: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "20:53:09 request httptest1793825587: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T00:58:50+00:00",
+ "at": "2026-11-04T05:58:24+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 205,
  "log": [
-  "00:57:14 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:57:20 http front door: ['https://existing-single-engines-courier.trycloudflare.com', 'https://ad7ca1bb1a5dc6.lhr.life']",
-  "00:57:20 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:58:24 request received: rid httptest1793753903 20 keys",
-  "00:58:24 handle httptest1793753903: first_chunk=True total=20",
-  "00:58:25 request httptest1793753903: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "00:58:26 request httptest1793753903: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:56:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:56:54 http front door: ['https://diego-wall-ottawa-negotiation.trycloudflare.com', 'https://f8848e2304cfe9.lhr.life']",
+  "05:56:54 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "05:57:58 request received: rid httptest1793771878 20 keys",
+  "05:57:58 handle httptest1793771878: first_chunk=True total=20",
+  "05:58:02 request httptest1793771878: chunk of 20 keys done in 4s; paths {'http': 19, 'browser': 1}, browser waits 1 max 3s sum 3s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 21, 'empty': 2}, audit 1/1 agree",
+  "05:58:03 request httptest1793771878: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T11:10:40+00:00",
+ "at": "2026-11-04T11:12:25+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -11,6 +11,8 @@
   "11:09:10 http front door: ['https://gore-vintage-criticism-ide.trycloudflare.com', 'https://7885ed9d00c92f.lhr.life']",
   "11:09:10 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "11:10:12 request received: rid httptest1793790612 20 keys",
-  "11:10:12 handle httptest1793790612: first_chunk=True total=20"
+  "11:10:12 handle httptest1793790612: first_chunk=True total=20",
+  "11:11:15 request httptest1793790612: chunk of 20 keys done in 63s; paths {'http': 15, 'browser': 3, 'browser-crashed': 2}, browser waits 5 max 62s sum 137s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 15, 'miss': 5, 'blocked': 0, 'tries': 32, 'empty': 17}, audit 0/0 agree",
+  "11:11:16 request httptest1793790612: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

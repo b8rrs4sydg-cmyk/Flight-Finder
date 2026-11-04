@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-04T11:12:06+00:00",
+ "generated_at": "2026-11-04T15:56:25+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -2007,7 +2007,7 @@
     "Scoot": 3988,
     "Tigerair Taiwan": 3999,
     "Hong Kong Express": 4930,
-    "Jeju Air": 5113
+    "Jeju Air": 5119
    },
    "at": "2026-11-04",
    "hist": [
@@ -2050,7 +2050,7 @@
    "by_airline": {
     "Scoot": 3232,
     "Hong Kong Express": 4930,
-    "Jeju Air": 5113,
+    "Jeju Air": 5119,
     "Jin Air": 5873
    },
    "at": "2026-11-04",
@@ -2090,7 +2090,7 @@
    "by_airline": {
     "Scoot": 3232,
     "Hong Kong Express": 4930,
-    "Jeju Air": 5113,
+    "Jeju Air": 5119,
     "Jin Air": 5873
    },
    "at": "2026-11-04",
@@ -2159,7 +2159,7 @@
     "Scoot": 3988,
     "Tigerair Taiwan": 4499,
     "Hong Kong Express": 5096,
-    "Jeju Air": 5113
+    "Jeju Air": 5119
    },
    "at": "2026-11-04",
    "hist": [
@@ -2186,7 +2186,7 @@
    "by_airline": {
     "Scoot": 3232,
     "Hong Kong Express": 5013,
-    "Jeju Air": 5113,
+    "Jeju Air": 5119,
     "Korean Air": 6368
    },
    "at": "2026-11-04",

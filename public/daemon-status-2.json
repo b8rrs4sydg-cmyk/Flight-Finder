@@ -1,18 +1,18 @@
 {
- "at": "2026-11-04T20:53:37+00:00",
+ "at": "2026-11-05T01:00:41+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 204,
+ "fares_saved": 180,
  "log": [
-  "20:52:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:52:07 http front door: ['https://unsubscribe-gender-manager-defend.trycloudflare.com', 'https://060839fd53fae6.lhr.life']",
-  "20:52:07 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:53:11 request received: rid httptest1793825590 20 keys",
-  "20:53:11 handle httptest1793825590: first_chunk=True total=20",
-  "20:53:12 request httptest1793825590: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "20:53:14 request httptest1793825590: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:59:06 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:59:11 http front door: ['https://melissa-meaning-ala-granny.trycloudflare.com', 'https://87735020a8cdc8.lhr.life']",
+  "00:59:11 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "01:00:14 request received: rid httptest1793840413 20 keys",
+  "01:00:14 handle httptest1793840413: first_chunk=True total=20",
+  "01:00:18 request httptest1793840413: chunk of 20 keys done in 4s; paths {'http': 19, 'browser': 1}, browser waits 1 max 4s sum 4s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 22, 'empty': 3}, audit 0/0 agree",
+  "01:00:19 request httptest1793840413: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

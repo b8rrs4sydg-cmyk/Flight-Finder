@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T01:00:34+00:00",
+ "at": "2026-11-05T06:00:16+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 167,
  "log": [
-  "00:58:57 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:59:04 http front door: ['https://till-object-necessarily-jam.trycloudflare.com', 'https://7c02ddeef831b9.lhr.life']",
-  "00:59:04 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "01:00:07 request received: rid httptest1793840406 20 keys",
-  "01:00:07 handle httptest1793840406: first_chunk=True total=20",
-  "01:00:13 request httptest1793840406: chunk of 20 keys done in 6s; paths {'http': 19, 'browser': 1}, browser waits 1 max 4s sum 4s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 25, 'empty': 6}, audit 2/2 agree",
-  "01:00:14 request httptest1793840406: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:58:41 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:58:46 http front door: ['https://examining-phrases-sculpture-glory.trycloudflare.com', 'https://8b8e0283ddbf2a.lhr.life']",
+  "05:58:46 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "05:59:51 request received: rid httptest1793858390 20 keys",
+  "05:59:51 handle httptest1793858390: first_chunk=True total=20",
+  "05:59:52 request httptest1793858390: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "05:59:54 request httptest1793858390: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

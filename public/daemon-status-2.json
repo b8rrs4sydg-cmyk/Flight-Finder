@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T11:01:09+00:00",
+ "at": "2026-11-05T15:59:18+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 180,
  "log": [
-  "10:59:28 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "10:59:39 http front door: ['https://sullivan-executed-hanging-politics.trycloudflare.com', 'https://685f9580071212.lhr.life']",
-  "10:59:39 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "11:00:38 request received: rid httptest1793876437 20 keys",
-  "11:00:38 handle httptest1793876437: first_chunk=True total=20",
-  "11:00:39 request httptest1793876437: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 24, 'empty': 4}, audit 0/0 agree",
-  "11:00:41 request httptest1793876437: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "15:57:43 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "15:57:48 http front door: ['https://batman-jake-weeks-printing.trycloudflare.com', 'https://f959527541f0c8.lhr.life']",
+  "15:57:48 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "15:58:51 request received: rid httptest1793894331 20 keys",
+  "15:58:51 handle httptest1793894331: first_chunk=True total=20",
+  "15:58:53 request httptest1793894331: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "15:58:54 request httptest1793894331: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

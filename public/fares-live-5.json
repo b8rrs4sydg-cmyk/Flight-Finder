@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-05T01:00:45+00:00",
+ "generated_at": "2026-11-05T06:00:48+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -2394,8 +2394,8 @@
   "ow|TPE|HKG|2027-03-15": {
    "price": 2050,
    "first": {
-    "dep": "2027-03-15T13:55:00+08:00",
-    "arr": "2027-03-15T16:00:00+08:00",
+    "dep": "2027-03-15T14:50:00+08:00",
+    "arr": "2027-03-15T16:55:00+08:00",
     "stops": 0,
     "airline": "Hong Kong Express"
    },
@@ -3081,7 +3081,7 @@
     "Scoot": 3232,
     "Tigerair Taiwan": 4099,
     "Hong Kong Express": 4930,
-    "Jeju Air": 5119
+    "Jeju Air": 5839
    },
    "at": "2026-11-05",
    "hist": [
@@ -3117,7 +3117,7 @@
     "Scoot": 3988,
     "Tigerair Taiwan": 4499,
     "Hong Kong Express": 5096,
-    "Jeju Air": 5119
+    "Jeju Air": 5839
    },
    "at": "2026-11-05",
    "hist": [

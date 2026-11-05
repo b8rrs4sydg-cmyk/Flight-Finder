@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T11:01:13+00:00",
+ "at": "2026-11-05T15:59:06+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 150,
  "log": [
-  "10:59:36 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "10:59:43 http front door: ['https://durham-furnished-restructuring-careful.trycloudflare.com', 'https://41663e69e0175b.lhr.life']",
-  "10:59:43 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "11:00:45 request received: rid httptest1793876445 20 keys",
-  "11:00:45 handle httptest1793876445: first_chunk=True total=20",
-  "11:00:47 request httptest1793876445: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "11:00:49 request httptest1793876445: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "15:57:31 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "15:57:36 http front door: ['https://tobago-increasing-pan-tourist.trycloudflare.com', 'https://71a8a62370e081.lhr.life']",
+  "15:57:36 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "15:58:39 request received: rid httptest1793894319 20 keys",
+  "15:58:39 handle httptest1793894319: first_chunk=True total=20",
+  "15:58:42 request httptest1793894319: chunk of 20 keys done in 3s; paths {'http': 19, 'browser': 1}, browser waits 1 max 2s sum 2s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 22, 'empty': 3}, audit 0/0 agree",
+  "15:58:44 request httptest1793894319: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

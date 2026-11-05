@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T01:00:47+00:00",
+ "at": "2026-11-05T06:00:23+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 181,
  "log": [
-  "00:59:12 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:59:17 http front door: ['https://thee-sussex-estimation-language.trycloudflare.com', 'https://e7f8a020b4824f.lhr.life']",
-  "00:59:17 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "01:00:22 request received: rid httptest1793840421 20 keys",
-  "01:00:22 handle httptest1793840421: first_chunk=True total=20",
-  "01:00:23 request httptest1793840421: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "01:00:24 request httptest1793840421: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:58:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:58:53 http front door: ['https://compound-semiconductor-gossip-winner.trycloudflare.com', 'https://a9f5299f7c3030.lhr.life']",
+  "05:58:53 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "05:59:58 request received: rid httptest1793858397 20 keys",
+  "05:59:58 handle httptest1793858397: first_chunk=True total=20",
+  "05:59:59 request httptest1793858397: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "06:00:02 request httptest1793858397: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

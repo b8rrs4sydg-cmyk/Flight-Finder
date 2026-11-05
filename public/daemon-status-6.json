@@ -1,18 +1,19 @@
 {
- "at": "2026-11-04T20:53:18+00:00",
+ "at": "2026-11-05T01:00:36+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 162,
+ "fares_saved": 150,
  "log": [
-  "20:51:41 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:51:48 http front door: ['https://whale-forestry-needle-helps.trycloudflare.com', 'https://83682fca9e3e10.lhr.life']",
-  "20:51:48 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:52:51 request received: rid httptest1793825570 20 keys",
-  "20:52:51 handle httptest1793825570: first_chunk=True total=20",
-  "20:52:52 request httptest1793825570: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "20:52:54 request httptest1793825570: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:58:55 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:59:01 git retry 0: b\"eads/main': is at 8db77efce6fd9789a9f27306ebb71d59cdba8bc5 but expected 56cf5ebaf6af31a2b598116872acda1b16fa7b25)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "00:59:06 http front door: ['https://praise-decor-recommend-paintball.trycloudflare.com', 'https://3efd248d2c590f.lhr.life']",
+  "00:59:06 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "01:00:04 request received: rid httptest1793840403 20 keys",
+  "01:00:04 handle httptest1793840403: first_chunk=True total=20",
+  "01:00:05 request httptest1793840403: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "01:00:06 request httptest1793840403: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

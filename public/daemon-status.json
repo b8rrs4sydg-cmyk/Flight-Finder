@@ -1,18 +1,18 @@
 {
- "at": "2026-11-04T20:53:44+00:00",
+ "at": "2026-11-05T01:00:47+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 205,
+ "fares_saved": 181,
  "log": [
-  "20:52:09 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:52:14 http front door: ['https://boat-andrea-howard-preliminary.trycloudflare.com', 'https://58f3b18cf1d952.lhr.life']",
-  "20:52:14 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:53:16 request received: rid httptest1793825595 20 keys",
-  "20:53:16 handle httptest1793825595: first_chunk=True total=20",
-  "20:53:18 request httptest1793825595: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
-  "20:53:18 request httptest1793825595: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:59:12 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:59:17 http front door: ['https://thee-sussex-estimation-language.trycloudflare.com', 'https://e7f8a020b4824f.lhr.life']",
+  "00:59:17 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "01:00:22 request received: rid httptest1793840421 20 keys",
+  "01:00:22 handle httptest1793840421: first_chunk=True total=20",
+  "01:00:23 request httptest1793840421: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "01:00:24 request httptest1793840421: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

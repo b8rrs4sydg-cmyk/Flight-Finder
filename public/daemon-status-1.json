@@ -1,5 +1,5 @@
 {
- "at": "2026-11-06T00:57:26+00:00",
+ "at": "2026-11-06T12:52:36+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 65,
  "log": [
-  "00:55:51 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:55:55 http front door: ['https://marketing-chester-marilyn-came.trycloudflare.com', 'https://1e73c8571ca089.lhr.life']",
-  "00:55:55 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:57:01 request received: rid httptest1793926620 20 keys",
-  "00:57:01 handle httptest1793926620: first_chunk=True total=20",
-  "00:57:02 request httptest1793926620: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 24, 'empty': 4}, audit 0/0 agree",
-  "00:57:04 request httptest1793926620: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "12:51:01 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "12:51:06 http front door: ['https://international-columbus-lindsay-plan.trycloudflare.com', 'https://07b88dfb3b3862.lhr.life']",
+  "12:51:06 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "12:52:11 request received: rid httptest1793969530 20 keys",
+  "12:52:11 handle httptest1793969530: first_chunk=True total=20",
+  "12:52:18 request httptest1793969530: chunk of 20 keys done in 7s; paths {'http': 18, 'browser': 2}, browser waits 2 max 6s sum 11s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 18, 'miss': 2, 'blocked': 0, 'tries': 24, 'empty': 6}, audit 3/3 agree",
+  "12:52:18 request httptest1793969530: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

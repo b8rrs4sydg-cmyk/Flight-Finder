@@ -1,5 +1,5 @@
 {
- "at": "2026-11-06T12:52:35+00:00",
+ "at": "2026-11-06T21:01:50+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 126,
  "log": [
-  "12:50:59 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "12:51:05 http front door: ['https://intent-therefore-queens-wings.trycloudflare.com', 'https://c5c0155fe159ee.lhr.life']",
-  "12:51:05 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "12:52:09 request received: rid httptest1793969528 20 keys",
-  "12:52:09 handle httptest1793969528: first_chunk=True total=20",
-  "12:52:14 request httptest1793969528: chunk of 20 keys done in 5s; paths {'http': 17, 'browser': 3}, browser waits 3 max 4s sum 12s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 17, 'miss': 3, 'blocked': 0, 'tries': 26, 'empty': 9}, audit 0/0 agree",
-  "12:52:15 request httptest1793969528: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "21:00:13 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "21:00:20 http front door: ['https://therapeutic-genre-considers-ideal.trycloudflare.com', 'https://33c1cc13723ab4.lhr.life']",
+  "21:00:20 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "21:01:22 request received: rid httptest1793998881 20 keys",
+  "21:01:22 handle httptest1793998881: first_chunk=True total=20",
+  "21:01:23 request httptest1793998881: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "21:01:24 request httptest1793998881: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-06T00:57:32+00:00",
+ "at": "2026-11-06T12:52:53+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 128,
  "log": [
-  "00:55:55 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:56:02 http front door: ['https://gregory-avatar-replacement-scope.trycloudflare.com', 'https://bf4d57f1a20bef.lhr.life']",
-  "00:56:02 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:57:05 request received: rid httptest1793926624 20 keys",
-  "00:57:05 handle httptest1793926624: first_chunk=True total=20",
-  "00:57:09 request httptest1793926624: chunk of 20 keys done in 4s; paths {'http': 19, 'browser': 1}, browser waits 1 max 3s sum 3s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 26, 'empty': 7}, audit 0/0 agree",
-  "00:57:10 request httptest1793926624: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "12:51:17 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "12:51:23 http front door: ['https://stunning-competent-promotes-interior.trycloudflare.com', 'https://df25eec019ef3d.lhr.life']",
+  "12:51:23 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "12:52:25 request received: rid httptest1793969544 20 keys",
+  "12:52:25 handle httptest1793969544: first_chunk=True total=20",
+  "12:52:30 request httptest1793969544: chunk of 20 keys done in 6s; paths {'http': 19, 'browser': 1}, browser waits 1 max 4s sum 4s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 27, 'empty': 8}, audit 1/1 agree",
+  "12:52:31 request httptest1793969544: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-06T12:52:29+00:00",
+ "at": "2026-11-06T20:50:31+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 111,
  "log": [
-  "12:50:55 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "12:50:59 http front door: ['https://congratulations-parents-graduation-possession.trycloudflare.com', 'https://58b38802142487.lhr.life']",
-  "12:50:59 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "12:52:04 request received: rid httptest1793969524 20 keys",
-  "12:52:04 handle httptest1793969524: first_chunk=True total=20",
-  "12:52:10 request httptest1793969524: chunk of 20 keys done in 6s; paths {'http': 19, 'browser': 1}, browser waits 1 max 4s sum 4s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 21, 'empty': 2}, audit 3/3 agree",
-  "12:52:12 request httptest1793969524: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:48:56 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:49:01 http front door: ['https://without-billing-dental-reviewed.trycloudflare.com', 'https://b8b08cae5d0b03.lhr.life']",
+  "20:49:01 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:50:05 request received: rid httptest1793998204 20 keys",
+  "20:50:05 handle httptest1793998204: first_chunk=True total=20",
+  "20:50:06 request httptest1793998204: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "20:50:07 request httptest1793998204: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

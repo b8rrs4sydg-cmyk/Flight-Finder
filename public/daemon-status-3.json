@@ -1,18 +1,18 @@
 {
- "at": "2026-11-05T16:10:46+00:00",
+ "at": "2026-11-06T01:06:49+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 176,
+ "fares_saved": 134,
  "log": [
-  "16:09:09 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "16:09:16 http front door: ['https://florists-samples-wallpaper-missing.trycloudflare.com', 'https://3736e54da7e9af.lhr.life']",
-  "16:09:16 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "16:10:19 request received: rid httptest1793895018 20 keys",
-  "16:10:19 handle httptest1793895018: first_chunk=True total=20",
-  "16:10:20 request httptest1793895018: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "16:10:22 request httptest1793895018: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "01:05:15 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "01:05:19 http front door: ['https://mining-november-ruth-amended.trycloudflare.com', 'https://cea042c0914867.lhr.life']",
+  "01:05:19 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "01:06:22 request received: rid httptest1793927182 20 keys",
+  "01:06:22 handle httptest1793927182: first_chunk=True total=20",
+  "01:06:24 request httptest1793927182: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "01:06:26 request httptest1793927182: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

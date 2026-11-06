@@ -1,5 +1,5 @@
 {
- "at": "2026-11-06T01:06:32+00:00",
+ "at": "2026-11-06T12:52:47+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 113,
  "log": [
-  "01:04:57 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "01:05:02 http front door: ['https://scene-updating-orbit-combines.trycloudflare.com', 'https://59b0727e3b8ebb.lhr.life']",
-  "01:05:02 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "01:06:05 request received: rid httptest1793927165 20 keys",
-  "01:06:05 handle httptest1793927165: first_chunk=True total=20",
-  "01:06:07 request httptest1793927165: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
-  "01:06:08 request httptest1793927165: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "12:51:12 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "12:51:17 http front door: ['https://adopt-toilet-twelve-existing.trycloudflare.com', 'https://8f4c99dd8963c7.lhr.life']",
+  "12:51:17 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "12:52:21 request received: rid httptest1793969540 20 keys",
+  "12:52:21 handle httptest1793969540: first_chunk=True total=20",
+  "12:52:22 request httptest1793969540: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "12:52:23 request httptest1793969540: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-06T00:57:54+00:00",
+ "at": "2026-11-06T12:52:33+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 128,
  "log": [
-  "00:56:19 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:56:24 http front door: ['https://his-bios-told-prove.trycloudflare.com', 'https://f1013de519ad5f.lhr.life']",
-  "00:56:24 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:57:26 request received: rid httptest1793926646 20 keys",
-  "00:57:26 handle httptest1793926646: first_chunk=True total=20",
-  "00:57:28 request httptest1793926646: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "00:57:28 request httptest1793926646: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "12:50:58 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "12:51:03 http front door: ['https://isle-speakers-solaris-tolerance.trycloudflare.com', 'https://6c6ee9fc3a1298.lhr.life']",
+  "12:51:03 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "12:52:06 request received: rid httptest1793969526 20 keys",
+  "12:52:06 handle httptest1793969526: first_chunk=True total=20",
+  "12:52:08 request httptest1793969526: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 23, 'empty': 3}, audit 0/0 agree",
+  "12:52:10 request httptest1793969526: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

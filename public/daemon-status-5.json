@@ -1,18 +1,18 @@
 {
- "at": "2026-11-05T15:59:12+00:00",
+ "at": "2026-11-06T01:06:34+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 177,
+ "fares_saved": 121,
  "log": [
-  "15:57:36 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "15:57:42 http front door: ['https://respondent-word-vice-suit.trycloudflare.com', 'https://2d0a76bc2fd3ff.lhr.life']",
-  "15:57:42 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "15:58:46 request received: rid httptest1793894325 20 keys",
-  "15:58:46 handle httptest1793894325: first_chunk=True total=20",
-  "15:58:47 request httptest1793894325: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
-  "15:58:48 request httptest1793894325: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "01:04:59 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "01:05:04 http front door: ['https://former-alfred-peter-rows.trycloudflare.com', 'https://a9faab009cc92c.lhr.life']",
+  "01:05:04 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "01:06:08 request received: rid httptest1793927167 20 keys",
+  "01:06:08 handle httptest1793927167: first_chunk=True total=20",
+  "01:06:09 request httptest1793927167: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 24, 'empty': 4}, audit 0/0 agree",
+  "01:06:10 request httptest1793927167: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

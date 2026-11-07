@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-07T05:45:59+00:00",
+ "generated_at": "2026-11-07T16:18:50+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -889,9 +889,9 @@
    },
    "by_airline": {
     "THAI": 5885,
-    "STARLUX Airlines": 6032,
-    "China Airlines": 6032,
-    "EVA Air": 6334
+    "STARLUX Airlines": 6115,
+    "China Airlines": 6115,
+    "EVA Air": 6417
    },
    "at": "2026-11-07",
    "hist": [
@@ -933,9 +933,9 @@
    },
    "by_airline": {
     "THAI": 5885,
-    "STARLUX Airlines": 6032,
-    "China Airlines": 6032,
-    "EVA Air": 6334
+    "STARLUX Airlines": 6115,
+    "China Airlines": 6115,
+    "EVA Air": 6417
    },
    "at": "2026-11-07",
    "hist": [
@@ -974,8 +974,8 @@
    "by_airline": {
     "China Southern": 5662,
     "THAI": 5885,
-    "STARLUX Airlines": 6032,
-    "China Airlines": 6032
+    "STARLUX Airlines": 6115,
+    "China Airlines": 6115
    },
    "at": "2026-11-07",
    "hist": [
@@ -1010,8 +1010,8 @@
    "by_airline": {
     "China Southern": 5662,
     "THAI": 5885,
-    "STARLUX Airlines": 6032,
-    "China Airlines": 6032
+    "STARLUX Airlines": 6115,
+    "China Airlines": 6115
    },
    "at": "2026-11-07",
    "hist": [
@@ -1042,8 +1042,8 @@
    "by_airline": {
     "China Southern": 5662,
     "THAI": 5885,
-    "STARLUX Airlines": 6032,
-    "China Airlines": 6032
+    "STARLUX Airlines": 6115,
+    "China Airlines": 6115
    },
    "at": "2026-11-07",
    "hist": [
@@ -1071,7 +1071,7 @@
     "Scoot": 5401,
     "China Southern": 5662,
     "THAI": 5885,
-    "STARLUX Airlines": 6032
+    "STARLUX Airlines": 6115
    },
    "at": "2026-11-07",
    "hist": [
@@ -1416,8 +1416,8 @@
    "by_airline": {
     "Hong Kong Express": 2050,
     "Greater Bay Airlines": 4132,
-    "STARLUX Airlines": 5003,
-    "China Airlines": 5182
+    "STARLUX Airlines": 5086,
+    "China Airlines": 5265
    },
    "at": "2026-11-07",
    "hist": [
@@ -1464,8 +1464,8 @@
    "by_airline": {
     "Hong Kong Express": 2050,
     "Greater Bay Airlines": 4132,
-    "STARLUX Airlines": 5003,
-    "China Airlines": 5182
+    "STARLUX Airlines": 5086,
+    "China Airlines": 5265
    },
    "at": "2026-11-07",
    "hist": [
@@ -1508,8 +1508,8 @@
    "by_airline": {
     "Hong Kong Express": 2133,
     "Greater Bay Airlines": 4132,
-    "STARLUX Airlines": 5003,
-    "China Airlines": 5182
+    "STARLUX Airlines": 5086,
+    "China Airlines": 5265
    },
    "at": "2026-11-07",
    "hist": [
@@ -1548,8 +1548,8 @@
    "by_airline": {
     "Hong Kong Express": 2133,
     "Greater Bay Airlines": 4132,
-    "STARLUX Airlines": 5003,
-    "China Airlines": 5182
+    "STARLUX Airlines": 5086,
+    "China Airlines": 5265
    },
    "at": "2026-11-07",
    "hist": [
@@ -1584,8 +1584,8 @@
    "by_airline": {
     "Hong Kong Express": 2050,
     "Greater Bay Airlines": 4132,
-    "STARLUX Airlines": 5003,
-    "China Airlines": 5182
+    "STARLUX Airlines": 5086,
+    "China Airlines": 5265
    },
    "at": "2026-11-07",
    "hist": [
@@ -1616,8 +1616,8 @@
    "by_airline": {
     "Hong Kong Express": 2050,
     "Greater Bay Airlines": 4132,
-    "STARLUX Airlines": 5003,
-    "China Airlines": 5182
+    "STARLUX Airlines": 5086,
+    "China Airlines": 5265
    },
    "at": "2026-11-07",
    "hist": [
@@ -1644,8 +1644,8 @@
    "by_airline": {
     "Hong Kong Express": 2050,
     "Greater Bay Airlines": 4132,
-    "STARLUX Airlines": 5003,
-    "China Airlines": 5182
+    "STARLUX Airlines": 5086,
+    "China Airlines": 5265
    },
    "at": "2026-11-07",
    "hist": [
@@ -2123,7 +2123,7 @@
     "Scoot": 3232,
     "Hong Kong Express": 5013,
     "Jeju Air": 5129,
-    "Korean Air": 6382
+    "Korean Air": 6465
    },
    "at": "2026-11-07",
    "hist": [
@@ -2159,7 +2159,7 @@
     "Tigerair Taiwan": 4099,
     "Scoot": 4399,
     "Hong Kong Express": 4930,
-    "Korean Air": 6382
+    "Korean Air": 6465
    },
    "at": "2026-11-07",
    "hist": [
@@ -2191,7 +2191,7 @@
     "Scoot": 3988,
     "Tigerair Taiwan": 4099,
     "Hong Kong Express": 4930,
-    "Korean Air": 6382
+    "Korean Air": 6465
    },
    "at": "2026-11-07",
    "hist": [

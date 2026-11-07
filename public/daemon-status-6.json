@@ -1,5 +1,5 @@
 {
- "at": "2026-11-07T16:18:41+00:00",
+ "at": "2026-11-07T23:36:48+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 95,
  "log": [
-  "16:17:06 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "16:17:11 http front door: ['https://norfolk-levy-texture-america.trycloudflare.com', 'https://89e7b35ce527d2.lhr.life']",
-  "16:17:11 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "16:18:15 request received: rid httptest1794068295 20 keys",
-  "16:18:15 handle httptest1794068295: first_chunk=True total=20",
-  "16:18:17 request httptest1794068295: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "16:18:17 request httptest1794068295: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "23:35:13 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "23:35:18 http front door: ['https://anne-lived-empty-antarctica.trycloudflare.com', 'https://4e9e1094940d26.lhr.life']",
+  "23:35:18 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "23:36:21 request received: rid httptest1794094580 20 keys",
+  "23:36:21 handle httptest1794094580: first_chunk=True total=20",
+  "23:36:22 request httptest1794094580: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "23:36:24 request httptest1794094580: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

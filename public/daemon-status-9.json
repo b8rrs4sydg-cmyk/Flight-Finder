@@ -1,5 +1,5 @@
 {
- "at": "2026-11-07T05:46:07+00:00",
+ "at": "2026-11-07T16:18:53+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,15 +7,13 @@
  },
  "fares_saved": 82,
  "log": [
-  "05:44:11 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "05:44:17 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "05:44:21 git retry 1: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "05:44:27 git retry 2: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "05:44:37 http front door: ['https://parliament-ethical-earn-contributor.trycloudflare.com', 'https://17b2c41e2c0a0e.lhr.life']",
-  "05:44:37 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "05:45:21 request received: rid httptest1794030320 20 keys",
-  "05:45:21 handle httptest1794030320: first_chunk=True total=20",
-  "05:45:22 request httptest1794030320: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 24, 'empty': 4}, audit 0/0 agree",
-  "05:45:23 request httptest1794030320: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "16:17:15 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "16:17:20 git retry 0: b\"eads/main': is at 4d23f93e73e1abd6bdca5ea420fb1b5b46252acd but expected 1747b21326e94376ed4793a5980d80521e84daf1)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "16:17:23 http front door: ['https://guide-archives-condition-printed.trycloudflare.com', 'https://5adf34826b71f9.lhr.life']",
+  "16:17:23 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "16:18:25 request received: rid httptest1794068304 20 keys",
+  "16:18:25 handle httptest1794068304: first_chunk=True total=20",
+  "16:18:26 request httptest1794068304: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
+  "16:18:27 request httptest1794068304: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

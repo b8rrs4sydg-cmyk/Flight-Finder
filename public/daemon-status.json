@@ -1,5 +1,5 @@
 {
- "at": "2026-11-07T16:18:44+00:00",
+ "at": "2026-11-07T23:36:42+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,13 @@
  },
  "fares_saved": 87,
  "log": [
-  "16:17:10 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "16:17:14 http front door: ['https://chan-assign-luis-dept.trycloudflare.com', 'https://67f2d4d157cf47.lhr.life']",
-  "16:17:14 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "16:18:20 request received: rid httptest1794068299 20 keys",
-  "16:18:20 handle httptest1794068299: first_chunk=True total=20",
-  "16:18:21 request httptest1794068299: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "16:18:22 request httptest1794068299: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "23:35:03 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "23:35:08 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "23:35:12 http front door: ['https://bent-larry-titled-lenses.trycloudflare.com', 'https://4ea5fa0afa7ca9.lhr.life']",
+  "23:35:12 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "23:36:12 request received: rid httptest1794094572 20 keys",
+  "23:36:12 handle httptest1794094572: first_chunk=True total=20",
+  "23:36:14 request httptest1794094572: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "23:36:14 request httptest1794094572: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

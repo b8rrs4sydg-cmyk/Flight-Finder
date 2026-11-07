@@ -1,5 +1,5 @@
 {
- "at": "2026-11-07T16:19:12+00:00",
+ "at": "2026-11-07T23:36:51+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 104,
  "log": [
-  "16:17:37 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "16:17:42 http front door: ['https://mirrors-routes-casinos-bryant.trycloudflare.com', 'https://c14bfd3d506333.lhr.life']",
-  "16:17:42 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "16:18:44 request received: rid httptest1794068323 20 keys",
-  "16:18:44 handle httptest1794068323: first_chunk=True total=20",
-  "16:18:45 request httptest1794068323: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "16:18:46 request httptest1794068323: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "23:35:17 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "23:35:21 http front door: ['https://numeric-partnership-floral-stan.trycloudflare.com', 'https://5921715d04a636.lhr.life']",
+  "23:35:21 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "23:36:24 request received: rid httptest1794094584 20 keys",
+  "23:36:24 handle httptest1794094584: first_chunk=True total=20",
+  "23:36:26 request httptest1794094584: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "23:36:28 request httptest1794094584: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

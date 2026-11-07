@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-07T16:18:53+00:00",
+ "generated_at": "2026-11-07T23:36:37+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -2061,7 +2061,7 @@
    "by_airline": {
     "Scoot": 3988,
     "Tigerair Taiwan": 4499,
-    "Shandong": 5316,
+    "Hong Kong Express": 5096,
     "Jeju Air": 5849
    },
    "at": "2026-11-07",

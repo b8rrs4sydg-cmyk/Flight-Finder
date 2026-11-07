@@ -1,5 +1,5 @@
 {
- "at": "2026-11-07T05:45:42+00:00",
+ "at": "2026-11-07T05:47:13+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -11,6 +11,8 @@
   "05:44:12 http front door: ['https://lap-that-interface-unlimited.trycloudflare.com', 'https://76ec5441a62ba5.lhr.life']",
   "05:44:12 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "05:45:17 request received: rid httptest1794030316 20 keys",
-  "05:45:17 handle httptest1794030316: first_chunk=True total=20"
+  "05:45:17 handle httptest1794030316: first_chunk=True total=20",
+  "05:46:20 request httptest1794030316: chunk of 20 keys done in 63s; paths {'http': 13, 'browser': 6, 'browser-crashed': 1}, browser waits 7 max 62s sum 107s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 13, 'miss': 7, 'blocked': 0, 'tries': 32, 'empty': 19}, audit 1/1 agree",
+  "05:46:21 request httptest1794030316: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,18 +1,18 @@
 {
- "at": "2026-11-06T20:50:31+00:00",
+ "at": "2026-11-07T05:45:43+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 111,
+ "fares_saved": 88,
  "log": [
-  "20:48:56 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:49:01 http front door: ['https://without-billing-dental-reviewed.trycloudflare.com', 'https://b8b08cae5d0b03.lhr.life']",
-  "20:49:01 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:50:05 request received: rid httptest1793998204 20 keys",
-  "20:50:05 handle httptest1793998204: first_chunk=True total=20",
-  "20:50:06 request httptest1793998204: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "20:50:07 request httptest1793998204: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:44:09 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:44:13 http front door: ['https://tucson-newer-affect-spare.trycloudflare.com', 'https://162d21abe139a1.lhr.life']",
+  "05:44:13 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "05:45:18 request received: rid httptest1794030318 20 keys",
+  "05:45:18 handle httptest1794030318: first_chunk=True total=20",
+  "05:45:20 request httptest1794030318: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "05:45:22 request httptest1794030318: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

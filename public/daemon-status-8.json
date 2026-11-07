@@ -1,18 +1,18 @@
 {
- "at": "2026-11-06T20:50:20+00:00",
+ "at": "2026-11-07T05:45:46+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 131,
+ "fares_saved": 124,
  "log": [
-  "20:48:45 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:48:50 http front door: ['https://telescope-singh-trial-suspected.trycloudflare.com', 'https://ded3fbe74d8501.lhr.life']",
-  "20:48:50 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:49:54 request received: rid httptest1793998194 20 keys",
-  "20:49:54 handle httptest1793998194: first_chunk=True total=20",
-  "20:49:55 request httptest1793998194: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "20:49:56 request httptest1793998194: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:44:11 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:44:16 http front door: ['https://implications-federation-lite-crop.trycloudflare.com', 'https://2b9b7153eddc9a.lhr.life']",
+  "05:44:16 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "05:45:21 request received: rid httptest1794030320 20 keys",
+  "05:45:21 handle httptest1794030320: first_chunk=True total=20",
+  "05:45:22 request httptest1794030320: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 24, 'empty': 4}, audit 0/0 agree",
+  "05:45:24 request httptest1794030320: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

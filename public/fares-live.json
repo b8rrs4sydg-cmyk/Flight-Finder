@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-08T16:38:26+00:00",
+ "generated_at": "2026-11-08T23:39:09+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -448,17 +448,17 @@
   },
   "ow|TPE|BKK|2027-03-20": {
    "price": 5662,
-   "first": {
-    "dep": "2027-03-20T15:30:00+08:00",
-    "arr": "2027-03-20T22:30:00+07:00",
-    "stops": 1,
-    "airline": "China Southern"
-   },
    "by_airline": {
     "China Southern": 5662,
     "THAI": 5885,
     "STARLUX Airlines": 6115,
     "China Airlines": 6115
+   },
+   "first": {
+    "dep": "2027-03-20T15:30:00+08:00",
+    "arr": "2027-03-20T22:30:00+07:00",
+    "stops": 1,
+    "airline": "China Southern"
    },
    "at": "2026-11-08",
    "hist": [

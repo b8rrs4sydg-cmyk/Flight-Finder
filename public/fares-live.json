@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-08T05:48:54+00:00",
+ "generated_at": "2026-11-08T16:38:26+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -1716,9 +1716,9 @@
    },
    "by_airline": {
     "Scoot": 3232,
-    "Hong Kong Express": 4930,
     "Jeju Air": 5129,
-    "Jin Air": 5887
+    "Jin Air": 5887,
+    "Korean Air": 6465
    },
    "at": "2026-11-08",
    "hist": [

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T05:48:46+00:00",
+ "at": "2026-11-08T16:38:31+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 85,
  "log": [
-  "05:47:11 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "05:47:16 http front door: ['https://centres-value-songs-thanksgiving.trycloudflare.com', 'https://5e98de1ad0c155.lhr.life']",
-  "05:47:16 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "05:48:20 request received: rid httptest1794116900 20 keys",
-  "05:48:20 handle httptest1794116900: first_chunk=True total=20",
-  "05:48:22 request httptest1794116900: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "05:48:22 request httptest1794116900: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "16:36:56 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "16:37:01 http front door: ['https://lauderdale-revolutionary-folding-mas.trycloudflare.com', 'https://692a9da90d570f.lhr.life']",
+  "16:37:01 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "16:38:05 request received: rid httptest1794155884 20 keys",
+  "16:38:05 handle httptest1794155884: first_chunk=True total=20",
+  "16:38:06 request httptest1794155884: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "16:38:07 request httptest1794155884: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

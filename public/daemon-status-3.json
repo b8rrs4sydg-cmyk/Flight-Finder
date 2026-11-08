@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T16:38:27+00:00",
+ "at": "2026-11-08T23:39:28+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,13 @@
  },
  "fares_saved": 77,
  "log": [
-  "16:36:52 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "16:36:57 http front door: ['https://roots-garbage-photography-utilization.trycloudflare.com', 'https://903e52162f9c53.lhr.life']",
-  "16:36:57 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "16:38:01 request received: rid httptest1794155881 20 keys",
-  "16:38:01 handle httptest1794155881: first_chunk=True total=20",
-  "16:38:03 request httptest1794155881: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "16:38:03 request httptest1794155881: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "23:37:46 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "23:37:52 git retry 0: b\"eads/main': is at e866dc0151177f970508ab6be89edbb7e98623be but expected fd662f401a48d3b1c8be4a92d5fdaf7d4a97adbe)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "23:37:58 http front door: ['https://scoring-finger-wrestling-wear.trycloudflare.com', 'https://0d2017d1375503.lhr.life']",
+  "23:37:58 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "23:38:54 request received: rid httptest1794181134 20 keys",
+  "23:38:54 handle httptest1794181134: first_chunk=True total=20",
+  "23:38:56 request httptest1794181134: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
+  "23:38:56 request httptest1794181134: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T16:38:37+00:00",
+ "at": "2026-11-08T23:39:01+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,13 +7,12 @@
  },
  "fares_saved": 45,
  "log": [
-  "16:36:57 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "16:37:01 git retry 0: b\"eads/main': is at 176fcdb744d704024645027c3b2291336376822e but expected 9e57e67af07df1f039fb3989c3c3957102c93331)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "16:37:07 http front door: ['https://far-bat-occurs-reduction.trycloudflare.com', 'https://7979c8d52c4248.lhr.life']",
-  "16:37:07 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "16:38:06 request received: rid httptest1794155886 20 keys",
-  "16:38:06 handle httptest1794155886: first_chunk=True total=20",
-  "16:38:07 request httptest1794155886: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "16:38:09 request httptest1794155886: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "23:37:26 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "23:37:31 http front door: ['https://bath-map-the-screens.trycloudflare.com', 'https://90ec625606b827.lhr.life']",
+  "23:37:31 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "23:38:36 request received: rid httptest1794181116 20 keys",
+  "23:38:36 handle httptest1794181116: first_chunk=True total=20",
+  "23:38:37 request httptest1794181116: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "23:38:39 request httptest1794181116: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

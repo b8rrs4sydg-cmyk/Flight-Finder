@@ -1,5 +1,5 @@
 {
- "at": "2026-11-09T05:59:01+00:00",
+ "at": "2026-11-09T20:40:23+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 48,
  "log": [
-  "05:57:26 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "05:57:31 http front door: ['https://wallpapers-dare-prairie-syndication.trycloudflare.com', 'https://faf84e9e9bb701.lhr.life']",
-  "05:57:31 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "05:58:35 request received: rid httptest1794203914 20 keys",
-  "05:58:35 handle httptest1794203914: first_chunk=True total=20",
-  "05:58:36 request httptest1794203914: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "05:58:37 request httptest1794203914: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:38:47 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:38:53 http front door: ['https://operational-skip-area-detail.trycloudflare.com', 'https://b7cd35deeeeac5.lhr.life']",
+  "20:38:53 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:39:54 request received: rid httptest1794256794 20 keys",
+  "20:39:54 handle httptest1794256794: first_chunk=True total=20",
+  "20:39:56 request httptest1794256794: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "20:39:57 request httptest1794256794: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

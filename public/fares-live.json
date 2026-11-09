@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-08T23:39:09+00:00",
+ "generated_at": "2026-11-09T20:40:07+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -22,22 +22,6 @@
     ]
    ]
   },
-  "ow|PEN|TSA|2027-06-13": {
-   "price": 64428,
-   "first": {
-    "dep": "2027-06-13T13:00:00+08:00",
-    "arr": "2027-06-14T18:15:00+08:00",
-    "stops": 2,
-    "airline": "Cathay Pacific, China Airlines"
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     64428
-    ]
-   ]
-  },
   "ow|RMQ|KUL|2027-09-15": {
    "price": 9373,
    "first": {
@@ -53,50 +37,6 @@
      9373
     ]
    ]
-  },
-  "ow|TPE|BKK|2027-03-11": {
-   "price": 6000,
-   "first": {
-    "dep": "2027-03-11T13:25:00+08:00",
-    "arr": "2027-03-11T16:30:00+07:00",
-    "stops": 0,
-    "airline": "STARLUX Airlines"
-   },
-   "by_airline": {
-    "STARLUX Airlines": 6000,
-    "China Airlines": 6000,
-    "EVA Air": 6302,
-    "THAI": 6737
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-10-27",
-     5856
-    ],
-    [
-     "2026-10-28",
-     5847
-    ],
-    [
-     "2026-10-29",
-     5844
-    ],
-    [
-     "2026-10-30",
-     5853
-    ],
-    [
-     "2026-10-31",
-     6000
-    ],
-    [
-     "2026-11-01",
-     6000
-    ]
-   ],
-   "prev": 6000,
-   "prev_at": "2026-10-31"
   },
   "ow|TPE|BKK|2027-03-12": {
    "price": 5860,
@@ -407,7 +347,7 @@
    "prev_at": "2026-11-07"
   },
   "ow|TPE|BKK|2027-03-19": {
-   "price": 5662,
+   "price": 5657,
    "first": {
     "dep": "2027-03-19T15:30:00+08:00",
     "arr": "2027-03-19T22:30:00+07:00",
@@ -415,12 +355,12 @@
     "airline": "China Southern"
    },
    "by_airline": {
-    "China Southern": 5662,
-    "THAI": 5885,
-    "STARLUX Airlines": 6115,
-    "China Airlines": 6115
+    "China Southern": 5657,
+    "THAI": 5872,
+    "STARLUX Airlines": 6101,
+    "China Airlines": 6101
    },
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "hist": [
     [
      "2026-11-04",
@@ -441,26 +381,30 @@
     [
      "2026-11-08",
      5662
+    ],
+    [
+     "2026-11-09",
+     5657
     ]
    ],
    "prev": 5662,
-   "prev_at": "2026-11-07"
+   "prev_at": "2026-11-08"
   },
   "ow|TPE|BKK|2027-03-20": {
-   "price": 5662,
-   "by_airline": {
-    "China Southern": 5662,
-    "THAI": 5885,
-    "STARLUX Airlines": 6115,
-    "China Airlines": 6115
-   },
+   "price": 5657,
    "first": {
     "dep": "2027-03-20T15:30:00+08:00",
     "arr": "2027-03-20T22:30:00+07:00",
     "stops": 1,
     "airline": "China Southern"
    },
-   "at": "2026-11-08",
+   "by_airline": {
+    "China Southern": 5657,
+    "THAI": 5872,
+    "STARLUX Airlines": 6101,
+    "China Airlines": 6101
+   },
+   "at": "2026-11-09",
    "hist": [
     [
      "2026-11-05",
@@ -477,13 +421,17 @@
     [
      "2026-11-08",
      5662
+    ],
+    [
+     "2026-11-09",
+     5657
     ]
    ],
    "prev": 5662,
-   "prev_at": "2026-11-07"
+   "prev_at": "2026-11-08"
   },
   "ow|TPE|BKK|2027-03-21": {
-   "price": 5662,
+   "price": 5657,
    "first": {
     "dep": "2027-03-21T15:30:00+08:00",
     "arr": "2027-03-21T22:30:00+07:00",
@@ -491,12 +439,12 @@
     "airline": "China Southern"
    },
    "by_airline": {
-    "China Southern": 5662,
-    "THAI": 5885,
-    "STARLUX Airlines": 6115,
-    "China Airlines": 6115
+    "China Southern": 5657,
+    "THAI": 5872,
+    "STARLUX Airlines": 6101,
+    "China Airlines": 6101
    },
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "hist": [
     [
      "2026-11-06",
@@ -509,10 +457,14 @@
     [
      "2026-11-08",
      5662
+    ],
+    [
+     "2026-11-09",
+     5657
     ]
    ],
    "prev": 5662,
-   "prev_at": "2026-11-07"
+   "prev_at": "2026-11-08"
   },
   "ow|TPE|BKK|2027-03-22": {
    "price": 5401,
@@ -524,11 +476,11 @@
    },
    "by_airline": {
     "Scoot": 5401,
-    "China Southern": 5662,
-    "THAI": 5885,
-    "STARLUX Airlines": 6115
+    "China Southern": 5657,
+    "THAI": 5872,
+    "STARLUX Airlines": 6101
    },
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "hist": [
     [
      "2026-11-07",
@@ -537,10 +489,14 @@
     [
      "2026-11-08",
      5401
+    ],
+    [
+     "2026-11-09",
+     5401
     ]
    ],
    "prev": 5401,
-   "prev_at": "2026-11-07"
+   "prev_at": "2026-11-08"
   },
   "ow|TPE|BKK|2027-03-23": {
    "price": 5401,
@@ -552,61 +508,45 @@
    },
    "by_airline": {
     "Scoot": 5401,
-    "China Southern": 5662,
-    "THAI": 5885,
-    "STARLUX Airlines": 6115
+    "China Southern": 5657,
+    "THAI": 5872,
+    "STARLUX Airlines": 6101
    },
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "hist": [
     [
      "2026-11-08",
      5401
-    ]
-   ]
-  },
-  "ow|TPE|HKG|2027-03-11": {
-   "price": 2050,
-   "first": {
-    "dep": "2027-03-11T13:55:00+08:00",
-    "arr": "2027-03-11T16:00:00+08:00",
-    "stops": 0,
-    "airline": "Hong Kong Express"
-   },
-   "by_airline": {
-    "Hong Kong Express": 2050,
-    "Greater Bay Airlines": 4112,
-    "STARLUX Airlines": 4972,
-    "China Airlines": 5151
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-10-27",
-     2050
     ],
     [
-     "2026-10-28",
-     2050
-    ],
-    [
-     "2026-10-29",
-     2050
-    ],
-    [
-     "2026-10-30",
-     2050
-    ],
-    [
-     "2026-10-31",
-     2050
-    ],
-    [
-     "2026-11-01",
-     2050
+     "2026-11-09",
+     5401
     ]
    ],
-   "prev": 2050,
-   "prev_at": "2026-10-31"
+   "prev": 5401,
+   "prev_at": "2026-11-08"
+  },
+  "ow|TPE|BKK|2027-03-24": {
+   "price": 5657,
+   "first": {
+    "dep": "2027-03-24T15:30:00+08:00",
+    "arr": "2027-03-24T22:30:00+07:00",
+    "stops": 1,
+    "airline": "China Southern"
+   },
+   "by_airline": {
+    "China Southern": 5657,
+    "THAI": 5872,
+    "STARLUX Airlines": 6101,
+    "China Airlines": 6101
+   },
+   "at": "2026-11-09",
+   "hist": [
+    [
+     "2026-11-09",
+     5657
+    ]
+   ]
   },
   "ow|TPE|HKG|2027-03-12": {
    "price": 2133,
@@ -954,11 +894,11 @@
    },
    "by_airline": {
     "Hong Kong Express": 2133,
-    "Greater Bay Airlines": 4132,
-    "STARLUX Airlines": 5086,
-    "China Airlines": 5265
+    "Greater Bay Airlines": 3894,
+    "STARLUX Airlines": 5072,
+    "China Airlines": 5251
    },
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "hist": [
     [
      "2026-11-03",
@@ -983,10 +923,14 @@
     [
      "2026-11-08",
      2133
+    ],
+    [
+     "2026-11-09",
+     2133
     ]
    ],
    "prev": 2133,
-   "prev_at": "2026-11-07"
+   "prev_at": "2026-11-08"
   },
   "ow|TPE|HKG|2027-03-20": {
    "price": 2133,
@@ -998,11 +942,11 @@
    },
    "by_airline": {
     "Hong Kong Express": 2133,
-    "Greater Bay Airlines": 4132,
-    "STARLUX Airlines": 5086,
-    "China Airlines": 5265
+    "Greater Bay Airlines": 3894,
+    "STARLUX Airlines": 5072,
+    "China Airlines": 5251
    },
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "hist": [
     [
      "2026-11-04",
@@ -1023,10 +967,14 @@
     [
      "2026-11-08",
      2133
+    ],
+    [
+     "2026-11-09",
+     2133
     ]
    ],
    "prev": 2133,
-   "prev_at": "2026-11-07"
+   "prev_at": "2026-11-08"
   },
   "ow|TPE|HKG|2027-03-21": {
    "price": 2050,
@@ -1038,11 +986,11 @@
    },
    "by_airline": {
     "Hong Kong Express": 2050,
-    "Greater Bay Airlines": 4132,
-    "STARLUX Airlines": 5086,
-    "China Airlines": 5265
+    "Greater Bay Airlines": 3894,
+    "STARLUX Airlines": 5072,
+    "China Airlines": 5251
    },
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "hist": [
     [
      "2026-11-05",
@@ -1059,10 +1007,14 @@
     [
      "2026-11-08",
      2050
+    ],
+    [
+     "2026-11-09",
+     2050
     ]
    ],
    "prev": 2050,
-   "prev_at": "2026-11-07"
+   "prev_at": "2026-11-08"
   },
   "ow|TPE|HKG|2027-03-22": {
    "price": 2050,
@@ -1074,11 +1026,11 @@
    },
    "by_airline": {
     "Hong Kong Express": 2050,
-    "Greater Bay Airlines": 4132,
-    "STARLUX Airlines": 5086,
-    "China Airlines": 5265
+    "Greater Bay Airlines": 3894,
+    "STARLUX Airlines": 5072,
+    "China Airlines": 5251
    },
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "hist": [
     [
      "2026-11-06",
@@ -1091,10 +1043,14 @@
     [
      "2026-11-08",
      2050
+    ],
+    [
+     "2026-11-09",
+     2050
     ]
    ],
    "prev": 2050,
-   "prev_at": "2026-11-07"
+   "prev_at": "2026-11-08"
   },
   "ow|TPE|HKG|2027-03-23": {
    "price": 2050,
@@ -1106,11 +1062,11 @@
    },
    "by_airline": {
     "Hong Kong Express": 2050,
-    "Greater Bay Airlines": 4132,
-    "STARLUX Airlines": 5086,
-    "China Airlines": 5265
+    "Greater Bay Airlines": 3894,
+    "STARLUX Airlines": 5072,
+    "China Airlines": 5251
    },
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "hist": [
     [
      "2026-11-07",
@@ -1119,10 +1075,14 @@
     [
      "2026-11-08",
      2050
+    ],
+    [
+     "2026-11-09",
+     2050
     ]
    ],
    "prev": 2050,
-   "prev_at": "2026-11-07"
+   "prev_at": "2026-11-08"
   },
   "ow|TPE|HKG|2027-03-24": {
    "price": 2050,
@@ -1134,61 +1094,45 @@
    },
    "by_airline": {
     "Hong Kong Express": 2050,
-    "Greater Bay Airlines": 4132,
-    "STARLUX Airlines": 5086,
-    "China Airlines": 5265
+    "Greater Bay Airlines": 3894,
+    "STARLUX Airlines": 5072,
+    "China Airlines": 5251
    },
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "hist": [
     [
      "2026-11-08",
      2050
-    ]
-   ]
-  },
-  "ow|TPE|ICN|2027-03-11": {
-   "price": 3232,
-   "first": {
-    "dep": "2027-03-11T18:10:00+08:00",
-    "arr": "2027-03-11T21:40:00+09:00",
-    "stops": 0,
-    "airline": "Scoot"
-   },
-   "by_airline": {
-    "Scoot": 3232,
-    "Tigerair Taiwan": 3999,
-    "Hong Kong Express": 4930,
-    "Jeju Air": 5830
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-10-27",
-     3232
     ],
     [
-     "2026-10-28",
-     3232
-    ],
-    [
-     "2026-10-29",
-     3232
-    ],
-    [
-     "2026-10-30",
-     3232
-    ],
-    [
-     "2026-10-31",
-     3232
-    ],
-    [
-     "2026-11-01",
-     3232
+     "2026-11-09",
+     2050
     ]
    ],
-   "prev": 3232,
-   "prev_at": "2026-10-31"
+   "prev": 2050,
+   "prev_at": "2026-11-08"
+  },
+  "ow|TPE|HKG|2027-03-25": {
+   "price": 2050,
+   "first": {
+    "dep": "2027-03-25T14:50:00+08:00",
+    "arr": "2027-03-25T16:55:00+08:00",
+    "stops": 0,
+    "airline": "Hong Kong Express"
+   },
+   "by_airline": {
+    "Hong Kong Express": 2050,
+    "Greater Bay Airlines": 3894,
+    "STARLUX Airlines": 5072,
+    "China Airlines": 5251
+   },
+   "at": "2026-11-09",
+   "hist": [
+    [
+     "2026-11-09",
+     2050
+    ]
+   ]
   },
   "ow|TPE|ICN|2027-03-12": {
    "price": 3988,
@@ -1538,9 +1482,9 @@
     "Scoot": 3988,
     "Tigerair Taiwan": 4499,
     "Hong Kong Express": 5096,
-    "Jeju Air": 5849
+    "Jeju Air": 5840
    },
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "hist": [
     [
      "2026-11-03",
@@ -1565,10 +1509,14 @@
     [
      "2026-11-08",
      3988
+    ],
+    [
+     "2026-11-09",
+     3988
     ]
    ],
    "prev": 3988,
-   "prev_at": "2026-11-07"
+   "prev_at": "2026-11-08"
   },
   "ow|TPE|ICN|2027-03-20": {
    "price": 3232,
@@ -1581,10 +1529,10 @@
    "by_airline": {
     "Scoot": 3232,
     "Hong Kong Express": 5013,
-    "Jeju Air": 5129,
-    "Korean Air": 6465
+    "Jeju Air": 5120,
+    "Korean Air": 6457
    },
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "hist": [
     [
      "2026-11-04",
@@ -1605,10 +1553,14 @@
     [
      "2026-11-08",
      3232
+    ],
+    [
+     "2026-11-09",
+     3232
     ]
    ],
    "prev": 3232,
-   "prev_at": "2026-11-07"
+   "prev_at": "2026-11-08"
   },
   "ow|TPE|ICN|2027-03-21": {
    "price": 4099,
@@ -1620,11 +1572,11 @@
    },
    "by_airline": {
     "Tigerair Taiwan": 4099,
-    "Scoot": 4399,
+    "Scoot": 4809,
     "Hong Kong Express": 4930,
-    "Korean Air": 6465
+    "Korean Air": 6457
    },
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "hist": [
     [
      "2026-11-05",
@@ -1641,10 +1593,14 @@
     [
      "2026-11-08",
      4099
+    ],
+    [
+     "2026-11-09",
+     4099
     ]
    ],
    "prev": 4099,
-   "prev_at": "2026-11-07"
+   "prev_at": "2026-11-08"
   },
   "ow|TPE|ICN|2027-03-22": {
    "price": 3988,
@@ -1658,9 +1614,9 @@
     "Scoot": 3988,
     "Tigerair Taiwan": 4099,
     "Hong Kong Express": 4930,
-    "Korean Air": 6465
+    "Korean Air": 6457
    },
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "hist": [
     [
      "2026-11-06",
@@ -1673,10 +1629,14 @@
     [
      "2026-11-08",
      3988
+    ],
+    [
+     "2026-11-09",
+     3988
     ]
    ],
    "prev": 3988,
-   "prev_at": "2026-11-07"
+   "prev_at": "2026-11-08"
   },
   "ow|TPE|ICN|2027-03-23": {
    "price": 3232,
@@ -1689,10 +1649,10 @@
    "by_airline": {
     "Scoot": 3232,
     "Hong Kong Express": 4930,
-    "Jeju Air": 5129,
-    "Jin Air": 5887
+    "Jeju Air": 5120,
+    "Jin Air": 5880
    },
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "hist": [
     [
      "2026-11-07",
@@ -1701,10 +1661,14 @@
     [
      "2026-11-08",
      3232
+    ],
+    [
+     "2026-11-09",
+     3232
     ]
    ],
    "prev": 3232,
-   "prev_at": "2026-11-07"
+   "prev_at": "2026-11-08"
   },
   "ow|TPE|ICN|2027-03-24": {
    "price": 3232,
@@ -1716,31 +1680,43 @@
    },
    "by_airline": {
     "Scoot": 3232,
-    "Jeju Air": 5129,
-    "Jin Air": 5887,
-    "Korean Air": 6465
+    "Jeju Air": 5120,
+    "Jin Air": 5880,
+    "Korean Air": 6457
    },
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "hist": [
     [
      "2026-11-08",
      3232
+    ],
+    [
+     "2026-11-09",
+     3232
     ]
-   ]
+   ],
+   "prev": 3232,
+   "prev_at": "2026-11-08"
   },
-  "ow|TSA|PEN|2027-06-09": {
-   "price": 53307,
+  "ow|TPE|ICN|2027-03-25": {
+   "price": 3232,
    "first": {
-    "dep": "2027-06-09T12:30:00+08:00",
-    "arr": "2027-06-10T12:00:00+08:00",
-    "stops": 2,
-    "airline": "China Airlines, Cathay Pacific"
+    "dep": "2027-03-25T18:10:00+08:00",
+    "arr": "2027-03-25T21:40:00+09:00",
+    "stops": 0,
+    "airline": "Scoot"
    },
-   "at": "2026-11-01",
+   "by_airline": {
+    "Scoot": 3232,
+    "Tigerair Taiwan": 4099,
+    "Jeju Air": 5840,
+    "Jin Air": 6380
+   },
+   "at": "2026-11-09",
    "hist": [
     [
-     "2026-11-01",
-     53307
+     "2026-11-09",
+     3232
     ]
    ]
   },
@@ -1855,22 +1831,6 @@
     [
      "2026-11-02",
      15365
-    ]
-   ]
-  },
-  "rt|RMQ|KUL|2027-09-15|2027-09-19": {
-   "price": 16791,
-   "first": {
-    "dep": "2027-09-15T13:35:00+08:00",
-    "arr": "2027-09-15T20:55:00+08:00",
-    "stops": 1,
-    "airline": "Hong Kong Express, Cathay Pacific"
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     16791
     ]
    ]
   },
@@ -2053,154 +2013,6 @@
     ]
    ]
   },
-  "rt|TSA|GMP|2027-04-29|2027-05-02": {
-   "price": 20091,
-   "first": {
-    "dep": "2027-04-29T09:25:00+08:00",
-    "arr": "2027-04-29T12:55:00+09:00",
-    "stops": 0,
-    "airline": "China Airlines"
-   },
-   "by_airline": {
-    "China Airlines": 20091,
-    "ANA": 69385
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     20091
-    ]
-   ]
-  },
-  "rt|TSA|GMP|2027-09-15|2027-09-19": {
-   "price": 24993,
-   "first": {
-    "dep": "2027-09-15T15:45:00+08:00",
-    "arr": "2027-09-15T19:15:00+09:00",
-    "stops": 0,
-    "airline": "EVA Air"
-   },
-   "by_airline": {
-    "EVA Air": 24993,
-    "ANA": 70392
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     24993
-    ]
-   ]
-  },
-  "rt|TSA|HAN|2027-09-15|2027-09-19": {
-   "price": 164494,
-   "first": {
-    "dep": "2027-09-15T07:20:00+08:00",
-    "arr": "2027-09-15T22:15:00+07:00",
-    "stops": 1,
-    "airline": "EVA Air, ANA"
-   },
-   "by_airline": {
-    "ANA": 164494
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     164494
-    ]
-   ]
-  },
-  "rt|TSA|HKG|2027-09-15|2027-09-19": {
-   "price": 129786,
-   "first": {
-    "dep": "2027-09-15T16:20:00+08:00",
-    "arr": "2027-09-16T05:15:00+08:00",
-    "stops": 1,
-    "airline": "EVA Air, ANA"
-   },
-   "by_airline": {
-    "ANA": 129786
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     129786
-    ]
-   ]
-  },
-  "rt|TSA|HKT|2027-09-15|2027-09-19": {
-   "price": 169212,
-   "first": {
-    "dep": "2027-09-15T16:50:00+08:00",
-    "arr": "2027-09-16T08:00:00+07:00",
-    "stops": 2,
-    "airline": "ANA, THAI"
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     169212
-    ]
-   ]
-  },
-  "rt|TSA|HND|2027-09-15|2027-09-19": {
-   "price": 17158,
-   "first": {
-    "dep": "2027-09-15T18:05:00+08:00",
-    "arr": "2027-09-15T22:15:00+09:00",
-    "stops": 0,
-    "airline": "China Airlines"
-   },
-   "by_airline": {
-    "China Airlines": 17158,
-    "ANA": 17452,
-    "JAL": 19488,
-    "EVA Air": 19648
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     17158
-    ]
-   ]
-  },
-  "rt|TSA|ICN|2027-04-29|2027-05-02": {
-   "price": 54929,
-   "first": {
-    "dep": "2027-04-29T14:55:00+08:00",
-    "arr": "2027-04-30T11:55:00+09:00",
-    "stops": 1,
-    "airline": "EVA Air, Korean Air"
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     54929
-    ]
-   ]
-  },
-  "rt|TSA|ICN|2027-09-15|2027-09-19": {
-   "price": 71686,
-   "first": {
-    "dep": "2027-09-15T09:00:00+08:00",
-    "arr": "2027-09-16T04:35:00+09:00",
-    "stops": 1,
-    "airline": "China Airlines, Korean Air"
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     71686
-    ]
-   ]
-  },
   "rt|TSA|ISG|2026-12-24|2027-05-02": {
    "price": 22942,
    "by_airline": {
@@ -2221,26 +2033,6 @@
     ]
    ]
   },
-  "rt|TSA|ISG|2027-09-15|2027-09-19": {
-   "price": 17692,
-   "first": {
-    "dep": "2027-09-15T16:50:00+08:00",
-    "arr": "2027-09-16T11:30:00+09:00",
-    "stops": 1,
-    "airline": "ANA"
-   },
-   "by_airline": {
-    "ANA": 17692,
-    "JAL": 31728
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     17692
-    ]
-   ]
-  },
   "rt|TSA|KIX|2026-12-24|2027-09-19": {
    "price": 28424,
    "by_airline": {
@@ -2258,257 +2050,6 @@
     [
      "2026-11-02",
      28424
-    ]
-   ]
-  },
-  "rt|TSA|KIX|2027-09-15|2027-09-19": {
-   "price": 17924,
-   "first": {
-    "dep": "2027-09-15T13:30:00+08:00",
-    "arr": "2027-09-15T21:50:00+09:00",
-    "stops": 1,
-    "airline": "ANA"
-   },
-   "by_airline": {
-    "ANA": 17924,
-    "JAL": 26710
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     17924
-    ]
-   ]
-  },
-  "rt|TSA|MMY|2027-09-15|2027-09-19": {
-   "price": 19942,
-   "first": {
-    "dep": "2027-09-15T16:50:00+08:00",
-    "arr": "2027-09-16T10:45:00+09:00",
-    "stops": 1,
-    "airline": "ANA"
-   },
-   "by_airline": {
-    "ANA": 19942,
-    "JAL": 32578
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     19942
-    ]
-   ]
-  },
-  "rt|TSA|MNL|2027-09-15|2027-09-19": {
-   "price": 108151,
-   "first": {
-    "dep": "2027-09-15T16:50:00+08:00",
-    "arr": "2027-09-16T04:50:00+08:00",
-    "stops": 1,
-    "airline": "ANA, Philippine Airlines"
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     108151
-    ]
-   ]
-  },
-  "rt|TSA|OKA|2027-09-15|2027-09-19": {
-   "price": 17792,
-   "first": {
-    "dep": "2027-09-15T13:30:00+08:00",
-    "arr": "2027-09-15T22:50:00+09:00",
-    "stops": 1,
-    "airline": "ANA"
-   },
-   "by_airline": {
-    "ANA": 17792,
-    "JAL": 30928
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     17792
-    ]
-   ]
-  },
-  "rt|TSA|PUS|2027-09-15|2027-09-19": {
-   "price": 45418,
-   "first": {
-    "dep": "2027-09-15T15:45:00+08:00",
-    "arr": "2027-09-16T08:05:00+09:00",
-    "stops": 1,
-    "airline": "EVA Air, Korean Air"
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     45418
-    ]
-   ]
-  },
-  "rt|TSA|PVG|2027-09-15|2027-09-19": {
-   "price": 91112,
-   "first": {
-    "dep": "2027-09-15T16:20:00+08:00",
-    "arr": "2027-09-16T00:45:00+08:00",
-    "stops": 1,
-    "airline": "EVA Air, ANA"
-   },
-   "by_airline": {
-    "ANA": 91112
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     91112
-    ]
-   ]
-  },
-  "rt|TSA|SGN|2027-09-15|2027-09-19": {
-   "price": 163675,
-   "first": {
-    "dep": "2027-09-15T07:20:00+08:00",
-    "arr": "2027-09-15T21:55:00+07:00",
-    "stops": 1,
-    "airline": "EVA Air, ANA"
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     163675
-    ]
-   ]
-  },
-  "rt|TSA|SHA|2027-09-15|2027-09-19": {
-   "price": 13730,
-   "first": {
-    "dep": "2027-09-15T12:30:00+08:00",
-    "arr": "2027-09-15T14:15:00+08:00",
-    "stops": 0,
-    "airline": "China Airlines"
-   },
-   "by_airline": {
-    "China Airlines": 13730,
-    "EVA Air": 13824,
-    "China Eastern": 24738,
-    "ANA": 83569
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     13730
-    ]
-   ]
-  },
-  "rt|TSA|SIN|2027-09-15|2027-09-19": {
-   "price": 189113,
-   "first": {
-    "dep": "2027-09-15T16:20:00+08:00",
-    "arr": "2027-09-16T06:40:00+08:00",
-    "stops": 1,
-    "airline": "EVA Air, ANA"
-   },
-   "by_airline": {
-    "ANA": 189113
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     189113
-    ]
-   ]
-  },
-  "rt|TSA|SZX|2027-04-29|2027-05-02": {
-   "price": 139939,
-   "first": {
-    "dep": "2027-04-29T16:50:00+08:00",
-    "arr": "2027-04-30T15:10:00+08:00",
-    "stops": 1,
-    "airline": "ANA"
-   },
-   "by_airline": {
-    "ANA": 139939
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     139939
-    ]
-   ]
-  },
-  "rt|TSA|SZX|2027-09-15|2027-09-19": {
-   "price": 97625,
-   "first": {
-    "dep": "2027-09-15T14:55:00+08:00",
-    "arr": "2027-09-15T22:20:00+08:00",
-    "stops": 1,
-    "airline": "EVA Air, China Southern"
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     97625
-    ]
-   ]
-  },
-  "rt|TSA|TAG|2027-06-09|2027-06-13": {
-   "price": 107160,
-   "first": {
-    "dep": "2027-06-09T16:20:00+08:00",
-    "arr": "2027-06-10T10:40:00+08:00",
-    "stops": 2,
-    "airline": "EVA Air, Philippine Airlines"
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     107160
-    ]
-   ]
-  },
-  "rt|TSA|TAG|2027-09-15|2027-09-19": {
-   "price": 107160,
-   "first": {
-    "dep": "2027-09-15T16:20:00+08:00",
-    "arr": "2027-09-16T10:40:00+08:00",
-    "stops": 2,
-    "airline": "EVA Air, Philippine Airlines"
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     107160
-    ]
-   ]
-  },
-  "rt|TSA|USM|2027-09-15|2027-09-19": {
-   "price": 183113,
-   "first": {
-    "dep": "2027-09-15T16:50:00+08:00",
-    "arr": "2027-09-16T07:10:00+07:00",
-    "stops": 2,
-    "airline": "ANA, Bangkok Airways"
-   },
-   "at": "2026-11-01",
-   "hist": [
-    [
-     "2026-11-01",
-     183113
     ]
    ]
   },
@@ -2878,435 +2419,30 @@
  ],
  "missing_v": 2,
  "status": {
-  "mc|BKI-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-RGN-2027-04-29": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "mc|CGK-TPE-2026-12-13|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "mc|CGK-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-GMP-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 8
-  },
-  "mc|CKG-TPE-2027-05-02|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|CRK-TPE-2026-12-27|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-XIY-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|CSX-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-RGN-2026-12-24": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|CSX-TPE-2026-11-08|TPE-HKG-2026-12-11|HKG-TPE-2026-12-13|TPE-RGN-2026-12-24": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|CTU-TPE-2026-11-08|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "mc|DAD-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-RGN-2026-12-24": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|DAD-TPE-2026-12-13|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|DAD-TPE-2026-12-13|TPE-MNL-2027-04-29|MNL-TPE-2027-05-02|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|DAD-TPE-2026-12-13|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-XIY-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "mc|DPS-TPE-2026-12-27|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|FUK-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-RGN-2027-04-29": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "mc|FUK-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 5
-  },
-  "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-PKX-2027-02-10": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 8
-  },
-  "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-SGN-2026-12-24": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-SIN-2026-12-24": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 9
-  },
-  "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-XIY-2027-04-29": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 9
-  },
-  "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-XIY-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "mc|GMP-TPE-2026-11-08|TPE-HKG-2026-12-11|HKG-TPE-2026-12-13|TPE-KMG-2027-02-10": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "mc|GMP-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-GMP-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "mc|HGH-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|HND-TPE-2026-12-27|TPE-HKG-2027-04-29|HKG-TPE-2027-05-02|TPE-GMP-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "mc|HND-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-NRT-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "mc|HND-TPE-2027-02-14|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-GMP-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "mc|KIX-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 7
-  },
-  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-11-20|HKG-TPE-2026-11-22|TPE-XIY-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|KMG-TPE-2026-11-08|TPE-HKG-2026-12-11|HKG-TPE-2026-12-13|TPE-RGN-2026-12-24": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "mc|KMG-TPE-2026-11-08|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-DAD-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 7
-  },
-  "mc|KMG-TPE-2026-11-08|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-XIY-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|NKG-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|NKG-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|NRT-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-HND-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 7
-  },
-  "mc|NRT-TPE-2026-12-27|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-XIY-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|NRT-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 5
-  },
-  "mc|PEN-TPE-2026-11-22|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "mc|PEN-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-HND-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "mc|RGN-TPE-2026-11-08|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-DAD-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "mc|RGN-TPE-2026-12-13|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|RGN-TPE-2026-12-13|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 5
-  },
-  "mc|RGN-TPE-2026-12-27|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-NRT-2027-04-29": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|RGN-TPE-2026-12-27|TPE-HKG-2027-04-29|HKG-TPE-2027-05-02|TPE-DAD-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "mc|RGN-TPE-2026-12-27|TPE-MNL-2027-04-29|MNL-TPE-2027-05-02|TPE-CKG-2027-06-09": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|RGN-TPE-2026-12-27|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-KMG-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "mc|RGN-TPE-2026-12-27|TPE-PUS-2027-06-09|PUS-TPE-2027-06-13|TPE-BKI-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "mc|RGN-TPE-2027-05-02|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-FOC-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|RGN-TPE-2027-05-02|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-XIY-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|RGN-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-NRT-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "mc|RGN-TPE-2027-05-02|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-XIY-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "mc|TSN-TPE-2026-11-22|TPE-HKG-2027-02-10|HKG-TPE-2027-02-14|TPE-RGN-2027-04-29": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "mc|XIY-TPE-2027-02-14|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-DAD-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "mc|XIY-TPE-2027-02-14|TPE-MNL-2027-04-29|MNL-TPE-2027-05-02|TPE-DAD-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 7
-  },
-  "mc|XIY-TPE-2027-02-14|TPE-MNL-2027-06-09|MNL-TPE-2027-06-13|TPE-KIX-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 6
-  },
-  "mc|XIY-TPE-2027-05-02|TPE-HKG-2027-06-09|HKG-TPE-2027-06-13|TPE-HND-2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "ow|CTS|RMQ|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "ow|DMK|RMQ|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "ow|DMK|RMQ|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "ow|DMK|RMQ|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
   "ow|GMP|RMQ|2027-02-14": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 3
-  },
-  "ow|GMP|RMQ|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "ow|GMP|RMQ|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "ow|GMP|RMQ|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "ow|ICN|TSA|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "ow|ICN|TSA|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 5
-  },
-  "ow|ICN|TSA|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "ow|ITM|RMQ|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "ow|ITM|RMQ|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "ow|ITM|RMQ|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "ow|ITM|RMQ|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
   },
   "ow|MFM|TSA|2026-11-08": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 4
   },
-  "ow|MFM|TSA|2026-11-22": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
   "ow|MMY|RMQ|2027-02-14": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 3
-  },
-  "ow|MMY|RMQ|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "ow|PUS|TSA|2026-11-22": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "ow|PUS|TSA|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 5
-  },
-  "ow|PUS|TSA|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "ow|PUS|TSA|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 5
   },
   "ow|RMQ|DMK|2027-02-10": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 3
   },
-  "ow|RMQ|DMK|2027-04-29": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "ow|RMQ|DMK|2027-06-09": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "ow|RMQ|DMK|2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
   "ow|RMQ|GMP|2027-02-10": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 3
-  },
-  "ow|RMQ|GMP|2027-06-09": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "ow|RMQ|GMP|2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "ow|RMQ|PUS|2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 5
   },
   "ow|TPE|REP|2026-12-11": {
    "status": "timeout",
@@ -3318,56 +2454,6 @@
    "at": "2026-11-02",
    "n": 3
   },
-  "ow|TSA|DMK|2027-04-29": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "ow|TSA|DPS|2027-02-10": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "ow|TSA|ICN|2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "ow|TSA|NRT|2027-06-09": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "ow|TSA|NRT|2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "ow|TSA|PEN|2026-11-06": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "ow|TSA|PUS|2026-11-20": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "ow|TSA|PUS|2027-04-29": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "ow|TSA|PUS|2027-06-09": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 5
-  },
-  "ow|TSA|PUS|2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
   "rt|BKK|RMQ|2026-12-27|2027-09-15": {
    "status": "timeout",
    "at": "2026-11-02",
@@ -3378,25 +2464,10 @@
    "at": "2026-11-02",
    "n": 11
   },
-  "rt|CJU|RMQ|2026-12-27|2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "rt|CJU|TPE|2026-12-27|2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
   "rt|CJU|TSA|2026-11-08|2026-11-20": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 12
-  },
-  "rt|CJU|TSA|2026-12-27|2027-06-09": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
   },
   "rt|CJU|TSA|2027-02-14|2027-06-09": {
    "status": "timeout",
@@ -3412,11 +2483,6 @@
    "status": "timeout",
    "at": "2026-11-02",
    "n": 4
-  },
-  "rt|CTS|RMQ|2026-11-22|2027-04-29": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
   },
   "rt|DMK|RMQ|2026-11-08|2026-12-11": {
    "status": "timeout",
@@ -3468,11 +2534,6 @@
    "at": "2026-11-02",
    "n": 1
   },
-  "rt|GMP|RMQ|2026-11-08|2026-11-20": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
   "rt|GMP|RMQ|2026-11-22|2027-09-15": {
    "status": "timeout",
    "at": "2026-11-02",
@@ -3482,11 +2543,6 @@
    "status": "timeout",
    "at": "2026-11-02",
    "n": 4
-  },
-  "rt|GMP|TPE|2027-02-14|2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 5
   },
   "rt|HKT|RMQ|2026-12-27|2027-09-15": {
    "status": "parse_error",
@@ -3548,34 +2604,9 @@
    "at": "2026-11-02",
    "n": 4
   },
-  "rt|ITM|TSA|2027-02-14|2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 5
-  },
   "rt|MMY|RMQ|2026-12-13|2026-12-24": {
    "status": "parse_error",
    "at": "2026-11-02",
-   "n": 1
-  },
-  "rt|MMY|TSA|2026-12-27|2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "rt|NGO|RMQ|2026-12-27|2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "rt|NGO|TSA|2026-11-08|2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "rt|PUS|TPE|2026-12-27|2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
    "n": 1
   },
   "rt|PUS|TSA|2026-11-08|2027-09-15": {
@@ -3593,21 +2624,6 @@
    "at": "2026-11-02",
    "n": 8
   },
-  "rt|PUS|TSA|2027-06-13|2027-09-15": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|RMQ|CJU|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|CNX|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
   "rt|RMQ|CTS|2026-11-06|2026-12-27": {
    "status": "timeout",
    "at": "2026-11-02",
@@ -3618,20 +2634,10 @@
    "at": "2026-11-02",
    "n": 1
   },
-  "rt|RMQ|CTS|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
   "rt|RMQ|CTS|2027-04-29|2027-06-13": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 7
-  },
-  "rt|RMQ|DAD|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
   },
   "rt|RMQ|DMK|2026-11-06|2026-11-22": {
    "status": "parse_error",
@@ -3688,31 +2694,6 @@
    "at": "2026-11-02",
    "n": 5
   },
-  "rt|RMQ|DMK|2027-02-10|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|DMK|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|DMK|2027-06-09|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|DMK|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|GMP|2026-11-06|2026-11-08": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
   "rt|RMQ|GMP|2026-11-06|2027-09-19": {
    "status": "timeout",
    "at": "2026-11-02",
@@ -3728,31 +2709,6 @@
    "at": "2026-11-02",
    "n": 1
   },
-  "rt|RMQ|GMP|2027-02-10|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|GMP|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|GMP|2027-06-09|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|RMQ|GMP|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|HKG|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
   "rt|RMQ|HKT|2026-11-06|2027-09-19": {
    "status": "timeout",
    "at": "2026-11-02",
@@ -3762,11 +2718,6 @@
    "status": "timeout",
    "at": "2026-11-02",
    "n": 7
-  },
-  "rt|RMQ|MMY|2026-11-06|2026-11-08": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
   },
   "rt|RMQ|MMY|2026-11-06|2027-09-19": {
    "status": "timeout",
@@ -3778,65 +2729,10 @@
    "at": "2026-11-02",
    "n": 6
   },
-  "rt|RMQ|MMY|2027-02-10|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|MMY|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|PQC|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|RMQ|PUS|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|SZX|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|SZX|2027-06-09|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|RMQ|SZX|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|TAG|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
   "rt|RMQ|TAG|2027-06-09|2027-06-13": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 3
-  },
-  "rt|RMQ|TAG|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|RMQ|UEO|2026-11-06|2026-11-08": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|UEO|2026-11-06|2026-11-22": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
   },
   "rt|RMQ|UEO|2026-11-06|2027-06-13": {
    "status": "timeout",
@@ -3847,26 +2743,6 @@
    "status": "timeout",
    "at": "2026-11-02",
    "n": 10
-  },
-  "rt|RMQ|UEO|2027-02-10|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|UEO|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|UEO|2027-06-09|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "rt|RMQ|UEO|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
   },
   "rt|RMQ|USM|2026-11-06|2026-11-08": {
    "status": "timeout",
@@ -3888,45 +2764,15 @@
    "at": "2026-11-02",
    "n": 4
   },
-  "rt|RMQ|USM|2027-02-10|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|RMQ|USM|2027-02-10|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "rt|RMQ|USM|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
   "rt|RMQ|USM|2027-04-29|2027-09-19": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 6
   },
-  "rt|RMQ|USM|2027-06-09|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|USM|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
   "rt|RMQ|UTP|2026-11-06|2026-12-27": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 4
-  },
-  "rt|RMQ|UTP|2026-12-11|2026-12-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
   },
   "rt|RMQ|UTP|2026-12-11|2027-06-13": {
    "status": "timeout",
@@ -3938,40 +2784,15 @@
    "at": "2026-11-02",
    "n": 4
   },
-  "rt|RMQ|UTP|2027-02-10|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|RMQ|UTP|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
   "rt|RMQ|UTP|2027-04-29|2027-09-19": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 7
   },
-  "rt|RMQ|UTP|2027-06-09|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|RMQ|UTP|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
   "rt|TPE|GMP|2026-12-24|2027-02-14": {
    "status": "parse_error",
    "at": "2026-11-02",
    "n": 1
-  },
-  "rt|TPE|ITM|2026-11-06|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 7
   },
   "rt|TPE|ITM|2026-12-24|2027-09-19": {
    "status": "timeout",
@@ -3983,11 +2804,6 @@
    "at": "2026-11-02",
    "n": 2
   },
-  "rt|TPE|PUS|2027-02-10|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
   "rt|TPE|REP|2026-12-11|2026-12-13": {
    "status": "timeout",
    "at": "2026-11-02",
@@ -3997,16 +2813,6 @@
    "status": "timeout",
    "at": "2026-11-02",
    "n": 7
-  },
-  "rt|TPE|REP|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "rt|TPE|TSN|2027-02-10|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
   },
   "rt|TPE|UEO|2026-11-06|2026-11-08": {
    "status": "timeout",
@@ -4023,80 +2829,20 @@
    "at": "2026-11-02",
    "n": 4
   },
-  "rt|TPE|UEO|2027-02-10|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 5
-  },
-  "rt|TPE|UEO|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|TPE|UEO|2027-06-09|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|TPE|UEO|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "rt|TPE|UTP|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|TPE|UTP|2027-06-09|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|TPE|UTP|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
   "rt|TSA|CJU|2026-11-06|2026-11-08": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 4
-  },
-  "rt|TSA|CJU|2026-11-20|2026-11-22": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
   },
   "rt|TSA|CJU|2026-12-24|2026-12-27": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 7
   },
-  "rt|TSA|CJU|2027-02-10|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 5
-  },
-  "rt|TSA|CJU|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|TSA|CNX|2026-11-06|2026-11-08": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
   "rt|TSA|CNX|2026-11-06|2027-06-13": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 6
-  },
-  "rt|TSA|CNX|2026-11-20|2026-11-22": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
   },
   "rt|TSA|CNX|2026-11-20|2026-12-13": {
    "status": "timeout",
@@ -4108,35 +2854,10 @@
    "at": "2026-11-02",
    "n": 7
   },
-  "rt|TSA|CNX|2027-02-10|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
   "rt|TSA|CNX|2027-02-10|2027-09-19": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 4
-  },
-  "rt|TSA|CNX|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|TSA|DAD|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "rt|TSA|DAD|2027-06-09|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "rt|TSA|DAD|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
   },
   "rt|TSA|DMK|2026-11-06|2026-11-08": {
    "status": "timeout",
@@ -4148,90 +2869,25 @@
    "at": "2026-11-02",
    "n": 11
   },
-  "rt|TSA|DMK|2026-11-20|2026-11-22": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
   "rt|TSA|DMK|2026-12-24|2027-05-02": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 6
-  },
-  "rt|TSA|DMK|2027-02-10|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "rt|TSA|DMK|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
   },
   "rt|TSA|DMK|2027-04-29|2027-09-19": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 6
   },
-  "rt|TSA|DMK|2027-06-09|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
   "rt|TSA|DMK|2027-06-09|2027-09-19": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 8
   },
-  "rt|TSA|DMK|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|TSA|FUK|2027-02-10|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "rt|TSA|FUK|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "rt|TSA|GMP|2027-02-10|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|TSA|HKT|2026-11-06|2026-11-08": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|TSA|HKT|2026-11-06|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|TSA|HKT|2026-11-20|2026-11-22": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
   "rt|TSA|HKT|2026-11-20|2026-12-27": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 3
-  },
-  "rt|TSA|HKT|2027-02-10|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "rt|TSA|HKT|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 5
   },
   "rt|TSA|ICN|2026-11-06|2027-05-02": {
    "status": "timeout",
@@ -4253,85 +2909,10 @@
    "at": "2026-11-02",
    "n": 1
   },
-  "rt|TSA|ISG|2027-04-29|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "rt|TSA|ISG|2027-06-09|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|TSA|ITM|2027-02-10|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|TSA|ITM|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "rt|TSA|KIX|2026-11-06|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|TSA|KIX|2026-12-11|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|TSA|KIX|2027-02-10|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "rt|TSA|MFM|2027-02-10|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 5
-  },
-  "rt|TSA|MFM|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
   "rt|TSA|MFM|2027-06-09|2027-06-13": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 7
-  },
-  "rt|TSA|MFM|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|TSA|MMY|2026-11-20|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "rt|TSA|MMY|2027-02-10|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "rt|TSA|MMY|2027-06-09|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|TSA|NGO|2026-11-06|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|TSA|NGO|2026-11-20|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
   },
   "rt|TSA|NRT|2026-11-20|2027-06-13": {
    "status": "parse_error",
@@ -4363,90 +2944,10 @@
    "at": "2026-11-02",
    "n": 5
   },
-  "rt|TSA|NRT|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|TSA|NRT|2027-06-09|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|TSA|NRT|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "rt|TSA|OKA|2026-11-06|2026-12-27": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "rt|TSA|OKA|2026-11-20|2026-12-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "rt|TSA|OKA|2026-12-11|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 5
-  },
-  "rt|TSA|OKA|2027-02-10|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|TSA|PEN|2027-02-10|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|TSA|PEN|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|TSA|PQC|2026-11-06|2026-11-08": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|TSA|PQC|2026-11-20|2026-11-22": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|TSA|PQC|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|TSA|PQC|2027-06-09|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "rt|TSA|PQC|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
   "rt|TSA|PUS|2026-11-06|2026-11-08": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 4
-  },
-  "rt|TSA|PUS|2026-11-06|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|TSA|PUS|2026-11-06|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
   },
   "rt|TSA|PUS|2026-12-11|2026-12-27": {
    "status": "timeout",
@@ -4463,70 +2964,10 @@
    "at": "2026-11-02",
    "n": 16
   },
-  "rt|TSA|TAG|2026-11-20|2026-11-22": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|TSA|TAG|2027-02-10|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|TSA|TAG|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
   "rt|TSA|UEO|2026-11-06|2026-11-08": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 4
-  },
-  "rt|TSA|UEO|2026-11-20|2026-11-22": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "rt|TSA|UEO|2026-12-24|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 1
-  },
-  "rt|TSA|UEO|2027-02-10|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 5
-  },
-  "rt|TSA|UEO|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|TSA|UEO|2027-06-09|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|TSA|UEO|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|TSA|USM|2026-11-06|2026-11-08": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|TSA|USM|2026-11-06|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
-  "rt|TSA|USM|2026-11-20|2026-11-22": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
   },
   "rt|TSA|USM|2027-02-10|2027-02-14": {
    "status": "timeout",
@@ -4538,16 +2979,6 @@
    "at": "2026-11-02",
    "n": 21
   },
-  "rt|TSA|UTP|2026-11-06|2026-11-08": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
-  "rt|TSA|UTP|2026-11-20|2026-11-22": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
   "rt|TSA|UTP|2026-11-20|2027-06-13": {
    "status": "timeout",
    "at": "2026-11-02",
@@ -4558,35 +2989,15 @@
    "at": "2026-11-02",
    "n": 9
   },
-  "rt|TSA|UTP|2027-02-10|2027-02-14": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
   "rt|TSA|UTP|2027-02-10|2027-05-02": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 9
   },
-  "rt|TSA|UTP|2027-04-29|2027-05-02": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
-  },
   "rt|TSA|UTP|2027-04-29|2027-09-19": {
    "status": "timeout",
    "at": "2026-11-02",
    "n": 5
-  },
-  "rt|TSA|UTP|2027-06-09|2027-06-13": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "rt|TSA|UTP|2027-09-15|2027-09-19": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 3
   },
   "rt|UEO|RMQ|2026-12-13|2027-06-09": {
    "status": "timeout",
@@ -4658,16 +3069,6 @@
    "at": "2026-11-02",
    "n": 5
   },
-  "rt|USM|TPE|2027-02-14|2027-04-29": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 4
-  },
-  "rt|USM|TSA|2027-02-14|2027-06-09": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
-  },
   "rt|UTP|RMQ|2026-11-08|2026-12-24": {
    "status": "timeout",
    "at": "2026-11-02",
@@ -4682,11 +3083,6 @@
    "status": "timeout",
    "at": "2026-11-02",
    "n": 4
-  },
-  "rt|UTP|TPE|2026-11-08|2026-12-11": {
-   "status": "timeout",
-   "at": "2026-11-01",
-   "n": 2
   },
   "rt|UTP|TPE|2026-12-27|2027-06-09": {
    "status": "timeout",

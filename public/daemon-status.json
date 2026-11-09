@@ -1,18 +1,18 @@
 {
- "at": "2026-11-08T23:39:09+00:00",
+ "at": "2026-11-09T20:40:07+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 87,
+ "fares_saved": 61,
  "log": [
-  "23:37:35 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "23:37:39 http front door: ['https://guestbook-opera-degree-halifax.trycloudflare.com', 'https://aba1b10986ccdc.lhr.life']",
-  "23:37:39 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "23:38:44 request received: rid httptest1794181124 20 keys",
-  "23:38:44 handle httptest1794181124: first_chunk=True total=20",
-  "23:38:50 request httptest1794181124: chunk of 20 keys done in 6s; paths {'http': 19, 'browser': 1}, browser waits 1 max 5s sum 5s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 22, 'empty': 3}, audit 2/2 agree",
-  "23:38:52 request httptest1794181124: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "20:38:32 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "20:38:37 http front door: ['https://turning-circles-connected-restaurant.trycloudflare.com', 'https://41b91914f8dd95.lhr.life']",
+  "20:38:37 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "20:39:42 request received: rid httptest1794256781 20 keys",
+  "20:39:42 handle httptest1794256781: first_chunk=True total=20",
+  "20:39:43 request httptest1794256781: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "20:39:44 request httptest1794256781: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

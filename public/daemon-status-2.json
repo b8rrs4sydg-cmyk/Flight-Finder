@@ -1,19 +1,18 @@
 {
- "at": "2026-11-08T23:39:14+00:00",
+ "at": "2026-11-09T05:58:58+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 85,
+ "fares_saved": 43,
  "log": [
-  "23:37:35 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "23:37:40 git retry 0: b\"eads/main': is at 4d9b25b4dce411b02cbc41d4f5a39b13c5ca3a95 but expected b788605b65758eb9236e1db2aaf950ec092d655b)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "23:37:44 http front door: ['https://stephen-responses-communications-determines.trycloudflare.com', 'https://8fb922807a4a8e.lhr.life']",
-  "23:37:44 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "23:38:44 request received: rid httptest1794181124 20 keys",
-  "23:38:44 handle httptest1794181124: first_chunk=True total=20",
-  "23:38:46 request httptest1794181124: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "23:38:47 request httptest1794181124: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "05:57:22 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "05:57:28 http front door: ['https://opinions-commodity-floyd-effects.trycloudflare.com', 'https://bef3f8e57cc35c.lhr.life']",
+  "05:57:28 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "05:58:32 request received: rid httptest1794203911 20 keys",
+  "05:58:32 handle httptest1794203911: first_chunk=True total=20",
+  "05:58:33 request httptest1794203911: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "05:58:34 request httptest1794203911: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

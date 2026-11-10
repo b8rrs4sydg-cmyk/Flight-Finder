@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T07:02:27+00:00",
+ "at": "2026-11-10T17:40:31+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 41,
  "log": [
-  "07:00:52 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "07:00:57 http front door: ['https://messenger-titled-mediterranean-refined.trycloudflare.com', 'https://49f9466638c07d.lhr.life']",
-  "07:00:57 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "07:02:02 request received: rid httptest1794294121 20 keys",
-  "07:02:02 handle httptest1794294121: first_chunk=True total=20",
-  "07:02:03 request httptest1794294121: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "07:02:05 request httptest1794294121: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "17:38:54 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "17:39:01 http front door: ['https://vault-destiny-winds-thanks.trycloudflare.com', 'https://0cb33d3e2bbe6f.lhr.life']",
+  "17:39:01 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "17:40:04 request received: rid httptest1794332404 20 keys",
+  "17:40:04 handle httptest1794332404: first_chunk=True total=20",
+  "17:40:06 request httptest1794332404: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "17:40:07 request httptest1794332404: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

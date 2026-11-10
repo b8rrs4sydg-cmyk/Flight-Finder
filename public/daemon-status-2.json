@@ -1,19 +1,18 @@
 {
- "at": "2026-11-09T20:40:10+00:00",
+ "at": "2026-11-10T07:02:29+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 43,
+ "fares_saved": 41,
  "log": [
-  "20:38:29 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:38:34 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "20:38:40 http front door: ['https://kevin-christine-jazz-safely.trycloudflare.com', 'https://53f54b1c80a96f.lhr.life']",
-  "20:38:40 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:39:38 request received: rid httptest1794256778 20 keys",
-  "20:39:38 handle httptest1794256778: first_chunk=True total=20",
-  "20:39:40 request httptest1794256778: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "20:39:41 request httptest1794256778: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "07:00:53 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "07:00:59 http front door: ['https://sitemap-digital-accommodate-effects.trycloudflare.com', 'https://5de7f74cd72fbe.lhr.life']",
+  "07:00:59 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "07:02:02 request received: rid httptest1794294122 20 keys",
+  "07:02:02 handle httptest1794294122: first_chunk=True total=20",
+  "07:02:04 request httptest1794294122: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 23, 'empty': 3}, audit 0/0 agree",
+  "07:02:05 request httptest1794294122: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

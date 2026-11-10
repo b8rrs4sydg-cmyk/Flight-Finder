@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T07:02:33+00:00",
+ "at": "2026-11-10T17:40:32+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 41,
  "log": [
-  "07:00:57 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "07:01:03 http front door: ['https://aircraft-monitor-condos-permission.trycloudflare.com', 'https://e8eb196b998bd0.lhr.life']",
-  "07:01:03 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "07:02:06 request received: rid httptest1794294126 20 keys",
-  "07:02:06 handle httptest1794294126: first_chunk=True total=20",
-  "07:02:08 request httptest1794294126: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "07:02:09 request httptest1794294126: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "17:38:57 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "17:39:02 http front door: ['https://carbon-infrastructure-filled-boston.trycloudflare.com', 'https://66579f2be4cc19.lhr.life']",
+  "17:39:02 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "17:40:07 request received: rid httptest1794332406 20 keys",
+  "17:40:07 handle httptest1794332406: first_chunk=True total=20",
+  "17:40:08 request httptest1794332406: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "17:40:09 request httptest1794332406: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

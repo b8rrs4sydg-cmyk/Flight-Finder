@@ -1,18 +1,18 @@
 {
- "at": "2026-11-09T20:40:07+00:00",
+ "at": "2026-11-10T07:03:33+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 61,
+ "fares_saved": 41,
  "log": [
-  "20:38:32 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "20:38:37 http front door: ['https://turning-circles-connected-restaurant.trycloudflare.com', 'https://41b91914f8dd95.lhr.life']",
-  "20:38:37 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "20:39:42 request received: rid httptest1794256781 20 keys",
-  "20:39:42 handle httptest1794256781: first_chunk=True total=20",
-  "20:39:43 request httptest1794256781: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "20:39:44 request httptest1794256781: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "07:01:57 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "07:02:03 http front door: ['https://wow-davis-nikon-acids.trycloudflare.com', 'https://20a95c69e98d0e.lhr.life']",
+  "07:02:03 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "07:03:06 request received: rid httptest1794294186 20 keys",
+  "07:03:06 handle httptest1794294186: first_chunk=True total=20",
+  "07:03:08 request httptest1794294186: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "07:03:09 request httptest1794294186: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

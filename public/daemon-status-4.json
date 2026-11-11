@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T17:40:34+00:00",
+ "at": "2026-11-11T00:34:28+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,11 @@
  },
  "fares_saved": 41,
  "log": [
-  "17:38:59 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "17:39:04 http front door: ['https://his-own-buildings-steven.trycloudflare.com', 'https://e133fb74b77452.lhr.life']",
-  "17:39:04 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "17:40:08 request received: rid httptest1794332407 20 keys",
-  "17:40:08 handle httptest1794332407: first_chunk=True total=20",
-  "17:40:09 request httptest1794332407: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "17:40:11 request httptest1794332407: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:32:49 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:32:53 git retry 0: b\"eads/main': is at 6ecd088126bc06779c10ce730d7e6dfa4c882f9f but expected 884562d36e0018a2d5f4f920bfd04b6002654592)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "00:32:58 http front door: ['https://dark-parker-divided-retired.trycloudflare.com', 'https://49429d7e9ddedb.lhr.life']",
+  "00:32:58 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:33:58 request received: rid httptest1794357237 20 keys",
+  "00:33:58 handle httptest1794357237: first_chunk=True total=20"
  ]
 }

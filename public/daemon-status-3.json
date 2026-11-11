@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T12:37:28+00:00",
+ "at": "2026-11-11T21:52:26+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,13 +7,10 @@
  },
  "fares_saved": 41,
  "log": [
-  "12:35:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "12:35:52 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "12:35:58 http front door: ['https://amongst-infinite-dave-colleague.trycloudflare.com', 'https://ce37417ebf4325.lhr.life']",
-  "12:35:58 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "12:36:57 request received: rid httptest1794400617 20 keys",
-  "12:36:57 handle httptest1794400617: first_chunk=True total=20",
-  "12:36:59 request httptest1794400617: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 24, 'empty': 4}, audit 0/0 agree",
-  "12:37:01 request httptest1794400617: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "21:50:51 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "21:50:56 http front door: ['https://sheer-atlantic-mail-socks.trycloudflare.com', 'https://e8089ac7d9f25d.lhr.life']",
+  "21:50:56 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "21:51:58 request received: rid httptest1794433918 20 keys",
+  "21:51:58 handle httptest1794433918: first_chunk=True total=20"
  ]
 }

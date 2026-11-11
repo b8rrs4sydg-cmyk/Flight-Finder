@@ -1,21 +1,16 @@
 {
- "at": "2026-11-10T17:40:58+00:00",
+ "at": "2026-11-11T00:34:09+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 41,
+ "fares_saved": 40,
  "log": [
-  "17:39:02 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "17:39:06 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "17:39:12 git retry 1: b\"eads/main': is at 1ae6f7115b128f22f998e500b51f20d3ae972121 but expected 68254db60df41a02d814a62dfd0dab6d5c82e9cc)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "17:39:19 git retry 2: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "17:39:28 http front door: ['https://praise-bold-fastest-shipment.trycloudflare.com', 'https://6c4724477c8838.lhr.life']",
-  "17:39:28 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "17:40:11 request received: rid httptest1794332410 20 keys",
-  "17:40:11 handle httptest1794332410: first_chunk=True total=20",
-  "17:40:12 request httptest1794332410: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "17:40:14 request httptest1794332410: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:32:34 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:32:39 http front door: ['https://consolidation-checks-neil-shopper.trycloudflare.com', 'https://558b6d06647d0a.lhr.life']",
+  "00:32:39 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:33:44 request received: rid httptest1794357223 20 keys",
+  "00:33:44 handle httptest1794357223: first_chunk=True total=20"
  ]
 }

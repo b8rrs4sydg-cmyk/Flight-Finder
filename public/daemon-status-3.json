@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T21:52:26+00:00",
+ "at": "2026-11-11T21:53:58+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -11,6 +11,8 @@
   "21:50:56 http front door: ['https://sheer-atlantic-mail-socks.trycloudflare.com', 'https://e8089ac7d9f25d.lhr.life']",
   "21:50:56 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "21:51:58 request received: rid httptest1794433918 20 keys",
-  "21:51:58 handle httptest1794433918: first_chunk=True total=20"
+  "21:51:58 handle httptest1794433918: first_chunk=True total=20",
+  "21:52:43 request httptest1794433918: chunk of 20 keys done in 45s; paths {'http': 16, 'browser': 4}, browser waits 4 max 44s sum 58s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 16, 'miss': 4, 'blocked': 0, 'tries': 29, 'empty': 13}, audit 2/2 agree",
+  "21:52:45 request httptest1794433918: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

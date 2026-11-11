@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-11T00:34:14+00:00",
+ "generated_at": "2026-11-11T00:35:46+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -854,19 +854,19 @@
   },
   "ow|TPE|HKG|2027-03-21": {
    "price": 2050,
-   "first": {
-    "dep": "2027-03-21T14:50:00+08:00",
-    "arr": "2027-03-21T16:55:00+08:00",
-    "stops": 0,
-    "airline": "Hong Kong Express"
-   },
    "by_airline": {
     "Hong Kong Express": 2050,
     "Greater Bay Airlines": 3895,
     "STARLUX Airlines": 5074,
     "China Airlines": 5253
    },
-   "at": "2026-11-10",
+   "first": {
+    "dep": "2027-03-21T14:50:00+08:00",
+    "arr": "2027-03-21T16:55:00+08:00",
+    "stops": 0,
+    "airline": "Hong Kong Express"
+   },
+   "at": "2026-11-11",
    "hist": [
     [
      "2026-11-05",
@@ -891,10 +891,14 @@
     [
      "2026-11-10",
      2050
+    ],
+    [
+     "2026-11-11",
+     2050
     ]
    ],
    "prev": 2050,
-   "prev_at": "2026-11-09"
+   "prev_at": "2026-11-10"
   },
   "ow|TPE|HKG|2027-03-22": {
    "price": 2050,
@@ -2033,5 +2037,12 @@
   "ow|UTP|TSA|2027-09-20",
   "ow|XMN|TSA|2027-06-13"
  ],
- "missing_v": 2
+ "missing_v": 2,
+ "status": {
+  "ow|TPE|ICN|2027-03-27": {
+   "status": "parse_error",
+   "at": "2026-11-11",
+   "n": 1
+  }
+ }
 }

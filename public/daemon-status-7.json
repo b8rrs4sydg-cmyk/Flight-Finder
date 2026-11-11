@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T00:34:14+00:00",
+ "at": "2026-11-11T00:35:46+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -12,6 +12,8 @@
   "00:32:44 http front door: ['https://progressive-prix-trembl-arising.trycloudflare.com', 'https://23c5d2c8a00a8c.lhr.life']",
   "00:32:44 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "00:33:44 request received: rid httptest1794357223 20 keys",
-  "00:33:44 handle httptest1794357223: first_chunk=True total=20"
+  "00:33:44 handle httptest1794357223: first_chunk=True total=20",
+  "00:34:47 request httptest1794357223: chunk of 20 keys done in 63s; paths {'http': 14, 'browser': 5, 'browser-crashed': 1}, browser waits 6 max 62s sum 125s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 14, 'miss': 6, 'blocked': 0, 'tries': 32, 'empty': 18}, audit 2/2 agree",
+  "00:34:49 request httptest1794357223: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

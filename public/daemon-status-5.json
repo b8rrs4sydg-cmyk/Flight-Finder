@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T21:52:13+00:00",
+ "at": "2026-11-11T21:53:45+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -11,6 +11,8 @@
   "21:50:43 http front door: ['https://sierra-jesus-somehow-bubble.trycloudflare.com', 'https://ddda6094a05434.lhr.life']",
   "21:50:43 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "21:51:47 request received: rid httptest1794433907 20 keys",
-  "21:51:47 handle httptest1794433907: first_chunk=True total=20"
+  "21:51:47 handle httptest1794433907: first_chunk=True total=20",
+  "21:52:49 request httptest1794433907: chunk of 20 keys done in 62s; paths {'http': 14, 'browser': 5, 'browser-crashed': 1}, browser waits 6 max 61s sum 128s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 14, 'miss': 6, 'blocked': 0, 'tries': 29, 'empty': 15}, audit 2/2 agree",
+  "21:52:50 request httptest1794433907: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

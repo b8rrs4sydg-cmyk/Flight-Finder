@@ -1,18 +1,17 @@
 {
- "at": "2026-11-10T17:40:36+00:00",
+ "at": "2026-11-11T00:34:14+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 41,
+ "fares_saved": 40,
  "log": [
-  "17:39:00 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "17:39:06 http front door: ['https://blend-suitable-regarding-rack.trycloudflare.com', 'https://3a83ab275cf06a.lhr.life']",
-  "17:39:06 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "17:40:10 request received: rid httptest1794332409 20 keys",
-  "17:40:10 handle httptest1794332409: first_chunk=True total=20",
-  "17:40:11 request httptest1794332409: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "17:40:12 request httptest1794332409: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:32:34 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:32:39 git retry 0: b\"eads/main': is at cfa59b7233acf3acc2de11af55e2b00f83b5f877 but expected 7b28f423da486be2f8d69ae4e9f6f4d141e12ce1)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "00:32:44 http front door: ['https://progressive-prix-trembl-arising.trycloudflare.com', 'https://23c5d2c8a00a8c.lhr.life']",
+  "00:32:44 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:33:44 request received: rid httptest1794357223 20 keys",
+  "00:33:44 handle httptest1794357223: first_chunk=True total=20"
  ]
 }

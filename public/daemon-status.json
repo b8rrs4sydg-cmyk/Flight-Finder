@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T21:52:09+00:00",
+ "at": "2026-11-11T21:53:41+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -11,6 +11,8 @@
   "21:50:39 http front door: ['https://threshold-armor-coordination-verbal.trycloudflare.com', 'https://9643dcc72544ef.lhr.life']",
   "21:50:39 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "21:51:44 request received: rid httptest1794433903 20 keys",
-  "21:51:44 handle httptest1794433903: first_chunk=True total=20"
+  "21:51:44 handle httptest1794433903: first_chunk=True total=20",
+  "21:52:33 request httptest1794433903: chunk of 20 keys done in 49s; paths {'http': 13, 'browser': 7}, browser waits 7 max 48s sum 125s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 13, 'miss': 7, 'blocked': 0, 'tries': 31, 'empty': 18}, audit 2/2 agree",
+  "21:52:34 request httptest1794433903: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

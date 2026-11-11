@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-11T21:52:09+00:00",
+ "generated_at": "2026-11-11T21:53:41+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -1608,17 +1608,17 @@
   },
   "ow|TPE|ICN|2027-03-25": {
    "price": 3232,
+   "by_airline": {
+    "Scoot": 3232,
+    "Tigerair Taiwan": 4099,
+    "Jeju Air": 5126,
+    "Korean Air": 6463
+   },
    "first": {
     "dep": "2027-03-25T18:10:00+08:00",
     "arr": "2027-03-25T21:40:00+09:00",
     "stops": 0,
     "airline": "Scoot"
-   },
-   "by_airline": {
-    "Scoot": 3232,
-    "Tigerair Taiwan": 4099,
-    "Jeju Air": 5120,
-    "Jin Air": 6381
    },
    "at": "2026-11-11",
    "hist": [
@@ -1640,17 +1640,17 @@
   },
   "ow|TPE|ICN|2027-03-26": {
    "price": 3988,
+   "by_airline": {
+    "Scoot": 3988,
+    "Tigerair Taiwan": 4099,
+    "Jeju Air": 5126,
+    "Korean Air": 6463
+   },
    "first": {
     "dep": "2027-03-26T18:10:00+08:00",
     "arr": "2027-03-26T21:40:00+09:00",
     "stops": 0,
     "airline": "Scoot"
-   },
-   "by_airline": {
-    "Scoot": 3988,
-    "Tigerair Taiwan": 4099,
-    "Jeju Air": 5120,
-    "Korean Air": 6458
    },
    "at": "2026-11-11",
    "hist": [

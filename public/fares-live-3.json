@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-11T00:35:40+00:00",
+ "generated_at": "2026-11-11T12:37:28+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -496,17 +496,17 @@
   },
   "ow|TPE|BKK|2027-03-26": {
    "price": 5875,
-   "by_airline": {
-    "THAI": 5875,
-    "STARLUX Airlines": 6103,
-    "China Airlines": 6103,
-    "EVA Air": 6405
-   },
    "first": {
     "dep": "2027-03-26T13:55:00+08:00",
     "arr": "2027-03-26T16:50:00+07:00",
     "stops": 0,
     "airline": "THAI"
+   },
+   "by_airline": {
+    "THAI": 5875,
+    "STARLUX Airlines": 6103,
+    "China Airlines": 6103,
+    "EVA Air": 6405
    },
    "at": "2026-11-11",
    "hist": [
@@ -1082,17 +1082,17 @@
   },
   "ow|TPE|HKG|2027-03-27": {
    "price": 2133,
-   "by_airline": {
-    "Hong Kong Express": 2133,
-    "Greater Bay Airlines": 3895,
-    "STARLUX Airlines": 5074,
-    "China Airlines": 5253
-   },
    "first": {
     "dep": "2027-03-27T13:55:00+08:00",
     "arr": "2027-03-27T16:00:00+08:00",
     "stops": 0,
     "airline": "Hong Kong Express"
+   },
+   "by_airline": {
+    "Hong Kong Express": 2133,
+    "Greater Bay Airlines": 3895,
+    "STARLUX Airlines": 5074,
+    "China Airlines": 5253
    },
    "at": "2026-11-11",
    "hist": [
@@ -1584,7 +1584,7 @@
     "Jin Air": 5881,
     "Korean Air": 6458
    },
-   "at": "2026-11-10",
+   "at": "2026-11-11",
    "hist": [
     [
      "2026-11-08",
@@ -1597,10 +1597,14 @@
     [
      "2026-11-10",
      3232
+    ],
+    [
+     "2026-11-11",
+     3232
     ]
    ],
    "prev": 3232,
-   "prev_at": "2026-11-09"
+   "prev_at": "2026-11-10"
   },
   "ow|TPE|ICN|2027-03-25": {
    "price": 3232,
@@ -1664,17 +1668,17 @@
   },
   "ow|TPE|ICN|2027-03-27": {
    "price": 3232,
-   "by_airline": {
-    "Scoot": 3232,
-    "Hong Kong Express": 5013,
-    "Jeju Air": 5120,
-    "Korean Air": 6458
-   },
    "first": {
     "dep": "2027-03-27T18:10:00+08:00",
     "arr": "2027-03-27T21:40:00+09:00",
     "stops": 0,
     "airline": "Scoot"
+   },
+   "by_airline": {
+    "Scoot": 3232,
+    "Hong Kong Express": 5013,
+    "Jeju Air": 5120,
+    "Korean Air": 6458
    },
    "at": "2026-11-11",
    "hist": [

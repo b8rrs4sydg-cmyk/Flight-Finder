@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-11T00:34:24+00:00",
+ "generated_at": "2026-11-11T00:36:00+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -946,19 +946,19 @@
   },
   "ow|TPE|HKG|2027-03-23": {
    "price": 2050,
-   "first": {
-    "dep": "2027-03-23T13:55:00+08:00",
-    "arr": "2027-03-23T16:00:00+08:00",
-    "stops": 0,
-    "airline": "Hong Kong Express"
-   },
    "by_airline": {
     "Hong Kong Express": 2050,
     "Greater Bay Airlines": 3895,
     "STARLUX Airlines": 5074,
     "China Airlines": 5253
    },
-   "at": "2026-11-10",
+   "first": {
+    "dep": "2027-03-23T13:55:00+08:00",
+    "arr": "2027-03-23T16:00:00+08:00",
+    "stops": 0,
+    "airline": "Hong Kong Express"
+   },
+   "at": "2026-11-11",
    "hist": [
     [
      "2026-11-07",
@@ -975,10 +975,14 @@
     [
      "2026-11-10",
      2050
+    ],
+    [
+     "2026-11-11",
+     2050
     ]
    ],
    "prev": 2050,
-   "prev_at": "2026-11-09"
+   "prev_at": "2026-11-10"
   },
   "ow|TPE|HKG|2027-03-24": {
    "price": 2050,

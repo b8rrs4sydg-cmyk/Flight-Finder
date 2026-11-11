@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T17:40:31+00:00",
+ "at": "2026-11-11T00:34:23+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,10 @@
  },
  "fares_saved": 41,
  "log": [
-  "17:38:54 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "17:39:01 http front door: ['https://vault-destiny-winds-thanks.trycloudflare.com', 'https://0cb33d3e2bbe6f.lhr.life']",
-  "17:39:01 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "17:40:04 request received: rid httptest1794332404 20 keys",
-  "17:40:04 handle httptest1794332404: first_chunk=True total=20",
-  "17:40:06 request httptest1794332404: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "17:40:07 request httptest1794332404: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:32:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:32:53 http front door: ['https://walker-seeds-columbus-spelling.trycloudflare.com', 'https://d1d857554c96b7.lhr.life']",
+  "00:32:53 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:33:55 request received: rid httptest1794357235 20 keys",
+  "00:33:55 handle httptest1794357235: first_chunk=True total=20"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T12:37:32+00:00",
+ "at": "2026-11-11T21:52:13+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,13 +7,10 @@
  },
  "fares_saved": 41,
  "log": [
-  "12:35:54 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "12:35:59 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "12:36:02 http front door: ['https://analysis-floating-particularly-intellectual.trycloudflare.com', 'https://04e9986210e6e3.lhr.life']",
-  "12:36:02 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "12:37:03 request received: rid httptest1794400623 20 keys",
-  "12:37:03 handle httptest1794400623: first_chunk=True total=20",
-  "12:37:05 request httptest1794400623: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 23, 'empty': 3}, audit 0/0 agree",
-  "12:37:06 request httptest1794400623: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "21:50:37 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "21:50:43 http front door: ['https://sierra-jesus-somehow-bubble.trycloudflare.com', 'https://ddda6094a05434.lhr.life']",
+  "21:50:43 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "21:51:47 request received: rid httptest1794433907 20 keys",
+  "21:51:47 handle httptest1794433907: first_chunk=True total=20"
  ]
 }

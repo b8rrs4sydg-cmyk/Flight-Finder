@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T12:37:35+00:00",
+ "at": "2026-11-11T21:52:09+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,14 +7,10 @@
  },
  "fares_saved": 41,
  "log": [
-  "12:35:50 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "12:35:55 git retry 0: b\"eads/main': is at 115048f38704c3c4b1904c478c3925fbd9fc4d08 but expected bfe4d70b1b8a46a7ede5533df11c5593e076e111)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "12:35:58 git retry 1: b\"eads/main': is at 87ffef745fbc3ae92e3a9fcb73b22b6fe10c2695 but expected 8f2c8ecf2bf5cb2446ae307582363fcfa3d442ef)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "12:36:05 http front door: ['https://watts-lucy-cheque-pattern.trycloudflare.com', 'https://9b9446fc741625.lhr.life']",
-  "12:36:05 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "12:36:59 request received: rid httptest1794400619 20 keys",
-  "12:36:59 handle httptest1794400619: first_chunk=True total=20",
-  "12:37:01 request httptest1794400619: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 24, 'empty': 4}, audit 0/0 agree",
-  "12:37:02 request httptest1794400619: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "21:50:34 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "21:50:39 http front door: ['https://threshold-armor-coordination-verbal.trycloudflare.com', 'https://9643dcc72544ef.lhr.life']",
+  "21:50:39 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "21:51:44 request received: rid httptest1794433903 20 keys",
+  "21:51:44 handle httptest1794433903: first_chunk=True total=20"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T00:34:23+00:00",
+ "at": "2026-11-11T00:35:55+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -11,6 +11,8 @@
   "00:32:53 http front door: ['https://walker-seeds-columbus-spelling.trycloudflare.com', 'https://d1d857554c96b7.lhr.life']",
   "00:32:53 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "00:33:55 request received: rid httptest1794357235 20 keys",
-  "00:33:55 handle httptest1794357235: first_chunk=True total=20"
+  "00:33:55 handle httptest1794357235: first_chunk=True total=20",
+  "00:34:40 request httptest1794357235: chunk of 20 keys done in 45s; paths {'http': 11, 'browser': 9}, browser waits 9 max 44s sum 126s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 11, 'miss': 9, 'blocked': 0, 'tries': 33, 'empty': 22}, audit 0/0 agree",
+  "00:34:42 request httptest1794357235: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

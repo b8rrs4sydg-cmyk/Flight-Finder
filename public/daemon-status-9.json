@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T17:40:42+00:00",
+ "at": "2026-11-11T00:34:22+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,10 @@
  },
  "fares_saved": 41,
  "log": [
-  "17:39:06 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "17:39:12 http front door: ['https://realtor-result-song-suffered.trycloudflare.com', 'https://298f5f82bcbc0d.lhr.life']",
-  "17:39:12 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "17:40:16 request received: rid httptest1794332415 20 keys",
-  "17:40:16 handle httptest1794332415: first_chunk=True total=20",
-  "17:40:17 request httptest1794332415: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "17:40:18 request httptest1794332415: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:32:46 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:32:52 http front door: ['https://specializing-projector-helicopter-usual.trycloudflare.com', 'https://d560d68a79fce3.lhr.life']",
+  "00:32:52 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:33:56 request received: rid httptest1794357236 20 keys",
+  "00:33:56 handle httptest1794357236: first_chunk=True total=20"
  ]
 }

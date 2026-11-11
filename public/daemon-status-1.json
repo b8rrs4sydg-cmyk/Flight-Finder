@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T21:52:07+00:00",
+ "at": "2026-11-11T21:53:39+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -11,6 +11,8 @@
   "21:50:37 http front door: ['https://room-tray-cutting-arabic.trycloudflare.com', 'https://40e30b27676f80.lhr.life']",
   "21:50:37 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "21:51:40 request received: rid httptest1794433899 20 keys",
-  "21:51:40 handle httptest1794433899: first_chunk=True total=20"
+  "21:51:40 handle httptest1794433899: first_chunk=True total=20",
+  "21:52:41 request httptest1794433899: chunk of 20 keys done in 61s; paths {'http': 13, 'browser': 6, 'browser-crashed': 1}, browser waits 7 max 61s sum 130s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 13, 'miss': 7, 'blocked': 0, 'tries': 32, 'empty': 19}, audit 2/2 agree",
+  "21:52:42 request httptest1794433899: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

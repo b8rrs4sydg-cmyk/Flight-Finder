@@ -1,16 +1,18 @@
 {
- "at": "2026-11-11T00:34:19+00:00",
+ "at": "2026-11-11T00:35:51+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 40,
+ "fares_saved": 41,
  "log": [
   "00:32:44 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "00:32:49 http front door: ['https://importantly-adventure-entities-dot.trycloudflare.com', 'https://6966c5d062ecda.lhr.life']",
   "00:32:49 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "00:33:53 request received: rid httptest1794357232 20 keys",
-  "00:33:53 handle httptest1794357232: first_chunk=True total=20"
+  "00:33:53 handle httptest1794357232: first_chunk=True total=20",
+  "00:34:39 request httptest1794357232: chunk of 20 keys done in 46s; paths {'http': 16, 'browser': 4}, browser waits 4 max 44s sum 61s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 16, 'miss': 4, 'blocked': 0, 'tries': 32, 'empty': 16}, audit 2/2 agree",
+  "00:34:40 request httptest1794357232: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

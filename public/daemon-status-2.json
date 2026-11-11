@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T12:37:22+00:00",
+ "at": "2026-11-11T21:52:47+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 41,
  "log": [
-  "12:35:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "12:35:52 http front door: ['https://rotation-preparation-picking-equity.trycloudflare.com', 'https://221348875c7bf1.lhr.life']",
-  "12:35:52 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "12:36:57 request received: rid httptest1794400617 20 keys",
-  "12:36:57 handle httptest1794400617: first_chunk=True total=20",
-  "12:37:06 request httptest1794400617: chunk of 20 keys done in 8s; paths {'http': 16, 'browser': 4}, browser waits 4 max 7s sum 26s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 16, 'miss': 4, 'blocked': 0, 'tries': 29, 'empty': 13}, audit 2/2 agree",
-  "12:37:06 request httptest1794400617: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "21:51:11 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "21:51:17 http front door: ['https://heel-gym-transcription-phrases.trycloudflare.com', 'https://9668eb0dc41178.lhr.life']",
+  "21:51:17 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "21:52:16 request received: rid httptest1794433936 20 keys",
+  "21:52:16 handle httptest1794433936: first_chunk=True total=20",
+  "21:52:22 request httptest1794433936: chunk of 20 keys done in 6s; paths {'http': 16, 'browser': 4}, browser waits 4 max 5s sum 20s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 16, 'miss': 4, 'blocked': 0, 'tries': 29, 'empty': 13}, audit 0/0 agree",
+  "21:52:23 request httptest1794433936: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

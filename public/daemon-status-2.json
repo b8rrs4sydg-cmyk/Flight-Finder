@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T00:34:46+00:00",
+ "at": "2026-11-11T12:37:22+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 41,
  "log": [
-  "00:33:12 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:33:16 http front door: ['https://dem-narrow-denver-preferences.trycloudflare.com', 'https://114760d559b0fb.lhr.life']",
-  "00:33:16 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "00:34:18 request received: rid httptest1794357257 20 keys",
-  "00:34:18 handle httptest1794357257: first_chunk=True total=20",
-  "00:34:26 request httptest1794357257: chunk of 20 keys done in 8s; paths {'http': 14, 'browser': 6}, browser waits 6 max 7s sum 38s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 14, 'miss': 6, 'blocked': 0, 'tries': 30, 'empty': 16}, audit 2/2 agree",
-  "00:34:27 request httptest1794357257: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "12:35:48 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "12:35:52 http front door: ['https://rotation-preparation-picking-equity.trycloudflare.com', 'https://221348875c7bf1.lhr.life']",
+  "12:35:52 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "12:36:57 request received: rid httptest1794400617 20 keys",
+  "12:36:57 handle httptest1794400617: first_chunk=True total=20",
+  "12:37:06 request httptest1794400617: chunk of 20 keys done in 8s; paths {'http': 16, 'browser': 4}, browser waits 4 max 7s sum 26s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 16, 'miss': 4, 'blocked': 0, 'tries': 29, 'empty': 13}, audit 2/2 agree",
+  "12:37:06 request httptest1794400617: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

@@ -1,16 +1,18 @@
 {
- "at": "2026-11-11T00:34:09+00:00",
+ "at": "2026-11-11T00:35:40+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 40,
+ "fares_saved": 41,
  "log": [
   "00:32:34 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "00:32:39 http front door: ['https://consolidation-checks-neil-shopper.trycloudflare.com', 'https://558b6d06647d0a.lhr.life']",
   "00:32:39 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "00:33:44 request received: rid httptest1794357223 20 keys",
-  "00:33:44 handle httptest1794357223: first_chunk=True total=20"
+  "00:33:44 handle httptest1794357223: first_chunk=True total=20",
+  "00:34:45 request httptest1794357223: chunk of 20 keys done in 61s; paths {'http': 16, 'browser': 3, 'browser-crashed': 1}, browser waits 4 max 61s sum 110s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 16, 'miss': 4, 'blocked': 0, 'tries': 30, 'empty': 14}, audit 1/1 agree",
+  "00:34:46 request httptest1794357223: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

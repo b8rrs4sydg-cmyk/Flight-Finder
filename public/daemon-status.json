@@ -1,20 +1,16 @@
 {
- "at": "2026-11-10T17:40:53+00:00",
+ "at": "2026-11-11T00:34:19+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 41,
+ "fares_saved": 40,
  "log": [
-  "17:39:08 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "17:39:13 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "17:39:15 git retry 1: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "17:39:23 http front door: ['https://horn-rank-devoted-ear.trycloudflare.com', 'https://862f7eae3036b2.lhr.life']",
-  "17:39:23 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "17:40:16 request received: rid httptest1794332416 20 keys",
-  "17:40:16 handle httptest1794332416: first_chunk=True total=20",
-  "17:40:18 request httptest1794332416: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "17:40:19 request httptest1794332416: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:32:44 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:32:49 http front door: ['https://importantly-adventure-entities-dot.trycloudflare.com', 'https://6966c5d062ecda.lhr.life']",
+  "00:32:49 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "00:33:53 request received: rid httptest1794357232 20 keys",
+  "00:33:53 handle httptest1794357232: first_chunk=True total=20"
  ]
 }

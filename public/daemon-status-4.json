@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T00:34:28+00:00",
+ "at": "2026-11-11T00:36:07+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -12,6 +12,9 @@
   "00:32:58 http front door: ['https://dark-parker-divided-retired.trycloudflare.com', 'https://49429d7e9ddedb.lhr.life']",
   "00:32:58 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "00:33:58 request received: rid httptest1794357237 20 keys",
-  "00:33:58 handle httptest1794357237: first_chunk=True total=20"
+  "00:33:58 handle httptest1794357237: first_chunk=True total=20",
+  "00:34:30 git retry 0: b\"eads/main': is at 00605c49e94d15b2bce2a679a0499d923256663d but expected 6a7c1bf163d94519446fca3510fd2af3b2f8afcb)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "00:35:01 request httptest1794357237: chunk of 20 keys done in 63s; paths {'http': 15, 'browser': 4, 'browser-crashed': 1}, browser waits 5 max 62s sum 83s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 15, 'miss': 5, 'blocked': 0, 'tries': 33, 'empty': 18}, audit 0/0 agree",
+  "00:35:03 request httptest1794357237: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

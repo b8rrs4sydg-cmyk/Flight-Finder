@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T12:37:31+00:00",
+ "at": "2026-11-11T21:52:23+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,13 +7,12 @@
  },
  "fares_saved": 41,
  "log": [
-  "12:35:51 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "12:35:55 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "12:36:01 http front door: ['https://selection-reactions-glucose-charging.trycloudflare.com', 'https://d4a78eea9d18f3.lhr.life']",
-  "12:36:01 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "12:36:59 request received: rid httptest1794400619 20 keys",
-  "12:36:59 handle httptest1794400619: first_chunk=True total=20",
-  "12:37:04 request httptest1794400619: chunk of 20 keys done in 5s; paths {'http': 18, 'browser': 2}, browser waits 2 max 5s sum 9s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 18, 'miss': 2, 'blocked': 0, 'tries': 28, 'empty': 10}, audit 0/0 agree",
-  "12:37:05 request httptest1794400619: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "21:50:47 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "21:50:53 http front door: ['https://crowd-istanbul-sake-resort.trycloudflare.com', 'https://e093921b52d142.lhr.life']",
+  "21:50:53 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "21:51:55 request received: rid httptest1794433915 20 keys",
+  "21:51:55 handle httptest1794433915: first_chunk=True total=20",
+  "21:52:03 request httptest1794433915: chunk of 20 keys done in 7s; paths {'http': 14, 'browser': 6}, browser waits 6 max 6s sum 31s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 14, 'miss': 6, 'blocked': 0, 'tries': 31, 'empty': 17}, audit 1/1 agree",
+  "21:52:03 request httptest1794433915: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

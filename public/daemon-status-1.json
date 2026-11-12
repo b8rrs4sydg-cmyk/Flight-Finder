@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T21:53:39+00:00",
+ "at": "2026-11-12T06:59:30+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 41,
  "log": [
-  "21:50:30 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "21:50:37 http front door: ['https://room-tray-cutting-arabic.trycloudflare.com', 'https://40e30b27676f80.lhr.life']",
-  "21:50:37 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "21:51:40 request received: rid httptest1794433899 20 keys",
-  "21:51:40 handle httptest1794433899: first_chunk=True total=20",
-  "21:52:41 request httptest1794433899: chunk of 20 keys done in 61s; paths {'http': 13, 'browser': 6, 'browser-crashed': 1}, browser waits 7 max 61s sum 130s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 13, 'miss': 7, 'blocked': 0, 'tries': 32, 'empty': 19}, audit 2/2 agree",
-  "21:52:42 request httptest1794433899: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "06:57:54 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "06:58:00 http front door: ['https://fees-build-innovations-crafts.trycloudflare.com', 'https://d1de7ba16791a1.lhr.life']",
+  "06:58:00 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "06:59:03 request received: rid httptest1794466743 20 keys",
+  "06:59:03 handle httptest1794466743: first_chunk=True total=20",
+  "06:59:05 request httptest1794466743: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "06:59:06 request httptest1794466743: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

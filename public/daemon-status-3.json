@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T21:53:58+00:00",
+ "at": "2026-11-12T06:59:19+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 41,
  "log": [
-  "21:50:51 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "21:50:56 http front door: ['https://sheer-atlantic-mail-socks.trycloudflare.com', 'https://e8089ac7d9f25d.lhr.life']",
-  "21:50:56 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "21:51:58 request received: rid httptest1794433918 20 keys",
-  "21:51:58 handle httptest1794433918: first_chunk=True total=20",
-  "21:52:43 request httptest1794433918: chunk of 20 keys done in 45s; paths {'http': 16, 'browser': 4}, browser waits 4 max 44s sum 58s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 16, 'miss': 4, 'blocked': 0, 'tries': 29, 'empty': 13}, audit 2/2 agree",
-  "21:52:45 request httptest1794433918: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "06:57:43 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "06:57:49 http front door: ['https://hudson-fitness-arrival-sbjct.trycloudflare.com', 'https://d36566895111f3.lhr.life']",
+  "06:57:49 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "06:58:52 request received: rid httptest1794466732 20 keys",
+  "06:58:52 handle httptest1794466732: first_chunk=True total=20",
+  "06:58:54 request httptest1794466732: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "06:58:55 request httptest1794466732: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

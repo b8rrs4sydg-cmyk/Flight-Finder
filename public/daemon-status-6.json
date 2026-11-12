@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T06:59:11+00:00",
+ "at": "2026-11-12T18:08:52+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 41,
  "log": [
-  "06:57:35 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "06:57:41 http front door: ['https://helmet-tissue-cars-institutional.trycloudflare.com', 'https://569a1d3f24fa19.lhr.life']",
-  "06:57:41 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "06:58:45 request received: rid httptest1794466724 20 keys",
-  "06:58:45 handle httptest1794466724: first_chunk=True total=20",
-  "06:58:46 request httptest1794466724: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
-  "06:58:47 request httptest1794466724: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "18:07:16 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "18:07:22 http front door: ['https://markets-plant-sub-valuation.trycloudflare.com', 'https://e83faa99c491d3.lhr.life']",
+  "18:07:22 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "18:08:24 request received: rid httptest1794506904 20 keys",
+  "18:08:24 handle httptest1794506904: first_chunk=True total=20",
+  "18:08:31 request httptest1794506904: chunk of 20 keys done in 6s; paths {'http': 19, 'browser': 1}, browser waits 1 max 5s sum 5s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 24, 'empty': 5}, audit 0/0 agree",
+  "18:08:32 request httptest1794506904: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

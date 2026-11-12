@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T21:52:47+00:00",
+ "at": "2026-11-12T06:59:09+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,12 @@
  },
  "fares_saved": 41,
  "log": [
-  "21:51:11 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "21:51:17 http front door: ['https://heel-gym-transcription-phrases.trycloudflare.com', 'https://9668eb0dc41178.lhr.life']",
-  "21:51:17 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "21:52:16 request received: rid httptest1794433936 20 keys",
-  "21:52:16 handle httptest1794433936: first_chunk=True total=20",
-  "21:52:22 request httptest1794433936: chunk of 20 keys done in 6s; paths {'http': 16, 'browser': 4}, browser waits 4 max 5s sum 20s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 16, 'miss': 4, 'blocked': 0, 'tries': 29, 'empty': 13}, audit 0/0 agree",
-  "21:52:23 request httptest1794433936: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "06:57:32 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "06:57:39 http front door: ['https://officials-glen-grande-lauderdale.trycloudflare.com', 'https://8f4bd4d2dac50a.lhr.life']",
+  "06:57:39 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "06:58:41 request received: rid httptest1794466721 20 keys",
+  "06:58:41 handle httptest1794466721: first_chunk=True total=20",
+  "06:58:43 request httptest1794466721: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
+  "06:58:43 request httptest1794466721: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

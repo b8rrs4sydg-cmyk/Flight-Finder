@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T06:59:19+00:00",
+ "at": "2026-11-12T18:08:56+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,14 @@
  },
  "fares_saved": 41,
  "log": [
-  "06:57:43 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "06:57:49 http front door: ['https://hudson-fitness-arrival-sbjct.trycloudflare.com', 'https://d36566895111f3.lhr.life']",
-  "06:57:49 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "06:58:52 request received: rid httptest1794466732 20 keys",
-  "06:58:52 handle httptest1794466732: first_chunk=True total=20",
-  "06:58:54 request httptest1794466732: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 20, 'empty': 0}, audit 0/0 agree",
-  "06:58:55 request httptest1794466732: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "18:07:09 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "18:07:14 git retry 0: b\"eads/main': is at 4d774e12c6f56f64c4a1df2161026e4b13fc95c5 but expected 55242ff31d1cb985432d9ca0d3359a4570061e39)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "18:07:18 git retry 1: b\"eads/main': is at 90ff2a72b7a938b072c6ea4952219dcc47e3d6cb but expected 9de246585d446c7d741713682cdf2ace8e40164c)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "18:07:26 http front door: ['https://nursing-arm-committees-incoming.trycloudflare.com', 'https://bac2ee392ff129.lhr.life']",
+  "18:07:26 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "18:08:15 request received: rid httptest1794506894 20 keys",
+  "18:08:15 handle httptest1794506894: first_chunk=True total=20",
+  "18:08:17 request httptest1794506894: chunk of 20 keys done in 2s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 23, 'empty': 3}, audit 0/0 agree",
+  "18:08:18 request httptest1794506894: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

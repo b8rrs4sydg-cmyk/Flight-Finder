@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T01:01:32+00:00",
+ "at": "2026-11-13T13:01:26+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,14 +7,16 @@
  },
  "fares_saved": 41,
  "log": [
-  "00:59:46 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:59:50 git retry 0: b\"eads/main': is at 9e92414f27102615a017df35c76a74b45556df9c but expected 69fe8928a1e062aa895d37381c4d4b012320faed)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "00:59:56 git retry 1: b\"eads/main': is at a50ae103fb8ab81d8a74683c88c309a640c14df5 but expected 0b29656dbde9adf045de9ccdf1d785d09c7e4c60)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "01:00:02 http front door: ['https://meetings-but-replacement-attachment.trycloudflare.com', 'https://97c8d629a30636.lhr.life']",
-  "01:00:02 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "01:00:55 request received: rid httptest1794531655 20 keys",
-  "01:00:55 handle httptest1794531655: first_chunk=True total=20",
-  "01:01:06 request httptest1794531655: chunk of 20 keys done in 11s; paths {'http': 11, 'browser': 9}, browser waits 9 max 10s sum 71s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 11, 'miss': 9, 'blocked': 0, 'tries': 32, 'empty': 21}, audit 0/0 agree",
-  "01:01:07 request httptest1794531655: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "12:58:30 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "12:59:30 ssh tunnel did not come up in 60 s",
+  "12:59:33 git retry 0: b\"eads/main': is at 68e51268c82912658a428ecb7ac4c3a613272b15 but expected c94dc45b91671d31b96806fe3cbf4c529f01b652)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "12:59:37 git retry 1: b\"eads/main': is at e54d04d7f93f0e8998f1e0c1e9625a8e4e91bc67 but expected 720110bdc397269c9013d9abf46522a9e6aa3ae0)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "12:59:46 git retry 2: b\"eads/main': is at 909cef0deeae76d9b9ceaea7e056ddc4219f6cc2 but expected 1dbbbc9cb3b35fc174fae8318a457f17fa5d4af1)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "12:59:56 http front door: ['https://candle-sheep-detailed-motorola.trycloudflare.com']",
+  "12:59:56 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "12:59:56 request received: rid httptest1794574778 20 keys",
+  "12:59:56 handle httptest1794574778: first_chunk=True total=20",
+  "13:00:01 request httptest1794574778: chunk of 20 keys done in 5s; paths {'http': 18, 'browser': 2}, browser waits 2 max 4s sum 7s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 18, 'miss': 2, 'blocked': 0, 'tries': 30, 'empty': 12}, audit 1/1 agree",
+  "13:00:02 request httptest1794574778: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

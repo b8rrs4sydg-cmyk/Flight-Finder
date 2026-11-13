@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T01:02:57+00:00",
+ "at": "2026-11-13T13:01:02+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,14 @@
  },
  "fares_saved": 41,
  "log": [
-  "00:59:50 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:59:56 http front door: ['https://looked-sandra-leaving-podcast.trycloudflare.com', 'https://10956a09aec138.lhr.life']",
-  "00:59:56 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "01:01:00 request received: rid httptest1794531659 20 keys",
-  "01:01:00 handle httptest1794531659: first_chunk=True total=20",
-  "01:02:03 request httptest1794531659: chunk of 20 keys done in 64s; paths {'http': 16, 'browser': 3, 'browser-crashed': 1}, browser waits 4 max 62s sum 118s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 16, 'miss': 4, 'blocked': 0, 'tries': 31, 'empty': 15}, audit 2/2 agree",
-  "01:02:05 request httptest1794531659: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "12:58:23 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "12:59:23 ssh tunnel did not come up in 60 s",
+  "12:59:25 git retry 0: b\"eads/main': is at 9e00bf4316b8c38cee4b5254b589b00c0dcce828 but expected 312ca13d392213163ee1a41dbeb1f66f44be4960)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "12:59:32 http front door: ['https://bride-shots-enables-aurora.trycloudflare.com']",
+  "12:59:32 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "12:59:32 request received: rid httptest1794574771 20 keys",
+  "12:59:32 handle httptest1794574771: first_chunk=True total=20",
+  "12:59:33 request httptest1794574771: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "12:59:34 request httptest1794574771: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

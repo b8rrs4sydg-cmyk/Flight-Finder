@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T13:00:52+00:00",
+ "at": "2026-11-13T21:25:19+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,13 +7,13 @@
  },
  "fares_saved": 41,
  "log": [
-  "12:58:19 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "12:59:19 ssh tunnel did not come up in 60 s",
-  "12:59:22 http front door: ['https://fool-checking-maritime-simpson.trycloudflare.com']",
-  "12:59:22 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "12:59:28 request received: rid httptest1794574768 20 keys",
-  "12:59:28 handle httptest1794574768: first_chunk=True total=20",
-  "12:59:32 request httptest1794574768: chunk of 20 keys done in 4s; paths {'http': 19, 'browser': 1}, browser waits 1 max 3s sum 3s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 19, 'miss': 1, 'blocked': 0, 'tries': 25, 'empty': 6}, audit 0/0 agree",
-  "12:59:32 request httptest1794574768: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "21:22:47 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "21:23:47 ssh tunnel did not come up in 60 s",
+  "21:23:49 http front door: ['https://electrical-billing-seas-analyze.trycloudflare.com']",
+  "21:23:49 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "21:23:53 request received: rid httptest1794605033 20 keys",
+  "21:23:53 handle httptest1794605033: first_chunk=True total=20",
+  "21:25:06 request httptest1794605033: chunk of 20 keys done in 73s; paths {'browser': 18, 'browser-crashed': 2}, browser waits 20 max 72s sum 313s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 0, 'miss': 20, 'blocked': 0, 'tries': 40, 'empty': 40}, audit 0/0 agree",
+  "21:25:08 request httptest1794605033: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

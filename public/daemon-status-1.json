@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T01:02:52+00:00",
+ "at": "2026-11-13T13:01:04+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,12 +7,15 @@
  },
  "fares_saved": 41,
  "log": [
-  "00:59:45 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "00:59:50 http front door: ['https://paste-pack-coordinate-speaking.trycloudflare.com', 'https://f915bb1b435ed1.lhr.life']",
-  "00:59:50 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "01:00:54 request received: rid httptest1794531654 20 keys",
-  "01:00:54 handle httptest1794531654: first_chunk=True total=20",
-  "01:01:39 request httptest1794531654: chunk of 20 keys done in 45s; paths {'http': 18, 'browser': 2}, browser waits 2 max 43s sum 47s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 18, 'miss': 2, 'blocked': 0, 'tries': 25, 'empty': 7}, audit 1/1 agree",
-  "01:01:41 request httptest1794531654: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "12:58:20 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "12:59:20 ssh tunnel did not come up in 60 s",
+  "12:59:22 git retry 0: b\"eads/main': is at 312ca13d392213163ee1a41dbeb1f66f44be4960 but expected fa03a896f449d1e62056e85afc44a2206c468f09)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "12:59:27 git retry 1: b\"eads/main': is at c94dc45b91671d31b96806fe3cbf4c529f01b652 but expected 9e00bf4316b8c38cee4b5254b589b00c0dcce828)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "12:59:34 http front door: ['https://page-notebooks-drum-fotos.trycloudflare.com']",
+  "12:59:34 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "12:59:34 request received: rid httptest1794574769 20 keys",
+  "12:59:34 handle httptest1794574769: first_chunk=True total=20",
+  "13:00:38 request httptest1794574769: chunk of 20 keys done in 64s; paths {'http': 15, 'browser': 3, 'browser-crashed': 2}, browser waits 5 max 63s sum 144s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 15, 'miss': 5, 'blocked': 0, 'tries': 30, 'empty': 15}, audit 1/1 agree",
+  "13:00:39 request httptest1794574769: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

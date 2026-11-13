@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-13T01:01:51+00:00",
+ "generated_at": "2026-11-13T01:03:24+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -1998,5 +1998,12 @@
   "ow|UTP|TSA|2027-12-26",
   "ow|XMN|TPE|2027-12-27"
  ],
- "missing_v": 2
+ "missing_v": 2,
+ "status": {
+  "ow|TPE|HKG|2027-03-29": {
+   "status": "parse_error",
+   "at": "2026-11-13",
+   "n": 1
+  }
+ }
 }

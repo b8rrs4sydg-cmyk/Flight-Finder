@@ -1,16 +1,18 @@
 {
- "at": "2026-11-13T01:01:18+00:00",
+ "at": "2026-11-13T01:02:50+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 40,
+ "fares_saved": 41,
  "log": [
   "00:59:43 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
   "00:59:48 http front door: ['https://family-basics-valley-narrow.trycloudflare.com', 'https://a4afca4e2b3494.lhr.life']",
   "00:59:48 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "01:00:53 request received: rid httptest1794531652 20 keys",
-  "01:00:53 handle httptest1794531652: first_chunk=True total=20"
+  "01:00:53 handle httptest1794531652: first_chunk=True total=20",
+  "01:01:55 request httptest1794531652: chunk of 20 keys done in 62s; paths {'http': 13, 'browser': 6, 'browser-crashed': 1}, browser waits 7 max 61s sum 182s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 13, 'miss': 7, 'blocked': 0, 'tries': 30, 'empty': 17}, audit 2/2 agree",
+  "01:01:55 request httptest1794531652: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

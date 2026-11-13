@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T01:01:25+00:00",
+ "at": "2026-11-13T01:02:56+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -12,6 +12,8 @@
   "00:59:55 http front door: ['https://termination-compete-tool-sense.trycloudflare.com', 'https://c6fffda027c6ab.lhr.life']",
   "00:59:55 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "01:00:53 request received: rid httptest1794531653 20 keys",
-  "01:00:53 handle httptest1794531653: first_chunk=True total=20"
+  "01:00:53 handle httptest1794531653: first_chunk=True total=20",
+  "01:01:55 request httptest1794531653: chunk of 20 keys done in 62s; paths {'http': 16, 'browser': 3, 'browser-crashed': 1}, browser waits 4 max 61s sum 74s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 16, 'miss': 4, 'blocked': 0, 'tries': 28, 'empty': 12}, audit 1/1 agree",
+  "01:01:55 request httptest1794531653: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

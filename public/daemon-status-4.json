@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T13:01:17+00:00",
+ "at": "2026-11-13T21:24:56+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,14 +7,14 @@
  },
  "fares_saved": 41,
  "log": [
-  "12:58:41 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "12:59:41 ssh tunnel did not come up in 60 s",
-  "12:59:42 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "12:59:47 http front door: ['https://ontario-pretty-companies-tower.trycloudflare.com']",
-  "12:59:47 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "12:59:48 request received: rid httptest1794574787 20 keys",
-  "12:59:48 handle httptest1794574787: first_chunk=True total=20",
-  "13:00:03 request httptest1794574787: chunk of 20 keys done in 16s; paths {'browser': 20}, browser waits 20 max 15s sum 191s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 0, 'miss': 20, 'blocked': 0, 'tries': 40, 'empty': 40}, audit 0/0 agree",
-  "13:00:04 request httptest1794574787: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "21:22:21 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "21:23:22 ssh tunnel did not come up in 60 s",
+  "21:23:22 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "21:23:26 http front door: ['https://house-ultimately-assuming-ohio.trycloudflare.com']",
+  "21:23:26 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "21:23:31 request received: rid httptest1794605010 20 keys",
+  "21:23:31 handle httptest1794605010: first_chunk=True total=20",
+  "21:24:34 request httptest1794605010: chunk of 20 keys done in 63s; paths {'http': 15, 'browser': 4, 'browser-crashed': 1}, browser waits 5 max 62s sum 129s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 15, 'miss': 5, 'blocked': 0, 'tries': 28, 'empty': 13}, audit 2/2 agree",
+  "21:24:35 request httptest1794605010: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

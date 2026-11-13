@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T01:01:30+00:00",
+ "at": "2026-11-13T01:03:02+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -12,6 +12,8 @@
   "01:00:00 http front door: ['https://possibility-inches-redeem-verification.trycloudflare.com', 'https://654537ae0ff8c7.lhr.life']",
   "01:00:00 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "01:00:57 request received: rid httptest1794531656 20 keys",
-  "01:00:57 handle httptest1794531656: first_chunk=True total=20"
+  "01:00:57 handle httptest1794531656: first_chunk=True total=20",
+  "01:02:00 request httptest1794531656: chunk of 20 keys done in 63s; paths {'http': 14, 'browser': 4, 'browser-crashed': 2}, browser waits 6 max 62s sum 144s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 14, 'miss': 6, 'blocked': 0, 'tries': 32, 'empty': 18}, audit 1/1 agree",
+  "01:02:01 request httptest1794531656: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

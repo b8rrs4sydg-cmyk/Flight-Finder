@@ -1,18 +1,16 @@
 {
- "at": "2026-11-12T18:08:46+00:00",
+ "at": "2026-11-13T01:01:18+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
   "fail": 0
  },
- "fares_saved": 41,
+ "fares_saved": 40,
  "log": [
-  "18:07:12 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "18:07:16 http front door: ['https://trunk-alien-cattle-send.trycloudflare.com', 'https://1b8899aa24c33c.lhr.life']",
-  "18:07:16 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "18:08:21 request received: rid httptest1794506901 20 keys",
-  "18:08:21 handle httptest1794506901: first_chunk=True total=20",
-  "18:08:29 request httptest1794506901: chunk of 20 keys done in 7s; paths {'http': 15, 'browser': 5}, browser waits 5 max 7s sum 29s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 15, 'miss': 5, 'blocked': 0, 'tries': 26, 'empty': 11}, audit 1/1 agree",
-  "18:08:31 request httptest1794506901: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "00:59:43 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "00:59:48 http front door: ['https://family-basics-valley-narrow.trycloudflare.com', 'https://a4afca4e2b3494.lhr.life']",
+  "00:59:48 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "01:00:53 request received: rid httptest1794531652 20 keys",
+  "01:00:53 handle httptest1794531652: first_chunk=True total=20"
  ]
 }

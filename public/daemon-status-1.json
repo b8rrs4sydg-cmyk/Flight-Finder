@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T01:01:20+00:00",
+ "at": "2026-11-13T01:02:52+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -11,6 +11,8 @@
   "00:59:50 http front door: ['https://paste-pack-coordinate-speaking.trycloudflare.com', 'https://f915bb1b435ed1.lhr.life']",
   "00:59:50 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
   "01:00:54 request received: rid httptest1794531654 20 keys",
-  "01:00:54 handle httptest1794531654: first_chunk=True total=20"
+  "01:00:54 handle httptest1794531654: first_chunk=True total=20",
+  "01:01:39 request httptest1794531654: chunk of 20 keys done in 45s; paths {'http': 18, 'browser': 2}, browser waits 2 max 43s sum 47s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 18, 'miss': 2, 'blocked': 0, 'tries': 25, 'empty': 7}, audit 1/1 agree",
+  "01:01:41 request httptest1794531654: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

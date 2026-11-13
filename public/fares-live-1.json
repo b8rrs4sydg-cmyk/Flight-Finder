@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "source": "google_flights",
- "generated_at": "2026-11-13T01:01:20+00:00",
+ "generated_at": "2026-11-13T01:02:52+00:00",
  "currency": "TWD",
  "adults": 1,
  "coverage": {},
@@ -1639,9 +1639,9 @@
    "prev_at": "2026-11-12"
   },
   "ow|TPE|ICN|2027-03-28": {
-   "price": 3950,
+   "price": 4399,
    "by_airline": {
-    "Scoot": 3950,
+    "Scoot": 4399,
     "Tigerair Taiwan": 4799,
     "Shandong": 5312,
     "China Airlines": 6838
@@ -1652,13 +1652,19 @@
     "stops": 0,
     "airline": "Scoot"
    },
-   "at": "2026-11-12",
+   "at": "2026-11-13",
    "hist": [
     [
      "2026-11-12",
      3950
+    ],
+    [
+     "2026-11-13",
+     4399
     ]
-   ]
+   ],
+   "prev": 3950,
+   "prev_at": "2026-11-12"
   },
   "ow|TPE|ICN|2027-03-29": {
    "price": 3988,

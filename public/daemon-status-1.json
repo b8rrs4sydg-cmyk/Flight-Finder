@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T21:24:58+00:00",
+ "at": "2026-11-14T06:04:48+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,14 +7,13 @@
  },
  "fares_saved": 41,
  "log": [
-  "21:22:20 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "21:23:21 ssh tunnel did not come up in 60 s",
-  "21:23:22 git retry 0: b\"eads/main': is at 3aca6f01f1142ca787d4f07fa0e3d02a9c472041 but expected e050b75cd6346cd858bd5db724f54e759c7eef35)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
-  "21:23:28 http front door: ['https://newest-regardless-municipality-urls.trycloudflare.com']",
-  "21:23:28 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "21:23:30 request received: rid httptest1794605009 20 keys",
-  "21:23:30 handle httptest1794605009: first_chunk=True total=20",
-  "21:24:33 request httptest1794605009: chunk of 20 keys done in 63s; paths {'http': 14, 'browser': 5, 'browser-crashed': 1}, browser waits 6 max 62s sum 128s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 14, 'miss': 6, 'blocked': 0, 'tries': 29, 'empty': 15}, audit 1/1 agree",
-  "21:24:34 request httptest1794605009: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "06:02:16 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "06:03:16 ssh tunnel did not come up in 60 s",
+  "06:03:18 http front door: ['https://lawrence-prot-advantages-smile.trycloudflare.com']",
+  "06:03:18 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "06:03:25 request received: rid httptest1794636205 20 keys",
+  "06:03:25 handle httptest1794636205: first_chunk=True total=20",
+  "06:03:27 request httptest1794636205: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 21, 'empty': 1}, audit 0/0 agree",
+  "06:03:29 request httptest1794636205: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }

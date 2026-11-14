@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T21:24:56+00:00",
+ "at": "2026-11-14T06:05:20+00:00",
  "publishes": {
   "ok": 0,
   "r429": 0,
@@ -7,14 +7,17 @@
  },
  "fares_saved": 41,
  "log": [
-  "21:22:21 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
-  "21:23:22 ssh tunnel did not come up in 60 s",
-  "21:23:22 git retry 0: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
-  "21:23:26 http front door: ['https://house-ultimately-assuming-ohio.trycloudflare.com']",
-  "21:23:26 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
-  "21:23:31 request received: rid httptest1794605010 20 keys",
-  "21:23:31 handle httptest1794605010: first_chunk=True total=20",
-  "21:24:34 request httptest1794605010: chunk of 20 keys done in 63s; paths {'http': 15, 'browser': 4, 'browser-crashed': 1}, browser waits 5 max 62s sum 129s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 15, 'miss': 5, 'blocked': 0, 'tries': 28, 'empty': 13}, audit 2/2 agree",
-  "21:24:35 request httptest1794605010: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
+  "06:02:15 peer-to-peer front door: signalling on sff-q-1dbc38bf5255bfa8b886187c-sig",
+  "06:03:16 ssh tunnel did not come up in 60 s",
+  "06:03:19 git retry 0: b\"eads/main': is at 5860934cbc8c182694c9e1cb7db379641871d418 but expected 223f325d37d94af05b60ce5e896c33929f254e22)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "06:03:24 git retry 1: b\"eads/main': is at 244ccc2b78a6e49ea19e76534ae404cc43b79b86 but expected 9883e17f1638ebb0021cd5fdeedeb2ca274125db)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "06:03:31 git retry 2: b\"itory pushing to\\nhint: the same ref. If you want to integrate the remote changes, use\\nhint: 'git pull' before pushing again.\\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\\n\"",
+  "06:03:39 git retry 3: b\"eads/main': is at f11465580a0554c67ebd9623dda398b90f73775e but expected 5a8bb7bc4f67d2d583b649319a6e8b13cefe0aaa)\\nerror: failed to push some refs to 'https://github.com/b8rrs4sydg-cmyk/Flight-Finder'\\n\"",
+  "06:03:50 http front door: ['https://price-statistical-roommates-scope.trycloudflare.com']",
+  "06:03:50 daemon up: req=sff-q-1dbc38bf5255bfa8b886187c res=sff-r-dbe95166c8687164a93fc60e for 20400s",
+  "06:03:50 request received: rid httptest1794636204 20 keys",
+  "06:03:50 handle httptest1794636204: first_chunk=True total=20",
+  "06:03:51 request httptest1794636204: chunk of 20 keys done in 1s; paths {'http': 20}, browser waits 0 max 0s sum 0s; ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}; plain HTTP {'hit': 20, 'miss': 0, 'blocked': 0, 'tries': 22, 'empty': 2}, audit 0/0 agree",
+  "06:03:52 request httptest1794636204: final sent (20/20); ntfy publishes {'ok': 0, 'r429': 0, 'fail': 0}"
  ]
 }
